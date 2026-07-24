@@ -2,25 +2,11 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://raw.githubusercontent.com/silasary/apworlds/refs/heads/main/recent.atom</id>
   <title>Recent APWorlds</title>
-  <updated>2026-07-24T08:17:29.501586+00:00</updated>
+  <updated>2026-07-24T13:28:50.008045+00:00</updated>
   <author>
     <name>Silasary</name>
   </author>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
-  <entry>
-    <id>https://github.com/nielrenned/PokemonSnap_Archipelago/releases/tag/v0.1.0</id>
-    <title>pokemon_snap v0.1.0</title>
-    <updated>2026-07-21T02:24:48+00:00</updated>
-    <author>
-      <name>nielrenned</name>
-    </author>
-    <content>## What's Changed&#13;
-* Add "Wonderful!" and "Same Pokemon" checks&#13;
-* Split Bulbasaur, Pikachu, Magikarp, and Zubat into multiple checks, one for each course they're in&#13;
-&#13;
-**Full Changelog**: https://github.com/nielrenned/PokemonSnap_Archipelago/compare/v0.0.1...v0.1.0</content>
-    <link href="https://github.com/nielrenned/PokemonSnap_Archipelago/releases/tag/v0.1.0"/>
-  </entry>
   <entry>
     <id>https://github.com/nielrenned/PokemonSnap_Archipelago/releases/tag/v0.1.1</id>
     <title>pokemon_snap v0.1.1</title>
@@ -1116,6 +1102,18 @@ new stuff (since 0.5.4):&#13;
     <link href="https://github.com/GreenPower713/Archipelago/releases/tag/v0.3.0a"/>
   </entry>
   <entry>
+    <id>https://github.com/GreenPower713/Archipelago/releases/tag/v0.3.0b</id>
+    <title>Keep Talking and Nobody Explodes v0.3.0b0</title>
+    <updated>2026-07-23T07:03:32+00:00</updated>
+    <author>
+      <name>GreenPower713</name>
+    </author>
+    <content>Changelog:&#13;
+&#13;
+- Fix a bug where a misplaced parenthesis would create an error</content>
+    <link href="https://github.com/GreenPower713/Archipelago/releases/tag/v0.3.0b"/>
+  </entry>
+  <entry>
     <id>https://github.com/dowlle/ctr-native-ap/releases/tag/v0.1.4</id>
     <title>Crash Team Racing v0.1.4</title>
     <updated>2026-07-23T08:53:44+00:00</updated>
@@ -1415,7 +1413,7 @@ Three new YAML toggles that keep progression items out of the hardest end-game c
   </entry>
   <entry>
     <id>https://github.com/DeadEyeDv/Brutal-Orchestra-Archipelago/releases/tag/v2.0</id>
-    <title>Brutal Orchestra v1.0.0r2</title>
+    <title>Brutal Orchestra v1.0.0r2r2</title>
     <updated>2026-07-24T07:03:13+00:00</updated>
     <author>
       <name>DeadEye</name>
