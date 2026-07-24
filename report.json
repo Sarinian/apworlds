@@ -1,7 +1,7 @@
 {
   "total_repositories": 755,
-  "total_packages": 879,
-  "total_versions": 9597,
+  "total_packages": 877,
+  "total_versions": 9572,
   "manifest_ready": {
     "2048": true,
     "a1800": true,
@@ -103,7 +103,6 @@
     "conbunn_cardboard": true,
     "content_warning": true,
     "cookieclicker": false,
-    "cornkidz64": true,
     "corruobserver": true,
     "cotnd": true,
     "cowtastic_cafe": false,
@@ -702,7 +701,6 @@
     "spyro3": true,
     "spyro3gba": false,
     "spyro_dotd": true,
-    "srb2": false,
     "ss": true,
     "ss2": true,
     "ssbb_sse": true,
@@ -844,7 +842,7 @@
     "zuma_deluxe": true
   },
   "max_minimum_ap_version": {
-    "": 426,
+    "": 425,
     "0.4.0": 2,
     "0.5.0": 16,
     "0.5.1": 3,
@@ -855,17 +853,17 @@
     "0.6.4": 73,
     "0.6.5": 35,
     "0.6.6": 39,
-    "0.6.7": 134,
+    "0.6.7": 133,
     "0.6.8": 1,
     "0.6.9": 1,
     "0.7.0": 1
   },
   "max_maximum_ap_version": {
-    "": 499,
+    "": 498,
     "0.0.1": 1,
     "0.4.6": 5,
     "0.6.6": 1,
     "0.6.7": 1,
-    "0.6.99": 321
+    "0.6.99": 320
   }
 }
