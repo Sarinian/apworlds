@@ -25450,22 +25450,6 @@
       }
     },
     {
-      "world": "https://github.com/4rtefakt/ys-origin-archipelago/releases/download/v2.0.0-beta.4/ys_origin.apworld",
-      "size": 75792,
-      "hash_sha256": "8ce18fc27376c57a9594a3d9bcbabd16313bf20141932b414e0ba6e8b5227286",
-      "metadata": {
-        "game": "",
-        "id": "ys_origin",
-        "world_version": "1.9.2.post3",
-        "tag_version": "1.9.2r3",
-        "created_at": "2026-08-02T20:45:58Z",
-        "minimum_ap_version": "0.6.7",
-        "flags": [
-          "prerelease"
-        ]
-      }
-    },
-    {
       "world": "https://github.com/4rtefakt/ys-origin-archipelago/releases/download/v2.0.0-beta.1/ys_origin.apworld",
       "size": 74517,
       "hash_sha256": "2b24bb359450ae8ff102b998149e8ad0c195d591e9d526dd3ed74097ae5489ca",
@@ -25491,6 +25475,22 @@
         "world_version": "1.9.2.post2",
         "tag_version": "1.9.2r2",
         "created_at": "2026-08-02T14:51:13Z",
+        "minimum_ap_version": "0.6.7",
+        "flags": [
+          "prerelease"
+        ]
+      }
+    },
+    {
+      "world": "https://github.com/4rtefakt/ys-origin-archipelago/releases/download/v2.0.0-beta.4/ys_origin.apworld",
+      "size": 75792,
+      "hash_sha256": "8ce18fc27376c57a9594a3d9bcbabd16313bf20141932b414e0ba6e8b5227286",
+      "metadata": {
+        "game": "",
+        "id": "ys_origin",
+        "world_version": "1.9.2.post2",
+        "tag_version": "1.9.2r2",
+        "created_at": "2026-08-02T20:45:58Z",
         "minimum_ap_version": "0.6.7",
         "flags": [
           "prerelease"
@@ -39787,6 +39787,19 @@
         "flags": [
           "unready"
         ]
+      }
+    },
+    {
+      "world": "https://github.com/T4g1/ArchipelagoTomba/releases/download/v0.2.4-beta/tomba.apworld",
+      "size": 79165,
+      "hash_sha256": "304a395d61123b0c5ba73045e6d5ae68ed9c9a34cc62a8018d5eae338276f1e1",
+      "metadata": {
+        "game": "",
+        "id": "tomba",
+        "world_version": "0.2.4b0",
+        "tag_version": "0.2.4b0",
+        "created_at": "2026-08-12T08:05:03Z",
+        "minimum_ap_version": "0.6.7"
       }
     },
     {
@@ -82148,6 +82161,19 @@
       }
     },
     {
+      "world": "https://github.com/solida1987/Diablo-II-Archipelago/releases/download/v3.7.2/diablo2_archipelago.apworld",
+      "size": 80238,
+      "hash_sha256": "a88f3c17318ebd6433d1e3a80510fc8684740ca983f336d5f28dea461dc85856",
+      "metadata": {
+        "game": "",
+        "id": "diablo2_archipelago",
+        "world_version": "3.7.2",
+        "tag_version": "3.7.2",
+        "created_at": "2026-08-11T22:07:29Z",
+        "minimum_ap_version": "0.5.0"
+      }
+    },
+    {
       "world": "https://github.com/solida1987/Diablo-II-Archipelago/releases/download/v3.7.1/diablo2_archipelago.apworld",
       "size": 80238,
       "hash_sha256": "69755d7d40bbdc2cf948bb9f3751dc82bcb46fd7a1fc4a99c0fd55677d0ca0b7",
@@ -106828,6 +106854,19 @@
       }
     },
     {
+      "world": "https://github.com/Ragmoa/Archipelago/releases/download/0.5.1/okamihd.apworld",
+      "size": 88019,
+      "hash_sha256": "14e82c41deba428ea4f2785a41603e20a743ff1ceedb21fb524fcfc271136f21",
+      "metadata": {
+        "game": "",
+        "id": "okamihd",
+        "world_version": "0.5.1",
+        "tag_version": "0.5.1",
+        "created_at": "2026-08-12T12:33:25Z",
+        "minimum_ap_version": "0.6.7"
+      }
+    },
+    {
       "world": "https://github.com/Ragmoa/Archipelago/releases/download/0.5.0/okamihd.apworld",
       "size": 102441,
       "hash_sha256": "c2277a639f27ea8c8eb64698a515b048b297202f37c167e6584ffc0931fdaa68",
@@ -110760,6 +110799,22 @@
       }
     },
     {
+      "world": "https://github.com/randomcodegen/ironwail_ap/releases/download/1.1.7/quake.apworld",
+      "size": 500292,
+      "hash_sha256": "9a1404c30f934abb903391be20381218e71f2cd1f87ea2226d247460199ba34e",
+      "metadata": {
+        "game": "",
+        "id": "quake",
+        "world_version": "1.1.7",
+        "tag_version": "1.1.7",
+        "created_at": "2026-08-12T10:32:32Z",
+        "maximum_ap_version": "0.6.99",
+        "flags": [
+          "after_dark"
+        ]
+      }
+    },
+    {
       "world": "https://github.com/randomcodegen/ironwail_ap/releases/download/1.1.6/quake.apworld",
       "size": 500292,
       "hash_sha256": "9a1404c30f934abb903391be20381218e71f2cd1f87ea2226d247460199ba34e",
@@ -112669,6 +112724,22 @@
         "tag_version": "0.2",
         "created_at": "2024-02-29T08:22:09Z",
         "maximum_ap_version": "0.6.99"
+      }
+    },
+    {
+      "world": "https://github.com/AdalynBlack/SuperMarioOdysseyArchipelago/releases/download/v1.7.5/smo.apworld",
+      "size": 68548,
+      "hash_sha256": "19c6d4faf9f15df9d3b3652704c1c18fc9db0ff5c6faa96c71e7aedc7bb6bcaf",
+      "metadata": {
+        "game": "",
+        "id": "smo",
+        "world_version": "1.7.5",
+        "tag_version": "1.7.5",
+        "created_at": "2026-08-12T07:12:07Z",
+        "maximum_ap_version": "0.6.99",
+        "flags": [
+          "unready"
+        ]
       }
     },
     {
@@ -118981,6 +119052,22 @@
     },
     {
       "world": "https://github.com/LonLon-Labs/SSHD_APWorld/releases/download/Continuous/sshd.apworld",
+      "size": 19394100,
+      "hash_sha256": "244c817d7a8c28a68799a99149bc93f8f029df55e8bf06bc77b4c8953c88fc64",
+      "metadata": {
+        "game": "",
+        "id": "sshd",
+        "world_version": "0.7.4.post5",
+        "tag_version": "0.7.4r5",
+        "created_at": "2026-02-02T23:38:33Z",
+        "flags": [
+          "unready",
+          "prerelease"
+        ]
+      }
+    },
+    {
+      "world": "https://github.com/LonLon-Labs/SSHD_APWorld/releases/download/Continuous/sshd.apworld",
       "size": 18515658,
       "hash_sha256": "f3e15382e0d33003f2df0ead06f05d76959f4b606529ea1a9f60e8f871bea93c",
       "metadata": {
@@ -118997,8 +119084,8 @@
     },
     {
       "world": "https://github.com/LonLon-Labs/SSHD_APWorld/releases/download/Continuous/sshd.apworld",
-      "size": 19393282,
-      "hash_sha256": "19eacaad21206489d18a56f72ff8a337ba0dcedf16fe0f22f293f403e4b633d8",
+      "size": 19391404,
+      "hash_sha256": "1402d09733e00001431313a995a530aa1a1b5c29952bb8836a8ec7709ee50770",
       "metadata": {
         "game": "",
         "id": "sshd",
@@ -119029,8 +119116,8 @@
     },
     {
       "world": "https://github.com/LonLon-Labs/SSHD_APWorld/releases/download/Continuous/sshd.apworld",
-      "size": 19381429,
-      "hash_sha256": "37d8bf630124b53c0ed18167df74b0a8892bb5d7e4464deca31a2af8aba019df",
+      "size": 18490214,
+      "hash_sha256": "bd253d1cae779fc06718ffe302888e2dc0796794eb09bafa83b5cf5b3bad93ec",
       "metadata": {
         "game": "",
         "id": "sshd",
@@ -119236,8 +119323,8 @@
     },
     {
       "world": "https://github.com/LonLon-Labs/SSHD_APWorld/releases/download/Continuous/sshd.apworld",
-      "size": 18490214,
-      "hash_sha256": "bd253d1cae779fc06718ffe302888e2dc0796794eb09bafa83b5cf5b3bad93ec",
+      "size": 19381429,
+      "hash_sha256": "37d8bf630124b53c0ed18167df74b0a8892bb5d7e4464deca31a2af8aba019df",
       "metadata": {
         "game": "",
         "id": "sshd",
@@ -119252,24 +119339,8 @@
     },
     {
       "world": "https://github.com/LonLon-Labs/SSHD_APWorld/releases/download/Continuous/sshd.apworld",
-      "size": 19391404,
-      "hash_sha256": "1402d09733e00001431313a995a530aa1a1b5c29952bb8836a8ec7709ee50770",
-      "metadata": {
-        "game": "",
-        "id": "sshd",
-        "world_version": "0.7.4.post2",
-        "tag_version": "0.7.4r2",
-        "created_at": "2026-02-02T23:38:33Z",
-        "flags": [
-          "unready",
-          "prerelease"
-        ]
-      }
-    },
-    {
-      "world": "https://github.com/LonLon-Labs/SSHD_APWorld/releases/download/Continuous/sshd.apworld",
-      "size": 19394100,
-      "hash_sha256": "244c817d7a8c28a68799a99149bc93f8f029df55e8bf06bc77b4c8953c88fc64",
+      "size": 19393282,
+      "hash_sha256": "19eacaad21206489d18a56f72ff8a337ba0dcedf16fe0f22f293f403e4b633d8",
       "metadata": {
         "game": "",
         "id": "sshd",
@@ -120496,20 +120567,6 @@
       }
     },
     {
-      "world": "https://github.com/Jbaker16163/Ark-Survival-Archipelago/releases/download/v0.1.6-alpha/ark_ase.apworld",
-      "size": 134144,
-      "hash_sha256": "71c88cf7edf86ac25ef4ecaecbece1d1026a365990a7a49554cf4b6c7e914cc7",
-      "metadata": {
-        "game": "",
-        "id": "ark_ase",
-        "world_version": "1.0.0.post3",
-        "tag_version": "1.0.0r3",
-        "created_at": "2026-08-05T21:37:36Z",
-        "minimum_ap_version": "0.6.0",
-        "maximum_ap_version": "0.9.99"
-      }
-    },
-    {
       "world": "https://github.com/Jbaker16163/Ark-Survival-Archipelago/releases/download/v0.1.1-alpha/ark_ase.apworld",
       "size": 58533,
       "hash_sha256": "4c72c14e3820c82f22c8f6cfb3965fbc42c1361966775bb9d55ef283a66ebf24",
@@ -120536,6 +120593,20 @@
         "world_version": "1.0.0.post2",
         "tag_version": "1.0.0r2",
         "created_at": "2026-07-29T03:29:33Z",
+        "minimum_ap_version": "0.6.0",
+        "maximum_ap_version": "0.9.99"
+      }
+    },
+    {
+      "world": "https://github.com/Jbaker16163/Ark-Survival-Archipelago/releases/download/v0.1.6-alpha/ark_ase.apworld",
+      "size": 134144,
+      "hash_sha256": "71c88cf7edf86ac25ef4ecaecbece1d1026a365990a7a49554cf4b6c7e914cc7",
+      "metadata": {
+        "game": "",
+        "id": "ark_ase",
+        "world_version": "1.0.0.post2",
+        "tag_version": "1.0.0r2",
+        "created_at": "2026-08-05T21:37:36Z",
         "minimum_ap_version": "0.6.0",
         "maximum_ap_version": "0.9.99"
       }
@@ -125842,6 +125913,22 @@
       }
     },
     {
+      "world": "https://github.com/Trexounay/EnderLilies.Archipelago/releases/download/endermagnolia-v0.0.5/endermagnolia.apworld",
+      "size": 59219,
+      "hash_sha256": "0fbb733352e3b60e00ac2ea699963ef8e05495428d3d5b75086967313d131ae0",
+      "metadata": {
+        "game": "",
+        "id": "endermagnolia",
+        "world_version": "1.0.0.post3",
+        "tag_version": "1.0.0r3",
+        "created_at": "2026-08-01T12:24:41Z",
+        "minimum_ap_version": "0.6.7",
+        "flags": [
+          "prerelease"
+        ]
+      }
+    },
+    {
       "world": "https://github.com/Trexounay/EnderLilies.Archipelago/releases/download/endermagnolia-v0.0.3/endermagnolia.apworld",
       "size": 58044,
       "hash_sha256": "d28d3344b3712c44b923fc5e858416527e2b55705b4b1a46134fecf93ec52a05",
@@ -125851,22 +125938,6 @@
         "world_version": "1.0.0.post2",
         "tag_version": "1.0.0r2",
         "created_at": "2026-07-27T21:17:48Z",
-        "minimum_ap_version": "0.6.7",
-        "flags": [
-          "prerelease"
-        ]
-      }
-    },
-    {
-      "world": "https://github.com/Trexounay/EnderLilies.Archipelago/releases/download/endermagnolia-v0.0.5/endermagnolia.apworld",
-      "size": 59219,
-      "hash_sha256": "0fbb733352e3b60e00ac2ea699963ef8e05495428d3d5b75086967313d131ae0",
-      "metadata": {
-        "game": "",
-        "id": "endermagnolia",
-        "world_version": "1.0.0.post2",
-        "tag_version": "1.0.0r2",
-        "created_at": "2026-08-01T12:24:41Z",
         "minimum_ap_version": "0.6.7",
         "flags": [
           "prerelease"
@@ -142446,11 +142517,6 @@
         "jordansds"
       ]
     },
-    "faxanadu": {
-      "game": "Faxanadu",
-      "description": "Faxanadu is an action role-playing platform video game developed by Hudson Soft for the Nintendo Entertainment System",
-      "authors": []
-    },
     "stardew_valley": {
       "game": "Stardew Valley",
       "description": "Stardew Valley is an open-ended country-life RPG. You can farm, fish, mine, fight, complete quests,\nbefriend villagers, and uncover dark secrets.",
@@ -142487,11 +142553,6 @@
     "custom_robo": {
       "game": "Custom Robo",
       "description": "Custom Robo is an action RPG where you become a Commander, taking control of your custom robo to dominate the holoseum!",
-      "authors": []
-    },
-    "saving_princess": {
-      "game": "Saving Princess",
-      "description": "Explore a space station crawling with rogue machines and even rival bounty hunters\nwith the same objective as you - but with far, far different intentions!\n\nExpand your arsenal as you collect upgrades to your trusty arm cannon and armor!",
       "authors": []
     },
     "celeste_classic": {
@@ -143373,11 +143434,6 @@
     "wl3": {
       "game": "Wario Land 3",
       "description": "Wario Land 3 \u2014 randomizes all 100 treasure chests.",
-      "authors": []
-    },
-    "noita": {
-      "game": "Noita",
-      "description": "Noita is a magical action roguelite set in a world where every pixel is physically simulated. Fight, explore, melt,\nburn, freeze, and evaporate your way through the procedurally generated world using wands you've created yourself.",
       "authors": []
     },
     "tetris_gb": {
@@ -144305,12 +144361,6 @@
         "EthanScraggy22"
       ]
     },
-    "doom_ii": {
-      "game": "DOOM II",
-      "description": "Doom II, also known as Doom II: Hell on Earth, is a first-person shooter game by id Software.\nIt was released for MS-DOS in 1994.\nCompared to its predecessor, Doom II features larger levels, new enemies, a new \"super shotgun\" weapon",
-      "authors": [],
-      "tracker": "https://github.com/Ozone31/doomii-ap-tracker/releases/latest"
-    },
     "manual_fossilfighterschampions_gwaf": {
       "game": "Manual_FossilFightersChampions_GWAF",
       "description": "Manual games allow you to set custom check locations and custom item names that will be rolled into a multiworld.\nThis allows any variety of game -- PC, console, board games, Microsoft Word memes... really anything -- to be part of a multiworld randomizer.\nThe key component to including these games is some level of manual restriction. Since the items are not actually withheld from the player,\nthe player must manually refrain from using these gathered items until the tracker shows that they have been acquired or sent.",
@@ -144436,6 +144486,11 @@
       "description": "Manual games allow you to set custom check locations and custom item names that will be rolled into a multiworld.\nThis allows any variety of game -- PC, console, board games, Microsoft Word memes... really anything -- to be part of a multiworld randomizer.\nThe key component to including these games is some level of manual restriction. Since the items are not actually withheld from the player,\nthe player must manually refrain from using these gathered items until the tracker shows that they have been acquired or sent.",
       "authors": []
     },
+    "inscryption": {
+      "game": "Inscryption",
+      "description": "Inscryption is an inky black card-based odyssey that blends the deckbuilding roguelike,\nescape-room style puzzles, and psychological horror into a blood-laced smoothie.\nDarker still are the secrets inscrybed upon the cards...",
+      "authors": []
+    },
     "pokemon_emerald": {
       "game": "Pokemon Emerald",
       "description": "Pok\u00e9mon Emerald is the definitive Gen III Pok\u00e9mon game and one of the most beloved in the franchise.\nCatch, train, and battle Pok\u00e9mon, explore the Hoenn region, thwart the plots\nof Team Magma and Team Aqua, challenge gyms, and become the Pok\u00e9mon champion!",
@@ -144488,6 +144543,11 @@
       "description": "Pok\u00e9mon FireRed and LeafGreen are remakes of the very first Pok\u00e9mon games.\nExperience the Kanto region with several updated features from Gen III.\nCatch, train, and battle Pok\u00e9mon, face off against the evil organization Team Rocket, challenge Gyms in order to\nearn Badges, help resolve the many crises on the Sevii Islands, and become the Pok\u00e9mon Champion!",
       "authors": [],
       "tracker": "https://github.com/vyneras/pokemon-frlg-tracker/releases/latest"
+    },
+    "heretic": {
+      "game": "Heretic",
+      "description": "Heretic is a dark fantasy first-person shooter video game released in December 1994. It was developed by Raven Software.",
+      "authors": []
     },
     "valheim": {
       "game": "Valheim",
@@ -144601,6 +144661,11 @@
       "authors": [
         "SergeAzel"
       ]
+    },
+    "noita": {
+      "game": "Noita",
+      "description": "Noita is a magical action roguelite set in a world where every pixel is physically simulated. Fight, explore, melt,\nburn, freeze, and evaporate your way through the procedurally generated world using wands you've created yourself.",
+      "authors": []
     },
     "rac_odd_couple": {
       "game": "Ratchet & Clank: The Odd Couple",
@@ -144727,6 +144792,12 @@
       "game": "Manual_DeckedOut2_empathymp3",
       "description": "Manual games allow you to set custom check locations and custom item names that will be rolled into a multiworld.\nThis allows any variety of game -- PC, console, board games, Microsoft Word memes... really anything -- to be part of a multiworld randomizer.\nThe key component to including these games is some level of manual restriction. Since the items are not actually withheld from the player,\nthe player must manually refrain from using these gathered items until the tracker shows that they have been acquired or sent.",
       "authors": []
+    },
+    "doom_ii": {
+      "game": "DOOM II",
+      "description": "Doom II, also known as Doom II: Hell on Earth, is a first-person shooter game by id Software.\nIt was released for MS-DOS in 1994.\nCompared to its predecessor, Doom II features larger levels, new enemies, a new \"super shotgun\" weapon",
+      "authors": [],
+      "tracker": "https://github.com/Ozone31/doomii-ap-tracker/releases/latest"
     },
     "viscera_cleanup_detail": {
       "game": "Viscera Cleanup Detail",
@@ -145184,11 +145255,6 @@
     "deathlink_text_client": {
       "game": "",
       "description": "",
-      "authors": []
-    },
-    "inscryption": {
-      "game": "Inscryption",
-      "description": "Inscryption is an inky black card-based odyssey that blends the deckbuilding roguelike,\nescape-room style puzzles, and psychological horror into a blood-laced smoothie.\nDarker still are the secrets inscrybed upon the cards...",
       "authors": []
     },
     "baba_is_you": {
@@ -145754,11 +145820,6 @@
       "description": "A Zelda game we're not completely burnt out on.",
       "authors": []
     },
-    "cv64": {
-      "game": "Castlevania 64",
-      "description": "Castlevania for the Nintendo 64 is the first 3D game in the Castlevania franchise. As either whip-wielding Belmont\ndescendant Reinhardt Schneider or powerful sorceress Carrie Fernandez, brave many terrifying traps and foes as you\nmake your way to Dracula's chamber and stop his rule of terror!",
-      "authors": []
-    },
     "YARGRockBand3": {
       "game": "YARGRockBand3",
       "description": "YARG is an Open-Source plastic band rhythm game! \nPlay through the YARG Official Setlist for the crowd,\nand maybe get some free items from your fans!",
@@ -146022,12 +146083,6 @@
         "toto00"
       ]
     },
-    "doom_1993": {
-      "game": "DOOM 1993",
-      "description": "Developed by id Software, and originally released in 1993, DOOM pioneered and popularized the first-person shooter,\nsetting a standard for all FPS games.",
-      "authors": [],
-      "tracker": "https://github.com/Ozone31/doom-ap-tracker/releases/latest"
-    },
     "pharcryption": {
       "game": "Pharcryption",
       "description": "A cooperative meta-game for Archipelago where players must work together to mine Pharcoins to decrypt their items\nfrom a malevolent ransomware program.",
@@ -146161,11 +146216,6 @@
       "authors": [
         "Pink Switch"
       ]
-    },
-    "heretic": {
-      "game": "Heretic",
-      "description": "Heretic is a dark fantasy first-person shooter video game released in December 1994. It was developed by Raven Software.",
-      "authors": []
     },
     "geometrydash": {
       "game": "Geometry Dash",
@@ -146546,6 +146596,11 @@
       "description": "Star Fox Adventures is an action-adventure game for the GameCube.\nUnlike other Star Fox titles, play as Fox McCloud to save Dinosaur Planet in the Lylat System.",
       "authors": []
     },
+    "cvcotm": {
+      "game": "Castlevania - Circle of the Moon",
+      "description": "Castlevania: Circle of the Moon is a launch title for the Game Boy Advance and the first of three Castlevania games\nreleased for the handheld in the \"Metroidvania\" format. As Nathan Graves, wielding the Hunter Whip and utilizing the\nDual Set-Up System for new possibilities, you must battle your way through Camilla's castle and rescue your master\nfrom a demonic ritual to restore the Count's power...",
+      "authors": []
+    },
     "ultrakill": {
       "game": "ULTRAKILL",
       "description": "MANKIND IS DEAD. BLOOD IS FUEL. HELL IS FULL.",
@@ -146670,6 +146725,12 @@
       "game": "Death's Door",
       "description": "Reaping souls of the dead and punching a clock might get monotonous but it's honest work for a Crow.\nThe job gets lively when your assigned soul is stolen and you must track down a desperate thief to a realm\nuntouched by death - where creatures grow far past their expiry.",
       "authors": []
+    },
+    "doom_1993": {
+      "game": "DOOM 1993",
+      "description": "Developed by id Software, and originally released in 1993, DOOM pioneered and popularized the first-person shooter,\nsetting a standard for all FPS games.",
+      "authors": [],
+      "tracker": "https://github.com/Ozone31/doom-ap-tracker/releases/latest"
     },
     "grunn": {
       "game": "Grunn",
@@ -146824,6 +146885,12 @@
       "game": "Elementipelago",
       "description": "Elementipelago is yet another alchemy game, but custom made to work with Archipelago.",
       "authors": []
+    },
+    "dlcquest": {
+      "game": "DLCQuest",
+      "description": "DLCQuest is a metroid ish game where everything is an in-game dlc.",
+      "authors": [],
+      "tracker": "https://github.com/RaceProUK/DLCQuest-APTracker/releases/latest"
     },
     "x2wotc": {
       "game": "XCOM 2 War of the Chosen",
@@ -147220,6 +147287,11 @@
       "description": "CrossCode is a retro-inspired 2D Action RPG set in the distant future,\ncombining 16-bit SNES-style graphics with butter-smooth physics, a\nfast-paced combat system, and engaging puzzle mechanics, served with a\ngripping sci-fi story.",
       "authors": []
     },
+    "saving_princess": {
+      "game": "Saving Princess",
+      "description": "Explore a space station crawling with rogue machines and even rival bounty hunters\nwith the same objective as you - but with far, far different intentions!\n\nExpand your arsenal as you collect upgrades to your trusty arm cannon and armor!",
+      "authors": []
+    },
     "osu": {
       "game": "osu!",
       "description": "osu! is a free to play rhythm game featuring 4 modes, an online ranking system/statistics,\nwith user submitted songs downloadable from its website.",
@@ -147493,6 +147565,11 @@
         "Miiroun"
       ]
     },
+    "faxanadu": {
+      "game": "Faxanadu",
+      "description": "Faxanadu is an action role-playing platform video game developed by Hudson Soft for the Nintendo Entertainment System",
+      "authors": []
+    },
     "civ_4": {
       "game": "Civilization IV",
       "description": "",
@@ -147566,12 +147643,6 @@
       "game": "Cobalt Core",
       "description": "A sci-fi roguelike deckbuilder with a deep new single-axis spin on tactics games! Dodge missiles,\nline up your cannons, and blast 'em out of the sky... Then get to the bottom of these time loops,\nbefore it's too late!",
       "authors": []
-    },
-    "dlcquest": {
-      "game": "DLCQuest",
-      "description": "DLCQuest is a metroid ish game where everything is an in-game dlc.",
-      "authors": [],
-      "tracker": "https://github.com/RaceProUK/DLCQuest-APTracker/releases/latest"
     },
     "webfishing": {
       "game": "WEBFISHING",
@@ -147652,11 +147723,6 @@
         "Spineraks"
       ]
     },
-    "shivers": {
-      "game": "Shivers",
-      "description": "Shivers is a horror themed point and click adventure. Explore the mysteries of Windlenot's Museum of the Strange and Unusual.",
-      "authors": []
-    },
     "sneak_king": {
       "game": "Sneak King",
       "description": "",
@@ -147726,11 +147792,6 @@
       "authors": [
         "Aeromaze"
       ]
-    },
-    "cvcotm": {
-      "game": "Castlevania - Circle of the Moon",
-      "description": "Castlevania: Circle of the Moon is a launch title for the Game Boy Advance and the first of three Castlevania games\nreleased for the handheld in the \"Metroidvania\" format. As Nathan Graves, wielding the Hunter Whip and utilizing the\nDual Set-Up System for new possibilities, you must battle your way through Camilla's castle and rescue your master\nfrom a demonic ritual to restore the Count's power...",
-      "authors": []
     },
     "TerraNil": {
       "game": "TerraNil",
@@ -147812,6 +147873,11 @@
       "authors": [
         "Spencer2585"
       ]
+    },
+    "cv64": {
+      "game": "Castlevania 64",
+      "description": "Castlevania for the Nintendo 64 is the first 3D game in the Castlevania franchise. As either whip-wielding Belmont\ndescendant Reinhardt Schneider or powerful sorceress Carrie Fernandez, brave many terrifying traps and foes as you\nmake your way to Dracula's chamber and stop his rule of terror!",
+      "authors": []
     },
     "tje": {
       "game": "ToeJam and Earl",
@@ -147968,6 +148034,11 @@
     "metroidfusion": {
       "game": "Metroid Fusion",
       "description": "Metroid Fusion, powered by MARS. The fourth Metroid game, known for its linearity, in randomized form!\nLocate the Infant Metroids to lure out the SA-X, set the self destruct, and escape the station.",
+      "authors": []
+    },
+    "shivers": {
+      "game": "Shivers",
+      "description": "Shivers is a horror themed point and click adventure. Explore the mysteries of Windlenot's Museum of the Strange and Unusual.",
       "authors": []
     },
     "ctjot": {
