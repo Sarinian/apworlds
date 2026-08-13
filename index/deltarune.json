@@ -898,6 +898,21 @@
       "title": "DELTARUNEAP v2.1.0+beta-1 - First Chapter 5 Beta",
       "version_simple": "2.1.0",
       "world_version": "2.1.0b1"
+    },
+    "v2.1.1": {
+      "created_at": "2026-08-13T00:32:37Z",
+      "description": "[Setup Guide](https://github.com/theemeraldsword85/DELTARUNEAP/blob/v2.1.1/worlds/deltarune/docs/setup_en.md) - [Q&A](https://github.com/theemeraldsword85/DELTARUNEAP/blob/v2.1.1/worlds/deltarune/docs/en_DELTARUNE.md)\r\n\r\n[Game Mod Releases](https://github.com/Tenebrosful/DeltaruneAP-mod/releases)\r\n[GameBanana Page](https://gamebanana.com/mods/699556)\r\n\r\n## **>>> PATCH FILES HAS BEEN REMOVED FROM THE APWORLD, YOU HAVE TO DOWNLOAD IT FROM THE OTHER REPOSITORY <<<**\r\n\r\n# Changelog\r\n\r\nWe are trying to be quick because there is a lot\r\n\r\n- Chapter 5 implementation\r\n- Big rewrite overall\r\n- AllowDoomBoardWithoutAllCharacters option has been added\r\n- StartWithRandomCharacter option has been added\r\n- All routes has been renamed Both routes and now require you to finish finish routes (only chapter 2 and chapter 5 require doing the chapter twice for weird route)\r\n- Neutral route has been renamed Normal route\r\n- Recruits and Lose recruits are now separated from the chosen route\r\n- DamageLink support\r\n- STAR             WALKER\r\n- Added some RandomSafety options\r\n- Added an option to garante DoorKey behind fixing broken keys\r\n- Some default options values has been changed",
+      "download_url": "https://github.com/theemeraldsword85/DELTARUNEAP/releases/download/v2.1.1/deltarune.apworld",
+      "has_manifest": true,
+      "hash_sha256": "9625ba3fbe9e1b45ca7487603aa5b317294f4172d73364bc325fec09e1338609",
+      "html_url": "https://github.com/theemeraldsword85/DELTARUNEAP/releases/tag/v2.1.1",
+      "minimum_ap_version": "0.6.7",
+      "size": 1203601,
+      "source_url": "https://api.github.com/repos/theemeraldsword85/DELTARUNEAP",
+      "tag": "v2.1.1",
+      "title": "DELTARUNEAP v2.1.1",
+      "version_simple": "2.1.1",
+      "world_version": "2.1.1"
     }
   }
 }
