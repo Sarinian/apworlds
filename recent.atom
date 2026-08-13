@@ -2,122 +2,14 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://raw.githubusercontent.com/silasary/apworlds/refs/heads/main/recent.atom</id>
   <title>Recent APWorlds</title>
-  <updated>2026-08-13T01:03:29.710060+00:00</updated>
+  <updated>2026-08-13T07:17:09.086641+00:00</updated>
   <author>
     <name>Silasary</name>
   </author>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
   <entry>
-    <id>https://github.com/Trexounay/EnderLilies.Archipelago/releases/tag/endermagnolia-v0.1.2</id>
-    <title>Ender Magnolia v0.1.2</title>
-    <updated>2026-08-09T14:28:05+00:00</updated>
-    <author>
-      <name>Trex</name>
-    </author>
-    <content>Pre-release of the **Archipelago** world for **Ender Magnolia**&#13;
-&#13;
-## Update&#13;
- - Added Meta Progression option&#13;
- - Group locations/items&#13;
- - Added start inventory from pool support&#13;
-&#13;
-## Requirements&#13;
-- [Archipelago](https://github.com/ArchipelagoMW/Archipelago/releases)&#13;
-- [Ender Magnolia Randomizer](https://github.com/Trexounay/EnderMagnolia.Randomizer/releases) Get the corresponding version&#13;
-&#13;
-## Current Features&#13;
-- 340 checks&#13;
-- 2 Goals: **Ending A** **Ending B**&#13;
-- Starting Skill option (except non breaking walls weapon)&#13;
-- Shuffle relic costs&#13;
-- Progressive Aptitudes&#13;
-- Start with heal/fast travel&#13;
-- min/max chapters&#13;
-- Central Elevator Fix option&#13;
-- Starting respite&#13;
-&#13;
-## Notes&#13;
-This is an early pre-release and has not been extensively tested. Expect bugs and missing features, and please report any issues or feedback.</content>
-    <link href="https://github.com/Trexounay/EnderLilies.Archipelago/releases/tag/endermagnolia-v0.1.2"/>
-  </entry>
-  <entry>
-    <id>https://github.com/chickentuna/Archipelago-Zoominoes/releases/tag/v0.1.0</id>
-    <title>Zoominoes v0.1.0.post4</title>
-    <updated>2026-08-09T15:01:23+00:00</updated>
-    <author>
-      <name>chickentuna</name>
-    </author>
-    <content>Community testing build. Feedback and bug reports welcome.
-
-## Install
-
-**1. BepInEx** — download **BepInEx 6 bleeding-edge, `Unity.Mono`, `win-x64`** from
-&lt;https://builds.bepinex.dev/projects/bepinex_be&gt; and unzip it into the game folder,
-next to `Zoominoes.exe`. Zoominoes is a Unity 6 Mono game; BepInEx 5 will not work.
-Run the game once so BepInEx creates its folders, then close it.
-
-e.g. for Windows:
-&lt;https://builds.bepinex.dev/projects/bepinex_be/785/BepInEx-Unity.Mono-win-x64-6.0.0-be.785%2B6abdba4.zip&gt;
-
-**2. The mod** — unzip `ZoominoesArchipelago.zip` into the same game folder. It drops
-into `BepInEx/plugins/`.
-
-**3. The world** — put `zoominoes.apworld` in your Archipelago install's
-`custom_worlds/` folder.
-
-On Linux the game runs under Proton with the same files. Add
-`WINEDLLOVERRIDES="winhttp=n,b" %command%` to the Steam launch options, or the
-loader will not inject.
-
-## Playing
-
-Press **F1** for the connection panel, enter your server address, port, slot name
-and password, and connect. The panel opens by itself until you do. Details are
-remembered for next launch.
-
-Runs are played on a dedicated **AP** profile. Your existing saves are not read or
-written while the mod is installed.
-
-## What is randomised
-
-Animals, snacks, souvenirs, zookeepers and difficulty tiers arrive as Archipelago
-items, along with extra starting gold, extra plays and hand size.
-
-`randomize_starter_zookeeper` and `randomize_starter_unlocks` extend that to what you
-open with: a random zookeeper in place of Marina, and a random 6 animals, 4 snacks and
-4 souvenirs in place of Starfish, Fennec and the rest. Whatever the draw passes over
-becomes an item like anything else.
-
-Checks come from Gift Shop slots and from finishing a day. **Every difficulty tier
-has its own set of both** — "Tier 3 - Shop 2 - Slot 1" is a different location from
-"Tier 5 - Shop 2 - Slot 1", so each tier you unlock opens 43 fresh checks: 24 across
-its eight shops and 19 across its playable days. On top of that, winning with each
-zookeeper and clearing each tier are checks in their own right.
-
-Three goals: clear a target difficulty tier, clear it with several different
-zookeepers, or collect Zoo Tickets scattered across the multiworld.
-
-Only normal runs take part — daily challenges, seeded runs and challenge runs are
-left alone.
-
-Items apply from your **next** run, since the game fixes its content pool when a run
-begins.
-
-## Options
-
-`Zoominoes-template.yaml` has every option, its documentation and its weights. Put it
-in your Archipelago `Players` folder and change the name at the top.
-
-Content the seed has no room for is unlocked from the start rather than left
-unobtainable.
-
-
-</content>
-    <link href="https://github.com/chickentuna/Archipelago-Zoominoes/releases/tag/v0.1.0"/>
-  </entry>
-  <entry>
     <id>https://github.com/zsiegel701/Burger-Shop-Archipelago/releases/tag/v0.3.2</id>
-    <title>Burger Shop 2 v0.3.2</title>
+    <title>Burger Shop v0.3.2</title>
     <updated>2026-08-09T16:22:06+00:00</updated>
     <author>
       <name>zsiegel701</name>
@@ -1635,6 +1527,18 @@ things around mid-run. They ship once the current games are finished.
     <link href="https://github.com/Ragmoa/Archipelago/releases/tag/0.5.1"/>
   </entry>
   <entry>
+    <id>https://github.com/Totox00/ap-ahlcg/releases/tag/v0.2.0</id>
+    <title>Arkham Horror The Card Game v0.1.4r2</title>
+    <updated>2026-08-12T13:01:27+00:00</updated>
+    <author>
+      <name>toto00</name>
+    </author>
+    <content>Added support for the Dream-Eater and the Innsmouth Conspiracy&#13;
+Added an option to limit the number of unlockable investigators in the item pool&#13;
+Fixed some bugs</content>
+    <link href="https://github.com/Totox00/ap-ahlcg/releases/tag/v0.2.0"/>
+  </entry>
+  <entry>
     <id>https://github.com/threeandthreee/Archipelago/releases/tag/13.4.4</id>
     <title>Links Awakening DX Beta v13.4.4</title>
     <updated>2026-08-12T16:02:59+00:00</updated>
@@ -1651,7 +1555,7 @@ Also I'm going to start including the bizhawk connector in these releases again.
   </entry>
   <entry>
     <id>https://github.com/Lizardman175/DC1AP/releases/tag/v0.5.10</id>
-    <title>Dark Cloud 1 v0.5.0r2</title>
+    <title>Dark Cloud 1 v0.5.0r3</title>
     <updated>2026-08-12T21:44:05+00:00</updated>
     <author>
       <name>Lizardman175</name>
@@ -1737,18 +1641,25 @@ Installation instructions [here](https://github.com/AgStarRay/TetrisAttackAP/blo
     <author>
       <name>Potato</name>
     </author>
-    <content>[Setup Guide](https://github.com/theemeraldsword85/DELTARUNEAP/blob/v2.1.1/worlds/deltarune/docs/setup_en.md) - [Q&amp;A](https://github.com/theemeraldsword85/DELTARUNEAP/blob/v2.1.1/worlds/deltarune/docs/en_DELTARUNE.md)&#13;
+    <content># THE FIFTH FIELD.&#13;
+&#13;
+[Setup Guide](https://github.com/theemeraldsword85/DELTARUNEAP/blob/v2.1.1/worlds/deltarune/docs/setup_en.md) - [Q&amp;A](https://github.com/theemeraldsword85/DELTARUNEAP/blob/v2.1.1/worlds/deltarune/docs/en_DELTARUNE.md)&#13;
 &#13;
 [Game Mod Releases](https://github.com/Tenebrosful/DeltaruneAP-mod/releases)&#13;
+Or, alternatively,&#13;
 [GameBanana Page](https://gamebanana.com/mods/699556)&#13;
 &#13;
-## **&gt;&gt;&gt; PATCH FILES HAS BEEN REMOVED FROM THE APWORLD, YOU HAVE TO DOWNLOAD IT FROM THE OTHER REPOSITORY &lt;&lt;&lt;**&#13;
+## **&gt;&gt;&gt; PATCH FILES HAVE BEEN REMOVED FROM THE APWORLD, YOU HAVE TO DOWNLOAD IT FROM THE OTHER REPOSITORY &lt;&lt;&lt;**&#13;
+&#13;
+*This patchnote is from 2.0.6 to 2.1.1*&#13;
 &#13;
 # Changelog&#13;
 &#13;
 We are trying to be quick because there is a lot&#13;
 &#13;
-- Chapter 5 implementation&#13;
+- **Chapter 5 implementation**&#13;
+- **Linux is now supported with the command `/linux_proxy` in the client**&#13;
+- Scarlet Forest &amp; Dark Sanctuary maps have been added, courtesy of Pikminwhite&#13;
 - Big rewrite overall&#13;
 - AllowDoomBoardWithoutAllCharacters option has been added&#13;
 - StartWithRandomCharacter option has been added&#13;
@@ -1756,10 +1667,34 @@ We are trying to be quick because there is a lot&#13;
 - Neutral route has been renamed Normal route&#13;
 - Recruits and Lose recruits are now separated from the chosen route&#13;
 - DamageLink support&#13;
-- STAR             WALKER&#13;
+- STAR             WALKER can now be permanently enabled through an option&#13;
 - Added some RandomSafety options&#13;
-- Added an option to garante DoorKey behind fixing broken keys&#13;
-- Some default options values has been changed</content>
+- Added an option to generate DoorKey behind fixing broken keys&#13;
+- Some default options values has been changed&#13;
+- Certain items now change classification depending on whether they're actually progression or not&#13;
+- Added the chest before Mike in Chapter 4 to the locations list </content>
     <link href="https://github.com/theemeraldsword85/DELTARUNEAP/releases/tag/v2.1.1"/>
+  </entry>
+  <entry>
+    <id>https://github.com/FyreDay/Archipelago-MinaTheHollower/releases/tag/v1.0.0-beta.5</id>
+    <title>Mina The Hollower v0.11.5</title>
+    <updated>2026-08-13T03:54:40+00:00</updated>
+    <author>
+      <name>FyreDay, Axertin, ZXavier</name>
+    </author>
+    <content>**THIS AP WORLD IS ONLY COMPATIBLE WITH [AP CLIENT BETA 6](https://github.com/Axertin/mth-apclient/releases/tag/v1.0.0-beta.6) AND LATER**&#13;
+&#13;
+This is a beta release. This means it is stable with no major bugs. If you find a bug please report it in the [Github Issues](https://github.com/FyreDay/Archipelago-MinaTheHollower/issues)&#13;
+&#13;
+Install guide and more information is in the [AP world Info Document](https://github.com/FyreDay/Archipelago-MinaTheHollower/blob/main/worlds/mina_the_hollower/docs/en_Mina%20The%20Hollower.md)&#13;
+&#13;
+### Changelog&#13;
+&#13;
+- Fix some UT maps not showing correctly&#13;
+- Add Boss Defeat Locations&#13;
+- Add Starting weapon Yaml Setting&#13;
+- Add Area Lock items that unlock all locks in an area&#13;
+- Fix various logic problems</content>
+    <link href="https://github.com/FyreDay/Archipelago-MinaTheHollower/releases/tag/v1.0.0-beta.5"/>
   </entry>
 </feed>

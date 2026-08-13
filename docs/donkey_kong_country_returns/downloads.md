@@ -8,6 +8,9 @@
 #### v0.1.0r2
 - <a href="https://github.com/CallmeZewo/DKCR_APWorld/releases/download/v0.1.2-beta/donkey_kong_country_returns.apworld">https://github.com/CallmeZewo/DKCR_APWorld/releases/download/v0.1.2-beta/donkey_kong_country_returns.apworld</a>
 
+#### v0.1.0r2
+- <a href="https://github.com/CallmeZewo/DKCR_APWorld/releases/download/v0.1.2-beta/donkey_kong_country_returns.apworld">https://github.com/CallmeZewo/DKCR_APWorld/releases/download/v0.1.2-beta/donkey_kong_country_returns.apworld</a>
+
 #### v0.1.0
 - <a href="https://github.com/CallmeZewo/DKCR_APWorld/releases/download/v0.1.1-beta/donkey_kong_country_returns.apworld">https://github.com/CallmeZewo/DKCR_APWorld/releases/download/v0.1.1-beta/donkey_kong_country_returns.apworld</a>
 
