@@ -1535,6 +1535,21 @@
       "title": "v3.7.2",
       "version_simple": "3.7.2",
       "world_version": "3.7.2"
+    },
+    "v3.7.3": {
+      "created_at": "2026-08-13T07:56:43Z",
+      "description": "# Diablo II Archipelago v3.7.3\n\n## The Treasure Cow drops real loot now\n\nKilling a Treasure Cow has paid out three different ways, and this is the one\nthat should have been first: the game's own.\n\nThe cow is a superunique, and `SuperUniques.txt` gives every superunique its own\n`TC` / `TC(N)` / `TC(H)` treasure-class columns. The Cow King has always used\nhis. The Treasure Cow's were empty, so it quietly fell through to the base\nmonster's ordinary \"Act 4 Unique B\" \u2014 the same table any unique hell bovine\ngets. The cow was a boss that dropped like a regular monster, and everything\nbuilt on top of that was compensation for it.\n\nThose three cells now point at a new **AP Cow Hoard** table, one per difficulty:\n\n- **10 picks, nothing wasted.** Diablo and Baal roll 7, and throw away 15% of\n  them as no-drop. The cow rolls 10 and drops on every one.\n- **Better odds than any boss in the game.** Unique 400 / Set 550 / Rare 700,\n  against Diablo's 983 across the board \u2014 lower is better here. Even the\n  hardest vanilla superuniques only reach 512.\n- **Top-tier equipment.** It pulls from `Equip C`, the highest of the three\n  equipment tiers. Baal pulls from `B`.\n- **Gems, runes, rings, amulets, jewels and all three charm sizes**, weighted so\n  jewellery is not competing with gems for the same slot.\n\nBecause this is the engine's own drop path, **magic find applies** \u2014 properly,\nper item, the way it does on any other monster. So do quality rolls and item\nlevel. None of that was true of the previous payouts.\n\n### What this replaces, and why\n\nThe first version handed items over through the mod's own item-creation call.\nThat path knows nothing about magic find and gives up silently when the\ninventory is full, which is where every \"the cow dropped nothing\" report came\nfrom.\n\nThe second spawned sparkly chests and let the game fill them. The loot was real,\nbut chests are solid objects: in a one-tile corridor one of them walls the\nplayer in, and a chest that cannot be placed anywhere is simply lost, so the\nreward shrank without saying so.\n\nA treasure class has neither problem. Nothing is placed, so nothing can block a\ncorridor and nothing can go missing.\n\n## Under the hood\n\n- The package no longer contains any Diablo II engine files. Everything shipped\n  is either this mod's own code or open-source components; the game's own files\n  come from your installation. See `THIRD-PARTY-NOTICES.md` for the full list of\n  components, their authors and their licences.\n- New guard in the data-table gate: a blank line inside a `.txt` table is now a\n  build failure. The game asserts on one (`Excel.cpp #646`) and the previous\n  check could not see it, because it discarded empty rows before looking.\n",
+      "download_url": "https://github.com/solida1987/Diablo-II-Archipelago/releases/download/v3.7.3/diablo2_archipelago.apworld",
+      "has_manifest": true,
+      "hash_sha256": "609fc27c07989a7a0cc706329d5fe19ea150a57f0905d7a5d974ca1b47615aab",
+      "html_url": "https://github.com/solida1987/Diablo-II-Archipelago/releases/tag/v3.7.3",
+      "minimum_ap_version": "0.5.0",
+      "size": 80775,
+      "source_url": "https://api.github.com/repos/solida1987/Diablo-II-Archipelago",
+      "tag": "v3.7.3",
+      "title": "v3.7.3",
+      "version_simple": "3.7.3",
+      "world_version": "3.7.3"
     }
   }
 }
