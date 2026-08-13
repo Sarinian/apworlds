@@ -1550,6 +1550,36 @@
       "title": "v3.7.3",
       "version_simple": "3.7.3",
       "world_version": "3.7.3"
+    },
+    "v3.7.4": {
+      "created_at": "2026-08-13T12:37:00Z",
+      "description": "# Diablo II Archipelago v3.7.4\n\n## The vanishing waypoint menu, fixed at the source\n\nThe report has come in again and again: every act tab except Act 1 disappears\nfrom the waypoint menu \u2014 waypoints you have already activated stop showing up \u2014\nand talking to one or two town NPCs, any of them, brings them all back at once.\n\nThat last detail was the clue. The waypoint bits themselves are never lost: the\nsave is fine, and the game resends them every single time the menu opens. What\ngoes stale is the client's copy of the *quest records*, which is what the menu\nuses to decide which act tabs to show. The client only learns those records\nwhen the server sends them \u2014 and in an unmodified game that happens constantly\nas a side effect of quest dialogue: the caravan NPCs and every quest-bearing\nconversation resend the full quest state. That is why \"talk to Jerhyn\" was the\nfolk remedy, and why any other quest NPC works just as well.\n\nThis randomiser moves players between acts through its own gate system, so a\nwhole session can pass without any of those resends ever firing. The menu was\nnever being told what you had.\n\nThe engine keeps that resend in one small function of its own, and the mod now\ncalls it on every area change and every ten seconds. The client's copy can no\nlonger stay stale for longer than that \u2014 no NPC required. Like the mod's other\nengine calls, it verifies the function's first bytes before ever calling it,\nand disables itself cleanly if they do not match.\n\nThe launcher's KNOWN ISSUE note about this has been rewritten to match.\n",
+      "download_url": "https://github.com/solida1987/Diablo-II-Archipelago/releases/download/v3.7.4/diablo2_archipelago.apworld",
+      "has_manifest": true,
+      "hash_sha256": "57ac78ca7fe23ee19e4f7002b0ac06c8016a719ea3df60150a6ed77c87ea1972",
+      "html_url": "https://github.com/solida1987/Diablo-II-Archipelago/releases/tag/v3.7.4",
+      "minimum_ap_version": "0.5.0",
+      "size": 80775,
+      "source_url": "https://api.github.com/repos/solida1987/Diablo-II-Archipelago",
+      "tag": "v3.7.4",
+      "title": "v3.7.4",
+      "version_simple": "3.7.4",
+      "world_version": "3.7.4"
+    },
+    "v3.7.5": {
+      "created_at": "2026-08-13T13:55:14Z",
+      "description": "# Diablo II Archipelago v3.7.5\n\nA full playthrough's logs came in, and reading them found more than the\nreport did. Four things here were never noticed by anyone playing \u2014 they were\nfound by checking the game's own data against the code.\n\n## You can no longer walk from Act 3 to Baal\n\nThe entrance shuffle moves dungeons around, and it assumes every dungeon it\nmoves is a dead end: one way in, the same way out. Two Act 5 areas were in\nthat pool and are not dead ends at all. **The Ancients' Way** opens onto\nArreat Summit, and **Crystalline Passage** runs through to the open Act 5\ntundra.\n\nSo a tester walked into a spider cave in Act 3, came out on the road to the\nAncients, and finished the game from there. Both areas are now pinned in\nplace, and a check that reads the game's own level connections refuses to\nbuild a release if a shuffled dungeon has a second way out. Removing the pin\nand running that check is how the fix was verified.\n\n## Anya could end up behind the cow level\n\nThe cow level swaps places with a side dungeon chosen at random. Two were\nmarked as safe to give up \u2014 and one of them was the Frozen River, where Anya\nis held prisoner. Roughly every other seed put a required quest behind Wirt's\nleg and a cube recipe. It never came up in the playthrough because that seed\npicked the other one.\n\nThe Frozen River is no longer a candidate.\n\n## Eleven skills could break when they came from another class\n\nJab, given to a paladin holding a sword, was unusable and eventually crashed\nthe game. The cause was a typo of sorts: Jab was listed as a throwing skill\nwhen it is actually a sequence skill, so the code meant to catch exactly this\nnever looked at it.\n\nChecking every class skill against those lists found **eleven** in the same\nstate \u2014 Jab, Impale, Inferno, Lightning, Chain Lightning, Charge, Leap,\nFrenzy, Arctic Blast, Dragon Tail and Dragon Flight \u2014 plus four filed under a\ntype they do not have, which is what made the lists look finished.\n\nThe lists are gone. The game now reads each skill's own animation type and\ndecides from that, so no skill can be forgotten again.\n\n## The Treasure Cow is at its intended difficulty\n\nVersion 3.6 toned the cows down to 3 per act at 8%, with health scaled as a\npercentage rather than a flat amount \u2014 flat health also multiplies a\nmonster's regeneration, which is how they became unkillable in the first\nplace. That change only touched the built-in defaults, and a configuration\nfile shipping alongside it still carried the old numbers: **5 cows per act at\n40%**, with flat health up to +100,000. The file won, in every install, for\nevery player. The playthrough ran at 40% from start to finish.\n\n## Fixes\n\n- A crash-handler was quietly absorbing hundreds of faults per session \u2014 356\n  in the playthrough, 338 of them from one function reading a game that had\n  already been freed during loading. Its twin already guarded against this;\n  this one did not.\n- Builds now produce a symbol map, so the next crash report can be read\n  directly instead of being reconstructed by hand from register values.\n- Per-frame input and rendering traces are off unless switched on. They were\n  4,000 lines of a single session's log and buried everything useful.\n",
+      "download_url": "https://github.com/solida1987/Diablo-II-Archipelago/releases/download/v3.7.5/diablo2_archipelago.apworld",
+      "has_manifest": true,
+      "hash_sha256": "5c102f1ab2186bb1e5dcbe82fb6462ce9f16da44506a533616a67be4cceca99f",
+      "html_url": "https://github.com/solida1987/Diablo-II-Archipelago/releases/tag/v3.7.5",
+      "minimum_ap_version": "0.5.0",
+      "size": 80775,
+      "source_url": "https://api.github.com/repos/solida1987/Diablo-II-Archipelago",
+      "tag": "v3.7.5",
+      "title": "v3.7.5",
+      "version_simple": "3.7.5",
+      "world_version": "3.7.5"
     }
   }
 }
