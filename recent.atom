@@ -2,218 +2,11 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://raw.githubusercontent.com/silasary/apworlds/refs/heads/main/recent.atom</id>
   <title>Recent APWorlds</title>
-  <updated>2026-08-14T12:48:55.154851+00:00</updated>
+  <updated>2026-08-14T18:46:58.071106+00:00</updated>
   <author>
     <name>Silasary</name>
   </author>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
-  <entry>
-    <id>https://github.com/solida1987/Diablo-II-Archipelago/releases/tag/Unstable-3.6.7</id>
-    <title>Diablo II Archipelago v3.6.7</title>
-    <updated>2026-08-11T08:31:14+00:00</updated>
-    <author>
-      <name>solida1987</name>
-    </author>
-    <author>
-      <name>ꓘicka (AP logic)</name>
-    </author>
-    <author>
-      <name>Zoë (AP logic)</name>
-    </author>
-    <content># Unstable 3.6.7
-
-A loot filter. Choose what colour each kind of drop is drawn in, or stop
-drawing it at all.
-
-## Where
-
-**Launcher → Settings → Diablo II → Loot Filter → "Colours and hiding…"**
-
-Twenty-two groups, each with a colour and a Hide box:
-
-**By type** — gold, runes, gems, charms, jewels, rings and amulets, health and
-mana potions, rejuvenation, throwing potions, antidote/thawing/stamina,
-scrolls, tomes, keys, arrows and bolts, quest items.
-
-**By quality** — normal, superior, magic, rare, set, unique, crafted.
-
-Ten colours: white, red, green, blue, gold, grey, tan, orange, yellow, or
-Default to leave it exactly as the game draws it.
-
-Everything starts at Default, so if you never open the dialog nothing about
-your game changes. The setting is remembered across seeds and applies to both
-Archipelago and standalone runs.
-
-Gold as orange, runes in their own colour, plain white gear gone entirely —
-whatever you want.
-
-## Read this before you turn it on
-
-**This is the first release of the filter and it is not fully proven.**
-
-Diablo II does not keep item colours in any data file; it decides them in
-code. The only way to change them is to intercept the game's drawing calls,
-and that interception sees *every* piece of text the game client draws — menus
-and shop lists included, not just labels on the ground.
-
-There is a guard: a rule only applies to text that arrived with a backdrop
-behind it, which ground labels have and menu text does not. It should be
-enough. It has not been confirmed in a real session.
-
-So: if you set a rule and text goes missing somewhere it should not, that is
-this. Open the dialog and press **Reset all to default** — it takes effect on
-the next launch, no reinstall and no waiting for a patch.
-
-There is a **"Log every item label"** box at the bottom of the dialog. Turning
-it on for a minute and sending the resulting `d2arch_log.txt` is what will
-settle whether the guard holds.
-
-## Also
-
-The mod's import-patching helper now handles ordinal imports, which is how the
-Diablo II modules export nearly everything. That is what made the filter
-reachable at all.
-</content>
-    <link href="https://github.com/solida1987/Diablo-II-Archipelago/releases/tag/Unstable-3.6.7"/>
-  </entry>
-  <entry>
-    <id>https://github.com/solida1987/Diablo-II-Archipelago/releases/tag/Unstable-3.6.8</id>
-    <title>Diablo II Archipelago v3.6.8</title>
-    <updated>2026-08-11T11:24:18+00:00</updated>
-    <author>
-      <name>solida1987</name>
-    </author>
-    <author>
-      <name>ꓘicka (AP logic)</name>
-    </author>
-    <author>
-      <name>Zoë (AP logic)</name>
-    </author>
-    <content># Unstable 3.6.8
-
-## The loot filter is gone again
-
-3.6.7 added a filter for recolouring and hiding item labels on the ground. It
-did not work, and it is removed.
-
-The honest version of what happened: Diablo II decides those colours in code
-rather than in any data file, so changing them means intercepting the game's
-drawing calls. Which call to intercept could not be established from the
-binary — the function that reads the Alt key, which is the one that decides
-whether to label items at all, makes no drawing call anywhere near itself. The
-release went out on a reasonable guess with a fallback plan, and the fallback
-is this patch.
-
-Nothing else in 3.6.7 was affected, and nothing carried over: the mod no longer
-contains the code, and the launcher writes the filter off on every launch so a
-mismatched pair of versions cannot leave it running.
-
-Everything from 3.6.6 — tiered reward depth, the 33 new filler items, the four
-object traps — is untouched.
-</content>
-    <link href="https://github.com/solida1987/Diablo-II-Archipelago/releases/tag/Unstable-3.6.8"/>
-  </entry>
-  <entry>
-    <id>https://github.com/solida1987/Diablo-II-Archipelago/releases/tag/Unstable-3.6.9</id>
-    <title>Diablo II Archipelago v3.6.9</title>
-    <updated>2026-08-11T11:36:01+00:00</updated>
-    <author>
-      <name>solida1987</name>
-    </author>
-    <author>
-      <name>ꓘicka (AP logic)</name>
-    </author>
-    <author>
-      <name>Zoë (AP logic)</name>
-    </author>
-    <content># Unstable 3.6.9
-
-Debug menu (Ctrl+V), Character tab.
-
-## Two new buttons
-
-**+100M XP** — exactly one hundred million experience. From a fresh character
-that lands you at level 57.
-
-**Max Level** — straight to 99. There because 100M is not actually enough to
-reach the Pandemonium content: from level 90 it does not even give you one
-more level.
-
-Both stop at 99 rather than doing anything, and say so in the log.
-
-## +10 Levels now gives ten levels
-
-It used to hand over a flat 500,000 experience regardless of where you were.
-That is roughly thirty levels at level 1 and next to nothing at level 80 — the
-button had been lying about what it did.
-
-It now reads your level and adds the actual gap to level+10.
-
-## Under the hood
-
-Level 99 costs 3,837,739,017 experience, which does not fit in the signed
-32-bit value the game's stat call takes. A large grant is handed over in
-pieces, and never more than the room left below the cap — adding past it wraps
-the total negative, and the character would look like it had lost every level
-it had.
-
-Launcher unchanged at 2.9.38.
-</content>
-    <link href="https://github.com/solida1987/Diablo-II-Archipelago/releases/tag/Unstable-3.6.9"/>
-  </entry>
-  <entry>
-    <id>https://github.com/T4g1/ArchipelagoTomba/releases/tag/v0.2.2-beta</id>
-    <title>Tomba! v0.2.2b0</title>
-    <updated>2026-08-11T12:40:53+00:00</updated>
-    <author>
-      <name>T4g1</name>
-    </author>
-    <author>
-      <name>bosshunter</name>
-    </author>
-    <content>Second **beta release** introducing several new settings and a better location management that should hopefully results in less missing checks&#13;
-&#13;
-&gt; [!WARNING]&#13;
-&gt; This release is in testing phase. While core progression mechanics are fully functional, you may encounter minor bugs or pacing quirks. Please report any logic errors or generation issues on the issue tracker.&#13;
-&#13;
----&#13;
-&#13;
-## ✨ What's New&#13;
-&#13;
-### 🛠️ Core Optimization &amp; Stability&#13;
-* **Overhauled Location Tracking**: Rewrote location metadata to double-check in-game status directly instead of guessing. This drastically reduces missing checks.&#13;
-* **Performance Boost**: Enhanced overall responsiveness and speed of the new location/check system.&#13;
-&#13;
-### 🗺️ Logic &amp; Rule Fixes&#13;
-* **Expanded Item Pool**: Added all remaining chests containing AP Crystals or Apples to the randomized pool.&#13;
-* **Reachability Fixes**: Corrected rules for accessing locations via item combinations or specific conditions.&#13;
-* **Key Requirements**: Fixed several item locations that were mistakenly assigned the wrong required key.&#13;
-* **Jump Rule Update**: Updated the `CAN_BIG_JUMP` rule to correctly include **Psychic Fish** and **Blue Powder**.&#13;
-* **Missing Items**: Restored the 3 missing 1Ups from the *Million Year Old Chest* in **Familiar Mansion**.&#13;
-* **Typo Fixes**: Cleaned up minor text errors.&#13;
-&#13;
-### 🐛 Bug Fixes&#13;
-* Fix #26 &#13;
-* Fix #45 &#13;
-* Fix #46 &#13;
-* Fix #48&#13;
-* Fix #49&#13;
-* Fix #50&#13;
-* Fix #51&#13;
-* Fix #52&#13;
-* Fix #53&#13;
-* Fix #54&#13;
-* Fix #56 &#13;
-* Fix #59 &#13;
-* Fix #64 &#13;
-&#13;
----&#13;
-&#13;
-## 🔧 Installation&#13;
-1. Download the source code or the `.apworld` file.&#13;
-2. Drop it into your Archipelago `custom_worlds/` directory.</content>
-    <link href="https://github.com/T4g1/ArchipelagoTomba/releases/tag/v0.2.2-beta"/>
-  </entry>
   <entry>
     <id>https://github.com/solida1987/Diablo-II-Archipelago/releases/tag/v3.7.0</id>
     <title>Diablo II Archipelago v3.7.0</title>
@@ -834,7 +627,7 @@ Also I'm going to start including the bizhawk connector in these releases again.
   </entry>
   <entry>
     <id>https://github.com/Lizardman175/DC1AP/releases/tag/v0.5.10</id>
-    <title>Dark Cloud 1 v0.5.0r2</title>
+    <title>Dark Cloud 1 v0.5.0r3</title>
     <updated>2026-08-12T21:44:05+00:00</updated>
     <author>
       <name>Lizardman175</name>
@@ -1652,5 +1445,73 @@ Since this update is almost a total rewrite, so there could likely be a lot of u
 Clean build.
 </content>
     <link href="https://github.com/solida1987/Diablo-II-Archipelago/releases/tag/v3.8.0"/>
+  </entry>
+  <entry>
+    <id>https://github.com/Wakamu/Grandiarchipelago/releases/tag/0.14.0_1</id>
+    <title>Grandia v0.14.0</title>
+    <updated>2026-08-14T16:39:33+00:00</updated>
+    <author>
+      <name>Grandiarchipelago</name>
+    </author>
+    <content>**What's new**:&#13;
+- Added a client icon.&#13;
+- Renamed some locations for more consistency.&#13;
+&#13;
+**Fixes**:&#13;
+- Fixed missing Savanna checks.&#13;
+- Fixed missing End of World checks.&#13;
+- Fixed custom party generation fetching a pointer too early causing crashes on some conditions.&#13;
+- Fixed player inventory break caused by character leaving the party on story events.</content>
+    <link href="https://github.com/Wakamu/Grandiarchipelago/releases/tag/0.14.0_1"/>
+  </entry>
+  <entry>
+    <id>https://github.com/EdricY/Bouncy-Loot-God/releases/tag/experiment-2</id>
+    <title>Borderlands 2 v2</title>
+    <updated>2026-08-14T18:10:09+00:00</updated>
+    <author>
+      <name>EdricY</name>
+    </author>
+    <content>Your story quests are set to completed, and AP will send you through the game in a non-linear fashion.&#13;
+Turn on by adding `fully_unlocked_mode: on`  to your yaml</content>
+    <link href="https://github.com/EdricY/Bouncy-Loot-God/releases/tag/experiment-2"/>
+  </entry>
+  <entry>
+    <id>https://github.com/threeandthreee/Archipelago/releases/tag/13.4.5</id>
+    <title>Links Awakening DX Beta v13.4.5</title>
+    <updated>2026-08-14T18:13:26+00:00</updated>
+    <author>
+      <name>zig</name>
+    </author>
+    <author>
+      <name>threeandthree</name>
+    </author>
+    <content>Adds option to block free powder pickups.</content>
+    <link href="https://github.com/threeandthreee/Archipelago/releases/tag/13.4.5"/>
+  </entry>
+  <entry>
+    <id>https://github.com/zaphim12/RL2Archipelago/releases/tag/v1.1.3</id>
+    <title>Rogue Legacy 2 v0.1.0r2</title>
+    <updated>2026-08-14T18:29:02+00:00</updated>
+    <author>
+      <name>zaphim12</name>
+    </author>
+    <content>Note: Please replace both the .apworld and the game mod files when updating to this version&#13;
+&#13;
+### Improvements&#13;
+&#13;
+- Add a colored tree which displays the upgrade paths in the manor. Manor locations are now named according to this tree (i.e. Manor - Red Path Upgrade 3) so that it is much clearer what a hint (or spoiler log) is referring to in the manor.&#13;
+  - This can be toggled on/off using the Spin-Kick button  &#13;
+- Added flavor text for foreign item descriptions which indicates whether it is progression, useful, or filler (or trap). &#13;
+- Manor items are no longer all marked as progression, only stat upgrades (assuming the YAML is configured to require some number of stat upgrades before biomes/bosses are considered "in-logic") are now progression. Things like class unlocks are not. This should provide a marginal improvement in success rate when generating worlds with stringent logic.&#13;
+&#13;
+### New Config Options&#13;
+&#13;
+1. reveal_manor_upgrades - (true/false, default: false), When enabled, all upgrades in the manor will be shown so purchases can be planned in advance. The normal purchase gating still applies; before you can purchase an upgrade, you must have purchased the previous upgrade in the manor.&#13;
+2. trap_appearance - (hidden/visible, default: hidden), When 'hidden' traps are disguised as another item from the multi-world so that they can't be trivially avoided by looking at an item name before purchasing. After purchase, the trap's true name is revealed. &#13;
+&#13;
+### Bugfixes&#13;
+&#13;
+- Fixed a bug where in a specific scenario (all estuaries defeated and sun lantern received already) Johan would not spawn in Pishon Dry Lake to give the sun-lantern-conversation location check.</content>
+    <link href="https://github.com/zaphim12/RL2Archipelago/releases/tag/v1.1.3"/>
   </entry>
 </feed>

@@ -1,7 +1,7 @@
 {
   "total_repositories": 816,
-  "total_packages": 940,
-  "total_versions": 10356,
+  "total_packages": 938,
+  "total_versions": 10340,
   "manifest_ready": {
     "outer_wilds": true,
     "mpadv": false,
@@ -531,7 +531,6 @@
     "slaythespire2": false,
     "bomberman_quest": true,
     "sm_map_rando": true,
-    "openttd": true,
     "budokai_tenkaichi2": false,
     "ckd": true,
     "color_picker": true,
@@ -668,7 +667,6 @@
     "pokemon_stadium": false,
     "manual_legorockband_gwaf": false,
     "shahrazad": false,
-    "monsterhunterfrontier": false,
     "tloz": false,
     "naruto_con_2": false,
     "wordsearch": false,
@@ -915,9 +913,9 @@
     "manual_ironsworn_axxroy": false
   },
   "max_minimum_ap_version": {
-    "": 436,
+    "": 435,
     "0.4.0": 2,
-    "0.5.0": 16,
+    "0.5.0": 15,
     "0.5.1": 3,
     "0.6.0": 15,
     "0.6.1": 12,
@@ -932,12 +930,12 @@
     "0.7.0": 1
   },
   "max_maximum_ap_version": {
-    "": 563,
+    "": 562,
     "0.0.1": 1,
     "0.4.6": 5,
     "0.6.6": 1,
     "0.6.7": 1,
-    "0.6.99": 327,
+    "0.6.99": 326,
     "0.9.99": 1
   }
 }
