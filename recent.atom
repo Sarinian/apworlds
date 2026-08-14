@@ -2,142 +2,11 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://raw.githubusercontent.com/silasary/apworlds/refs/heads/main/recent.atom</id>
   <title>Recent APWorlds</title>
-  <updated>2026-08-14T01:02:48.424364+00:00</updated>
+  <updated>2026-08-14T07:15:20.818115+00:00</updated>
   <author>
     <name>Silasary</name>
   </author>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
-  <entry>
-    <id>https://github.com/solida1987/Diablo-II-Archipelago/releases/tag/Unstable-3.6.5</id>
-    <title>Diablo II Archipelago v3.6.5</title>
-    <updated>2026-08-11T05:41:51+00:00</updated>
-    <author>
-      <name>solida1987</name>
-    </author>
-    <author>
-      <name>ꓘicka (AP logic)</name>
-    </author>
-    <author>
-      <name>Zoë (AP logic)</name>
-    </author>
-    <content># Diablo II Archipelago — Unstable 3.6.5
-
-## The cheat menu fits the screen now
-
-Some tabs — Runes, Gems and Misc under Loot — were taller than the screen at
-800x600. The panel centred itself on its own height, so on those tabs the title
-bar with the close button sat up to 67 pixels above the top edge and the last
-rows below the bottom one, with no way to reach either.
-
-The panel now caps its height to the screen and the content scrolls instead:
-mouse wheel over the panel, scrollbar on the right edge, and each tab remembers
-its own position. Tabs that fit are unchanged.
-
-## Choose how many skills are in the pool
-
-New option in both the Archipelago YAML (**Skill Pool Size**) and the
-launcher's standalone settings (a checkbox plus a slider). Off, or 0, means
-what it has always meant: every skill that passes the class filter.
-
-Set it to 30 and the pool is exactly 30 skills — **10 tier-1, 10 tier-2 and
-10 tier-3, picked at random**. The split stays even at any value, the class
-filter is applied first, and the skill locations that no longer hold a skill
-fill with ordinary filler instead.
-
-## Tested
-
-This release went through the full logic battery: every option at both
-extremes, the risky combinations (gates x entrances x goals, now including the
-new pool cap against all of them), 300 randomised option sets, a mixed
-multiworld, all 56 custom goals, a 126-slot world with ~300,000 foreign
-locations, and the gate-key placement audit — 360 key placements, none
-unreachable. The sweep also caught two real bugs in this feature before
-release, which is exactly what it is for.
-
-## Launcher 2.9.35
-
-- **Volume slider** for the notification sounds, defaulting to 50%.
-- **Add your own sound** — pick a wav, mp3 or wma and it appears in the
-  per-event sound lists. Your files live in their own folder that updates
-  never touch.
-</content>
-    <link href="https://github.com/solida1987/Diablo-II-Archipelago/releases/tag/Unstable-3.6.5"/>
-  </entry>
-  <entry>
-    <id>https://github.com/solida1987/Diablo-II-Archipelago/releases/tag/Unstable-3.6.6</id>
-    <title>Diablo II Archipelago v3.6.6</title>
-    <updated>2026-08-11T06:09:31+00:00</updated>
-    <author>
-      <name>solida1987</name>
-    </author>
-    <author>
-      <name>ꓘicka (AP logic)</name>
-    </author>
-    <author>
-      <name>Zoë (AP logic)</name>
-    </author>
-    <content># Unstable 3.6.6
-
-Rewards you can plan around. 33 new filler items, and where they land now
-depends on how far into the run you are.
-
-## Tiered rewards land at a matching depth
-
-High runes, perfect gems, grand charms and the big point items are held back
-for the later acts and difficulties. Their low-tier counterparts come early.
-A Vex is no longer exactly as likely in Blood Moor as in Hell Act 5.
-
-Measured over a full seed: **100% of tiered rewards now land inside their
-band, against 62-66% before.**
-
-The bands scale to the seed. A Full Normal run only spans Act 1 through Act 5
-Normal, so the whole ladder is squeezed onto that — the order survives even
-when "late" means Act 4 Normal instead of Act 3 Hell.
-
-New option **Tiered Filler Depth** (on by default) in both the AP YAML and the
-standalone settings. Turn it off for the old flat roll. It only moves filler,
-so logic and reachability are identical either way.
-
-## New rewards
-
-**Tiered bundles** — Random Rune (Mid), Random Rune (High), Flawless Gem,
-Perfect Gem, Small Charm, Large Charm, Grand Charm. The high rune band runs
-Pul through Ohm; Lo and above stay out of the filler pool.
-
-**Point items in real sizes** — 1, 3 and 10 Stat Points; 1, 2 and 3 Skill
-Points; 1 and 3 Reset Points. Named honestly, so what the multiworld shows
-other players is what you actually receive.
-
-**Gear by slot** — set and unique drops split into armour, helm, shield,
-gloves, boots, belt, weapon and jewelry. "Drop: Unique Boots" now means boots.
-
-## New traps
-
-- **Barrel Field** — a ring of exploding barrels around you
-- **Urn Garden** — a floor of urns to wade through
-- **False Treasure** — six chests, two of which are not chests
-- **Junk Backpack** — twenty useless items into your pack
-
-The first three hold until you leave town. All four also appear in standalone
-runs.
-
-## Fixes
-
-- **Standalone was missing twelve reward types.** The ordinary-item bundles
-  added in 3.6.5 were only ever wired into the Archipelago roll — a standalone
-  character could never receive them. All 19 bundles and all 8 trap types now
-  roll in both modes.
-- The Treasure Cow's chests and the new object traps now share one spawner
-  instead of two copies of the same code.
-
-## Verified
-
-Generation checked across the smoke, isolate, risky and multiworld option
-sweeps in both lines. A 300-player multiworld generated clean: 522 gate keys
-placed, zero depth violations.
-</content>
-    <link href="https://github.com/solida1987/Diablo-II-Archipelago/releases/tag/Unstable-3.6.6"/>
-  </entry>
   <entry>
     <id>https://github.com/Satisha10/APwotw_release/releases/tag/v0.6.4</id>
     <title>Ori and the Will of the Wisps v0.6.4</title>
@@ -975,7 +844,7 @@ Also I'm going to start including the bizhawk connector in these releases again.
   </entry>
   <entry>
     <id>https://github.com/Lizardman175/DC1AP/releases/tag/v0.5.10</id>
-    <title>Dark Cloud 1 v0.5.0r2</title>
+    <title>Dark Cloud 1 v0.5.0r3</title>
     <updated>2026-08-12T21:44:05+00:00</updated>
     <author>
       <name>Lizardman175</name>
@@ -1737,5 +1606,42 @@ This update also...&#13;
     </author>
     <content>**Full Changelog**: https://github.com/Alias-Cynestal/Archipelago/compare/v1.1.0...v1.2.0</content>
     <link href="https://github.com/Alias-Cynestal/Archipelago/releases/tag/v1.2.0"/>
+  </entry>
+  <entry>
+    <id>https://github.com/brodieberger/MMZero3Archipelago/releases/tag/v0.3.0</id>
+    <title>Mega Man Zero 3 v0.3.0</title>
+    <updated>2026-08-14T03:15:13+00:00</updated>
+    <author>
+      <name>brodieberger</name>
+    </author>
+    <content>A full rewrite! The world is now [built from a decompilation of the game](https://github.com/mmzret/rmz3) instead of patched into the ROM by hand. &#13;
+&#13;
+Since this update is almost a total rewrite, so there could likely be a lot of undocumented bugs, so be sure to let me know in the Discord if anything seems off!&#13;
+&#13;
+# New Features:&#13;
+- Item popups. You now get a little graphic on screen when another player sends you an item.&#13;
+  - This is still a work in progress, as the icons currently don't actually represent what you've received.&#13;
+- There is now a disk counter on the pause menu, so you can see how many you're holding out of how many you need for your goal to complete.&#13;
+- The hub room lets you replay a stage you've already cleared, either as a free run or as the mission again. This lets you reattempt missions for another chance at an A+ rank clear, meaning that no checks in this world are missable.&#13;
+- The vanilla goal option has been removed. There used to be a "vanilla" option, where you just had to beat the final boss. It has been removed, and now the only goal is to beat the boss with the set number of secret disks given. If you want the old way back, you can just set required disks to 0. I didn't feel like maintaining both options, and I don't think many people used it anyway.&#13;
+# Bug Fixes&#13;
+- E-Crystals filler items should no longer be lost if you load earlier saves after being sent them.&#13;
+- Subtanks no longer delete their location check. Receiving a subtank from someone else used to despawn its pickup in the world, which made that location impossible to get.&#13;
+- Armor chips, subtanks, and crystals no longer get temporarily deleted by a game over, and now show up immediately when you load a save.&#13;
+- Fixed one of Sunken Library's disks not being reset when you load the level and have already been given the disk through an Archipelago item.&#13;
+- Removed the warning telling you not to save after the credits. New Game Plus works entirely now, and saving whenever should be fine too, but you should probably keep a save game on the last level just so you can revisit all levels in the game.</content>
+    <link href="https://github.com/brodieberger/MMZero3Archipelago/releases/tag/v0.3.0"/>
+  </entry>
+  <entry>
+    <id>https://github.com/SpenserHaddad/Brotato-ArchipelagoClient/releases/tag/v0.15.2</id>
+    <title>Brotato v0.15.0r2</title>
+    <updated>2026-08-14T04:04:28+00:00</updated>
+    <author>
+      <name>Rampaging Hippy</name>
+    </author>
+    <content>## Fixed&#13;
+&#13;
+- Fixed the client failing to connect if the player's name had non-ASCII characters.</content>
+    <link href="https://github.com/SpenserHaddad/Brotato-ArchipelagoClient/releases/tag/v0.15.2"/>
   </entry>
 </feed>
