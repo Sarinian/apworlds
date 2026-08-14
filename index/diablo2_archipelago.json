@@ -1595,6 +1595,21 @@
       "title": "v3.7.6",
       "version_simple": "3.7.5",
       "world_version": "3.7.5r2"
+    },
+    "v3.8.0": {
+      "created_at": "2026-08-14T09:22:04Z",
+      "description": "# Diablo II Archipelago 3.8.0\n\nClean build.\n",
+      "download_url": "https://github.com/solida1987/Diablo-II-Archipelago/releases/download/v3.8.0/diablo2_archipelago.apworld",
+      "has_manifest": true,
+      "hash_sha256": "df5db0fc033bd720aa861a592cb80a15aca4df229587314e529a8786b12e0b66",
+      "html_url": "https://github.com/solida1987/Diablo-II-Archipelago/releases/tag/v3.8.0",
+      "minimum_ap_version": "0.5.0",
+      "size": 80774,
+      "source_url": "https://api.github.com/repos/solida1987/Diablo-II-Archipelago",
+      "tag": "v3.8.0",
+      "title": "v3.8.0",
+      "version_simple": "3.8.0",
+      "world_version": "3.8.0"
     }
   }
 }
