@@ -2,334 +2,11 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://raw.githubusercontent.com/silasary/apworlds/refs/heads/main/recent.atom</id>
   <title>Recent APWorlds</title>
-  <updated>2026-08-14T18:46:58.071106+00:00</updated>
+  <updated>2026-08-15T00:43:05.302501+00:00</updated>
   <author>
     <name>Silasary</name>
   </author>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
-  <entry>
-    <id>https://github.com/solida1987/Diablo-II-Archipelago/releases/tag/v3.7.0</id>
-    <title>Diablo II Archipelago v3.7.0</title>
-    <updated>2026-08-11T13:03:32+00:00</updated>
-    <author>
-      <name>solida1987</name>
-    </author>
-    <author>
-      <name>ꓘicka (AP logic)</name>
-    </author>
-    <author>
-      <name>Zoë (AP logic)</name>
-    </author>
-    <content># v3.7.0
-
-## The version is just a number now
-
-No more Beta, Stable or Unstable. Each of those made a promise about the build
-that the number already says better, and the last rename was itself a reaction
-to "Stable" claiming too much. A bare version claims nothing.
-
-`Unstable-3.6.9` was the last of the old spelling; this is `v3.7.0`.
-
-## Hunts now say where the target actually is
-
-With the super-unique shuffle on, a hunt's target keeps its name but stands on
-some other boss's spawn point. Three separate displays were supposed to tell
-you that. None of them did, for three different reasons:
-
-**The quest book showed nothing at all.** The code that looks up the moved
-target's real location sat behind a condition that could never be true — the
-line above it had already ruled out every hunt. It was dead from the day it was
-written.
-
-**Zone names were off by one.** The area name table is indexed by area id
-directly, but the book read it one slot low, so every zone on the page named
-its neighbour. This is very likely why the hunt areas were written off as
-untrustworthy at the time: the table was right, the reading was wrong.
-
-**The in-game tracker named the host but not the place.** It now says both.
-
-A hunt reads `Found in: Black Marsh (at Rakanishu's spot)` when shuffled, and
-its own verified zone when not.
-
-## Boss loot was invisible in solo runs
-
-Every reward type announces itself so the launcher can log it and play a sound.
-Boss loot said "Awesome loot incoming!", which carried none of the markers the
-solo pipe filters on — so it produced no tracker entry and no sound, and always
-had. It now announces itself like everything else:
-`Drop: Andariel Loot (4 items)`.
-
-Traps had the same problem and are fixed alongside.
-
-## Debug menu
-
-Unchanged from 3.6.9: `+100M XP`, `Max Level`, and `+10 Levels` giving ten
-actual levels.
-
-Requires launcher 2.9.39.
-</content>
-    <link href="https://github.com/solida1987/Diablo-II-Archipelago/releases/tag/v3.7.0"/>
-  </entry>
-  <entry>
-    <id>https://github.com/DayKat/spirit-tracks/releases/tag/st-v0.8.0</id>
-    <title>The Legend of Zelda - Spirit Tracks v0.8.0</title>
-    <updated>2026-08-11T13:04:14+00:00</updated>
-    <author>
-      <name>DayKat</name>
-    </author>
-    <author>
-      <name>1313e</name>
-    </author>
-    <author>
-      <name>Carrotinator</name>
-    </author>
-    <author>
-      <name>TriforceDrummer</name>
-    </author>
-    <author>
-      <name>Nepecute</name>
-    </author>
-    <author>
-      <name>Catzador</name>
-    </author>
-    <content>Very not compatible with previous versions.&#13;
-Requires new minimum Archipelago version of v0.6.7&#13;
-&#13;
-[Setup Guide](https://github.com/DayKat/spirit-tracks/blob/main/worlds/tloz_st/docs/setup.md)&#13;
-&#13;
-## UT Map Tracker by @Catzador and me&#13;
-- Maps for every room in the game, with entrances, locations, events and auto tabbing!&#13;
-&#13;
-## Randomized Start&#13;
-- Added Randomized Start&#13;
-  - Has presets for niko, stations, towns and tos, but you can add any land entrance you like to the pool&#13;
-- Added free_starting_items option, cause most stations have no locations on an empty sphere 0.&#13;
-- start_with_train does a bit of railfinding, and will give you valid rails if your starting entrance leads to a train entrance.&#13;
-&#13;
-## Entrance Randomization&#13;
-- Added entrance rando with the following groupings, that can either be shuffled by themselves or in 1 of 3 pools with other grouping. Dungeon options can also choose to only be shuffle with dungeon parts of the same dungeon:&#13;
-  - shuffle_houses&#13;
-  - shuffle_caves&#13;
-  - shuffle_overworld_transitions&#13;
-  - shuffle_stations&#13;
-  - shuffle_train_transitions&#13;
-  - shuffle_portals&#13;
-  - shuffle_dungeon_entrances&#13;
-  - shuffle_bosses&#13;
-  - shuffle_dungeon_rooms&#13;
-  - shuffle_blue_warps&#13;
-  - shuffle_tos_staircase&#13;
-  - shuffle_tos_entrances (not new, but has the new pool options)&#13;
-  - shuffle_hyrule_castle     &#13;
-  - shuffle_disorientation (&gt;:3)&#13;
-  - shuffle_eote (ends of the earth)&#13;
-  - shuffle_las (lost at sea)&#13;
-- Added the following entrance randomizer modifier options:&#13;
-  - entrance_directionality: choose what pools and groupings care about pairing ups and downs etc.&#13;
-  - decouple_entrances&#13;
-  - ut_blocked_entrances: same as ph, choose how ut tracks blocked entrances.&#13;
-- Added entrance plando, with auto-pairing of orphaned entrances across groupings.&#13;
-- Adding option for changing the number of times ER tries to generate a valid layout, in case you want to play with volitile ER settings.&#13;
-- Added extended hint data when entrances are randomized&#13;
-&#13;
-## Smaller new stuff&#13;
-- Added in-game warp to start! Same as ph, open the collection screen and flip to prime, then enter any transition or save and quit!&#13;
-- Added map warp! Tap a station on the map to prime a warp there. UT's `/get_logical_path` considers map warp when finding the shortest path. This can be disabled in host.yaml.&#13;
-- You remain in control during cutscenes for opening doors, extending bridges and hitting switches!&#13;
-- Added an option for non-progressive versions of bombs, bow and sword&#13;
-- Phantom Zelda now teleports to you whenever you try to enter a door without her&#13;
-- Added 3 missing big rupee locations in Dune Sanctuary&#13;
-- Added the /count_entrances client command, to check your entrance exploration progress.&#13;
-- Added an `all` option to plando_dungeon_pool&#13;
-- Opened the one-way passage from tunnel to the tower to the tower basement&#13;
-- Removed dungeons automatically open their boss doors, and give free small keys (in case ER wants you to pass through or something)&#13;
-- Locations sent from console now process in client, for things like sending ut events&#13;
-- Added open_blizzard_temple yaml option, the bell doors are always open&#13;
-- Added open_blue_warps yaml option, 2-way blue warps are always open&#13;
-- New UT events:&#13;
-  - Unlocking blue warps&#13;
-  - Unlocking train portals&#13;
-  - Delivering NPCs that give rewards in other rooms to their stations.&#13;
-  - Visiting Kagoron at the Mountain Altar&#13;
-  - Finding the chest at Disorientation Station&#13;
-  - Triggers in other ER rooms in marine temple&#13;
-  - Unique rabbit locations when total rabbits are enabled&#13;
-  - Stamp stations with vanilla stamps&#13;
-  - Extra shortcuts&#13;
-- Added a yaml option to toggle extra UT events&#13;
-- UT's /get_logical_path can use unlocked shortcuts.&#13;
-- Many events will trigger backup activation of themselves if save data was lost after triggering them&#13;
-&#13;
-## Bugfixes and tweaks&#13;
-- Fixed crashes from game trying to spawn demon trains on non-existant tracks. Forest glyph is now randomizable, as well as fire glyph without btt&#13;
-- Fixed gen bug where certain locations required a `player` amount of something&#13;
-- `both` option for dark realm access now cares about dungeons&#13;
-- Shattered compass mode no longer adds a completed compass to the pool&#13;
-- Boss key stuff should no longer crash!&#13;
-- Fraaz can now logically be killed with more than sword (most weapons hit through his big form's chargeup!)&#13;
-- Oops some events did not have data.&#13;
-- no_cargo now removes all lava in Goron Village&#13;
-- Ferrus now spawns in fire realm with ocean source&#13;
-- Hearts no longer get stolen at max health&#13;
-- Farmabe chests in LAS give treasure on repeat visits. final chest does not when rooms are shuffled&#13;
-- Quitting on the train no longer sends rabbit locations&#13;
-- Fixed catch 50 rabbits location&#13;
-- Fixed Linebeck treasure cave giving free rupees&#13;
-- Fixed Cactops giving free ocean source&#13;
-- Train parts are more consistent&#13;
-- Teao 3 unlocks without the previous levels if Teao 3 is a required dungeon&#13;
-- Fixed Teao 3 location&#13;
-- Stamps gotten with the vanilla stamp option persist through resets&#13;
-- Fixed item models for farmable chests on repeat visits&#13;
-- Client now actually fetches most server data on connecting rather than needing to wait until they get updated lol&#13;
-- Added a 10s timeout for precision operations&#13;
-- Saving and quitting was triggering events early, fixed it&#13;
-- Renamed starting entrance to Warp to Start&#13;
-- Prevented deathlink from processing during get item cutscenes&#13;
-- Fixed compass of light appearing in pool when playing with shattered compass&#13;
-- Failing to enter the dark realm sends goal requirement info&#13;
-- Added getting ToS 19f center chest without rotating repeaters with an off screen bow shot&#13;
-- Fixed model swaps for progressive item vanilla locations&#13;
-- Made progress on multi-version support&#13;
-- Sending extra progressive items sets the base item&#13;
-&#13;
-Huge thanks to @catzador for doing tracker data entry and loads of playtesting before release!</content>
-    <link href="https://github.com/DayKat/spirit-tracks/releases/tag/st-v0.8.0"/>
-  </entry>
-  <entry>
-    <id>https://github.com/solida1987/Diablo-II-Archipelago/releases/tag/v3.7.1</id>
-    <title>Diablo II Archipelago v3.7.1</title>
-    <updated>2026-08-11T16:02:16+00:00</updated>
-    <author>
-      <name>solida1987</name>
-    </author>
-    <author>
-      <name>ꓘicka (AP logic)</name>
-    </author>
-    <author>
-      <name>Zoë (AP logic)</name>
-    </author>
-    <content># v3.7.1 — Crash &amp; stability round (safe mid-run)
-
-Every fix in this release is runtime-only: nothing changes the generated world,
-the check list, or item placement. It is safe to update in the middle of an
-ongoing multiworld — that is the whole point of it.
-
-## Crash fixes
-
-- **Fixed the "cow crash"** (assertion in UnitRoom.cpp / DungeonTestRoomGame).
-  Every spawn the mod performs — Treasure Cow, cow hoard chests, trap ambushes,
-  object traps — now resolves the room that actually CONTAINS the target
-  coordinates before spawning. Previously the player's own room was passed with
-  far-away coordinates, and the game asserts on that mismatch instead of
-  failing gracefully; the cow's "30 placement attempts" never got a second try.
-  The cow also spawns closer now (25-100 yards instead of 40-300), so its
-  placement lands inside loaded terrain.
-- **Fixed the texture-cache crash** (glTextureCache.cpp / tTempItem). Object
-  traps (barrels / urns / false treasure) only spawn object types that are
-  already present in the area around you — an act-foreign object has no loaded
-  graphics and killed the renderer. A trap that cannot fire safely fizzles
-  silently instead of crashing.
-
-## Traps
-
-- **A "Trap: Monsters" filler no longer announces itself as the Monster Revive
-  Trap.** The ambush queue now remembers who queued it: reward traps say
-  "TRAP! Monsters incoming!", only the actual Revive Trap says "The slain rise
-  against you!". (The Revive Trap toggle itself always worked — the message
-  was lying.)
-
-## Item delivery / progression
-
-- **Raised both redelivery-protection caps** (applied-item ids 4096 → 16384,
-  filler locations 2048 → 8192) and made hitting a cap log loudly. Anything
-  that fell off these lists silently was re-delivered on the next reconnect —
-  the "save &amp; quit gave me 28 skill points" report.
-- **Settings now survive save &amp; load correctly:** `xp_multiplier` was clamped
-  by a leftover 1-10 guard on load (the setting goes 0-100 — an x25 player
-  lost the multiplier every restart), and `skill_max_level` +
-  `skill_level_reqs` were written to the state file but never read back.
-
-## Gameplay
-
-- **Treasure Cow rebalanced:** max 3 per act (was 5), 8% chance per area
-  (was 25%), and early-act HP bonuses roughly halved. A boss-tier cow in Den
-  of Evil at level 1 was not a fair fight. `treasure_cows.dat` overrides still
-  apply if present.
-- **After a crash you can no longer keep a skill you don't own on left/right
-  click** — the mod now validates hand-assigned skills continuously and resets
-  unowned ones to Attack.
-- **One kill can no longer complete two Hunts.** A super-unique's minions
-  share the boss's class, and the class-match fallback credited the minions'
-  hunt on top of the boss's own — minions and champions are now excluded from
-  fallback crediting.
-- **Clear Monastery Gate / Clear Inner Cloister** are now reach-the-area
-  checks. Those zones spawn almost no monsters, so "kill 8" meant dragging
-  monsters in from next door. Same treatment as the Tower Cellar fix in 3.0.0.
-
-## Entrance shuffle
-
-- **Exiting a cross-act shuffled dungeon returns you to the entrance you came
-  from** instead of bouncing you town-to-town. The act-town lock used to wipe
-  the recorded way home (this is what broke the Cain quest for one player),
-  and zone-locking could override the return warp in the same tick. The
-  original entrance always wins now.
-
-## UI
-
-- **The HUD tracker no longer draws on top of the open Book.**
-</content>
-    <link href="https://github.com/solida1987/Diablo-II-Archipelago/releases/tag/v3.7.1"/>
-  </entry>
-  <entry>
-    <id>https://github.com/pkolb-dev/Archipelago/releases/tag/2.0.0</id>
-    <title>The Legend of Dragoon v2.0.0</title>
-    <updated>2026-08-11T16:02:51+00:00</updated>
-    <author>
-      <name>pkolb-dev</name>
-    </author>
-    <content>## What's Changed&#13;
-* Sync by @pkolb-dev in https://github.com/pkolb-dev/Archipelago/pull/54&#13;
-* Swap to Rules Builder by @pkolb-dev in https://github.com/pkolb-dev/Archipelago/pull/55&#13;
-* Feature/augment shopsanity by @pkolb-dev in https://github.com/pkolb-dev/Archipelago/pull/58&#13;
-* Add deathlink option by @pkolb-dev in https://github.com/pkolb-dev/Archipelago/pull/59&#13;
-* fork sync by @pkolb-dev in https://github.com/pkolb-dev/Archipelago/pull/61&#13;
-* Legend of Dragoon: initial impl of magic by @pkolb-dev in https://github.com/pkolb-dev/Archipelago/pull/60&#13;
-* Feature/2.0.0 playtest changes by @pkolb-dev in https://github.com/pkolb-dev/Archipelago/pull/62&#13;
-&#13;
-&#13;
-**Full Changelog**: https://github.com/pkolb-dev/Archipelago/compare/1.3.1...2.0.0</content>
-    <link href="https://github.com/pkolb-dev/Archipelago/releases/tag/2.0.0"/>
-  </entry>
-  <entry>
-    <id>https://github.com/DayKat/spirit-tracks/releases/tag/st-v0.8.1</id>
-    <title>The Legend of Zelda - Spirit Tracks v0.8.1</title>
-    <updated>2026-08-11T16:41:45+00:00</updated>
-    <author>
-      <name>DayKat</name>
-    </author>
-    <author>
-      <name>1313e</name>
-    </author>
-    <author>
-      <name>Carrotinator</name>
-    </author>
-    <author>
-      <name>TriforceDrummer</name>
-    </author>
-    <author>
-      <name>Nepecute</name>
-    </author>
-    <author>
-      <name>Catzador</name>
-    </author>
-    <content>Compatible with seeds generated in v8.x&#13;
-&#13;
-- Fixed client crash when `tos_shortcuts=true`&#13;
-- Fixed game crash in forest realm with fire glyph and no ocean glyph&#13;
-- Fixed logic bug in ocean realm</content>
-    <link href="https://github.com/DayKat/spirit-tracks/releases/tag/st-v0.8.1"/>
-  </entry>
   <entry>
     <id>https://github.com/BuffYoda21/ap-glyphs/releases/tag/v1.2.0</id>
     <title>GLYPHS v1.2.0</title>
@@ -627,7 +304,7 @@ Also I'm going to start including the bizhawk connector in these releases again.
   </entry>
   <entry>
     <id>https://github.com/Lizardman175/DC1AP/releases/tag/v0.5.10</id>
-    <title>Dark Cloud 1 v0.5.0r3</title>
+    <title>Dark Cloud 1 v0.5.0r2</title>
     <updated>2026-08-12T21:44:05+00:00</updated>
     <author>
       <name>Lizardman175</name>
@@ -1513,5 +1190,153 @@ Turn on by adding `fully_unlocked_mode: on`  to your yaml</content>
 &#13;
 - Fixed a bug where in a specific scenario (all estuaries defeated and sun lantern received already) Johan would not spawn in Pishon Dry Lake to give the sun-lantern-conversation location check.</content>
     <link href="https://github.com/zaphim12/RL2Archipelago/releases/tag/v1.1.3"/>
+  </entry>
+  <entry>
+    <id>https://github.com/Teotia444/twwhd-apworld/releases/tag/v1.0.2-beta</id>
+    <title>The Wind Waker HD v1.0.2b0</title>
+    <updated>2026-08-14T19:20:30+00:00</updated>
+    <author>
+      <name>Teotia444</name>
+    </author>
+    <content># Changes&#13;
+Fixed the following locations :&#13;
+- `Windfall Island - Lenzo Bring Forest Firefly` will temporarily be disabled as it's a repeatable check and is not tied to a flag&#13;
+- `Windfall Island - Lenzo Become Assistant` used to not register, that's fixed&#13;
+&#13;
+Tracker: &#13;
+- Added a password field to the tracker so you can connect to password locked servers&#13;
+- Removed the mail chaining logic which would display available mail on certain conditions even if it was impossible&#13;
+- Restored the location list background which was removed for unknown reasons (upstream??)&#13;
+&#13;
+Others :&#13;
+- fixed generation with blue chu being held back by a typo&#13;
+- fixed death link sending twice sometimes when it was triggered by another player&#13;
+&#13;
+(this update comes with a generator update)</content>
+    <link href="https://github.com/Teotia444/twwhd-apworld/releases/tag/v1.0.2-beta"/>
+  </entry>
+  <entry>
+    <id>https://github.com/Trexounay/EnderLilies.Archipelago/releases/tag/endermagnolia-v0.1.3</id>
+    <title>Ender Magnolia v0.1.3</title>
+    <updated>2026-08-14T19:59:55+00:00</updated>
+    <author>
+      <name>Trex</name>
+    </author>
+    <content>**Archipelago** world for **Ender Magnolia**&#13;
+&#13;
+## Update&#13;
+- Added an option for advanced logic&#13;
+- Added an option for scaling chapter with progress&#13;
+- Fixed swamp lake respite logic&#13;
+&#13;
+## Requirements&#13;
+- [Archipelago](https://github.com/ArchipelagoMW/Archipelago/releases)&#13;
+- [Ender Magnolia Randomizer](https://github.com/Trexounay/EnderMagnolia.Randomizer/releases) Get the corresponding version&#13;
+&#13;
+## Current Features&#13;
+- 340 checks&#13;
+- 2 Goals: **Ending A** **Ending B**&#13;
+- Starting Skill option (except non breaking walls weapon)&#13;
+- Shuffle relic costs&#13;
+- Progressive Aptitudes&#13;
+- Start with heal/fast travel&#13;
+- min/max chapters&#13;
+- Central Elevator Fix option&#13;
+- Starting respite&#13;
+&#13;
+## Notes&#13;
+This is an early release and has not been extensively tested. Expect bugs and missing features, and please report any issues or feedback.</content>
+    <link href="https://github.com/Trexounay/EnderLilies.Archipelago/releases/tag/endermagnolia-v0.1.3"/>
+  </entry>
+  <entry>
+    <id>https://github.com/DannySchultzDev/Fantastic-Fist-Archipelago-Client/releases/tag/V0.0.3</id>
+    <title>Fantastic Fist v0.0.3</title>
+    <updated>2026-08-14T20:09:50+00:00</updated>
+    <author>
+      <name>WaluigiGoesWa</name>
+    </author>
+    <content>Entrance Rando has been implemented.&#13;
+Fixed versioning of the mod and AP World.&#13;
+Fixed bug where multiple connection sessions could be stored.&#13;
+Info tabs when hovering over a level now correctly show what exits have been collected in the level.&#13;
+Boss info tabs will show how many coins are acquired and needed when the player does not have enough.&#13;
+Fixed generation bug in the AP World when using Entrance Rando but no Door Rando.&#13;
+&#13;
+Currently Deathlink, Roomsanity, Checkpointsanity, and Door Rando do not work. They will be implemented at a later date.</content>
+    <link href="https://github.com/DannySchultzDev/Fantastic-Fist-Archipelago-Client/releases/tag/V0.0.3"/>
+  </entry>
+  <entry>
+    <id>https://github.com/Turese/LOArchipelagoPlugins/releases/tag/1.2.2</id>
+    <title>Look Outside v1.2.2</title>
+    <updated>2026-08-14T20:46:29+00:00</updated>
+    <author>
+      <name>Turese</name>
+    </author>
+    <content># QOL Features&#13;
+- Sybil’s Planetarium is unlocked by default&#13;
+- The book of crossword puzzles now starts with every puzzle completed but one&#13;
+- Paying rent now automatically grants locations for items that would otherwise become unreachable in the next phase of the landlord’s apartment&#13;
+- Removed some metadata from the client zipfile (.DS_Store artifacts from MacOS still present in some folders atm)&#13;
+- New options &#13;
+    - Starting Roommates: Player can pick an amount of random recruits to be in their apartment from game start.&#13;
+    - Elevator by Floor: When set to true, elevator activation will be granted one floor at a time, rather than all at once.&#13;
+&#13;
+# Client fixes&#13;
+- Fixed bug where buying Item 6 from Mutt’s shop would send the location for buying Item 12&#13;
+- Fixed bug where the boss Obsession was prevented from spawning in the Apartment 12 walls&#13;
+- Fixed bug where death link chat message would be sent on death even if death link was disabled&#13;
+- Fixed bug where the “Ease Regrets” option for Spine on the calendar in the player’s bedroom would not bring her back to life.&#13;
+- Fixed bug where being too late to save Ernest would not cause his ease regrets option to appear &#13;
+- Fixed bug where disabling randomized game skills still removes games’ ability to grant skills&#13;
+- Fixed bug where Wriggly Fred vanishes from the Fred apartment when acquired in the player’s fridge through the randomizer.&#13;
+- Fixed issue where "Suturing Kit" uses were initialized when defeating Taxidermy instead of when acquiring the item&#13;
+- Sam will now have arms until first connecting to archipelago to avoid a bug where the starting cutscene could remove arms after they had been granted to the player by archipelago.&#13;
+- Fixed some missing or swapped item icons&#13;
+- If player missed picking up the item randomized to the "Fred's Apt. Hat Room - Item" location before killing Toxic/Green Fred, then killing “Not A Cowboy Hat” will grant the location instead&#13;
+&#13;
+# Apworld changes&#13;
+- Fixed logic bug where “Teddy” was not considered a requirement for “Apt. 32 Bathroom - Item From Joel (Day 2-5)”&#13;
+- Fixed logic bug where “Myrmidon XII” was not considered a requirement for “Play Video Game - Myrmidon XII”&#13;
+- Fixed logic bug where “Rat Baby Thing” was not considered a requirement for “Apt. 13 - Item From Wall Mouth”&#13;
+- Fixed logic bug where certain worm enemies were considered reachable without completing Nestor and Rafta’s quest (nor were disabled when when Nestor and Rafta’s quest locations were disabled)&#13;
+- Fixed logic bug where Kevin shop item locations were considered reachable without completing Nestor and Rafta’s quest (nor were disabled when when Nestor and Rafta’s quest locations were disabled)&#13;
+- “Worm Egg” is no longer added to the item pool when Nestor and Rafta’s quest locations are disabled&#13;
+- Fixed logic bug where offerings were not considered a requirement for “Pre-ritual Gift From Jasper” (now requires 4 offerings or 3 offerings + Guinea Pig)&#13;
+- Disabling game skills now makes most games not progression items&#13;
+- Adjusted item pool drop rates of some filler items&#13;
+- Adjusted some location names&#13;
+&#13;
+## Difficulty bugs&#13;
+- Fixed bug where extra enemies that only appear in certain difficulties no longer appear in the overworld in all difficulties (this only applies to enemies that are bundled into fights that appear in all difficulties; hard-mode exclusive enemies like the Tooth Fairy in the tooth apartment will still always appear)&#13;
+- Vincent’s apartment is no longer open by default on non-Cursed difficulties, to align better with vanilla behavior&#13;
+- Fixed errors where the following overworld item locations would not appear on all difficulty modes:&#13;
+    - Boiler Storage - Item on South Table 1&#13;
+    - Boiler Storage - Item on South Table 3&#13;
+    - Boiler Storage - Item on West Counter 2&#13;
+    - Security Storage - Item on North Counter 2&#13;
+    - LL Memorial Room Cache - West Table Item 2&#13;
+    - LL Memorial Room Cache - South Corner Item 1&#13;
+    - Laundromat - Item in Southeast Corner&#13;
+    - Mutt's Shop Bathroom - Item on Counter</content>
+    <link href="https://github.com/Turese/LOArchipelagoPlugins/releases/tag/1.2.2"/>
+  </entry>
+  <entry>
+    <id>https://github.com/FyreDay/Archipelago-MinaTheHollower/releases/tag/v1.0.0-beta.6</id>
+    <title>Mina The Hollower v0.11.5r2</title>
+    <updated>2026-08-14T21:00:19+00:00</updated>
+    <author>
+      <name>FyreDay, Axertin, ZXavier</name>
+    </author>
+    <content>**THIS AP WORLD IS ONLY COMPATIBLE WITH [AP CLIENT BETA 6](https://github.com/Axertin/mth-apclient/releases/tag/v1.0.0-beta.6) AND LATER**&#13;
+&#13;
+This is a beta release. This means it is stable with no major bugs. If you find a bug please report it in the [Github Issues](https://github.com/FyreDay/Archipelago-MinaTheHollower/issues)&#13;
+&#13;
+Install guide and more information is in the [AP world Info Document](https://github.com/FyreDay/Archipelago-MinaTheHollower/blob/main/worlds/mina_the_hollower/docs/en_Mina%20The%20Hollower.md)&#13;
+&#13;
+### Changelog&#13;
+&#13;
+- Improve UT location placements&#13;
+- Rename 2 BB checks</content>
+    <link href="https://github.com/FyreDay/Archipelago-MinaTheHollower/releases/tag/v1.0.0-beta.6"/>
   </entry>
 </feed>
