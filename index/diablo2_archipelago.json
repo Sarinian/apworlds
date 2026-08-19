@@ -1610,6 +1610,51 @@
       "title": "v3.8.0",
       "version_simple": "3.8.0",
       "world_version": "3.8.0"
+    },
+    "v3.8.1": {
+      "created_at": "2026-08-18T18:49:17Z",
+      "description": "Entrance shuffle now drops you at the stairs you came from, not the deep end of the dungeon. Returning from a dungeon lands you at its entrance instead of the waypoint. Town portals into a locked act's town send you back where you stood instead of stranding you in another town. Shaman and mummy bosses no longer trade places in the boss shuffle, so revived corpses stop sliding around.\n",
+      "download_url": "https://github.com/solida1987/Diablo-II-Archipelago/releases/download/v3.8.1/diablo2_archipelago.apworld",
+      "has_manifest": true,
+      "hash_sha256": "b8af8cee06638be650774bdea764b47ac96c4a3a2db7f7e16cb666a42c980602",
+      "html_url": "https://github.com/solida1987/Diablo-II-Archipelago/releases/tag/v3.8.1",
+      "minimum_ap_version": "0.5.0",
+      "size": 80775,
+      "source_url": "https://api.github.com/repos/solida1987/Diablo-II-Archipelago",
+      "tag": "v3.8.1",
+      "title": "v3.8.1",
+      "version_simple": "3.8.1",
+      "world_version": "3.8.1"
+    },
+    "v3.8.2": {
+      "created_at": "2026-08-18T19:40:41Z",
+      "description": "The hunt list now names the monster you are looking for. With the boss shuffle on, the target stands in another boss's place and wears that boss's name, so the tracker says which one to kill and where \u2014 and says \"here\" once you are in the right zone. Two long-standing mistakes went with it: the zone shown for a hunt was wrong for 31 bosses whose table name differs from their hunt name, and Shenk was being shuffled despite being meant to stay put, which could leave his quest uncompletable.\n",
+      "download_url": "https://github.com/solida1987/Diablo-II-Archipelago/releases/download/v3.8.2/diablo2_archipelago.apworld",
+      "has_manifest": true,
+      "hash_sha256": "9f11f029fac6c34e160800ac6135855265942689b15ecdeef4e9a76642af288c",
+      "html_url": "https://github.com/solida1987/Diablo-II-Archipelago/releases/tag/v3.8.2",
+      "minimum_ap_version": "0.5.0",
+      "size": 80776,
+      "source_url": "https://api.github.com/repos/solida1987/Diablo-II-Archipelago",
+      "tag": "v3.8.2",
+      "title": "v3.8.2",
+      "version_simple": "3.8.2",
+      "world_version": "3.8.2"
+    },
+    "v3.8.3": {
+      "created_at": "2026-08-18T20:44:28Z",
+      "description": "When the launcher finds a Diablo II that is not 1.10f, it now says which version you actually have and what to do about it. If your install is older, it hands you Blizzard's own 1.10 patch, its checksum and the four steps. If it is newer, it explains why no patch can take you back down and points at the write-up. Before this it listed twenty file names that on 1.14 do not exist at all, which read like a broken download.\n",
+      "download_url": "https://github.com/solida1987/Diablo-II-Archipelago/releases/download/v3.8.3/diablo2_archipelago.apworld",
+      "has_manifest": true,
+      "hash_sha256": "374041357acec27fbfc6038dff7a2951cad76f246596b0c9dfbaaee175448f62",
+      "html_url": "https://github.com/solida1987/Diablo-II-Archipelago/releases/tag/v3.8.3",
+      "minimum_ap_version": "0.5.0",
+      "size": 80775,
+      "source_url": "https://api.github.com/repos/solida1987/Diablo-II-Archipelago",
+      "tag": "v3.8.3",
+      "title": "v3.8.3",
+      "version_simple": "3.8.3",
+      "world_version": "3.8.3"
     }
   }
 }
