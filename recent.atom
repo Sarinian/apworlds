@@ -2,72 +2,11 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://raw.githubusercontent.com/silasary/apworlds/refs/heads/main/recent.atom</id>
   <title>Recent APWorlds</title>
-  <updated>2026-08-19T06:33:49.526827+00:00</updated>
+  <updated>2026-08-19T12:32:17.033613+00:00</updated>
   <author>
     <name>Silasary</name>
   </author>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
-  <entry>
-    <id>https://github.com/vicr123/Archipelago/releases/tag/20260816-1</id>
-    <title>Candy Box 2 v1.20260816.1</title>
-    <updated>2026-08-16T12:30:41+00:00</updated>
-    <author>
-      <name>Victor Tran</name>
-    </author>
-    <author>
-      <name>Aren Merzoian</name>
-    </author>
-    <content>This version of the Candy Box 2 randomizer introduces the following features:&#13;
-- The hint client has been redesigned for easier reading and better functionality.&#13;
-  - The hint client now supports hint priorities.&#13;
-- Scrolling text can now be hovered to view the entire line.&#13;
-- Internal changes have been made to the apworld in order to use the new "Rule Builder" framework for logic.&#13;
-&#13;
-Additionally, the following bugs were fixed:&#13;
-- In some cases, Universal Tracker would fail to generate tracker data.&#13;
-- In the text client, player aliases are now shown when set.&#13;
-- In the text client, hint entrances are now displayed when a hint is sent.&#13;
-- The Talking Candy Box no longer mentions that the Locked Candy Box can be found in The Lonely House.&#13;
-&#13;
-Tested on AP 0.6.5, YMMV on later versions. Requires AP 0.6.0 or later.&#13;
-&#13;
-Game client available at: https://candybox2-ap.vicr123.com/20260816-1/</content>
-    <link href="https://github.com/vicr123/Archipelago/releases/tag/20260816-1"/>
-  </entry>
-  <entry>
-    <id>https://github.com/T4g1/ArchipelagoTomba/releases/tag/v0.3.6-beta</id>
-    <title>Tomba! v0.3.6b0</title>
-    <updated>2026-08-16T12:51:51+00:00</updated>
-    <author>
-      <name>T4g1</name>
-    </author>
-    <author>
-      <name>bosshunter</name>
-    </author>
-    <content>New **beta release** due to a possible memory corruption in the previous one&#13;
-&#13;
-&gt; [!WARNING]&#13;
-&gt; This release is in testing phase. While core progression mechanics are fully functional, you may encounter minor bugs or pacing quirks. Please report any logic errors or generation issues on the issue tracker.&#13;
-&#13;
----&#13;
-&#13;
-## ✨ What's New&#13;
-&#13;
-### 🛠️ New feature&#13;
-* **Event display**: The client must sometimes manipulates event states to prevent softlock, those modifications will now be reported in game with a popup&#13;
-&#13;
-### 🐛 Bug Fixes&#13;
-* Fix the chest with 1Up in Stormy Mountains reported in logic event without the key&#13;
-* Fix the water bucket location softlocked once the campfire in the forest is extinguished&#13;
-* Fix the funky parasol preventing to check the Give back the Pants location&#13;
-&#13;
----&#13;
-&#13;
-## 🔧 Installation&#13;
-1. Download the source code or the `.apworld` file.&#13;
-2. Drop it into your Archipelago `custom_worlds/` directory.</content>
-    <link href="https://github.com/T4g1/ArchipelagoTomba/releases/tag/v0.3.6-beta"/>
-  </entry>
   <entry>
     <id>https://github.com/awakenbad/SanAndreasAP/releases/tag/v0.6.1</id>
     <title>Grand Theft Auto: San Andreas v0.6.1</title>
@@ -1422,5 +1361,46 @@ This release provides the following updates:&#13;
 * Fixed Energy Pool on pause menu not being displayed properly&#13;
 * Fixed HP refills softlocking the game</content>
     <link href="https://github.com/TheLX5/Archipelago/releases/tag/mmx2-v2.0.3"/>
+  </entry>
+  <entry>
+    <id>https://github.com/carrotinator/Archipelago/releases/tag/ph-v0.9.6-alpha</id>
+    <title>The Legend of Zelda - Phantom Hourglass v0.9.6a0</title>
+    <updated>2026-08-19T09:19:49+00:00</updated>
+    <author>
+      <name>carrotinator</name>
+    </author>
+    <author>
+      <name>Tanker50207</name>
+    </author>
+    <author>
+      <name>palex00</name>
+    </author>
+    <author>
+      <name>CelestialKitsune</name>
+    </author>
+    <author>
+      <name>DayKat</name>
+    </author>
+    <author>
+      <name>1313e</name>
+    </author>
+    <author>
+      <name>Catzador</name>
+    </author>
+    <content>Compatible with seeds generated in v9.x&#13;
+[Setup Guide](https://github.com/carrotinator/Archipelago/blob/main/worlds/tloz_ph/docs/setup.md)&#13;
+&#13;
+- Hotfixed first stage of progressive items sending last stage</content>
+    <link href="https://github.com/carrotinator/Archipelago/releases/tag/ph-v0.9.6-alpha"/>
+  </entry>
+  <entry>
+    <id>https://github.com/Ishigh1/Archipelago/releases/tag/2048-1.1.3</id>
+    <title>2048 v1.1.3</title>
+    <updated>2026-08-19T12:10:51+00:00</updated>
+    <author>
+      <name>Ishigh</name>
+    </author>
+    <content>There has been some reports about merges not working even after getting the corresponding item. I got no idea why, so here's more logging to help investigate</content>
+    <link href="https://github.com/Ishigh1/Archipelago/releases/tag/2048-1.1.3"/>
   </entry>
 </feed>
