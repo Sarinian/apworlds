@@ -2,206 +2,11 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://raw.githubusercontent.com/silasary/apworlds/refs/heads/main/recent.atom</id>
   <title>Recent APWorlds</title>
-  <updated>2026-08-20T12:34:19.932470+00:00</updated>
+  <updated>2026-08-20T18:32:42.750709+00:00</updated>
   <author>
     <name>Silasary</name>
   </author>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
-  <entry>
-    <id>https://github.com/Str8UpWHITE64/Librarian-AP/releases/tag/2.0.1</id>
-    <title>Librarian Tidy Up the Arcane Library v2.0.1</title>
-    <updated>2026-08-16T23:48:53+00:00</updated>
-    <author>
-      <name>Str8UpWHITE64</name>
-    </author>
-    <content>## Librarian-AP v2.0.1&#13;
-&#13;
-Three bug fixes from 2.0.0 reports. **All three are retroactive: if you are mid-run&#13;
-on a 2.0.0 seed, update the mod and reconnect, and the items, checks and goal you&#13;
-were missing will come through. You do not need a new seed.**&#13;
-&#13;
-## Bug Fixes&#13;
-&#13;
-### Items received at connect went missing&#13;
-&#13;
-The first items a seed gives you arrive in the same instant you connect, before the&#13;
-client has finished loading the item list from the server. Their names came back as&#13;
-"Unknown", and since items are applied by name, those ones applied to nothing and&#13;
-were gone. Reloading fixed things only because reconnecting makes the&#13;
-server send everything again.&#13;
-&#13;
-The client now waits for the name before it counts an item as delivered.&#13;
-&#13;
-**If this happened to you, reconnect to your slot and the missing items will apply.**&#13;
-&#13;
-### The goal did not send on the full goal&#13;
-&#13;
-Every goal now sends off the row count, `full` included. A run that finished its last&#13;
-row in an earlier session also sends the goal now, instead of waiting for a row&#13;
-completion that already happened.&#13;
-&#13;
-### "Complete N Books" checks never sent&#13;
-&#13;
-In BookSanity, the book milestone checks never fired in any seed. The client was&#13;
-never reading them.&#13;
-&#13;
-They now send, and they count every book you have correctly shelved across the whole&#13;
-run rather than just the current session, so loading a save no longer starts the count&#13;
-over.&#13;
-&#13;
-These checks were called `Complete N Books` and are now `Correctly shelve N books`.&#13;
-Seeds generated on 2.0.0 are not affected and will keep the old name in your tracker.&#13;
-The only thing that needs updating is a YAML that names these locations in&#13;
-`exclude_locations`, `priority_locations` or plando, and only for new seeds.&#13;
-&#13;
-## Also in this release&#13;
-&#13;
-Sixteen leftover diagnostic hooks are gone. Four of them were failing to register on&#13;
-every launch and showing up as errors in logs.&#13;
-&#13;
-## Updating&#13;
-&#13;
-&gt; Extract the zip and drop `Librarian/` into your Steam install (overwrite). Drop the&#13;
-&gt; included `librarian.apworld` into your Archipelago `custom_worlds/` folder. Requires&#13;
-&gt; game build 1.0.12 or newer. The title screen top-right should read `LibAP v2.0.1`.&#13;
-&#13;
-**Continuing a 2.0.0 run:** you only need the mod. Your existing seed is fine and the&#13;
-host does not need to change anything.&#13;
-&#13;
-**Generating a new seed:** you need the new `librarian.apworld` as well.&#13;
-&#13;
-## If something breaks&#13;
-&#13;
-Send `crash_trace.log` (the header should read `mod=2.0.1`), the last ~200 lines of&#13;
-`UE4SS.log`, your YAML's `Librarian:` section, and one line on what you were doing.</content>
-    <link href="https://github.com/Str8UpWHITE64/Librarian-AP/releases/tag/2.0.1"/>
-  </entry>
-  <entry>
-    <id>https://github.com/furret78/ArchipelagoHBM/releases/tag/unstable-0.4.3</id>
-    <title>Black Market of Bulletphilia ~ 100th Black Market v0.4.3</title>
-    <updated>2026-08-16T23:57:47+00:00</updated>
-    <author>
-      <name>Yuureiki</name>
-    </author>
-    <content>Archipelago Randomizer implementation for **_Black Market of Bulletphilia ~ 100th Black Market_**, also known as _**Touhou 18.5**_.&#13;
-&#13;
-- **.apworld version:** Unstable 0.4.3&#13;
-- **Minimum Archipelago Launcher version:** 0.6.7&#13;
-&#13;
-Recommended to play on Windows, as **the game does not support Linux natively**. If playing on Linux, it is recommended to run both Archipelago Launcher and the game in Wine/Proton.&#13;
-&#13;
-# Changelog&#13;
-- Option **Itemized Equipment Upgrades** can now be customized to go up to +33 card slots and +600% equip cost.&#13;
-- Added Option: **Recommended Equipment Upgrades in Logic**. Recommended Loadout in Logic can now also take into account Itemized Equipment Upgrades.&#13;
-- Added Option: **Permanent Upgrades** (lives, Bullet Money, Shot Power, Shot Attack%, and Magic Circle Attack%).&#13;
-- Added Option: **Trap Blacklist**.&#13;
-- Renamed several items to be less confusing as to whether they are `One-time` bonuses, `Temporary` traps, or `Permanent` upgrades.&#13;
-- Removed Max Speed Trap due to being too similar to Extreme Speed Trap.&#13;
-- Revamped certain old Trap items to be `Temporary`: Freeze Trap, Extreme Speed Trap.&#13;
-- Added new `Temporary` Traps: Magic Circle Disable Trap, Powerless Shot Trap.&#13;
-- Added new `One-time` Traps: Funds Reset Trap, Bullet Money Reset Trap, 20% Shot Attack Trap, 0% Magic Circle Attack Trap, 1000% Magic Circle Duration Trap, Shot Power Reset Trap.&#13;
-&#13;
-Incompatible with worlds generated before 0.4.0. Compatible with worlds generated from 0.4.0 onwards.&#13;
-&#13;
-**Full Changelog**: https://github.com/furret78/Archipelago/compare/unstable-0.4.2...unstable-0.4.3&#13;
-&#13;
-# Game Details and Setup&#13;
-- See **game details** [here](https://github.com/furret78/Archipelago/blob/main/worlds/th185/docs/en_100th%20Black%20Market.md). When exporting .yaml files for this game, it is recommended to use the Options Creator in the Archipelago Launcher for a smooth experience.&#13;
-- See the **setup guide** [here](https://github.com/furret78/Archipelago/blob/main/worlds/th185/docs/setup_en.md).</content>
-    <link href="https://github.com/furret78/ArchipelagoHBM/releases/tag/unstable-0.4.3"/>
-  </entry>
-  <entry>
-    <id>https://github.com/Phenra/RoadTripAdventure-AP/releases/tag/v0.2.0</id>
-    <title>Road Trip Adventure v0.2.0</title>
-    <updated>2026-08-17T00:13:57+00:00</updated>
-    <author>
-      <name>Phenra</name>
-    </author>
-    <content>**Randomizer info page:**&#13;
-https://github.com/Phenra/RoadTripAdventure-AP/blob/main/docs/en_Road%20Trip%20Adventure.md&#13;
-**Setup guide:**&#13;
-https://github.com/Phenra/RoadTripAdventure-AP/blob/main/docs/setup_en.md&#13;
-&#13;
-&#13;
-### New YAML options:&#13;
-- **Parts Cost Modifier**: Set a percentage modifier for the cost of parts.&#13;
-- **Parts Cost Maximum**: Set the maximum cost for a part (applied after the percentage modifier).&#13;
-- **Auto Unlock Warps**: Automatically unlock the warp to a town's Q's Factory when you gain access to it.&#13;
-- Item and location groups added (@jack5github)&#13;
-### Bug fixes:&#13;
-- Shop checks can no longer be repurchased.&#13;
-- Missing access rule added for the Black Opal.&#13;
-- The Blue Sapphire and Fountain Pen now logically require Big Tires to access.&#13;
-  - Previous logic could have expected the player to know they can reverse up the pyramids, which is a glitch.&#13;
-- Client now patches vanilla game bug that causes the Space Meter to not be given to the player.&#13;
-  - In the vanilla game, clearing Tunnel Race on the first try causes the game to only give the player Body Q085, and not the Space Meter. This meant the location check for the Space Meter was permanently missable!&#13;
-### Gameplay changes:&#13;
-- In Decorations mode, the in-game descriptions for area unlock items now show what town they unlock.&#13;
-### New client commands:&#13;
-- 'world_version': Displays both the version of RTA AP in use, as well as the version used during generation (if connected to a server).&#13;
-- 'progressive_parts_progress': Displays the number of each progressive part received so far. Useful for determining which set to spend a hint on.&#13;
-### Behind-the-Scenes changes:&#13;
-- Wrote a basic MIPS encoder (not feature complete, generally only instructions I've used thus far are implemented). All game patches were rewritten to utilize it. This should make writing new assembly patches and updating old ones *significantly* easier!&#13;
-  - The rewritten patches were pretty thoroughly tested, so they shouldn't cause any issues - but please let me know if you run into any problems.</content>
-    <link href="https://github.com/Phenra/RoadTripAdventure-AP/releases/tag/v0.2.0"/>
-  </entry>
-  <entry>
-    <id>https://github.com/Lizardman175/DC1AP/releases/tag/v0.6.0</id>
-    <title>Dark Cloud 1 v0.6.0</title>
-    <updated>2026-08-17T01:09:04+00:00</updated>
-    <author>
-      <name>Lizardman175</name>
-    </author>
-    <content># Dark Cloud 1 AP Rando v0.6.0&#13;
-&#13;
-## General changes&#13;
- - Shopsanity&#13;
-   - Adds 2 items to each shop within the boss goal setting.  First item appears as Medusa Powder (300g), the second as Warp Powder (500g).  These are dummied out vanilla items.&#13;
-   - Gaffer's store replaces the attack/endurance+1 until the items are purchased while other stores just add new items&#13;
-   - Jack's Store logically requires Ruby so you can get the better building completion rewards before being required to get his items&#13;
-   - Rando's shop ironically is not randomized as he is missable&#13;
- - Fishsanity&#13;
-   - Adds first catch of each fish as locations (Ocean fish and Garayans are extra options)&#13;
-     - Fish logically require access to a shop with bait: Ruty (ocean fish), Brooke (desert fish &amp; baron garayan), Wise Owl or Lana for the rest (Lana for Mardan)&#13;
-	   - Wise Owl now sells Carrots for catching Umadakara&#13;
-     - Baron Garayan requires boss goal 4+ for Brooke's Shop, Mardan needs boss goal 3+ for Lana. Otherwise, they won't be locations.&#13;
-     - UT will show glitched logic if the fish are accessible without a bait shop&#13;
-   - Some bait may be added to the item pool with this setting (and are flagged Useful instead of Filler)&#13;
-   - https://darkcloud.fandom.com/wiki/Fish#Dark_Cloud for help on fish/bait/locations (seems incorrect)&#13;
- - Floorsanity&#13;
-   - Full clearing each normal dungeon floor becomes a check.  Requires all 15 enemies killed at the same time, rather than a total kill count.&#13;
-   - Character-limited floors are an extra option&#13;
- - Removed Dark Genie item/location; the boss kill is now tracked in data storage&#13;
- - Reworked location ID values (internal, but may affect poptracker. Check locations.py comment for details.)&#13;
- - Renamed "Yellow Drops entrance path chest" to "Yellow Drops path to Moon Sea chest 2"&#13;
-&#13;
-## Server Changes&#13;
- - Reworked item generation&#13;
-   - Items are now randomly created rather than static based on vanilla chests&#13;
-   - Slayer attachments are now useful instead of filler&#13;
-   - Other items like Gold Bullion and Dran's Feather can now be in the item pool&#13;
-   - Fishing rod added to the item pool&#13;
- - Dungeon checks now show glitched logic availability in UT if not enough HP/def boost items have been received&#13;
- - Option to add a set of gems to the item pool (provided enough locations exist)&#13;
-&#13;
-## Client Changes&#13;
- - Added a new "Connected and Ready!" message once the client has finished initialization tasks&#13;
- - DeathLink now buffers until the player is in a killable state&#13;
- - Alnet's House completion event is disabled to avoid double fishing rod&#13;
- - If connecting on a vanilla save, client now gives an error instead of releasing items&#13;
- - Rotated Norune Pond and Oasis to be more accessible for fishing&#13;
- - Added a few extra copies of parts like road and tree just for fun. Instead of 5, you'll get 6-8&#13;
- - Fixed a bug with autobuild that could give too many trees&#13;
- - Fixed a bug where the "x attachments remaining" message wasn't logging&#13;
- - Removed autobuilding of robot parts while in the factory; there is an obscure game crash that can happen that I haven't tracked down&#13;
- - Made Chief Bonka last item received for Chief's House so it is easier to access the building's chests&#13;
- - Added slot number to datastorage names&#13;
- &#13;
-## Known Issues&#13;
- - Shop sanity items don't always remove from shop inventory correctly after sending location&#13;
- - New ready message shows up during certain cutscenes</content>
-    <link href="https://github.com/Lizardman175/DC1AP/releases/tag/v0.6.0"/>
-  </entry>
   <entry>
     <id>https://github.com/ChakraaThePanda/Archipelago-Northgard/releases/tag/2026.08.16</id>
     <title>Northgard v2026.8.16</title>
@@ -328,6 +133,33 @@ Incompatible with worlds generated before 0.4.0. Compatible with worlds generate
 
 **Full Changelog**: https://github.com/mdietz94/dread_ap/compare/v0.26.0...v0.27.0</content>
     <link href="https://github.com/mdietz94/dread_ap/releases/tag/v0.27.0"/>
+  </entry>
+  <entry>
+    <id>https://github.com/agilbert1412/StardewArchipelago/releases/tag/8.1.0</id>
+    <title>Stardew Valley v8.1.0</title>
+    <updated>2026-08-17T16:52:05+00:00</updated>
+    <author>
+      <name>Kaito Kid</name>
+    </author>
+    <author>
+      <name>Jouramie</name>
+    </author>
+    <author>
+      <name>Witchybun (Mod Support)</name>
+    </author>
+    <author>
+      <name>Noa (Entrance Randomizer)</name>
+    </author>
+    <content>- Fixed multiple logic bugs&#13;
+- Added Foraging Locations in sphere 1&#13;
+- Fixed regions for fish and crops based on DR&#13;
+- Added FIBS logic and associated toggles&#13;
+- Reworked Help Wanted Quests&#13;
+  - Now all pre-generated, with appropriate logic, and can be completed in any order&#13;
+- Multiple Fixes to Entrance Randomization, some small bugs or generation errors might still occur&#13;
+- Added DR: Cohesive Fish: Will shuffle fish aspects "together"&#13;
+- Reworked Raccoon Bundles, so they can now be completed in any order insted of sequentially</content>
+    <link href="https://github.com/agilbert1412/StardewArchipelago/releases/tag/8.1.0"/>
   </entry>
   <entry>
     <id>https://github.com/Str8UpWHITE64/Librarian-AP/releases/tag/2.0.2</id>
@@ -1418,5 +1250,49 @@ Known issues (will be addressed in a later release)&#13;
     </author>
     <content>Started from the launcher, the game now goes straight in: no start dialog, no fields to fill. It loads this seed's own savegame when one exists and generates the world when none does; quitting — and every autosave — writes that per-seed save, so the next press of Play continues where you left off. Each seed keeps its own save, so two seeds can never pick up each other's progress. Requires plugin 1.2.1 (included).</content>
     <link href="https://github.com/solida1987/openttd-archipelago/releases/tag/v2.0.2"/>
+  </entry>
+  <entry>
+    <id>https://github.com/solida1987/openttd-archipelago/releases/tag/v2.0.3</id>
+    <title>OpenTTD v1.4.1r2</title>
+    <updated>2026-08-20T12:30:24+00:00</updated>
+    <author>
+      <name>OpenTTD AP Team</name>
+    </author>
+    <content>Started from the launcher, the game receives its world data reliably — a race between the launcher's hand-off and the game's start could leave the title screen sitting idle — and the manual Archipelago connect buttons do nothing under the launcher: London already holds the login, and no window may ask for it again. Requires launcher 3.7.35 and plugin 1.2.2 (included).</content>
+    <link href="https://github.com/solida1987/openttd-archipelago/releases/tag/v2.0.3"/>
+  </entry>
+  <entry>
+    <id>https://github.com/solida1987/openttd-archipelago/releases/tag/v2.0.4</id>
+    <title>OpenTTD v1.4.1r3</title>
+    <updated>2026-08-20T12:48:30+00:00</updated>
+    <author>
+      <name>OpenTTD AP Team</name>
+    </author>
+    <content>Every save now refreshes the seed's own savegame — the file auto-continue loads. Save from the menu under any name, let an autosave run, or just quit: the next press of Play in the launcher picks up exactly where you were, and a crash after a manual save no longer loses anything. Plugin 1.2.2 unchanged (included).</content>
+    <link href="https://github.com/solida1987/openttd-archipelago/releases/tag/v2.0.4"/>
+  </entry>
+  <entry>
+    <id>https://github.com/JammyGeeza/CursedWords-Archipelago/releases/tag/v0.4.1</id>
+    <title>Cursed Words v0.4.0r2</title>
+    <updated>2026-08-20T15:46:29+00:00</updated>
+    <author>
+      <name>JammyGeeza</name>
+    </author>
+    <content>## Information&#13;
+This archipelago implementation is in **early development** and is in public pre-release for testing, so may not be complete and/or may contain bugs that heavily disrupt the experience. It is not advised to include this in large multiworlds at this time, so only do so at your own risk and inform your host beforehand.&#13;
+&#13;
+## Setup Guide&#13;
+Please visit the [Setup Guide](https://github.com/JammyGeeza/CursedWords-Archipelago#setup-guide) for instructions on how to install the mod client.&#13;
+&#13;
+## Issue / Bug Reporting&#13;
+If you experience issues that are not already on the [known issues list](https://github.com/JammyGeeza/CursedWords-Archipelago/issues?q=is%3Aissue%20state%3Aopen), please raise a new issue or post in the [Cursed Words Forum in the Archipelago Discord Server](https://discord.com/channels/731205301247803413/1499176806962692196)&#13;
+&#13;
+## Patch Notes&#13;
+This release provides the following updates:&#13;
+### APWorld&#13;
+- None&#13;
+### Client&#13;
+- Fixes naming mis-match with 'Stage' related location checks</content>
+    <link href="https://github.com/JammyGeeza/CursedWords-Archipelago/releases/tag/v0.4.1"/>
   </entry>
 </feed>
