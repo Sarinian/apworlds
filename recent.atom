@@ -2,185 +2,11 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://raw.githubusercontent.com/silasary/apworlds/refs/heads/main/recent.atom</id>
   <title>Recent APWorlds</title>
-  <updated>2026-08-20T06:32:31.962401+00:00</updated>
+  <updated>2026-08-20T12:34:19.932470+00:00</updated>
   <author>
     <name>Silasary</name>
   </author>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
-  <entry>
-    <id>https://github.com/MaragonMH/Archipelago/releases/tag/XenoX0.2.4</id>
-    <title>Xenoblade X v0.2.4</title>
-    <updated>2026-08-16T20:54:17+00:00</updated>
-    <author>
-      <name>Maragon</name>
-    </author>
-    <author>
-      <name>Nina</name>
-    </author>
-    <content>- Added a new option `Combat Starting Items`.&#13;
-- Added a new visual crown indicator to enemies that are already checked.&#13;
-- Fixed logic</content>
-    <link href="https://github.com/MaragonMH/Archipelago/releases/tag/XenoX0.2.4"/>
-  </entry>
-  <entry>
-    <id>https://github.com/dlueben1/Slay-the-Spire-2-Archipelago/releases/tag/1.0.1</id>
-    <title>Slay the Spire II v1.0.1</title>
-    <updated>2026-08-16T22:03:21+00:00</updated>
-    <author>
-      <name>Kirbyfanner</name>
-    </author>
-    <author>
-      <name>Platano Bailando</name>
-    </author>
-    <author>
-      <name>Lyxn</name>
-    </author>
-    <author>
-      <name>MartyredG</name>
-    </author>
-    <author>
-      <name>Terairk</name>
-    </author>
-    <content>&gt; [!WARNING]&#13;
-&gt; Both Slay the Spire II and this Archipelago Mod are in active development. As such, while this _is_ playable, expect there to be bugs and limited features. We appreciate your playtesting!&#13;
-&#13;
-See the [1.0.0 release notes](https://github.com/dlueben1/Slay-the-Spire-2-Archipelago/releases/tag/1.0.0) for additional details about the big changes introduced in this major update.&#13;
-&#13;
-# Changelist&#13;
-&#13;
-## AP World Changelist&#13;
-- Logic now accounts for Progressive Starter Cards and Relics. You will hopefully get them consistently earlier in the run now.&#13;
-- Fixed **UT support** by making UT recognize the shuffle all card rewards option (this should fix the UT-fuzz issues)&#13;
-- Added Item Groups to make hinting easier such as Character Unlocks or 'Ironclad Campfire Upgrades' &#13;
-- Fix some fields not being pickled or not having correct default options&#13;
-&#13;
-## Game Client Mod Changelist&#13;
-- Some slight performance improvements in some areas.&#13;
-- Now **correctly handles disconnects** and ensures the connect button works on disconnecting and reconnecting&#13;
-- Checks from a slightly bigger disconnect are now queued offline and sent when you reconnect.&#13;
-&#13;
-# Mod Information&#13;
-&#13;
-## Pre-Requisites&#13;
-&#13;
-- **Your host MUST use Archipelago Client v0.6.7+**.&#13;
-- This version of the mod is intended to be used for **v0.107.1**  of Slay the Spire II&#13;
-  - While we have experimental support for the public beta branch **v0.111.0**, we recommend **the "Default Public/Main Version"** of the game to most players. Since the beta branch is updated more frequently and is more volatile, it's less likely to be bug-free. Please use it at your own risk. However numerous players have used it just fine, @Terairk is the maintainer for this and he mostly develops here.&#13;
-  - We will do our best to keep up with game updates as they release, so please be patient when encountering issues.&#13;
-&#13;
-## Installing the Mod from Steam Workshop (Recommended)&#13;
-&#13;
-1. Ensure that you have [RitsuLib](https://steamcommunity.com/sharedfiles/filedetails/?id=3747602295) installed. The easiest way to obtain it is from Steam Workshop.&#13;
-2. Subscribe to the [Slay the Spire II Archipelago Client](https://steamcommunity.com/sharedfiles/filedetails/?id=3748826296) on Steam Workshop.&#13;
-3. Make sure that any other unnecessary mods are turned off, unless you're trying to use a specific modded character for your Archipelago session.&#13;
-4. Start the game&#13;
-&#13;
-## Manually Installing the Mod from GitHub&#13;
-&#13;
-1. Ensure that you have [RitsuLib](https://steamcommunity.com/sharedfiles/filedetails/?id=3747602295) installed. The easiest way to obtain it is from Steam Workshop.&#13;
-2. Download the "sts2-client.zip" from the [Releases](https://github.com/dlueben1/Slay-the-Spire-2-Archipelago/releases/latest) section of the Repo&#13;
-3. Go to your Slay the Spire II directory (In Steam, click "Browse Local Files")&#13;
-4. If a folder called `mods` does not exist, create it&#13;
-5. Unzip the **contents** of `sts2-client.zip` into `mods`&#13;
-&#13;
-- If you've done this step correctly, your directory structure should look like this: `/&lt;slay-the-spire-2-local-files&gt;/mods/Archipelago/` and the contents of that folder should be a bunch of `.dll` files and a `.pck` file (there may be more files too, please don't touch anything in this folder)&#13;
-&#13;
-6. Start the game&#13;
-&#13;
-### Additional Steps for **Hosts**&#13;
-&#13;
-7. Download `spire2.apworld`&#13;
-8. Open your Archipelago Launcher&#13;
-9. Click "Install APWorld"&#13;
-10. Select `spire2.apworld` in the file dialog that pops up&#13;
-11. **Restart the Archipelago Launcher**&#13;
-12. Now you should be able to properly host/generate an Archipelago Session with StS 2&#13;
-&#13;
-- If you want to use `archipelago.gg` to host the game, generate it locally first following the steps above, then upload the `.zip` file from the `output` folder in your Archipelago installation&#13;
-&#13;
-&gt; [!IMPORTANT]&#13;
-&gt; You need to use Archipelago Version 0.6.7+ and CANNOT use earlier versions of Archipelago with this mod!&#13;
-&#13;
-## Known Issues/Limitations&#13;
-&#13;
-- Switching Slay the Spire II branches during an active run may make that run's checkpoint incompatible with the other branch.&#13;
-&#13;
-## Common Q&amp;A&#13;
-&#13;
-### Will this mess with my unmodded Save File?&#13;
-&#13;
-No.&#13;
-&#13;
-### I installed the AP World but it's not working&#13;
-&#13;
-Is your Archipelago Launcher v0.6.7 or later? If not it **won't work**.&#13;
-</content>
-    <link href="https://github.com/dlueben1/Slay-the-Spire-2-Archipelago/releases/tag/1.0.1"/>
-  </entry>
-  <entry>
-    <id>https://github.com/brodieberger/MMZero3Archipelago/releases/tag/v0.3.1</id>
-    <title>Mega Man Zero 3 v0.3.1</title>
-    <updated>2026-08-16T22:15:07+00:00</updated>
-    <author>
-      <name>brodieberger</name>
-    </author>
-    <content>New feature, level access items! This changes is very  a lot of how the game plays, so I would check out the [full README](https://github.com/brodieberger/MMZero3Archipelago/) so you know what to expect. Please report any bugs as usual!&#13;
-&#13;
-# New Features&#13;
-&#13;
-- Every stage is now locked behind its own access item. You start in the Resistance Base with no stages accessible. The first access item is guaranteed to be early local, so check around the base and talk to NPCs.&#13;
-&#13;
-- There's a modified mission select screen, which is visually very WIP. It works, and everything it tells you is correct, but it does not look finished yet.&#13;
-  - Boss portraits are in groups of four like before, but now you can tab between the pages with left and right on the d-pad (the shoulder buttons work too). &#13;
-  - Hovering a level tells you its name, how many of its disks you have found, whether it's LOCKED / OPEN / CLEARED, and your best rank in it.&#13;
-  - Picking a level you have already beaten asks you how you want to run it. EXPLORE is the vanilla revisit for picking up disks you missed. RETRY MISSION plays the level as a real mission again, so the boss is back and you get another shot at the A+ rank check.&#13;
-- There are now Story Progress items in the pool. Collecting one makes the game believe you completed the first intermission (Missile Factory), collecting the second makes the game believe you completed the second intermission (Copy X). This is kind of a bandaid fix, since all it really does is advance NPC dialogue so you can get the checks from them. It will be removed later.&#13;
-&#13;
-# Known bugs&#13;
-&#13;
-- The level select screen is visually early access. It works, and everything it tells you is correct, but it does not look finished yet. Specifically:&#13;
-&#13;
-  - The page with Area X-2 on it draws three portraits instead of four. The fourth one is there and selectable, and the name and info at the bottom are right, but the portrait doesn't render correctly.&#13;
-&#13;
-  - The last page is invisible. The following four levels (Derelict Spacecraft, Missile Factory, Sub Arcadia and Weil's Lab) have no boss portrait art yet. But the text at the bottom of the screen is correct and the levels are selectable as normal.&#13;
-&#13;
-  - Talking to the operator in the command room takes you straight to the stage select. Looks sort of strange and will be fixed later.</content>
-    <link href="https://github.com/brodieberger/MMZero3Archipelago/releases/tag/v0.3.1"/>
-  </entry>
-  <entry>
-    <id>https://github.com/Panguu/Archipelago-RaCSM/releases/tag/rac-size-matters/v0.4.14</id>
-    <title>Ratchet &amp; Clank: Size Matters v0.4.14</title>
-    <updated>2026-08-16T23:43:01+00:00</updated>
-    <author>
-      <name>Pangu</name>
-    </author>
-    <author>
-      <name>Amondo</name>
-    </author>
-    <author>
-      <name>ImJustATester</name>
-    </author>
-    <content>## RaC Size Matters APWorld rac-size-matters/v0.4.14
-
-**Branch:** main
-**Date:** 2026-08-16 23:45 UTC
-
-&lt;details&gt;
-&lt;summary&gt;&lt;strong&gt;Changes since rac-size-matters/v0.4.13&lt;/strong&gt;&lt;/summary&gt;
-
-- fix(size matters ps2): options issue on selecting specific clank challanges (77d8d1c5)
-- feat(size matters ps2): added logic for ghost ratchet, ammo link and bolt link for rac5 (56639d96)
-
-&lt;/details&gt;
-
-**Full changelog and compare**: https://github.com/Panguu/Archipelago-RaCSM/compare/rac-size-matters/v0.4.13...rac-size-matters/v0.4.14
-
-### Notes
-This release was automatically generated from the **main** branch.
-Latest (main) releases are recommended, as pre-releases (staging) may contain experimental or in-progress changes.
-</content>
-    <link href="https://github.com/Panguu/Archipelago-RaCSM/releases/tag/rac-size-matters/v0.4.14"/>
-  </entry>
   <entry>
     <id>https://github.com/Str8UpWHITE64/Librarian-AP/releases/tag/2.0.1</id>
     <title>Librarian Tidy Up the Arcane Library v2.0.1</title>
@@ -979,6 +805,23 @@ Implemented /resync command.&#13;
     <link href="https://github.com/solida1987/Diablo-II-Archipelago/releases/tag/v3.8.3"/>
   </entry>
   <entry>
+    <id>https://github.com/solida1987/Diablo-II-Archipelago/releases/tag/v3.8.4</id>
+    <title>Diablo II Archipelago v3.8.3r2</title>
+    <updated>2026-08-18T20:44:28+00:00</updated>
+    <author>
+      <name>solida1987</name>
+    </author>
+    <author>
+      <name>ꓘicka (AP logic)</name>
+    </author>
+    <author>
+      <name>Zoë (AP logic)</name>
+    </author>
+    <content>Three fixes from the bug tracker. The Treasure Cow now fights at the level of the zone it spawned in — its damage, attack rating and defence used to stay at its native level 28 even when its health was scaled down, which is why an Act 1 cow could one-shot characters that were meant to be able to take it on. Walking away from a live cow no longer shows a hoard message with no items behind it, and the act gets that cow slot back. Cows are also rarer: at most two per act. The four hunt targets (Winged Death, The Tormentor, Taintbreeder, Riftwraith) now always spawn in their home zones when hunting is on, so their hunts can be completed in every seed — before, they only existed in games whose zone-lock preload happened to include them. Fallen stay fallen under monster shuffle, which stops resurrected corpses from sliding across the floor at you.
+</content>
+    <link href="https://github.com/solida1987/Diablo-II-Archipelago/releases/tag/v3.8.4"/>
+  </entry>
+  <entry>
     <id>https://github.com/247Tossing/cyberpunk_archipelago/releases/tag/0.7.1</id>
     <title>cyberpunk2077-0.7.1 v0.7.0r2</title>
     <updated>2026-08-18T23:10:28+00:00</updated>
@@ -1526,5 +1369,54 @@ Generate a new seed.</content>
 This revision fixes the `level_placements` option and adds safeguards for it.&#13;
 </content>
     <link href="https://github.com/JKLeckr/Archipelago-cuphead/releases/tag/alpha03i"/>
+  </entry>
+  <entry>
+    <id>https://github.com/tathxo/DSAP/releases/tag/v0.2.5</id>
+    <title>Dark Souls Remastered v0.2.5</title>
+    <updated>2026-08-20T07:51:39+00:00</updated>
+    <author>
+      <name>Noka</name>
+    </author>
+    <author>
+      <name>ArsonAssassin</name>
+    </author>
+    <content># **Dark Souls Remastered Archipelago v0.2.5**&#13;
+## Pausing and Prison update&#13;
+&#13;
+### Version update -&gt; 0.2.5. **Client is compatible with 0.2.x generated apworlds**. &#13;
+All relevant changes are to the client only. The only change to the apworld from 0.2.4 is a version number update. &#13;
+## Features&#13;
+* Pauses the game while the Gesture menu is open. The behavior can be toggled off via the "Custom Controls" window in DSAP client settings. Items received during the pause will still be acquired. Deathlinks received while paused will both kill you and unpause.&#13;
+* DA/PW Warp Safety - Removes the warp prohibition which the game applies while player is in DA Prison cell or the Painted World.&#13;
+* DA Prison Break Cutscene Safety - resets the flags that get set if you've pulled the lever twice, allowing the gate to the Pisacas to open.&#13;
+* Additional options are available for the client's Font size.&#13;
+## Fixes&#13;
+* "Ghosts are not ghostly" setting now also removes the property of their attacks which make them unblockable while not cursed.&#13;
+* Tracker autotabbing detected wrong map in a part of Upper Undead Burg.&#13;
+&#13;
+Known issues (will be addressed in a later release)&#13;
+1) Rare crash related to bonfire syncing code.&#13;
+2) Petrus may aggro on you if you hurt his companions.</content>
+    <link href="https://github.com/tathxo/DSAP/releases/tag/v0.2.5"/>
+  </entry>
+  <entry>
+    <id>https://github.com/solida1987/openttd-archipelago/releases/tag/v2.0.1</id>
+    <title>OpenTTD v1.4.1r2</title>
+    <updated>2026-08-20T11:46:41+00:00</updated>
+    <author>
+      <name>OpenTTD AP Team</name>
+    </author>
+    <content>Connecting now actually starts the session: the status line turns green, vehicles stay locked until their item arrives, missions and stars track progress, checks reach the server and the goal fires. Resume sync marks already-checked missions, stars and shop slots as done instead of offering them again, and a game started from a seed's Join card receives that seed's data instead of leftovers from an earlier run. Requires plugin 1.2.0 (included).</content>
+    <link href="https://github.com/solida1987/openttd-archipelago/releases/tag/v2.0.1"/>
+  </entry>
+  <entry>
+    <id>https://github.com/solida1987/openttd-archipelago/releases/tag/v2.0.2</id>
+    <title>OpenTTD v1.4.1r3</title>
+    <updated>2026-08-20T12:17:00+00:00</updated>
+    <author>
+      <name>OpenTTD AP Team</name>
+    </author>
+    <content>Started from the launcher, the game now goes straight in: no start dialog, no fields to fill. It loads this seed's own savegame when one exists and generates the world when none does; quitting — and every autosave — writes that per-seed save, so the next press of Play continues where you left off. Each seed keeps its own save, so two seeds can never pick up each other's progress. Requires plugin 1.2.1 (included).</content>
+    <link href="https://github.com/solida1987/openttd-archipelago/releases/tag/v2.0.2"/>
   </entry>
 </feed>

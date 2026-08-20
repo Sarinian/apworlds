@@ -1655,6 +1655,21 @@
       "title": "v3.8.3",
       "version_simple": "3.8.3",
       "world_version": "3.8.3"
+    },
+    "v3.8.4": {
+      "created_at": "2026-08-18T20:44:28Z",
+      "description": "Three fixes from the bug tracker. The Treasure Cow now fights at the level of the zone it spawned in \u2014 its damage, attack rating and defence used to stay at its native level 28 even when its health was scaled down, which is why an Act 1 cow could one-shot characters that were meant to be able to take it on. Walking away from a live cow no longer shows a hoard message with no items behind it, and the act gets that cow slot back. Cows are also rarer: at most two per act. The four hunt targets (Winged Death, The Tormentor, Taintbreeder, Riftwraith) now always spawn in their home zones when hunting is on, so their hunts can be completed in every seed \u2014 before, they only existed in games whose zone-lock preload happened to include them. Fallen stay fallen under monster shuffle, which stops resurrected corpses from sliding across the floor at you.\n",
+      "download_url": "https://github.com/solida1987/Diablo-II-Archipelago/releases/download/v3.8.4/diablo2_archipelago.apworld",
+      "has_manifest": true,
+      "hash_sha256": "374041357acec27fbfc6038dff7a2951cad76f246596b0c9dfbaaee175448f62",
+      "html_url": "https://github.com/solida1987/Diablo-II-Archipelago/releases/tag/v3.8.4",
+      "minimum_ap_version": "0.5.0",
+      "size": 80775,
+      "source_url": "https://api.github.com/repos/solida1987/Diablo-II-Archipelago",
+      "tag": "v3.8.4",
+      "title": "v3.8.4",
+      "version_simple": "3.8.3",
+      "world_version": "3.8.3r2"
     }
   }
 }
