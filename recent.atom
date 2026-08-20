@@ -2,29 +2,11 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://raw.githubusercontent.com/silasary/apworlds/refs/heads/main/recent.atom</id>
   <title>Recent APWorlds</title>
-  <updated>2026-08-20T00:42:10.900745+00:00</updated>
+  <updated>2026-08-20T06:32:31.962401+00:00</updated>
   <author>
     <name>Silasary</name>
   </author>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
-  <entry>
-    <id>https://github.com/EdricY/Bouncy-Loot-God/releases/tag/be-100</id>
-    <title>Borderlands The Pre-Sequel v100</title>
-    <updated>2026-08-16T20:31:24+00:00</updated>
-    <author>
-      <name>EdricY</name>
-    </author>
-    <content>Want to test on the frontlines? Get the latest developments here. Higher likelihood of showstopping issues.&#13;
-Good luck out there, Slab!&#13;
-&#13;
-setup instructions on the home page and [readme](https://github.com/EdricY/Bouncy-Loot-God/blob/main/README.md)&#13;
-&#13;
-[sample yamls](https://github.com/EdricY/Bouncy-Loot-God/tree/main/sample-yamls)&#13;
-&#13;
-new stuff (since 0.5.5):&#13;
-- nothing yet!</content>
-    <link href="https://github.com/EdricY/Bouncy-Loot-God/releases/tag/be-100"/>
-  </entry>
   <entry>
     <id>https://github.com/MaragonMH/Archipelago/releases/tag/XenoX0.2.4</id>
     <title>Xenoblade X v0.2.4</title>
@@ -1529,5 +1511,20 @@ Play on the dev client: https://wikipelago-dev.dreskn.fr/&#13;
 Do not use main client with this build.&#13;
 Generate a new seed.</content>
     <link href="https://github.com/Dreskn/Wikipelago-Continued/releases/tag/1.0.0-beta1"/>
+  </entry>
+  <entry>
+    <id>https://github.com/JKLeckr/Archipelago-cuphead/releases/tag/alpha03i</id>
+    <title>Cuphead v0.2.20020810</title>
+    <updated>2026-08-20T00:26:46+00:00</updated>
+    <author>
+      <name>JKLeckr</name>
+    </author>
+    <content>**To see notes and what's new for alpha03, see [alpha03a](https://github.com/JKLeckr/Archipelago-cuphead/releases/tag/alpha03a)**&#13;
+&#13;
+### Revision&#13;
+&#13;
+This revision fixes the `level_placements` option and adds safeguards for it.&#13;
+</content>
+    <link href="https://github.com/JKLeckr/Archipelago-cuphead/releases/tag/alpha03i"/>
   </entry>
 </feed>
