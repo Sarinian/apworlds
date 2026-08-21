@@ -2,46 +2,11 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://raw.githubusercontent.com/silasary/apworlds/refs/heads/main/recent.atom</id>
   <title>Recent APWorlds</title>
-  <updated>2026-08-21T00:46:54.809735+00:00</updated>
+  <updated>2026-08-21T06:34:34.279590+00:00</updated>
   <author>
     <name>Silasary</name>
   </author>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
-  <entry>
-    <id>https://github.com/nielrenned/PokemonSnap_Archipelago/releases/tag/v0.6.1</id>
-    <title>Pokemon Snap v0.6.1</title>
-    <updated>2026-08-17T16:31:52+00:00</updated>
-    <author>
-      <name>nielrenned</name>
-    </author>
-    <content>## What's Changed&#13;
-* Fix Oak Reward Categorization by @nielrenned in https://github.com/nielrenned/PokemonSnap_Archipelago/pull/86&#13;
-&#13;
-&#13;
-**Full Changelog**: https://github.com/nielrenned/PokemonSnap_Archipelago/compare/v0.6.0...v0.6.1</content>
-    <link href="https://github.com/nielrenned/PokemonSnap_Archipelago/releases/tag/v0.6.1"/>
-  </entry>
-  <entry>
-    <id>https://github.com/mdietz94/dread_ap/releases/tag/v0.27.0</id>
-    <title>Metroid Dread v0.27.0</title>
-    <updated>2026-08-17T16:40:17+00:00</updated>
-    <author>
-      <name>maxdietz</name>
-    </author>
-    <author>
-      <name>Randovania Dread contributors</name>
-    </author>
-    <content>## What's Changed
-* chore(release): v0.26.0 by @mdietz94 in https://github.com/mdietz94/dread_ap/pull/175
-* build(deps): bump actions/setup-python from 6 to 7 by @dependabot[bot] in https://github.com/mdietz94/dread_ap/pull/171
-* Fix DeathLink firing on every game reload by @mdietz94 in https://github.com/mdietz94/dread_ap/pull/176
-* docs: drop the sysmodule build step from the setup guides by @mdietz94 in https://github.com/mdietz94/dread_ap/pull/177
-* fix(patcher): disable split_saves (per-seed save profiles) by @mdietz94 in https://github.com/mdietz94/dread_ap/pull/178
-
-
-**Full Changelog**: https://github.com/mdietz94/dread_ap/compare/v0.26.0...v0.27.0</content>
-    <link href="https://github.com/mdietz94/dread_ap/releases/tag/v0.27.0"/>
-  </entry>
   <entry>
     <id>https://github.com/agilbert1412/StardewArchipelago/releases/tag/8.1.0</id>
     <title>Stardew Valley v8.1.0</title>
@@ -1180,7 +1145,7 @@ Known issues (will be addressed in a later release)&#13;
   </entry>
   <entry>
     <id>https://github.com/solida1987/openttd-archipelago/releases/tag/v2.0.3</id>
-    <title>OpenTTD v1.4.1r3</title>
+    <title>OpenTTD v1.4.1r2</title>
     <updated>2026-08-20T12:30:24+00:00</updated>
     <author>
       <name>OpenTTD AP Team</name>
@@ -1190,7 +1155,7 @@ Known issues (will be addressed in a later release)&#13;
   </entry>
   <entry>
     <id>https://github.com/solida1987/openttd-archipelago/releases/tag/v2.0.4</id>
-    <title>OpenTTD v1.4.1r2</title>
+    <title>OpenTTD v1.4.1r3</title>
     <updated>2026-08-20T12:48:30+00:00</updated>
     <author>
       <name>OpenTTD AP Team</name>
@@ -1266,5 +1231,59 @@ Does not change anything else.&#13;
     </author>
     <content>Act-boss shuffle is off for now. A shuffled boss has been seen giving up its attack for good once the player breaks line of sight, and a boss that will not fight is a run that cannot be finished — so the option is gone from the Archipelago settings and from the standalone dialog until the cause is understood. Existing YAML files that set it still load; the setting simply has no effect. Super-unique shuffle is a separate system and is untouched. Nothing was deleted: the swap itself is still in the mod, with a note at the point where it would run explaining what to switch back on.</content>
     <link href="https://github.com/solida1987/Diablo-II-Archipelago/releases/tag/v3.8.6"/>
+  </entry>
+  <entry>
+    <id>https://github.com/ElectroStarz/ArchipelagoMSM/releases/tag/v3.0.0</id>
+    <title>Mario Sports Mix v3.0.0</title>
+    <updated>2026-08-21T03:13:33+00:00</updated>
+    <author>
+      <name>ElectroStarz</name>
+    </author>
+    <author>
+      <name>Puffy</name>
+    </author>
+    <content># What's Changed?&#13;
+## Alternate Paths&#13;
+- **Alternate Paths have been added! Clear missions along them to send locations.**&#13;
+- **Alternate Path Type**: Choose between per-cup and progressive alternate paths, as well as the option to merge locations between sports and/or difficulties.&#13;
+- **Always Spawn Alt Paths**: Choose to auto-unlock the alternate paths, bypassing the need to meet the criterias in the original game.&#13;
+- **Quality of Life**: Use Left/Right on the D-Pad when starting a new tournament to select your side to minimize the need for RNG.&#13;
+- **Alternate Path Guide**: In addition, several maps and a guide have been included to help those unfamiliar with the alternate paths.&#13;
+&#13;
+## Cosmetic Options&#13;
+- **Replace All Opponent Characters**: Turns all your opponents into a single character! You can even change the Hockey Goalies and Dodgeball Yoshis!&#13;
+- **Music Shuffle**: Shuffles around the game's music! (Note that some menu tracks cannot be shuffled)&#13;
+- **Tint Stages**: Applies a random tint to each stage to spice up the visuals a bit!&#13;
+&#13;
+## Quality of Life Changes&#13;
+- **Restrict Sports Mix**: Makes it so Sports Mix can only pull from enabled sports.&#13;
+- **Start with Random Mushroom Cups**: You can now start with 1-7 random mushroom cups (+ courts).&#13;
+- **Points to Win**: Changed Points to Win so that it applies for the whole match, rather than just the set.&#13;
+- **Progressive Courts**: Progressive Courts now use a different order that should make progression smoother.&#13;
+     -  &lt;sub&gt;Mario Stadium &gt; Koopa Troopa Beach &gt; Peach's Castle &gt; Toad Park &gt; DK Dock &gt; Western Junction &gt; Luigi's Mansion &gt; Wario Factory &gt; Daisy Garden &gt; Waluigi Pinball &gt; Bowser Jr. Blvd &gt; Ghoulish Galleon &gt; Bowser's Castle &gt; Star Ship &gt; Behemoth Stage&lt;sub/&gt;&#13;
+&#13;
+## Bug Fixes&#13;
+- Fixed some logic pertaining to Sports Mix&#13;
+- Updated some older functions to use newly discovered memory addresses&#13;
+- Fixed a bug where changing from one Mario Sports Mix player to another without closing the client would cause the new Mario Sports Mix player to instantly check all locations checked from the first player.&#13;
+- Fixed a bug where duplicate courts got added to the itempool if the court was part of Party Mode, but was also precollected at the start.</content>
+    <link href="https://github.com/ElectroStarz/ArchipelagoMSM/releases/tag/v3.0.0"/>
+  </entry>
+  <entry>
+    <id>https://github.com/spencer2585/MCC-AP/releases/tag/Alpha-1.2.1</id>
+    <title>Halo The Master Chief Collection v1.2.1</title>
+    <updated>2026-08-21T03:29:17+00:00</updated>
+    <author>
+      <name>Spencer2585</name>
+    </author>
+    <author>
+      <name>barretg</name>
+    </author>
+    <content># Bug Fixes&#13;
+- Fixed Skulls locked when skullsanity is disabled&#13;
+- Fixed Skull pickups sending the wrong location&#13;
+- Fix skulls not being locked after quitting a mission&#13;
+- Fix brower flagging zip file as virus</content>
+    <link href="https://github.com/spencer2585/MCC-AP/releases/tag/Alpha-1.2.1"/>
   </entry>
 </feed>

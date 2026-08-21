@@ -1,7 +1,7 @@
 {
   "total_repositories": 816,
   "total_packages": 942,
-  "total_versions": 10499,
+  "total_versions": 10502,
   "manifest_ready": {
     "outer_wilds": true,
     "mpadv": false,
@@ -925,8 +925,8 @@
     "0.6.3": 60,
     "0.6.4": 74,
     "0.6.5": 34,
-    "0.6.6": 43,
-    "0.6.7": 187,
+    "0.6.6": 42,
+    "0.6.7": 188,
     "0.6.8": 4,
     "0.6.9": 1,
     "0.7.0": 1
