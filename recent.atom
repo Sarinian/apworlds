@@ -2,103 +2,11 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://raw.githubusercontent.com/silasary/apworlds/refs/heads/main/recent.atom</id>
   <title>Recent APWorlds</title>
-  <updated>2026-08-20T18:32:42.750709+00:00</updated>
+  <updated>2026-08-21T00:46:54.809735+00:00</updated>
   <author>
     <name>Silasary</name>
   </author>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
-  <entry>
-    <id>https://github.com/ChakraaThePanda/Archipelago-Northgard/releases/tag/2026.08.16</id>
-    <title>Northgard v2026.8.16</title>
-    <updated>2026-08-17T01:25:37+00:00</updated>
-    <author>
-      <name>Chakraa</name>
-    </author>
-    <content>### Fixed&#13;
-- Winning the second same-Chapter battle (top/bottom) wasn't sending the proper checks.&#13;
-- Non-Linear Mode: the Conquest map could get permanently stuck (no nodes clickable, Escape not working) after winning a battle out of the usual order.&#13;
-&#13;
-**Full Changelog**: https://github.com/ChakraaThePanda/Archipelago-Northgard/compare/2026.08.15.2...2026.08.16&#13;
-</content>
-    <link href="https://github.com/ChakraaThePanda/Archipelago-Northgard/releases/tag/2026.08.16"/>
-  </entry>
-  <entry>
-    <id>https://github.com/theemeraldsword85/DELTARUNEAP/releases/tag/v2.1.3%2Bhotfix1</id>
-    <title>Deltarune v2.1.3+hotfix1</title>
-    <updated>2026-08-17T02:22:28+00:00</updated>
-    <author>
-      <name>Mewlif</name>
-    </author>
-    <author>
-      <name>theemeraldsword85</name>
-    </author>
-    <author>
-      <name>Tenebrosful</name>
-    </author>
-    <author>
-      <name>Vintagix</name>
-    </author>
-    <author>
-      <name>Deadzi</name>
-    </author>
-    <author>
-      <name>Charaster</name>
-    </author>
-    <author>
-      <name>Potato</name>
-    </author>
-    <content>[Setup Guide](https://github.com/theemeraldsword85/DELTARUNEAP/blob/v2.1.3+hotfix1/worlds/deltarune/docs/setup_en.md) - [Q&amp;A](https://github.com/theemeraldsword85/DELTARUNEAP/blob/v2.1.3+hotfix1/worlds/deltarune/docs/en_DELTARUNE.md) - [Credits](https://github.com/theemeraldsword85/DELTARUNEAP/blob/main/worlds/deltarune/docs/DELTARUNEAP%20CREDITS.md)&#13;
-&#13;
-[Game Mod Releases](https://github.com/Tenebrosful/DeltaruneAP-mod/releases)&#13;
-Or, alternatively,&#13;
-[GameBanana Page](https://gamebanana.com/mods/699556)&#13;
-&#13;
-# Changelog&#13;
-- Fix Tasque Manager Challenge and All Star challenge behing in logic before their requirement&#13;
-- Fix Ambuy-lance and Maus not checking recruit requirement if you was playing both routes</content>
-    <link href="https://github.com/theemeraldsword85/DELTARUNEAP/releases/tag/v2.1.3%2Bhotfix1"/>
-  </entry>
-  <entry>
-    <id>https://github.com/Simsipelago/Archipelago/releases/tag/2.0.1</id>
-    <title>The Sims 4 v2.0.1</title>
-    <updated>2026-08-17T04:28:26+00:00</updated>
-    <author>
-      <name>Simsipelago</name>
-    </author>
-    <content>This release fixes the Universal Tracker integration. Thank you to @silasary for fixing it!&#13;
-&#13;
-**Full Changelog**: https://github.com/Simsipelago/Archipelago/compare/2.0.0...2.0.1</content>
-    <link href="https://github.com/Simsipelago/Archipelago/releases/tag/2.0.1"/>
-  </entry>
-  <entry>
-    <id>https://github.com/furret78/ArchipelagoHBM/releases/tag/unstable-0.4.4</id>
-    <title>Black Market of Bulletphilia ~ 100th Black Market v0.4.4</title>
-    <updated>2026-08-17T10:23:02+00:00</updated>
-    <author>
-      <name>Yuureiki</name>
-    </author>
-    <content>Archipelago Randomizer implementation for **_Black Market of Bulletphilia ~ 100th Black Market_**, also known as _**Touhou 18.5**_.&#13;
-&#13;
-- **.apworld version:** Unstable 0.4.4&#13;
-- **Minimum Archipelago Launcher version:** 0.6.7&#13;
-&#13;
-Recommended to play on Windows, as **the game does not support Linux natively**. If playing on Linux, it is recommended to run both Archipelago Launcher and the game in Wine/Proton.&#13;
-&#13;
-# Changelog&#13;
-- Fixed a FillError bug caused by enabling **Itemized Equipment Upgrades** without enabling **Recommended Equipment Upgrades in Logic**.&#13;
-- Adjusted the descriptions of various Options to be less incorrect.&#13;
-- Added Option: **Trap Durations**. The duration of some Temporary traps can now be adjusted before generation.&#13;
-- Updated docs.&#13;
-&#13;
-Incompatible with worlds generated before 0.4.0. Compatible with worlds generated from 0.4.0 onwards.&#13;
-&#13;
-**Full Changelog**: https://github.com/furret78/Archipelago/compare/unstable-0.4.3...unstable-0.4.4&#13;
-&#13;
-# Game Details and Setup&#13;
-- See **game details** [here](https://github.com/furret78/Archipelago/blob/main/worlds/th185/docs/en_100th%20Black%20Market.md). When exporting .yaml files for this game, it is recommended to use the Options Creator in the Archipelago Launcher for a smooth experience.&#13;
-- See the **setup guide** [here](https://github.com/furret78/Archipelago/blob/main/worlds/th185/docs/setup_en.md).</content>
-    <link href="https://github.com/furret78/ArchipelagoHBM/releases/tag/unstable-0.4.4"/>
-  </entry>
   <entry>
     <id>https://github.com/nielrenned/PokemonSnap_Archipelago/releases/tag/v0.6.1</id>
     <title>Pokemon Snap v0.6.1</title>
@@ -150,7 +58,9 @@ Incompatible with worlds generated before 0.4.0. Compatible with worlds generate
     <author>
       <name>Noa (Entrance Randomizer)</name>
     </author>
-    <content>- Fixed multiple logic bugs&#13;
+    <content>## Note: This is a breaking change from 8.0.x. You cannot use a 8.1.x mod with a 8.0.x multiworld and vice versa&#13;
+&#13;
+- Fixed multiple logic bugs&#13;
 - Added Foraging Locations in sphere 1&#13;
 - Fixed regions for fish and crops based on DR&#13;
 - Added FIBS logic and associated toggles&#13;
@@ -1075,12 +985,13 @@ Send `crash_trace.log` (the header should read `mod=2.0.3`), the last ~200 lines
   </entry>
   <entry>
     <id>https://github.com/jordansds/Archipelago_TWW3_Alt/releases/tag/v0.10.16</id>
-    <title>Total War Warhammer 3 v0.10.16</title>
+    <title>Total War Warhammer 3 v0.10.16.post2</title>
     <updated>2026-08-19T19:08:39+00:00</updated>
     <author>
       <name>jordansds</name>
     </author>
     <content>Added missing Dechala buildings.&#13;
+Fixed bug with Dechala and progressive buildings failing generation.&#13;
 Fixed progressive units.&#13;
 &#13;
 **Full Changelog**: https://github.com/jordansds/Archipelago_TWW3_Alt/compare/v0.10.15...v0.10.16</content>
@@ -1203,6 +1114,22 @@ This revision fixes the `level_placements` option and adds safeguards for it.&#1
     <link href="https://github.com/JKLeckr/Archipelago-cuphead/releases/tag/alpha03i"/>
   </entry>
   <entry>
+    <id>https://github.com/solida1987/Diablo-II-Archipelago/releases/tag/v3.8.5</id>
+    <title>Diablo II Archipelago v3.8.0r2</title>
+    <updated>2026-08-20T07:40:16+00:00</updated>
+    <author>
+      <name>solida1987</name>
+    </author>
+    <author>
+      <name>ꓘicka (AP logic)</name>
+    </author>
+    <author>
+      <name>Zoë (AP logic)</name>
+    </author>
+    <content>Slot-filtered rewards now hand out what the multiworld actually promised. A "Unique Weapon" or "Set Helm" was quietly falling back to a random roll of any kind, because the mod looked up which equipment slot an item belongs to by reading armor.txt and weapons.txt from the game folder — and those files have not shipped since 3.7.6, when they were removed for being Blizzard's own. The engine never noticed, since it reads them from your game archives; our own code could not. The table is now built into the mod, so it cannot go missing again, and a modded install that carries its own tables still overrides it.</content>
+    <link href="https://github.com/solida1987/Diablo-II-Archipelago/releases/tag/v3.8.5"/>
+  </entry>
+  <entry>
     <id>https://github.com/tathxo/DSAP/releases/tag/v0.2.5</id>
     <title>Dark Souls Remastered v0.2.5</title>
     <updated>2026-08-20T07:51:39+00:00</updated>
@@ -1253,7 +1180,7 @@ Known issues (will be addressed in a later release)&#13;
   </entry>
   <entry>
     <id>https://github.com/solida1987/openttd-archipelago/releases/tag/v2.0.3</id>
-    <title>OpenTTD v1.4.1r2</title>
+    <title>OpenTTD v1.4.1r3</title>
     <updated>2026-08-20T12:30:24+00:00</updated>
     <author>
       <name>OpenTTD AP Team</name>
@@ -1263,7 +1190,7 @@ Known issues (will be addressed in a later release)&#13;
   </entry>
   <entry>
     <id>https://github.com/solida1987/openttd-archipelago/releases/tag/v2.0.4</id>
-    <title>OpenTTD v1.4.1r3</title>
+    <title>OpenTTD v1.4.1r2</title>
     <updated>2026-08-20T12:48:30+00:00</updated>
     <author>
       <name>OpenTTD AP Team</name>
@@ -1294,5 +1221,50 @@ This release provides the following updates:&#13;
 ### Client&#13;
 - Fixes naming mis-match with 'Stage' related location checks</content>
     <link href="https://github.com/JammyGeeza/CursedWords-Archipelago/releases/tag/v0.4.1"/>
+  </entry>
+  <entry>
+    <id>https://github.com/furret78/ArchipelagoHBM/releases/tag/0.4.51</id>
+    <title>Black Market of Bulletphilia ~ 100th Black Market v0.4.51</title>
+    <updated>2026-08-20T17:41:14+00:00</updated>
+    <author>
+      <name>Yuureiki</name>
+    </author>
+    <content>Archipelago Randomizer implementation for **_Black Market of Bulletphilia ~ 100th Black Market_**, also known as _**Touhou 18.5**_.&#13;
+&#13;
+- **.apworld version:** 0.4.51&#13;
+- **Minimum Archipelago Launcher version:** 0.6.7&#13;
+&#13;
+Recommended to play on Windows, as **the game does not support Linux natively**. If playing on Linux, it is recommended to run both Archipelago Launcher and the game in Wine/Proton.&#13;
+&#13;
+# Changelog&#13;
+- Quality-of-life: Koishi's Ability Card no longer keeps the Power loss death penalty reduction behavior that was carried over from Unconnected Marketeers. Since deaths in 100th Black Market does not subtract Power upon dying, Koishi's card was the only way player deaths reduced Power.&#13;
+- Quality-of-life: `One-time` Funds received at the end of a stage will be applied to the Funds in the menu instead of in the stage.&#13;
+- Itemized Equip Cost can now go up to 18, totalling 1000% Equip Cost if fully upgraded.&#13;
+- Removed certain unnecessary code comments from internal files to cut down on file size _(not removed in GitHub source code, only in release build)_.&#13;
+&#13;
+Does not change anything else.&#13;
+&#13;
+**Full Changelog**: https://github.com/furret78/ArchipelagoHBM/compare/0.4.5...0.4.51&#13;
+&#13;
+# Game Details and Setup&#13;
+- See **game details** [here](https://github.com/furret78/Archipelago/blob/main/worlds/th185/docs/en_100th%20Black%20Market.md). When exporting .yaml files for this game, it is recommended to use the Options Creator in the Archipelago Launcher for a smooth experience.&#13;
+- See the **setup guide** [here](https://github.com/furret78/Archipelago/blob/main/worlds/th185/docs/setup_en.md).</content>
+    <link href="https://github.com/furret78/ArchipelagoHBM/releases/tag/0.4.51"/>
+  </entry>
+  <entry>
+    <id>https://github.com/solida1987/Diablo-II-Archipelago/releases/tag/v3.8.6</id>
+    <title>Diablo II Archipelago v3.8.3r2</title>
+    <updated>2026-08-20T20:47:07+00:00</updated>
+    <author>
+      <name>solida1987</name>
+    </author>
+    <author>
+      <name>ꓘicka (AP logic)</name>
+    </author>
+    <author>
+      <name>Zoë (AP logic)</name>
+    </author>
+    <content>Act-boss shuffle is off for now. A shuffled boss has been seen giving up its attack for good once the player breaks line of sight, and a boss that will not fight is a run that cannot be finished — so the option is gone from the Archipelago settings and from the standalone dialog until the cause is understood. Existing YAML files that set it still load; the setting simply has no effect. Super-unique shuffle is a separate system and is untouched. Nothing was deleted: the swap itself is still in the mod, with a note at the point where it would run explaining what to switch back on.</content>
+    <link href="https://github.com/solida1987/Diablo-II-Archipelago/releases/tag/v3.8.6"/>
   </entry>
 </feed>
