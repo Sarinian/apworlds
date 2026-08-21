@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://raw.githubusercontent.com/silasary/apworlds/refs/heads/main/recent.atom</id>
   <title>Recent APWorlds</title>
-  <updated>2026-08-21T06:34:34.279590+00:00</updated>
+  <updated>2026-08-21T12:33:38.065874+00:00</updated>
   <author>
     <name>Silasary</name>
   </author>
@@ -426,7 +426,7 @@ Implemented /resync command.&#13;
     <author>
       <name>Zoë (AP logic)</name>
     </author>
-    <content>Entrance shuffle now drops you at the stairs you came from, not the deep end of the dungeon. Returning from a dungeon lands you at its entrance instead of the waypoint. Town portals into a locked act's town send you back where you stood instead of stranding you in another town. Shaman and mummy bosses no longer trade places in the boss shuffle, so revived corpses stop sliding around.
+    <content>Entrance shuffle now drops you at the stairs you came from, not the deep end of the dungeon. Returning from a dungeon lands you at its entrance instead of the waypoint. Town portals into a locked act's town send you back where you stood instead of stranding you in another town. Shaman and mummy bosses no longer trade places in the boss shuffle, so revived corpses stop sliding around.&#13;
 </content>
     <link href="https://github.com/solida1987/Diablo-II-Archipelago/releases/tag/v3.8.1"/>
   </entry>
@@ -443,7 +443,7 @@ Implemented /resync command.&#13;
     <author>
       <name>Zoë (AP logic)</name>
     </author>
-    <content>The hunt list now names the monster you are looking for. With the boss shuffle on, the target stands in another boss's place and wears that boss's name, so the tracker says which one to kill and where — and says "here" once you are in the right zone. Two long-standing mistakes went with it: the zone shown for a hunt was wrong for 31 bosses whose table name differs from their hunt name, and Shenk was being shuffled despite being meant to stay put, which could leave his quest uncompletable.
+    <content>The hunt list now names the monster you are looking for. With the boss shuffle on, the target stands in another boss's place and wears that boss's name, so the tracker says which one to kill and where — and says "here" once you are in the right zone. Two long-standing mistakes went with it: the zone shown for a hunt was wrong for 31 bosses whose table name differs from their hunt name, and Shenk was being shuffled despite being meant to stay put, which could leave his quest uncompletable.&#13;
 </content>
     <link href="https://github.com/solida1987/Diablo-II-Archipelago/releases/tag/v3.8.2"/>
   </entry>
@@ -507,7 +507,7 @@ Implemented /resync command.&#13;
     <author>
       <name>Zoë (AP logic)</name>
     </author>
-    <content>When the launcher finds a Diablo II that is not 1.10f, it now says which version you actually have and what to do about it. If your install is older, it hands you Blizzard's own 1.10 patch, its checksum and the four steps. If it is newer, it explains why no patch can take you back down and points at the write-up. Before this it listed twenty file names that on 1.14 do not exist at all, which read like a broken download.
+    <content>When the launcher finds a Diablo II that is not 1.10f, it now says which version you actually have and what to do about it. If your install is older, it hands you Blizzard's own 1.10 patch, its checksum and the four steps. If it is newer, it explains why no patch can take you back down and points at the write-up. Before this it listed twenty file names that on 1.14 do not exist at all, which read like a broken download.&#13;
 </content>
     <link href="https://github.com/solida1987/Diablo-II-Archipelago/releases/tag/v3.8.3"/>
   </entry>
@@ -524,7 +524,7 @@ Implemented /resync command.&#13;
     <author>
       <name>Zoë (AP logic)</name>
     </author>
-    <content>Three fixes from the bug tracker. The Treasure Cow now fights at the level of the zone it spawned in — its damage, attack rating and defence used to stay at its native level 28 even when its health was scaled down, which is why an Act 1 cow could one-shot characters that were meant to be able to take it on. Walking away from a live cow no longer shows a hoard message with no items behind it, and the act gets that cow slot back. Cows are also rarer: at most two per act. The four hunt targets (Winged Death, The Tormentor, Taintbreeder, Riftwraith) now always spawn in their home zones when hunting is on, so their hunts can be completed in every seed — before, they only existed in games whose zone-lock preload happened to include them. Fallen stay fallen under monster shuffle, which stops resurrected corpses from sliding across the floor at you.
+    <content>Three fixes from the bug tracker. The Treasure Cow now fights at the level of the zone it spawned in — its damage, attack rating and defence used to stay at its native level 28 even when its health was scaled down, which is why an Act 1 cow could one-shot characters that were meant to be able to take it on. Walking away from a live cow no longer shows a hoard message with no items behind it, and the act gets that cow slot back. Cows are also rarer: at most two per act. The four hunt targets (Winged Death, The Tormentor, Taintbreeder, Riftwraith) now always spawn in their home zones when hunting is on, so their hunts can be completed in every seed — before, they only existed in games whose zone-lock preload happened to include them. Fallen stay fallen under monster shuffle, which stops resurrected corpses from sliding across the floor at you.&#13;
 </content>
     <link href="https://github.com/solida1987/Diablo-II-Archipelago/releases/tag/v3.8.4"/>
   </entry>
@@ -1145,7 +1145,7 @@ Known issues (will be addressed in a later release)&#13;
   </entry>
   <entry>
     <id>https://github.com/solida1987/openttd-archipelago/releases/tag/v2.0.3</id>
-    <title>OpenTTD v1.4.1r2</title>
+    <title>OpenTTD v1.4.1r3</title>
     <updated>2026-08-20T12:30:24+00:00</updated>
     <author>
       <name>OpenTTD AP Team</name>
@@ -1155,7 +1155,7 @@ Known issues (will be addressed in a later release)&#13;
   </entry>
   <entry>
     <id>https://github.com/solida1987/openttd-archipelago/releases/tag/v2.0.4</id>
-    <title>OpenTTD v1.4.1r3</title>
+    <title>OpenTTD v1.4.1r2</title>
     <updated>2026-08-20T12:48:30+00:00</updated>
     <author>
       <name>OpenTTD AP Team</name>
@@ -1177,7 +1177,7 @@ This archipelago implementation is in **early development** and is in public pre
 Please visit the [Setup Guide](https://github.com/JammyGeeza/CursedWords-Archipelago#setup-guide) for instructions on how to install the mod client.&#13;
 &#13;
 ## Issue / Bug Reporting&#13;
-If you experience issues that are not already on the [known issues list](https://github.com/JammyGeeza/CursedWords-Archipelago/issues?q=is%3Aissue%20state%3Aopen), please raise a new issue or post in the [Cursed Words Forum in the Archipelago Discord Server](https://discord.com/channels/731205301247803413/1499176806962692196)&#13;
+If you experience issues that are not already on the [known issues list](https://github.com/JammyGeeza/CursedWords-Archipelago/issues/views/12865), please raise a new issue or post in the [Cursed Words Forum in the Archipelago Discord Server](https://discord.com/channels/731205301247803413/1499176806962692196)&#13;
 &#13;
 ## Patch Notes&#13;
 This release provides the following updates:&#13;
