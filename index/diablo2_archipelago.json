@@ -1700,6 +1700,36 @@
       "title": "v3.8.6",
       "version_simple": "3.8.3",
       "world_version": "3.8.3r2"
+    },
+    "v3.8.7": {
+      "created_at": "2026-08-21T20:04:32Z",
+      "description": "The Sorceress no longer crashes her way into the game. Diablo II would stop with its own assertion box \u2014 SCmd.cpp, line 3910 \u2014 within seconds of reaching town, and only for her; every other class played fine. At startup the mod rewrote the skill animations of all seven classes at once, before it knew which class was about to be played, and then put the player's own skills back to normal a moment later when the character loaded. Three Sorceress skills carry the animations that were being rewritten, and changing them under the game's feet threw off the queue Diablo II keeps of commands it has sent and is still waiting to hear back about. Animations are now applied once, per class, when the character loads, so nothing is ever written and then taken back. Every class keeps its own animations, and a skill borrowed from another class still falls back to an attack animation exactly as before.\n\nVersion numbers agree with each other again. The bootstrap launcher was still reporting 3.8.3 and the packaged Archipelago world still declared 3.8.3, four releases after the rest of the mod had moved on.\n",
+      "download_url": "https://github.com/solida1987/Diablo-II-Archipelago/releases/download/v3.8.7/diablo2_archipelago.apworld",
+      "has_manifest": true,
+      "hash_sha256": "d6b61b5804770c7844d86ba6cdcc42c334af5265d01e50816fe8644f780143d8",
+      "html_url": "https://github.com/solida1987/Diablo-II-Archipelago/releases/tag/v3.8.7",
+      "minimum_ap_version": "0.5.0",
+      "size": 81216,
+      "source_url": "https://api.github.com/repos/solida1987/Diablo-II-Archipelago",
+      "tag": "v3.8.7",
+      "title": "v3.8.7",
+      "version_simple": "3.8.7",
+      "world_version": "3.8.7"
+    },
+    "v3.8.8": {
+      "created_at": "2026-08-21T22:17:38Z",
+      "description": "The startup crash is fixed. Diablo II would stop with its own assertion box \u2014 SCmd.cpp line 3910 \u2014 seconds after a character entered town, sometimes on the first try and sometimes after a dozen, on any class. The mod sent its internal packets to the wrong address: what it called D2Client's send function is in fact D2Client's weapon-swap command handler, and calling it left a register the handler reads holding whatever happened to be there. Depending on that value the game carried on, raised the assertion box, or faulted outright, which is why the crash came and went with no pattern. Packets now go through D2Net's real send function, the one the rest of the mod already used.\n\nBow, crossbow and javelin skills keep their weapon requirement. It was being stripped along with every other weapon restriction, so a character who was dealt Fire Arrow among the random starting skills could select and cast it while holding a staff. The requirement is what makes Diablo II refuse the cast until a bow is equipped, and the skills stay in the pool for every class \u2014 anyone can pick up a bow and use them.\n\nCrash reports name the module behind every stack address, and every skill change on either hand is logged with the item that granted it. Both are there so a report from a player carries what is needed to place a fault without a second round of questions.\n",
+      "download_url": "https://github.com/solida1987/Diablo-II-Archipelago/releases/download/v3.8.8/diablo2_archipelago.apworld",
+      "has_manifest": true,
+      "hash_sha256": "855f011f90aee831b3d6f5378e861c371c32360bb9b5ebc16dea61acea833613",
+      "html_url": "https://github.com/solida1987/Diablo-II-Archipelago/releases/tag/v3.8.8",
+      "minimum_ap_version": "0.5.0",
+      "size": 81216,
+      "source_url": "https://api.github.com/repos/solida1987/Diablo-II-Archipelago",
+      "tag": "v3.8.8",
+      "title": "v3.8.8",
+      "version_simple": "3.8.8",
+      "world_version": "3.8.8"
     }
   }
 }

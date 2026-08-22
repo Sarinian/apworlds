@@ -1,7 +1,7 @@
 {
   "total_repositories": 816,
   "total_packages": 942,
-  "total_versions": 10507,
+  "total_versions": 10513,
   "manifest_ready": {
     "outer_wilds": true,
     "mpadv": false,
@@ -548,7 +548,7 @@
     "rac3": true,
     "chrono_gear": false,
     "crash2": true,
-    "lor": false,
+    "lor": true,
     "wordipelago": true,
     "manual_PLA_miro": false,
     "mzm": true,
@@ -915,7 +915,7 @@
     "manual_ironsworn_axxroy": false
   },
   "max_minimum_ap_version": {
-    "": 436,
+    "": 435,
     "0.4.0": 2,
     "0.5.0": 16,
     "0.5.1": 3,
@@ -923,10 +923,10 @@
     "0.6.1": 12,
     "0.6.2": 11,
     "0.6.3": 60,
-    "0.6.4": 74,
+    "0.6.4": 73,
     "0.6.5": 34,
     "0.6.6": 42,
-    "0.6.7": 188,
+    "0.6.7": 190,
     "0.6.8": 4,
     "0.6.9": 1,
     "0.7.0": 1

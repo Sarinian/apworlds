@@ -2,143 +2,11 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://raw.githubusercontent.com/silasary/apworlds/refs/heads/main/recent.atom</id>
   <title>Recent APWorlds</title>
-  <updated>2026-08-21T18:31:03.522243+00:00</updated>
+  <updated>2026-08-22T00:43:26.317469+00:00</updated>
   <author>
     <name>Silasary</name>
   </author>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
-  <entry>
-    <id>https://github.com/hasherwi/Archipelago-kirbyam/releases/tag/kirbyam-v0.3.1-rc1</id>
-    <title>Kirby &amp; The Amazing Mirror v0.3.1rc1</title>
-    <updated>2026-08-17T20:14:55+00:00</updated>
-    <author>
-      <name>Harrison Sherwin</name>
-    </author>
-    <content>## v0.3.1&#13;
-&#13;
-### New Features&#13;
-- Added a new option: `enemy_health_multiplier`. Scale all enemies' health values between 50% to 500% of the original game. It defaults to 100% which matches the original game (Issue #880).&#13;
-- Added `random_color_per_room` to Starting Kirby Color. It chooses an initial supported palette at generation, then changes to a different supported palette whenever the connected BizHawk client observes Kirby enter a different room (Issue #857).&#13;
-- Added four progression items that independently open the walls controlled by those levers. Pulling a lever now sends its AP location check without opening the wall; receiving the matching Lever Wall item sets the native wall-unlock state instead (Issue #859).&#13;
-&#13;
-### Improvements&#13;
-- Consolidated `defeat_random_hidden_area_boss` and `defeat_configured_area_boss` into the canonical `defeat_area_boss` goal. `configured_area_boss: random` now uses Archipelago's standard `Choice` randomization, the old `defeat_configured_area_boss` name remains a safe YAML alias, and all eight boss-to-area mappings are corrected (Issue #872).&#13;
-- Generated YAML documentation now shows the scalar `configured_area_boss: random` and `starting_kirby_color: random` shorthands and explains how they replace the generated concrete weight mappings (Issue #872).&#13;
-&#13;
-### Known Limitations&#13;
-- *NEW* - Enemy Health Scaling: The health bar for enemies does not visually show the changed values.&#13;
-- *NEW* - Kirby Color: random_color_per_room changes Kirby's color, but does not change the corresponding UI element colors.&#13;
-- Localization: Only the North American ROM is supported. All AP notifications are in English.&#13;
-- Progression: The entire game is still only two spheres. This means you can complete almost the entirety of Kirby and the Amazing Mirror without ever having to receive an item, except open the Dimension Mirror. In other words, you can do everything in the game except defeat Dark Mind without ever receiving an item from another player. This is a consequence of the original game design. We have plans to gate your progression in other ways, but they all require coding/hacking in intentional blockers.&#13;
-- Small Chests: We know you want the "small" chests implemented. We want them implemented too. We've been working on it for months. We decided getting out what IS working, is more important.&#13;
-- Sprite Swapping: The animation for getting the original item will play with the original sprite. Statues show the old ability. This is expected. We hope in the future to support "sprite swapping" where we show the sprite for the actual item delivered or ability granted.&#13;
-- Emulator: Only BizHawk is supported. mGBA may work, but we don't currently test against it.&#13;
-&#13;
-### Bug Fixes&#13;
-&#13;
-- Boss checks were mapped incorrectly for the `defeat_configured_area_boss` goal. That's been fixed (Issue #893).&#13;
-- Adds cutter to the base ability pool to make sure players can cut the drop down platforms. (Issue #894)&#13;
-&#13;
-### Internal Changes&#13;
-- Added pinned, checksum-verified Archipelago generation fuzzing with a strict local launcher, a pull-request/manual CI workflow, and retained failure artifacts (Issue #898).&#13;
-- `starting_kirby_color` now uses the same standard Archipelago `Choice` literal `random`; the former world-specific `random_color` sentinel has been removed (Issue #872).&#13;
-- Split Kirby color catalog validation into focused helpers so Flake8 complexity checks remain meaningful without suppressing C901 (Issue #872).</content>
-    <link href="https://github.com/hasherwi/Archipelago-kirbyam/releases/tag/kirbyam-v0.3.1-rc1"/>
-  </entry>
-  <entry>
-    <id>https://github.com/JammyGeeza/CursedWords-Archipelago/releases/tag/v0.3.1</id>
-    <title>Cursed Words v0.3.0r2</title>
-    <updated>2026-08-17T21:51:29+00:00</updated>
-    <author>
-      <name>JammyGeeza</name>
-    </author>
-    <content>## Information&#13;
-This archipelago implementation is in **early development** and is in public pre-release for testing, so may not be complete and/or may contain bugs that heavily disrupt the experience. It is not advised to include this in large multiworlds at this time, so only do so at your own risk and inform your host beforehand.&#13;
-&#13;
-## Setup Guide&#13;
-Please visit the [Setup Guide](https://github.com/JammyGeeza/CursedWords-Archipelago#setup-guide) for instructions on how to install the mod client.&#13;
-&#13;
-## Issue / Bug Reporting&#13;
-If you experience issues that are not already on the [known issues list](https://github.com/JammyGeeza/CursedWords-Archipelago/issues?q=is%3Aissue%20state%3Aopen), please raise a new issue or post in the [Cursed Words Forum in the Archipelago Discord Server](https://discord.com/channels/731205301247803413/1499176806962692196)&#13;
-&#13;
-## Release Notes&#13;
-This release provides the following updates:&#13;
-### Client&#13;
-- Fixes an issue causing `Shopsanity` checks to not appear in the shop.</content>
-    <link href="https://github.com/JammyGeeza/CursedWords-Archipelago/releases/tag/v0.3.1"/>
-  </entry>
-  <entry>
-    <id>https://github.com/DannySchultzDev/Fantastic-Fist-Archipelago-Client/releases/tag/V0.0.4</id>
-    <title>Fantastic Fist v0.0.4</title>
-    <updated>2026-08-18T01:38:54+00:00</updated>
-    <author>
-      <name>WaluigiGoesWa</name>
-    </author>
-    <content>Fixed an issue in the rules in the AP World that would cause gen fails on glitched difficulty.&#13;
-Fixed an issue where trying to move the whoop transition upon starting after quitting in W3 would throw a null reference exception.&#13;
-&#13;
-Currently Deathlink, Roomsanity, Checkpointsanity, and Door Rando do not work. They will be implemented at a later date.</content>
-    <link href="https://github.com/DannySchultzDev/Fantastic-Fist-Archipelago-Client/releases/tag/V0.0.4"/>
-  </entry>
-  <entry>
-    <id>https://github.com/Studmuffin2227/VHAPMod/releases/tag/v1.3.0</id>
-    <title>Vault Hunters v1.3.0r2</title>
-    <updated>2026-08-18T02:19:13+00:00</updated>
-    <author>
-      <name>Studmuffin2227</name>
-    </author>
-    <content>Disabled the auto-connect function for servers, as it overwhelmed the server on startup and caused a crash.&#13;
-&#13;
-Added a command (/apfiller) that dictates how filler items are distributed to players.&#13;
-&#13;
-- Single: Gives all filler items to one player, (attempts to send to the player that ran the connect command)&#13;
-- Online: Gives filler items to all players online at the time&#13;
-- All: Fives filler items to everyone, even if their offline.&#13;
-&#13;
-Removed Options that weren't working. (May or may not come back)</content>
-    <link href="https://github.com/Studmuffin2227/VHAPMod/releases/tag/v1.3.0"/>
-  </entry>
-  <entry>
-    <id>https://github.com/TheZockerBrain069/Layer8Problem-AP/releases/tag/v0.9.3</id>
-    <title>Layer8Problem v0.9.3</title>
-    <updated>2026-08-18T03:28:56+00:00</updated>
-    <author>
-      <name>TheZockerBrain069</name>
-    </author>
-    <content>## Fixed&#13;
-&#13;
-Phone sidequests ("SMS style" events) never sent a check. handleSideQuest routes every kind: "phone" event into the smartphone UI, which never calls renderTerminal/resolveTerminal — the only place the client listened. 45 of the 99 sidequest chains are phone-only, so nearly half of the sidequest pool was unsendable regardless of the option chosen. The client now hooks openPhone and handlePhoneChoice.&#13;
-Item-find checks were lost whenever the engine skipped addToArchive: a full backpack (10/10) drops the loot and an already-owned permanent item expires silently, yet the player did find it. The client now fires on the loot value of resolveTerminal / the phone result node, wraps inventory.push, and runs a periodic scan over inventory + archive as a safety net.&#13;
-Mod-version drift now only warns when major.minor differ, so a v0.9.2 seed played with the v0.9.3 client no longer shows a warning (IDs are identical).&#13;
-&#13;
-## Compatibility&#13;
-&#13;
-Client-only release. Location and item IDs, logic, options and the apworld are unchanged — existing v0.9.2 seeds keep working, no regeneration needed.</content>
-    <link href="https://github.com/TheZockerBrain069/Layer8Problem-AP/releases/tag/v0.9.3"/>
-  </entry>
-  <entry>
-    <id>https://github.com/Ryguy-9999/ArchipelagoATS/releases/tag/v1.2.1</id>
-    <title>Against the Storm v1.2.1</title>
-    <updated>2026-08-18T05:12:51+00:00</updated>
-    <author>
-      <name>Ryguy9999</name>
-    </author>
-    <content>[Info about this randomizer](https://github.com/Ryguy-9999/ArchipelagoATS/blob/main/worlds/against_the_storm/docs/en_Against_The_Storm.md)&#13;
-[Setup instructions](https://github.com/Ryguy-9999/ArchipelagoATS/blob/main/worlds/against_the_storm/docs/setup_en.md)&#13;
-# Changes&#13;
-- New:&#13;
-  - Added an alert whenever the game attempts to store a resource that is blocked by AP for any reason.&#13;
-    - This alert can be toggled with the command `ap.toggleBlockedGoodsAlert`. This will be saved by the game.&#13;
-- Fixed:&#13;
-  - Resource icons locked by the mod should now automatically refresh. (Finally!)&#13;
-    - Only the goods panel at the top and species panels the top left are targeted.&#13;
-    - They refresh on connection, and when using `ap.toggleLockIcons`.&#13;
-  - Game no longer attempts to give you blueprints from reputation without the appropriate options.&#13;
-  - Filler starting items no longer duplicate on settlement reload.&#13;
-  - `enable_biome_keys: false` no longer fails gen.&#13;
-  - Client now only subscribes to the DeathLink tag if it's actually enabled.</content>
-    <link href="https://github.com/Ryguy-9999/ArchipelagoATS/releases/tag/v1.2.1"/>
-  </entry>
   <entry>
     <id>https://github.com/TheLX5/Archipelago/releases/tag/mmx2-v2.0.2</id>
     <title>Mega Man X2 v2.0.2</title>
@@ -998,7 +866,7 @@ Known issues (will be addressed in a later release)&#13;
   </entry>
   <entry>
     <id>https://github.com/solida1987/openttd-archipelago/releases/tag/v2.0.3</id>
-    <title>OpenTTD v1.4.1r2</title>
+    <title>OpenTTD v1.4.1r3</title>
     <updated>2026-08-20T12:30:24+00:00</updated>
     <author>
       <name>OpenTTD AP Team</name>
@@ -1008,7 +876,7 @@ Known issues (will be addressed in a later release)&#13;
   </entry>
   <entry>
     <id>https://github.com/solida1987/openttd-archipelago/releases/tag/v2.0.4</id>
-    <title>OpenTTD v1.4.1r3</title>
+    <title>OpenTTD v1.4.1r2</title>
     <updated>2026-08-20T12:48:30+00:00</updated>
     <author>
       <name>OpenTTD AP Team</name>
@@ -1208,5 +1076,226 @@ Prevent opening the Fishing Town gate the vanilla way with the radio towers as i
 ## Notes&#13;
 ⚠️ The in-game tracker can only be closed by the x in the top right corner</content>
     <link href="https://github.com/Aeromaze/Archipelago/releases/tag/v0.2.1"/>
+  </entry>
+  <entry>
+    <id>https://github.com/Mickemoose/peak-archipelago/releases/tag/0.6.1</id>
+    <title>PEAK v0.6.1</title>
+    <updated>2026-08-21T17:38:19+00:00</updated>
+    <author>
+      <name>ArchipelagoBrad</name>
+    </author>
+    <author>
+      <name>ManNamedGarbo</name>
+    </author>
+    <author>
+      <name>Mickemoose</name>
+    </author>
+    <content>## v0.6.1 lets ditch the alpha tag since PEAK itself is complete and this is mostly stable&#13;
+&#13;
+**Not compatible with previously generated worlds**&#13;
+&#13;
+&lt;ul&gt;&#13;
+    &lt;li&gt;BUG FIXES (skeleton softlock, airport stamina, etc.)&lt;/li&gt;&#13;
+    &lt;li&gt;LOGIC FIXES (badge logic, harder items moved, etc.)&lt;/li&gt;&#13;
+    &lt;li&gt;Gloom/Citadel support of newly added items &amp; badges (and no more crash!)&lt;/li&gt;&#13;
+    &lt;li&gt;New traps&lt;/li&gt;&#13;
+    &lt;li&gt;Goals refactored to allow multiple goals (badges, ascents, peak, idol dunking, soul freeing u name it)&lt;/li&gt;&#13;
+    &lt;li&gt;Item Tracker also allows toggleable spawning items by clicking them if they're unlocked (off by default)&lt;/li&gt;&#13;
+    &lt;li&gt;DamageLink/DamageLinkGroup support (UNTESTED GOOD LUCK)&lt;/li&gt;&#13;
+    &lt;li&gt;DeathLinkGroup support&lt;/li&gt;&#13;
+    &lt;li&gt;KnockbackLink support (UNTESTED GOOD LUCK)&lt;/li&gt;&#13;
+    &lt;li&gt;Backpack moved with Fanny Pack into Progressive Pack (Nothing -&gt; Fanny -&gt; Back)&lt;/li&gt;&#13;
+    &lt;li&gt;Don't have Flares unlocked but you made it to the PEAK? TOO BAD now you need those flares.&lt;/li&gt;&#13;
+    &lt;li&gt;Campfire hints should be ordered properly&lt;/li&gt;&#13;
+    &lt;li&gt;Scoutmaster's soul pillar will display a hint similar to the campfires if you don't have it yet&lt;/li&gt;&#13;
+&lt;/ul&gt;&#13;
+&#13;
+### Notes/Known Issues&#13;
+High Altitude Badge is currently disabled as a check until further notice&#13;
+On startup there may be a slight hitch, i grab some biome specific hazards for traps from a loaded map called WilIsland at launch so that some traps work when their biome isnt in that day's run.</content>
+    <link href="https://github.com/Mickemoose/peak-archipelago/releases/tag/0.6.1"/>
+  </entry>
+  <entry>
+    <id>https://github.com/solida1987/Diablo-II-Archipelago/releases/tag/v3.8.7</id>
+    <title>Diablo II Archipelago v3.8.7</title>
+    <updated>2026-08-21T20:04:32+00:00</updated>
+    <author>
+      <name>solida1987</name>
+    </author>
+    <author>
+      <name>ꓘicka (AP logic)</name>
+    </author>
+    <author>
+      <name>Zoë (AP logic)</name>
+    </author>
+    <content>The Sorceress no longer crashes her way into the game. Diablo II would stop with its own assertion box — SCmd.cpp, line 3910 — within seconds of reaching town, and only for her; every other class played fine. At startup the mod rewrote the skill animations of all seven classes at once, before it knew which class was about to be played, and then put the player's own skills back to normal a moment later when the character loaded. Three Sorceress skills carry the animations that were being rewritten, and changing them under the game's feet threw off the queue Diablo II keeps of commands it has sent and is still waiting to hear back about. Animations are now applied once, per class, when the character loads, so nothing is ever written and then taken back. Every class keeps its own animations, and a skill borrowed from another class still falls back to an attack animation exactly as before.
+
+Version numbers agree with each other again. The bootstrap launcher was still reporting 3.8.3 and the packaged Archipelago world still declared 3.8.3, four releases after the rest of the mod had moved on.
+</content>
+    <link href="https://github.com/solida1987/Diablo-II-Archipelago/releases/tag/v3.8.7"/>
+  </entry>
+  <entry>
+    <id>https://github.com/agilbert1412/StardewArchipelago/releases/tag/8.1.1</id>
+    <title>stardew_valley_8.1.1 v8.1.1</title>
+    <updated>2026-08-21T21:40:13+00:00</updated>
+    <author>
+      <name>agilbert1412</name>
+    </author>
+    <content>## Apworld&#13;
+- Fixed some ER transitions having the wrong flags, causing some GER failures&#13;
+- Fixed the default value on the QuestLocations option&#13;
+&#13;
+## Mod&#13;
+- Fixed the `Forage Spring Onion` location not sending&#13;
+- Added minimum 1 to some prices at the carpenter and blacksmith</content>
+    <link href="https://github.com/agilbert1412/StardewArchipelago/releases/tag/8.1.1"/>
+  </entry>
+  <entry>
+    <id>https://github.com/solida1987/Diablo-II-Archipelago/releases/tag/v3.8.8</id>
+    <title>Diablo II Archipelago v3.8.8</title>
+    <updated>2026-08-21T22:17:38+00:00</updated>
+    <author>
+      <name>solida1987</name>
+    </author>
+    <author>
+      <name>ꓘicka (AP logic)</name>
+    </author>
+    <author>
+      <name>Zoë (AP logic)</name>
+    </author>
+    <content>The startup crash is fixed. Diablo II would stop with its own assertion box — SCmd.cpp line 3910 — seconds after a character entered town, sometimes on the first try and sometimes after a dozen, on any class. The mod sent its internal packets to the wrong address: what it called D2Client's send function is in fact D2Client's weapon-swap command handler, and calling it left a register the handler reads holding whatever happened to be there. Depending on that value the game carried on, raised the assertion box, or faulted outright, which is why the crash came and went with no pattern. Packets now go through D2Net's real send function, the one the rest of the mod already used.
+
+Bow, crossbow and javelin skills keep their weapon requirement. It was being stripped along with every other weapon restriction, so a character who was dealt Fire Arrow among the random starting skills could select and cast it while holding a staff. The requirement is what makes Diablo II refuse the cast until a bow is equipped, and the skills stay in the pool for every class — anyone can pick up a bow and use them.
+
+Crash reports name the module behind every stack address, and every skill change on either hand is logged with the item that granted it. Both are there so a report from a player carries what is needed to place a fault without a second round of questions.
+</content>
+    <link href="https://github.com/solida1987/Diablo-II-Archipelago/releases/tag/v3.8.8"/>
+  </entry>
+  <entry>
+    <id>https://github.com/Az-LastPenguin/LORAP/releases/tag/v1.0.0-eta</id>
+    <title>Library of Ruina v1.0.0r2</title>
+    <updated>2026-08-21T23:10:04+00:00</updated>
+    <author>
+      <name>LastPenguin</name>
+    </author>
+    <content>As always, check known bugs and report bugs in #70 &#13;
+&#13;
+**Unsubscribe from workshop mod!**&#13;
+&#13;
+**NEW RUN REQUIRED**&#13;
+&#13;
+**Uses -eta .apworld**&#13;
+## What changed since -alpha:&#13;
+&lt;details&gt;&#13;
+&lt;summary&gt;In older versions&lt;/summary&gt;&#13;
+&#13;
+### In -beta:&#13;
+- FIXED: Custom books are now properly saved&#13;
+- FIXED: Now you can't put books into the invitation manually, and can't find receptions earlier that way&#13;
+- FIXED: Impossible Passive Attribution Points (Needs testing, but i'm 99% sure it's fixed now)&#13;
+- FIXED: Receptions are no longer visible after joining new session without closing the game&#13;
+- FIXED: It's not possible to open Black Silence and Distorted Ensemble before you reach those battles&#13;
+### In -gamma:&#13;
+- CHANGED: Updated reception tree looks in the game. the reception box of doom. It's only for testing, so bear with me.&#13;
+- CHANGED &amp; FIXED: Changed how run seeds work. Fixed stuff related to them (also thanks Yar) &#13;
+### In -delta:&#13;
+- ADDED: Modified passive attribution system. Can now attribute up to 16 books. Passive Limits Break Item now works&#13;
+- FIXED: Impossible keypages and pages don't drop now (i hope)&#13;
+### In -epsilon:&#13;
+- CHANGED: Updated reception tree looks in the game. It's a pretty simple Sugiyama's algorithm with minimized edge-crossing for now. Hopefully i can figure out something fancier later. Also cool placement for endgoals&#13;
+- CHANGED: The checkmark for completed stages been changed to be a "status" of the stage: Checkmark is shown when the reception is cleared (completed + all checks collected); An exclamation mark is shown when the reception can be cleared (player has right books to start the stage)&#13;
+- CHANGED: Suppressions/Realization are now accessed on the map the say way Receptions are.&#13;
+- CHANGED: Playing with "Enemies Turn Into Checks" Option now sends remaining checks on stage clear (main purpose of that option was always to allow to chip at the enemy and get more checks to potentially escape BK situation, and not fight Xiao 8 times)&#13;
+- CHANGED: Items should now get received faster when in bulk (PLEASE REPORT ANY CRASHES!)&#13;
+- CHANGED: Custom icons are now also used for BoE (not yet available tee hee), Booster Packs and library progress level&#13;
+- ADDED: Floor Stages (Abnos/Realizations) now have a roman number specifying the order of the stage&#13;
+- ADDED: Shuffle Reverb Ensemble Floors option&#13;
+- ADDED: Endgoals always unlocked option&#13;
+- FIXED: Binah librarian shortage \[By Yar]&#13;
+- FIXED: Divide by 0 error \[By Yar]&#13;
+- FIXED: Keter Realization now works properly (Snow queen part &amp; snow queen suppression are not fixed yet, also when binah is replaced by angela, angela will be locked if player doesn't have Binah item, not sure if i have to fix that)&#13;
+- FIXED: Item hints position on differently sized screens (SOMEONE PLEASE TEST AND TELL ME IF IT WORKS!)&#13;
+- FIXED: Leave stage button in the team setup window before the fight now works all the time &#13;
+- FIXED: Binah (and librarians with base keypages) can now get passives attributed&#13;
+- REMOVED: The chapter shortcut buttons for the map &amp; chapter filter for book burning screen have been removed&#13;
+- REMOVED: The option to NOT randomize the reception tree is DISCONTINUED!&#13;
+### In -zeta:&#13;
+- ADDED: Emotion Limit Break item is now functional.&#13;
+- CHANGED: Emotion levels now work a bit differently to make sense of the Emotion Limit Break item: &#13;
+	- Battle Units (Enemies/librarians) now have a higher technical cap of emotion levels (30 levels)&#13;
+		- The actual cap for librarians is decided by the total count of Emotion Limit Break Items the player has&#13;
+		- The actual cap for enemies is decided by the vanilla chapter of the reception (so 1 for Rats &amp; 7 for Oliver and Ensemble)&#13;
+	 - Instead of getting abno pages of only a certain level on team emotion level up, player can get any abno page with level less or equal to team emotion level (so you get access to level 3 pages at emotion level 3 instead of 5, and can get level 3 pages at any point after level 3 too)&#13;
+	 - ^ That DOES mean that you can get all 15 abno pages in a single battle&#13;
+	 - You get an EGO page at every level starting with 3rd (meaning you'll have every EGO page the floor has at level 7)&#13;
+	 - The amount of emotion coins needed to level up is adjusted for levels past 5 with 13 being the cap for levels 15+ (technical limitation that i COULD remove but don't want to)&#13;
+	 - The amount of light gotten for emotion is adjusted:&#13;
+		 - You get 1 light for every levels 1-5&#13;
+		 - You get 1 light for every second level for levels 5-15 (so at levels 7, 9, 11, 13, 15)&#13;
+		 - You get 1 light for every third level for levels 15-30 (so at levels 18, 21, 24, 27, 30)&#13;
+	 - You get a speed die every 4th level (so at levels 4, 8, 12, etc.)&#13;
+	 - UI is changed a bit so the game doesn't break at levels past 5 and when a unit has more than 5 abno pages (Yes, you CAN stack up to 15 abno pages on a single unit now. Go nuts.)&#13;
+	 - Also, when receiving the emotion limit break item mid-battle, the max emotion level will be updated!&#13;
+- CHANGED: Connect window now has more exception handling messages with additional info on where the exception occured (so i can figure out the issue faster)&#13;
+&lt;/details&gt;&#13;
+&#13;
+&#13;
+### In -eta:&#13;
+- FIXED: Endgoals Always Unlocked option is now actually functional (  just forgor to add a check to the code bruh.)&#13;
+- FIXED: That annoying vanilla bug of map losing ability to store inertia making moving it effectively an exercise for your hand&#13;
+- FIXED: Emotion levels having an additional 0 for a stupid reason&#13;
+- FIXED: Not yet reachable stages with hints are now shown again (this was lost somewhere mid development)&#13;
+- FIXED: Names for Realizations (Were previously shown as "Unknown")&#13;
+- FIXED &amp; CHANGED: Endgoal stages overlapping other stages on the map by moving them higher on the map&#13;
+- CHANGED: Archipelago messages are now displayed in a small, separate, draggable &amp; resizable window that can be hidden/shown by pressing F2.&#13;
+- CHANGED: Chapter separators &amp; goto buttons are back! (Due to stages being devided into chapters in logic now)&#13;
+- CHANGED: Librarian requirements for Love Town and Wedge Office is now 2&#13;
+- CHANGED: Almost all custom UI elements were internally changed/updated for better experience. I expect something to break.&#13;
+- CHANGED: Players now get 2 Emotion Limit Break items from the start&#13;
+- ADDED: Built-in AP Client inside the game that can be opened/closed by pressing Tab:&#13;
+	- Archipelago tab contains chat window which shows every received AP message, and which you can use to chat with other players/use commands from the game.&#13;
+	- Hints tab shows all the known hints related to your game. You can also hint from this window. (This tab updates every time you open it, so let me know if it lags with a lot of hints!)&#13;
+	- Settings tab contains client-sided settings that you can change and .yaml's settings that you can override on the client-side. You can only override settings that won't require game regeneration/break the game in any way. Some settings may require you to reconnect.&#13;
+	- Debug tab contains some info that is not normally seen but is useful for debugging.&#13;
+- ADDED: Keybind hints for AP client and AP Feed&#13;
+- ADDED: Persistent goals option. You can select endgoals not selected by End Goals option for them to appear on the map alongside other stages (not at the top) (Thanks Yar)&#13;
+- ADDED: Star symbol for stages that contain hinted items with status "Priority"&#13;
+- ADDED: New "Layered" progression mode (Old is now named "Battle Graph") (Thanks Yar):&#13;
+	- Instead of opening stages by completing previous stages and finding required books, they're opened in bulk (layers) by burning vanilla books (they don't give any drops!).&#13;
+	- Vanilla chapters become actual part of the logic: you can't open layers of the next chapter unless you complete a preconfigured percent (50% by default) of the stages in current chapter.&#13;
+	- Book of Everything is back for this mode exclusively: The drops are now placed in different "bundles" ("BoE chapters") based on the number of each bundle and estimated game progression. Burning BoE gives max amount of drops in that bundle. There is a limited amount of bundles per chapter, meaning that if logic places more BoEs in a chapter than there is bundles, you won't be able to burn all BoEs until you unlock next chapter.&#13;
+	- Booster Packs are also present in this mode but nerfed to 4 drops per pack!&#13;
+	- IMPORTANT: Old "Battle Graph" Mode is supposed to get removed next update, but if you actually liked it and think it can be improved, PLEASE send feedback.&#13;
+- REMOVED: Filler Item option (Was too lazy to add support for BoE for "Battle Graph" mode. It's supposed to get removed anyway and the new mode has both so it's not really needed)</content>
+    <link href="https://github.com/Az-LastPenguin/LORAP/releases/tag/v1.0.0-eta"/>
+  </entry>
+  <entry>
+    <id>https://github.com/Thedragon005/Archipelago-Ape-Escape/releases/tag/v0.9.10</id>
+    <title>Ape Escape v0.9.10</title>
+    <updated>2026-08-22T00:15:00+00:00</updated>
+    <author>
+      <name>Thedragon005</name>
+    </author>
+    <author>
+      <name>IHNN</name>
+    </author>
+    <content>## Version 0.9.10 - Small fixes!&#13;
+Please read the setup guides for information on how to setup this game for Archipelago :&#13;
+[English](https://github.com/Thedragon005/Archipelago-Ape-Escape/blob/apeescape/worlds/apeescape/docs/setup_en.md) / [French](https://github.com/Thedragon005/Archipelago-Ape-Escape/blob/apeescape/worlds/apeescape/docs/setup_fr.md) &#13;
+&#13;
+* **Client and logic fixes**&#13;
+  - Fixed a bug where ap hosts sites could send empty bounce packets and crash the client&#13;
+  - Logic : Remove only Punch as access for Normal difficulty wheels with tight timing&#13;
+  ## Known bugs&#13;
+* Stadium Attack and Gladiator Attack will sometime play the "entering level" music instead of their intended track.&#13;
+&#13;
+&#13;
+**\*Don't forget to do "Generate Template Options" after installing the ``apworld`` if you want the new options in the YAML\***&#13;
+&#13;
+Tracker for this apworld version : [Ape Escape Tracker 0.7.0](https://github.com/lurch9229/Ape-Escape-Tracker/releases/tag/0.7.0)&#13;
+&#13;
+&#13;
+**Full Changelog**: https://github.com/Thedragon005/Archipelago-Ape-Escape/compare/v0.9.9....v0.9.10</content>
+    <link href="https://github.com/Thedragon005/Archipelago-Ape-Escape/releases/tag/v0.9.10"/>
   </entry>
 </feed>
