@@ -2,29 +2,11 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://raw.githubusercontent.com/silasary/apworlds/refs/heads/main/recent.atom</id>
   <title>Recent APWorlds</title>
-  <updated>2026-08-22T00:43:26.317469+00:00</updated>
+  <updated>2026-08-22T06:33:23.543103+00:00</updated>
   <author>
     <name>Silasary</name>
   </author>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
-  <entry>
-    <id>https://github.com/TheLX5/Archipelago/releases/tag/mmx2-v2.0.2</id>
-    <title>Mega Man X2 v2.0.2</title>
-    <updated>2026-08-18T06:38:09+00:00</updated>
-    <author>
-      <name>lx5</name>
-    </author>
-    <content>Some fixes&#13;
-## Info&#13;
-* [General Information](https://thelx5.github.io/mmx2/index.html)&#13;
-* [Setup Guide](https://thelx5.github.io/mmx2/setup.html)&#13;
-## Changes&#13;
-* Added a missing rule for X-Hunter Base 4 requiring nothing to enter&#13;
-* Fixed being able to receive items while falling from the sky at the start of a level&#13;
-* Fixed 1-Ups not being properly disabled in some parts of the game&#13;
-* Fixed Arms Upgrade not working correctly with certain settings</content>
-    <link href="https://github.com/TheLX5/Archipelago/releases/tag/mmx2-v2.0.2"/>
-  </entry>
   <entry>
     <id>https://github.com/Aeromaze/Archipelago/releases/tag/v0.2.0</id>
     <title>Easy Delivery Co. v0.2.0</title>
@@ -866,7 +848,7 @@ Known issues (will be addressed in a later release)&#13;
   </entry>
   <entry>
     <id>https://github.com/solida1987/openttd-archipelago/releases/tag/v2.0.3</id>
-    <title>OpenTTD v1.4.1r3</title>
+    <title>OpenTTD v1.4.1r2</title>
     <updated>2026-08-20T12:30:24+00:00</updated>
     <author>
       <name>OpenTTD AP Team</name>
@@ -876,7 +858,7 @@ Known issues (will be addressed in a later release)&#13;
   </entry>
   <entry>
     <id>https://github.com/solida1987/openttd-archipelago/releases/tag/v2.0.4</id>
-    <title>OpenTTD v1.4.1r2</title>
+    <title>OpenTTD v1.4.1r3</title>
     <updated>2026-08-20T12:48:30+00:00</updated>
     <author>
       <name>OpenTTD AP Team</name>
@@ -1297,5 +1279,81 @@ Tracker for this apworld version : [Ape Escape Tracker 0.7.0](https://github.com
 &#13;
 **Full Changelog**: https://github.com/Thedragon005/Archipelago-Ape-Escape/compare/v0.9.9....v0.9.10</content>
     <link href="https://github.com/Thedragon005/Archipelago-Ape-Escape/releases/tag/v0.9.10"/>
+  </entry>
+  <entry>
+    <id>https://github.com/Akashortstack/Psychonauts-AP-Integration/releases/tag/v1.0.0</id>
+    <title>Psychonauts v1.0.0</title>
+    <updated>2026-08-22T01:19:58+00:00</updated>
+    <author>
+      <name>Akashortstack</name>
+    </author>
+    <author>
+      <name>Mysteryem</name>
+    </author>
+    <content># New Option&#13;
+- Scavenger Hunt Rewards: Add Scavenger Hunt Completion Rewards as Locations.&#13;
+    Half: Adds a location for redeeming 8 scavenger hunt items with Ford in the camp.&#13;
+    All: Adds two locations for redeeming 8 and 16 scavenger hunt items with Ford in the camp.&#13;
+&#13;
+## Minor Changes&#13;
+- Small Logic changes for Meat Circus: Oly Escort now requires EITHER Telekinesis OR Confusion to complete. 40% figments now requires Levitation.&#13;
+&#13;
+## Bug Fixes&#13;
+- Baggage can no longer be placed on the MC Grind Rail location, causing you to potentially fall underneath the death plane during the collection cutscene.&#13;
+- Fixed some cases where baggage would collect multiple times on loading a save.&#13;
+&#13;
+# Resources&#13;
+&#13;
+Requires latest AP Branch of the Psychonauts Randomizer Mod to run, found here:&#13;
+https://github.com/Akashortstack/PsychoRando/releases&#13;
+&#13;
+Setup Guide with installation instructions and additional information for PsychoRando here:&#13;
+https://docs.google.com/document/d/1b7QOnOLmTSvdC7A1YK3bsSmhtSOsAMs0XF5j-tyE6Zw/edit?usp=sharing&#13;
+&#13;
+Requires Astralathe to run, download and installation instructions found here:&#13;
+https://gitlab.com/scrunguscrungus/astralathe/-/wikis/Installing%20Astralathe&#13;
+&#13;
+PopTracker Pack created by Mysteryem here:&#13;
+https://github.com/Mysteryem/Psychonauts_AP_PopTracker/releases&#13;
+&#13;
+# Psychonauts Archipelago Setup Guide&#13;
+&#13;
+## Setting up the required mods&#13;
+1. Install Psychonauts for PC, Astralathe, and the Psychonauts Randomizer Mod from the AP Companion Branch.&#13;
+    Full Psychonauts Randomizer and Astralathe setup guide here: https://docs.google.com/document/d/1b7QOnOLmTSvdC7A1YK3bsSmhtSOsAMs0XF5j-tyE6Zw/edit?usp=sharing&#13;
+    **Make sure Astralathe is up to date, use the AP Companion Branch of PsychoRando, and make sure to open the game with AstralatheLauncher.exe at least once.**&#13;
+    &#13;
+2. Download the psychonauts.apworld and install (easiest method is by trying to open the apworld file, Archipelago will install automatically)&#13;
+&#13;
+3. Open the Archipelago Launcher and run the Psychonauts Client. If you get an error message saying the root_directory could not be found, follow steps 4-5. Otherwise, skip to step 6.&#13;
+&#13;
+4. Find the folder that contains your Psychonauts and Astralathe installation, and copy the folder directory. For example, the most common place for the Steam version is "C:\\\\Program Files (x86)\\\\Steam\\\\steamapps\\\\common\\\\Psychonauts"  &#13;
+&#13;
+5. Run ArchipelagoLauncher.exe and open host.yaml from the Archipelago Launcher, find the psychonauts_options and paste your psychonauts game directory into the root_directory setting between the quotes. **If the root directory contains single slashes between lines, change all of these to double slashes. If you don't, the client will fail to open**&#13;
+&#13;
+6. Click "Generate Template Settings". This will open file explorer&#13;
+Find "Psychonauts.yaml" and copy it to /Players/ (create this folder if it does not exist)&#13;
+&#13;
+7. Open the YAML file and change the line that says "name: Player{number}" to your desired player name.&#13;
+Adjust the settings in the YAML to your liking&#13;
+&#13;
+8. Run ArchipelagoGenerate.exe&#13;
+&#13;
+9. Take the newly created AP_XXX.zip file in /output/ in upload it here: https://archipelago.gg/uploads then create a room&#13;
+&#13;
+10. Download patch file next to your player name, then unzip the file. This contains a file called RandoSeed.lua &#13;
+&#13;
+11. Find your Psychonauts game directory and open /ModResource/PsychoRando/Scripts&#13;
+&#13;
+12. Paste RandoSeed.lua from your generated Archipelago file into this folder. Replace the file in the destination if needed.&#13;
+&#13;
+13. Run AstralatheLauncher.exe to open the game. You should see your player number and name on the menu screen, along with your current randomizer version.&#13;
+&#13;
+14. From the menu, enter the yellow door to start a new game.&#13;
+&#13;
+15. From the Archipelago Launcher, open the Psychonauts Client and connect to your server hosted on archipelago.gg&#13;
+&#13;
+16. Once you've started a new save file and connected to the server, you can start playing!</content>
+    <link href="https://github.com/Akashortstack/Psychonauts-AP-Integration/releases/tag/v1.0.0"/>
   </entry>
 </feed>
