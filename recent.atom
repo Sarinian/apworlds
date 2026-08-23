@@ -2,140 +2,11 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://raw.githubusercontent.com/silasary/apworlds/refs/heads/main/recent.atom</id>
   <title>Recent APWorlds</title>
-  <updated>2026-08-23T06:31:45.610701+00:00</updated>
+  <updated>2026-08-23T12:25:22.624707+00:00</updated>
   <author>
     <name>Silasary</name>
   </author>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
-  <entry>
-    <id>https://github.com/Rosalie-A/Archipelago/releases/tag/FFT-v0.4.0</id>
-    <title>Final Fantasy Tactics Ivalice Island v0.4.0</title>
-    <updated>2026-08-19T16:56:32+00:00</updated>
-    <author>
-      <name>Cerabow</name>
-    </author>
-    <author>
-      <name>Toast</name>
-    </author>
-    <author>
-      <name>Jumza</name>
-    </author>
-    <author>
-      <name>Rosalie</name>
-    </author>
-    <content># Final Fantasy Tactics APWorld Update v0.4.0&#13;
-&#13;
-This release is not backwards compatible with previous releases.&#13;
-&#13;
-## APWorld Changes&#13;
-- Changes&#13;
-  - Move-Find Item (MFI) randomization has been added.&#13;
-    - This setting makes MFI tiles send out multiworld locations.&#13;
-	- This can be configured to optionally trigger MFI tiles with any Chemist or any unit on your team.&#13;
-	- Regardless of whether the tiles are randomized to be multiworld locations, you can randomize the ingame reward given by the tile.&#13;
-  - Ingame poach rewards can now be randomized.&#13;
-  - The client has been changed to trigger in battle rewards automatically.&#13;
-    - This applies to MFI tiles, poach rewards, and job unlocks.&#13;
-  - The Transmooglifier setting has been added.&#13;
-    - This setting changes Rad, Alicia, and Lavian to have special custom jobs designed specifically for Ivalice Island.&#13;
-	- The pool of jobs it picks from can be customized.&#13;
-  - Enemy Randomizer now has a `boss shuffle randomized` option which shuffles unique "boss" units among each other and randomizes all other units per your settings.&#13;
-  - A Vanilla Changes option has been added allowing you to customize which changes from vanilla behavior you'd like enabled.&#13;
-  - A vanilla change enabled by default has been added to adjust shop inventories. This adds an early Katana and Polearm to castle shops and adds the basic guns to trade cities.&#13;
-  - In Enemy Randomizer, a level boost is applied to "boss" units so even when they randomize into common units they have a bit more of a punch than their hangers-on.&#13;
-  - In Enemy Randomizer, a special template for Summoners with the Zodiac spell available has been added.&#13;
-  - An alternate final boss battle has been added for those who wish to test their skills (or are merely bored at the end of a multiworld game). This final battle is of an increased difficulty, is not affected by Enemy Randomizer, and is never required. Clearing it, however, will win the game just as clearing the Graveyard of Airships 2 fight would.&#13;
-- Bugfixes&#13;
-  - In Enemy Randomizer, Sorceror (Kletian's job) now has its primary skillset always available.&#13;
-&#13;
-[Setup Guide](https://github.com/Rosalie-A/Archipelago/wiki/Final-Fantasy-Tactics:-Ivalice-Island-Setup-Guide)</content>
-    <link href="https://github.com/Rosalie-A/Archipelago/releases/tag/FFT-v0.4.0"/>
-  </entry>
-  <entry>
-    <id>https://github.com/Trexounay/EnderLilies.Archipelago/releases/tag/endermagnolia-v0.1.4</id>
-    <title>Ender Magnolia v0.1.4</title>
-    <updated>2026-08-19T17:17:15+00:00</updated>
-    <author>
-      <name>Trex</name>
-    </author>
-    <content>**Archipelago** world for **Ender Magnolia**&#13;
-&#13;
-## Update&#13;
-- Updated Logic&#13;
-- Option to shuffle BGM&#13;
-- Option to shuffle skills upgrade costs&#13;
-- Option to shuffle skills Attuner Arts&#13;
-&#13;
-## Requirements&#13;
-- [Archipelago](https://github.com/ArchipelagoMW/Archipelago/releases)&#13;
-- [Ender Magnolia Randomizer](https://github.com/Trexounay/EnderMagnolia.Randomizer/releases/tag/endermagnolia-v0.1.4)&#13;
-&#13;
-## Current Features&#13;
-- 340 checks&#13;
-- 2 Goals: **Ending A** **Ending B**&#13;
-- Starting Skill option (except non breaking walls weapon)&#13;
-- Shuffle relic costs&#13;
-- Progressive Aptitudes&#13;
-- Start with heal/fast travel&#13;
-- min/max chapters&#13;
-- Central Elevator Fix option&#13;
-- Starting respite&#13;
-&#13;
-## Notes&#13;
-This is an early release and has not been extensively tested. Expect bugs and missing features, and please report any issues or feedback.</content>
-    <link href="https://github.com/Trexounay/EnderLilies.Archipelago/releases/tag/endermagnolia-v0.1.4"/>
-  </entry>
-  <entry>
-    <id>https://github.com/Cousinit117/Deep-Rock-Galactic-AP/releases/tag/0.19</id>
-    <title>Deep Rock Galactic v0.19.0r2</title>
-    <updated>2026-08-19T17:49:13+00:00</updated>
-    <author>
-      <name>SipcoGamingGuild</name>
-    </author>
-    <author>
-      <name>Taz</name>
-    </author>
-    <content>**Large Overhaul 0.19 (May Be Incompatible with all Previous Versions)**&#13;
-&#13;
-**0.19a**&#13;
-- Added Gauntlet [short] goal mode&#13;
-- Completely reworked item generation to allow large range of low and high item and location counts&#13;
-- Added Linux Fix from SpaceCat-Chan&#13;
-- Added fix for client window crash when Goal was reached&#13;
-- Fixed some trap bugs&#13;
-- Fixed some UI bugs&#13;
-- Fixed some debug bugs&#13;
-- Minor code rewrites and comments for clarity&#13;
-&#13;
-**0.19b**&#13;
-- (Hotfix) for break caused with too many item generation&#13;
-- (Hotfix) for Gauntlet Locations in Non Gauntlet Goals&#13;
-- (Hotfix) for traversal tool updating stats&#13;
-- New UI feature for multiworld completed locations (if another player partially completes an OBJ for you)&#13;
-&#13;
-**0.19c**&#13;
-- Machine Event Mission Selector&#13;
-- Fixed Many Hunting Goal Issues (Including BET-C not checking properly)&#13;
-- Added Goal Info Text and Warnings&#13;
-- Added Toggle for New Info Text to settings terminal&#13;
-- Added new Location UI feature to secondaries, warnings, and machine events&#13;
-- Added guaranteed boss spawns during hunt missions&#13;
-- Added new Passive enemies to Hunter Goal (Huuli Hoarder [higher spawn chance], Hexwings, Cave Angel)&#13;
-- Added new Enemy to Hunter Goal (Swarmer)&#13;
-&#13;
-**0.19 Release**&#13;
-- Made some reverse compatibility for the .pak mod&#13;
-- Updated github readme&#13;
-- Cleaned up some code&#13;
-- Added AI disclosure (No AI was used in this project)&#13;
-&#13;
-**INFO FILES (Sideloader must be used with the .pak file for PreRelease Builds)**&#13;
- [INSTRUCTIONS](https://docs.google.com/document/d/16At-2kS_azJRf9PdUcZeA8Esfoh6kNm2dWVWy8u8wA0/edit?usp=sharing)&#13;
- [MOD on MOD.IO](https://mod.io/g/drg/m/test-archipelago-integration#description)&#13;
- [SIDELOADER for DRG Mods](https://github.com/trumank/mint)&#13;
- Mod file now included in releases for mint users.</content>
-    <link href="https://github.com/Cousinit117/Deep-Rock-Galactic-AP/releases/tag/0.19"/>
-  </entry>
   <entry>
     <id>https://github.com/TheOmnipresence/PixelDrawAPWorld/releases/tag/1.3.3</id>
     <title>PixelDraw v1.3.3</title>
@@ -424,7 +295,7 @@ Known issues (will be addressed in a later release)&#13;
   </entry>
   <entry>
     <id>https://github.com/solida1987/openttd-archipelago/releases/tag/v2.0.3</id>
-    <title>OpenTTD v1.4.1r2</title>
+    <title>OpenTTD v1.4.1r3</title>
     <updated>2026-08-20T12:30:24+00:00</updated>
     <author>
       <name>OpenTTD AP Team</name>
@@ -434,7 +305,7 @@ Known issues (will be addressed in a later release)&#13;
   </entry>
   <entry>
     <id>https://github.com/solida1987/openttd-archipelago/releases/tag/v2.0.4</id>
-    <title>OpenTTD v1.4.1r3</title>
+    <title>OpenTTD v1.4.1r2</title>
     <updated>2026-08-20T12:48:30+00:00</updated>
     <author>
       <name>OpenTTD AP Team</name>
@@ -990,7 +861,7 @@ For the most stable and enjoyable experience, I strongly recommend downloading a
   </entry>
   <entry>
     <id>https://github.com/Az-LastPenguin/LORAP/releases/tag/v1.0.0-eta.1</id>
-    <title>Library of Ruina v1.0.0r3</title>
+    <title>Library of Ruina v1.0.0r2</title>
     <updated>2026-08-22T12:15:54+00:00</updated>
     <author>
       <name>LastPenguin</name>
@@ -1314,5 +1185,70 @@ Tested on AP 0.6.7, YMMV on later versions. Requires AP 0.6.0 or later.&#13;
 &#13;
 Game client available at: https://candybox2-ap.vicr123.com/20260822-1/</content>
     <link href="https://github.com/vicr123/Archipelago/releases/tag/20260822-1"/>
+  </entry>
+  <entry>
+    <id>https://github.com/MikeFritzDevelops/ACWW-Archipelago/releases/tag/v0.1.2-alpha</id>
+    <title>Animal Crossing: Wild World v0.1.1</title>
+    <updated>2026-08-23T07:59:34+00:00</updated>
+    <author>
+      <name>Mike</name>
+    </author>
+    <content>## v0.1.2-alpha&#13;
+&#13;
+## Added&#13;
+&#13;
+- Added an option to Skip Tom Nook's Tutorial&#13;
+- Added an option to set 'Barren Town' which removes all plants and trees from town at start, requiring player to sculpt their town to their desire to hunt bugs requiring flowers and trees.&#13;
+- Added QoL feature to guarantee at least 1 tree in town always has a bee hive to make Bee hunting less of a grind.&#13;
+- Added QoL feature to instantly grow trees to full mature state.&#13;
+- Added Bee and Invisible Bee Traps as optional trap settings.&#13;
+- Added Weather Control to Master Controller to allow for forced rain/snow.&#13;
+&#13;
+## Changed&#13;
+&#13;
+- Updated availability logic for weather-dependent bugs and fish to account for Weather Control.&#13;
+&#13;
+## Fixed&#13;
+&#13;
+- Fixed a bug that caused tools to be repeatedly added to inventory if one was lost/equipped.&#13;
+- Fixed an issue where every check caused a full refresh of the Master Controller leading to performance issues.&#13;
+- Fixed poptracker availability for some fish and bugs, and improved clarity of images.&#13;
+&#13;
+## Documentation&#13;
+&#13;
+- [README](https://github.com/MikeFritzDevelops/ACWW-Archipelago#readme)&#13;
+- [Setup Guide](https://github.com/MikeFritzDevelops/ACWW-Archipelago/blob/main/acww/docs/setup_en.md)&#13;
+- [Game Guide](https://github.com/MikeFritzDevelops/ACWW-Archipelago/blob/main/acww/docs/game_en.md)&#13;
+- [Master Controller Guide](https://github.com/MikeFritzDevelops/ACWW-Archipelago/blob/main/acww/docs/controller.md)&#13;
+&#13;
+---&#13;
+&#13;
+## Alpha Notice&#13;
+&#13;
+This is an early alpha release.&#13;
+&#13;
+Bug reports, balance feedback, and suggestions are greatly appreciated.</content>
+    <link href="https://github.com/MikeFritzDevelops/ACWW-Archipelago/releases/tag/v0.1.2-alpha"/>
+  </entry>
+  <entry>
+    <id>https://github.com/LucasRenaudineau/hytelago/releases/tag/release3</id>
+    <title>Hytale v3</title>
+    <updated>2026-08-23T09:44:24+00:00</updated>
+    <author>
+      <name>LucasRenaudineau</name>
+    </author>
+    <content>Modifying some locations/items names.</content>
+    <link href="https://github.com/LucasRenaudineau/hytelago/releases/tag/release3"/>
+  </entry>
+  <entry>
+    <id>https://github.com/Lemix028/SupermarketSimulator-Archipelago/releases/tag/v0.3.3</id>
+    <title>Supermarket Simulator v0.3.3</title>
+    <updated>2026-08-23T11:45:38+00:00</updated>
+    <author>
+      <name>Lemix028</name>
+    </author>
+    <content>**Progressive Employee Upgrade Items: Replaced individually numbered employee unlock items with progressive copies.**&#13;
+</content>
+    <link href="https://github.com/Lemix028/SupermarketSimulator-Archipelago/releases/tag/v0.3.3"/>
   </entry>
 </feed>

@@ -75,6 +75,21 @@
       "title": "Grunnchipelago 1.1.0",
       "version_simple": "1.1.0",
       "world_version": "1.1.0"
+    },
+    "v1.1.1": {
+      "created_at": "2026-08-23T10:44:24Z",
+      "description": "Logic fixes, all reported or found while chasing a player report. If you're on 1.1.0, grab this one: two of the four ways out of the garden didn't work in logic.\n\n## Fixed\n\n**The fisherman's cabin was reachable from the back yard.** `Ending: Dog` showed up in logic with nothing but the Bridge Key, which is what got reported. The dog, the fisherman, the worm and the bone polaroid all sit under `BehindHouse` in the game's own scene hierarchy, but they're actually out in the Windy Path \u2014 so I had a free connection there that shouldn't exist. Leaving the yard means cutting the hedge, same as always. This also pulled `Obtain Worm`, `Obtain AbandonedKey`, the bone polaroid and the ferry back to where they belong.\n\n**Two passages only worked one way.** Removing that shortcut exposed them: the repaired church door (Pillar Space) and the burnt bramble into the park both let you walk back out in game, but the logic only knew how to go in. So going Garden Key -> church -> Doorknob -> outside, or Garden Key -> church -> Paddle -> park -> Lighter -> outside, did nothing as far as the generator was concerned. Both are proper two-way passages now.\n\n**The park's 20% bar was too strict.** Getting to the hay bale (and the merchant behind it) asked for mowing *and* watering. There's a load of litter in the park you pick up bare-handed, so any single tool \u2014 or the Coin, through the rain \u2014 is enough to clear it. Same fix the garden's 30% got a while back.\n\nAll four routes out of the garden are covered again: shears or magic sword, plank or old plank, Garden Key + Doorknob, Garden Key + Paddle + Lighter. The Bridge Key on its own gets you nowhere, as intended.\n\n## Install\n\nSame as before. Unzip `Grunnchipelago-client-1.1.1.zip` into `Grunn/BepInEx/plugins/`, drop `grunn.apworld` in `Archipelago/custom_worlds/` if you're the one generating.\n\nExisting 1.1.0 seeds still work, but they were rolled with the old logic \u2014 regenerate if you want the fixes.\n\nSetup guides (EN/FR) and the full option list are in the repo.\n",
+      "download_url": "https://github.com/Serial-Developer/Grunnchipelago/releases/download/v1.1.1/grunn.apworld",
+      "has_manifest": true,
+      "hash_sha256": "1e261e95291c0dcc0a51ec58c9132440f5da1e6a85be16e391a82f6e9f2cb60e",
+      "html_url": "https://github.com/Serial-Developer/Grunnchipelago/releases/tag/v1.1.1",
+      "minimum_ap_version": "0.6.7",
+      "size": 52288,
+      "source_url": "https://api.github.com/repos/Serial-Developer/Grunnchipelago",
+      "tag": "v1.1.1",
+      "title": "Grunnchipelago 1.1.1",
+      "version_simple": "1.1.1",
+      "world_version": "1.1.1"
     }
   }
 }

@@ -6795,6 +6795,22 @@
     },
     {
       "world": "https://github.com/LonLon-Labs/SSHD_APWorld/releases/download/Continuous/sshd.apworld",
+      "size": 19394100,
+      "hash_sha256": "244c817d7a8c28a68799a99149bc93f8f029df55e8bf06bc77b4c8953c88fc64",
+      "metadata": {
+        "game": "",
+        "id": "sshd",
+        "world_version": "0.7.4.post5",
+        "tag_version": "0.7.4r5",
+        "created_at": "2026-02-02T23:38:33Z",
+        "flags": [
+          "unready",
+          "prerelease"
+        ]
+      }
+    },
+    {
+      "world": "https://github.com/LonLon-Labs/SSHD_APWorld/releases/download/Continuous/sshd.apworld",
       "size": 18515658,
       "hash_sha256": "f3e15382e0d33003f2df0ead06f05d76959f4b606529ea1a9f60e8f871bea93c",
       "metadata": {
@@ -6811,8 +6827,8 @@
     },
     {
       "world": "https://github.com/LonLon-Labs/SSHD_APWorld/releases/download/Continuous/sshd.apworld",
-      "size": 19393282,
-      "hash_sha256": "19eacaad21206489d18a56f72ff8a337ba0dcedf16fe0f22f293f403e4b633d8",
+      "size": 19391404,
+      "hash_sha256": "1402d09733e00001431313a995a530aa1a1b5c29952bb8836a8ec7709ee50770",
       "metadata": {
         "game": "",
         "id": "sshd",
@@ -6843,8 +6859,8 @@
     },
     {
       "world": "https://github.com/LonLon-Labs/SSHD_APWorld/releases/download/Continuous/sshd.apworld",
-      "size": 19381429,
-      "hash_sha256": "37d8bf630124b53c0ed18167df74b0a8892bb5d7e4464deca31a2af8aba019df",
+      "size": 18490214,
+      "hash_sha256": "bd253d1cae779fc06718ffe302888e2dc0796794eb09bafa83b5cf5b3bad93ec",
       "metadata": {
         "game": "",
         "id": "sshd",
@@ -7050,8 +7066,8 @@
     },
     {
       "world": "https://github.com/LonLon-Labs/SSHD_APWorld/releases/download/Continuous/sshd.apworld",
-      "size": 18490214,
-      "hash_sha256": "bd253d1cae779fc06718ffe302888e2dc0796794eb09bafa83b5cf5b3bad93ec",
+      "size": 19381429,
+      "hash_sha256": "37d8bf630124b53c0ed18167df74b0a8892bb5d7e4464deca31a2af8aba019df",
       "metadata": {
         "game": "",
         "id": "sshd",
@@ -7066,24 +7082,8 @@
     },
     {
       "world": "https://github.com/LonLon-Labs/SSHD_APWorld/releases/download/Continuous/sshd.apworld",
-      "size": 19391404,
-      "hash_sha256": "1402d09733e00001431313a995a530aa1a1b5c29952bb8836a8ec7709ee50770",
-      "metadata": {
-        "game": "",
-        "id": "sshd",
-        "world_version": "0.7.4.post2",
-        "tag_version": "0.7.4r2",
-        "created_at": "2026-02-02T23:38:33Z",
-        "flags": [
-          "unready",
-          "prerelease"
-        ]
-      }
-    },
-    {
-      "world": "https://github.com/LonLon-Labs/SSHD_APWorld/releases/download/Continuous/sshd.apworld",
-      "size": 19394100,
-      "hash_sha256": "244c817d7a8c28a68799a99149bc93f8f029df55e8bf06bc77b4c8953c88fc64",
+      "size": 19393282,
+      "hash_sha256": "19eacaad21206489d18a56f72ff8a337ba0dcedf16fe0f22f293f403e4b633d8",
       "metadata": {
         "game": "",
         "id": "sshd",
@@ -11583,19 +11583,6 @@
       }
     },
     {
-      "world": "https://github.com/Lizardman175/DC1AP/releases/download/v0.5.10/dc1.apworld",
-      "size": 93026,
-      "hash_sha256": "e89139d7ccda86867c2eb64ab36420993d0c67f929e32e326e20a0694b3fac7f",
-      "metadata": {
-        "game": "",
-        "id": "dc1",
-        "world_version": "0.5.0.post3",
-        "tag_version": "0.5.0r3",
-        "created_at": "2026-08-12T21:44:05Z",
-        "minimum_ap_version": "0.6.5"
-      }
-    },
-    {
       "world": "https://github.com/Lizardman175/DC1AP/releases/download/v0.5.2/dc1.apworld",
       "size": 91707,
       "hash_sha256": "4187b79017feaf9c15a4d373de41c62c8cbceb99dfb13f454ef87569fac7ec43",
@@ -11618,6 +11605,19 @@
         "world_version": "0.5.0.post2",
         "tag_version": "0.5.0r2",
         "created_at": "2026-05-17T22:23:42Z",
+        "minimum_ap_version": "0.6.5"
+      }
+    },
+    {
+      "world": "https://github.com/Lizardman175/DC1AP/releases/download/v0.5.10/dc1.apworld",
+      "size": 93026,
+      "hash_sha256": "e89139d7ccda86867c2eb64ab36420993d0c67f929e32e326e20a0694b3fac7f",
+      "metadata": {
+        "game": "",
+        "id": "dc1",
+        "world_version": "0.5.0.post2",
+        "tag_version": "0.5.0r2",
+        "created_at": "2026-08-12T21:44:05Z",
         "minimum_ap_version": "0.6.5"
       }
     },
@@ -11840,6 +11840,19 @@
         "tag_version": "0.1.0",
         "created_at": "2025-09-09T15:48:11Z",
         "maximum_ap_version": "0.6.99"
+      }
+    },
+    {
+      "world": "https://github.com/Lemix028/SupermarketSimulator-Archipelago/releases/download/v0.3.3/supermarket_simulator.apworld",
+      "size": 26454,
+      "hash_sha256": "471d5fe48367ec866239bbe850a6daaf8c7efb8620c445ef3cc3240ba661e272",
+      "metadata": {
+        "game": "",
+        "id": "supermarket_simulator",
+        "world_version": "0.3.3",
+        "tag_version": "0.3.3",
+        "created_at": "2026-08-23T11:45:38Z",
+        "minimum_ap_version": "0.6.7"
       }
     },
     {
@@ -29205,6 +29218,22 @@
       }
     },
     {
+      "world": "https://github.com/Trexounay/EnderLilies.Archipelago/releases/download/endermagnolia-v0.0.5/endermagnolia.apworld",
+      "size": 59219,
+      "hash_sha256": "0fbb733352e3b60e00ac2ea699963ef8e05495428d3d5b75086967313d131ae0",
+      "metadata": {
+        "game": "",
+        "id": "endermagnolia",
+        "world_version": "1.0.0.post3",
+        "tag_version": "1.0.0r3",
+        "created_at": "2026-08-01T12:24:41Z",
+        "minimum_ap_version": "0.6.7",
+        "flags": [
+          "prerelease"
+        ]
+      }
+    },
+    {
       "world": "https://github.com/Trexounay/EnderLilies.Archipelago/releases/download/endermagnolia-v0.0.3/endermagnolia.apworld",
       "size": 58044,
       "hash_sha256": "d28d3344b3712c44b923fc5e858416527e2b55705b4b1a46134fecf93ec52a05",
@@ -29214,22 +29243,6 @@
         "world_version": "1.0.0.post2",
         "tag_version": "1.0.0r2",
         "created_at": "2026-07-27T21:17:48Z",
-        "minimum_ap_version": "0.6.7",
-        "flags": [
-          "prerelease"
-        ]
-      }
-    },
-    {
-      "world": "https://github.com/Trexounay/EnderLilies.Archipelago/releases/download/endermagnolia-v0.0.5/endermagnolia.apworld",
-      "size": 59219,
-      "hash_sha256": "0fbb733352e3b60e00ac2ea699963ef8e05495428d3d5b75086967313d131ae0",
-      "metadata": {
-        "game": "",
-        "id": "endermagnolia",
-        "world_version": "1.0.0.post2",
-        "tag_version": "1.0.0r2",
-        "created_at": "2026-08-01T12:24:41Z",
         "minimum_ap_version": "0.6.7",
         "flags": [
           "prerelease"
@@ -36659,6 +36672,19 @@
         "flags": [
           "prerelease"
         ]
+      }
+    },
+    {
+      "world": "https://github.com/LucasRenaudineau/hytelago/releases/download/release3/Hytale.apworld",
+      "size": 11310,
+      "hash_sha256": "a95c8317936bc4942cd46f53604cdcd39ee9766d0f00a0e0f3e9b13cf6f57cb6",
+      "metadata": {
+        "game": "",
+        "id": "Hytale",
+        "world_version": "3",
+        "tag_version": "3",
+        "created_at": "2026-08-23T09:44:24Z",
+        "maximum_ap_version": "0.6.99"
       }
     },
     {
@@ -85486,7 +85512,7 @@
       }
     },
     {
-      "world": "https://github.com/solida1987/openttd-archipelago/releases/download/v2.0.4/openttd.apworld",
+      "world": "https://github.com/solida1987/openttd-archipelago/releases/download/v2.0.3/openttd.apworld",
       "size": 58049,
       "hash_sha256": "ca2f12f6195b5aa077014493b164638e730953175c416680fc2c79d69e3f434b",
       "metadata": {
@@ -85494,7 +85520,7 @@
         "id": "openttd",
         "world_version": "1.4.1.post3",
         "tag_version": "1.4.1r3",
-        "created_at": "2026-08-20T12:48:30Z",
+        "created_at": "2026-08-20T12:30:24Z",
         "minimum_ap_version": "0.5.0"
       }
     },
@@ -85525,7 +85551,7 @@
       }
     },
     {
-      "world": "https://github.com/solida1987/openttd-archipelago/releases/download/v2.0.3/openttd.apworld",
+      "world": "https://github.com/solida1987/openttd-archipelago/releases/download/v2.0.4/openttd.apworld",
       "size": 58049,
       "hash_sha256": "ca2f12f6195b5aa077014493b164638e730953175c416680fc2c79d69e3f434b",
       "metadata": {
@@ -85533,7 +85559,7 @@
         "id": "openttd",
         "world_version": "1.4.1.post2",
         "tag_version": "1.4.1r2",
-        "created_at": "2026-08-20T12:30:24Z",
+        "created_at": "2026-08-20T12:48:30Z",
         "minimum_ap_version": "0.5.0"
       }
     },
@@ -88272,23 +88298,6 @@
       }
     },
     {
-      "world": "https://github.com/Az-LastPenguin/LORAP/releases/download/v1.0.0-eta.1/lor.apworld",
-      "size": 31643,
-      "hash_sha256": "8d544d31ea5d0cac150e46ce0091057b87d3b209129936e6358d29b756583bb4",
-      "metadata": {
-        "game": "",
-        "id": "lor",
-        "world_version": "1.0.0.post3",
-        "tag_version": "1.0.0r3",
-        "created_at": "2026-08-22T12:15:54Z",
-        "minimum_ap_version": "0.6.7",
-        "flags": [
-          "after_dark",
-          "prerelease"
-        ]
-      }
-    },
-    {
       "world": "https://github.com/Az-LastPenguin/LORAP/releases/download/v1.0.0-gamma/lor.apworld",
       "size": 25615,
       "hash_sha256": "49c786c6f6f7a853a069fedb0750b607e2115dae2f369f6239dcc7475b49935c",
@@ -88349,6 +88358,23 @@
         "world_version": "1.0.0.post2",
         "tag_version": "1.0.0r2",
         "created_at": "2026-08-21T23:10:04Z",
+        "minimum_ap_version": "0.6.7",
+        "flags": [
+          "after_dark",
+          "prerelease"
+        ]
+      }
+    },
+    {
+      "world": "https://github.com/Az-LastPenguin/LORAP/releases/download/v1.0.0-eta.1/lor.apworld",
+      "size": 31643,
+      "hash_sha256": "8d544d31ea5d0cac150e46ce0091057b87d3b209129936e6358d29b756583bb4",
+      "metadata": {
+        "game": "",
+        "id": "lor",
+        "world_version": "1.0.0.post2",
+        "tag_version": "1.0.0r2",
+        "created_at": "2026-08-22T12:15:54Z",
         "minimum_ap_version": "0.6.7",
         "flags": [
           "after_dark",
@@ -93746,22 +93772,6 @@
       }
     },
     {
-      "world": "https://github.com/4rtefakt/ys-origin-archipelago/releases/download/v2.0.0-beta.4/ys_origin.apworld",
-      "size": 75792,
-      "hash_sha256": "8ce18fc27376c57a9594a3d9bcbabd16313bf20141932b414e0ba6e8b5227286",
-      "metadata": {
-        "game": "",
-        "id": "ys_origin",
-        "world_version": "1.9.2.post3",
-        "tag_version": "1.9.2r3",
-        "created_at": "2026-08-02T20:45:58Z",
-        "minimum_ap_version": "0.6.7",
-        "flags": [
-          "prerelease"
-        ]
-      }
-    },
-    {
       "world": "https://github.com/4rtefakt/ys-origin-archipelago/releases/download/v2.0.0-beta.1/ys_origin.apworld",
       "size": 74517,
       "hash_sha256": "2b24bb359450ae8ff102b998149e8ad0c195d591e9d526dd3ed74097ae5489ca",
@@ -93787,6 +93797,22 @@
         "world_version": "1.9.2.post2",
         "tag_version": "1.9.2r2",
         "created_at": "2026-08-02T14:51:13Z",
+        "minimum_ap_version": "0.6.7",
+        "flags": [
+          "prerelease"
+        ]
+      }
+    },
+    {
+      "world": "https://github.com/4rtefakt/ys-origin-archipelago/releases/download/v2.0.0-beta.4/ys_origin.apworld",
+      "size": 75792,
+      "hash_sha256": "8ce18fc27376c57a9594a3d9bcbabd16313bf20141932b414e0ba6e8b5227286",
+      "metadata": {
+        "game": "",
+        "id": "ys_origin",
+        "world_version": "1.9.2.post2",
+        "tag_version": "1.9.2r2",
+        "created_at": "2026-08-02T20:45:58Z",
         "minimum_ap_version": "0.6.7",
         "flags": [
           "prerelease"
@@ -97207,6 +97233,19 @@
     },
     {
       "world": "https://github.com/jacobmix/APRac2/releases/download/v0.6.4.5/rac2.apworld",
+      "size": 89733,
+      "hash_sha256": "b0fba74305a35f4e2e8d58151fc93a69e42f6c0a44b526283567e89630b238fd",
+      "metadata": {
+        "game": "",
+        "id": "rac2",
+        "world_version": "0.6.4.5.post2",
+        "tag_version": "0.6.4.5.post2",
+        "created_at": "2026-06-30T16:54:19Z",
+        "minimum_ap_version": "0.5.0"
+      }
+    },
+    {
+      "world": "https://github.com/jacobmix/APRac2/releases/download/v0.6.4.5/rac2.apworld",
       "size": 88086,
       "hash_sha256": "f2aa0c2d773309ee3815e3d32640c1f0c85bbb5cfd09e71174485fb6db927940",
       "metadata": {
@@ -98357,6 +98396,22 @@
         "tag_version": "0.5.0",
         "created_at": "2025-12-28T19:42:46Z",
         "maximum_ap_version": "0.6.99"
+      }
+    },
+    {
+      "world": "https://github.com/Serial-Developer/Grunnchipelago/releases/download/v1.1.1/grunn.apworld",
+      "size": 52288,
+      "hash_sha256": "1e261e95291c0dcc0a51ec58c9132440f5da1e6a85be16e391a82f6e9f2cb60e",
+      "metadata": {
+        "game": "",
+        "id": "grunn",
+        "world_version": "1.1.1",
+        "tag_version": "1.1.1",
+        "created_at": "2026-08-23T10:44:24Z",
+        "minimum_ap_version": "0.6.7",
+        "flags": [
+          "unready"
+        ]
       }
     },
     {
@@ -101087,15 +101142,15 @@
       }
     },
     {
-      "world": "https://github.com/Jbaker16163/Ark-Survival-Archipelago/releases/download/v0.1.6-alpha/ark_ase.apworld",
-      "size": 134144,
-      "hash_sha256": "71c88cf7edf86ac25ef4ecaecbece1d1026a365990a7a49554cf4b6c7e914cc7",
+      "world": "https://github.com/Jbaker16163/Ark-Survival-Archipelago/releases/download/v0.2-alpha/ark_ase.apworld",
+      "size": 137796,
+      "hash_sha256": "a9db5505cfdb74f787993ffa45bc2c4403a831c9f41227d0b870470e8975e865",
       "metadata": {
         "game": "",
         "id": "ark_ase",
         "world_version": "1.0.0.post3",
         "tag_version": "1.0.0r3",
-        "created_at": "2026-08-05T21:37:36Z",
+        "created_at": "2026-08-12T20:15:24Z",
         "minimum_ap_version": "0.6.0",
         "maximum_ap_version": "0.9.99"
       }
@@ -101132,15 +101187,15 @@
       }
     },
     {
-      "world": "https://github.com/Jbaker16163/Ark-Survival-Archipelago/releases/download/v0.2-alpha/ark_ase.apworld",
-      "size": 137796,
-      "hash_sha256": "a9db5505cfdb74f787993ffa45bc2c4403a831c9f41227d0b870470e8975e865",
+      "world": "https://github.com/Jbaker16163/Ark-Survival-Archipelago/releases/download/v0.1.6-alpha/ark_ase.apworld",
+      "size": 134144,
+      "hash_sha256": "71c88cf7edf86ac25ef4ecaecbece1d1026a365990a7a49554cf4b6c7e914cc7",
       "metadata": {
         "game": "",
         "id": "ark_ase",
         "world_version": "1.0.0.post2",
         "tag_version": "1.0.0r2",
-        "created_at": "2026-08-12T20:15:24Z",
+        "created_at": "2026-08-05T21:37:36Z",
         "minimum_ap_version": "0.6.0",
         "maximum_ap_version": "0.9.99"
       }
@@ -138771,6 +138826,22 @@
         "tag_version": "0.1.0",
         "created_at": "2025-12-29T01:27:51Z",
         "maximum_ap_version": "0.6.99",
+        "flags": [
+          "prerelease"
+        ]
+      }
+    },
+    {
+      "world": "https://github.com/MikeFritzDevelops/ACWW-Archipelago/releases/download/v0.1.2-alpha/acww.apworld",
+      "size": 35338,
+      "hash_sha256": "2ca11a6cfbe7053ed4280a02be09ce77a9b213e93594cc1e0fe3dfae647230cb",
+      "metadata": {
+        "game": "",
+        "id": "acww",
+        "world_version": "0.1.1",
+        "tag_version": "0.1.1",
+        "created_at": "2026-08-23T07:59:34Z",
+        "minimum_ap_version": "0.6.7",
         "flags": [
           "prerelease"
         ]
