@@ -2,87 +2,11 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://raw.githubusercontent.com/silasary/apworlds/refs/heads/main/recent.atom</id>
   <title>Recent APWorlds</title>
-  <updated>2026-08-23T00:49:05.475717+00:00</updated>
+  <updated>2026-08-23T06:31:45.610701+00:00</updated>
   <author>
     <name>Silasary</name>
   </author>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
-  <entry>
-    <id>https://github.com/Ishigh1/Archipelago/releases/tag/2048-1.1.3</id>
-    <title>2048 v1.1.3</title>
-    <updated>2026-08-19T12:10:51+00:00</updated>
-    <author>
-      <name>Ishigh</name>
-    </author>
-    <content>There has been some reports about merges not working even after getting the corresponding item. I got no idea why, so here's more logging to help investigate</content>
-    <link href="https://github.com/Ishigh1/Archipelago/releases/tag/2048-1.1.3"/>
-  </entry>
-  <entry>
-    <id>https://github.com/thejoshwolfe/Archipelago/releases/tag/space-age-v2.3.0</id>
-    <title>Factorio: Space Age v2.3.0</title>
-    <updated>2026-08-19T13:04:49+00:00</updated>
-    <author>
-      <name>Berserker</name>
-    </author>
-    <author>
-      <name>Josh Wolfe</name>
-    </author>
-    <content># Factorio: Space Age apworld 2.3.0&#13;
-&#13;
-* Now based on Factorio 2.1 🎉&#13;
-    * As of writing this, Factorio 2.1.14 itself is still experimental. Please report bugs or incompatibilities, and thanks for being an early tester of both this apworld and Factorio 2.1!&#13;
-    * The new `stellar-discovery-solar-system-edge` technology means that the `progressive-promethium` large group has one extra item.&#13;
-    * Moving `biter-egg` and `nutrients-from-biter-egg` recipes to `biter-egg-handling` means the `progressive-captivity` large group has one extra item.&#13;
-    * The default number of filler nothing items is now 3 instead of 4, because `biter-egg-handling` is no longer an empty technology.&#13;
-* New YAML option `intermediate_technologies: unlocked` enabled by default, which unlocks 19 technologies from the start that only give intermediate products. This option doesn't give free samples for these intermediates. See https://github.com/thejoshwolfe/Archipelago/blob/space-age/worlds/factorio_space_age/data/ap_data.py for the list of technologies. [#37](https://github.com/thejoshwolfe/Archipelago/issues/37)&#13;
-* New YAML option `production_and_utility_science: removed` disabled by default, which allows for a smaller scale game, particularly with shorter objectives like `goal: any_other_planet_science`.&#13;
-* Research objectives beyond your configured goal are removed. For example, `goal: aquilo_orbit` will remove all research locations involving cryogenic science packs. When combined with `infinite_technologies: shuffle` (the default), infinite technologies beyond the goal are moved earlier instead of removed, copying the ingredients, prerequisites, and count formula of an earlier infinite technology. This can enable Factorio: Space Age players to unblock themselves by researching large progressive groups from infinite technology locations out of logic once enough science packs are unlocked, always at least chemical science. [#11](https://github.com/thejoshwolfe/Archipelago/issues/11)&#13;
-* Fix filler items not contributing to their progressive group like they're supposed to.&#13;
-* Improved information in the technology GUI:&#13;
-    * Progressive chains are shown as dependencies between the inaccessible vanilla technologies, visualizing progressive chains. [#19](https://github.com/thejoshwolfe/Archipelago/issues/19)&#13;
-    * Move multiworld item name from description to trigger description. Thanks @CosmicWolf/@Enderdraak for suggesting this in [#31](https://github.com/thejoshwolfe/Archipelago/issues/31) and [#30](https://github.com/thejoshwolfe/Archipelago/pull/30).&#13;
-    * Move localizable strings to `locale/en/locale.cfg` (no longer dynamically generated), which should enable third-party translations. Thanks @CosmicWolf/@Enderdraak for the reference implementation in [#30](https://github.com/thejoshwolfe/Archipelago/pull/30).&#13;
-&#13;
-download: https://github.com/thejoshwolfe/Archipelago/releases .&#13;
-general docs: https://github.com/thejoshwolfe/Archipelago/blob/space-age/worlds/factorio_space_age/docs/en_Factorio_Space_Age.md .&#13;
-setup guide: https://github.com/thejoshwolfe/Archipelago/blob/space-age/worlds/factorio_space_age/docs/setup_en.md .&#13;
-source code: https://github.com/thejoshwolfe/Archipelago/tree/space-age/worlds/factorio_space_age .</content>
-    <link href="https://github.com/thejoshwolfe/Archipelago/releases/tag/space-age-v2.3.0"/>
-  </entry>
-  <entry>
-    <id>https://github.com/DayKat/spirit-tracks/releases/tag/st-v0.8.2</id>
-    <title>The Legend of Zelda - Spirit Tracks v0.8.2</title>
-    <updated>2026-08-19T15:52:53+00:00</updated>
-    <author>
-      <name>DayKat</name>
-    </author>
-    <author>
-      <name>1313e</name>
-    </author>
-    <author>
-      <name>Carrotinator</name>
-    </author>
-    <author>
-      <name>TriforceDrummer</name>
-    </author>
-    <author>
-      <name>Nepecute</name>
-    </author>
-    <author>
-      <name>Catzador</name>
-    </author>
-    <content>Compatible with seeds generated in v8.x&#13;
-[Setup Guide](https://github.com/DayKat/spirit-tracks/blob/main/worlds/tloz_st/docs/setup.md)&#13;
-&#13;
-- fixed start_with_train not working&#13;
-- fixed non-er rail checker not checking coordinates&#13;
-- fixed mountain temple crash&#13;
-- fixed boss room blocked item crash&#13;
-- fixed dynamic entrance instancing bug&#13;
-- fixed item id problem, and made sure it works with poptracker again. you'll need to redownload the [poptracker pack](https://github.com/carrotinator/spirit-tracks-poptracker-ap/tree/carrot-map-tweaks)&#13;
-</content>
-    <link href="https://github.com/DayKat/spirit-tracks/releases/tag/st-v0.8.2"/>
-  </entry>
   <entry>
     <id>https://github.com/Rosalie-A/Archipelago/releases/tag/FFT-v0.4.0</id>
     <title>Final Fantasy Tactics Ivalice Island v0.4.0</title>
@@ -500,7 +424,7 @@ Known issues (will be addressed in a later release)&#13;
   </entry>
   <entry>
     <id>https://github.com/solida1987/openttd-archipelago/releases/tag/v2.0.3</id>
-    <title>OpenTTD v1.4.1r3</title>
+    <title>OpenTTD v1.4.1r2</title>
     <updated>2026-08-20T12:30:24+00:00</updated>
     <author>
       <name>OpenTTD AP Team</name>
@@ -510,7 +434,7 @@ Known issues (will be addressed in a later release)&#13;
   </entry>
   <entry>
     <id>https://github.com/solida1987/openttd-archipelago/releases/tag/v2.0.4</id>
-    <title>OpenTTD v1.4.1r2</title>
+    <title>OpenTTD v1.4.1r3</title>
     <updated>2026-08-20T12:48:30+00:00</updated>
     <author>
       <name>OpenTTD AP Team</name>
@@ -1028,8 +952,45 @@ The PR to fix this has been merged, but until Archipelago has another release, p
     <link href="https://github.com/T4g1/ArchipelagoTomba/releases/tag/v0.4.6-beta"/>
   </entry>
   <entry>
+    <id>https://github.com/Boi-027/BayonettaArchipelago/releases/tag/v3.2.0</id>
+    <title>Bayonetta v3.2.0</title>
+    <updated>2026-08-22T11:58:39+00:00</updated>
+    <author>
+      <name>Boi</name>
+    </author>
+    <content>## v3.2.0&#13;
+Major bug fixes for combat filters, vehicle logic, duplicate checks, and overall game stability!&#13;
+&#13;
+### Bug Fixes &amp; Adjustments&#13;
+* **Alfheim Option Added:** Added a dedicated toggle to the `bayonetta.apworld` settings allowing players to disable Alfheims as randomized location checks.&#13;
+* **Hitstun, Death &amp; Grab Lockouts Fixed:** Fixed an overly aggressive input filter that accidentally blocked system animations. Hitstun (damage knockback), magic drain, death states, and contextual grabs (like the Wicked Weave Flurry Grab) will no longer be intercepted when kicks are locked.&#13;
+* **Chapter XIII Surfboard Glitch:** Fixed a major bug during the Sapientia boss fight where players would stand on a static board with normal movement, becoming entirely invincible. The surfboard vehicle state now loads perfectly.&#13;
+* **Route 666 Check Overhaul:** Completely rewrote the Chapter 8 verse tracker. The randomizer now natively hooks into the Rank Table memory, ensuring checks are awarded the exact millisecond the verse result screen appears. This permanently fixes false Pure Platinum grants, missing checks, and quit-to-menu exploits.&#13;
+* **Route 666 Dynamic Vehicle Sync:** Vehicle restriction immunity is now properly mapped to exact verses. You will no longer be allowed to use locked weapons during the on-foot car fights in Verses 1 and 2.&#13;
+* **Angel Arms Full Arsenal Unlocks:** Expanded the item ID range filter to correctly encompass all enemy-dropped weapons (such as spears, bows, and chainsaws alongside the Ardor Blade). &#13;
+* **Magic Flute Menu Visibility:** The *Magic Flute* will now immediately appear in your in-game item menu when received through the Archipelago multiworld, without requiring you to manually craft it or pick it up first.&#13;
+* **Smoother Pause Combos:** Fixed an issue where combo attacks requiring a slight delay or pause would freeze up or fail to register. Combo chains now flow smoothly from start to finish.&#13;
+&#13;
+### Todo&#13;
+* **Co-op Enhancements:** Refine spectator scaling and sync timings for custom weapons during high-intensity co-op play.&#13;
+* **Tracker Updates:** Work on making the item tracker only show items that are currently "in logic".&#13;
+&#13;
+### Highly Recommended Additions&#13;
+For the most stable and enjoyable experience, I strongly recommend downloading and installing these alongside the AP mod, it does not take much work to install and it will help with crashes and bugs the AP mod might have! &#13;
+* **[Bayonetta 4GB Patch](https://github.com/oceaniccamred/Bayonetta-4GB-Patched-EXE)** (Highly recommended to prevent memory crashes)&#13;
+* **[Bayonetta Essentials](https://gamebanana.com/mods/533310)**&#13;
+&#13;
+### Downloads&#13;
+- **`dinput8.dll`** — place in your Bayonetta game folder (next to `Bayonetta.exe`).&#13;
+- **`z.dll`** — place in your Bayonetta game folder too.&#13;
+- **`bayonetta.apworld`** — place in your Archipelago `custom_worlds` folder (replace the old one).&#13;
+&#13;
+**Existing seeds keep their original logic** — updates apply to freshly generated seeds. Old seeds play fine with the new DLL, but new world rules require a regeneration.</content>
+    <link href="https://github.com/Boi-027/BayonettaArchipelago/releases/tag/v3.2.0"/>
+  </entry>
+  <entry>
     <id>https://github.com/Az-LastPenguin/LORAP/releases/tag/v1.0.0-eta.1</id>
-    <title>Library of Ruina v1.0.0r2</title>
+    <title>Library of Ruina v1.0.0r3</title>
     <updated>2026-08-22T12:15:54+00:00</updated>
     <author>
       <name>LastPenguin</name>
@@ -1048,35 +1009,6 @@ The PR to fix this has been merged, but until Archipelago has another release, p
 - FIXED: Abno/EGO page receive panel not opening and breaking item receive&#13;
 - FIXED: Debug panel showing wrong book of everything opened count</content>
     <link href="https://github.com/Az-LastPenguin/LORAP/releases/tag/v1.0.0-eta.1"/>
-  </entry>
-  <entry>
-    <id>https://github.com/vicr123/Archipelago/releases/tag/20260822-1</id>
-    <title>Candy Box 2 v1.20260822.1</title>
-    <updated>2026-08-22T13:00:33+00:00</updated>
-    <author>
-      <name>Victor Tran</name>
-    </author>
-    <author>
-      <name>Aren Merzoian</name>
-    </author>
-    <content>This version of the Candy Box 2 randomizer introduces the following features:&#13;
-- New goal conditions are now available.&#13;
-  - Goal conditions are implemented as a set of tasks to be performed&#13;
-  - In addition to obtaining the PLAY stones, you can also opt to require dying to the Castle Trap Room or swimming 3000m in the sea.&#13;
-  - Any subset of these tasks can be made as a requirement to goal the game.&#13;
-  - Your progress towards these goals can be found by finding the Talking Candy.&#13;
-- Filler locations have been overhauled.&#13;
-  - Filler locations now exist in the Lollipop Farm and as distances travelled in the sea.&#13;
-  - Filler locations are randomly selected when required.&#13;
-  - Opting for Individual Spells now adds filler locations instead of bundling multiple items into one shop purchase at the Sorceress' hut.&#13;
-- Hovering over the World Map in your Inventory now tells you how many Progressive World Maps you have received.&#13;
-- You can now have up to 20 font traps in the world.&#13;
-- Logic has been updated for single enemy quests - the Purple Fin is now taken into account.&#13;
-&#13;
-Tested on AP 0.6.7, YMMV on later versions. Requires AP 0.6.0 or later.&#13;
-&#13;
-Game client available at: https://candybox2-ap.vicr123.com/20260822-1/</content>
-    <link href="https://github.com/vicr123/Archipelago/releases/tag/20260822-1"/>
   </entry>
   <entry>
     <id>https://github.com/thejoshwolfe/Archipelago/releases/tag/space-age-v2.3.1</id>
@@ -1337,5 +1269,50 @@ This is an early release and has not been extensively tested. Expect bugs and mi
 &#13;
 **Full Changelog**: https://github.com/1313e/Civ-V-AP-World/compare/v0.10.8...v0.10.9</content>
     <link href="https://github.com/1313e/Civ-V-AP-World/releases/tag/v0.10.9"/>
+  </entry>
+  <entry>
+    <id>https://github.com/kenniky/ArchipelagoSSE/releases/tag/v0.2.7-real</id>
+    <title>Super Smash Bros. Brawl - The Subspace Emissary v0.2.7.post0</title>
+    <updated>2026-08-23T00:53:51+00:00</updated>
+    <author>
+      <name>kenniky</name>
+    </author>
+    <content>Implements a flow to constantly update adventure data address&#13;
+&#13;
+Backwards compatible to v0.2.0&#13;
+&#13;
+Info: https://github.com/kenniky/ArchipelagoSSE/blob/main/worlds/ssbb_sse/docs/en_SubspaceEmissary.md&#13;
+Setup: https://github.com/kenniky/ArchipelagoSSE/blob/main/worlds/ssbb_sse/docs/en_SubspaceEmissary_Setup.md&#13;
+FAQ: https://github.com/kenniky/ArchipelagoSSE/blob/main/worlds/ssbb_sse/docs/faq.md</content>
+    <link href="https://github.com/kenniky/ArchipelagoSSE/releases/tag/v0.2.7-real"/>
+  </entry>
+  <entry>
+    <id>https://github.com/vicr123/Archipelago/releases/tag/20260822-1</id>
+    <title>Candy Box 2 v1.20260822.1r2</title>
+    <updated>2026-08-23T05:33:57+00:00</updated>
+    <author>
+      <name>Victor Tran</name>
+    </author>
+    <author>
+      <name>Aren Merzoian</name>
+    </author>
+    <content>This version of the Candy Box 2 randomizer introduces the following features:&#13;
+- New goal conditions are now available.&#13;
+  - Goal conditions are implemented as a set of tasks to be performed&#13;
+  - In addition to obtaining the PLAY stones, you can also opt to require dying to the Castle Trap Room or swimming 3000m in the sea.&#13;
+  - Any subset of these tasks can be made as a requirement to goal the game.&#13;
+  - Your progress towards these goals can be found by finding the Talking Candy.&#13;
+- Filler locations have been overhauled.&#13;
+  - Filler locations now exist in the Lollipop Farm and as distances travelled in the sea.&#13;
+  - Filler locations are randomly selected when required.&#13;
+  - Opting for Individual Spells now adds filler locations instead of bundling multiple items into one shop purchase at the Sorceress' hut.&#13;
+- Hovering over the World Map in your Inventory now tells you how many Progressive World Maps you have received.&#13;
+- You can now have up to 20 font traps in the world.&#13;
+- Logic has been updated for single enemy quests - the Purple Fin is now taken into account.&#13;
+&#13;
+Tested on AP 0.6.7, YMMV on later versions. Requires AP 0.6.0 or later.&#13;
+&#13;
+Game client available at: https://candybox2-ap.vicr123.com/20260822-1/</content>
+    <link href="https://github.com/vicr123/Archipelago/releases/tag/20260822-1"/>
   </entry>
 </feed>
