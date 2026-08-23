@@ -2,116 +2,11 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://raw.githubusercontent.com/silasary/apworlds/refs/heads/main/recent.atom</id>
   <title>Recent APWorlds</title>
-  <updated>2026-08-23T12:25:22.624707+00:00</updated>
+  <updated>2026-08-23T18:23:46.958877+00:00</updated>
   <author>
     <name>Silasary</name>
   </author>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
-  <entry>
-    <id>https://github.com/TheOmnipresence/PixelDrawAPWorld/releases/tag/1.3.3</id>
-    <title>PixelDraw v1.3.3</title>
-    <updated>2026-08-19T18:14:32+00:00</updated>
-    <author>
-      <name>InterestedSC2</name>
-    </author>
-    <content>**Version 1.3.3**&#13;
-&#13;
-_Archipelago Changes:_&#13;
-&#13;
-- Added knockbacklink (links knockback received between players)&#13;
-- Added a page for deathlink and knockbacklink in the menu&#13;
-- Disabled most deathlink messages&#13;
-- Added deathlink grace&#13;
-- Fixed removing locations (collect)&#13;
-- Updated/edited both docs&#13;
-- Changed option groups</content>
-    <link href="https://github.com/TheOmnipresence/PixelDrawAPWorld/releases/tag/1.3.3"/>
-  </entry>
-  <entry>
-    <id>https://github.com/Str8UpWHITE64/Librarian-AP/releases/tag/2.0.3</id>
-    <title>Librarian Tidy Up the Arcane Library v2.0.3</title>
-    <updated>2026-08-19T18:43:35+00:00</updated>
-    <author>
-      <name>Str8UpWHITE64</name>
-    </author>
-    <content>## Librarian-AP v2.0.3&#13;
-&#13;
-Spare unlocks so you get BK'd less often, plus three fixes.&#13;
-&#13;
-**Existing runs are unaffected.** Nothing here changes a seed in progress.&#13;
-&#13;
-## `extra_series_percent` is now `spare_book_item_percent`&#13;
-&#13;
-**Regenerate your YAML to update the name.** Same default of 10, but capped at 20 now.&#13;
-&#13;
-Renamed because it does more than one job. On `goal: custom` it works as it did in 2.0.2.&#13;
-It now also applies to **full and floor goals**, adding that percentage of extra&#13;
-`Progressive Series Unlock` items to the pool, replacing filler.&#13;
-&#13;
-A full or floor goal needs every series in its scope, so one unlock sitting in a stalled&#13;
-or abandoned game can leave you stuck for good. The spares mean you need most of them&#13;
-rather than all.&#13;
-&#13;
-## New: `spare_shelf_items`&#13;
-&#13;
-The same for bookcases, on full and floor goals. A count per bookcase rather than a&#13;
-percentage: it adds an extra N `Progressive Shelf Unlock` items for each section,&#13;
-replacing filler.&#13;
-&#13;
-```yaml&#13;
-spare_shelf_items: 0   # 0-3, default 0&#13;
-```&#13;
-&#13;
-It is the most expensive setting in the YAML, one item slot per bookcase per step. A seed&#13;
-with no room for the number you pick uses fewer and says so during generation.&#13;
-&#13;
-Both settings are `progressive_unlocks` only, where unlock items are interchangeable.&#13;
-&#13;
-## Fix: BookSanity with `goal: custom` could fail to generate&#13;
-&#13;
-In 2.0.2 it could fail outright with an accessibility error listing `Reached Level`&#13;
-locations. The level filter used the row count you asked for, not the rows the trimmed&#13;
-seed holds.&#13;
-&#13;
-## Fix: UT showing every level as reachable&#13;
-&#13;
-In BookSanity the level checks read as in logic from the start, with sphere trackers&#13;
-putting all 45 in sphere 1. Levels come from finishing **rows**, but the logic counted&#13;
-**books**: level 45 wants 254 rows and was asked for 254 books, of 3072.&#13;
-&#13;
-## Fix: UT modeling the wrong starting items&#13;
-&#13;
-Universal Tracker re-runs generation without seeing your YAML, so `starting_series_count`&#13;
-and `series_per_unlock` came from defaults and it modeled the wrong number of starting&#13;
-series unlocks.&#13;
-&#13;
-## Updating&#13;
-&#13;
-&gt; Extract the zip and drop `Librarian/` into your Steam install (overwrite). Drop the&#13;
-&gt; included `librarian.apworld` into your Archipelago `custom_worlds/` folder. Requires&#13;
-&gt; game build 1.0.12 or newer. The title screen top-right should read `LibAP v2.0.3`.&#13;
-&#13;
-## If something breaks&#13;
-&#13;
-Send `crash_trace.log` (the header should read `mod=2.0.3`), the last ~200 lines of&#13;
-`UE4SS.log`, your YAML's `Librarian:` section, and one line on what you were doing.&#13;
-</content>
-    <link href="https://github.com/Str8UpWHITE64/Librarian-AP/releases/tag/2.0.3"/>
-  </entry>
-  <entry>
-    <id>https://github.com/jordansds/Archipelago_TWW3_Alt/releases/tag/v0.10.16</id>
-    <title>Total War Warhammer 3 v0.10.16.post2</title>
-    <updated>2026-08-19T19:08:39+00:00</updated>
-    <author>
-      <name>jordansds</name>
-    </author>
-    <content>Added missing Dechala buildings.&#13;
-Fixed bug with Dechala and progressive buildings failing generation.&#13;
-Fixed progressive units.&#13;
-&#13;
-**Full Changelog**: https://github.com/jordansds/Archipelago_TWW3_Alt/compare/v0.10.15...v0.10.16</content>
-    <link href="https://github.com/jordansds/Archipelago_TWW3_Alt/releases/tag/v0.10.16"/>
-  </entry>
   <entry>
     <id>https://github.com/palex00/Archipelago/releases/tag/logic-test-0.3.0</id>
     <title>Logic Test v0.3.0</title>
@@ -295,7 +190,7 @@ Known issues (will be addressed in a later release)&#13;
   </entry>
   <entry>
     <id>https://github.com/solida1987/openttd-archipelago/releases/tag/v2.0.3</id>
-    <title>OpenTTD v1.4.1r3</title>
+    <title>OpenTTD v1.4.1r2</title>
     <updated>2026-08-20T12:30:24+00:00</updated>
     <author>
       <name>OpenTTD AP Team</name>
@@ -305,7 +200,7 @@ Known issues (will be addressed in a later release)&#13;
   </entry>
   <entry>
     <id>https://github.com/solida1987/openttd-archipelago/releases/tag/v2.0.4</id>
-    <title>OpenTTD v1.4.1r2</title>
+    <title>OpenTTD v1.4.1r3</title>
     <updated>2026-08-20T12:48:30+00:00</updated>
     <author>
       <name>OpenTTD AP Team</name>
@@ -861,7 +756,7 @@ For the most stable and enjoyable experience, I strongly recommend downloading a
   </entry>
   <entry>
     <id>https://github.com/Az-LastPenguin/LORAP/releases/tag/v1.0.0-eta.1</id>
-    <title>Library of Ruina v1.0.0r2</title>
+    <title>Library of Ruina v1.0.0r3</title>
     <updated>2026-08-22T12:15:54+00:00</updated>
     <author>
       <name>LastPenguin</name>
@@ -1250,5 +1145,92 @@ Bug reports, balance feedback, and suggestions are greatly appreciated.</content
     <content>**Progressive Employee Upgrade Items: Replaced individually numbered employee unlock items with progressive copies.**&#13;
 </content>
     <link href="https://github.com/Lemix028/SupermarketSimulator-Archipelago/releases/tag/v0.3.3"/>
+  </entry>
+  <entry>
+    <id>https://github.com/silasary/APxiv/releases/tag/0.31.1</id>
+    <title>Final Fantasy XIV v0.31.1</title>
+    <updated>2026-08-23T12:35:00+00:00</updated>
+    <author>
+      <name>silasary</name>
+    </author>
+    <content>* Added North Horn FATES and CEs.
+* Added Frontline checks.  The `include_pvp` option has been replaced with separate toggles for CC and Frontline.
+* Fixed bug where Bozja and Occult Crescent FATEs would not respect their yaml settings if FATEsanity was enabled.
+* Separate toggle for Skyrise Celebration fetes.</content>
+    <link href="https://github.com/silasary/APxiv/releases/tag/0.31.1"/>
+  </entry>
+  <entry>
+    <id>https://github.com/awakenbad/SanAndreasAP/releases/tag/v0.7.0</id>
+    <title>Grand Theft Auto: San Andreas v0.7.0</title>
+    <updated>2026-08-23T12:43:43+00:00</updated>
+    <author>
+      <name>awaken</name>
+    </author>
+    <content>## New:&#13;
+- Added **Street Races** as checks - to access them you need to receive a `Street Races Unlock` item that will unlock them at any point in the game. &#13;
+- All Ammu-nation weapons now send checks instead of only LS unlocks.&#13;
+- Added `Max Driving Skill` item.&#13;
+- Stadium Events now send checks - two of the events that require driving skill are gated behind `Max Driving Skill` and `Max Bike Skill` in logic&#13;
+- Courier Missions now send checks&#13;
+- Added `Max Muscle` item, it now gates all three gyms.&#13;
+- Added `Bad Weather Trap` (Rain, Fog, Sandstorm) (#25)&#13;
+- Schools have the option to send checks per medal (*Bronze*, *Silver*, *Gold*) (#17)&#13;
+## Changes:&#13;
+- `Mission Blockers` are gone - mission markers don't have physical barricades anymore, instead every marker changes its color to grey and doesn't start the mission when out of Progressive Missions.&#13;
+- Ammu-nation now shows items in text rather than overlaying, with colors matching their usefulness in the multiworld. (#6)&#13;
+  (Huge props to @Lordmau5 for extensively researching and creating a prototype)&#13;
+- Burglary, Trucking, Valet, Pimping and Quarry can now be completely turned off.&#13;
+- Import/Export now has an option for less lists (#34)&#13;
+- Bike and Driving Skill cannot be earned through schools anymore.&#13;
+## Fixes:&#13;
+- Fixed 1 radar blip being leaked on every save/load (#43)&#13;
+- Fixed `Infinite Sprint` not being applied (#38)&#13;
+- Fixed Oyster 27 showing too far off on the pause menu map (#40)&#13;
+- Fixed `High Stakes, Low Ryder` and `Wu Zi Mu` not being blocked by mission blockers (#33)&#13;
+- Fixed radar Progressive Mission counters scaling in-correctly at high resolutions</content>
+    <link href="https://github.com/awakenbad/SanAndreasAP/releases/tag/v0.7.0"/>
+  </entry>
+  <entry>
+    <id>https://github.com/spinerak/refunct-tas-archipelago/releases/tag/v1.5.0a</id>
+    <title>Refunct v1.5.0a0</title>
+    <updated>2026-08-23T15:07:51+00:00</updated>
+    <author>
+      <name>Spineraks</name>
+    </author>
+    <content>This is a mod-only update with map editing fixes, apworld and yaml are the same as 1.5.0.&#13;
+## 1.5.0 -&gt; 1.5.0a&#13;
+- Fixed game crashes when editing a map and collecting cubes&#13;
+- Hide "edit-menu" when "playing" a custom map&#13;
+&#13;
+# 1.5.0&#13;
+Refunct now uses Rulebuilder! You will need at least Archipelago 0.6.7 from now on.&#13;
+# Custom maps in Archipelago!&#13;
+- You can now play custom maps and they'll give checks in Archipelago. Every button is a check for a total of 37 checks. Enable the Custom Minigame in your yaml.&#13;
+- You can use any custom map you want! Here's my recommended list (currently only 2 maps): [link to archipelago discord](https://discord.com/channels/731205301247803413/1273001824919617577/1540723304296353824).&#13;
+- Here's how to install them: download the maps you want. Then open Refunct and the mod. Press CTRL+SHIFT+M and select "Open Maps Folder". Place your custom map there (it's probably `AppData\Roaming\refunct-tas\maps`). &#13;
+- Once you unlock the Custom minigame and you select it, you will be asked directly which custom map you want to play, you can select it there. You can (re)start whichever you want.&#13;
+- You can make custom maps too with the editor!&#13;
+# Map editor improvements&#13;
+- Pressing `c` and triggering the next cluster should now work better.&#13;
+- You can now press `left`/`right`/`up`/`down`/`pageup`/`pagedown` to work in 3 dimensions without having to toggle.&#13;
+- `TAB` now opens the advanced editor of the selected element, if any.</content>
+    <link href="https://github.com/spinerak/refunct-tas-archipelago/releases/tag/v1.5.0a"/>
+  </entry>
+  <entry>
+    <id>https://github.com/Mekurushi/Archipelago_Pokepark/releases/tag/1.2.6</id>
+    <title>PokePark v1.2.6</title>
+    <updated>2026-08-23T16:55:14+00:00</updated>
+    <author>
+      <name>Joe Mama (Mekurushi)</name>
+    </author>
+    <content>## What's Changed&#13;
+* 135 bug porygon z quiz check logic issue by @Mekurushi in https://github.com/Mekurushi/Archipelago_Pokepark/pull/136&#13;
+* 140 bug ut glitched logic for beating any gyarados attraction is incorrect by @Mekurushi in https://github.com/Mekurushi/Archipelago_Pokepark/pull/141&#13;
+* 142 bug rhyperior friendship is classified as errand location by @Mekurushi in https://github.com/Mekurushi/Archipelago_Pokepark/pull/143&#13;
+* updated documentation and option descriptions&#13;
+&#13;
+&#13;
+**Full Changelog**: https://github.com/Mekurushi/Archipelago_Pokepark/compare/1.2.5...1.2.6</content>
+    <link href="https://github.com/Mekurushi/Archipelago_Pokepark/releases/tag/1.2.6"/>
   </entry>
 </feed>
