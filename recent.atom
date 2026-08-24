@@ -2,112 +2,11 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://raw.githubusercontent.com/silasary/apworlds/refs/heads/main/recent.atom</id>
   <title>Recent APWorlds</title>
-  <updated>2026-08-23T18:23:46.958877+00:00</updated>
+  <updated>2026-08-24T00:41:19.584335+00:00</updated>
   <author>
     <name>Silasary</name>
   </author>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
-  <entry>
-    <id>https://github.com/palex00/Archipelago/releases/tag/logic-test-0.3.0</id>
-    <title>Logic Test v0.3.0</title>
-    <updated>2026-08-19T20:56:45+00:00</updated>
-    <author>
-      <name>gerbiljames</name>
-    </author>
-    <author>
-      <name>palex00</name>
-    </author>
-    <content>## Sphere model fix: locked placements no longer break lock-step
-
-Fixed the bug where locked in-game placements in the under-test game (vanilla or shuffled badges, HMs, key items) caused interleaved keys — e.g. lots of `KEY_12` arriving while `KEY_11` was still incomplete — along with false `LOGIC LEAK` warnings in the client. These items are never gated by the KEY spheres, so the player picks them up mid-sphere in real play; the sphere model now collects them via closure (like events) in both `count_events` modes, restoring the lock-step guarantee: a `KEY_(i+1)` is never legitimately reachable before every `KEY_i`.
-
-Related hardening:
-- The unreachable-marker pass uses the same networkable-location predicate as the sphere computation.
-- Generation fails loudly if the fixed-location snapshot hook didn't run, instead of silently falling back to post-fill lock flags.
-- Non-advancement items are skipped in the closure sets (they can't affect reachability).
-- New regression test replays gated play via `MultiWorld.get_spheres` against a slot with shuffled (locked) badges/HMs.
-
-## Client improvements
-
-- **Leak tracking persists across reconnects**: keys received ahead of the current sphere are recorded in server data storage (per team/slot), so leak history survives reconnects and item replays. Leaked spheres are flagged in the status output and GUI with the sphere they arrived on.
-- **Per-sphere key totals**: the status list and GUI tab now show have/required key counts for every sphere (done / now / locked), not just the current one.
-
-## Upgrade notes
-
-Seeds generated with 0.2.1 or earlier keep their old (misgrouped) key assignment — the fix applies at generation time, so affected multiworlds need a regen. Existing games remain playable; the early keys are safe and the leak warnings they trigger are spurious.
-</content>
-    <link href="https://github.com/palex00/Archipelago/releases/tag/logic-test-0.3.0"/>
-  </entry>
-  <entry>
-    <id>https://github.com/FlySniper/Archipelago/releases/tag/wargroove2-1.1.10</id>
-    <title>Wargroove 2 v1.1.10</title>
-    <updated>2026-08-19T21:10:10+00:00</updated>
-    <author>
-      <name>Fly Hyping</name>
-    </author>
-    <author>
-      <name>Magnemania</name>
-    </author>
-    <author>
-      <name>Akblabla</name>
-    </author>
-    <author>
-      <name>Luminary Lytra</name>
-    </author>
-    <content># Features&#13;
-- Map Changes by KoiiBlitz.&#13;
-- Fixed a logic issue with the map Giant Issue</content>
-    <link href="https://github.com/FlySniper/Archipelago/releases/tag/wargroove2-1.1.10"/>
-  </entry>
-  <entry>
-    <id>https://github.com/furret78/ArchipelagoTouhou/releases/tag/0.4.5</id>
-    <title>Black Market of Bulletphilia ~ 100th Black Market v0.4.5</title>
-    <updated>2026-08-19T21:16:46+00:00</updated>
-    <author>
-      <name>Yuureiki</name>
-    </author>
-    <content>Archipelago Randomizer implementation for **_Black Market of Bulletphilia ~ 100th Black Market_**, also known as _**Touhou 18.5**_.&#13;
-&#13;
-- **.apworld version:** 0.4.5&#13;
-- **Minimum Archipelago Launcher version:** 0.6.7&#13;
-&#13;
-Recommended to play on Windows, as **the game does not support Linux natively**. If playing on Linux, it is recommended to run both Archipelago Launcher and the game in Wine/Proton.&#13;
-&#13;
-# Changelog&#13;
-- Added `Izanagi Object - Dragon Gem` item and its own item group.&#13;
-- Added **Dragon Gem Hunt goal**: the player must collect a certain number of `Izanagi Object - Dragon Gem`s before victory is achieved. This is a treasure hunt mode similar to Yoshi Island's Luigi Hunt and Super Mario World's Yoshi Egg Hunt goals.&#13;
-- Added options **Dragon Gems Required** and **Dragon Gems in Pool**.&#13;
-- Quality-of-life: `One-time` Items will now apply to the next run if they are received at the end of a stage.&#13;
-- Quality-of-life: The game will now NOT cap lives at 7 despite being able to carry up to 11.&#13;
-- Quality-of-life: There can now be up to 16 Equip Cost upgrade items in the item pool, totalling up to 900% Equip Cost if fully upgraded. Only applicable when playing with **Itemized Equipment Upgrades** set to **Separate**.&#13;
-- Fixed the 17th Ability Card loadout slot onwards containing Blank Card by default.&#13;
-- Fixed .yaml templates generating without Progression Balancing and Accessibility options.&#13;
-&#13;
-**Full Changelog**: https://github.com/furret78/ArchipelagoHBM/compare/unstable-0.4.4...0.4.5&#13;
-&#13;
-# Game Details and Setup&#13;
-- See **game details** [here](https://github.com/furret78/Archipelago/blob/main/worlds/th185/docs/en_100th%20Black%20Market.md). When exporting .yaml files for this game, it is recommended to use the Options Creator in the Archipelago Launcher for a smooth experience.&#13;
-- See the **setup guide** [here](https://github.com/furret78/Archipelago/blob/main/worlds/th185/docs/setup_en.md).</content>
-    <link href="https://github.com/furret78/ArchipelagoTouhou/releases/tag/0.4.5"/>
-  </entry>
-  <entry>
-    <id>https://github.com/Dreskn/Wikipelago-Continued/releases/tag/1.0.0-beta1</id>
-    <title>Wikipelago v1.0.0b1</title>
-    <updated>2026-08-19T21:36:11+00:00</updated>
-    <author>
-      <name>Dreskn (continued)</name>
-    </author>
-    <author>
-      <name>Skrumptily69 (original)</name>
-    </author>
-    <content>Test build. Not production.&#13;
-&#13;
-Install this pre-release wikipelago.apworld + use this YAM, do not use Latest.&#13;
-Play on the dev client: https://wikipelago-dev.dreskn.fr/&#13;
-Do not use main client with this build.&#13;
-Generate a new seed.</content>
-    <link href="https://github.com/Dreskn/Wikipelago-Continued/releases/tag/1.0.0-beta1"/>
-  </entry>
   <entry>
     <id>https://github.com/JKLeckr/Archipelago-cuphead/releases/tag/alpha03i</id>
     <title>Cuphead v0.2.20020810</title>
@@ -190,7 +89,7 @@ Known issues (will be addressed in a later release)&#13;
   </entry>
   <entry>
     <id>https://github.com/solida1987/openttd-archipelago/releases/tag/v2.0.3</id>
-    <title>OpenTTD v1.4.1r2</title>
+    <title>OpenTTD v1.4.1r3</title>
     <updated>2026-08-20T12:30:24+00:00</updated>
     <author>
       <name>OpenTTD AP Team</name>
@@ -200,7 +99,7 @@ Known issues (will be addressed in a later release)&#13;
   </entry>
   <entry>
     <id>https://github.com/solida1987/openttd-archipelago/releases/tag/v2.0.4</id>
-    <title>OpenTTD v1.4.1r3</title>
+    <title>OpenTTD v1.4.1r2</title>
     <updated>2026-08-20T12:48:30+00:00</updated>
     <author>
       <name>OpenTTD AP Team</name>
@@ -756,7 +655,7 @@ For the most stable and enjoyable experience, I strongly recommend downloading a
   </entry>
   <entry>
     <id>https://github.com/Az-LastPenguin/LORAP/releases/tag/v1.0.0-eta.1</id>
-    <title>Library of Ruina v1.0.0r3</title>
+    <title>Library of Ruina v1.0.0r2</title>
     <updated>2026-08-22T12:15:54+00:00</updated>
     <author>
       <name>LastPenguin</name>
@@ -1037,6 +936,20 @@ This is an early release and has not been extensively tested. Expect bugs and mi
     <link href="https://github.com/1313e/Civ-V-AP-World/releases/tag/v0.10.9"/>
   </entry>
   <entry>
+    <id>https://github.com/narramoment/Archipelago/releases/tag/0.2.2</id>
+    <title>Jak II v0.2.2</title>
+    <updated>2026-08-23T00:18:29+00:00</updated>
+    <author>
+      <name>narramoment</name>
+    </author>
+    <content>- Fixes to Linux implementation to (hopefully) allow full linux/mac support&#13;
+- Dual Check and Oracle implementation!&#13;
+- Archipelago Options Menu Re-order + moved "Warp to" option and gave more choices based on current items&#13;
+&#13;
+**Full Changelog**: https://github.com/narramoment/Archipelago/compare/0.2.1...0.2.2</content>
+    <link href="https://github.com/narramoment/Archipelago/releases/tag/0.2.2"/>
+  </entry>
+  <entry>
     <id>https://github.com/kenniky/ArchipelagoSSE/releases/tag/v0.2.7-real</id>
     <title>Super Smash Bros. Brawl - The Subspace Emissary v0.2.7.post0</title>
     <updated>2026-08-23T00:53:51+00:00</updated>
@@ -1232,5 +1145,85 @@ Refunct now uses Rulebuilder! You will need at least Archipelago 0.6.7 from now 
 &#13;
 **Full Changelog**: https://github.com/Mekurushi/Archipelago_Pokepark/compare/1.2.5...1.2.6</content>
     <link href="https://github.com/Mekurushi/Archipelago_Pokepark/releases/tag/1.2.6"/>
+  </entry>
+  <entry>
+    <id>https://github.com/SilicDev/Archipelago/releases/tag/scds-v0.2.3</id>
+    <title>Sonic Colours (DS) v0.2.3</title>
+    <updated>2026-08-23T20:05:10+00:00</updated>
+    <author>
+      <name>SilicDev</name>
+    </author>
+    <content># v0.2.3 Patched game size fix, UT yamlless and RuleBuilder&#13;
+**Full Changelog**: https://github.com/SilicDev/Archipelago/compare/scds-v0.2.2...scds-v0.2.3&#13;
+&#13;
+**Important**: Currently only a EU ROM with the md5 hash `406514E483EE092A89F4298F59FD53A9` is supported&#13;
+This game is played via the BizhawkClient using the `connector_bizhawk_generic.lua`&#13;
+&#13;
+## Changes&#13;
+- Implemented UT Yamlless&#13;
+- Moved rules to RuleBuilder. With this Archipelago 0.6.7 is required&#13;
+&#13;
+## Bug fixes&#13;
+- The patch file has been adjusted to not truncate the final file anymore&#13;
+- Levels that start with a boost will now always run out&#13;
+- Implemented safe guards against overflowing the ring and lives counters&#13;
+</content>
+    <link href="https://github.com/SilicDev/Archipelago/releases/tag/scds-v0.2.3"/>
+  </entry>
+  <entry>
+    <id>https://github.com/Crazycolbster/rollercoaster-tycoon-randomizer/releases/tag/v0.1.22.1-beta</id>
+    <title>OpenRCT2 v0.1.22.1.post2</title>
+    <updated>2026-08-23T20:06:49+00:00</updated>
+    <author>
+      <name>Crazycolbster</name>
+    </author>
+    <author>
+      <name>Die4Ever</name>
+    </author>
+    <content>So, turns out, the game is simply incapable of connecting directly to servers via plugin. That hypothetically could be fixed with an update that enables https: / wss connections for plugins, but the question of when, or even if, that happens is unanswered. Anyways, this update fixes a critical bug that found its way into the code.&#13;
+&#13;
+The beta setup guide can be found [here](https://docs.google.com/document/d/1V8LpYx22jcInNGSt6AXOIyuFwzx3Xn0oSMumrnsbqfE/edit?tab=t.0)! If you'd like to read the draft for the official setup guide once merged, check [here](https://github.com/Crazycolbster/Archipelago/blob/General_Killmore/worlds/openrct2/docs/setup_en.md)!&#13;
+&#13;
+**This update will break old saves! Only use it on new generations and saves!**&#13;
+&#13;
+- Required Unique Rides now actually get added to the objectives list. How this slipped by testing is beyond me, but I guess we'll have to have more beta tests next time.&#13;
+- Massive unlock shops no longer cause an "Invalid JSON" error to appear.&#13;
+- Game with too few skips no longer crashes the server. Honestly the fact I could impresses me.&#13;
+- No new song this time. Songs are for celebrations, this update is just embarrassing. </content>
+    <link href="https://github.com/Crazycolbster/rollercoaster-tycoon-randomizer/releases/tag/v0.1.22.1-beta"/>
+  </entry>
+  <entry>
+    <id>https://github.com/Miro-n1/archipelago_manuals/releases/tag/PLA_1.06</id>
+    <title>Manual_PLA_Miro v1.6</title>
+    <updated>2026-08-23T20:36:51+00:00</updated>
+    <author>
+      <name>Miro-n1</name>
+    </author>
+    <content>I apologize for my messy versioning. With the return to 1.XX the apworld manager shouldn't be confused anymore and automatically update to the most current version.&#13;
+&#13;
+Changes since version 1.05:&#13;
+&#13;
+**1.06** (latest): &#13;
+- Update to stable release 20260319. &#13;
+- **Added yaml options to disable Tree and Evolution locations.** &#13;
+- Fixed Shiny locations `display_name`. &#13;
+- Logic fixes: Honchkrow, Rapidash, Rotom and Staraptor.&#13;
+- Reduced requirements of the goal location. `Repair Odd Keystone` no longer requires `Crimson Mirelands`, only the wisps set in `wisps_required`. The victory location no longer requires the items to catch Spiritomb.&#13;
+&#13;
+1.2.0: &#13;
+- Update to stable release 20250813. &#13;
+- Logic fixes: Sealeo, Walrein, Drapion and Togetic.&#13;
+&#13;
+1.1.1: &#13;
+- Added Coronet Highlands as category for Haunter.&#13;
+&#13;
+1.1.0: &#13;
+- Updated to unstable release 20240528. &#13;
+- Updated to use hooks for yaml options. &#13;
+- Changed goal options: `wisps_total` and `wisps_required` to 1-108 range.&#13;
+- Condensed fishing options to `fish_locations`, fixed too few locations bug. &#13;
+- `shiny_locations` updated to 0-10 range. &#13;
+- Deathlink added.</content>
+    <link href="https://github.com/Miro-n1/archipelago_manuals/releases/tag/PLA_1.06"/>
   </entry>
 </feed>

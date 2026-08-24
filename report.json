@@ -1,7 +1,7 @@
 {
   "total_repositories": 816,
   "total_packages": 943,
-  "total_versions": 10546,
+  "total_versions": 10553,
   "manifest_ready": {
     "outer_wilds": true,
     "mpadv": false,
@@ -486,7 +486,7 @@
     "dlcquest": false,
     "lethal_company": true,
     "bayonetta": true,
-    "smo": false,
+    "smo": true,
     "muck": true,
     "rac1": true,
     "heretic": false,
@@ -925,8 +925,8 @@
     "0.6.3": 59,
     "0.6.4": 71,
     "0.6.5": 34,
-    "0.6.6": 42,
-    "0.6.7": 193,
+    "0.6.6": 41,
+    "0.6.7": 194,
     "0.6.8": 4,
     "0.6.9": 1,
     "0.7.0": 1
