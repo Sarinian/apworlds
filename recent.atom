@@ -2,26 +2,11 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://raw.githubusercontent.com/silasary/apworlds/refs/heads/main/recent.atom</id>
   <title>Recent APWorlds</title>
-  <updated>2026-08-24T06:41:22.341715+00:00</updated>
+  <updated>2026-08-24T12:36:38.095068+00:00</updated>
   <author>
     <name>Silasary</name>
   </author>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
-  <entry>
-    <id>https://github.com/JKLeckr/Archipelago-cuphead/releases/tag/alpha03i</id>
-    <title>Cuphead v0.2.20020810</title>
-    <updated>2026-08-20T00:26:46+00:00</updated>
-    <author>
-      <name>JKLeckr</name>
-    </author>
-    <content>**To see notes and what's new for alpha03, see [alpha03a](https://github.com/JKLeckr/Archipelago-cuphead/releases/tag/alpha03a)**&#13;
-&#13;
-### Revision&#13;
-&#13;
-This revision fixes the `level_placements` option and adds safeguards for it.&#13;
-</content>
-    <link href="https://github.com/JKLeckr/Archipelago-cuphead/releases/tag/alpha03i"/>
-  </entry>
   <entry>
     <id>https://github.com/solida1987/Diablo-II-Archipelago/releases/tag/v3.8.5</id>
     <title>Diablo II Archipelago v3.8.0r2</title>
@@ -89,7 +74,7 @@ Known issues (will be addressed in a later release)&#13;
   </entry>
   <entry>
     <id>https://github.com/solida1987/openttd-archipelago/releases/tag/v2.0.3</id>
-    <title>OpenTTD v1.4.1r2</title>
+    <title>OpenTTD v1.4.1r3</title>
     <updated>2026-08-20T12:30:24+00:00</updated>
     <author>
       <name>OpenTTD AP Team</name>
@@ -99,7 +84,7 @@ Known issues (will be addressed in a later release)&#13;
   </entry>
   <entry>
     <id>https://github.com/solida1987/openttd-archipelago/releases/tag/v2.0.4</id>
-    <title>OpenTTD v1.4.1r3</title>
+    <title>OpenTTD v1.4.1r2</title>
     <updated>2026-08-20T12:48:30+00:00</updated>
     <author>
       <name>OpenTTD AP Team</name>
@@ -655,7 +640,7 @@ For the most stable and enjoyable experience, I strongly recommend downloading a
   </entry>
   <entry>
     <id>https://github.com/Az-LastPenguin/LORAP/releases/tag/v1.0.0-eta.1</id>
-    <title>Library of Ruina v1.0.0r3</title>
+    <title>Library of Ruina v1.0.0r2</title>
     <updated>2026-08-22T12:15:54+00:00</updated>
     <author>
       <name>LastPenguin</name>
@@ -1225,5 +1210,36 @@ Changes since version 1.05:&#13;
 - `shiny_locations` updated to 0-10 range. &#13;
 - Deathlink added.</content>
     <link href="https://github.com/Miro-n1/archipelago_manuals/releases/tag/PLA_1.06"/>
+  </entry>
+  <entry>
+    <id>https://github.com/DayKat/spirit-tracks/releases/tag/st-v0.8.3</id>
+    <title>The Legend of Zelda - Spirit Tracks v0.8.3</title>
+    <updated>2026-08-24T08:33:23+00:00</updated>
+    <author>
+      <name>DayKat</name>
+    </author>
+    <author>
+      <name>1313e</name>
+    </author>
+    <author>
+      <name>Carrotinator</name>
+    </author>
+    <author>
+      <name>TriforceDrummer</name>
+    </author>
+    <author>
+      <name>Nepecute</name>
+    </author>
+    <author>
+      <name>Catzador</name>
+    </author>
+    <content>Compatible with seeds generated in v8.x&#13;
+[Setup Guide](https://github.com/DayKat/spirit-tracks/blob/main/worlds/tloz_st/docs/setup.md)&#13;
+&#13;
+- Fixed client crash on sending too many progressive items&#13;
+- Fixed progressive sword 2 not working&#13;
+- Removed arena door cs skips from certain arenas that can softlock you in the door if entering next to a wall&#13;
+- Arena doors open instantly, allowing you to exit arenas quicker</content>
+    <link href="https://github.com/DayKat/spirit-tracks/releases/tag/st-v0.8.3"/>
   </entry>
 </feed>
