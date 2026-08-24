@@ -2,96 +2,11 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://raw.githubusercontent.com/silasary/apworlds/refs/heads/main/recent.atom</id>
   <title>Recent APWorlds</title>
-  <updated>2026-08-24T12:36:38.095068+00:00</updated>
+  <updated>2026-08-24T18:31:00.178061+00:00</updated>
   <author>
     <name>Silasary</name>
   </author>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
-  <entry>
-    <id>https://github.com/solida1987/Diablo-II-Archipelago/releases/tag/v3.8.5</id>
-    <title>Diablo II Archipelago v3.8.0r2</title>
-    <updated>2026-08-20T07:40:16+00:00</updated>
-    <author>
-      <name>solida1987</name>
-    </author>
-    <author>
-      <name>ꓘicka (AP logic)</name>
-    </author>
-    <author>
-      <name>Zoë (AP logic)</name>
-    </author>
-    <content>Slot-filtered rewards now hand out what the multiworld actually promised. A "Unique Weapon" or "Set Helm" was quietly falling back to a random roll of any kind, because the mod looked up which equipment slot an item belongs to by reading armor.txt and weapons.txt from the game folder — and those files have not shipped since 3.7.6, when they were removed for being Blizzard's own. The engine never noticed, since it reads them from your game archives; our own code could not. The table is now built into the mod, so it cannot go missing again, and a modded install that carries its own tables still overrides it.</content>
-    <link href="https://github.com/solida1987/Diablo-II-Archipelago/releases/tag/v3.8.5"/>
-  </entry>
-  <entry>
-    <id>https://github.com/tathxo/DSAP/releases/tag/v0.2.5</id>
-    <title>Dark Souls Remastered v0.2.5</title>
-    <updated>2026-08-20T07:51:39+00:00</updated>
-    <author>
-      <name>Noka</name>
-    </author>
-    <author>
-      <name>ArsonAssassin</name>
-    </author>
-    <content># **Dark Souls Remastered Archipelago v0.2.5**&#13;
-## Pausing and Prison update&#13;
-&#13;
-### Version update -&gt; 0.2.5. **Client is compatible with 0.2.x generated apworlds**. &#13;
-All relevant changes are to the client only. The only change to the apworld from 0.2.4 is a version number update. &#13;
-## Features&#13;
-* Pauses the game while the Gesture menu is open. The behavior can be toggled off via the "Custom Controls" window in DSAP client settings. Items received during the pause will still be acquired. Deathlinks received while paused will both kill you and unpause.&#13;
-* DA/PW Warp Safety - Removes the warp prohibition which the game applies while player is in DA Prison cell or the Painted World.&#13;
-* DA Prison Break Cutscene Safety - resets the flags that get set if you've pulled the lever twice, allowing the gate to the Pisacas to open.&#13;
-* Additional options are available for the client's Font size.&#13;
-## Fixes&#13;
-* "Ghosts are not ghostly" setting now also removes the property of their attacks which make them unblockable while not cursed.&#13;
-* Tracker autotabbing detected wrong map in a part of Upper Undead Burg.&#13;
-&#13;
-Known issues (will be addressed in a later release)&#13;
-1) Rare crash related to bonfire syncing code.&#13;
-2) Petrus may aggro on you if you hurt his companions.</content>
-    <link href="https://github.com/tathxo/DSAP/releases/tag/v0.2.5"/>
-  </entry>
-  <entry>
-    <id>https://github.com/solida1987/openttd-archipelago/releases/tag/v2.0.1</id>
-    <title>OpenTTD v1.4.1r2</title>
-    <updated>2026-08-20T11:46:41+00:00</updated>
-    <author>
-      <name>OpenTTD AP Team</name>
-    </author>
-    <content>Connecting now actually starts the session: the status line turns green, vehicles stay locked until their item arrives, missions and stars track progress, checks reach the server and the goal fires. Resume sync marks already-checked missions, stars and shop slots as done instead of offering them again, and a game started from a seed's Join card receives that seed's data instead of leftovers from an earlier run. Requires plugin 1.2.0 (included).</content>
-    <link href="https://github.com/solida1987/openttd-archipelago/releases/tag/v2.0.1"/>
-  </entry>
-  <entry>
-    <id>https://github.com/solida1987/openttd-archipelago/releases/tag/v2.0.2</id>
-    <title>OpenTTD v1.4.1r3</title>
-    <updated>2026-08-20T12:17:00+00:00</updated>
-    <author>
-      <name>OpenTTD AP Team</name>
-    </author>
-    <content>Started from the launcher, the game now goes straight in: no start dialog, no fields to fill. It loads this seed's own savegame when one exists and generates the world when none does; quitting — and every autosave — writes that per-seed save, so the next press of Play continues where you left off. Each seed keeps its own save, so two seeds can never pick up each other's progress. Requires plugin 1.2.1 (included).</content>
-    <link href="https://github.com/solida1987/openttd-archipelago/releases/tag/v2.0.2"/>
-  </entry>
-  <entry>
-    <id>https://github.com/solida1987/openttd-archipelago/releases/tag/v2.0.3</id>
-    <title>OpenTTD v1.4.1r3</title>
-    <updated>2026-08-20T12:30:24+00:00</updated>
-    <author>
-      <name>OpenTTD AP Team</name>
-    </author>
-    <content>Started from the launcher, the game receives its world data reliably — a race between the launcher's hand-off and the game's start could leave the title screen sitting idle — and the manual Archipelago connect buttons do nothing under the launcher: London already holds the login, and no window may ask for it again. Requires launcher 3.7.35 and plugin 1.2.2 (included).</content>
-    <link href="https://github.com/solida1987/openttd-archipelago/releases/tag/v2.0.3"/>
-  </entry>
-  <entry>
-    <id>https://github.com/solida1987/openttd-archipelago/releases/tag/v2.0.4</id>
-    <title>OpenTTD v1.4.1r2</title>
-    <updated>2026-08-20T12:48:30+00:00</updated>
-    <author>
-      <name>OpenTTD AP Team</name>
-    </author>
-    <content>Every save now refreshes the seed's own savegame — the file auto-continue loads. Save from the menu under any name, let an autosave run, or just quit: the next press of Play in the launcher picks up exactly where you were, and a crash after a manual save no longer loses anything. Plugin 1.2.2 unchanged (included).</content>
-    <link href="https://github.com/solida1987/openttd-archipelago/releases/tag/v2.0.4"/>
-  </entry>
   <entry>
     <id>https://github.com/JammyGeeza/CursedWords-Archipelago/releases/tag/v0.4.1</id>
     <title>Cursed Words v0.4.0r2</title>
@@ -640,7 +555,7 @@ For the most stable and enjoyable experience, I strongly recommend downloading a
   </entry>
   <entry>
     <id>https://github.com/Az-LastPenguin/LORAP/releases/tag/v1.0.0-eta.1</id>
-    <title>Library of Ruina v1.0.0r2</title>
+    <title>Library of Ruina v1.0.0r3</title>
     <updated>2026-08-22T12:15:54+00:00</updated>
     <author>
       <name>LastPenguin</name>
@@ -1241,5 +1156,150 @@ Changes since version 1.05:&#13;
 - Removed arena door cs skips from certain arenas that can softlock you in the door if entering next to a wall&#13;
 - Arena doors open instantly, allowing you to exit arenas quicker</content>
     <link href="https://github.com/DayKat/spirit-tracks/releases/tag/st-v0.8.3"/>
+  </entry>
+  <entry>
+    <id>https://github.com/Kryen112/Viscera-Cleanup-Detail-AP/releases/tag/1.1.0</id>
+    <title>Viscera Cleanup Detail v1.1.0</title>
+    <updated>2026-08-24T11:32:35+00:00</updated>
+    <author>
+      <name>Kryen112</name>
+    </author>
+    <content># Viscera Cleanup Detail 1.1.0&#13;
+&#13;
+- **Revolutionary Robotics laser welder** for 100% cleaned. Without it, now max 80% is in logic.&#13;
+- **Uprinsing vendor and welder** for 100% cleaned, 80% otherwise.&#13;
+- **The punch-out report can fill itself** (new yaml option auto_fill_punchout_report). Use the punch-out machine once to fill it in, and each PID entered into it will also auto-fill itself.&#13;
+&#13;
+**Upgrading**&#13;
+- Existing yamls keep working untouched.</content>
+    <link href="https://github.com/Kryen112/Viscera-Cleanup-Detail-AP/releases/tag/1.1.0"/>
+  </entry>
+  <entry>
+    <id>https://github.com/Ixrec/NineSolsArchipelagoRandomizer/releases/tag/0.6.3</id>
+    <title>Nine Sols v0.6.3</title>
+    <updated>2026-08-24T13:47:36+00:00</updated>
+    <author>
+      <name>Ixrec</name>
+    </author>
+    <content>For installation instructions [see the README](https://github.com/Ixrec/NineSolsArchipelagoRandomizer?tab=readme-ov-file#installation).&#13;
+&#13;
+- Fixed UT map page auto-tabbing to/from the world_map when the Teleport menu is opened or closed. Hopefully for real this time.&#13;
+- Fixed the pause menu seal count displays so they should be legible at any window size.&#13;
+- Jade Cost Plando is now an OptionCounter, so it can be edited in the Options Creator&#13;
+- Fixed a shop rando corner case where the forced DS/HC purchase logic would ask you to buy a !collected item, which was also disabled.&#13;
+- AP hint generation is now done in batches. For example, if you open Kuafu's shop and there are 5 useful/prog items, the mod will (usually) send only 1 message to the AP server with all 5 locations to hint, instead of 5 separate messages.&#13;
+- The source of truth for Nine Sols' logic has been moved from .jsonc to .py files in order to improve the process around contributing logic changes. This should be an invisible internal change, but it's worth mentioning in case there are bugs, or you liked inspecting these files.&#13;
+-----&#13;
+- `vanilla` logic:&#13;
+	- "OW - Activate Crates And Return" is now reachable with Cloud Leap replacing Nymph, because the crushers you're expected to disable with nymph can instead be bypassed by using Cloud Leap and Air Dash to spend several seconds over the red floor&#13;
+- `medium` logic:&#13;
+	- "AM - Above Root Node" to "Bottom Right" now allows Wall Climb and T-dash&#13;
+	- "AF (Depths) - Lower Level" to "Under Lower Left Exit" was incorrectly in logic with only Swift Runner; now it requires Grapple and Swift Runner&#13;
+	- "AF (Elevator) - Moving Boxes Below Root Node" to "Statue Chest" now allows Swift Runner and T-dash&#13;
+	- "CTH - Yanren Arena" is now reachable with neither Nymph nor Cloud Leap, by using (Wall Climb + Air Dash + Tai-Chi Kick + (Swift Runner OR Charged Strike)) to platform all the way through the tunnel and grab the side of the stationary crate&#13;
+	- "OW - Activate Crates And Return" is now reachable with bow hover for the same reason as the `vanilla` change&#13;
+	- "OW - Outside Enemy Gauntlet Room" is now reachable by using bow hover to avoid the crusher then get back onto the same crate it just crushed&#13;
+	- "OW: Crusher Gauntlet" is now reachable using Wall Climb, Ledge Grab, and either Charged Strike or (bow hover and Swift Runner)&#13;
+- `ledge_storage` logic:&#13;
+	- "ED (Passages) - Statue In Left Chasm" is now reachable with parry hover from left pink pool, which requires CL and AD since the only available ledge uses CL setup and it's on the other side of the pink waterfall you need AD to pass through&#13;
+	- "GoS (West): Above Elevator" was incorrectly in logic with only Ledge Grab. Now it's Ledge Grab and Air Dash.&#13;
+	- "GoS (West) - Lower Right Exits" to "Lower Platform Rotation Button" with CL + LG triple jump is now in logic&#13;
+	- "GoS (West) - Lower Right Exits" to "Cixing Arena Left Overlook" now requires only LG instead of CL+LG, because you can do T-dash setup on the right side of the elevator chasm&#13;
+	- "OW - Activate Crates And Return" is now reachable with parry hover for the same reason as the `vanilla` change&#13;
+	- "OW - Lower Right Exit" to "Root Node &amp; Middle Exits" is now reachable without Wall Climb. You could already use Cloud Leap and Ledge Grab to *activate* the lower crates, but we realized CL and LG also lets you jump from the activated crates to the root node without Wall Climb.&#13;
+	- "OW - Outside Enemy Gauntlet Room" is now reachable by using parry hover to avoid the crusher then get back onto the same crate it just crushed&#13;
+</content>
+    <link href="https://github.com/Ixrec/NineSolsArchipelagoRandomizer/releases/tag/0.6.3"/>
+  </entry>
+  <entry>
+    <id>https://github.com/thejoshwolfe/Archipelago/releases/tag/space-age-v3.0.0</id>
+    <title>Factorio: Space Age v3.0.0</title>
+    <updated>2026-08-24T14:59:37+00:00</updated>
+    <author>
+      <name>Berserker</name>
+    </author>
+    <author>
+      <name>Josh Wolfe</name>
+    </author>
+    <content># Factorio: Space Age apworld 3.0.0&#13;
+&#13;
+* Added `map_exchange_string` YAML option to allow arbitrarily customizable world generation settings. [#38](https://github.com/thejoshwolfe/Archipelago/issues/38)&#13;
+    * Thanks to Rseding91 [here](https://forums.factorio.com/viewtopic.php?t=132784) and rfvgyhn [here](https://github.com/rfvgyhn/factorio-exchange-string-parser) for providing the support needed to make this happen.&#13;
+    * This apworld is now version locked with specifically Factorio 2.1.14. This is because during the public beta experimental phase, Factorio is breaking the map exchange string format without warning. Once Factorio 2.1 is stable, the version locking can be relaxed.&#13;
+* (BREAKING) The `world_gen_custom` option is gone. Nobody (including me) knew how to use it properly; good riddance. The `world_gen_asteroid_spawn_rate` and `world_gen_spoil_rate` placeholder options are also gone. Use `map_exchange_string` instead.&#13;
+* The `world_gen` option is overhauled:&#13;
+    * `custom` now uses `map_exchange_string` instead of `world_gen_custom`, but still respects `world_gen_enemies` and randomizes the seed.&#13;
+    * `custom_verbatim` (new) uses `map_exchange_string` and makes no modifications.&#13;
+    * `vanilla` is renamed to `default` so that it exactly matches the in-game name for the preset. `vanilla` is still accepted as an alias. (and confusingly `default` is not the default. The default is still `buffed_resources`.)&#13;
+    * `rail_world`, `death_world`, `ribbon_world`, etc. are all added to represent the builtin presets. [#7](https://github.com/thejoshwolfe/Archipelago/issues/7)&#13;
+* The temporary save file in the Client's cwd has been renamed from `Archipelago.zip` to `ArchipelagoTemporaryServerQuery.zip` to make it clear that that's not the save file that you actually play on, and it's ok to delete it whenever you want. (Today I learned that it was not the save file you actually play on; perhaps others will now also know.) If you launch the client through the UI, then this file is probably in your Archipelago directory.&#13;
+&#13;
+download: https://github.com/thejoshwolfe/Archipelago/releases .&#13;
+general docs: https://github.com/thejoshwolfe/Archipelago/blob/space-age/worlds/factorio_space_age/docs/en_Factorio_Space_Age.md .&#13;
+setup guide: https://github.com/thejoshwolfe/Archipelago/blob/space-age/worlds/factorio_space_age/docs/setup_en.md .&#13;
+source code: https://github.com/thejoshwolfe/Archipelago/tree/space-age/worlds/factorio_space_age .</content>
+    <link href="https://github.com/thejoshwolfe/Archipelago/releases/tag/space-age-v3.0.0"/>
+  </entry>
+  <entry>
+    <id>https://github.com/agilbert1412/StardewArchipelago/releases/tag/8.1.2</id>
+    <title>Stardew Valley v8.1.2</title>
+    <updated>2026-08-24T16:12:25+00:00</updated>
+    <author>
+      <name>Kaito Kid</name>
+    </author>
+    <author>
+      <name>Jouramie</name>
+    </author>
+    <author>
+      <name>Witchybun (Mod Support)</name>
+    </author>
+    <author>
+      <name>Noa (Entrance Randomizer)</name>
+    </author>
+    <content>## Apworld&#13;
+- Fixed potential big logic errors introduced by cutscene regions&#13;
+- Fixed common mushrooms not being included in forage locations&#13;
+&#13;
+## Mod&#13;
+- Fixed Salmonberry and Blackberry from bush not sending the forage locations</content>
+    <link href="https://github.com/agilbert1412/StardewArchipelago/releases/tag/8.1.2"/>
+  </entry>
+  <entry>
+    <id>https://github.com/Droppel/ReventureEndingRando/releases/tag/0.21.1</id>
+    <title>Reventure v0.21.1</title>
+    <updated>2026-08-24T16:31:28+00:00</updated>
+    <author>
+      <name>Droppel</name>
+    </author>
+    <content>Fixed an error, where the jump height was set to 0, if it was not defined by the world, instead of to the default of 3.</content>
+    <link href="https://github.com/Droppel/ReventureEndingRando/releases/tag/0.21.1"/>
+  </entry>
+  <entry>
+    <id>https://github.com/spinerak/refunct-tas-archipelago/releases/tag/v1.5.1</id>
+    <title>Refunct v1.5.1</title>
+    <updated>2026-08-24T16:40:54+00:00</updated>
+    <author>
+      <name>Spineraks</name>
+    </author>
+    <content>## 1.5.0a -&gt; 1.5.1&#13;
+- Fixed the issue that nerf minigame would add extra items if custom minigame was in, whoops :)&#13;
+&#13;
+## 1.5.0 -&gt; 1.5.0a&#13;
+- Fixed game crashes when editing a map and collecting cubes&#13;
+- Hide "edit-menu" when "playing" a custom map&#13;
+&#13;
+# 1.5.0&#13;
+Refunct now uses Rulebuilder! You will need at least Archipelago 0.6.7 from now on.&#13;
+# Custom maps in Archipelago!&#13;
+- You can now play custom maps and they'll give checks in Archipelago. Every button is a check for a total of 37 checks. Enable the Custom Minigame in your yaml.&#13;
+- You can use any custom map you want! Here's my recommended list (currently only 2 maps): [link to archipelago discord](https://discord.com/channels/731205301247803413/1273001824919617577/1540723304296353824).&#13;
+- Here's how to install them: download the maps you want. Then open Refunct and the mod. Press CTRL+SHIFT+M and select "Open Maps Folder". Place your custom map there (it's probably `AppData\Roaming\refunct-tas\maps`). &#13;
+- Once you unlock the Custom minigame and you select it, you will be asked directly which custom map you want to play, you can select it there. You can (re)start whichever you want.&#13;
+- You can make custom maps too with the editor!&#13;
+# Map editor improvements&#13;
+- Pressing `c` and triggering the next cluster should now work better.&#13;
+- You can now press `left`/`right`/`up`/`down`/`pageup`/`pagedown` to work in 3 dimensions without having to toggle.&#13;
+- `TAB` now opens the advanced editor of the selected element, if any.</content>
+    <link href="https://github.com/spinerak/refunct-tas-archipelago/releases/tag/v1.5.1"/>
   </entry>
 </feed>
