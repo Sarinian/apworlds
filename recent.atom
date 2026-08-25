@@ -2,156 +2,11 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://raw.githubusercontent.com/silasary/apworlds/refs/heads/main/recent.atom</id>
   <title>Recent APWorlds</title>
-  <updated>2026-08-24T18:31:00.178061+00:00</updated>
+  <updated>2026-08-25T00:42:42.172282+00:00</updated>
   <author>
     <name>Silasary</name>
   </author>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
-  <entry>
-    <id>https://github.com/JammyGeeza/CursedWords-Archipelago/releases/tag/v0.4.1</id>
-    <title>Cursed Words v0.4.0r2</title>
-    <updated>2026-08-20T15:46:29+00:00</updated>
-    <author>
-      <name>JammyGeeza</name>
-    </author>
-    <content>## Information&#13;
-This archipelago implementation is in **early development** and is in public pre-release for testing, so may not be complete and/or may contain bugs that heavily disrupt the experience. It is not advised to include this in large multiworlds at this time, so only do so at your own risk and inform your host beforehand.&#13;
-&#13;
-## Setup Guide&#13;
-Please visit the [Setup Guide](https://github.com/JammyGeeza/CursedWords-Archipelago#setup-guide) for instructions on how to install the mod client.&#13;
-&#13;
-## Issue / Bug Reporting&#13;
-If you experience issues that are not already on the [known issues list](https://github.com/JammyGeeza/CursedWords-Archipelago/issues/views/12865), please raise a new issue or post in the [Cursed Words Forum in the Archipelago Discord Server](https://discord.com/channels/731205301247803413/1499176806962692196)&#13;
-&#13;
-## Patch Notes&#13;
-This release provides the following updates:&#13;
-### APWorld&#13;
-- None&#13;
-### Client&#13;
-- Fixes naming mis-match with 'Stage' related location checks</content>
-    <link href="https://github.com/JammyGeeza/CursedWords-Archipelago/releases/tag/v0.4.1"/>
-  </entry>
-  <entry>
-    <id>https://github.com/furret78/ArchipelagoTouhou/releases/tag/0.4.51</id>
-    <title>Black Market of Bulletphilia ~ 100th Black Market v0.4.51</title>
-    <updated>2026-08-20T17:41:14+00:00</updated>
-    <author>
-      <name>Yuureiki</name>
-    </author>
-    <content>Archipelago Randomizer implementation for **_Black Market of Bulletphilia ~ 100th Black Market_**, also known as _**Touhou 18.5**_.&#13;
-&#13;
-- **.apworld version:** 0.4.51&#13;
-- **Minimum Archipelago Launcher version:** 0.6.7&#13;
-&#13;
-Recommended to play on Windows, as **the game does not support Linux natively**. If playing on Linux, it is recommended to run both Archipelago Launcher and the game in Wine/Proton.&#13;
-&#13;
-# Changelog&#13;
-- Quality-of-life: Koishi's Ability Card no longer keeps the Power loss death penalty reduction behavior that was carried over from Unconnected Marketeers. Since deaths in 100th Black Market does not subtract Power upon dying, Koishi's card was the only way player deaths reduced Power.&#13;
-- Quality-of-life: `One-time` Funds received at the end of a stage will be applied to the Funds in the menu instead of in the stage.&#13;
-- Itemized Equip Cost can now go up to 18, totalling 1000% Equip Cost if fully upgraded.&#13;
-- Removed certain unnecessary code comments from internal files to cut down on file size _(not removed in GitHub source code, only in release build)_.&#13;
-&#13;
-Does not change anything else.&#13;
-&#13;
-**Full Changelog**: https://github.com/furret78/ArchipelagoHBM/compare/0.4.5...0.4.51&#13;
-&#13;
-# Game Details and Setup&#13;
-- See **game details** [here](https://github.com/furret78/Archipelago/blob/main/worlds/th185/docs/en_100th%20Black%20Market.md). When exporting .yaml files for this game, it is recommended to use the Options Creator in the Archipelago Launcher for a smooth experience.&#13;
-- See the **setup guide** [here](https://github.com/furret78/Archipelago/blob/main/worlds/th185/docs/setup_en.md).</content>
-    <link href="https://github.com/furret78/ArchipelagoTouhou/releases/tag/0.4.51"/>
-  </entry>
-  <entry>
-    <id>https://github.com/solida1987/Diablo-II-Archipelago/releases/tag/v3.8.6</id>
-    <title>Diablo II Archipelago v3.8.3r2</title>
-    <updated>2026-08-20T20:47:07+00:00</updated>
-    <author>
-      <name>solida1987</name>
-    </author>
-    <author>
-      <name>ꓘicka (AP logic)</name>
-    </author>
-    <author>
-      <name>Zoë (AP logic)</name>
-    </author>
-    <content>Act-boss shuffle is off for now. A shuffled boss has been seen giving up its attack for good once the player breaks line of sight, and a boss that will not fight is a run that cannot be finished — so the option is gone from the Archipelago settings and from the standalone dialog until the cause is understood. Existing YAML files that set it still load; the setting simply has no effect. Super-unique shuffle is a separate system and is untouched. Nothing was deleted: the swap itself is still in the mod, with a note at the point where it would run explaining what to switch back on.</content>
-    <link href="https://github.com/solida1987/Diablo-II-Archipelago/releases/tag/v3.8.6"/>
-  </entry>
-  <entry>
-    <id>https://github.com/ElectroStarz/ArchipelagoMSM/releases/tag/v3.0.0</id>
-    <title>Mario Sports Mix v3.0.0</title>
-    <updated>2026-08-21T03:13:33+00:00</updated>
-    <author>
-      <name>ElectroStarz</name>
-    </author>
-    <author>
-      <name>Puffy</name>
-    </author>
-    <content># What's Changed?&#13;
-## Alternate Paths&#13;
-- **Alternate Paths have been added! Clear missions along them to send locations.**&#13;
-- **Alternate Path Type**: Choose between per-cup and progressive alternate paths, as well as the option to merge locations between sports and/or difficulties.&#13;
-- **Always Spawn Alt Paths**: Choose to auto-unlock the alternate paths, bypassing the need to meet the criterias in the original game.&#13;
-- **Quality of Life**: Use Left/Right on the D-Pad when starting a new tournament to select your side to minimize the need for RNG.&#13;
-- **Alternate Path Guide**: In addition, several maps and a guide have been included to help those unfamiliar with the alternate paths.&#13;
-&#13;
-## Cosmetic Options&#13;
-- **Replace All Opponent Characters**: Turns all your opponents into a single character! You can even change the Hockey Goalies and Dodgeball Yoshis!&#13;
-- **Music Shuffle**: Shuffles around the game's music! (Note that some menu tracks cannot be shuffled)&#13;
-- **Tint Stages**: Applies a random tint to each stage to spice up the visuals a bit!&#13;
-&#13;
-## Quality of Life Changes&#13;
-- **Restrict Sports Mix**: Makes it so Sports Mix can only pull from enabled sports.&#13;
-- **Start with Random Mushroom Cups**: You can now start with 1-7 random mushroom cups (+ courts).&#13;
-- **Points to Win**: Changed Points to Win so that it applies for the whole match, rather than just the set.&#13;
-- **Progressive Courts**: Progressive Courts now use a different order that should make progression smoother.&#13;
-     -  &lt;sub&gt;Mario Stadium &gt; Koopa Troopa Beach &gt; Peach's Castle &gt; Toad Park &gt; DK Dock &gt; Western Junction &gt; Luigi's Mansion &gt; Wario Factory &gt; Daisy Garden &gt; Waluigi Pinball &gt; Bowser Jr. Blvd &gt; Ghoulish Galleon &gt; Bowser's Castle &gt; Star Ship &gt; Behemoth Stage&lt;sub/&gt;&#13;
-&#13;
-## Bug Fixes&#13;
-- Fixed some logic pertaining to Sports Mix&#13;
-- Updated some older functions to use newly discovered memory addresses&#13;
-- Fixed a bug where changing from one Mario Sports Mix player to another without closing the client would cause the new Mario Sports Mix player to instantly check all locations checked from the first player.&#13;
-- Fixed a bug where duplicate courts got added to the itempool if the court was part of Party Mode, but was also precollected at the start.</content>
-    <link href="https://github.com/ElectroStarz/ArchipelagoMSM/releases/tag/v3.0.0"/>
-  </entry>
-  <entry>
-    <id>https://github.com/spencer2585/MCC-AP/releases/tag/Alpha-1.2.1</id>
-    <title>Halo The Master Chief Collection v1.2.1</title>
-    <updated>2026-08-21T03:29:17+00:00</updated>
-    <author>
-      <name>Spencer2585</name>
-    </author>
-    <author>
-      <name>barretg</name>
-    </author>
-    <content># Bug Fixes&#13;
-- Fixed Skulls locked when skullsanity is disabled&#13;
-- Fixed Skull pickups sending the wrong location&#13;
-- Fix skulls not being locked after quitting a mission&#13;
-- Fix brower flagging zip file as virus</content>
-    <link href="https://github.com/spencer2585/MCC-AP/releases/tag/Alpha-1.2.1"/>
-  </entry>
-  <entry>
-    <id>https://github.com/Kryen112/HP2PC_AP/releases/tag/v2.10.0</id>
-    <title>Harry Potter 2 PC v2.10.0</title>
-    <updated>2026-08-21T12:34:15+00:00</updated>
-    <author>
-      <name>Kryen112</name>
-    </author>
-    <content># HP2PC_AP v2.10.0&#13;
-Blocker hints now reach you before you walk into the bookcase, plus a Skurge Challenge logic fix and setup docs that finally spell out the engine patch.&#13;
-&#13;
-### New&#13;
-- **Blockers speak on approach.** A blocker now names what it is waiting for as soon as you get within about 500 units and have a clear line of sight to it, instead of waiting for you to walk into it. Bumping one still works the same way.&#13;
-- **The four vanilla spell-classroom blockers finally talk.** The Rictusempra, Skurge, Diffindo and Spongify classroom bookcases were silent even on contact. They now name the spell they want.&#13;
-&#13;
-### Logic and content changes&#13;
-- **Skurge Challenge Chest 5 and Chest 6** now require **Skurge + Flipendo + (Lumos or Running) + Alohomora**, up from Skurge + Alohomora. Both chests sit behind the full lit-area set, so they now expect everything that set needs.&#13;
-&#13;
-### Docs&#13;
-- **The M212 engine patch is documented as a required prerequisite.** The README gained a Requirements section, and the player setup step now has Discord download links plus a check to confirm you are actually on the patched engine.&#13;
-- **Linux support documented** via Proton or Wine.</content>
-    <link href="https://github.com/Kryen112/HP2PC_AP/releases/tag/v2.10.0"/>
-  </entry>
   <entry>
     <id>https://github.com/petiboy7/IAYBArchipelago/releases/tag/0.3.4</id>
     <title>IAmYourBeast v0.3.4</title>
@@ -555,7 +410,7 @@ For the most stable and enjoyable experience, I strongly recommend downloading a
   </entry>
   <entry>
     <id>https://github.com/Az-LastPenguin/LORAP/releases/tag/v1.0.0-eta.1</id>
-    <title>Library of Ruina v1.0.0r3</title>
+    <title>Library of Ruina v1.0.0r2</title>
     <updated>2026-08-22T12:15:54+00:00</updated>
     <author>
       <name>LastPenguin</name>
@@ -1301,5 +1156,176 @@ Refunct now uses Rulebuilder! You will need at least Archipelago 0.6.7 from now 
 - You can now press `left`/`right`/`up`/`down`/`pageup`/`pagedown` to work in 3 dimensions without having to toggle.&#13;
 - `TAB` now opens the advanced editor of the selected element, if any.</content>
     <link href="https://github.com/spinerak/refunct-tas-archipelago/releases/tag/v1.5.1"/>
+  </entry>
+  <entry>
+    <id>https://github.com/Dreskn/Wikipelago-Continued/releases/tag/1.0.0</id>
+    <title>Wikipelago v1.0.0</title>
+    <updated>2026-08-24T18:30:11+00:00</updated>
+    <author>
+      <name>Dreskn (continued)</name>
+    </author>
+    <author>
+      <name>Skrumptily69 (original)</name>
+    </author>
+    <content>## Wikipelago 1.0.0&#13;
+&#13;
+A custom Archipelago world inspired by wiki racing. Each check is a **Start → Target** round: click Wikipedia links to reach the target, collect items, and finish the **Grand Goal**.&#13;
+&#13;
+Requires **Archipelago 0.6.7**.  &#13;
+Web client: https://wikipelago.dreskn.fr/&#13;
+&#13;
+Install `wikipelago.apworld` and this YAML from the assets below, then generate a **new** seed.&#13;
+&#13;
+### How it plays&#13;
+- Only in-article Wikipedia links count as moves&#13;
+- Some rounds are open at the start; **Round Access** unlocks more&#13;
+- Collect **Knowledge Fragments** to reveal the Grand Goal, a question with the answer being your final goal page. Reach it to finish the slot.&#13;
+&#13;
+### Languages&#13;
+Play on **English, French, German, Spanish, Italian, Portuguese, Dutch, Swedish, or Polish** Wikipedia (`wikipedia_language` in the YAML). The top-right dropdown only translates the client UI; it does not change which wiki you race on.&#13;
+&#13;
+### Defaults and extras&#13;
+- **Side branches** can be unlocked by reaching a crossroad and obtaining a key. They are themed target pages that you can reach simultaneously as progressing the main road.&#13;
+- **Letter-pair bingo** adds boards filled with letter pais. Visit pages starting with these paris to stamp your board. Full lines count as location checks. Stamps can be found to check a nasty letter pair!&#13;
+- Tools: **Back**, **Reroll**, **Search**, **Compass** can help you navigate the game, can be unlocked from the start or through the pool.&#13;
+- Optional spice (off by default): deaths and deathlink, traps and traplink, sanities, hiding parts of wiki pages, Use at your own risk.&#13;
+&#13;
+### Docs&#13;
+[Overview](https://github.com/Dreskn/Wikipelago-Continued/blob/main/docs/overview.md) · [Setup](https://github.com/Dreskn/Wikipelago-Continued/blob/main/docs/setup.md) · [Options](https://github.com/Dreskn/Wikipelago-Continued/blob/main/docs/options.md) · [FAQ](https://github.com/Dreskn/Wikipelago-Continued/blob/main/docs/faq.md)&#13;
+&#13;
+### Older rooms&#13;
+The hosted client is 1.0 after this release. Old seeds should continue to work on the new client, but to stay on the old 0.6 client, run locally from tag [`0.6.0-ZaWarudo!`](https://github.com/Dreskn/Wikipelago-Continued/releases/tag/v0.6.0-ZaWarudo!), see [Setup, Option 2](https://github.com/Dreskn/Wikipelago-Continued/blob/main/docs/setup.md#option-2--local-client-private--vpn-rooms).</content>
+    <link href="https://github.com/Dreskn/Wikipelago-Continued/releases/tag/1.0.0"/>
+  </entry>
+  <entry>
+    <id>https://github.com/thejoshwolfe/Archipelago/releases/tag/space-age-v3.0.1</id>
+    <title>Factorio: Space Age v3.0.1</title>
+    <updated>2026-08-24T19:12:42+00:00</updated>
+    <author>
+      <name>Berserker</name>
+    </author>
+    <author>
+      <name>Josh Wolfe</name>
+    </author>
+    <content># Factorio: Space Age apworld 3.0.1&#13;
+&#13;
+* Confirmed map exchange string compatibility with Factorio 2.1.15.&#13;
+* Moved `ArchipelagoTemporaryServerQuery.zip` from cwd into `&lt;Archipelago&gt;/factorio/saves/` to match the behavior of the core Factorio apworld. Thanks Ginja on Discord for suggesting this, and lepideble for the reference implementation in [Archipelago#5646](https://github.com/ArchipelagoMW/Archipelago/pull/5646).&#13;
+&#13;
+download: https://github.com/thejoshwolfe/Archipelago/releases .&#13;
+general docs: https://github.com/thejoshwolfe/Archipelago/blob/space-age/worlds/factorio_space_age/docs/en_Factorio_Space_Age.md .&#13;
+setup guide: https://github.com/thejoshwolfe/Archipelago/blob/space-age/worlds/factorio_space_age/docs/setup_en.md .&#13;
+source code: https://github.com/thejoshwolfe/Archipelago/tree/space-age/worlds/factorio_space_age .</content>
+    <link href="https://github.com/thejoshwolfe/Archipelago/releases/tag/space-age-v3.0.1"/>
+  </entry>
+  <entry>
+    <id>https://github.com/thejoshwolfe/Archipelago/releases/tag/space-age-v3.0.2</id>
+    <title>Factorio: Space Age v3.0.2</title>
+    <updated>2026-08-24T21:30:39+00:00</updated>
+    <author>
+      <name>Berserker</name>
+    </author>
+    <author>
+      <name>Josh Wolfe</name>
+    </author>
+    <content># Factorio: Space Age apworld 3.0.2&#13;
+&#13;
+* Confirmed map exchange string compatibility with Factorio 2.1.16.&#13;
+&#13;
+download: https://github.com/thejoshwolfe/Archipelago/releases .&#13;
+general docs: https://github.com/thejoshwolfe/Archipelago/blob/space-age/worlds/factorio_space_age/docs/en_Factorio_Space_Age.md .&#13;
+setup guide: https://github.com/thejoshwolfe/Archipelago/blob/space-age/worlds/factorio_space_age/docs/setup_en.md .&#13;
+source code: https://github.com/thejoshwolfe/Archipelago/tree/space-age/worlds/factorio_space_age .</content>
+    <link href="https://github.com/thejoshwolfe/Archipelago/releases/tag/space-age-v3.0.2"/>
+  </entry>
+  <entry>
+    <id>https://github.com/Intaiachi/ArchipelagoDOS2/releases/tag/v0.9.0</id>
+    <title>Divinity Original Sin 2 v0.9.0</title>
+    <updated>2026-08-24T21:34:06+00:00</updated>
+    <author>
+      <name>Intaiachi</name>
+    </author>
+    <author>
+      <name>chaotic</name>
+    </author>
+    <author>
+      <name>JeyKey09</name>
+    </author>
+    <content>New:&#13;
+- The journal now contains quests that match every non-containersanity check. These are split into two categories in the journal, "Archipelago Quests" and "Archipelago Kills", which have all the checks that match their namesake. These quests will be completed upon sending the check they represent and will persist through saves, so they will always be accurate to what you have and have not sent yet.&#13;
+  - There is a known bug where completing a quest will have it not be removed from the active part of the journal and its archive will have no description. Refreshing the journal by setting any quest as active/inactive, clicking on the "show on map" button, or saving and loading will correct this. It is purely visual.&#13;
+&#13;
+Changes/Bugfixes:&#13;
+- The quest Invaders has been removed, as killing the Sallow Man doesn't send the check properly.&#13;
+- Saeva the Many-faced, Sahun Woundbinder, Urrha the Snake Charmer, and Kajun Frozenheart (Karon's ads) have been removed as they send their check preemptively since they technically die when Arx initializes.&#13;
+- You can no longer receive items in the character creator and lose them.&#13;
+- Loading a new game or other playthrough that is not the Archipelago one will now sync your items immediately instead of after getting a check. Should be smoother if you have to start a new game mid Archipelago.&#13;
+- The about page in the GitHub has been updated.&#13;
+&#13;
+About [here](https://github.com/Intaiachi/ArchipelagoDOS2/blob/main/worlds/dos2/docs/en_Divinty%20Original%20Sin%202.md)&#13;
+Setup Guide [here](https://github.com/Intaiachi/ArchipelagoDOS2/blob/main/worlds/dos2/docs/steup_en.md)&#13;
+&#13;
+DOS2 mod pak file [Github](https://github.com/Intaiachi/DOS2-Archipelago-Mod/releases), [Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=3741893354)</content>
+    <link href="https://github.com/Intaiachi/ArchipelagoDOS2/releases/tag/v0.9.0"/>
+  </entry>
+  <entry>
+    <id>https://github.com/aurabot24/Archipelago-ALttPR/releases/tag/v1.4.0</id>
+    <title>The Legend of Zelda: A Link to the Past v1.4.0</title>
+    <updated>2026-08-24T22:27:12+00:00</updated>
+    <author>
+      <name>aurabot</name>
+    </author>
+    <content>### New Options&#13;
+&#13;
+* Bombless starts. Two bomb capacity upgrades are added to the item pool and unlock the ability to use bombs&#13;
+* Potsanity&#13;
+  * Any combination of pots with keys, pots in caves, and pots in dungeons can be checks&#13;
+  * Unchecked pots are a different color, and dungeon counters are forced on with dungeon pots randomized&#13;
+  * Due to technical limits, a max of 256 multiworld items can be found under pots&#13;
+* Enemy Drop Shuffle&#13;
+  * Enemies with keys, or all enemies in caves and dungeons, can drop a check when killed&#13;
+  * With all enemies enabled:&#13;
+    * Dungeon counters are forced on&#13;
+    * Link starts with a sword&#13;
+    * A blue square appears in the top-left corner if there is an enemy to kill on the current supertile (usually the current or adjacent room)&#13;
+    * Enemies which do not drop items, cannot be killed, or infinitely respawn, are not checks&#13;
+* Local Fill Percent forces a given percentage of filler items from pots/enemy drops into your own world&#13;
+&#13;
+### Other changes&#13;
+* The maximum number of Triforce Pieces has been increased to 850&#13;
+* Key Drop Shuffle is now redundant and has been hidden from the yaml template and option creator. If enabled, pots and enemies that drop keys are shuffled, in addition to your pots and enemy drop settings</content>
+    <link href="https://github.com/aurabot24/Archipelago-ALttPR/releases/tag/v1.4.0"/>
+  </entry>
+  <entry>
+    <id>https://github.com/TwinklePillar/Spark3-Archipelago/releases/tag/v0.11.3-beta</id>
+    <title>Spark the Electric Jester 3 v0.11.3b0</title>
+    <updated>2026-08-25T00:15:00+00:00</updated>
+    <author>
+      <name>TwinklePillar</name>
+    </author>
+    <content># Changelog&#13;
+- Added an option to restore energy when resetting to checkpoint&#13;
+- Fix several freezes when interacting with Archipelago&#13;
+- Fix trap link applying when receiving a trap item&#13;
+- Fix gravity trap not applying&#13;
+- Fix death link message being blank when no cause was sent&#13;
+- Fix logic but in Castela Blanca&#13;
+- Fix Floresta Blanca score medals being in logic without Combat&#13;
+- The database has been reorganized and renamed&#13;
+  - Split the options into multiple tabs&#13;
+  - Added settings for the appearance of the tracker arrow&#13;
+  - Added several options regarding death link&#13;
+  - Goal progress can be viewed in the database&#13;
+- The game now properly disconnects from Archipelago&#13;
+- The shop's functionality has been removed, it is now exclusively used for archipelago&#13;
+- Renamed the level unlock items&#13;
+- Added an option to randomize car and copter&#13;
+- Added Knockback Link&#13;
+&#13;
+***Known Issue:*** You may need to wait to receive all items upon connect.&#13;
+***Known Issue:*** Stuttering when Knockback Link is enabled and you take damage&#13;
+&#13;
+Compatible with all v0.11 worlds</content>
+    <link href="https://github.com/TwinklePillar/Spark3-Archipelago/releases/tag/v0.11.3-beta"/>
   </entry>
 </feed>
