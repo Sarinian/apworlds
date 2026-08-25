@@ -2,82 +2,11 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://raw.githubusercontent.com/silasary/apworlds/refs/heads/main/recent.atom</id>
   <title>Recent APWorlds</title>
-  <updated>2026-08-25T06:36:22.500417+00:00</updated>
+  <updated>2026-08-25T12:32:48.811402+00:00</updated>
   <author>
     <name>Silasary</name>
   </author>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
-  <entry>
-    <id>https://github.com/Aeromaze/Archipelago/releases/tag/v0.2.1</id>
-    <title>Easy Delivery Co. v0.2.0r2</title>
-    <updated>2026-08-21T17:28:43+00:00</updated>
-    <author>
-      <name>Aeromaze</name>
-    </author>
-    <content>## Fixes&#13;
-Fix generating with locked towns without payload checks&#13;
-Prevent opening the Fishing Town gate the vanilla way with the radio towers as items option&#13;
-## Notes&#13;
-⚠️ The in-game tracker can only be closed by the x in the top right corner</content>
-    <link href="https://github.com/Aeromaze/Archipelago/releases/tag/v0.2.1"/>
-  </entry>
-  <entry>
-    <id>https://github.com/Mickemoose/peak-archipelago/releases/tag/0.6.1</id>
-    <title>PEAK v0.6.1</title>
-    <updated>2026-08-21T17:38:19+00:00</updated>
-    <author>
-      <name>ArchipelagoBrad</name>
-    </author>
-    <author>
-      <name>ManNamedGarbo</name>
-    </author>
-    <author>
-      <name>Mickemoose</name>
-    </author>
-    <content>## v0.6.1 lets ditch the alpha tag since PEAK itself is complete and this is mostly stable&#13;
-&#13;
-**Not compatible with previously generated worlds**&#13;
-&#13;
-&lt;ul&gt;&#13;
-    &lt;li&gt;BUG FIXES (skeleton softlock, airport stamina, etc.)&lt;/li&gt;&#13;
-    &lt;li&gt;LOGIC FIXES (badge logic, harder items moved, etc.)&lt;/li&gt;&#13;
-    &lt;li&gt;Gloom/Citadel support of newly added items &amp; badges (and no more crash!)&lt;/li&gt;&#13;
-    &lt;li&gt;New traps&lt;/li&gt;&#13;
-    &lt;li&gt;Goals refactored to allow multiple goals (badges, ascents, peak, idol dunking, soul freeing u name it)&lt;/li&gt;&#13;
-    &lt;li&gt;Item Tracker also allows toggleable spawning items by clicking them if they're unlocked (off by default)&lt;/li&gt;&#13;
-    &lt;li&gt;DamageLink/DamageLinkGroup support (UNTESTED GOOD LUCK)&lt;/li&gt;&#13;
-    &lt;li&gt;DeathLinkGroup support&lt;/li&gt;&#13;
-    &lt;li&gt;KnockbackLink support (UNTESTED GOOD LUCK)&lt;/li&gt;&#13;
-    &lt;li&gt;Backpack moved with Fanny Pack into Progressive Pack (Nothing -&gt; Fanny -&gt; Back)&lt;/li&gt;&#13;
-    &lt;li&gt;Don't have Flares unlocked but you made it to the PEAK? TOO BAD now you need those flares.&lt;/li&gt;&#13;
-    &lt;li&gt;Campfire hints should be ordered properly&lt;/li&gt;&#13;
-    &lt;li&gt;Scoutmaster's soul pillar will display a hint similar to the campfires if you don't have it yet&lt;/li&gt;&#13;
-&lt;/ul&gt;&#13;
-&#13;
-### Notes/Known Issues&#13;
-High Altitude Badge is currently disabled as a check until further notice&#13;
-On startup there may be a slight hitch, i grab some biome specific hazards for traps from a loaded map called WilIsland at launch so that some traps work when their biome isnt in that day's run.</content>
-    <link href="https://github.com/Mickemoose/peak-archipelago/releases/tag/0.6.1"/>
-  </entry>
-  <entry>
-    <id>https://github.com/solida1987/Diablo-II-Archipelago/releases/tag/v3.8.7</id>
-    <title>Diablo II Archipelago v3.8.7</title>
-    <updated>2026-08-21T20:04:32+00:00</updated>
-    <author>
-      <name>solida1987</name>
-    </author>
-    <author>
-      <name>ꓘicka (AP logic)</name>
-    </author>
-    <author>
-      <name>Zoë (AP logic)</name>
-    </author>
-    <content>The Sorceress no longer crashes her way into the game. Diablo II would stop with its own assertion box — SCmd.cpp, line 3910 — within seconds of reaching town, and only for her; every other class played fine. At startup the mod rewrote the skill animations of all seven classes at once, before it knew which class was about to be played, and then put the player's own skills back to normal a moment later when the character loaded. Three Sorceress skills carry the animations that were being rewritten, and changing them under the game's feet threw off the queue Diablo II keeps of commands it has sent and is still waiting to hear back about. Animations are now applied once, per class, when the character loads, so nothing is ever written and then taken back. Every class keeps its own animations, and a skill borrowed from another class still falls back to an attack animation exactly as before.
-
-Version numbers agree with each other again. The bootstrap launcher was still reporting 3.8.3 and the packaged Archipelago world still declared 3.8.3, four releases after the rest of the mod had moved on.
-</content>
-    <link href="https://github.com/solida1987/Diablo-II-Archipelago/releases/tag/v3.8.7"/>
-  </entry>
   <entry>
     <id>https://github.com/agilbert1412/StardewArchipelago/releases/tag/8.1.1</id>
     <title>stardew_valley_8.1.1 v8.1.1</title>
@@ -358,7 +287,7 @@ For the most stable and enjoyable experience, I strongly recommend downloading a
   </entry>
   <entry>
     <id>https://github.com/Az-LastPenguin/LORAP/releases/tag/v1.0.0-eta.1</id>
-    <title>Library of Ruina v1.0.0r3</title>
+    <title>Library of Ruina v1.0.0r2</title>
     <updated>2026-08-22T12:15:54+00:00</updated>
     <author>
       <name>LastPenguin</name>
@@ -1297,5 +1226,88 @@ Compatible with all v0.11 worlds</content>
     </author>
     <content>Underworld enemy drop shuffle no longer forces a starting sword.</content>
     <link href="https://github.com/aurabot24/Archipelago-ALttPR/releases/tag/v1.4.1"/>
+  </entry>
+  <entry>
+    <id>https://github.com/carrotinator/Archipelago/releases/tag/ph-v0.9.7-alpha</id>
+    <title>The Legend of Zelda - Phantom Hourglass v0.9.7a0</title>
+    <updated>2026-08-25T07:28:37+00:00</updated>
+    <author>
+      <name>carrotinator</name>
+    </author>
+    <author>
+      <name>Tanker50207</name>
+    </author>
+    <author>
+      <name>palex00</name>
+    </author>
+    <author>
+      <name>CelestialKitsune</name>
+    </author>
+    <author>
+      <name>DayKat</name>
+    </author>
+    <author>
+      <name>1313e</name>
+    </author>
+    <author>
+      <name>Catzador</name>
+    </author>
+    <content>Compatible with seeds generated in v9.x&#13;
+[Setup Guide](https://github.com/carrotinator/Archipelago/blob/main/worlds/tloz_ph/docs/setup.md)&#13;
+&#13;
+- Main read list is reloaded after cutscenes, fixing Bellum goal not sending.&#13;
+- Fixed unnecessary delay resets from gift_addr locations that are not address reads&#13;
+- Fixed client crash on sending too many progressive items&#13;
+- `exclude_locations` in yaml is taken into account when calculating how many filler items to make</content>
+    <link href="https://github.com/carrotinator/Archipelago/releases/tag/ph-v0.9.7-alpha"/>
+  </entry>
+  <entry>
+    <id>https://github.com/furret78/ArchipelagoTouhou/releases/tag/0.4.52</id>
+    <title>Black Market of Bulletphilia ~ 100th Black Market v0.4.52</title>
+    <updated>2026-08-25T08:04:21+00:00</updated>
+    <author>
+      <name>Yuureiki</name>
+    </author>
+    <content>Archipelago Randomizer implementation for **_Black Market of Bulletphilia ~ 100th Black Market_**, also known as _**Touhou 18.5**_.&#13;
+&#13;
+- **.apworld version:** 0.4.52&#13;
+- **Minimum Archipelago Launcher version:** 0.6.7&#13;
+&#13;
+Recommended to play on Windows, as **the game does not support Linux natively**. If playing on Linux, it is recommended to run both Archipelago Launcher and the game in Wine/Proton.&#13;
+&#13;
+# Changelog&#13;
+- Added one additional save data guardrail.&#13;
+&#13;
+Does not change anything else.&#13;
+&#13;
+**Full Changelog**: https://github.com/furret78/ArchipelagoTouhou/compare/0.4.51...0.4.52&#13;
+&#13;
+# Game Details and Setup&#13;
+- See **game details** [here](https://github.com/furret78/Archipelago/blob/main/worlds/th185/docs/en_100th%20Black%20Market.md). When exporting .yaml files for this game, it is recommended to use the Options Creator in the Archipelago Launcher for a smooth experience.&#13;
+- See the **setup guide** [here](https://github.com/furret78/Archipelago/blob/main/worlds/th185/docs/setup_en.md).</content>
+    <link href="https://github.com/furret78/ArchipelagoTouhou/releases/tag/0.4.52"/>
+  </entry>
+  <entry>
+    <id>https://github.com/Az-LastPenguin/LORAP/releases/tag/v1.0.0-eta.2</id>
+    <title>Library of Ruina v1.0.0r2</title>
+    <updated>2026-08-25T10:57:41+00:00</updated>
+    <author>
+      <name>LastPenguin</name>
+    </author>
+    <content>As always, check known bugs and report bugs in #70&#13;
+&#13;
+**Unsubscribe from workshop mod!**&#13;
+&#13;
+**New Run NOT Required**&#13;
+&#13;
+**Uses -eta .apworld**&#13;
+&#13;
+**You can find full changelog [here](https://github.com/Az-LastPenguin/LORAP/blob/dev/Changelogs/1.0.0%20in-dev.md)**&#13;
+&#13;
+## Changelog:&#13;
+- FIXED?: Attempt to fix crash when hinting in the integrated client / autohinting on the map&#13;
+- FIXED: Forfeit prompt is now properly clickable&#13;
+- CHANGED: Client toggle keybind is now F2. AP Feed toggle keybind is now F3.</content>
+    <link href="https://github.com/Az-LastPenguin/LORAP/releases/tag/v1.0.0-eta.2"/>
   </entry>
 </feed>
