@@ -2,94 +2,11 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://raw.githubusercontent.com/silasary/apworlds/refs/heads/main/recent.atom</id>
   <title>Recent APWorlds</title>
-  <updated>2026-08-25T12:32:48.811402+00:00</updated>
+  <updated>2026-08-25T18:32:28.377873+00:00</updated>
   <author>
     <name>Silasary</name>
   </author>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
-  <entry>
-    <id>https://github.com/agilbert1412/StardewArchipelago/releases/tag/8.1.1</id>
-    <title>stardew_valley_8.1.1 v8.1.1</title>
-    <updated>2026-08-21T21:40:13+00:00</updated>
-    <author>
-      <name>agilbert1412</name>
-    </author>
-    <content>## Apworld&#13;
-- Fixed some ER transitions having the wrong flags, causing some GER failures&#13;
-- Fixed the default value on the QuestLocations option&#13;
-&#13;
-## Mod&#13;
-- Fixed the `Forage Spring Onion` location not sending&#13;
-- Added minimum 1 to some prices at the carpenter and blacksmith</content>
-    <link href="https://github.com/agilbert1412/StardewArchipelago/releases/tag/8.1.1"/>
-  </entry>
-  <entry>
-    <id>https://github.com/solida1987/Diablo-II-Archipelago/releases/tag/v3.8.8</id>
-    <title>Diablo II Archipelago v3.8.8</title>
-    <updated>2026-08-21T22:17:38+00:00</updated>
-    <author>
-      <name>solida1987</name>
-    </author>
-    <author>
-      <name>ꓘicka (AP logic)</name>
-    </author>
-    <author>
-      <name>Zoë (AP logic)</name>
-    </author>
-    <content>The startup crash is fixed. Diablo II would stop with its own assertion box — SCmd.cpp line 3910 — seconds after a character entered town, sometimes on the first try and sometimes after a dozen, on any class. The mod sent its internal packets to the wrong address: what it called D2Client's send function is in fact D2Client's weapon-swap command handler, and calling it left a register the handler reads holding whatever happened to be there. Depending on that value the game carried on, raised the assertion box, or faulted outright, which is why the crash came and went with no pattern. Packets now go through D2Net's real send function, the one the rest of the mod already used.
-
-Bow, crossbow and javelin skills keep their weapon requirement. It was being stripped along with every other weapon restriction, so a character who was dealt Fire Arrow among the random starting skills could select and cast it while holding a staff. The requirement is what makes Diablo II refuse the cast until a bow is equipped, and the skills stay in the pool for every class — anyone can pick up a bow and use them.
-
-Crash reports name the module behind every stack address, and every skill change on either hand is logged with the item that granted it. Both are there so a report from a player carries what is needed to place a fault without a second round of questions.
-</content>
-    <link href="https://github.com/solida1987/Diablo-II-Archipelago/releases/tag/v3.8.8"/>
-  </entry>
-  <entry>
-    <id>https://github.com/Az-LastPenguin/LORAP/releases/tag/v1.0.0-eta</id>
-    <title>Library of Ruina v1.0.0r2</title>
-    <updated>2026-08-21T23:10:04+00:00</updated>
-    <author>
-      <name>LastPenguin</name>
-    </author>
-    <content>As always, check known bugs and report bugs in #70 &#13;
-&#13;
-**Unsubscribe from workshop mod!**&#13;
-&#13;
-**NEW RUN REQUIRED**&#13;
-&#13;
-**Uses -eta .apworld**&#13;
-&#13;
-**You can find full changelog [here](https://github.com/Az-LastPenguin/LORAP/blob/dev/Changelogs/1.0.0%20in-dev.md)**&#13;
-&#13;
-## Changelog:&#13;
-- FIXED: Endgoals Always Unlocked option is now actually functional (  just forgor to add a check to the code bruh.)&#13;
-- FIXED: That annoying vanilla bug of map losing ability to store inertia making moving it effectively an exercise for your hand&#13;
-- FIXED: Emotion levels having an additional 0 for a stupid reason&#13;
-- FIXED: Not yet reachable stages with hints are now shown again (this was lost somewhere mid development)&#13;
-- FIXED: Names for Realizations (Were previously shown as "Unknown")&#13;
-- FIXED &amp; CHANGED: Endgoal stages overlapping other stages on the map by moving them higher on the map&#13;
-- CHANGED: Archipelago messages are now displayed in a small, separate, draggable &amp; resizable window that can be hidden/shown by pressing F2.&#13;
-- CHANGED: Chapter separators &amp; goto buttons are back! (Due to stages being devided into chapters in logic now)&#13;
-- CHANGED: Librarian requirements for Love Town and Wedge Office is now 2&#13;
-- CHANGED: Almost all custom UI elements were internally changed/updated for better experience. I expect something to break.&#13;
-- CHANGED: Players now get 2 Emotion Limit Break items from the start&#13;
-- ADDED: Built-in AP Client inside the game that can be opened/closed by pressing Tab:&#13;
-	- Archipelago tab contains chat window which shows every received AP message, and which you can use to chat with other players/use commands from the game.&#13;
-	- Hints tab shows all the known hints related to your game. You can also hint from this window. (This tab updates every time you open it, so let me know if it lags with a lot of hints!)&#13;
-	- Settings tab contains client-sided settings that you can change and .yaml's settings that you can override on the client-side. You can only override settings that won't require game regeneration/break the game in any way. Some settings may require you to reconnect.&#13;
-	- Debug tab contains some info that is not normally seen but is useful for debugging.&#13;
-- ADDED: Keybind hints for AP client and AP Feed&#13;
-- ADDED: Persistent goals option. You can select endgoals not selected by End Goals option for them to appear on the map alongside other stages (not at the top) (Thanks Yar)&#13;
-- ADDED: Star symbol for stages that contain hinted items with status "Priority"&#13;
-- ADDED: New "Layered" progression mode (Old is now named "Battle Graph") (Thanks Yar):&#13;
-	- Instead of opening stages by completing previous stages and finding required books, they're opened in bulk (layers) by burning vanilla books (they don't give any drops!).&#13;
-	- Vanilla chapters become actual part of the logic: you can't open layers of the next chapter unless you complete a preconfigured percent (50% by default) of the stages in current chapter.&#13;
-	- Book of Everything is back for this mode exclusively: The drops are now placed in different "bundles" ("BoE chapters") based on the number of each bundle and estimated game progression. Burning BoE gives max amount of drops in that bundle. There is a limited amount of bundles per chapter, meaning that if logic places more BoEs in a chapter than there is bundles, you won't be able to burn all BoEs until you unlock next chapter.&#13;
-	- Booster Packs are also present in this mode but nerfed to 4 drops per pack!&#13;
-	- IMPORTANT: Old "Battle Graph" Mode is supposed to get removed next update, but if you actually liked it and think it can be improved, PLEASE send feedback.&#13;
-- REMOVED: Filler Item option (Was too lazy to add support for BoE for "Battle Graph" mode. It's supposed to get removed anyway and the new mode has both so it's not really needed)</content>
-    <link href="https://github.com/Az-LastPenguin/LORAP/releases/tag/v1.0.0-eta"/>
-  </entry>
   <entry>
     <id>https://github.com/Thedragon005/Archipelago-Ape-Escape/releases/tag/v0.9.10</id>
     <title>Ape Escape v0.9.10</title>
@@ -287,7 +204,7 @@ For the most stable and enjoyable experience, I strongly recommend downloading a
   </entry>
   <entry>
     <id>https://github.com/Az-LastPenguin/LORAP/releases/tag/v1.0.0-eta.1</id>
-    <title>Library of Ruina v1.0.0r2</title>
+    <title>Library of Ruina v1.0.0r3</title>
     <updated>2026-08-22T12:15:54+00:00</updated>
     <author>
       <name>LastPenguin</name>
@@ -1218,6 +1135,42 @@ Compatible with all v0.11 worlds</content>
     <link href="https://github.com/benny-dreamly/Manuals/releases/tag/GA-6.0.0"/>
   </entry>
   <entry>
+    <id>https://github.com/stubobis1/archipelago-openomf/releases/tag/omf-0.0.5</id>
+    <title>One Must Fall: 2097 v0.0.5</title>
+    <updated>2026-08-25T04:16:51+00:00</updated>
+    <author>
+      <name>stubob</name>
+    </author>
+    <content># Archipelago OpenOMF  v0.0.5&#13;
+&#13;
+&gt; OMF:2097 was released as freeware by Epic MegaGames in 1999. The game data is freely and legally downloadable.&#13;
+&#13;
+---&#13;
+&#13;
+### What's New&#13;
+&#13;
+#### Fixes (Multiworld)&#13;
+&#13;
+- Fixed shop purchases not being remembered when the location's item belongs to another game in the multiworld. Shop state was previously rebuilt from `ReceivedItems`, which only fires for items sent back to *us* — a location whose item goes to another player never echoes back, so the shop showed it as never bought and charged you for it again every time you reopened the mechlab. Shop state is now derived from the server's `checked_locations` instead, which reflects every location *we've* checked regardless of who receives the item&#13;
+- As part of the same fix, shop/training state now also picks up: locations found while disconnected (synced on the next connect), server-side auto-releases (e.g. another game completing and releasing all its remaining checks), and checks made by another client connected to the same slot in co-op&#13;
+- Fixed the shop being able to skip past a still-unbought level if a later level in the same stat got checked out of order (same-slot co-op, a release) — it now keeps offering the actual next unbought level, and instantly recognizes the skipped one as owned once you reach it&#13;
+- Fixed the shop/training price label staying one step behind after a purchase until you moved focus away and back — it now updates immediately&#13;
+---&#13;
+&#13;
+### Links&#13;
+&#13;
+- [Setup guide](https://github.com/stubobis1/archipelago-openomf-apworld/blob/master/worlds/openomf/docs/setup_en.md)&#13;
+- [Game guide](https://github.com/stubobis1/archipelago-openomf-apworld/blob/master/worlds/openomf/docs/en_One%20Must%20Fall%202097.md)&#13;
+- [Parent repo](https://github.com/stubobis1/archipelago-openomf)&#13;
+- [Client repo](https://github.com/stubobis1/openomf)&#13;
+- [AP world repo](https://github.com/stubobis1/archipelago-openomf-apworld)&#13;
+- [Issues](https://github.com/stubobis1/archipelago-openomf/issues)&#13;
+&#13;
+&#13;
+**Full Changelog**: https://github.com/stubobis1/archipelago-openomf/compare/omf-0.0.4...omf-0.0.5</content>
+    <link href="https://github.com/stubobis1/archipelago-openomf/releases/tag/omf-0.0.5"/>
+  </entry>
+  <entry>
     <id>https://github.com/aurabot24/Archipelago-ALttPR/releases/tag/v1.4.1</id>
     <title>The Legend of Zelda: A Link to the Past v1.4.1</title>
     <updated>2026-08-25T05:54:13+00:00</updated>
@@ -1289,7 +1242,7 @@ Does not change anything else.&#13;
   </entry>
   <entry>
     <id>https://github.com/Az-LastPenguin/LORAP/releases/tag/v1.0.0-eta.2</id>
-    <title>Library of Ruina v1.0.0r2</title>
+    <title>Library of Ruina v1.0.0r4</title>
     <updated>2026-08-25T10:57:41+00:00</updated>
     <author>
       <name>LastPenguin</name>
@@ -1309,5 +1262,40 @@ Does not change anything else.&#13;
 - FIXED: Forfeit prompt is now properly clickable&#13;
 - CHANGED: Client toggle keybind is now F2. AP Feed toggle keybind is now F3.</content>
     <link href="https://github.com/Az-LastPenguin/LORAP/releases/tag/v1.0.0-eta.2"/>
+  </entry>
+  <entry>
+    <id>https://github.com/Dreskn/Wikipelago-Continued/releases/tag/1.0.1</id>
+    <title>Wikipelago v1.0.1</title>
+    <updated>2026-08-25T14:06:06+00:00</updated>
+    <author>
+      <name>Dreskn (continued)</name>
+    </author>
+    <author>
+      <name>Skrumptily69 (original)</name>
+    </author>
+    <content>## Wikipelago 1.0.1
+
+Requires **Archipelago 0.6.7**. For new generates, install this `wikipelago.apworld` and YAML.
+Web client: https://wikipelago.dreskn.fr/ (after VPS deploy), or local from tag `1.0.1`.
+
+### Client
+- Wrong Wiki clicks stay in the client instead of opening wikipedia.org
+- Link bombs are visible: gold link text and a bomb icon to the left (still a death; still needs `deaths`)
+
+### World
+- Dropped a dead Portuguese pool title (`Rodrigo Garcia`)
+
+Old **1.0.0** rooms keep working. Hosts generating new seeds should use this apworld.</content>
+    <link href="https://github.com/Dreskn/Wikipelago-Continued/releases/tag/1.0.1"/>
+  </entry>
+  <entry>
+    <id>https://github.com/jordansds/Archipelago_TWW3_Alt/releases/tag/v0.10.18</id>
+    <title>Total War Warhammer 3 v0.10.18</title>
+    <updated>2026-08-25T17:04:35+00:00</updated>
+    <author>
+      <name>jordansds</name>
+    </author>
+    <content>Fixed beastmen progressive buildings</content>
+    <link href="https://github.com/jordansds/Archipelago_TWW3_Alt/releases/tag/v0.10.18"/>
   </entry>
 </feed>
