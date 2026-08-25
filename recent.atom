@@ -2,63 +2,11 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://raw.githubusercontent.com/silasary/apworlds/refs/heads/main/recent.atom</id>
   <title>Recent APWorlds</title>
-  <updated>2026-08-25T00:42:42.172282+00:00</updated>
+  <updated>2026-08-25T06:36:22.500417+00:00</updated>
   <author>
     <name>Silasary</name>
   </author>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
-  <entry>
-    <id>https://github.com/petiboy7/IAYBArchipelago/releases/tag/0.3.4</id>
-    <title>IAmYourBeast v0.3.4</title>
-    <updated>2026-08-21T13:05:01+00:00</updated>
-    <author>
-      <name>petiboy7</name>
-    </author>
-    <content># I Am Your Beast Archipelago 0.3.4&#13;
-&#13;
-## Improvements&#13;
-&#13;
-### APWorld&#13;
-- Changed the `.yaml` description to add missing information and make each option easier to understand.&#13;
-- Added a new option to exclude Horde levels from the pool.&#13;
-- Added a new option to change Map Type to show armor items on the map.&#13;
-&#13;
-### Mod&#13;
-- Level names are always visible on the level select screen.&#13;
-- Cutscenes are hidden by default on the level select screen. Can be toggled on or off.&#13;
-- Added a button to only show levels that are available on the level select screen. Can be toggled on or off.&#13;
-- Optionally added armor items to the map. Can be changed in the YAML settings.&#13;
-- When connecting to Archipelago from the Menu, all items are resynced with the server and all checks that are done in your save file but were never sent are sent. The game might freeze for a while when connecting if there are a lot of these.&#13;
-&#13;
-## Fixes&#13;
-&#13;
-### Mod&#13;
-- Weapons are now visible on the minimap when weapon randomization is not enabled.&#13;
-- *Maybe* fixed Bonus Objective locations not sending properly. Again.&#13;
-&#13;
-## Note&#13;
-&#13;
-**This version is not compatible with already hosted multiworlds.**</content>
-    <link href="https://github.com/petiboy7/IAYBArchipelago/releases/tag/0.3.4"/>
-  </entry>
-  <entry>
-    <id>https://github.com/jordansds/Archipelago_TWW3_Alt/releases/tag/v0.10.17</id>
-    <title>Total War Warhammer 3 v0.10.17</title>
-    <updated>2026-08-21T16:01:55+00:00</updated>
-    <author>
-      <name>jordansds</name>
-    </author>
-    <content>Bugfixes... More bugfixes...&#13;
-&#13;
-Some highlights:&#13;
-Fixed broken tomb kings cavalry.&#13;
-Changes to .pack mod.&#13;
-Fixed items... again... I swear I'll stop breaking them one day.&#13;
-Locations now correctly send after losing connection.&#13;
-Some logic fixes for battle/despoiler sanity.&#13;
-Victory logic now correctly accounts for balance enabled in yaml.</content>
-    <link href="https://github.com/jordansds/Archipelago_TWW3_Alt/releases/tag/v0.10.17"/>
-  </entry>
   <entry>
     <id>https://github.com/Aeromaze/Archipelago/releases/tag/v0.2.1</id>
     <title>Easy Delivery Co. v0.2.0r2</title>
@@ -410,7 +358,7 @@ For the most stable and enjoyable experience, I strongly recommend downloading a
   </entry>
   <entry>
     <id>https://github.com/Az-LastPenguin/LORAP/releases/tag/v1.0.0-eta.1</id>
-    <title>Library of Ruina v1.0.0r2</title>
+    <title>Library of Ruina v1.0.0r3</title>
     <updated>2026-08-22T12:15:54+00:00</updated>
     <author>
       <name>LastPenguin</name>
@@ -1327,5 +1275,27 @@ DOS2 mod pak file [Github](https://github.com/Intaiachi/DOS2-Archipelago-Mod/rel
 &#13;
 Compatible with all v0.11 worlds</content>
     <link href="https://github.com/TwinklePillar/Spark3-Archipelago/releases/tag/v0.11.3-beta"/>
+  </entry>
+  <entry>
+    <id>https://github.com/benny-dreamly/Manuals/releases/tag/GA-6.0.0</id>
+    <title>Manual_GlassAnimals_bennydreamly v6.0.0</title>
+    <updated>2026-08-25T02:18:21+00:00</updated>
+    <author>
+      <name>benny-dreamly</name>
+    </author>
+    <content>This release updates the manual to the latest stable release of the base manual apworld.&#13;
+&#13;
+**Full Changelog**: https://github.com/benny-dreamly/Manuals/compare/GA-5.0.0...GA-6.0.0</content>
+    <link href="https://github.com/benny-dreamly/Manuals/releases/tag/GA-6.0.0"/>
+  </entry>
+  <entry>
+    <id>https://github.com/aurabot24/Archipelago-ALttPR/releases/tag/v1.4.1</id>
+    <title>The Legend of Zelda: A Link to the Past v1.4.1</title>
+    <updated>2026-08-25T05:54:13+00:00</updated>
+    <author>
+      <name>aurabot</name>
+    </author>
+    <content>Underworld enemy drop shuffle no longer forces a starting sword.</content>
+    <link href="https://github.com/aurabot24/Archipelago-ALttPR/releases/tag/v1.4.1"/>
   </entry>
 </feed>
