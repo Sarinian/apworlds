@@ -2,83 +2,11 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://raw.githubusercontent.com/silasary/apworlds/refs/heads/main/recent.atom</id>
   <title>Recent APWorlds</title>
-  <updated>2026-08-26T12:34:11.439308+00:00</updated>
+  <updated>2026-08-26T19:42:13.593473+00:00</updated>
   <author>
     <name>Silasary</name>
   </author>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
-  <entry>
-    <id>https://github.com/Radis7Noir/pokemon_bw_extra_logic_plugin/releases/tag/v10</id>
-    <title>Pokemon BW Extra Logic Plugin v1.10.0</title>
-    <updated>2026-08-22T19:19:30+00:00</updated>
-    <author>
-      <name>RadisNoir</name>
-    </author>
-    <content>**Fixes**&#13;
-* Fixed a missing connection between Route 5 and Nimbasa City&#13;
-* Fixed a generation error when Mistralton City is selected as starting town and `shuffle_badges: shuffle`&#13;
-  * Skyla will now always give the Jet Badge or the Quake Badge if `starting_town = "Mistralton City"` and `shuffle_badges: shuffle`&#13;
-&#13;
-**YAML Options List**&#13;
-* The following options need to be added to the Black and White YAML under `plugin_options`:&#13;
-```&#13;
-  plugin_options:&#13;
-    extra_logic:  # same as v8&#13;
-      randomize_starting_town: true&#13;
-      starting_town_blacklist: []  # list in README&#13;
-      add_ss_ticket: true&#13;
-      add_pass: true&#13;
-      hm_with_badges: true&#13;
-      add_rock_smash: true&#13;
-      add_rock_smash_musharna: true  # requires add_rock_smash&#13;
-      extra_cut_trees: true&#13;
-      extra_cut_trees_kyurem: true   # requires extra_cut_trees&#13;
-      move_strength_boulders: true&#13;
-      move_strength_boulders_vi_road: true   # requires move_strength_boulders&#13;
-      dark_areas: ["Wellspring Cave B1F", "Mistralton Cave", "Challengers Cave"]  # supports "_All" and "_Random", see README&#13;
-```&#13;
-&#13;
-**Important Notes**&#13;
-* The plugin needs to be installed by the host before generation. The player also needs the plugin to patch their ROM.&#13;
-* It is not possible to add the extra logic options mid-playthrough.&#13;
-&#13;
-**Backwards Compatibility**&#13;
-* This version is compatible with v0.3.37+ of the main BW APworld&#13;
-* This version is compatible with v23 of the QoL Plugin</content>
-    <link href="https://github.com/Radis7Noir/pokemon_bw_extra_logic_plugin/releases/tag/v10"/>
-  </entry>
-  <entry>
-    <id>https://github.com/1313e/Civ-V-AP-World/releases/tag/v0.10.8</id>
-    <title>Civilization V v0.10.8</title>
-    <updated>2026-08-22T21:11:31+00:00</updated>
-    <author>
-      <name>1313e</name>
-    </author>
-    <content>**Fixes**:&#13;
-- Correctly mark Dromon as a Trireme replacement.&#13;
-&#13;
-**Full Changelog**: https://github.com/1313e/Civ-V-AP-World/compare/v0.10.7...v0.10.8</content>
-    <link href="https://github.com/1313e/Civ-V-AP-World/releases/tag/v0.10.8"/>
-  </entry>
-  <entry>
-    <id>https://github.com/brodieberger/MMZero3Archipelago/releases/tag/v0.3.2</id>
-    <title>Mega Man Zero 3 v0.3.2</title>
-    <updated>2026-08-22T21:31:31+00:00</updated>
-    <author>
-      <name>brodieberger</name>
-    </author>
-    <content>Implemented Extra Lives as location checks. Some bug fixes.&#13;
-&#13;
-# Features&#13;
-- Static extra life pickups found in stages are now location checks. &#13;
-  - They have an animation placed around them to let you know they haven't been checked yet.&#13;
-  - This is forced on for right now but will soon be an option (pickup-sanity) later in the future, once all other static pickups have been implemented.&#13;
-&#13;
-# Bug Fixes&#13;
-- Fixed error regarding using certain trackers. Now all trackers should know about weapon requirements.&#13;
-- Updated wording for some options to be clearer.</content>
-    <link href="https://github.com/brodieberger/MMZero3Archipelago/releases/tag/v0.3.2"/>
-  </entry>
   <entry>
     <id>https://github.com/1313e/Civ-V-AP-World/releases/tag/v0.10.9</id>
     <title>Civilization V v0.10.9</title>
@@ -1289,5 +1217,55 @@ The complete combined candidate passed focused automated tests, fresh Linux AP a
 See `README-ALPHA5.md` and `KNOWN-ISSUES.md` inside the archive for exact source identities, hashes, setup notes and the current attention list. CTR-AP does not ship Crash Team Racing game data.
 </content>
     <link href="https://github.com/dowlle/ctr-native-ap/releases/tag/v0.2.0-alpha5"/>
+  </entry>
+  <entry>
+    <id>https://github.com/jjjj12212/Archipelago-BanjoTooie/releases/tag/V4.13.1</id>
+    <title>Banjo Tooie v4.13.1</title>
+    <updated>2026-08-26T14:12:14+00:00</updated>
+    <author>
+      <name>jjjj12212</name>
+    </author>
+    <author>
+      <name>g0goTBC</name>
+    </author>
+    <author>
+      <name>Austin</name>
+    </author>
+    <content># 4.13.1&#13;
+  - Fixes for the following:&#13;
+    - (Everdrive) receiving a Green Relic text fix (remove being taught how to use a Green Relic)&#13;
+    - (Emulator) Deathlink and Taglink AP tag enabled when they are enabled in the YAML&#13;
+    - (Emulator) Grunty taunts you when you die with deathlink enabled&#13;
+    - (Emulator) Taglink is working again</content>
+    <link href="https://github.com/jjjj12212/Archipelago-BanjoTooie/releases/tag/V4.13.1"/>
+  </entry>
+  <entry>
+    <id>https://github.com/barretg/Taskipelago/releases/tag/v1.0.1</id>
+    <title>Taskipelago v1.0.1</title>
+    <updated>2026-08-26T15:19:26+00:00</updated>
+    <author>
+      <name>barretg</name>
+    </author>
+    <content>Quick patch to fix a couple bugs with bingo mode, namely duplicate items and an issue involving the center cell.&#13;
+&#13;
+## Known Issues&#13;
+* Universal Tracker is unhappy with the structure of the datapackage because of the dynamic nature of Taskipelago's location names. This is aimed to be resolved in a future patch. This is an issue specifically with multiple taskipelago worlds in a single multiworld with shared item or location names.</content>
+    <link href="https://github.com/barretg/Taskipelago/releases/tag/v1.0.1"/>
+  </entry>
+  <entry>
+    <id>https://github.com/TheLX5/Archipelago/releases/tag/mmx2-v2.0.4</id>
+    <title>Mega Man X2 v2.0.4</title>
+    <updated>2026-08-26T18:30:29+00:00</updated>
+    <author>
+      <name>lx5</name>
+    </author>
+    <content>even more fixes&#13;
+# Info&#13;
+* [General Information](https://thelx5.github.io/mmx2/index.html)&#13;
+* [Setup Guide](https://thelx5.github.io/mmx2/setup.html)&#13;
+# Changes&#13;
+* Fixed Wire Sponge granting its weapon upon defeat&#13;
+* Fixed received DamageLink packets during cutscenes locking the player in place until they got hit again</content>
+    <link href="https://github.com/TheLX5/Archipelago/releases/tag/mmx2-v2.0.4"/>
   </entry>
 </feed>
