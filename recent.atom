@@ -2,248 +2,11 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://raw.githubusercontent.com/silasary/apworlds/refs/heads/main/recent.atom</id>
   <title>Recent APWorlds</title>
-  <updated>2026-08-25T18:32:28.377873+00:00</updated>
+  <updated>2026-08-26T00:45:03.843934+00:00</updated>
   <author>
     <name>Silasary</name>
   </author>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
-  <entry>
-    <id>https://github.com/Thedragon005/Archipelago-Ape-Escape/releases/tag/v0.9.10</id>
-    <title>Ape Escape v0.9.10</title>
-    <updated>2026-08-22T00:15:00+00:00</updated>
-    <author>
-      <name>Thedragon005</name>
-    </author>
-    <author>
-      <name>IHNN</name>
-    </author>
-    <content>## Version 0.9.10 - Small fixes!&#13;
-Please read the setup guides for information on how to setup this game for Archipelago :&#13;
-[English](https://github.com/Thedragon005/Archipelago-Ape-Escape/blob/apeescape/worlds/apeescape/docs/setup_en.md) / [French](https://github.com/Thedragon005/Archipelago-Ape-Escape/blob/apeescape/worlds/apeescape/docs/setup_fr.md) &#13;
-&#13;
-* **Client and logic fixes**&#13;
-  - Fixed a bug where ap hosts sites could send empty bounce packets and crash the client&#13;
-  - Logic : Remove only Punch as access for Normal difficulty wheels with tight timing&#13;
-  ## Known bugs&#13;
-* Stadium Attack and Gladiator Attack will sometime play the "entering level" music instead of their intended track.&#13;
-&#13;
-&#13;
-**\*Don't forget to do "Generate Template Options" after installing the ``apworld`` if you want the new options in the YAML\***&#13;
-&#13;
-Tracker for this apworld version : [Ape Escape Tracker 0.7.0](https://github.com/lurch9229/Ape-Escape-Tracker/releases/tag/0.7.0)&#13;
-&#13;
-&#13;
-**Full Changelog**: https://github.com/Thedragon005/Archipelago-Ape-Escape/compare/v0.9.9....v0.9.10</content>
-    <link href="https://github.com/Thedragon005/Archipelago-Ape-Escape/releases/tag/v0.9.10"/>
-  </entry>
-  <entry>
-    <id>https://github.com/Akashortstack/Psychonauts-AP-Integration/releases/tag/v1.0.0</id>
-    <title>Psychonauts v1.0.0</title>
-    <updated>2026-08-22T01:19:58+00:00</updated>
-    <author>
-      <name>Akashortstack</name>
-    </author>
-    <author>
-      <name>Mysteryem</name>
-    </author>
-    <content># New Option&#13;
-- Scavenger Hunt Rewards: Add Scavenger Hunt Completion Rewards as Locations.&#13;
-    Half: Adds a location for redeeming 8 scavenger hunt items with Ford in the camp.&#13;
-    All: Adds two locations for redeeming 8 and 16 scavenger hunt items with Ford in the camp.&#13;
-&#13;
-## Minor Changes&#13;
-- Small Logic changes for Meat Circus: Oly Escort now requires EITHER Telekinesis OR Confusion to complete. 40% figments now requires Levitation.&#13;
-&#13;
-## Bug Fixes&#13;
-- Baggage can no longer be placed on the MC Grind Rail location, causing you to potentially fall underneath the death plane during the collection cutscene.&#13;
-- Fixed some cases where baggage would collect multiple times on loading a save.&#13;
-&#13;
-# Resources&#13;
-&#13;
-Requires latest AP Branch of the Psychonauts Randomizer Mod to run, found here:&#13;
-https://github.com/Akashortstack/PsychoRando/releases&#13;
-&#13;
-Setup Guide with installation instructions and additional information for PsychoRando here:&#13;
-https://docs.google.com/document/d/1b7QOnOLmTSvdC7A1YK3bsSmhtSOsAMs0XF5j-tyE6Zw/edit?usp=sharing&#13;
-&#13;
-Requires Astralathe to run, download and installation instructions found here:&#13;
-https://gitlab.com/scrunguscrungus/astralathe/-/wikis/Installing%20Astralathe&#13;
-&#13;
-PopTracker Pack created by Mysteryem here:&#13;
-https://github.com/Mysteryem/Psychonauts_AP_PopTracker/releases&#13;
-&#13;
-# Psychonauts Archipelago Setup Guide&#13;
-&#13;
-## Setting up the required mods&#13;
-1. Install Psychonauts for PC, Astralathe, and the Psychonauts Randomizer Mod from the AP Companion Branch.&#13;
-    Full Psychonauts Randomizer and Astralathe setup guide here: https://docs.google.com/document/d/1b7QOnOLmTSvdC7A1YK3bsSmhtSOsAMs0XF5j-tyE6Zw/edit?usp=sharing&#13;
-    **Make sure Astralathe is up to date, use the AP Companion Branch of PsychoRando, and make sure to open the game with AstralatheLauncher.exe at least once.**&#13;
-    &#13;
-2. Download the psychonauts.apworld and install (easiest method is by trying to open the apworld file, Archipelago will install automatically)&#13;
-&#13;
-3. Open the Archipelago Launcher and run the Psychonauts Client. If you get an error message saying the root_directory could not be found, follow steps 4-5. Otherwise, skip to step 6.&#13;
-&#13;
-4. Find the folder that contains your Psychonauts and Astralathe installation, and copy the folder directory. For example, the most common place for the Steam version is "C:\\\\Program Files (x86)\\\\Steam\\\\steamapps\\\\common\\\\Psychonauts"  &#13;
-&#13;
-5. Run ArchipelagoLauncher.exe and open host.yaml from the Archipelago Launcher, find the psychonauts_options and paste your psychonauts game directory into the root_directory setting between the quotes. **If the root directory contains single slashes between lines, change all of these to double slashes. If you don't, the client will fail to open**&#13;
-&#13;
-6. Click "Generate Template Settings". This will open file explorer&#13;
-Find "Psychonauts.yaml" and copy it to /Players/ (create this folder if it does not exist)&#13;
-&#13;
-7. Open the YAML file and change the line that says "name: Player{number}" to your desired player name.&#13;
-Adjust the settings in the YAML to your liking&#13;
-&#13;
-8. Run ArchipelagoGenerate.exe&#13;
-&#13;
-9. Take the newly created AP_XXX.zip file in /output/ in upload it here: https://archipelago.gg/uploads then create a room&#13;
-&#13;
-10. Download patch file next to your player name, then unzip the file. This contains a file called RandoSeed.lua &#13;
-&#13;
-11. Find your Psychonauts game directory and open /ModResource/PsychoRando/Scripts&#13;
-&#13;
-12. Paste RandoSeed.lua from your generated Archipelago file into this folder. Replace the file in the destination if needed.&#13;
-&#13;
-13. Run AstralatheLauncher.exe to open the game. You should see your player number and name on the menu screen, along with your current randomizer version.&#13;
-&#13;
-14. From the menu, enter the yellow door to start a new game.&#13;
-&#13;
-15. From the Archipelago Launcher, open the Psychonauts Client and connect to your server hosted on archipelago.gg&#13;
-&#13;
-16. Once you've started a new save file and connected to the server, you can start playing!</content>
-    <link href="https://github.com/Akashortstack/Psychonauts-AP-Integration/releases/tag/v1.0.0"/>
-  </entry>
-  <entry>
-    <id>https://github.com/NewSoupVi/Archipelago/releases/tag/apquest_boss_health_fix</id>
-    <title>APQuest v2.0.0</title>
-    <updated>2026-08-22T04:56:54+00:00</updated>
-    <author>
-      <name>NewSoupVi</name>
-    </author>
-    <content>APQuest currently has an issue where the boss has too much health on Normal mode to be beatable logically.&#13;
-&#13;
-The PR to fix this has been merged, but until Archipelago has another release, people can use this APWorld as a replacement.</content>
-    <link href="https://github.com/NewSoupVi/Archipelago/releases/tag/apquest_boss_health_fix"/>
-  </entry>
-  <entry>
-    <id>https://github.com/T4g1/ArchipelagoTomba/releases/tag/v0.4.6-beta</id>
-    <title>Tomba! v0.4.6b0</title>
-    <updated>2026-08-22T11:00:21+00:00</updated>
-    <author>
-      <name>T4g1</name>
-    </author>
-    <author>
-      <name>bosshunter</name>
-    </author>
-    <content>This new **beta** release fixes some soft-locks and other minor issues&#13;
-&#13;
-&gt; [!WARNING]&#13;
-&gt; This release is in testing phase. While core progression mechanics are fully functional, you may encounter minor bugs or pacing quirks. Please report any logic errors or generation issues on the issue tracker.&#13;
-&#13;
----&#13;
-&#13;
-## ✨ What's New&#13;
-&#13;
-### 🛠️ New feature&#13;
-* **Event display**: The event popup now have their own event cube display like the ones from the game (#25)&#13;
-* **Setup instructions**: The instructions for BizHawk and RetroArch have been updated&#13;
-&#13;
-### 🐛 Bug Fixes&#13;
-* Food for fuel softlock prevented by starting the event sooner&#13;
-* Location for I Need a Bomb could be softlocked: This is now prevented&#13;
-* Iron Boomerang location not registered&#13;
-* Fix Orange pig bag location in central park that triggered two other chests in Lava caves&#13;
-* Fix 1,000 Year Old Chest with two wings in Lava Caves&#13;
-* Fix underwater event while already having mighty fish food&#13;
-* Add experience to the player upon getting jewels&#13;
-* Optimized loading for popup notifications&#13;
-* Removed some debug spawn messages&#13;
-&#13;
----&#13;
-&#13;
-## 🔧 Installation&#13;
-1. Download the source code or the `.apworld` file.&#13;
-2. Drop it into your Archipelago `custom_worlds/` directory.</content>
-    <link href="https://github.com/T4g1/ArchipelagoTomba/releases/tag/v0.4.6-beta"/>
-  </entry>
-  <entry>
-    <id>https://github.com/Boi-027/BayonettaArchipelago/releases/tag/v3.2.0</id>
-    <title>Bayonetta v3.2.0</title>
-    <updated>2026-08-22T11:58:39+00:00</updated>
-    <author>
-      <name>Boi</name>
-    </author>
-    <content>## v3.2.0&#13;
-Major bug fixes for combat filters, vehicle logic, duplicate checks, and overall game stability!&#13;
-&#13;
-### Bug Fixes &amp; Adjustments&#13;
-* **Alfheim Option Added:** Added a dedicated toggle to the `bayonetta.apworld` settings allowing players to disable Alfheims as randomized location checks.&#13;
-* **Hitstun, Death &amp; Grab Lockouts Fixed:** Fixed an overly aggressive input filter that accidentally blocked system animations. Hitstun (damage knockback), magic drain, death states, and contextual grabs (like the Wicked Weave Flurry Grab) will no longer be intercepted when kicks are locked.&#13;
-* **Chapter XIII Surfboard Glitch:** Fixed a major bug during the Sapientia boss fight where players would stand on a static board with normal movement, becoming entirely invincible. The surfboard vehicle state now loads perfectly.&#13;
-* **Route 666 Check Overhaul:** Completely rewrote the Chapter 8 verse tracker. The randomizer now natively hooks into the Rank Table memory, ensuring checks are awarded the exact millisecond the verse result screen appears. This permanently fixes false Pure Platinum grants, missing checks, and quit-to-menu exploits.&#13;
-* **Route 666 Dynamic Vehicle Sync:** Vehicle restriction immunity is now properly mapped to exact verses. You will no longer be allowed to use locked weapons during the on-foot car fights in Verses 1 and 2.&#13;
-* **Angel Arms Full Arsenal Unlocks:** Expanded the item ID range filter to correctly encompass all enemy-dropped weapons (such as spears, bows, and chainsaws alongside the Ardor Blade). &#13;
-* **Magic Flute Menu Visibility:** The *Magic Flute* will now immediately appear in your in-game item menu when received through the Archipelago multiworld, without requiring you to manually craft it or pick it up first.&#13;
-* **Smoother Pause Combos:** Fixed an issue where combo attacks requiring a slight delay or pause would freeze up or fail to register. Combo chains now flow smoothly from start to finish.&#13;
-&#13;
-### Todo&#13;
-* **Co-op Enhancements:** Refine spectator scaling and sync timings for custom weapons during high-intensity co-op play.&#13;
-* **Tracker Updates:** Work on making the item tracker only show items that are currently "in logic".&#13;
-&#13;
-### Highly Recommended Additions&#13;
-For the most stable and enjoyable experience, I strongly recommend downloading and installing these alongside the AP mod, it does not take much work to install and it will help with crashes and bugs the AP mod might have! &#13;
-* **[Bayonetta 4GB Patch](https://github.com/oceaniccamred/Bayonetta-4GB-Patched-EXE)** (Highly recommended to prevent memory crashes)&#13;
-* **[Bayonetta Essentials](https://gamebanana.com/mods/533310)**&#13;
-&#13;
-### Downloads&#13;
-- **`dinput8.dll`** — place in your Bayonetta game folder (next to `Bayonetta.exe`).&#13;
-- **`z.dll`** — place in your Bayonetta game folder too.&#13;
-- **`bayonetta.apworld`** — place in your Archipelago `custom_worlds` folder (replace the old one).&#13;
-&#13;
-**Existing seeds keep their original logic** — updates apply to freshly generated seeds. Old seeds play fine with the new DLL, but new world rules require a regeneration.</content>
-    <link href="https://github.com/Boi-027/BayonettaArchipelago/releases/tag/v3.2.0"/>
-  </entry>
-  <entry>
-    <id>https://github.com/Az-LastPenguin/LORAP/releases/tag/v1.0.0-eta.1</id>
-    <title>Library of Ruina v1.0.0r3</title>
-    <updated>2026-08-22T12:15:54+00:00</updated>
-    <author>
-      <name>LastPenguin</name>
-    </author>
-    <content>As always, check known bugs and report bugs in #70 &#13;
-&#13;
-**Unsubscribe from workshop mod!**&#13;
-&#13;
-**New run NOT required**&#13;
-&#13;
-**Uses -eta .apworld**&#13;
-&#13;
-**You can find full changelog [here](https://github.com/Az-LastPenguin/LORAP/blob/dev/Changelogs/1.0.0%20in-dev.md)**&#13;
-&#13;
-## Changelog:&#13;
-- FIXED: Abno/EGO page receive panel not opening and breaking item receive&#13;
-- FIXED: Debug panel showing wrong book of everything opened count</content>
-    <link href="https://github.com/Az-LastPenguin/LORAP/releases/tag/v1.0.0-eta.1"/>
-  </entry>
-  <entry>
-    <id>https://github.com/thejoshwolfe/Archipelago/releases/tag/space-age-v2.3.1</id>
-    <title>Factorio: Space Age v2.3.1</title>
-    <updated>2026-08-22T13:04:05+00:00</updated>
-    <author>
-      <name>Berserker</name>
-    </author>
-    <author>
-      <name>Josh Wolfe</name>
-    </author>
-    <content># Factorio: Space Age apworld 2.3.1&#13;
-&#13;
-* Guard against version mismatches between generation and runtime client.&#13;
-&#13;
-download: https://github.com/thejoshwolfe/Archipelago/releases .&#13;
-general docs: https://github.com/thejoshwolfe/Archipelago/blob/space-age/worlds/factorio_space_age/docs/en_Factorio_Space_Age.md .&#13;
-setup guide: https://github.com/thejoshwolfe/Archipelago/blob/space-age/worlds/factorio_space_age/docs/setup_en.md .&#13;
-source code: https://github.com/thejoshwolfe/Archipelago/tree/space-age/worlds/factorio_space_age .</content>
-    <link href="https://github.com/thejoshwolfe/Archipelago/releases/tag/space-age-v2.3.1"/>
-  </entry>
   <entry>
     <id>https://github.com/SilicDev/Archipelago/releases/tag/yohane_bitdb-v0.2.2</id>
     <title>YOHANE THE PARHELION -BLAZE in the DEEPBLUE- v0.2.2</title>
@@ -1297,5 +1060,229 @@ Old **1.0.0** rooms keep working. Hosts generating new seeds should use this apw
     </author>
     <content>Fixed beastmen progressive buildings</content>
     <link href="https://github.com/jordansds/Archipelago_TWW3_Alt/releases/tag/v0.10.18"/>
+  </entry>
+  <entry>
+    <id>https://github.com/MnL-Modding/Piillomizer/releases/tag/v0.1.3</id>
+    <title>Mario and Luigi Dream Team v0.1.3</title>
+    <updated>2026-08-25T18:09:49+00:00</updated>
+    <author>
+      <name>Dimitri Bee</name>
+    </author>
+    <content>Hello, everyone! In probably the shortest turnaround I've ever had for an update, v0.1.3 is out!&#13;
+In this update, I:&#13;
+- Added 2 new starting locations&#13;
+- Separated Luiginary Works into 9 new abilities, each based on individual Luiginary works&#13;
+- Merged my client with @Nepply's official hardware client&#13;
+- Fixed a bug where multiple AP Attack Pieces in the same shop would cause it to bug out&#13;
+- Made the EXP multiplier even stronger&#13;
+Hope you enjoy, and have a great day!</content>
+    <link href="https://github.com/MnL-Modding/Piillomizer/releases/tag/v0.1.3"/>
+  </entry>
+  <entry>
+    <id>https://github.com/Trexounay/EnderLilies.Archipelago/releases/tag/endermagnolia-v0.1.6</id>
+    <title>Ender Magnolia v0.1.6</title>
+    <updated>2026-08-25T19:32:03+00:00</updated>
+    <author>
+      <name>Trex</name>
+    </author>
+    <content>**Archipelago** world for **Ender Magnolia**&#13;
+&#13;
+## Update&#13;
+- Logic update&#13;
+- Option to randomize entrances&#13;
+- Option to randomize enemies&#13;
+&#13;
+## Requirements&#13;
+- [Archipelago](https://github.com/ArchipelagoMW/Archipelago/releases)&#13;
+- [Ender Magnolia Randomizer](https://github.com/Trexounay/EnderMagnolia.Randomizer/releases/tag/endermagnolia-v0.1.6)&#13;
+&#13;
+## Current Features&#13;
+- 340 checks&#13;
+- 2 Goals: **Ending A** **Ending B**&#13;
+- Starting Skill option (except non breaking walls weapon)&#13;
+- Shuffle relic costs&#13;
+- Progressive Aptitudes&#13;
+- Start with heal/fast travel&#13;
+- min/max chapters&#13;
+- Central Elevator Fix option&#13;
+- Starting respite&#13;
+&#13;
+## Notes&#13;
+This is an early release and has not been extensively tested. Expect bugs and missing features, and please report any issues or feedback.</content>
+    <link href="https://github.com/Trexounay/EnderLilies.Archipelago/releases/tag/endermagnolia-v0.1.6"/>
+  </entry>
+  <entry>
+    <id>https://github.com/FyreDay/Archipelago-MinaTheHollower/releases/tag/pre-v1.0.1</id>
+    <title>Mina The Hollower v1.0.0r2</title>
+    <updated>2026-08-25T19:34:43+00:00</updated>
+    <author>
+      <name>FyreDay, Axertin, ZXavier</name>
+    </author>
+    <content>Features:&#13;
+- Add requirement for at least attack 3 and defense 3 for all boss fights&#13;
+- Add Ossex bike sewer map&#13;
+&#13;
+Fixes:&#13;
+&#13;
+- Fix MM image&#13;
+- Fix Armond Fight logic&#13;
+- Fix SB and NB connection,&#13;
+- Update Pinky map, move Pinky locations&#13;
+- Fix Ossex West Wall logic</content>
+    <link href="https://github.com/FyreDay/Archipelago-MinaTheHollower/releases/tag/pre-v1.0.1"/>
+  </entry>
+  <entry>
+    <id>https://github.com/thejoshwolfe/Archipelago/releases/tag/space-age-v3.0.3</id>
+    <title>Factorio: Space Age v3.0.3</title>
+    <updated>2026-08-25T19:44:35+00:00</updated>
+    <author>
+      <name>Berserker</name>
+    </author>
+    <author>
+      <name>Josh Wolfe</name>
+    </author>
+    <content># Factorio: Space Age apworld 3.0.3&#13;
+&#13;
+* Fix apworld being completely broken.&#13;
+&#13;
+download: https://github.com/thejoshwolfe/Archipelago/releases .&#13;
+general docs: https://github.com/thejoshwolfe/Archipelago/blob/space-age/worlds/factorio_space_age/docs/en_Factorio_Space_Age.md .&#13;
+setup guide: https://github.com/thejoshwolfe/Archipelago/blob/space-age/worlds/factorio_space_age/docs/setup_en.md .&#13;
+source code: https://github.com/thejoshwolfe/Archipelago/tree/space-age/worlds/factorio_space_age .</content>
+    <link href="https://github.com/thejoshwolfe/Archipelago/releases/tag/space-age-v3.0.3"/>
+  </entry>
+  <entry>
+    <id>https://github.com/fogmike/Archipelago_ManicMiners/releases/tag/v1.5.1</id>
+    <title>Manic Miners v1.5.1</title>
+    <updated>2026-08-25T20:05:05+00:00</updated>
+    <author>
+      <name>fogmike</name>
+    </author>
+    <content>Quick fix to address a specific bug interaction with Chief's Favourite Truck and LRRR - Rubble Trouble</content>
+    <link href="https://github.com/fogmike/Archipelago_ManicMiners/releases/tag/v1.5.1"/>
+  </entry>
+  <entry>
+    <id>https://github.com/JammyGeeza/CursedWords-Archipelago/releases/tag/v0.5.0</id>
+    <title>Cursed Words v0.5.0</title>
+    <updated>2026-08-25T21:58:30+00:00</updated>
+    <author>
+      <name>JammyGeeza</name>
+    </author>
+    <content>## Information&#13;
+This archipelago implementation is in **early development** and is in public pre-release for testing, so may not be complete and/or may contain bugs that heavily disrupt the experience. It is not advised to include this in large multiworlds at this time, so only do so at your own risk and inform your host beforehand.&#13;
+&#13;
+## Setup Guide&#13;
+Please visit the [Setup Guide](https://github.com/JammyGeeza/CursedWords-Archipelago#setup-guide) for instructions on how to install the mod client.&#13;
+&#13;
+## Issue / Bug Reporting&#13;
+If you experience issues that are not already on the [known issues list](https://github.com/JammyGeeza/CursedWords-Archipelago/issues/views/12865), please raise a new issue or post in the [Cursed Words Forum in the Archipelago Discord Server](https://discord.com/channels/731205301247803413/1499176806962692196)&#13;
+&#13;
+## Release Notes&#13;
+This release provides the following updates:&#13;
+### APWorld&#13;
+### Updates&#13;
+- Re-worked Sticker / Stamp requirements for Character Stage access rules&#13;
+  - Characters require a 5-Sticker and 5-Stamp Synergy with are treated as `progression` and are guaranteed in the item pool&#13;
+  - Players can customise the synergies with YAML options which overrides the preset synergies&#13;
+  - Access rules require XX% of both Stickers and Stamps Synergies for stage progression&#13;
+  - `guaranteed_stickers` and `guaranteed_stamps` removed as a consequence of this new functionality&#13;
+- Added locations for `Clear Boss / Encounter with X Grids Unused`&#13;
+- Added `Pinsanity` locations and YAML option&#13;
+- Added two Trap items `Force Grid Re-roll` and `Lose Money` with Trap Percentage and Weighting YAML options&#13;
+- Added Filler Weighting YAML options&#13;
+- Added YAML option to set maximum `Money Earned` locations&#13;
+- Added YAML option to set maximum `Word Length` locations&#13;
+- Added YAML option to set maximum `Word Score` locations&#13;
+- General location name re-wordings for better grouping and clarity&#13;
+- General YAML option description re-wordings for better clarity&#13;
+- Reduced starting 'common' Stickers / Stamps from 12 to 10&#13;
+### Fixes&#13;
+- Fixed options template generation issue&#13;
+- Updated `Shopsanity` access rule logic to no longer be gated by Stage 2&#13;
+### Client&#13;
+### Updates&#13;
+- Updated Location / Item mappings to support additions and changes in the APWorld&#13;
+- Save Slots in the menu now display the last known Slot Name and Locations Completed count&#13;
+### Fixes&#13;
+- Fixes an issue causing `Buy a Consumable Tile` location not checking&#13;
+- Fixes an issue causing some `Tilesanity` checks to be unreachable&#13;
+- Fixes an issue causing restocking the shop to be very slow when `Shopsanity` is enabled</content>
+    <link href="https://github.com/JammyGeeza/CursedWords-Archipelago/releases/tag/v0.5.0"/>
+  </entry>
+  <entry>
+    <id>https://github.com/vyneras/Archipelago/releases/tag/1.1.1</id>
+    <title>Pokemon FireRed and LeafGreen v1.1.1</title>
+    <updated>2026-08-25T21:59:01+00:00</updated>
+    <author>
+      <name>Vyneras</name>
+    </author>
+    <content>ROM CHECKSUM: `00939B09`&#13;
+&#13;
+[Setup Guide](https://github.com/vyneras/Archipelago/blob/1.1.1/worlds/pokemon_frlg/docs/setup_en.md)&#13;
+[Rom Changes](https://github.com/vyneras/Archipelago/blob/1.1.1/worlds/pokemon_frlg/docs/rom%20changes.md)&#13;
+&#13;
+**Bug Fixes**&#13;
+- Fixed an issue where the Itemfinder was not required for hidden items regardless of the `itemfinder_required` setting&#13;
+- Fixed an issue where UT would consider hidden items and dark caves as in logic when they weren't</content>
+    <link href="https://github.com/vyneras/Archipelago/releases/tag/1.1.1"/>
+  </entry>
+  <entry>
+    <id>https://github.com/brodieberger/MMZero3Archipelago/releases/tag/v0.3.3</id>
+    <title>Mega Man Zero 3 v0.3.3</title>
+    <updated>2026-08-26T00:36:09+00:00</updated>
+    <author>
+      <name>brodieberger</name>
+    </author>
+    <content>Weapons are now progressive upgrades, minibosses are location checks, and graphical polish for everything implemented has been done. This is probably the last feature update for a while. The next big addition will be enemy randomization.&#13;
+&#13;
+[Check out the full readme before playing.](https://github.com/brodieberger/MMZero3Archipelago)&#13;
+&#13;
+# Features&#13;
+&#13;
+- Minibosses are now location checks. This was just needed to have more location checks for the new progressive weapon items.&#13;
+&#13;
+## Weapon Progression&#13;
+The four weapons are now progressive items, similar to the weapon XP system in Zero 1 and 2. The pool holds several copies of "Progressive Buster", "Progressive Z-Saber" and so on, and each copy you receive moves that weapon one step up its path.&#13;
+&#13;
+  | Weapon | Progressive Upgrades |&#13;
+  | --- | --- |&#13;
+  | Buster | weapon, semi charge, full charge, damage (+1, +2, +3) |&#13;
+  | Z-Saber | weapon, 2nd slash, 3rd slash, charged slash, damage (+1, +2, +3) |&#13;
+  | Recoil Rod | weapon, charged rod, damage (+1, +2, +3) |&#13;
+  | Shield Boomerang | weapon, charged throw, damage (+1, +2, +3) |&#13;
+&#13;
+The first copy gives you the weapon itself, the ones after it unlock that weapon's abilities, and the last three are attack power boosts (ripped from the E-Reader cards).&#13;
+&#13;
+The upgrade progress is shown in game as stars in the pause menu like in Zero 1 and 2.&#13;
+&#13;
+Randomize_weapons has been removed as an option. You can still give yourself each weapon to start with using the `starting_weapons` option.&#13;
+&#13;
+`starting_weapons: ['Buster', 'Z-Saber'. 'Recoil Rod', 'Shield Boomerang]` &#13;
+&#13;
+## Graphical Changes&#13;
+&#13;
+- Items from Archipelago now show their own icon in the popup over Zero's head. The table is seen below. The boss art had to be downscaled and hand adjusted. If you are a pixel artist and want to do a better job, please feel free to do so.&#13;
+&lt;div align="center"&gt;&#13;
+  &lt;img width="300" alt="ap_icons" src="https://github.com/user-attachments/assets/46fd2c1f-fee9-45d5-bec3-9fe58afba17e" /&gt;&#13;
+&lt;/div&gt;&#13;
+&lt;br&gt;&#13;
+&#13;
+- The mission select screen was also graphically updated and given much more polish. &#13;
+  - The stage select art being lifted from the dialogue portraits for Omega, Crea, Prea, and Weil. &#13;
+  - Locked stages now show up with the TV static animation from the vanilla game.&#13;
+&#13;
+# Bug Fixes&#13;
+&#13;
+- The animation around unchecked 1-UPs was corrected to not use the same palette slot as Zero's dash afterimage.&#13;
+- Secret Disk 066 now requires mobility in logic. Fun fact: its the only collectable where having the frog chip actually matters.&#13;
+- EX Skill: Split Heavens is now marked as progression, since it's one of the ways to deal fire damage that isn't a charged attack.&#13;
+&#13;
+# Known bugs&#13;
+- There have been repeated issues of trackers reporting currently unobtainable items as obtainable. Most errors should be fixed now.&#13;
+- The item popup only shows one at a time, skipping multiple if they arrive at the same time.&#13;
+- The pop up icons shares tile space with whatever the room is loaded. If you ever see a garbled icon or one with messed up colors, try to let me which level and room you were in.&#13;
+&#13;
+I hope to soon bring this world from unstable to stable, so report anything that seems off, not just bugs!</content>
+    <link href="https://github.com/brodieberger/MMZero3Archipelago/releases/tag/v0.3.3"/>
   </entry>
 </feed>
