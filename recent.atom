@@ -2,152 +2,11 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://raw.githubusercontent.com/silasary/apworlds/refs/heads/main/recent.atom</id>
   <title>Recent APWorlds</title>
-  <updated>2026-08-27T05:32:53.798744+00:00</updated>
+  <updated>2026-08-27T17:07:10.697996+00:00</updated>
   <author>
     <name>Silasary</name>
   </author>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
-  <entry>
-    <id>https://github.com/Crazycolbster/rollercoaster-tycoon-randomizer/releases/tag/v0.1.22.1-beta</id>
-    <title>OpenRCT2 v0.1.22.1.post2</title>
-    <updated>2026-08-23T20:06:49+00:00</updated>
-    <author>
-      <name>Crazycolbster</name>
-    </author>
-    <author>
-      <name>Die4Ever</name>
-    </author>
-    <content>So, turns out, the game is simply incapable of connecting directly to servers via plugin. That hypothetically could be fixed with an update that enables https: / wss connections for plugins, but the question of when, or even if, that happens is unanswered. Anyways, this update fixes a critical bug that found its way into the code.&#13;
-&#13;
-The beta setup guide can be found [here](https://docs.google.com/document/d/1V8LpYx22jcInNGSt6AXOIyuFwzx3Xn0oSMumrnsbqfE/edit?tab=t.0)! If you'd like to read the draft for the official setup guide once merged, check [here](https://github.com/Crazycolbster/Archipelago/blob/General_Killmore/worlds/openrct2/docs/setup_en.md)!&#13;
-&#13;
-**This update will break old saves! Only use it on new generations and saves!**&#13;
-&#13;
-- Required Unique Rides now actually get added to the objectives list. How this slipped by testing is beyond me, but I guess we'll have to have more beta tests next time.&#13;
-- Massive unlock shops no longer cause an "Invalid JSON" error to appear.&#13;
-- Game with too few skips no longer crashes the server. Honestly the fact I could impresses me.&#13;
-- No new song this time. Songs are for celebrations, this update is just embarrassing. </content>
-    <link href="https://github.com/Crazycolbster/rollercoaster-tycoon-randomizer/releases/tag/v0.1.22.1-beta"/>
-  </entry>
-  <entry>
-    <id>https://github.com/Miro-n1/archipelago_manuals/releases/tag/PLA_1.06</id>
-    <title>Manual_PLA_Miro v1.6</title>
-    <updated>2026-08-23T20:36:51+00:00</updated>
-    <author>
-      <name>Miro-n1</name>
-    </author>
-    <content>I apologize for my messy versioning. With the return to 1.XX the apworld manager shouldn't be confused anymore and automatically update to the most current version.&#13;
-&#13;
-Changes since version 1.05:&#13;
-&#13;
-**1.06** (latest): &#13;
-- Update to stable release 20260319. &#13;
-- **Added yaml options to disable Tree and Evolution locations.** &#13;
-- Fixed Shiny locations `display_name`. &#13;
-- Logic fixes: Honchkrow, Rapidash, Rotom and Staraptor.&#13;
-- Reduced requirements of the goal location. `Repair Odd Keystone` no longer requires `Crimson Mirelands`, only the wisps set in `wisps_required`. The victory location no longer requires the items to catch Spiritomb.&#13;
-&#13;
-1.2.0: &#13;
-- Update to stable release 20250813. &#13;
-- Logic fixes: Sealeo, Walrein, Drapion and Togetic.&#13;
-&#13;
-1.1.1: &#13;
-- Added Coronet Highlands as category for Haunter.&#13;
-&#13;
-1.1.0: &#13;
-- Updated to unstable release 20240528. &#13;
-- Updated to use hooks for yaml options. &#13;
-- Changed goal options: `wisps_total` and `wisps_required` to 1-108 range.&#13;
-- Condensed fishing options to `fish_locations`, fixed too few locations bug. &#13;
-- `shiny_locations` updated to 0-10 range. &#13;
-- Deathlink added.</content>
-    <link href="https://github.com/Miro-n1/archipelago_manuals/releases/tag/PLA_1.06"/>
-  </entry>
-  <entry>
-    <id>https://github.com/DayKat/spirit-tracks/releases/tag/st-v0.8.3</id>
-    <title>The Legend of Zelda - Spirit Tracks v0.8.3</title>
-    <updated>2026-08-24T08:33:23+00:00</updated>
-    <author>
-      <name>DayKat</name>
-    </author>
-    <author>
-      <name>1313e</name>
-    </author>
-    <author>
-      <name>Carrotinator</name>
-    </author>
-    <author>
-      <name>TriforceDrummer</name>
-    </author>
-    <author>
-      <name>Nepecute</name>
-    </author>
-    <author>
-      <name>Catzador</name>
-    </author>
-    <content>Compatible with seeds generated in v8.x&#13;
-[Setup Guide](https://github.com/DayKat/spirit-tracks/blob/main/worlds/tloz_st/docs/setup.md)&#13;
-&#13;
-- Fixed client crash on sending too many progressive items&#13;
-- Fixed progressive sword 2 not working&#13;
-- Removed arena door cs skips from certain arenas that can softlock you in the door if entering next to a wall&#13;
-- Arena doors open instantly, allowing you to exit arenas quicker</content>
-    <link href="https://github.com/DayKat/spirit-tracks/releases/tag/st-v0.8.3"/>
-  </entry>
-  <entry>
-    <id>https://github.com/Kryen112/Viscera-Cleanup-Detail-AP/releases/tag/1.1.0</id>
-    <title>Viscera Cleanup Detail v1.1.0</title>
-    <updated>2026-08-24T11:32:35+00:00</updated>
-    <author>
-      <name>Kryen112</name>
-    </author>
-    <content># Viscera Cleanup Detail 1.1.0&#13;
-&#13;
-- **Revolutionary Robotics laser welder** for 100% cleaned. Without it, now max 80% is in logic.&#13;
-- **Uprinsing vendor and welder** for 100% cleaned, 80% otherwise.&#13;
-- **The punch-out report can fill itself** (new yaml option auto_fill_punchout_report). Use the punch-out machine once to fill it in, and each PID entered into it will also auto-fill itself.&#13;
-&#13;
-**Upgrading**&#13;
-- Existing yamls keep working untouched.</content>
-    <link href="https://github.com/Kryen112/Viscera-Cleanup-Detail-AP/releases/tag/1.1.0"/>
-  </entry>
-  <entry>
-    <id>https://github.com/Ixrec/NineSolsArchipelagoRandomizer/releases/tag/0.6.3</id>
-    <title>Nine Sols v0.6.3</title>
-    <updated>2026-08-24T13:47:36+00:00</updated>
-    <author>
-      <name>Ixrec</name>
-    </author>
-    <content>For installation instructions [see the README](https://github.com/Ixrec/NineSolsArchipelagoRandomizer?tab=readme-ov-file#installation).&#13;
-&#13;
-- Fixed UT map page auto-tabbing to/from the world_map when the Teleport menu is opened or closed. Hopefully for real this time.&#13;
-- Fixed the pause menu seal count displays so they should be legible at any window size.&#13;
-- Jade Cost Plando is now an OptionCounter, so it can be edited in the Options Creator&#13;
-- Fixed a shop rando corner case where the forced DS/HC purchase logic would ask you to buy a !collected item, which was also disabled.&#13;
-- AP hint generation is now done in batches. For example, if you open Kuafu's shop and there are 5 useful/prog items, the mod will (usually) send only 1 message to the AP server with all 5 locations to hint, instead of 5 separate messages.&#13;
-- The source of truth for Nine Sols' logic has been moved from .jsonc to .py files in order to improve the process around contributing logic changes. This should be an invisible internal change, but it's worth mentioning in case there are bugs, or you liked inspecting these files.&#13;
------&#13;
-- `vanilla` logic:&#13;
-	- "OW - Activate Crates And Return" is now reachable with Cloud Leap replacing Nymph, because the crushers you're expected to disable with nymph can instead be bypassed by using Cloud Leap and Air Dash to spend several seconds over the red floor&#13;
-- `medium` logic:&#13;
-	- "AM - Above Root Node" to "Bottom Right" now allows Wall Climb and T-dash&#13;
-	- "AF (Depths) - Lower Level" to "Under Lower Left Exit" was incorrectly in logic with only Swift Runner; now it requires Grapple and Swift Runner&#13;
-	- "AF (Elevator) - Moving Boxes Below Root Node" to "Statue Chest" now allows Swift Runner and T-dash&#13;
-	- "CTH - Yanren Arena" is now reachable with neither Nymph nor Cloud Leap, by using (Wall Climb + Air Dash + Tai-Chi Kick + (Swift Runner OR Charged Strike)) to platform all the way through the tunnel and grab the side of the stationary crate&#13;
-	- "OW - Activate Crates And Return" is now reachable with bow hover for the same reason as the `vanilla` change&#13;
-	- "OW - Outside Enemy Gauntlet Room" is now reachable by using bow hover to avoid the crusher then get back onto the same crate it just crushed&#13;
-	- "OW: Crusher Gauntlet" is now reachable using Wall Climb, Ledge Grab, and either Charged Strike or (bow hover and Swift Runner)&#13;
-- `ledge_storage` logic:&#13;
-	- "ED (Passages) - Statue In Left Chasm" is now reachable with parry hover from left pink pool, which requires CL and AD since the only available ledge uses CL setup and it's on the other side of the pink waterfall you need AD to pass through&#13;
-	- "GoS (West): Above Elevator" was incorrectly in logic with only Ledge Grab. Now it's Ledge Grab and Air Dash.&#13;
-	- "GoS (West) - Lower Right Exits" to "Lower Platform Rotation Button" with CL + LG triple jump is now in logic&#13;
-	- "GoS (West) - Lower Right Exits" to "Cixing Arena Left Overlook" now requires only LG instead of CL+LG, because you can do T-dash setup on the right side of the elevator chasm&#13;
-	- "OW - Activate Crates And Return" is now reachable with parry hover for the same reason as the `vanilla` change&#13;
-	- "OW - Lower Right Exit" to "Root Node &amp; Middle Exits" is now reachable without Wall Climb. You could already use Cloud Leap and Ledge Grab to *activate* the lower crates, but we realized CL and LG also lets you jump from the activated crates to the root node without Wall Climb.&#13;
-	- "OW - Outside Enemy Gauntlet Room" is now reachable by using parry hover to avoid the crusher then get back onto the same crate it just crushed&#13;
-</content>
-    <link href="https://github.com/Ixrec/NineSolsArchipelagoRandomizer/releases/tag/0.6.3"/>
-  </entry>
   <entry>
     <id>https://github.com/thejoshwolfe/Archipelago/releases/tag/space-age-v3.0.0</id>
     <title>Factorio: Space Age v3.0.0</title>
@@ -1211,7 +1070,7 @@ Fixes:&#13;
   </entry>
   <entry>
     <id>https://github.com/chpas0/Pikmin2Archipelago/releases/tag/v0.8.0</id>
-    <title>Pikmin 2 v0.8.0</title>
+    <title>Pikmin 2 v0.8.0.post2</title>
     <updated>2026-08-27T02:57:06+00:00</updated>
     <author>
       <name>chpas</name>
@@ -1219,6 +1078,7 @@ Fixes:&#13;
     <content>**NOTE: This mod is still in the testing phase. Play at your own risk.**&#13;
 **NOTE 2: Games generated on earlier versions will NOT work on this version.**&#13;
 **NOTE 3: Setup for this version is much different (and hopefully much simpler) than previous versions - please reread the setup guide before playing!**&#13;
+**NOTE 4: This release has been patched as of 8/27/26 at 1:49 PM UTC - please redownload if downloaded before then.**&#13;
 &#13;
 ## Changelog&#13;
 - Fix a bug that could cause generation to fail if multiple Pikmin 2 players were in a game (thank you KingDragonite for finding and fixing this)&#13;
@@ -1242,6 +1102,8 @@ Fixes:&#13;
 - Remove the /force-relink command as it is deprecated&#13;
 - Add the total debt to the /status command output&#13;
 &#13;
+Thanks to Sol for their help with tips on getting Memory Override to work, it made most of these features possible!&#13;
+&#13;
 ## Known Bugs&#13;
 - Queen Candypop Buds sometimes show up as white instead of red, even if you have Red Pikmin unlocked. This means that you can't use them to generate Red Pikmin, but you can use them to generate White Pikmin.&#13;
 - Whatever cave is in Submerged Castle's location will always have the vanilla Submerged Castle music.&#13;
@@ -1249,5 +1111,144 @@ Fixes:&#13;
 - Sometimes the Pikmin can't break gates in caves. Usually resetting the cave fixes this.&#13;
 - Sometimes collecting Louie does not trigger the goal</content>
     <link href="https://github.com/chpas0/Pikmin2Archipelago/releases/tag/v0.8.0"/>
+  </entry>
+  <entry>
+    <id>https://github.com/lagdotcom/Archipelago/releases/tag/phst2-0.1.3</id>
+    <title>Phantasy Star II v0.1.3</title>
+    <updated>2026-08-27T08:27:22+00:00</updated>
+    <author>
+      <name>lagdotcom</name>
+    </author>
+    <content>Bugfix for Jet Scooter and Spaceship not being rewarded in multiworld.</content>
+    <link href="https://github.com/lagdotcom/Archipelago/releases/tag/phst2-0.1.3"/>
+  </entry>
+  <entry>
+    <id>https://github.com/chickentuna/Archipelago-Zoominoes/releases/tag/v0.1.0</id>
+    <title>Zoominoes v0.1.0.post5</title>
+    <updated>2026-08-27T13:41:57+00:00</updated>
+    <author>
+      <name>chickentuna</name>
+    </author>
+    <content>Community testing build. Feedback and bug reports welcome.
+
+## Install
+
+**1. BepInEx** — download **BepInEx 6 bleeding-edge, `Unity.Mono`, `win-x64`** from
+&lt;https://builds.bepinex.dev/projects/bepinex_be&gt; and unzip it into the game folder,
+next to `Zoominoes.exe`. Zoominoes is a Unity 6 Mono game; BepInEx 5 will not work.
+Run the game once so BepInEx creates its folders, then close it.
+
+e.g. for Windows:
+&lt;https://builds.bepinex.dev/projects/bepinex_be/785/BepInEx-Unity.Mono-win-x64-6.0.0-be.785%2B6abdba4.zip&gt;
+
+**2. The mod** — unzip `ZoominoesArchipelago.zip` into the same game folder. It drops
+into `BepInEx/plugins/`.
+
+**3. The world** — put `zoominoes.apworld` in your Archipelago install's
+`custom_worlds/` folder.
+
+On Linux the game runs under Proton with the same files. Add
+`WINEDLLOVERRIDES="winhttp=n,b" %command%` to the Steam launch options, or the
+loader will not inject.
+
+## Playing
+
+Press **F1** for the connection panel, enter your server address, port, slot name
+and password, and connect. The panel opens by itself until you do. Details are
+remembered for next launch.
+
+Runs are played on a dedicated **AP** profile. Your existing saves are not read or
+written while the mod is installed.
+
+## What is randomised
+
+Animals, snacks, souvenirs, zookeepers and difficulty tiers arrive as Archipelago
+items, along with extra starting gold, extra plays and hand size.
+
+`randomize_starter_zookeeper` and `randomize_starter_unlocks` extend that to what you
+open with: a random zookeeper in place of Marina, and a random 6 animals, 4 snacks and
+4 souvenirs in place of Starfish, Fennec and the rest. Whatever the draw passes over
+becomes an item like anything else.
+
+Checks come from Gift Shop slots and from finishing a day. **Every difficulty tier
+has its own set of both** — "Tier 3 - Shop 2 - Slot 1" is a different location from
+"Tier 5 - Shop 2 - Slot 1", so each tier you unlock opens 43 fresh checks: 24 across
+its eight shops and 19 across its playable days. On top of that, winning with each
+zookeeper and clearing each tier are checks in their own right.
+
+Three goals: clear a target difficulty tier, clear it with several different
+zookeepers, or collect Zoo Tickets scattered across the multiworld.
+
+Only normal runs take part — daily challenges, seeded runs and challenge runs are
+left alone.
+
+Items apply from your **next** run, since the game fixes its content pool when a run
+begins.
+
+## Options
+
+`Zoominoes-template.yaml` has every option, its documentation and its weights. Put it
+in your Archipelago `Players` folder and change the name at the top.
+
+Content the seed has no room for is unlocked from the start rather than left
+unobtainable.
+
+
+</content>
+    <link href="https://github.com/chickentuna/Archipelago-Zoominoes/releases/tag/v0.1.0"/>
+  </entry>
+  <entry>
+    <id>https://github.com/jamesbrq/ArchipelagoTTYD/releases/tag/v0.13.0a</id>
+    <title>Paper Mario The Thousand Year Door v0.13.0a0</title>
+    <updated>2026-08-27T14:20:53+00:00</updated>
+    <author>
+      <name>jamesbrq</name>
+    </author>
+    <content># Fixes&#13;
+- Fix for controls while riding yoshi being reversed in mirror mode.&#13;
+- Fix for multiplayer not working at all even with it enabled.&#13;
+- Fix for rock in twilight trail being immovable in mirror mode.&#13;
+- Fix for crash in twilight trail when entering the background in the 3rd room multiple times.</content>
+    <link href="https://github.com/jamesbrq/ArchipelagoTTYD/releases/tag/v0.13.0a"/>
+  </entry>
+  <entry>
+    <id>https://github.com/Miiroun/Archipelago-NewSuperMarioBrosWii/releases/tag/v0.3.0</id>
+    <title>NSMBW v0.3.0</title>
+    <updated>2026-08-27T16:05:54+00:00</updated>
+    <author>
+      <name>Miiroun</name>
+    </author>
+    <content># Warning Experimental update&#13;
+Game may crash. If it does, please report it immediately.&#13;
+&#13;
+&#13;
+# Features&#13;
+- Level shuffle&#13;
+- Music shuffle&#13;
+- Many options and settings&#13;
+  - /debug is most important, this dumps all relevant debug info&#13;
+- Added proper logic to inventory powerups&#13;
+- Added support for local co-op&#13;
+- Removed need for loading / saving save states : requires riivolution enabled&#13;
+- Many minor quality of life improvements.&#13;
+&#13;
+&#13;
+# Bugfixes&#13;
+- Deathlink groups no longer causes load issues&#13;
+- Deathlink amnesty exist&#13;
+- Removed problematic hint movies&#13;
+- Minor logic fixes&#13;
+&#13;
+&#13;
+# Breaking changes&#13;
+You can now select to use (optionally) use a riivolution patch. This is required if you want level shuffle and music shuffle enabled. It also provides simple qol patches and graphic changes.&#13;
+Recommended to delete settings in host.yaml.&#13;
+Also recommended to regenerate your option yaml since many options have changed names.&#13;
+&#13;
+&#13;
+# Links&#13;
+[Download](https://github.com/Miiroun/Archipelago-NewSuperMarioBrosWii/releases/tag/v0.3.0)&#13;
+[Setup Guide](https://github.com/Miiroun/Archipelago-NewSuperMarioBrosWii/blob/NSMBW/worlds/nsmbw/docs/setup_en.md)</content>
+    <link href="https://github.com/Miiroun/Archipelago-NewSuperMarioBrosWii/releases/tag/v0.3.0"/>
   </entry>
 </feed>
