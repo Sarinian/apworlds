@@ -2,259 +2,11 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://raw.githubusercontent.com/silasary/apworlds/refs/heads/main/recent.atom</id>
   <title>Recent APWorlds</title>
-  <updated>2026-08-26T19:42:13.593473+00:00</updated>
+  <updated>2026-08-27T05:32:53.798744+00:00</updated>
   <author>
     <name>Silasary</name>
   </author>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
-  <entry>
-    <id>https://github.com/1313e/Civ-V-AP-World/releases/tag/v0.10.9</id>
-    <title>Civilization V v0.10.9</title>
-    <updated>2026-08-22T22:22:19+00:00</updated>
-    <author>
-      <name>1313e</name>
-    </author>
-    <content>**Fixes**:&#13;
-- Make Dromon a naval melee combat class.&#13;
-&#13;
-**Full Changelog**: https://github.com/1313e/Civ-V-AP-World/compare/v0.10.8...v0.10.9</content>
-    <link href="https://github.com/1313e/Civ-V-AP-World/releases/tag/v0.10.9"/>
-  </entry>
-  <entry>
-    <id>https://github.com/narramoment/Archipelago/releases/tag/0.2.2</id>
-    <title>Jak II v0.2.2</title>
-    <updated>2026-08-23T00:18:29+00:00</updated>
-    <author>
-      <name>narramoment</name>
-    </author>
-    <content>- Fixes to Linux implementation to (hopefully) allow full linux/mac support&#13;
-- Dual Check and Oracle implementation!&#13;
-- Archipelago Options Menu Re-order + moved "Warp to" option and gave more choices based on current items&#13;
-&#13;
-**Full Changelog**: https://github.com/narramoment/Archipelago/compare/0.2.1...0.2.2</content>
-    <link href="https://github.com/narramoment/Archipelago/releases/tag/0.2.2"/>
-  </entry>
-  <entry>
-    <id>https://github.com/kenniky/ArchipelagoSSE/releases/tag/v0.2.7-real</id>
-    <title>Super Smash Bros. Brawl - The Subspace Emissary v0.2.7.post0</title>
-    <updated>2026-08-23T00:53:51+00:00</updated>
-    <author>
-      <name>kenniky</name>
-    </author>
-    <content>Implements a flow to constantly update adventure data address&#13;
-&#13;
-Backwards compatible to v0.2.0&#13;
-&#13;
-Info: https://github.com/kenniky/ArchipelagoSSE/blob/main/worlds/ssbb_sse/docs/en_SubspaceEmissary.md&#13;
-Setup: https://github.com/kenniky/ArchipelagoSSE/blob/main/worlds/ssbb_sse/docs/en_SubspaceEmissary_Setup.md&#13;
-FAQ: https://github.com/kenniky/ArchipelagoSSE/blob/main/worlds/ssbb_sse/docs/faq.md</content>
-    <link href="https://github.com/kenniky/ArchipelagoSSE/releases/tag/v0.2.7-real"/>
-  </entry>
-  <entry>
-    <id>https://github.com/vicr123/Archipelago/releases/tag/20260822-1</id>
-    <title>Candy Box 2 v1.20260822.1r2</title>
-    <updated>2026-08-23T05:33:57+00:00</updated>
-    <author>
-      <name>Victor Tran</name>
-    </author>
-    <author>
-      <name>Aren Merzoian</name>
-    </author>
-    <content>This version of the Candy Box 2 randomizer introduces the following features:&#13;
-- New goal conditions are now available.&#13;
-  - Goal conditions are implemented as a set of tasks to be performed&#13;
-  - In addition to obtaining the PLAY stones, you can also opt to require dying to the Castle Trap Room or swimming 3000m in the sea.&#13;
-  - Any subset of these tasks can be made as a requirement to goal the game.&#13;
-  - Your progress towards these goals can be found by finding the Talking Candy.&#13;
-- Filler locations have been overhauled.&#13;
-  - Filler locations now exist in the Lollipop Farm and as distances travelled in the sea.&#13;
-  - Filler locations are randomly selected when required.&#13;
-  - Opting for Individual Spells now adds filler locations instead of bundling multiple items into one shop purchase at the Sorceress' hut.&#13;
-- Hovering over the World Map in your Inventory now tells you how many Progressive World Maps you have received.&#13;
-- You can now have up to 20 font traps in the world.&#13;
-- Logic has been updated for single enemy quests - the Purple Fin is now taken into account.&#13;
-&#13;
-Tested on AP 0.6.7, YMMV on later versions. Requires AP 0.6.0 or later.&#13;
-&#13;
-Game client available at: https://candybox2-ap.vicr123.com/20260822-1/</content>
-    <link href="https://github.com/vicr123/Archipelago/releases/tag/20260822-1"/>
-  </entry>
-  <entry>
-    <id>https://github.com/MikeFritzDevelops/ACWW-Archipelago/releases/tag/v0.1.2-alpha</id>
-    <title>Animal Crossing: Wild World v0.1.1</title>
-    <updated>2026-08-23T07:59:34+00:00</updated>
-    <author>
-      <name>Mike</name>
-    </author>
-    <content>## v0.1.2-alpha&#13;
-&#13;
-## Added&#13;
-&#13;
-- Added an option to Skip Tom Nook's Tutorial&#13;
-- Added an option to set 'Barren Town' which removes all plants and trees from town at start, requiring player to sculpt their town to their desire to hunt bugs requiring flowers and trees.&#13;
-- Added QoL feature to guarantee at least 1 tree in town always has a bee hive to make Bee hunting less of a grind.&#13;
-- Added QoL feature to instantly grow trees to full mature state.&#13;
-- Added Bee and Invisible Bee Traps as optional trap settings.&#13;
-- Added Weather Control to Master Controller to allow for forced rain/snow.&#13;
-&#13;
-## Changed&#13;
-&#13;
-- Updated availability logic for weather-dependent bugs and fish to account for Weather Control.&#13;
-&#13;
-## Fixed&#13;
-&#13;
-- Fixed a bug that caused tools to be repeatedly added to inventory if one was lost/equipped.&#13;
-- Fixed an issue where every check caused a full refresh of the Master Controller leading to performance issues.&#13;
-- Fixed poptracker availability for some fish and bugs, and improved clarity of images.&#13;
-&#13;
-## Documentation&#13;
-&#13;
-- [README](https://github.com/MikeFritzDevelops/ACWW-Archipelago#readme)&#13;
-- [Setup Guide](https://github.com/MikeFritzDevelops/ACWW-Archipelago/blob/main/acww/docs/setup_en.md)&#13;
-- [Game Guide](https://github.com/MikeFritzDevelops/ACWW-Archipelago/blob/main/acww/docs/game_en.md)&#13;
-- [Master Controller Guide](https://github.com/MikeFritzDevelops/ACWW-Archipelago/blob/main/acww/docs/controller.md)&#13;
-&#13;
----&#13;
-&#13;
-## Alpha Notice&#13;
-&#13;
-This is an early alpha release.&#13;
-&#13;
-Bug reports, balance feedback, and suggestions are greatly appreciated.</content>
-    <link href="https://github.com/MikeFritzDevelops/ACWW-Archipelago/releases/tag/v0.1.2-alpha"/>
-  </entry>
-  <entry>
-    <id>https://github.com/LucasRenaudineau/hytelago/releases/tag/release3</id>
-    <title>Hytale v3</title>
-    <updated>2026-08-23T09:44:24+00:00</updated>
-    <author>
-      <name>LucasRenaudineau</name>
-    </author>
-    <content>Modifying some locations/items names.</content>
-    <link href="https://github.com/LucasRenaudineau/hytelago/releases/tag/release3"/>
-  </entry>
-  <entry>
-    <id>https://github.com/Lemix028/SupermarketSimulator-Archipelago/releases/tag/v0.3.3</id>
-    <title>Supermarket Simulator v0.3.3</title>
-    <updated>2026-08-23T11:45:38+00:00</updated>
-    <author>
-      <name>Lemix028</name>
-    </author>
-    <content>**Progressive Employee Upgrade Items: Replaced individually numbered employee unlock items with progressive copies.**&#13;
-</content>
-    <link href="https://github.com/Lemix028/SupermarketSimulator-Archipelago/releases/tag/v0.3.3"/>
-  </entry>
-  <entry>
-    <id>https://github.com/silasary/APxiv/releases/tag/0.31.1</id>
-    <title>Final Fantasy XIV v0.31.1</title>
-    <updated>2026-08-23T12:35:00+00:00</updated>
-    <author>
-      <name>silasary</name>
-    </author>
-    <content>* Added North Horn FATES and CEs.
-* Added Frontline checks.  The `include_pvp` option has been replaced with separate toggles for CC and Frontline.
-* Fixed bug where Bozja and Occult Crescent FATEs would not respect their yaml settings if FATEsanity was enabled.
-* Separate toggle for Skyrise Celebration fetes.</content>
-    <link href="https://github.com/silasary/APxiv/releases/tag/0.31.1"/>
-  </entry>
-  <entry>
-    <id>https://github.com/awakenbad/SanAndreasAP/releases/tag/v0.7.0</id>
-    <title>Grand Theft Auto: San Andreas v0.7.0</title>
-    <updated>2026-08-23T12:43:43+00:00</updated>
-    <author>
-      <name>awaken</name>
-    </author>
-    <content>## New:&#13;
-- Added **Street Races** as checks - to access them you need to receive a `Street Races Unlock` item that will unlock them at any point in the game. &#13;
-- All Ammu-nation weapons now send checks instead of only LS unlocks.&#13;
-- Added `Max Driving Skill` item.&#13;
-- Stadium Events now send checks - two of the events that require driving skill are gated behind `Max Driving Skill` and `Max Bike Skill` in logic&#13;
-- Courier Missions now send checks&#13;
-- Added `Max Muscle` item, it now gates all three gyms.&#13;
-- Added `Bad Weather Trap` (Rain, Fog, Sandstorm) (#25)&#13;
-- Schools have the option to send checks per medal (*Bronze*, *Silver*, *Gold*) (#17)&#13;
-## Changes:&#13;
-- `Mission Blockers` are gone - mission markers don't have physical barricades anymore, instead every marker changes its color to grey and doesn't start the mission when out of Progressive Missions.&#13;
-- Ammu-nation now shows items in text rather than overlaying, with colors matching their usefulness in the multiworld. (#6)&#13;
-  (Huge props to @Lordmau5 for extensively researching and creating a prototype)&#13;
-- Burglary, Trucking, Valet, Pimping and Quarry can now be completely turned off.&#13;
-- Import/Export now has an option for less lists (#34)&#13;
-- Bike and Driving Skill cannot be earned through schools anymore.&#13;
-## Fixes:&#13;
-- Fixed 1 radar blip being leaked on every save/load (#43)&#13;
-- Fixed `Infinite Sprint` not being applied (#38)&#13;
-- Fixed Oyster 27 showing too far off on the pause menu map (#40)&#13;
-- Fixed `High Stakes, Low Ryder` and `Wu Zi Mu` not being blocked by mission blockers (#33)&#13;
-- Fixed radar Progressive Mission counters scaling in-correctly at high resolutions</content>
-    <link href="https://github.com/awakenbad/SanAndreasAP/releases/tag/v0.7.0"/>
-  </entry>
-  <entry>
-    <id>https://github.com/spinerak/refunct-tas-archipelago/releases/tag/v1.5.0a</id>
-    <title>Refunct v1.5.0a0</title>
-    <updated>2026-08-23T15:07:51+00:00</updated>
-    <author>
-      <name>Spineraks</name>
-    </author>
-    <content>This is a mod-only update with map editing fixes, apworld and yaml are the same as 1.5.0.&#13;
-## 1.5.0 -&gt; 1.5.0a&#13;
-- Fixed game crashes when editing a map and collecting cubes&#13;
-- Hide "edit-menu" when "playing" a custom map&#13;
-&#13;
-# 1.5.0&#13;
-Refunct now uses Rulebuilder! You will need at least Archipelago 0.6.7 from now on.&#13;
-# Custom maps in Archipelago!&#13;
-- You can now play custom maps and they'll give checks in Archipelago. Every button is a check for a total of 37 checks. Enable the Custom Minigame in your yaml.&#13;
-- You can use any custom map you want! Here's my recommended list (currently only 2 maps): [link to archipelago discord](https://discord.com/channels/731205301247803413/1273001824919617577/1540723304296353824).&#13;
-- Here's how to install them: download the maps you want. Then open Refunct and the mod. Press CTRL+SHIFT+M and select "Open Maps Folder". Place your custom map there (it's probably `AppData\Roaming\refunct-tas\maps`). &#13;
-- Once you unlock the Custom minigame and you select it, you will be asked directly which custom map you want to play, you can select it there. You can (re)start whichever you want.&#13;
-- You can make custom maps too with the editor!&#13;
-# Map editor improvements&#13;
-- Pressing `c` and triggering the next cluster should now work better.&#13;
-- You can now press `left`/`right`/`up`/`down`/`pageup`/`pagedown` to work in 3 dimensions without having to toggle.&#13;
-- `TAB` now opens the advanced editor of the selected element, if any.</content>
-    <link href="https://github.com/spinerak/refunct-tas-archipelago/releases/tag/v1.5.0a"/>
-  </entry>
-  <entry>
-    <id>https://github.com/Mekurushi/Archipelago_Pokepark/releases/tag/1.2.6</id>
-    <title>PokePark v1.2.6</title>
-    <updated>2026-08-23T16:55:14+00:00</updated>
-    <author>
-      <name>Joe Mama (Mekurushi)</name>
-    </author>
-    <content>## What's Changed&#13;
-* 135 bug porygon z quiz check logic issue by @Mekurushi in https://github.com/Mekurushi/Archipelago_Pokepark/pull/136&#13;
-* 140 bug ut glitched logic for beating any gyarados attraction is incorrect by @Mekurushi in https://github.com/Mekurushi/Archipelago_Pokepark/pull/141&#13;
-* 142 bug rhyperior friendship is classified as errand location by @Mekurushi in https://github.com/Mekurushi/Archipelago_Pokepark/pull/143&#13;
-* updated documentation and option descriptions&#13;
-&#13;
-&#13;
-**Full Changelog**: https://github.com/Mekurushi/Archipelago_Pokepark/compare/1.2.5...1.2.6</content>
-    <link href="https://github.com/Mekurushi/Archipelago_Pokepark/releases/tag/1.2.6"/>
-  </entry>
-  <entry>
-    <id>https://github.com/SilicDev/Archipelago/releases/tag/scds-v0.2.3</id>
-    <title>Sonic Colours (DS) v0.2.3</title>
-    <updated>2026-08-23T20:05:10+00:00</updated>
-    <author>
-      <name>SilicDev</name>
-    </author>
-    <content># v0.2.3 Patched game size fix, UT yamlless and RuleBuilder&#13;
-**Full Changelog**: https://github.com/SilicDev/Archipelago/compare/scds-v0.2.2...scds-v0.2.3&#13;
-&#13;
-**Important**: Currently only a EU ROM with the md5 hash `406514E483EE092A89F4298F59FD53A9` is supported&#13;
-This game is played via the BizhawkClient using the `connector_bizhawk_generic.lua`&#13;
-&#13;
-## Changes&#13;
-- Implemented UT Yamlless&#13;
-- Moved rules to RuleBuilder. With this Archipelago 0.6.7 is required&#13;
-&#13;
-## Bug fixes&#13;
-- The patch file has been adjusted to not truncate the final file anymore&#13;
-- Levels that start with a boost will now always run out&#13;
-- Implemented safe guards against overflowing the ring and lives counters&#13;
-</content>
-    <link href="https://github.com/SilicDev/Archipelago/releases/tag/scds-v0.2.3"/>
-  </entry>
   <entry>
     <id>https://github.com/Crazycolbster/rollercoaster-tycoon-randomizer/releases/tag/v0.1.22.1-beta</id>
     <title>OpenRCT2 v0.1.22.1.post2</title>
@@ -1133,7 +885,7 @@ On reconnect, if your connection info hasn't changed, the mod should automatical
   </entry>
   <entry>
     <id>https://github.com/brodieberger/MMZero3Archipelago/releases/tag/v0.3.3</id>
-    <title>Mega Man Zero 3 v0.3.3</title>
+    <title>Mega Man Zero 3 v0.3.3.post2</title>
     <updated>2026-08-26T00:36:09+00:00</updated>
     <author>
       <name>brodieberger</name>
@@ -1166,9 +918,9 @@ Randomize_weapons has been removed as an option. You can still give yourself eac
 &#13;
 ## Graphical Changes&#13;
 &#13;
-- Items from Archipelago now show their own icon in the popup over Zero's head. The table is seen below. The boss art had to be downscaled and hand adjusted. If you are a pixel artist and want to do a better job, please feel free to do so.&#13;
+- Items from Archipelago now show their own icon in the popup over Zero's head. The table is seen below. Each piece of art had to be downscaled and had their color palettes merged to share one 15 color sheet. If you are a pixel artist and want to do a better job, please feel free to do so, I'm not great at this.&#13;
 &lt;div align="center"&gt;&#13;
-  &lt;img width="300" alt="ap_icons" src="https://github.com/user-attachments/assets/46fd2c1f-fee9-45d5-bec3-9fe58afba17e" /&gt;&#13;
+  &lt;img width="600" alt="ap_icons" src="https://github.com/user-attachments/assets/4cf01bd8-fd44-43b3-b378-461dde028b9c" /&gt;&#13;
 &lt;/div&gt;&#13;
 &lt;br&gt;&#13;
 &#13;
@@ -1180,12 +932,10 @@ Randomize_weapons has been removed as an option. You can still give yourself eac
 &#13;
 - The animation around unchecked 1-UPs was corrected to not use the same palette slot as Zero's dash afterimage.&#13;
 - Secret Disk 066 now requires mobility in logic. Fun fact: its the only collectable where having the frog chip actually matters.&#13;
-- EX Skill: Split Heavens is now marked as progression, since it's one of the ways to deal fire damage that isn't a charged attack.&#13;
 &#13;
 # Known bugs&#13;
 - There have been repeated issues of trackers reporting currently unobtainable items as obtainable. Most errors should be fixed now.&#13;
-- The item popup only shows one at a time, skipping multiple if they arrive at the same time.&#13;
-- The pop up icons shares tile space with whatever the room is loaded. If you ever see a garbled icon or one with messed up colors, try to let me which level and room you were in.&#13;
+- The item popup only shows one at a time, skipping multiple if they arrive at the same time. This might get fixed later.&#13;
 &#13;
 I hope to soon bring this world from unstable to stable, so report anything that seems off, not just bugs!</content>
     <link href="https://github.com/brodieberger/MMZero3Archipelago/releases/tag/v0.3.3"/>
@@ -1267,5 +1017,237 @@ See `README-ALPHA5.md` and `KNOWN-ISSUES.md` inside the archive for exact source
 * Fixed Wire Sponge granting its weapon upon defeat&#13;
 * Fixed received DamageLink packets during cutscenes locking the player in place until they got hit again</content>
     <link href="https://github.com/TheLX5/Archipelago/releases/tag/mmx2-v2.0.4"/>
+  </entry>
+  <entry>
+    <id>https://github.com/EdricY/Bouncy-Loot-God/releases/tag/experiment-3</id>
+    <title>Borderlands 2 v3</title>
+    <updated>2026-08-26T19:53:50+00:00</updated>
+    <author>
+      <name>EdricY</name>
+    </author>
+    <content>will go back to bleeding edge release soon, but pushing some fixes here for now. If this is broken, just use https://github.com/EdricY/Bouncy-Loot-God/releases/tag/experiment-2</content>
+    <link href="https://github.com/EdricY/Bouncy-Loot-God/releases/tag/experiment-3"/>
+  </entry>
+  <entry>
+    <id>https://github.com/fogmike/Archipelago_ManicMiners/releases/tag/v1.5.2</id>
+    <title>Manic Miners v1.5.2</title>
+    <updated>2026-08-26T19:58:27+00:00</updated>
+    <author>
+      <name>fogmike</name>
+    </author>
+    <content>Quick fix to address logic bug for crystal targets in LRR / LRRC - Search And Rescue</content>
+    <link href="https://github.com/fogmike/Archipelago_ManicMiners/releases/tag/v1.5.2"/>
+  </entry>
+  <entry>
+    <id>https://github.com/spinerak/refunct-tas-archipelago/releases/tag/v1.5.1a</id>
+    <title>Refunct v1.5.1a0</title>
+    <updated>2026-08-26T20:15:38+00:00</updated>
+    <author>
+      <name>Spineraks</name>
+    </author>
+    <content>### Mod only update, same apworld &amp; yaml&#13;
+- Fixed selecting custom minigame would cause drownage and death linkage&#13;
+- Added a message to hit New Game when the player is expected to hit New Game</content>
+    <link href="https://github.com/spinerak/refunct-tas-archipelago/releases/tag/v1.5.1a"/>
+  </entry>
+  <entry>
+    <id>https://github.com/T0r1nn/APLC/releases/tag/v0.7.13</id>
+    <title>Lethal Company v0.7.13</title>
+    <updated>2026-08-26T21:07:55+00:00</updated>
+    <author>
+      <name>T0r1nn</name>
+    </author>
+    <content>Mod:&#13;
+* fixed an issue where the mod tried to use enemy traps on company moons and produced errors&#13;
+* fixed an incompatability with mods that allow quota rollover&#13;
+* fixed bestiary locations for custom enemies not completing if the lobby was reloaded&#13;
+* added null checks to (hopefully) stop log spam when the multiworld disconnects&#13;
+* fixed an issue where the tracker thought an apparatus could spawn on moons without facility&#13;
+* removed janky adamance apparatus fix now that Archipelago Scrap fixed the issue&#13;
+* changed deathlink to use playerClientIds instead of steam ids and added extra safeguards&#13;
+  * this *should* make deathlink more reliable and prevent death chains&#13;
+* added Coroner compatibility for deathlink (the deathlink message now includes the cause of death)&#13;
+&#13;
+Apworld:&#13;
+* added yaml option to change the percentage of scrap lost when dying from deathlink&#13;
+* made non-required store items useful (they were previously all progression items but didn't need to be)&#13;
+&#13;
+Misc:&#13;
+* enabled debug symbols for the mod&#13;
+&#13;
+Mod version 0.7.13 works with apworld versions 0.7.11 - 0.7.13, but the new scrap loss option will default to 50% if using an older version.</content>
+    <link href="https://github.com/T0r1nn/APLC/releases/tag/v0.7.13"/>
+  </entry>
+  <entry>
+    <id>https://github.com/tjwombo/RNSArchipelago/releases/tag/v0.3.7</id>
+    <title>Rabbit and Steel v0.3.7</title>
+    <updated>2026-08-26T21:10:56+00:00</updated>
+    <author>
+      <name>tjwombo</name>
+    </author>
+    <content>added:&#13;
+- Ability to select Kingdom Outskirts/Crack in the Geode and The Pale Keep/Looping Hallway as guaranteed kingdom.&#13;
+  - The Pale Keep and Looping Hallway are their random kingdom type button.&#13;
+  - Kingdom Outskirts and Crack in the Geode are the true random and chaotic random buttons.&#13;
+  - Unobtained/OoL kingdoms will appear as "?" and have the text "Random" in the map selection.&#13;
+    - When it becomes in logic, will place it (iirc).&#13;
+- Recreate the route after the class is selected, so class weight calculation is applied without needing to adjust in map selection.&#13;
+&#13;
+fixed:&#13;
+- Fixed kingdom weights. &#13;
+  - Prioritizes your selection -&gt; weighted random of the order that is being placed -&gt; if there are no checks there, weighted random of unplaced kingdoms -&gt; random.&#13;
+  - Picks the boss that still has goal condition kills needed and available for that class, otherwise random.&#13;
+- Selection from lobby page is respected.&#13;
+    - Default selection is respected.&#13;
+- Entering a treasuresphere or shop shouldn't lag anymore.&#13;
+&#13;
+# Changelog&#13;
+&#13;
+All notable changes to this project will be documented in this file.&#13;
+&#13;
+The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)&#13;
+and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).&#13;
+&#13;
+## [v0.3.7](https://github.com/tjwombo/RNSArchipelago/compare/v0.3.6...v0.3.7) - 2026-08-26&#13;
+&#13;
+### Commits&#13;
+&#13;
+- condensed hallkey, hallsubimg, and hallseed modification to 1 place [`14fea4c`](https://github.com/tjwombo/RNSArchipelago/commit/14fea4c4b1a74faa0fd8f7220a6af51625c804e6)&#13;
+- Increase weights, and remove checkless possibility [`19df6c2`](https://github.com/tjwombo/RNSArchipelago/commit/19df6c2d70958150220755b9aa76051884da573f)&#13;
+- Update route after selecting a character [`1049ed9`](https://github.com/tjwombo/RNSArchipelago/commit/1049ed98b471b68ab6b3c37b8eb4362b5df51866)&#13;
+- Properly respect the user selected kingdom [`feb658d`](https://github.com/tjwombo/RNSArchipelago/commit/feb658d72b375ca1af5cf1fd0aef24bf231f2763)&#13;
+- Fixed final boss weight &amp; Allow selection for starting and penultimate hallway [`e996e65`](https://github.com/tjwombo/RNSArchipelago/commit/e996e65cfb082cc7b57682017648fbf4d6bdceea)&#13;
+- Fix the xsubimg expanding bug + cleanup [`ca993c6`](https://github.com/tjwombo/RNSArchipelago/commit/ca993c6c56c2afd9e5a5a2a576801ab09f48d684)&#13;
+- Prescout chest and shops to reduce lag on entering [`f501d7d`](https://github.com/tjwombo/RNSArchipelago/commit/f501d7d3a10c4f7ecc60a2e536d2dab4ed1abca2)&#13;
+- Prioritize kingdom order only if they have checks [`e119b34`](https://github.com/tjwombo/RNSArchipelago/commit/e119b342b876446c266fe428a8ef712a2b8773d3)&#13;
+</content>
+    <link href="https://github.com/tjwombo/RNSArchipelago/releases/tag/v0.3.7"/>
+  </entry>
+  <entry>
+    <id>https://github.com/aurabot24/Archipelago-ALttPR/releases/tag/v1.4.2</id>
+    <title>The Legend of Zelda: A Link to the Past v1.4.2</title>
+    <updated>2026-08-26T21:50:24+00:00</updated>
+    <author>
+      <name>aurabot</name>
+    </author>
+    <content>Fixed a bug where dungeon potsanity + triforce hunt + priority locations would fail to generate.</content>
+    <link href="https://github.com/aurabot24/Archipelago-ALttPR/releases/tag/v1.4.2"/>
+  </entry>
+  <entry>
+    <id>https://github.com/SilicDev/Archipelago/releases/tag/scds-v0.2.4</id>
+    <title>Sonic Colours (DS) v0.2.4</title>
+    <updated>2026-08-26T22:01:49+00:00</updated>
+    <author>
+      <name>SilicDev</name>
+    </author>
+    <content>Game Patch Hotfix&#13;
+**Full Changelog**: https://github.com/SilicDev/Archipelago/compare/scds-v0.2.3...scds-v0.2.4&#13;
+&#13;
+**Important**: Currently only a EU ROM with the md5 hash `406514E483EE092A89F4298F59FD53A9` is supported&#13;
+This game is played via the BizhawkClient using the `connector_bizhawk_generic.lua`&#13;
+&#13;
+Unfortunately due to an oversight during release building a broken dev patch slipped into the release</content>
+    <link href="https://github.com/SilicDev/Archipelago/releases/tag/scds-v0.2.4"/>
+  </entry>
+  <entry>
+    <id>https://github.com/silent-destroyer/tunic-randomizer/releases/tag/5.0.2</id>
+    <title>TUNIC v5.0.2</title>
+    <updated>2026-08-27T02:05:09+00:00</updated>
+    <author>
+      <name>silent-destroyer</name>
+    </author>
+    <author>
+      <name>ScipioWright</name>
+    </author>
+    <content>### Backwards compatibility with existing seeds: &#13;
+- Single Player: ❌&#13;
+- Archipelago: ✅&#13;
+  - The tunic apworld was updated in this version&#13;
+&#13;
+# Changes&#13;
+- Adjusted how Fox Prince determines entrance choices to hopefully improve performance in late game when there are fewer entrances remaining.&#13;
+- Fixed a freeze that could happen when choosing entrances in Fox Prince if Laurels were set to 10 Fairies.&#13;
+- Fixed a bug with Mystery Seeds where it could enable Fox Prince but _not_ Entrance Rando, causing various issues and softlocks.&#13;
+- Fixed a few instances of fairies in Ruined Atoll and Ziggurat that wouldn't aggro unless you threw a bomb or brought other enemies close to them; they should now wake up just from walking near them.&#13;
+- Various enemy soul-related logic fixes in the apworld:&#13;
+  - Shop checks now properly require the rudeling soul&#13;
+  - Bomb walls could rarely require the wrong enemy soul if ice grappling logic was set to hard&#13;
+  - The lower frog in the frog stairway scene could sometimes appear as in logic without the Ladders to Frog's Domain or the Magic Orb</content>
+    <link href="https://github.com/silent-destroyer/tunic-randomizer/releases/tag/5.0.2"/>
+  </entry>
+  <entry>
+    <id>https://github.com/vgm5/Night_Of_100_Frights_ap_world/releases/tag/Release_1_3_10</id>
+    <title>Scooby-Doo! Night of 100 Frights v10</title>
+    <updated>2026-08-27T02:39:10+00:00</updated>
+    <author>
+      <name>vgm5</name>
+    </author>
+    <content># Bugfix Release&#13;
+&#13;
+## Starting Item Filling&#13;
+- Fixed an issue where if a starting item is provided by a player yaml the generation would fail</content>
+    <link href="https://github.com/vgm5/Night_Of_100_Frights_ap_world/releases/tag/Release_1_3_10"/>
+  </entry>
+  <entry>
+    <id>https://github.com/FyreDay/Archipelago-MinaTheHollower/releases/tag/v1.0.1</id>
+    <title>Mina The Hollower v1.0.0r2</title>
+    <updated>2026-08-27T02:48:25+00:00</updated>
+    <author>
+      <name>FyreDay, Axertin, ZXavier</name>
+    </author>
+    <content>Features:&#13;
+- Add requirement for at least attack 3 and defense 3 for all boss fights in addition to combat logic&#13;
+- Add Ossex bike sewer map&#13;
+&#13;
+Fixes:&#13;
+- Fixed some combat logic mismatch with roses and defeats&#13;
+- Fix MM image&#13;
+- Fix Armond Fight logic&#13;
+- Fix SB and NB connection,&#13;
+- Update Pinky map, move Pinky locations&#13;
+- Fix Ossex West Wall logic&#13;
+- Fix Loners Landing Requiring bounce for a 3 distance jump</content>
+    <link href="https://github.com/FyreDay/Archipelago-MinaTheHollower/releases/tag/v1.0.1"/>
+  </entry>
+  <entry>
+    <id>https://github.com/chpas0/Pikmin2Archipelago/releases/tag/v0.8.0</id>
+    <title>Pikmin 2 v0.8.0</title>
+    <updated>2026-08-27T02:57:06+00:00</updated>
+    <author>
+      <name>chpas</name>
+    </author>
+    <content>**NOTE: This mod is still in the testing phase. Play at your own risk.**&#13;
+**NOTE 2: Games generated on earlier versions will NOT work on this version.**&#13;
+**NOTE 3: Setup for this version is much different (and hopefully much simpler) than previous versions - please reread the setup guide before playing!**&#13;
+&#13;
+## Changelog&#13;
+- Fix a bug that could cause generation to fail if multiple Pikmin 2 players were in a game (thank you KingDragonite for finding and fixing this)&#13;
+- Clarify the error message printed when the filler items dictionary is empty (thank you KingDragonite for finding and fixing this)&#13;
+- Completely rehaul the sending of items from the game to the client&#13;
+  - The save file path is no longer needed&#13;
+  - Linking now occurs at the title screen&#13;
+  - Linking works from any file, not just the leftmost one&#13;
+  - Linking works on Day 1&#13;
+  - Items can be received in menus and cutscenes (excluding the world map)&#13;
+  - Most crashes (e.g., collecting the Utter Scrap location on Day 2) are fixed&#13;
+  - **Memory Override is now required for the game to run properly**&#13;
+  - This may be buggy on Linux; please let me know if you encounter any issues&#13;
+- Completely rehaul the progress restore so that the save file is not necessary&#13;
+  - The duplicate item receipt bug should be permanently squashed&#13;
+- Enemy Randomizer and Boss + Enemy Randomizer now work on the overworld&#13;
+  - May still have lingering issues - please report any crashes with this setting&#13;
+- Add new YAML option: Boss + Enemy Rando Locations&#13;
+  - If either Enemy Randomizer or Boss + Enemy Randomizer is on, allows you to select which locations are randomized (cave, overworld, or both)&#13;
+- Change the game ID so it has a separate save file from vanilla Pikmin 2&#13;
+- Remove the /force-relink command as it is deprecated&#13;
+- Add the total debt to the /status command output&#13;
+&#13;
+## Known Bugs&#13;
+- Queen Candypop Buds sometimes show up as white instead of red, even if you have Red Pikmin unlocked. This means that you can't use them to generate Red Pikmin, but you can use them to generate White Pikmin.&#13;
+- Whatever cave is in Submerged Castle's location will always have the vanilla Submerged Castle music.&#13;
+- Sometimes starting items will not be received properly, if this happens usually restarting the game and client causes them to appear&#13;
+- Sometimes the Pikmin can't break gates in caves. Usually resetting the cave fixes this.&#13;
+- Sometimes collecting Louie does not trigger the goal</content>
+    <link href="https://github.com/chpas0/Pikmin2Archipelago/releases/tag/v0.8.0"/>
   </entry>
 </feed>
