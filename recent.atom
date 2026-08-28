@@ -2,160 +2,11 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://raw.githubusercontent.com/silasary/apworlds/refs/heads/main/recent.atom</id>
   <title>Recent APWorlds</title>
-  <updated>2026-08-28T01:59:06.524564+00:00</updated>
+  <updated>2026-08-28T18:03:22.958615+00:00</updated>
   <author>
     <name>Silasary</name>
   </author>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
-  <entry>
-    <id>https://github.com/carrotinator/Archipelago/releases/tag/ph-v0.9.7-alpha</id>
-    <title>The Legend of Zelda - Phantom Hourglass v0.9.7a0</title>
-    <updated>2026-08-25T07:28:37+00:00</updated>
-    <author>
-      <name>carrotinator</name>
-    </author>
-    <author>
-      <name>Tanker50207</name>
-    </author>
-    <author>
-      <name>palex00</name>
-    </author>
-    <author>
-      <name>CelestialKitsune</name>
-    </author>
-    <author>
-      <name>DayKat</name>
-    </author>
-    <author>
-      <name>1313e</name>
-    </author>
-    <author>
-      <name>Catzador</name>
-    </author>
-    <content>Compatible with seeds generated in v9.x&#13;
-[Setup Guide](https://github.com/carrotinator/Archipelago/blob/main/worlds/tloz_ph/docs/setup.md)&#13;
-&#13;
-- Main read list is reloaded after cutscenes, fixing Bellum goal not sending.&#13;
-- Fixed unnecessary delay resets from gift_addr locations that are not address reads&#13;
-- Fixed client crash on sending too many progressive items&#13;
-- `exclude_locations` in yaml is taken into account when calculating how many filler items to make</content>
-    <link href="https://github.com/carrotinator/Archipelago/releases/tag/ph-v0.9.7-alpha"/>
-  </entry>
-  <entry>
-    <id>https://github.com/furret78/ArchipelagoTouhou/releases/tag/0.4.52</id>
-    <title>Black Market of Bulletphilia ~ 100th Black Market v0.4.52</title>
-    <updated>2026-08-25T08:04:21+00:00</updated>
-    <author>
-      <name>Yuureiki</name>
-    </author>
-    <content>Archipelago Randomizer implementation for **_Black Market of Bulletphilia ~ 100th Black Market_**, also known as _**Touhou 18.5**_.&#13;
-&#13;
-- **.apworld version:** 0.4.52&#13;
-- **Minimum Archipelago Launcher version:** 0.6.7&#13;
-&#13;
-Recommended to play on Windows, as **the game does not support Linux natively**. If playing on Linux, it is recommended to run both Archipelago Launcher and the game in Wine/Proton.&#13;
-&#13;
-# Changelog&#13;
-- Added one additional save data guardrail.&#13;
-&#13;
-Does not change anything else.&#13;
-&#13;
-**Full Changelog**: https://github.com/furret78/ArchipelagoTouhou/compare/0.4.51...0.4.52&#13;
-&#13;
-# Game Details and Setup&#13;
-- See **game details** [here](https://github.com/furret78/Archipelago/blob/main/worlds/th185/docs/en_100th%20Black%20Market.md). When exporting .yaml files for this game, it is recommended to use the Options Creator in the Archipelago Launcher for a smooth experience.&#13;
-- See the **setup guide** [here](https://github.com/furret78/Archipelago/blob/main/worlds/th185/docs/setup_en.md).</content>
-    <link href="https://github.com/furret78/ArchipelagoTouhou/releases/tag/0.4.52"/>
-  </entry>
-  <entry>
-    <id>https://github.com/Az-LastPenguin/LORAP/releases/tag/v1.0.0-eta.2</id>
-    <title>Library of Ruina v1.0.0r4</title>
-    <updated>2026-08-25T10:57:41+00:00</updated>
-    <author>
-      <name>LastPenguin</name>
-    </author>
-    <content>As always, check known bugs and report bugs in #70&#13;
-&#13;
-**Unsubscribe from workshop mod!**&#13;
-&#13;
-**New Run NOT Required**&#13;
-&#13;
-**Uses -eta .apworld**&#13;
-&#13;
-**You can find full changelog [here](https://github.com/Az-LastPenguin/LORAP/blob/dev/Changelogs/1.0.0%20in-dev.md)**&#13;
-&#13;
-## Changelog:&#13;
-- FIXED?: Attempt to fix crash when hinting in the integrated client / autohinting on the map&#13;
-- FIXED: Forfeit prompt is now properly clickable&#13;
-- CHANGED: Client toggle keybind is now F2. AP Feed toggle keybind is now F3.</content>
-    <link href="https://github.com/Az-LastPenguin/LORAP/releases/tag/v1.0.0-eta.2"/>
-  </entry>
-  <entry>
-    <id>https://github.com/Dreskn/Wikipelago-Continued/releases/tag/1.0.1</id>
-    <title>Wikipelago v1.0.1</title>
-    <updated>2026-08-25T14:06:06+00:00</updated>
-    <author>
-      <name>Dreskn (continued)</name>
-    </author>
-    <author>
-      <name>Skrumptily69 (original)</name>
-    </author>
-    <content>## Wikipelago 1.0.1
-
-Requires **Archipelago 0.6.7**. For new generates, install this `wikipelago.apworld` and YAML.
-Web client: https://wikipelago.dreskn.fr/ (after VPS deploy), or local from tag `1.0.1`.
-
-### Client
-- Wrong Wiki clicks stay in the client instead of opening wikipedia.org
-- Link bombs are visible: gold link text and a bomb icon to the left (still a death; still needs `deaths`)
-
-### World
-- Dropped a dead Portuguese pool title (`Rodrigo Garcia`)
-
-Old **1.0.0** rooms keep working. Hosts generating new seeds should use this apworld.</content>
-    <link href="https://github.com/Dreskn/Wikipelago-Continued/releases/tag/1.0.1"/>
-  </entry>
-  <entry>
-    <id>https://github.com/dowlle/ctr-native-ap/releases/tag/v0.2.0-alpha4</id>
-    <title>Crash Team Racing v0.2.0a4</title>
-    <updated>2026-08-25T16:18:38+00:00</updated>
-    <author>
-      <name>Dowlle</name>
-    </author>
-    <content># CTR Archipelago 0.2.0 Alpha 4
-
-Alpha 4 combines the current correction build with the upstream native renderer and retail-parity sync so the full candidate can be tested together. This is a prerelease, not stable 0.2.0.
-
-The client and `ctr.apworld` are a matched pair. Install the apworld included in your platform archive before generating a seed, and keep every player in the room on Alpha 4.
-
-## Included in this candidate
-
-- The full Alpha 3 feature set and apworld logic.
-- The current upstream renderer, retail-parity, audio, UI, vehicle and profile port.
-- The confirmed zero-Key Ripper Roo boss-return fix.
-- Configurable sustained-trap duration from 10 to 90 seconds or Full race, with 15 seconds as the default.
-- Transition and podium diagnostics, with repeated podium diagnostic lines suppressed until reconnect.
-
-## Testing status
-
-The focused transition, podium, diagnostic-dedup, first-Key and trap-scheduler harnesses pass. Fresh 32-bit AP, vanilla and Windows builds also pass. The combined upstream-port candidate still needs its Steam runtime gate, so please treat rendering, pause behavior, profile save/load and race transitions as active test areas.
-
-The racer-ownership reload repair is not included in these bytes. Back up late saves and report any unreceived racer that becomes playable after loading a profile.
-
-See `README-ALPHA4.md` and `KNOWN-ISSUES.md` inside the archive for hashes, setup notes and the current attention list. CTR-AP does not ship Crash Team Racing game data.
-</content>
-    <link href="https://github.com/dowlle/ctr-native-ap/releases/tag/v0.2.0-alpha4"/>
-  </entry>
-  <entry>
-    <id>https://github.com/jordansds/Archipelago_TWW3_Alt/releases/tag/v0.10.18</id>
-    <title>Total War Warhammer 3 v0.10.18</title>
-    <updated>2026-08-25T17:04:35+00:00</updated>
-    <author>
-      <name>jordansds</name>
-    </author>
-    <content>Fixed beastmen progressive buildings</content>
-    <link href="https://github.com/jordansds/Archipelago_TWW3_Alt/releases/tag/v0.10.18"/>
-  </entry>
   <entry>
     <id>https://github.com/MnL-Modding/Piillomizer/releases/tag/v0.1.3</id>
     <title>Mario and Luigi Dream Team v0.1.3</title>
@@ -508,7 +359,7 @@ The upgrade progress is shown in game as stars in the pause menu like in Zero 1 
 &#13;
 Randomize_weapons has been removed as an option. You can still give yourself each weapon to start with using the `starting_weapons` option.&#13;
 &#13;
-`starting_weapons: ['Buster', 'Z-Saber'. 'Recoil Rod', 'Shield Boomerang]` &#13;
+`starting_weapons: ['Buster', 'Z-Saber', 'Recoil Rod', 'Shield Boomerang']` &#13;
 &#13;
 ## Graphical Changes&#13;
 &#13;
@@ -1260,5 +1111,169 @@ Yohane BID mod loader download: https://github.com/SilicDev/YohaneBIDModLoader/r
 **Bug Fixes**&#13;
 - Fixed an issue where strength wasn't required to enter Route 12 from Route 11 when `route_12_boulders` was on</content>
     <link href="https://github.com/vyneras/Archipelago/releases/tag/1.1.2"/>
+  </entry>
+  <entry>
+    <id>https://github.com/ChakraaThePanda/Archipelago-Northgard/releases/tag/2026.08.27</id>
+    <title>Northgard v2026.8.27</title>
+    <updated>2026-08-28T02:30:30+00:00</updated>
+    <author>
+      <name>Chakraa</name>
+    </author>
+    <content>### Fixed&#13;
+- Northgard's updates shuffled its internal function numbers, breaking chapter-lock enforcement. It's should now be fixed by having the patcher find functions by name instead of a fixed number, so it survives future updates.&#13;
+- The "already patched?" check just compared file bytes, so it falsely said "patched" right after the update and auto-heal never kicked in. It should now be fixed by checking the actual patched code directly instead, so it can't give that false positive again.&#13;
+&#13;
+**Full Changelog**: https://github.com/ChakraaThePanda/Archipelago-Northgard/compare/2026.08.16...2026.08.27</content>
+    <link href="https://github.com/ChakraaThePanda/Archipelago-Northgard/releases/tag/2026.08.27"/>
+  </entry>
+  <entry>
+    <id>https://github.com/MaragonMH/Archipelago/releases/tag/XenoX0.2.5</id>
+    <title>Xenoblade X v0.2.5</title>
+    <updated>2026-08-28T12:38:52+00:00</updated>
+    <author>
+      <name>Maragon</name>
+    </author>
+    <author>
+      <name>Nina</name>
+    </author>
+    <content>- The ingame system log now properly displays item type and allows additional characters and has a longer duration&#13;
+- Combine blade license, skell license and flight module into progressive license&#13;
+- Overhaul of the default options to provide the best possible starter setup&#13;
+- Added a new option `Early Chapter 4` that prevents the required items to be behind hard to reach locations&#13;
+- Fix getting items from collectopedia&#13;
+- Fix fashion armor getting sent again&#13;
+- Improve documentation&#13;
+- Removed l shop relocation&#13;
+- Remove duplicates for required armor and weapon from shop terminal&#13;
+- Fixed overcapped field skill level crashes&#13;
+- Segments are now touchable by default&#13;
+- Fuel up for skells fills them to the max&#13;
+- L shop does no longer remove the miranium&#13;
+- Debris no longer notifies you that the itembox is full</content>
+    <link href="https://github.com/MaragonMH/Archipelago/releases/tag/XenoX0.2.5"/>
+  </entry>
+  <entry>
+    <id>https://github.com/nhyldmar/fez-ap/releases/tag/v0.6.0</id>
+    <title>Fez v0.6.0</title>
+    <updated>2026-08-28T13:44:57+00:00</updated>
+    <author>
+      <name>Nolih</name>
+    </author>
+    <content>## What's Changed&#13;
+* Associate Parlor and Zu House QR anti-cube locations by @wataniyob in https://github.com/nhyldmar/fez-ap/pull/15&#13;
+* Build System Improvements by @thearst3rd in https://github.com/nhyldmar/fez-ap/pull/7&#13;
+* Support a ranged number of cubes for the end goal by @thearst3rd in https://github.com/nhyldmar/fez-ap/pull/18&#13;
+* Misc bugfixes by @thearst3rd in https://github.com/nhyldmar/fez-ap/pull/17&#13;
+* Rename doors to reduce confusion by @thearst3rd in https://github.com/nhyldmar/fez-ap/pull/23&#13;
+* Abilities Rando by @wataniyob in https://github.com/nhyldmar/fez-ap/pull/22&#13;
+&#13;
+## New Contributors&#13;
+* @thearst3rd made their first contribution in https://github.com/nhyldmar/fez-ap/pull/7&#13;
+&#13;
+Bugs should either be raised as issues here or tracked on the bugtracker here:&#13;
+[https://docs.google.com/spreadsheets/d/1l2KPbde1qFznVFmOZbg8Ee7_sfi5h65sCRZXVndfLwk/edit?usp=sharing](https://docs.google.com/spreadsheets/d/1l2KPbde1qFznVFmOZbg8Ee7_sfi5h65sCRZXVndfLwk/edit?usp=sharing)&#13;
+&#13;
+**Full Changelog**: https://github.com/nhyldmar/fez-ap/compare/v0.5.0...v0.6.0</content>
+    <link href="https://github.com/nhyldmar/fez-ap/releases/tag/v0.6.0"/>
+  </entry>
+  <entry>
+    <id>https://github.com/dannybonz/ae2_archipelago/releases/tag/v1.3.0</id>
+    <title>Ape Escape 2 v1.3.0</title>
+    <updated>2026-08-28T14:13:20+00:00</updated>
+    <author>
+      <name>dannybonz</name>
+    </author>
+    <content>- Added an option to **enable locations within the Gotcha Box!**&#13;
+- The procedure of redeeming items from the Gotcha Box has been streamlined. Standing on the button will allow you to **continuously redeem items** without having to break any capsules.&#13;
+- You can customise how new Gotcha Box items become available. Even if Gotcha Box items are technically accessible, **logic will not expect you to grind them all out immediately**. The number of levels unlocked and amount of monkeys caught will always be considered when determining the pace at which you are logically expected to redeem Gotcha Box locations.&#13;
+- Gotcha Box locations can be locked behind level unlocks, "Gotcha Box Restock" items or nothing at all.&#13;
+- Attempting to use the Gotcha Box when no items are available will result in the machine refusing to take your coins.&#13;
+- Added items for **mini-game and R.C. car body unlocks**.&#13;
+- Added a new option to include filler items for each of the game's **Monkey Fables, Movies, Soundtracks, Comic Strips, Concept Artwork, Secret Photos and Stage Photos**.&#13;
+- **Added new traps: "Lazy Camera Trap", "Rocket Boots Trap" and "Slowness Trap".** You can adjust the percentage of filler items that are replaced with traps and the weight for each individual trap being chosen in your YAML.&#13;
+- Universal Tracker is now integrated directly into the client.&#13;
+- Overhauled client status display.&#13;
+- Fixed a bug where you could be given an invisible Dash Hoop after exiting a room transition when playing with no starting gadgets.&#13;
+- Logic improvements.&#13;
+&#13;
+For instructions, see the [Setup Guide.](https://github.com/dannybonz/ae2_archipelago/blob/main/docs/setup.md</content>
+    <link href="https://github.com/dannybonz/ae2_archipelago/releases/tag/v1.3.0"/>
+  </entry>
+  <entry>
+    <id>https://github.com/T4g1/ArchipelagoTomba/releases/tag/v0.4.7-beta</id>
+    <title>Tomba! v0.5.6</title>
+    <updated>2026-08-28T16:31:10+00:00</updated>
+    <author>
+      <name>T4g1</name>
+    </author>
+    <author>
+      <name>bosshunter</name>
+    </author>
+    <content>This **beta** release focus on stability by fixing known issues.&#13;
+&#13;
+&gt; [!WARNING]&#13;
+&gt; This release is in testing phase. While core progression mechanics are fully functional, you may encounter minor bugs or pacing quirks. Please report any logic errors or generation issues on the issue tracker.&#13;
+&#13;
+---&#13;
+&#13;
+## ✨ What's New&#13;
+&#13;
+### 🐛 Bug Fixes&#13;
+* Fix #77&#13;
+* Fix #79 &#13;
+* Needlegator tooth is misspelled as Needlegathor tooth&#13;
+* Not sending: 1UP 2 (Old Pond)&#13;
+* Not sending: Blue Hidden Powers Cleared&#13;
+* Wobbly Wharf typo&#13;
+* Save the Dwarf softlocked if player sequence break through the maze&#13;
+* Take Out location randomly cleared when player gets Cheese items&#13;
+* Fix #76 &#13;
+* Fix #82 (might be a temporary fix though as i could'nt reproduce the issue)&#13;
+* Fix Green Evil Pig Bag check address&#13;
+* Fix Stormy Mountains Pants address&#13;
+* Fix Big Keyhole location softlocked if the corresponding pig bag event was already cleared&#13;
+* Fix Take Out set to started without checking if it was already cleared (same fix applied for all event that were started upon item pickup)&#13;
+* Fix Win the Race in logic before Look and See is cleared&#13;
+* Fix To Phoenix Mountain... softlocked after Phoenix Mountain is cleared&#13;
+* Fix Weed Killer location not checked after the event is cleared sometimes&#13;
+&#13;
+---&#13;
+&#13;
+## 🔧 Installation&#13;
+1. Download the source code or the `.apworld` file.&#13;
+2. Drop it into your Archipelago `custom_worlds/` directory.</content>
+    <link href="https://github.com/T4g1/ArchipelagoTomba/releases/tag/v0.4.7-beta"/>
+  </entry>
+  <entry>
+    <id>https://github.com/Miiroun/Archipelago-NewSuperMarioBrosWii/releases/tag/v0.3.1</id>
+    <title>NSMBW v0.3.1</title>
+    <updated>2026-08-28T16:42:52+00:00</updated>
+    <author>
+      <name>Miiroun</name>
+    </author>
+    <content># New Super Mario Bros Wii v0.3.1&#13;
+## Features&#13;
+- New boss key model&#13;
+- Updated title screen and star coin model&#13;
+- Better auto dolphin detection on windows using registry keys&#13;
+&#13;
+&#13;
+## Bug fixes&#13;
+- SC send immediately not working in world9&#13;
+- Fixed license issue&#13;
+- Spam message on tower clear&#13;
+- Hint movies error on send&#13;
+- Riivolution path not saving&#13;
+&#13;
+&#13;
+## Backwards compatibility&#13;
+This update is compatible with seeds generated on 0.3.0.&#13;
+However to see the new models on an old seed you will need to run `/rm_tmp` in your nsmbw client.&#13;
+&#13;
+&#13;
+## Links&#13;
+[Download](https://github.com/Miiroun/Archipelago-NewSuperMarioBrosWii/releases/tag/v0.3.1)&#13;
+[Setup Guide](https://github.com/Miiroun/Archipelago-NewSuperMarioBrosWii/blob/NSMBW/worlds/nsmbw/docs/setup_en.md)</content>
+    <link href="https://github.com/Miiroun/Archipelago-NewSuperMarioBrosWii/releases/tag/v0.3.1"/>
   </entry>
 </feed>
