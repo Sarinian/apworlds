@@ -2,320 +2,11 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://raw.githubusercontent.com/silasary/apworlds/refs/heads/main/recent.atom</id>
   <title>Recent APWorlds</title>
-  <updated>2026-08-29T01:28:44.273705+00:00</updated>
+  <updated>2026-08-29T12:01:34.460979+00:00</updated>
   <author>
     <name>Silasary</name>
   </author>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
-  <entry>
-    <id>https://github.com/thejoshwolfe/Archipelago/releases/tag/space-age-v3.0.3</id>
-    <title>Factorio: Space Age v3.0.3</title>
-    <updated>2026-08-25T19:44:35+00:00</updated>
-    <author>
-      <name>Berserker</name>
-    </author>
-    <author>
-      <name>Josh Wolfe</name>
-    </author>
-    <content># Factorio: Space Age apworld 3.0.3&#13;
-&#13;
-* Fix apworld being completely broken.&#13;
-&#13;
-download: https://github.com/thejoshwolfe/Archipelago/releases .&#13;
-general docs: https://github.com/thejoshwolfe/Archipelago/blob/space-age/worlds/factorio_space_age/docs/en_Factorio_Space_Age.md .&#13;
-setup guide: https://github.com/thejoshwolfe/Archipelago/blob/space-age/worlds/factorio_space_age/docs/setup_en.md .&#13;
-source code: https://github.com/thejoshwolfe/Archipelago/tree/space-age/worlds/factorio_space_age .</content>
-    <link href="https://github.com/thejoshwolfe/Archipelago/releases/tag/space-age-v3.0.3"/>
-  </entry>
-  <entry>
-    <id>https://github.com/fogmike/Archipelago_ManicMiners/releases/tag/v1.5.1</id>
-    <title>Manic Miners v1.5.1</title>
-    <updated>2026-08-25T20:05:05+00:00</updated>
-    <author>
-      <name>fogmike</name>
-    </author>
-    <content>Quick fix to address a specific bug interaction with Chief's Favourite Truck and LRRR - Rubble Trouble</content>
-    <link href="https://github.com/fogmike/Archipelago_ManicMiners/releases/tag/v1.5.1"/>
-  </entry>
-  <entry>
-    <id>https://github.com/JammyGeeza/CursedWords-Archipelago/releases/tag/v0.5.0</id>
-    <title>Cursed Words v0.5.0</title>
-    <updated>2026-08-25T21:58:30+00:00</updated>
-    <author>
-      <name>JammyGeeza</name>
-    </author>
-    <content>## Information&#13;
-This archipelago implementation is in **early development** and is in public pre-release for testing, so may not be complete and/or may contain bugs that heavily disrupt the experience. It is not advised to include this in large multiworlds at this time, so only do so at your own risk and inform your host beforehand.&#13;
-&#13;
-## Setup Guide&#13;
-Please visit the [Setup Guide](https://github.com/JammyGeeza/CursedWords-Archipelago#setup-guide) for instructions on how to install the mod client.&#13;
-&#13;
-## Issue / Bug Reporting&#13;
-If you experience issues that are not already on the [known issues list](https://github.com/JammyGeeza/CursedWords-Archipelago/issues/views/12865), please raise a new issue or post in the [Cursed Words Forum in the Archipelago Discord Server](https://discord.com/channels/731205301247803413/1499176806962692196)&#13;
-&#13;
-## Release Notes&#13;
-This release provides the following updates:&#13;
-### APWorld&#13;
-### Updates&#13;
-- Re-worked Sticker / Stamp requirements for Character Stage access rules&#13;
-  - Characters require a 5-Sticker and 5-Stamp Synergy with are treated as `progression` and are guaranteed in the item pool&#13;
-  - Players can customise the synergies with YAML options which overrides the preset synergies&#13;
-  - Access rules require XX% of both Stickers and Stamps Synergies for stage progression&#13;
-  - `guaranteed_stickers` and `guaranteed_stamps` removed as a consequence of this new functionality&#13;
-- Added locations for `Clear Boss / Encounter with X Grids Unused`&#13;
-- Added `Pinsanity` locations and YAML option&#13;
-- Added two Trap items `Force Grid Re-roll` and `Lose Money` with Trap Percentage and Weighting YAML options&#13;
-- Added Filler Weighting YAML options&#13;
-- Added YAML option to set maximum `Money Earned` locations&#13;
-- Added YAML option to set maximum `Word Length` locations&#13;
-- Added YAML option to set maximum `Word Score` locations&#13;
-- General location name re-wordings for better grouping and clarity&#13;
-- General YAML option description re-wordings for better clarity&#13;
-- Reduced starting 'common' Stickers / Stamps from 12 to 10&#13;
-### Fixes&#13;
-- Fixed options template generation issue&#13;
-- Updated `Shopsanity` access rule logic to no longer be gated by Stage 2&#13;
-### Client&#13;
-### Updates&#13;
-- Updated Location / Item mappings to support additions and changes in the APWorld&#13;
-- Save Slots in the menu now display the last known Slot Name and Locations Completed count&#13;
-### Fixes&#13;
-- Fixes an issue causing `Buy a Consumable Tile` location not checking&#13;
-- Fixes an issue causing some `Tilesanity` checks to be unreachable&#13;
-- Fixes an issue causing restocking the shop to be very slow when `Shopsanity` is enabled</content>
-    <link href="https://github.com/JammyGeeza/CursedWords-Archipelago/releases/tag/v0.5.0"/>
-  </entry>
-  <entry>
-    <id>https://github.com/vyneras/Archipelago/releases/tag/1.1.1</id>
-    <title>Pokemon FireRed and LeafGreen v1.1.1</title>
-    <updated>2026-08-25T21:59:01+00:00</updated>
-    <author>
-      <name>Vyneras</name>
-    </author>
-    <content>ROM CHECKSUM: `00939B09`&#13;
-&#13;
-[Setup Guide](https://github.com/vyneras/Archipelago/blob/1.1.1/worlds/pokemon_frlg/docs/setup_en.md)&#13;
-[Rom Changes](https://github.com/vyneras/Archipelago/blob/1.1.1/worlds/pokemon_frlg/docs/rom%20changes.md)&#13;
-&#13;
-**Bug Fixes**&#13;
-- Fixed an issue where the Itemfinder was not required for hidden items regardless of the `itemfinder_required` setting&#13;
-- Fixed an issue where UT would consider hidden items and dark caves as in logic when they weren't</content>
-    <link href="https://github.com/vyneras/Archipelago/releases/tag/1.1.1"/>
-  </entry>
-  <entry>
-    <id>https://github.com/threecrowsinatrenchcrowt/DrehmalAPWorld/releases/tag/v0.3.0-beta</id>
-    <title>Drehmal v0.3.0b0</title>
-    <updated>2026-08-25T22:13:09+00:00</updated>
-    <author>
-      <name>ThreeCrows, Deadlydiamond98</name>
-    </author>
-    <content># Drehmal Archipelago v0.3.0&#13;
-&#13;
-## Bugfixes:&#13;
-- Made tower unlock rewards thread safe&#13;
-- Now batch sends location check packets to Archipelago server&#13;
-- Implemented a more reliable fix for advancement rewards glitch&#13;
-- Prevented teleport trap's effect from sending players out of bounds&#13;
-- Fixed various typos&#13;
-- Fixed Aphelion deathlooping&#13;
-&#13;
-## Improvements:&#13;
-- Added randomized starting location&#13;
-- Two new completion goals:&#13;
-   - Added completion goal for reaching Drehmal's end credits room&#13;
-   - Added completion goal for reaching a certain Terminus unlock percentage&#13;
-- Added music randomizer option for Drehmal's custom soundtrack&#13;
-- Logic overhaul for vanilla and vanilla-like advancements&#13;
-- Moved Foundry to the Veldt for balancing purposes&#13;
-- Buffed the teleport trap substantially&#13;
-&#13;
-## Setup:&#13;
-&#13;
-### Required software:&#13;
-&#13;
-- [Drehmal APOTHEOSIS v2.2.2f for Minecraft Fabric 1.20.1](https://www.drehmal.net/downloads)&#13;
-- Additional mods:&#13;
-    - Drehmal Archipelago Mod v0.3.0&#13;
-    - [Koala Lib v1.2.14](https://modrinth.com/mod/koala_lib/version/1.2.14)&#13;
-    - [Unsafe World Random Access Detector v1.1.0](https://modrinth.com/mod/uwrad/version/1.1.0)&#13;
-- The hi_drehmal_rando datapack v0.3.0&#13;
-&#13;
-### Joining a Multiworld&#13;
-&#13;
-1. Install Drehmal v2.2.2f and its corresponding modpack (Note that Drehmal provides a custom installer, available on its downloads page, if you don't want to manually create the Fabric installation)&#13;
-2. Add the three additional mods listed above to the mods folder of Drehmal's Minecraft installation&#13;
-3. Go into the save file you're going to be playing on and replace the hi_drehmal.zip datapack with the hi_drehmal_rando.zip datapack at path [Fabric install]/saves/Drehmal APOTHEOSIS 2.2.2f/datapacks/hi_drehmal_rando.zip&#13;
-4. Launch Minecraft and enter the Drehmal world&#13;
-5. In the lobby room, before activating the first terminal, run the command /archipelago connect "[server name]:[port]" [player name]&#13;
-6. Have fun!&#13;
-&#13;
-### Rejoining an earlier game&#13;
-&#13;
-On reconnect, if your connection info hasn't changed, the mod should automatically reconnect you to the Archipelago server. Otherwise, run /archipelago disconnect and then run the connect command again with the new information.&#13;
-</content>
-    <link href="https://github.com/threecrowsinatrenchcrowt/DrehmalAPWorld/releases/tag/v0.3.0-beta"/>
-  </entry>
-  <entry>
-    <id>https://github.com/LiquidCat64/LiquidCatipelago/releases/tag/cvlod_v2.0.0</id>
-    <title>Castlevania - Legacy of Darkness v2.0.0</title>
-    <updated>2026-08-26T00:15:24+00:00</updated>
-    <author>
-      <name>LiquidCat64</name>
-    </author>
-    <content>It has been far too long since the last release! I didn't originally intend to spend so much time on this update, but then it kinda scope crept as I opted to get more, and more, and more stuff working. I hate the fact that I don't have anywhere near as much free time as I used to...&#13;
-&#13;
-You may notice that this release is now numbered x.y.z instead of the x.y like I've been using in every single prior apworld release that I've put out in the past. I decided to start moving to this more typical semantic versioning mainly to perhaps encourage myself to put out more primarly bugfix-oriented releases, without the shame of labeling them "hotfix 1, 2, 3", etc. Once upon a time, I used to see the highest digit in my apworld versions as the middle in the semver digits with "1.0.0" in my version meaning ready to merge into core AP. Admittedly there were days where I'd mentally flip flop back and forth on whether that should REALLY be the case or not, which is why I wasn't fully committed one way or the other. These days, however, I have far, far more doubts on whether I even want to merge any more of my worlds to begin with, so I now believe I've made up my mind and hotfix numbers being the lowest number wins! Expect to see subsequent apworld releases here numbered like this as well. Hopefully from now on I will remember to also update the world's manifest with each and every release...&#13;
-&#13;
-But enough of that, you are here for the changelog, so here we go (and buckle up, because this is looooooooong):&#13;
-&#13;
-### New Settings&#13;
-- `Permanent Sub-weapons` (true or false): Like the Permanent Powerups option, but for sub-weapons instead! Three Perma versions of each sub-weapon will be added to the item pool. The first instance of a weapon you find will "unlock" that weapon, and the second and third instances will permanently upgrade it to level 2 and 3 respectively even after dying. You can cycle through unlocked sub-weapons by pressing R + D-pad left/right, and adjust their levels with R + D-pad up/down. Also like the Permanent Powerups option, this will remove all regular instances of sub-weapons from the game, including from enemies. I *think* I got them all, but if you find any that I missed please let me know!&#13;
-- `Behemoth Drops` (true or false): Adds 7 items dropped by Behemoth's various body parts to the pool, the 6 chickens that would drop when they are destroyed with Holy Water and the beef that always drops when he's fully destroyed. Holy Water is not required to make any of the checks drop, and they will still be there if you were to leave and come back without picking them up. This can make clearing Castle Center fully a bit more worthwhile.&#13;
-- `Goddess Statue Hints` (true or false): Adds vague hints to the "statues of beautiful goddesses" text in Castle Center on where you can find your Magical Nitros and Mandragoras. The elevator room statue will have a hint on a Mandragora, the gear room one will have a hint for a Nitro, and the library one will have a hint for both of the other two instances needed for the basement seal crack. The hint in question will be a location group defined by the other world that the Item's location is a part of and whose world it's in. If it's part of no location group, only the player name will be specified. If it's local in your world, no player will be specified.&#13;
-- `Item Pool Difficulty` (easy, normal, or hard): Which in-game difficulty the slot's item distribution should be based on. If you are familiar with the Hard Item Pool option from the CV64 AP, that is exactly what this is. This one also lets you select Easy difficulty, however, because Easy Mode also has its own item distribution in this game (notably including several more Healing Kits). Normal mode is the default mode that the item pool in all prior versions of this apworld were based on up until this point.&#13;
-- `Castle Keep Warp Possible` (true or false): Whether the Castle Keep warp should be allowed to be a randomly chosen warp. If you don't like the thought of unlocking a warp straight to the end of the line (where you'd unlock a convenience warp anyway), you can disable it now.&#13;
-&#13;
-### Changes&#13;
-- `Dracula's Condition` was removed and `Big Crystal Required` (true or false) was added in its place. This is because you can now have multiple goal conditions active at the same time! You only need to set the Special2, required bosses, and the aftermentioned Big Crystal options to not 0 for them to apply alongside each other. Dracula's door will tell you every condition that you have active. Have fun with forever seeds wherein you need to collect a million Special2s AND beat every boss!&#13;
-- `Bosses Required` now goes up to 26. It turned out I forgot to add the Trophy event location for the Security Crystal, which is now rectified.&#13;
-- Properly added the AP logo items from the CV64 implementation! This time around, I touched them up to look less "warped" and also added Useful, Progression + Useful, and Trap items. What does a Trap item look like? I'll leave that to you to figure out, my dear readers...&#13;
-- Added many more text colors to the game, including item classification-specific ones that will highlight incoming and outgoing item names in the textbox pop-up. Cyan = filler, Indigo = useful, Plum = progression, Salmon = trap, and Yellow = progression + useful.&#13;
-- Made several improvements to the warp menu:&#13;
-  - Rather than limiting how far you can press down, it'll now block you from pressing A on any warps you can't use yet. Now you can see every warp you have from the start if you have more than 7.&#13;
-  - To make it more obvious that you have more warps than what's shown on the page, it now scrolls at the second-to-last element rather than the very last.&#13;
-  - The selection arrow is now the actual 3D spinning arrow used on every other menu rather than what it was before. You'll know it crashed if you see it stop spinning.&#13;
-  - Unselectable options now have their text darkened out.&#13;
-- The Rose Garden Key doors in the Hybrid Villa maze can now be unlocked from either side. I made this decision mainly to have it be more practical, considering unlocking the foyer Rose Garden door also unlocks said maze doors without needing to be on one side, which kinda doesn't work well with certain settings I want to add later...&#13;
-- Because some people wanted more of a reason to fight him, fighting Behemoth and the boss after him is now **required** to activate the Castle Center elevator. You still don't need to fight him to fulfill the Big Crystal goal objective. If you want to make it feel more worthwhile, you can also enable the new `Behemoth Drops` option.&#13;
-- Receiving items from the multiworld is now blocked when going through doors both to be more friendly to dropped previous sub-weapons and reduce the odds of a textbox popping right when you hit a loading zone.&#13;
-- The Special1, Special2, Trophy, and Big Crystal now all have proper menu descriptions giving info about how many there are and how many are required.&#13;
-- Changed "Oldreys Diary" to "Oldrey's Diary" (note the apostrophe) and made its menu description more verbose instead of it just being four letters.&#13;
-- Sub weapon shuffle should now only shuffle sub weapons amongst the actually active stages.&#13;
-- Added many, *many* option groups to try and keep things more organized.&#13;
-- Added a license file with all relevant attribution and licensing info (MIT with the AP logo being CC-BY-NC 4.0). I didn't want to do this initially, but due to certain bad actors in the AP community brought to my attention that shall not be named here, I have decided to add an additional usage term that this apworld shall not be included with or modified for AI slop projects. This world does NOT contain any AI slop code in it, nor do I ever want it to. Expect to see this be added to the licenses of all future apworld releases for all my other games as well!&#13;
-&#13;
-### Fixes&#13;
-- Fixed vampire Vincent stopping you during the castle escape sequence and causing you to fall and die if you didn't beat him prior to going into the final fights when `Vincent Fight Condition` was set to always.&#13;
-- Fixed instances of the "Trophy" textbox popup sometimes incorrectly displaying a sent item message if the last pickup you touched was a White Jewel.&#13;
-- The countdown number is now properly hidden in ALL instances of the HUD being hidden, including while shopping at Renon's and during the first part of the Henry escort intro cutscene where he's being chased.&#13;
-- Fixed the Foggy Lake ferryman cutscene repeating if you go back to the start of Foggy Lake after triggering the Waterway Lizard-men trio encounter.&#13;
-- Fixed the lower Castle Center countdown displaying in the Outer Wall end room.&#13;
-- Fixed the Castle Center starting room not properly leading into Castle Center if entered through the Villa coffin. Both this issue and the above one are related to the fact that this room and the Outer Wall room are the same room with different setups, and how I go about managing that...&#13;
-- Fixed the Thron Key gate incorrectly logically expecting the Archives Key to get past. Whoops!&#13;
-- The Villa chandelier now respawns if you leave and reenter the room after breaking it, so you can't permanently miss the items it drops if you didn't pick them all up the first time around.&#13;
-- The warp menu no longer crashes with 0 Special1s per warp, as part of the big revamp it got.&#13;
-- Fixed enabling/disabling the character's alternate costume in the warp menu not properly saving upon the next death/reload.&#13;
-- Fixed sent DeathLink messages at the Castle Keep stairs incorrectly saying you perished at Room of Clocks (which should only be the case if you died on one of the boss towers).&#13;
-&#13;
-I added/changed so much about this world that it's admittedly entirely possible I may have missed something. Part of the reason why this release took so long is because, as part of this, I put together a lot of systems just to make more features easier to add in the future. Very notably, I now have a system in place where I can add many, MANY items to the game, *without* replacing existing ones. Which is how quite a few things in this update were made, such as the perma weapons and AP items. Considering how tangled up in the code the pickups are with all the text spots throughout the game, I'm quite proud of it and I'm excited to do more with it in the future! Of course, with all these changes and additions, it's entirely possible some bugs may have slipped through, as thorough as I tried to be playtesting things to heck and back before releasing. It may be a while until I start doing serious feature development on this again because I still have Harmony of Dissonance in dire need of an update and I *really* wanna prioritize that next (I *was* working on it before I got ultra mega sidetracked with this update, whoops). I will still be doing bugfixes, though, so if you hit anything strange, let me know as always and I'll investigate. This release is incompatible with seeds generated on prior apworld versions, due to how I changed some things. Finish your seeds before updating! Have fun and multiworlding!</content>
-    <link href="https://github.com/LiquidCat64/LiquidCatipelago/releases/tag/cvlod_v2.0.0"/>
-  </entry>
-  <entry>
-    <id>https://github.com/brodieberger/MMZero3Archipelago/releases/tag/v0.3.3</id>
-    <title>Mega Man Zero 3 v0.3.3.post2</title>
-    <updated>2026-08-26T00:36:09+00:00</updated>
-    <author>
-      <name>brodieberger</name>
-    </author>
-    <content>Weapons are now progressive upgrades, minibosses are location checks, and graphical polish for everything implemented has been done. This is probably the last feature update for a while. The next big addition will be enemy randomization.&#13;
-&#13;
-[Check out the full readme before playing.](https://github.com/brodieberger/MMZero3Archipelago)&#13;
-&#13;
-# Features&#13;
-&#13;
-- Minibosses are now location checks. This was just needed to have more location checks for the new progressive weapon items.&#13;
-&#13;
-## Weapon Progression&#13;
-The four weapons are now progressive items, similar to the weapon XP system in Zero 1 and 2. The pool holds several copies of "Progressive Buster", "Progressive Z-Saber" and so on, and each copy you receive moves that weapon one step up its path.&#13;
-&#13;
-  | Weapon | Progressive Upgrades |&#13;
-  | --- | --- |&#13;
-  | Buster | weapon, semi charge, full charge, damage (+1, +2, +3) |&#13;
-  | Z-Saber | weapon, 2nd slash, 3rd slash, charged slash, damage (+1, +2, +3) |&#13;
-  | Recoil Rod | weapon, charged rod, damage (+1, +2, +3) |&#13;
-  | Shield Boomerang | weapon, charged throw, damage (+1, +2, +3) |&#13;
-&#13;
-The first copy gives you the weapon itself, the ones after it unlock that weapon's abilities, and the last three are attack power boosts (ripped from the E-Reader cards).&#13;
-&#13;
-The upgrade progress is shown in game as stars in the pause menu like in Zero 1 and 2.&#13;
-&#13;
-Randomize_weapons has been removed as an option. You can still give yourself each weapon to start with using the `starting_weapons` option.&#13;
-&#13;
-`starting_weapons: ['Buster', 'Z-Saber', 'Recoil Rod', 'Shield Boomerang']` &#13;
-&#13;
-## Graphical Changes&#13;
-&#13;
-- Items from Archipelago now show their own icon in the popup over Zero's head. The table is seen below. Each piece of art had to be downscaled and had their color palettes merged to share one 15 color sheet. If you are a pixel artist and want to do a better job, please feel free to do so, I'm not great at this.&#13;
-&lt;div align="center"&gt;&#13;
-  &lt;img width="600" alt="ap_icons" src="https://github.com/user-attachments/assets/4cf01bd8-fd44-43b3-b378-461dde028b9c" /&gt;&#13;
-&lt;/div&gt;&#13;
-&lt;br&gt;&#13;
-&#13;
-- The mission select screen was also graphically updated and given much more polish. &#13;
-  - The stage select art being lifted from the dialogue portraits for Omega, Crea, Prea, and Weil. &#13;
-  - Locked stages now show up with the TV static animation from the vanilla game.&#13;
-&#13;
-# Bug Fixes&#13;
-&#13;
-- The animation around unchecked 1-UPs was corrected to not use the same palette slot as Zero's dash afterimage.&#13;
-- Secret Disk 066 now requires mobility in logic. Fun fact: its the only collectable where having the frog chip actually matters.&#13;
-&#13;
-# Known bugs&#13;
-- There have been repeated issues of trackers reporting currently unobtainable items as obtainable. Most errors should be fixed now.&#13;
-- The item popup only shows one at a time, skipping multiple if they arrive at the same time. This might get fixed later.&#13;
-&#13;
-I hope to soon bring this world from unstable to stable, so report anything that seems off, not just bugs!</content>
-    <link href="https://github.com/brodieberger/MMZero3Archipelago/releases/tag/v0.3.3"/>
-  </entry>
-  <entry>
-    <id>https://github.com/dowlle/ctr-native-ap/releases/tag/v0.2.0-alpha5</id>
-    <title>Crash Team Racing v0.2.0a5</title>
-    <updated>2026-08-26T10:56:38+00:00</updated>
-    <author>
-      <name>Dowlle</name>
-    </author>
-    <content># CTR Archipelago 0.2.0 Alpha 5
-
-Alpha 5 is a focused correctness and graphics prerelease. The client and `ctr.apworld` are a matched pair, so install the apworld included in your platform archive before generating a seed and keep every player in the room on Alpha 5.
-
-For the complete player-facing 0.2.0 changelog, see the [0.2.0 release notes on Archipelago Pie](https://ap-pie.com/ctr/reference/0-2-0-release-notes).
-
-## Highlights
-
-- Render Scale can now be set to Original, 2X, 3X, 4X or Native.
-- Smooth Scaling and Texture Filtering are now player-facing options.
-- Blue Fire U-turns work while reserves are active.
-- Fixed Oxide's garage opening and the Final Challenge appearing before all configured goal requirements were complete.
-- Shuffled warp-pad access is repaired for seeds that do not require four Keys.
-- Gem Cup AP boxes now follow the physical warp-pad access of each cup leg.
-
-The complete combined candidate passed focused automated tests, fresh Linux AP and vanilla builds, a fresh Windows build, and an integrated Steam runtime pass. Text remains at the original UI resolution and can look soft at 4X or Native; higher-resolution text is future work rather than part of this release.
-
-See `README-ALPHA5.md` and `KNOWN-ISSUES.md` inside the archive for exact source identities, hashes, setup notes and the current attention list. CTR-AP does not ship Crash Team Racing game data.
-</content>
-    <link href="https://github.com/dowlle/ctr-native-ap/releases/tag/v0.2.0-alpha5"/>
-  </entry>
-  <entry>
-    <id>https://github.com/jjjj12212/Archipelago-BanjoTooie/releases/tag/V4.13.1</id>
-    <title>Banjo Tooie v4.13.1</title>
-    <updated>2026-08-26T14:12:14+00:00</updated>
-    <author>
-      <name>jjjj12212</name>
-    </author>
-    <author>
-      <name>g0goTBC</name>
-    </author>
-    <author>
-      <name>Austin</name>
-    </author>
-    <content># 4.13.1&#13;
-  - Fixes for the following:&#13;
-    - (Everdrive) receiving a Green Relic text fix (remove being taught how to use a Green Relic)&#13;
-    - (Emulator) Deathlink and Taglink AP tag enabled when they are enabled in the YAML&#13;
-    - (Emulator) Grunty taunts you when you die with deathlink enabled&#13;
-    - (Emulator) Taglink is working again</content>
-    <link href="https://github.com/jjjj12212/Archipelago-BanjoTooie/releases/tag/V4.13.1"/>
-  </entry>
   <entry>
     <id>https://github.com/barretg/Taskipelago/releases/tag/v1.0.1</id>
     <title>Taskipelago v1.0.1</title>
@@ -538,7 +229,7 @@ Fixes:&#13;
   </entry>
   <entry>
     <id>https://github.com/chpas0/Pikmin2Archipelago/releases/tag/v0.8.0</id>
-    <title>Pikmin 2 v0.8.0.post2</title>
+    <title>Pikmin 2 v0.8.0.post3</title>
     <updated>2026-08-27T02:57:06+00:00</updated>
     <author>
       <name>chpas</name>
@@ -582,7 +273,7 @@ Thanks to Sol for their help with tips on getting Memory Override to work, it ma
   </entry>
   <entry>
     <id>https://github.com/chpas0/Pikmin2Archipelago/releases/tag/v0.8.1</id>
-    <title>Pikmin 2 v0.8.1</title>
+    <title>Pikmin 2 v0.8.1.post2</title>
     <updated>2026-08-27T02:57:06+00:00</updated>
     <author>
       <name>chpas</name>
@@ -974,7 +665,7 @@ This patch provides the following fixes:&#13;
 &#13;
 --- &#13;
 &#13;
-AP Mod download: https://github.com/SilicDev/YohaneAPMod/releases/tag/v0.0.2&#13;
+AP Mod download: https://github.com/SilicDev/YohaneAPMod/releases/tag/v0.0.3&#13;
 Yohane BID mod loader download: https://github.com/SilicDev/YohaneBIDModLoader/releases/tag/v0.0.1</content>
     <link href="https://github.com/SilicDev/Archipelago/releases/tag/yohane_bitdb-v0.2.3"/>
   </entry>
@@ -1285,11 +976,191 @@ The engine is unchanged from v2.1.1.
   </entry>
   <entry>
     <id>https://github.com/FyreDay/Archipelago-MinaTheHollower/releases/tag/pre-v1.1.0-beta.1</id>
-    <title>Mina The Hollower v1.0.0r2</title>
+    <title>Mina The Hollower v1.0.0r3</title>
     <updated>2026-08-28T23:23:03+00:00</updated>
     <author>
       <name>FyreDay, Axertin, ZXavier</name>
     </author>
     <link href="https://github.com/FyreDay/Archipelago-MinaTheHollower/releases/tag/pre-v1.1.0-beta.1"/>
+  </entry>
+  <entry>
+    <id>https://github.com/soopercool101/Archipelago/releases/tag/YTGV.v0.7.0</id>
+    <title>Yellow Taxi Goes Vroom v0.7.0</title>
+    <updated>2026-08-29T01:19:12+00:00</updated>
+    <author>
+      <name>soopercool101</name>
+    </author>
+    <content>[Mod](https://github.com/soopercool101/YellowTaxiAP/releases/tag/v0.7.0) | [Setup Guide](https://github.com/soopercool101/Archipelago/blob/YTGV.v0.7.0/worlds/yellowtaxi/docs/setup_en.md)&#13;
+&#13;
+## v0.7.0 - The "Randomization" Update&#13;
+&#13;
+- Add Crash Test Industries, with full logic&#13;
+- Shuffle Flip O' Will now has a per-level option&#13;
+- New options:&#13;
+  - Shuffle Spin Attack: Separated from Shuffle Flip O' Will, whether Spin Attack should be shuffled into the pool&#13;
+  - Psycho Taxi Unlock Condition: Replaces Shuffle Psycho Taxi, closer matches the other levels&#13;
+  - Mosk's Rocket Unlock Condition: Replaces Shuffle Mosk's Rocket, closer matches the other levels&#13;
+  - Allow Jumping in Top-Down Sections: Allows jumping in areas like Crash Test Industries which usually do not allow it&#13;
+  - Quick Pickups: Allows bypassing the collectable dance&#13;
+  - Taxi Skin: Allow selecting from a variety of cosmetic taxi skins&#13;
+  - Level Shuffle Options:&#13;
+    - Use Separate Entrance Pools: Splits levels into three separate pools when randomizing&#13;
+    - Allow Shuffling Removed Levels: Allows shuffling in levels that would normally not be included by options&#13;
+    - Portal Order: Whether portals use the vanilla game, internal code, or a shuffled order&#13;
+    - Shuffle Granny's Island Levels: Whether the three Granny's Island levels will be shuffled&#13;
+    - Shuffle Time Trial Entrances: Whether Time Trial entrances will be shuffled&#13;
+    - Shuffle Rocket Entrance: Whether the Mosk's Rocket entrance should be shuffled&#13;
+    - Shuffle Psycho Taxi Entrance: Whether Psycho Taxi's entrance should be shuffled&#13;
+- Add new item groups for each level's moves&#13;
+- Universal Tracker now uses deferred entrances, and will not show what's behind an entrance until you reveal it in-game&#13;
+- Various logic changes</content>
+    <link href="https://github.com/soopercool101/Archipelago/releases/tag/YTGV.v0.7.0"/>
+  </entry>
+  <entry>
+    <id>https://github.com/TheLX5/Archipelago/releases/tag/mmx2-v2.0.5</id>
+    <title>Mega Man X2 v2.0.5</title>
+    <updated>2026-08-29T02:20:18+00:00</updated>
+    <author>
+      <name>lx5</name>
+    </author>
+    <content>finally&#13;
+# Info&#13;
+* [General Information](https://thelx5.github.io/mmx2/index.html)&#13;
+* [Setup Guide](https://thelx5.github.io/mmx2/setup.html)&#13;
+# Changes&#13;
+* Fixed Crystal Snail sometimes being marked as complete after completing the intro stage and then resetting the game</content>
+    <link href="https://github.com/TheLX5/Archipelago/releases/tag/mmx2-v2.0.5"/>
+  </entry>
+  <entry>
+    <id>https://github.com/Panguu/Archipelago-RaCSM/releases/tag/rac-size-matters/v0.4.15</id>
+    <title>Ratchet &amp; Clank: Size Matters v0.4.15</title>
+    <updated>2026-08-29T02:59:40+00:00</updated>
+    <author>
+      <name>Pangu</name>
+    </author>
+    <author>
+      <name>Amondo</name>
+    </author>
+    <author>
+      <name>ImJustATester</name>
+    </author>
+    <content>## RaC Size Matters APWorld rac-size-matters/v0.4.15
+
+**Branch:** main
+**Date:** 2026-08-29 03:41 UTC
+
+&lt;details&gt;
+&lt;summary&gt;&lt;strong&gt;Changes since rac-size-matters/v0.4.14&lt;/strong&gt;&lt;/summary&gt;
+
+- Merge branch 'main' of https://github.com/Panguu/Archipelago-RaCSM (d53ab5db)
+- fix(Rac5): location checks on incorrect planet, vendor logic purchase titans showing duplicate and being buggy (4645cdf6)
+- Fix README formatting and clarify Shrink Ray Skips (aae319e1)
+- Update README with design questions and Shrink Ray Skips (05b64ee1)
+
+&lt;/details&gt;
+
+**Full changelog and compare**: https://github.com/Panguu/Archipelago-RaCSM/compare/rac-size-matters/v0.4.14...rac-size-matters/v0.4.15
+
+### Notes
+This release was automatically generated from the **main** branch.
+Latest (main) releases are recommended, as pre-releases (staging) may contain experimental or in-progress changes.
+</content>
+    <link href="https://github.com/Panguu/Archipelago-RaCSM/releases/tag/rac-size-matters/v0.4.15"/>
+  </entry>
+  <entry>
+    <id>https://github.com/aurabot24/Archipelago-ALttPR/releases/tag/v1.5.0</id>
+    <title>The Legend of Zelda: A Link to the Past v1.5.0</title>
+    <updated>2026-08-29T03:58:19+00:00</updated>
+    <author>
+      <name>aurabot</name>
+    </author>
+    <content>* New option trap_appearance to customize how traps appear in-game.&#13;
+* Traps now appear as progression items by default&#13;
+* Fixed a bug where generation failed alongside some other APWorlds</content>
+    <link href="https://github.com/aurabot24/Archipelago-ALttPR/releases/tag/v1.5.0"/>
+  </entry>
+  <entry>
+    <id>https://github.com/solida1987/openttd-archipelago/releases/tag/v2.1.3</id>
+    <title>OpenTTD v2.2.0r2</title>
+    <updated>2026-08-29T04:59:28+00:00</updated>
+    <author>
+      <name>OpenTTD AP Team</name>
+    </author>
+    <content>Two questions this build can answer that the last one could not.
+
+At session start the game now reports what the player can ACTUALLY build, by asking IsEngineBuildable for every engine — the same function the build window asks:
+
+    [AP] Buildable right now: 5 (trains=1 road=3 ships=0 aircraft=1)
+    [AP]   buildable engine ids: 15 132 219 253 345
+
+And the five-second engine lock sweep now says when it takes something away, and how many engines it is protecting. That set lives only in memory and is never saved, so if it were ever empty during a session the sweep would quietly remove the player's whole fleet:
+
+    [AP] LockSweep: relocked N engine(s); AP-unlocked set holds M
+
+The engine is otherwise unchanged from v2.1.2.
+</content>
+    <link href="https://github.com/solida1987/openttd-archipelago/releases/tag/v2.1.3"/>
+  </entry>
+  <entry>
+    <id>https://github.com/solida1987/openttd-archipelago/releases/tag/v2.1.4</id>
+    <title>OpenTTD v2.2.0r3</title>
+    <updated>2026-08-29T05:33:52+00:00</updated>
+    <author>
+      <name>OpenTTD AP Team</name>
+    </author>
+    <content>Received items are actually applied now. Every item London relayed arrived carrying only its id — the name field was empty — and the code gave up on an empty name instead of resolving the id through slot_data's item_id_to_name table. Measured in a live session: five shop purchases and three stars all registered on the server, the items all came back, and not one was applied. No engine in the build list, no ferry, and a Cash Injection £200,000 that never became money. The starting vehicles masked it, because they are granted on a different path.
+
+An item that cannot be resolved is now said out loud in the console log instead of vanishing.
+
+The window title tells the truth. The version stamp comes from a .ap_version file that overrides git and had said v2.0.4 since the 20th; the packer now refuses an engine whose stamp does not match the release.
+
+If you load an existing save, your vehicles arrive on reconnect but already-consumed cash items do not — item replay skips consumables by design. Starting the seed's world fresh delivers everything, including the money.
+</content>
+    <link href="https://github.com/solida1987/openttd-archipelago/releases/tag/v2.1.4"/>
+  </entry>
+  <entry>
+    <id>https://github.com/CodeTriangle/CCMultiworldRandomizer/releases/tag/0.9.8-pre.1</id>
+    <title>CrossCode v0.9.8rc1</title>
+    <updated>2026-08-29T06:15:11+00:00</updated>
+    <author>
+      <name>CodeTriangle</name>
+    </author>
+    <content>## Changes to Mod&#13;
+&#13;
+* Added more functionality to the Archipelago menus (@CodeTriangle, #98).&#13;
+  * Text boxes now accept CTRL-V to paste and CTRL-U to clear.&#13;
+  * Text client now automatically jumps to the bottom.&#13;
+  * Text client can be scrolled one page at a time using L2/R2, and scrolled faster by holding R1 and using the right stick.&#13;
+&#13;
+### Internal Changes&#13;
+&#13;
+* Reformatted a large amount of input data (@Valkhiya, #93)&#13;
+&#13;
+## Changes to APWorld&#13;
+&#13;
+* Fixed one more instance of non-determinism, this time in the `pre_fill` function (@Gudf, CodeTriangle/Archipelago#27).&#13;
+  * This should ensure that generations with the same seed produce the same output.&#13;
+* Replaced logic conditions with pre-optimized lambdas (@CodeTriangle, CodeTriangle/Archipelago#24).&#13;
+  * This should speed up generation on large scales.&#13;
+&#13;
+### Internal Changes&#13;
+&#13;
+* Remove `LogicDict`, a legacy class used in logic, and replace it with a reference to the world itself (@CodeTriangle, CodeTriangle/Archipelago#28).</content>
+    <link href="https://github.com/CodeTriangle/CCMultiworldRandomizer/releases/tag/0.9.8-pre.1"/>
+  </entry>
+  <entry>
+    <id>https://github.com/solida1987/openttd-archipelago/releases/tag/v2.1.5</id>
+    <title>OpenTTD v2.3.0</title>
+    <updated>2026-08-29T06:40:22+00:00</updated>
+    <author>
+      <name>OpenTTD AP Team</name>
+    </author>
+    <content>The seed's settings are now locked once the world exists. Map size, economy, vehicle limits, station spread and forty-one other settings the seed decides were all still editable in the settings window during a session — and the change is saved, so it survived for the rest of the multiworld while the game quietly disagreed with everyone else's. All 45 are refused now, in SettingDesc::IsEditable, which every route to a setting goes through: the window greys the entry out, the console refuses, and a network client cannot push it either.
+
+Maximum train length and station spread stop over-promising. The engine stores both in a uint8_t and its own table declares max 255 — already raised from vanilla's 64. The world offered up to 1000 and 1024, and those were silently clamped on arrival, so asking for a 1000-tile train got 255 with no warning anywhere. Both options now end at 255, which is what the engine can actually deliver.
+
+Fast forward works again as a consequence of v2.1.4: Speed Boost is an item, and until items were applied at all it could never raise the limit.
+</content>
+    <link href="https://github.com/solida1987/openttd-archipelago/releases/tag/v2.1.5"/>
   </entry>
 </feed>
