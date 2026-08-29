@@ -1730,6 +1730,21 @@
       "title": "v3.8.8",
       "version_simple": "3.8.8",
       "world_version": "3.8.8"
+    },
+    "v3.8.9": {
+      "created_at": "2026-08-25T12:41:52Z",
+      "description": "Entrance shuffle exits now always lead back to the door you entered through. The return path used to live in session memory, which every save and quit wiped \u2014 so reloading inside a shuffled dungeon and walking out released you onto the dungeon's own surface, acts away from where you went in. The exit is now derived from the shuffle map itself, which never forgets: leave a dungeon and you stand where you entered, after a reload, after a death, every time. Walking out of town past a shuffled dungeon's surface no longer teleports you anywhere either \u2014 an exit only counts when you actually came from inside.\n\nThree entrances joined the shuffle that were silently sitting out: the Act 2 sewer trapdoor, the secret cow portal and Anya's red portal. Their \"came from town\" arrivals were being read as portal returns, so they always led to their vanilla dungeons \u2014 and the dungeons the shuffle had assigned them could not be entered at all. One of those, the Echo Chamber, was unreachable in every entrance-shuffle seed, together with its kill check and its hunt. All of it is reachable now, and the zone lock no longer kicks you out of a shuffled dungeon after a reload.\n\nThe game stops leaking graphics handles every time you return to the main menu. Six were lost per save-and-quit cycle \u2014 the five settings-button graphics and the help panel \u2014 which over a long session degrades and corrupts the UI. Found by KleinTimmi, who traced the reload path and proved the fix; thank you. A pile of dead code went out with it.\n",
+      "download_url": "https://github.com/solida1987/Diablo-II-Archipelago/releases/download/v3.8.9/diablo2_archipelago.apworld",
+      "has_manifest": true,
+      "hash_sha256": "9149d6bb8dea03f406028922ad02a650bda0e70945b2fe56b544f2500a654fdd",
+      "html_url": "https://github.com/solida1987/Diablo-II-Archipelago/releases/tag/v3.8.9",
+      "minimum_ap_version": "0.5.0",
+      "size": 81216,
+      "source_url": "https://api.github.com/repos/solida1987/Diablo-II-Archipelago",
+      "tag": "v3.8.9",
+      "title": "v3.8.9",
+      "version_simple": "3.8.9",
+      "world_version": "3.8.9"
     }
   }
 }
