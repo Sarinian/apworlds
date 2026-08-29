@@ -2,129 +2,11 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://raw.githubusercontent.com/silasary/apworlds/refs/heads/main/recent.atom</id>
   <title>Recent APWorlds</title>
-  <updated>2026-08-28T18:03:22.958615+00:00</updated>
+  <updated>2026-08-29T01:28:44.273705+00:00</updated>
   <author>
     <name>Silasary</name>
   </author>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
-  <entry>
-    <id>https://github.com/MnL-Modding/Piillomizer/releases/tag/v0.1.3</id>
-    <title>Mario and Luigi Dream Team v0.1.3</title>
-    <updated>2026-08-25T18:09:49+00:00</updated>
-    <author>
-      <name>Dimitri Bee</name>
-    </author>
-    <content>Hello, everyone! In probably the shortest turnaround I've ever had for an update, v0.1.3 is out!&#13;
-In this update, I:&#13;
-- Added 2 new starting locations&#13;
-- Separated Luiginary Works into 9 new abilities, each based on individual Luiginary works&#13;
-- Merged my client with @Nepply's official hardware client&#13;
-- Fixed a bug where multiple AP Attack Pieces in the same shop would cause it to bug out&#13;
-- Made the EXP multiplier even stronger&#13;
-Hope you enjoy, and have a great day!</content>
-    <link href="https://github.com/MnL-Modding/Piillomizer/releases/tag/v0.1.3"/>
-  </entry>
-  <entry>
-    <id>https://github.com/lastingParadox/Archipelago-CotND/releases/tag/v0.8.0</id>
-    <title>Crypt of the NecroDancer v0.8.0.post2</title>
-    <updated>2026-08-25T18:28:02+00:00</updated>
-    <author>
-      <name>lastingParadox</name>
-    </author>
-    <content>### Notes&#13;
-- **This update requires AP Redux mod v4.0.0 or newer**. The apworld and the mod changed significantly this release, and older mod versions will refuse to connect. The same applies in reverse&#13;
-- **In-progress multiworlds cannot be carried over to v0.8.0**. This update adds a variety of new locations types and reshapes the item pool. Finish your existing worlds before updating.&#13;
-&#13;
-### Changes&#13;
-- Refactored practically the entire APWorld logic (generation, items, locations, regions) to abide by recommendations provided by the community, APQuest's implementation specifically.&#13;
-  - I'm 99% certain generation is working as intended, but please reach out if something seems out of order!&#13;
-- Add option to include shrines as checks.&#13;
-  - Enabling this adds all available shrines to the item pool depending on enabled DLC. A shrine that has not been acquired yet will not generate mid-run. Upon first activation of the shrine, the check will be sent to the client. A shrine no character in your pool could ever trigger will not be included (Aria cannot access Shrine of Pain, for instance).&#13;
-- Add option to set how many items found mid-run will be considered as checks per zone. Default is 8, but can be increased to 25.&#13;
-  - Item generation chance (default 25%) makes a 25% chance for items generated on level load to instead be these per-zone item checks. Items can be found spawned in secret rooms, (non-flawless) chests, crates, barrels, and shops currently.&#13;
-- Add option to include flawless boss chests as checks per zone.&#13;
-- Add option to set how many rows of AP Lobby shop locations will generate in the multiworld. Default is 4, but can be increased to 25.&#13;
-  - Setting this value to -1 (or "auto") will leave the shop rows as-is: 8 rows without DLC enabled, 12 rows with all DLC enabled.&#13;
-- Add option to set how many progress locations exist per zone. Default is 2 (Floor 2 + Zone completion), but can be increased to 4 (Floors 1, 2, 3, and Zone completion).&#13;
-  - Personally, I'm a bit on the fence regarding this change; you're still required to go through the whole zone for all checks, so it feels like there's little benefit for this change aside from reducing location amounts in the multiworld. Considering changing this to not always include the Zone completion, which should alleviate having to play through the entirety of each zone as each character in the pool.&#13;
-- Add option to set speedrun time limits for getting All Zones location checks. Configurable for each character, default is 0 (disabled), but can be increased to 60 minutes per character.&#13;
-  - Any values set less than 3 minutes are increased to 3 minutes minimum.&#13;
-- Add diamond exchange rate option to determine how many diamonds are received on successful run completion. Default is 100 gold per diamond, but can be either reduced to 0 (disabled) or 1000.&#13;
-- Add option to handle DeathLinks when playing multiplayer: does each player dying send a DeathLink packet or only when all players die? Default is the latter.&#13;
-- Add +1 Red/Black/Purple Chest Per Zone and Progressive Gold Multiplier items.&#13;
-- Add 12 new filler items to the item pool: "Bomb", "3 Bombs", "Grenade", "Spare Potion", "Spare Coupon", "Spare Heart Transplant", "Answered Need", "Depth Skip", "Random Item", "Random Shrine", "Charmed Escort", "Fire Sale"&#13;
-  - Spare items spawn that item for the player but does not unlock it for generation mid-run. Answered Need and Depth Skip spawn a Scroll of Need and a Depth Scroll respectively.&#13;
-  - Random Item spawns any chest pool item, regardless of unlock. Random Shrine spawns any acquired shrine around the player.&#13;
-  - Charmed Escort spawns 3 random charmed enemies around the player(s). These can be minibosses and shopkeepers.&#13;
-  - Fire Sale makes all shops on the current floor 50% off.&#13;
-- Add 4 new traps to the item pool:&#13;
-  - Frank Trap (Amplified Required): Frankensteinway spawns in the level, similarly to Dead Ringer Trap&#13;
-  - Freddy Trap: Summons a passive Shopkeeper around each player&#13;
-  - Wall Pig Trap: Replaces tiles with a vacant left or right tile throughout the level 7% of the time with a Wall Pig facing in that respective direction. A minimum of 5 Wall Pigs will spawn regardless.&#13;
-  - Trap Trap: Replaces vacant floor tiles throughout the level at a 10% chance with traps, more weighted towards spike and confusion traps.&#13;
-- Adjusted starting inventory logic to always give items related to disabled settings (Materials, Progressive Access Keys, Character Room Key, Shrines)&#13;
-- Modified location growth to be interchangeable between per zone item checks (if greater than 0) and shop item checks (if greater than 0). If locations are still needed, then shop rows will grow regardless of their setting.&#13;
-- Supply item room item categories and associated items over to the mod from the client.&#13;
-- Fix character item requirements being tracked separately by the apworld and the mod. The client now supplies the mod all of the character item requirements.&#13;
-&#13;
-Please see the [setup file](https://github.com/lastingParadox/Archipelago-CotND/blob/crypt-of-the-necrodancer/worlds/cotnd/docs/setup_en.md) for getting started.&#13;
-&#13;
-Please inform me of any issues through the associated [Crypt of the NecroDancer channel in the Archipelago Discord](https://discord.com/channels/731205301247803413/1192775219740422176) or through [GitHub Issues](https://github.com/lastingParadox/Archipelago-CotND/issues).</content>
-    <link href="https://github.com/lastingParadox/Archipelago-CotND/releases/tag/v0.8.0"/>
-  </entry>
-  <entry>
-    <id>https://github.com/Trexounay/EnderLilies.Archipelago/releases/tag/endermagnolia-v0.1.6</id>
-    <title>Ender Magnolia v0.1.6</title>
-    <updated>2026-08-25T19:32:03+00:00</updated>
-    <author>
-      <name>Trex</name>
-    </author>
-    <content>**Archipelago** world for **Ender Magnolia**&#13;
-&#13;
-## Update&#13;
-- Logic update&#13;
-- Option to randomize entrances&#13;
-- Option to randomize enemies&#13;
-&#13;
-## Requirements&#13;
-- [Archipelago](https://github.com/ArchipelagoMW/Archipelago/releases)&#13;
-- [Ender Magnolia Randomizer](https://github.com/Trexounay/EnderMagnolia.Randomizer/releases/tag/endermagnolia-v0.1.6)&#13;
-&#13;
-## Current Features&#13;
-- 340 checks&#13;
-- 2 Goals: **Ending A** **Ending B**&#13;
-- Starting Skill option (except non breaking walls weapon)&#13;
-- Shuffle relic costs&#13;
-- Progressive Aptitudes&#13;
-- Start with heal/fast travel&#13;
-- min/max chapters&#13;
-- Central Elevator Fix option&#13;
-- Starting respite&#13;
-&#13;
-## Notes&#13;
-This is an early release and has not been extensively tested. Expect bugs and missing features, and please report any issues or feedback.</content>
-    <link href="https://github.com/Trexounay/EnderLilies.Archipelago/releases/tag/endermagnolia-v0.1.6"/>
-  </entry>
-  <entry>
-    <id>https://github.com/FyreDay/Archipelago-MinaTheHollower/releases/tag/pre-v1.0.1</id>
-    <title>Mina The Hollower v1.0.0r2</title>
-    <updated>2026-08-25T19:34:43+00:00</updated>
-    <author>
-      <name>FyreDay, Axertin, ZXavier</name>
-    </author>
-    <content>Features:&#13;
-- Add requirement for at least attack 3 and defense 3 for all boss fights&#13;
-- Add Ossex bike sewer map&#13;
-&#13;
-Fixes:&#13;
-&#13;
-- Fix MM image&#13;
-- Fix Armond Fight logic&#13;
-- Fix SB and NB connection,&#13;
-- Update Pinky map, move Pinky locations&#13;
-- Fix Ossex West Wall logic</content>
-    <link href="https://github.com/FyreDay/Archipelago-MinaTheHollower/releases/tag/pre-v1.0.1"/>
-  </entry>
   <entry>
     <id>https://github.com/thejoshwolfe/Archipelago/releases/tag/space-age-v3.0.3</id>
     <title>Factorio: Space Age v3.0.3</title>
@@ -1160,6 +1042,38 @@ Yohane BID mod loader download: https://github.com/SilicDev/YohaneBIDModLoader/r
       <name>Nolih</name>
     </author>
     <content>## What's Changed&#13;
+&#13;
+- Added new Ability Randomizer option!&#13;
+  - When enabled, the ability to carry (bombs, crates, etc) and turn objects (cranks, pivots) are locked behind checks&#13;
+- Change end goal configuration to allow any number of cubes from 32 to 64&#13;
+- Fixes for a few cube checks&#13;
+  - Parlor and Zu House QR anti-cube locations are now associated&#13;
+  - QR code map cube is now supported and associated with Watertower Secret&#13;
+- Many bugfixes, stability improvements, and quality of life improvements&#13;
+  - Item pickup detection is now much more reliable. Deviations in the item's position should no longer cause pickups to fail to be detected&#13;
+  - Fix incorrect graphics for locked doors&#13;
+  - Locked doors now update immediately when unlocked and no longer require reentering the room or using `reload`. Locked doors also turn into regular doors when unlocked rather than disappearing&#13;
+  - Fix softlock when getting Emotional Support while the camera is spiraling down&#13;
+  - Prevent Rotation Trap while in a flat room to prevent a softlock&#13;
+  - Fix "Memory stream could not be expanded"&#13;
+  - Show the HUD when you receive an item that changes your cube count instead of when you pick up an item&#13;
+  - Fix 8 bit cube assemble animation happening if you have 7 bits and pick up a bit&#13;
+  - Improve stability of `connect` and `disconnect` commands&#13;
+  - Fix item spam after connecting&#13;
+  - Fix incorrect number of cubes in the Hex Rebuild and wrong ending cutscene due to auto collection&#13;
+  - Handle receiving collected locations (e.g. unlocked via auto collection or `/send_location`)&#13;
+- Any configuration that ends up with more items than available slots will now put filler items into your starting inventory to ensure all items are obtainable&#13;
+  - The number of Golden Cubes that can be replaced with bits has been raised to 16 (the vanilla value)&#13;
+  - When not shuffling clock antis, those locations are now fully removed from the game&#13;
+- Rename some doors to reduce confusion&#13;
+  - "Tree Door Unlocked" -&gt; "Tree Crumble Door Unlocked"&#13;
+  - "Sewer Hub Door Unlocked" -&gt; "Sewer QR Door Unlocked"&#13;
+  - "Sewer Pillars Door Unlocked" -&gt; "Sewer Fork Door Unlocked"&#13;
+- Compatibility with HAT 2.0&#13;
+&#13;
+(Credit to @thearst3rd for compiling this list!)&#13;
+&#13;
+## Pull Requests Merged&#13;
 * Associate Parlor and Zu House QR anti-cube locations by @wataniyob in https://github.com/nhyldmar/fez-ap/pull/15&#13;
 * Build System Improvements by @thearst3rd in https://github.com/nhyldmar/fez-ap/pull/7&#13;
 * Support a ranged number of cubes for the end goal by @thearst3rd in https://github.com/nhyldmar/fez-ap/pull/18&#13;
@@ -1175,6 +1089,37 @@ Bugs should either be raised as issues here or tracked on the bugtracker here:&#
 &#13;
 **Full Changelog**: https://github.com/nhyldmar/fez-ap/compare/v0.5.0...v0.6.0</content>
     <link href="https://github.com/nhyldmar/fez-ap/releases/tag/v0.6.0"/>
+  </entry>
+  <entry>
+    <id>https://github.com/Dinopony/ArchipelagoOoS/releases/tag/oos-22.0.0</id>
+    <title>The Legend of Zelda - Oracle of Seasons v22.0.0</title>
+    <updated>2026-08-28T14:11:24+00:00</updated>
+    <author>
+      <name>Dinopony</name>
+    </author>
+    <author>
+      <name>Ishigh</name>
+    </author>
+    <content>## 🗳️ New Options&#13;
+- Added a start position option, that contains north horon and sunken city for now&#13;
+&#13;
+## ⏫ Miscellaneous Improvements&#13;
+- Shops items can now be bought more than once if it is local and makes sense to be bought more than once (potions, ore chunks, rupees)&#13;
+- Owl hints now try to give items that appear later in logic, and should stop constantly telling you how to get what you already have&#13;
+- You can now always put the 4 jewels in their slots if you want&#13;
+- Subrosia digging spots are now permanently dug up&#13;
+- Added a way to warp back to the ship after giving the bell to the pirate captain&#13;
+&#13;
+## 🧠 Logic&#13;
+- Added logic requiring some amounts of heart containers before beating some bosses or doing skips. The amount depends on the logic difficulty&#13;
+- Breaking the blocks to the goron chest with bombchus is now hard logic&#13;
+- Added logic to jump on the button in d8, for the armos chest&#13;
+- Added bombchu jumps to hell logic (thanks omega)&#13;
+&#13;
+## 🛠️ Bugfixes&#13;
+- Moved the mt cucco warp to between tarm ruins and sunken city&#13;
+- Fixed Switch Hook allowing to jump at the same time</content>
+    <link href="https://github.com/Dinopony/ArchipelagoOoS/releases/tag/oos-22.0.0"/>
   </entry>
   <entry>
     <id>https://github.com/dannybonz/ae2_archipelago/releases/tag/v1.3.0</id>
@@ -1275,5 +1220,76 @@ However to see the new models on an old seed you will need to run `/rm_tmp` in y
 [Download](https://github.com/Miiroun/Archipelago-NewSuperMarioBrosWii/releases/tag/v0.3.1)&#13;
 [Setup Guide](https://github.com/Miiroun/Archipelago-NewSuperMarioBrosWii/blob/NSMBW/worlds/nsmbw/docs/setup_en.md)</content>
     <link href="https://github.com/Miiroun/Archipelago-NewSuperMarioBrosWii/releases/tag/v0.3.1"/>
+  </entry>
+  <entry>
+    <id>https://github.com/Miiroun/Archipelago-NewSuperMarioBrosWii/releases/tag/v0.3.2</id>
+    <title>NSMBW v0.3.2</title>
+    <updated>2026-08-28T16:42:52+00:00</updated>
+    <author>
+      <name>Miiroun</name>
+    </author>
+    <content># New Super Mario Bros Wii v0.3.2&#13;
+&#13;
+&#13;
+## Fixes&#13;
+- Broke the patcher in 0.3.1, this fixes it.&#13;
+&#13;
+## Backwards compatibility&#13;
+This update is compatible with seeds generated on 0.3.0 and 0.3.1.&#13;
+&#13;
+&#13;
+## Links&#13;
+[Download](https://github.com/Miiroun/Archipelago-NewSuperMarioBrosWii/releases/tag/v0.3.2)&#13;
+[Setup Guide](https://github.com/Miiroun/Archipelago-NewSuperMarioBrosWii/blob/NSMBW/worlds/nsmbw/docs/setup_en.md)</content>
+    <link href="https://github.com/Miiroun/Archipelago-NewSuperMarioBrosWii/releases/tag/v0.3.2"/>
+  </entry>
+  <entry>
+    <id>https://github.com/solida1987/openttd-archipelago/releases/tag/v2.1.2</id>
+    <title>OpenTTD v2.2.0</title>
+    <updated>2026-08-28T19:49:27+00:00</updated>
+    <author>
+      <name>OpenTTD AP Team</name>
+    </author>
+    <content>The seed can be much longer now. Ruin Pool Size goes to 500 and Utility Count to 300, which takes a seed from around 355 checks to over a thousand. Ruins are the only setting that adds real content — every other location is carved out of the same item pool.
+
+Fixed: pre_fill removed every trap and utility item from the pool but placed only as many as there were non-shop locations. The surplus was dropped, and each dropped item left a location nothing could fill. Generation then died with "Unable to fill all locations", naming shop slots that were not the cause.
+
+Speed Boost Count is documented honestly: the game caps fast-forward at 300%, so 20 items is the maximum that does anything.
+
+The engine is unchanged from v2.1.1.
+</content>
+    <link href="https://github.com/solida1987/openttd-archipelago/releases/tag/v2.1.2"/>
+  </entry>
+  <entry>
+    <id>https://github.com/cuberyl-catastrophe/Archipelago/releases/tag/iosas-ap-v2.0.3b</id>
+    <title>IslesOfSeaAndSky v2.0.3b0</title>
+    <updated>2026-08-28T21:57:08+00:00</updated>
+    <author>
+      <name>KimDelicious</name>
+    </author>
+    <author>
+      <name>Angrevol</name>
+    </author>
+    <author>
+      <name>Woli</name>
+    </author>
+    <author>
+      <name>Cuberyl</name>
+    </author>
+    <content>Changes:&#13;
+- Adds room tracking for Poptracker&#13;
+- Fixes the obsidian quest complete check not being sent when collected in game (caused by an incorrect location id)&#13;
+- Fixes a logic issue with the ancient key in Stone Dungeon D2&#13;
+- Update the documents in the apworld to be more up to date with the current version</content>
+    <link href="https://github.com/cuberyl-catastrophe/Archipelago/releases/tag/iosas-ap-v2.0.3b"/>
+  </entry>
+  <entry>
+    <id>https://github.com/FyreDay/Archipelago-MinaTheHollower/releases/tag/pre-v1.1.0-beta.1</id>
+    <title>Mina The Hollower v1.0.0r2</title>
+    <updated>2026-08-28T23:23:03+00:00</updated>
+    <author>
+      <name>FyreDay, Axertin, ZXavier</name>
+    </author>
+    <link href="https://github.com/FyreDay/Archipelago-MinaTheHollower/releases/tag/pre-v1.1.0-beta.1"/>
   </entry>
 </feed>
