@@ -2,40 +2,11 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://raw.githubusercontent.com/silasary/apworlds/refs/heads/main/recent.atom</id>
   <title>Recent APWorlds</title>
-  <updated>2026-08-29T12:01:34.460979+00:00</updated>
+  <updated>2026-08-29T16:02:17.076313+00:00</updated>
   <author>
     <name>Silasary</name>
   </author>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
-  <entry>
-    <id>https://github.com/barretg/Taskipelago/releases/tag/v1.0.1</id>
-    <title>Taskipelago v1.0.1</title>
-    <updated>2026-08-26T15:19:26+00:00</updated>
-    <author>
-      <name>barretg</name>
-    </author>
-    <content>Quick patch to fix a couple bugs with bingo mode, namely duplicate items and an issue involving the center cell.&#13;
-&#13;
-## Known Issues&#13;
-* Universal Tracker is unhappy with the structure of the datapackage because of the dynamic nature of Taskipelago's location names. This is aimed to be resolved in a future patch. This is an issue specifically with multiple taskipelago worlds in a single multiworld with shared item or location names.</content>
-    <link href="https://github.com/barretg/Taskipelago/releases/tag/v1.0.1"/>
-  </entry>
-  <entry>
-    <id>https://github.com/TheLX5/Archipelago/releases/tag/mmx2-v2.0.4</id>
-    <title>Mega Man X2 v2.0.4</title>
-    <updated>2026-08-26T18:30:29+00:00</updated>
-    <author>
-      <name>lx5</name>
-    </author>
-    <content>even more fixes&#13;
-# Info&#13;
-* [General Information](https://thelx5.github.io/mmx2/index.html)&#13;
-* [Setup Guide](https://thelx5.github.io/mmx2/setup.html)&#13;
-# Changes&#13;
-* Fixed Wire Sponge granting its weapon upon defeat&#13;
-* Fixed received DamageLink packets during cutscenes locking the player in place until they got hit again</content>
-    <link href="https://github.com/TheLX5/Archipelago/releases/tag/mmx2-v2.0.4"/>
-  </entry>
   <entry>
     <id>https://github.com/EdricY/Bouncy-Loot-God/releases/tag/experiment-3</id>
     <title>Borderlands 2 v3</title>
@@ -1162,5 +1133,31 @@ Maximum train length and station spread stop over-promising. The engine stores b
 Fast forward works again as a consequence of v2.1.4: Speed Boost is an item, and until items were applied at all it could never raise the limit.
 </content>
     <link href="https://github.com/solida1987/openttd-archipelago/releases/tag/v2.1.5"/>
+  </entry>
+  <entry>
+    <id>https://github.com/solida1987/openttd-archipelago/releases/tag/v2.1.6</id>
+    <title>OpenTTD v2.4.0</title>
+    <updated>2026-08-29T13:01:27+00:00</updated>
+    <author>
+      <name>OpenTTD AP Team</name>
+    </author>
+    <content>Maps can be 4096x4096. That is the engine's own ceiling — map_type.h declares MAX_MAP_SIZE_BITS = 12, and the two axes are validated independently, so nothing stood in the way except the world only ever offering 2048. Sixteen point seven million tiles: generation takes minutes and the map alone wants gigabytes, so it is offered rather than recommended.
+
+Known cost on a map that size: the God of Wackens punishment levels 4 and 5 walk every tile to find your rail. With Wrath enabled on 4096x4096 that is a visible pause each time he strikes. Ruins and stars are unaffected — they pick random tiles rather than scanning.
+</content>
+    <link href="https://github.com/solida1987/openttd-archipelago/releases/tag/v2.1.6"/>
+  </entry>
+  <entry>
+    <id>https://github.com/MaragonMH/Archipelago/releases/tag/XenoX0.2.6</id>
+    <title>Xenoblade X v0.2.5r2</title>
+    <updated>2026-08-29T14:39:30+00:00</updated>
+    <author>
+      <name>Maragon</name>
+    </author>
+    <author>
+      <name>Nina</name>
+    </author>
+    <content>- Remove the limit for affinity quests</content>
+    <link href="https://github.com/MaragonMH/Archipelago/releases/tag/XenoX0.2.6"/>
   </entry>
 </feed>
