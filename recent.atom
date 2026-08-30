@@ -2,87 +2,11 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://raw.githubusercontent.com/silasary/apworlds/refs/heads/main/recent.atom</id>
   <title>Recent APWorlds</title>
-  <updated>2026-08-30T11:01:18.465055+00:00</updated>
+  <updated>2026-08-30T15:51:06.079224+00:00</updated>
   <author>
     <name>Silasary</name>
   </author>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
-  <entry>
-    <id>https://github.com/SilicDev/Archipelago/releases/tag/scds-v0.2.4</id>
-    <title>Sonic Colours (DS) v0.2.4</title>
-    <updated>2026-08-26T22:01:49+00:00</updated>
-    <author>
-      <name>SilicDev</name>
-    </author>
-    <content>Game Patch Hotfix&#13;
-**Full Changelog**: https://github.com/SilicDev/Archipelago/compare/scds-v0.2.3...scds-v0.2.4&#13;
-&#13;
-**Important**: Currently only a EU ROM with the md5 hash `406514E483EE092A89F4298F59FD53A9` is supported&#13;
-This game is played via the BizhawkClient using the `connector_bizhawk_generic.lua`&#13;
-&#13;
-Unfortunately due to an oversight during release building a broken dev patch slipped into the release</content>
-    <link href="https://github.com/SilicDev/Archipelago/releases/tag/scds-v0.2.4"/>
-  </entry>
-  <entry>
-    <id>https://github.com/silent-destroyer/tunic-randomizer/releases/tag/5.0.2</id>
-    <title>TUNIC v5.0.2</title>
-    <updated>2026-08-27T02:05:09+00:00</updated>
-    <author>
-      <name>silent-destroyer</name>
-    </author>
-    <author>
-      <name>ScipioWright</name>
-    </author>
-    <content>### Backwards compatibility with existing seeds: &#13;
-- Single Player: ❌&#13;
-- Archipelago: ✅&#13;
-  - The tunic apworld was updated in this version&#13;
-&#13;
-# Changes&#13;
-- Adjusted how Fox Prince determines entrance choices to hopefully improve performance in late game when there are fewer entrances remaining.&#13;
-- Fixed a freeze that could happen when choosing entrances in Fox Prince if Laurels were set to 10 Fairies.&#13;
-- Fixed a bug with Mystery Seeds where it could enable Fox Prince but _not_ Entrance Rando, causing various issues and softlocks.&#13;
-- Fixed a few instances of fairies in Ruined Atoll and Ziggurat that wouldn't aggro unless you threw a bomb or brought other enemies close to them; they should now wake up just from walking near them.&#13;
-- Various enemy soul-related logic fixes in the apworld:&#13;
-  - Shop checks now properly require the rudeling soul&#13;
-  - Bomb walls could rarely require the wrong enemy soul if ice grappling logic was set to hard&#13;
-  - The lower frog in the frog stairway scene could sometimes appear as in logic without the Ladders to Frog's Domain or the Magic Orb</content>
-    <link href="https://github.com/silent-destroyer/tunic-randomizer/releases/tag/5.0.2"/>
-  </entry>
-  <entry>
-    <id>https://github.com/vgm5/Night_Of_100_Frights_ap_world/releases/tag/Release_1_3_10</id>
-    <title>Scooby-Doo! Night of 100 Frights v10</title>
-    <updated>2026-08-27T02:39:10+00:00</updated>
-    <author>
-      <name>vgm5</name>
-    </author>
-    <content># Bugfix Release&#13;
-&#13;
-## Starting Item Filling&#13;
-- Fixed an issue where if a starting item is provided by a player yaml the generation would fail</content>
-    <link href="https://github.com/vgm5/Night_Of_100_Frights_ap_world/releases/tag/Release_1_3_10"/>
-  </entry>
-  <entry>
-    <id>https://github.com/FyreDay/Archipelago-MinaTheHollower/releases/tag/v1.0.1</id>
-    <title>Mina The Hollower v1.0.0r2</title>
-    <updated>2026-08-27T02:48:25+00:00</updated>
-    <author>
-      <name>FyreDay, Axertin, ZXavier</name>
-    </author>
-    <content>Features:&#13;
-- Add requirement for at least attack 3 and defense 3 for all boss fights in addition to combat logic&#13;
-- Add Ossex bike sewer map&#13;
-&#13;
-Fixes:&#13;
-- Fixed some combat logic mismatch with roses and defeats&#13;
-- Fix MM image&#13;
-- Fix Armond Fight logic&#13;
-- Fix SB and NB connection,&#13;
-- Update Pinky map, move Pinky locations&#13;
-- Fix Ossex West Wall logic&#13;
-- Fix Loners Landing Requiring bounce for a 3 distance jump</content>
-    <link href="https://github.com/FyreDay/Archipelago-MinaTheHollower/releases/tag/v1.0.1"/>
-  </entry>
   <entry>
     <id>https://github.com/chpas0/Pikmin2Archipelago/releases/tag/v0.8.0</id>
     <title>Pikmin 2 v0.8.0.post2</title>
@@ -1248,6 +1172,30 @@ For a full list of area requirements of requests, you can reference this [Pasteb
     <link href="https://github.com/Mekurushi/Archipelago_Pokepark/releases/tag/1.2.7"/>
   </entry>
   <entry>
+    <id>https://github.com/nhyldmar/fez-ap/releases/tag/v0.6.1</id>
+    <title>Fez v0.6.1</title>
+    <updated>2026-08-30T09:10:35+00:00</updated>
+    <author>
+      <name>Nolih</name>
+    </author>
+    <content>## What's Changed&#13;
+- Refactor of patching code under `PatchManager`&#13;
+- Hotfixes to APWorld&#13;
+  - Replacement of sets with lists to store world data and sort region data before placing in world -&gt; Solves issues with world generation determinism&#13;
+  - Fix logic for access to Telescope and Observatory Cube: Check for either "Turn Objects" or for active link door between Throne and Observatory (which puts Gomez at the Telescope entrance level)&#13;
+    - Link doors are activated once the rooms holding both sides are visited, so the Observatory side of link door can be activated just by entering Observatory from Zu City Ruins&#13;
+&#13;
+## Pull Requests Merged&#13;
+* Update APWorld to v0.6.1 by @wataniyob in https://github.com/nhyldmar/fez-ap/pull/29&#13;
+* Refactor patches into PatchManager by @thearst3rd in https://github.com/nhyldmar/fez-ap/pull/24&#13;
+&#13;
+Bugs should either be raised as issues here or tracked on the bugtracker here:&#13;
+https://docs.google.com/spreadsheets/d/1l2KPbde1qFznVFmOZbg8Ee7_sfi5h65sCRZXVndfLwk/edit?usp=sharing&#13;
+&#13;
+**Full Changelog**: https://github.com/nhyldmar/fez-ap/compare/v0.6.0...v0.6.1</content>
+    <link href="https://github.com/nhyldmar/fez-ap/releases/tag/v0.6.1"/>
+  </entry>
+  <entry>
     <id>https://github.com/Satisha10/APwotw_release/releases/tag/v0.6.5</id>
     <title>Ori and the Will of the Wisps v0.6.5</title>
     <updated>2026-08-30T09:16:48+00:00</updated>
@@ -1261,5 +1209,102 @@ Fixed bugs:&#13;
 - Fix Teleporters not always being used in the logic.&#13;
 - Fix some `no_combat` options that were not taken into account in the logic.</content>
     <link href="https://github.com/Satisha10/APwotw_release/releases/tag/v0.6.5"/>
+  </entry>
+  <entry>
+    <id>https://github.com/jordansds/Archipelago_TWW3_Alt/releases/tag/v0.10.19</id>
+    <title>Total War Warhammer 3 v0.10.18r2</title>
+    <updated>2026-08-30T11:08:24+00:00</updated>
+    <author>
+      <name>jordansds</name>
+    </author>
+    <content>Bugfixes&#13;
+&#13;
+**Full Changelog**: https://github.com/jordansds/Archipelago_TWW3_Alt/compare/v0.10.18...v0.10.19&#13;
+&#13;
+[Submod to allow recruitment of units without buildings](https://github.com/jordansds/TWW3-Recruit-Without-Buildings/releases/tag/v1.0.0)&#13;
+</content>
+    <link href="https://github.com/jordansds/Archipelago_TWW3_Alt/releases/tag/v0.10.19"/>
+  </entry>
+  <entry>
+    <id>https://github.com/nielrenned/PokemonSnap_Archipelago/releases/tag/v0.6.2</id>
+    <title>Pokemon Snap v0.6.0r2</title>
+    <updated>2026-08-30T12:28:19+00:00</updated>
+    <author>
+      <name>ArsonAssassin</name>
+    </author>
+    <author>
+      <name>SomeJakeGuy</name>
+    </author>
+    <author>
+      <name>gerbiljames</name>
+    </author>
+    <author>
+      <name>nielrenned</name>
+    </author>
+    <author>
+      <name>cobyw</name>
+    </author>
+    <content>## What's Changed&#13;
+* Use Archipelago repo to build apworld file&#13;
+* Fix Universal Tracker bugs&#13;
+* Fix PKMN Report Count Logic</content>
+    <link href="https://github.com/nielrenned/PokemonSnap_Archipelago/releases/tag/v0.6.2"/>
+  </entry>
+  <entry>
+    <id>https://github.com/silasary/APxiv/releases/tag/0.31.2</id>
+    <title>Final Fantasy XIV v0.31.2</title>
+    <updated>2026-08-30T13:36:59+00:00</updated>
+    <author>
+      <name>silasary</name>
+    </author>
+    <content>* Fixed bug where logic thought you could do duties as a Disciple of the Hand or Land.
+* This confused UT, but hopefully shouldn't have caused any unbeatable seeds.
+* That said, if you genned on 0.31.1, and your Fisher is higher than any of your combat classes... You may have to cheat some locations.
+(Only fisher though, because the rest of them will always be filler.)</content>
+    <link href="https://github.com/silasary/APxiv/releases/tag/0.31.2"/>
+  </entry>
+  <entry>
+    <id>https://github.com/solida1987/openttd-archipelago/releases/tag/v2.2.0</id>
+    <title>OpenTTD v2.5.0</title>
+    <updated>2026-08-30T14:01:24+00:00</updated>
+    <author>
+      <name>OpenTTD AP Team</name>
+    </author>
+    <content>**The seed's settings now reach the game.** World generation is deferred by a
+turn of the main loop, and the NewGRF scan's config reload landed in that gap
+and overwrote everything the seed had chosen — train length, station spread,
+vehicle limits and the rest, which were then baked into the savegame. The
+settings are applied again at the moment the world is built, and a world
+generated with the wrong values is repaired when it is loaded.
+
+**Engine**
+- Reconnecting mid-session no longer replays every item (double money,
+  re-fired traps) and no longer loses mission progress.
+- Infrastructure locks only bind the player — towns can grow their roads and
+  industries can level ground again.
+- Server-synced missions and the Mission Check task reward now count toward
+  shop and tier unlocks.
+- Trap timers no longer run while paused; your own DeathLink no longer
+  bounces back onto you; the Colby event can no longer stall permanently.
+- Shop hints are requested at session start, so slots can show who holds what.
+
+**apworld 2.5.0** — new seeds need this version; existing seeds still play.
+- Every goal is clamped to what the seed can actually supply: missions,
+  vehicles, town counts.
+- Multiplayer mode really removes ruins, stars, Colby and demigods now.
+- Missions and Colby only name cargo that exists in the chosen landscape and
+  FIRS economy.
+- An unlock can no longer be placed behind the tier it unlocks.
+
+**Plugin 1.5.0** — needs launcher 3.21.2 or newer.
+- Standalone sessions connect properly; a game crash during startup no longer
+  hangs the launcher; a fresh install gets ruins and stars in its first seed.
+- The plugin source is back in this repository, under `plugin/`.
+
+This release is machine-verified (generation proven at the option extremes)
+but has not yet been played through — see KNOWN_BUGS.md, and report anything
+on BetaHub.
+</content>
+    <link href="https://github.com/solida1987/openttd-archipelago/releases/tag/v2.2.0"/>
   </entry>
 </feed>
