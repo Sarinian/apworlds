@@ -2,222 +2,11 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://raw.githubusercontent.com/silasary/apworlds/refs/heads/main/recent.atom</id>
   <title>Recent APWorlds</title>
-  <updated>2026-08-30T15:51:06.079224+00:00</updated>
+  <updated>2026-08-30T20:19:14.101108+00:00</updated>
   <author>
     <name>Silasary</name>
   </author>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
-  <entry>
-    <id>https://github.com/chpas0/Pikmin2Archipelago/releases/tag/v0.8.0</id>
-    <title>Pikmin 2 v0.8.0.post2</title>
-    <updated>2026-08-27T02:57:06+00:00</updated>
-    <author>
-      <name>chpas</name>
-    </author>
-    <content>**NOTE: This mod is still in the testing phase. Play at your own risk.**&#13;
-**NOTE 2: Games generated on earlier versions will NOT work on this version.**&#13;
-**NOTE 3: Setup for this version is much different (and hopefully much simpler) than previous versions - please reread the setup guide before playing!**&#13;
-**NOTE 4: This release has been patched as of 8/27/26 at 1:49 PM UTC - please redownload if downloaded before then.**&#13;
-&#13;
-## Changelog&#13;
-- Fix a bug that could cause generation to fail if multiple Pikmin 2 players were in a game (thank you KingDragonite for finding and fixing this)&#13;
-- Clarify the error message printed when the filler items dictionary is empty (thank you KingDragonite for finding and fixing this)&#13;
-- Completely rehaul the sending of items from the game to the client&#13;
-  - The save file path is no longer needed&#13;
-  - Linking now occurs at the title screen&#13;
-  - Linking works from any file, not just the leftmost one&#13;
-  - Linking works on Day 1&#13;
-  - Items can be received in menus and cutscenes (excluding the world map)&#13;
-  - Most crashes (e.g., collecting the Utter Scrap location on Day 2) are fixed&#13;
-  - **Memory Override is now required for the game to run properly**&#13;
-  - This may be buggy on Linux; please let me know if you encounter any issues&#13;
-- Completely rehaul the progress restore so that the save file is not necessary&#13;
-  - The duplicate item receipt bug should be permanently squashed&#13;
-- Enemy Randomizer and Boss + Enemy Randomizer now work on the overworld&#13;
-  - May still have lingering issues - please report any crashes with this setting&#13;
-- Add new YAML option: Boss + Enemy Rando Locations&#13;
-  - If either Enemy Randomizer or Boss + Enemy Randomizer is on, allows you to select which locations are randomized (cave, overworld, or both)&#13;
-- Change the game ID so it has a separate save file from vanilla Pikmin 2&#13;
-- Remove the /force-relink command as it is deprecated&#13;
-- Add the total debt to the /status command output&#13;
-&#13;
-Thanks to Sol for their help with tips on getting Memory Override to work, it made most of these features possible!&#13;
-&#13;
-## Known Bugs&#13;
-- Queen Candypop Buds sometimes show up as white instead of red, even if you have Red Pikmin unlocked. This means that you can't use them to generate Red Pikmin, but you can use them to generate White Pikmin.&#13;
-- Whatever cave is in Submerged Castle's location will always have the vanilla Submerged Castle music.&#13;
-- Sometimes starting items will not be received properly, if this happens usually restarting the game and client causes them to appear&#13;
-- Sometimes the Pikmin can't break gates in caves. Usually resetting the cave fixes this.&#13;
-- Sometimes collecting Louie does not trigger the goal</content>
-    <link href="https://github.com/chpas0/Pikmin2Archipelago/releases/tag/v0.8.0"/>
-  </entry>
-  <entry>
-    <id>https://github.com/chpas/Pikmin2Archipelago/releases/tag/v0.8.0</id>
-    <title>Pikmin 2 v0.8.0.post3</title>
-    <updated>2026-08-27T02:57:06+00:00</updated>
-    <author>
-      <name>chpas</name>
-    </author>
-    <content>**NOTE: This mod is still in the testing phase. Play at your own risk.**&#13;
-**NOTE 2: Games generated on earlier versions will NOT work on this version.**&#13;
-**NOTE 3: Setup for this version is much different (and hopefully much simpler) than previous versions - please reread the setup guide before playing!**&#13;
-**NOTE 4: This release has been patched as of 8/27/26 at 1:49 PM UTC - please redownload if downloaded before then.**&#13;
-&#13;
-## Changelog&#13;
-- Fix a bug that could cause generation to fail if multiple Pikmin 2 players were in a game (thank you KingDragonite for finding and fixing this)&#13;
-- Clarify the error message printed when the filler items dictionary is empty (thank you KingDragonite for finding and fixing this)&#13;
-- Completely rehaul the sending of items from the game to the client&#13;
-  - The save file path is no longer needed&#13;
-  - Linking now occurs at the title screen&#13;
-  - Linking works from any file, not just the leftmost one&#13;
-  - Linking works on Day 1&#13;
-  - Items can be received in menus and cutscenes (excluding the world map)&#13;
-  - Most crashes (e.g., collecting the Utter Scrap location on Day 2) are fixed&#13;
-  - **Memory Override is now required for the game to run properly**&#13;
-  - This may be buggy on Linux; please let me know if you encounter any issues&#13;
-- Completely rehaul the progress restore so that the save file is not necessary&#13;
-  - The duplicate item receipt bug should be permanently squashed&#13;
-- Enemy Randomizer and Boss + Enemy Randomizer now work on the overworld&#13;
-  - May still have lingering issues - please report any crashes with this setting&#13;
-- Add new YAML option: Boss + Enemy Rando Locations&#13;
-  - If either Enemy Randomizer or Boss + Enemy Randomizer is on, allows you to select which locations are randomized (cave, overworld, or both)&#13;
-- Change the game ID so it has a separate save file from vanilla Pikmin 2&#13;
-- Remove the /force-relink command as it is deprecated&#13;
-- Add the total debt to the /status command output&#13;
-&#13;
-Thanks to Sol for their help with tips on getting Memory Override to work, it made most of these features possible!&#13;
-&#13;
-## Known Bugs&#13;
-- Queen Candypop Buds sometimes show up as white instead of red, even if you have Red Pikmin unlocked. This means that you can't use them to generate Red Pikmin, but you can use them to generate White Pikmin.&#13;
-- Whatever cave is in Submerged Castle's location will always have the vanilla Submerged Castle music.&#13;
-- Sometimes starting items will not be received properly, if this happens usually restarting the game and client causes them to appear&#13;
-- Sometimes the Pikmin can't break gates in caves. Usually resetting the cave fixes this.&#13;
-- Sometimes collecting Louie does not trigger the goal</content>
-    <link href="https://github.com/chpas/Pikmin2Archipelago/releases/tag/v0.8.0"/>
-  </entry>
-  <entry>
-    <id>https://github.com/chpas0/Pikmin2Archipelago/releases/tag/v0.8.1</id>
-    <title>Pikmin 2 v0.8.1</title>
-    <updated>2026-08-27T02:57:06+00:00</updated>
-    <author>
-      <name>chpas</name>
-    </author>
-    <content>**NOTE: This mod is still in the testing phase. Play at your own risk.**&#13;
-&#13;
-## Changelog&#13;
-- Fix a bug that caused the client to silently crash when collecting Louie&#13;
-## Known Bugs&#13;
-- Queen Candypop Buds sometimes show up as white instead of red, even if you have Red Pikmin unlocked. This means that you can't use them to generate Red Pikmin, but you can use them to generate White Pikmin.&#13;
-- Whatever cave is in Submerged Castle's location will always have the vanilla Submerged Castle music.&#13;
-- Sometimes starting items will not be received properly, if this happens usually restarting the game and client causes them to appear&#13;
-- Sometimes the Pikmin can't break gates in caves. Usually resetting the cave fixes this.&#13;
-- Sometimes collecting Louie does not trigger the goal</content>
-    <link href="https://github.com/chpas0/Pikmin2Archipelago/releases/tag/v0.8.1"/>
-  </entry>
-  <entry>
-    <id>https://github.com/chpas/Pikmin2Archipelago/releases/tag/v0.8.1</id>
-    <title>Pikmin 2 v0.8.1.post2</title>
-    <updated>2026-08-27T02:57:06+00:00</updated>
-    <author>
-      <name>chpas</name>
-    </author>
-    <content>**NOTE: This mod is still in the testing phase. Play at your own risk.**&#13;
-&#13;
-## Changelog&#13;
-- Fix a bug that caused the client to silently crash when collecting Louie&#13;
-## Known Bugs&#13;
-- Queen Candypop Buds sometimes show up as white instead of red, even if you have Red Pikmin unlocked. This means that you can't use them to generate Red Pikmin, but you can use them to generate White Pikmin.&#13;
-- Whatever cave is in Submerged Castle's location will always have the vanilla Submerged Castle music.&#13;
-- Sometimes starting items will not be received properly, if this happens usually restarting the game and client causes them to appear&#13;
-- Sometimes the Pikmin can't break gates in caves. Usually resetting the cave fixes this.&#13;
-- Sometimes collecting Louie does not trigger the goal</content>
-    <link href="https://github.com/chpas/Pikmin2Archipelago/releases/tag/v0.8.1"/>
-  </entry>
-  <entry>
-    <id>https://github.com/lagdotcom/Archipelago/releases/tag/phst2-0.1.3</id>
-    <title>Phantasy Star II v0.1.3</title>
-    <updated>2026-08-27T08:27:22+00:00</updated>
-    <author>
-      <name>lagdotcom</name>
-    </author>
-    <content>Bugfix for Jet Scooter and Spaceship not being rewarded in multiworld.</content>
-    <link href="https://github.com/lagdotcom/Archipelago/releases/tag/phst2-0.1.3"/>
-  </entry>
-  <entry>
-    <id>https://github.com/chickentuna/Archipelago-Zoominoes/releases/tag/v0.1.0</id>
-    <title>Zoominoes v0.1.0.post5</title>
-    <updated>2026-08-27T13:41:57+00:00</updated>
-    <author>
-      <name>chickentuna</name>
-    </author>
-    <content>Community testing build. Feedback and bug reports welcome.
-
-## Install
-
-**1. BepInEx** — download **BepInEx 6 bleeding-edge, `Unity.Mono`, `win-x64`** from
-&lt;https://builds.bepinex.dev/projects/bepinex_be&gt; and unzip it into the game folder,
-next to `Zoominoes.exe`. Zoominoes is a Unity 6 Mono game; BepInEx 5 will not work.
-Run the game once so BepInEx creates its folders, then close it.
-
-e.g. for Windows:
-&lt;https://builds.bepinex.dev/projects/bepinex_be/785/BepInEx-Unity.Mono-win-x64-6.0.0-be.785%2B6abdba4.zip&gt;
-
-**2. The mod** — unzip `ZoominoesArchipelago.zip` into the same game folder. It drops
-into `BepInEx/plugins/`.
-
-**3. The world** — put `zoominoes.apworld` in your Archipelago install's
-`custom_worlds/` folder.
-
-On Linux the game runs under Proton with the same files. Add
-`WINEDLLOVERRIDES="winhttp=n,b" %command%` to the Steam launch options, or the
-loader will not inject.
-
-## Playing
-
-Press **F1** for the connection panel, enter your server address, port, slot name
-and password, and connect. The panel opens by itself until you do. Details are
-remembered for next launch.
-
-Runs are played on a dedicated **AP** profile. Your existing saves are not read or
-written while the mod is installed.
-
-## What is randomised
-
-Animals, snacks, souvenirs, zookeepers and difficulty tiers arrive as Archipelago
-items, along with extra starting gold, extra plays and hand size.
-
-`randomize_starter_zookeeper` and `randomize_starter_unlocks` extend that to what you
-open with: a random zookeeper in place of Marina, and a random 6 animals, 4 snacks and
-4 souvenirs in place of Starfish, Fennec and the rest. Whatever the draw passes over
-becomes an item like anything else.
-
-Checks come from Gift Shop slots and from finishing a day. **Every difficulty tier
-has its own set of both** — "Tier 3 - Shop 2 - Slot 1" is a different location from
-"Tier 5 - Shop 2 - Slot 1", so each tier you unlock opens 43 fresh checks: 24 across
-its eight shops and 19 across its playable days. On top of that, winning with each
-zookeeper and clearing each tier are checks in their own right.
-
-Three goals: clear a target difficulty tier, clear it with several different
-zookeepers, or collect Zoo Tickets scattered across the multiworld.
-
-Only normal runs take part — daily challenges, seeded runs and challenge runs are
-left alone.
-
-Items apply from your **next** run, since the game fixes its content pool when a run
-begins.
-
-## Options
-
-`Zoominoes-template.yaml` has every option, its documentation and its weights. Put it
-in your Archipelago `Players` folder and change the name at the top.
-
-Content the seed has no room for is unlocked from the start rather than left
-unobtainable.
-
-
-</content>
-    <link href="https://github.com/chickentuna/Archipelago-Zoominoes/releases/tag/v0.1.0"/>
-  </entry>
   <entry>
     <id>https://github.com/jamesbrq/ArchipelagoTTYD/releases/tag/v0.13.0a</id>
     <title>Paper Mario The Thousand Year Door v0.13.0a0</title>
@@ -1306,5 +1095,187 @@ but has not yet been played through — see KNOWN_BUGS.md, and report anything
 on BetaHub.
 </content>
     <link href="https://github.com/solida1987/openttd-archipelago/releases/tag/v2.2.0"/>
+  </entry>
+  <entry>
+    <id>https://github.com/brodieberger/MMZero3Archipelago/releases/tag/v0.3.4</id>
+    <title>Mega Man Zero 3 v0.3.4</title>
+    <updated>2026-08-30T17:32:38+00:00</updated>
+    <author>
+      <name>brodieberger</name>
+    </author>
+    <content>Tons of bug fixes from the reports on the last release. Biggest ones were the glitched NPC dialogue rewards and Cerveau disappearing and remaining inaccessible.&#13;
+&#13;
+[Check out the full readme before playing.](https://github.com/brodieberger/MMZero3Archipelago)&#13;
+&#13;
+# Features&#13;
+&#13;
+## Hint and track by group&#13;
+&#13;
+Items and locations are sorted into groups now, so commands like `!hint` can be used on a category.&#13;
+&#13;
+| locations | |&#13;
+| --- | --- |&#13;
+| by stage | `Resistance Base` (all three mission sets), `Aegis Volcano Base`, `Sunken Library`, ... |&#13;
+| by type | `Secret Disks`, `Stage Clears`, `Chips`, `A+ Rank Clears`, `Subtanks`, `Weapons`, `1-UPs`, `Minibosses` |&#13;
+&#13;
+| items | |&#13;
+| --- | --- |&#13;
+| by type | `Secret Disks`, `Stage Access`, `Chips`, `Body Chips`, `Foot Chips`, `Head Chips`, `EX Skills`, `Subtanks`, `Weapons` |&#13;
+&#13;
+Try using `!hint Stage Access` or `!missing Resistance Base`.&#13;
+&#13;
+Works in the Yaml too.&#13;
+```yaml&#13;
+Mega Man Zero 3:&#13;
+  exclude_locations: [1-Ups]&#13;
+  start_hints: [Stage Access]&#13;
+  local_items: [Weapons]&#13;
+```&#13;
+&#13;
+## Intermission cutscenes are reimplemented&#13;
+&#13;
+Some missions in the vanilla game start by a cutscene starting which forces you into the level. These have been brought back and will now play when you start the mission through the mission select screen.&#13;
+&#13;
+Mission include: Starting cutscenes from Missile Factory and Sub Arcadia. Ending cutscenes from Derelict Spacecraft, Missile Factory, and Area X-2.&#13;
+&#13;
+You are still able to skip these.&#13;
+&#13;
+## New NPC in Cerveau's room&#13;
+&#13;
+Cerveau leaves his room once the maintenance bay cutscene with Harpuia is supposed to be activated. There is now a resistance soldier standing in his spot waiting to direct you to his location. &#13;
+&lt;div align="center"&gt;&#13;
+&lt;img width="400" alt="Screenshot 2026-08-30 140321" src="https://github.com/user-attachments/assets/5b17a7a5-9c16-4a0c-a2a6-c40851179f71" /&gt;&#13;
+&lt;/div&gt;&#13;
+(The bug where that cutscene is inaccessible until clearing certain stages has also been fixed)&#13;
+&#13;
+## Starting weapons&#13;
+&#13;
+If you leave `starting_weapons` empty and you now get one random weapon.&#13;
+&#13;
+If you start with the Shield Boomerang only, another one gets added to your inventory so you can still attack with the charged attack.&#13;
+&#13;
+# Bug Fixes&#13;
+&#13;
+- Completing the game no longer prompts you to save the game. Effectively removing new game plus and any bugs it had. NG+ is not really that important anyway since you can replay levels with all your items regardless.&#13;
+- The cutscene with Harpuia in the maintenance room is no longer gated behind certain levels being cleared. Should now always be accessible once you have the second story progress item.&#13;
+- Cerveau, Hirondelle, Doigt and Rocinolle now give their items once Story Progress has been sent. Previously they would also check if Area X-2 was cleared in addition to the story progress. This has been fixed to be just the story progress item.&#13;
+- A+ Rank Clear: Sub Arcadia was in the Giant Elevator region for some reason.&#13;
+- Loading a save used to drop you into a level or replay a cutscene based on levels cleared. This has been fixed.&#13;
+- Talking to Ciel would launch Sub Arcadia. Also fixed.&#13;
+- The Sunken Library's disks are now represented properly on the mission select screen.&#13;
+- Fixed the item received indicator palettes being messed up on the mission select screen.&#13;
+&#13;
+# Known bugs&#13;
+&#13;
+- The game got a bit laggier the further you got into a run, since the game does all of the AP logic every frame. This has been optimized, but the game might still have a few stutters when you get late into a run. Will be improved more later.&#13;
+  - Note that the game still lags in vanilla, so its not all from this mod.&#13;
+&#13;
+Still aiming to move this world from unstable to stable, so keep reporting bugs :)&#13;
+</content>
+    <link href="https://github.com/brodieberger/MMZero3Archipelago/releases/tag/v0.3.4"/>
+  </entry>
+  <entry>
+    <id>https://github.com/Dinopony/ArchipelagoOoS/releases/tag/oos-23.0.0</id>
+    <title>The Legend of Zelda - Oracle of Seasons v23.0.0</title>
+    <updated>2026-08-30T17:35:26+00:00</updated>
+    <author>
+      <name>Dinopony</name>
+    </author>
+    <author>
+      <name>Ishigh</name>
+    </author>
+    <content>## 🗳️ New Options&#13;
+- Added a start position option, that contains north horon, sunken city, tarm ruins, temple of seasons and samasa desert&#13;
+&#13;
+## ⏫ Miscellaneous Improvements&#13;
+- Shops items can now be bought more than once if it is local and makes sense to be bought more than once (potions, ore chunks, rupees)&#13;
+- Owl hints now try to give items that appear later in logic, and should stop constantly telling you how to get what you already have&#13;
+- You can now always put the 4 jewels in their slots if you want&#13;
+- Subrosia digging spots are now permanently dug up&#13;
+- Added a way to warp back to the ship after giving the bell to the pirate captain&#13;
+- Added bomb and bombchu upgrades to the pool, packs of bombs no longer increase the max bomb count&#13;
+&#13;
+## 🧠 Logic&#13;
+- Added logic requiring some amounts of heart containers before beating some bosses or doing skips. The amount depends on the logic difficulty&#13;
+- Breaking the blocks to the goron chest with bombchus is now hard logic&#13;
+- Added logic to jump on the button in d8, for the armos chest&#13;
+- Added bombchu jumps to hell logic (thanks omega)&#13;
+&#13;
+## 🛠️ Bugfixes&#13;
+- Moved the mt cucco warp to between tarm ruins and sunken city&#13;
+- Fixed Switch Hook allowing to jump at the same time</content>
+    <link href="https://github.com/Dinopony/ArchipelagoOoS/releases/tag/oos-23.0.0"/>
+  </entry>
+  <entry>
+    <id>https://github.com/Dinopony/ArchipelagoOoS/releases/tag/oos-23.0.1</id>
+    <title>The Legend of Zelda - Oracle of Seasons v23.0.1</title>
+    <updated>2026-08-30T17:58:39+00:00</updated>
+    <author>
+      <name>Dinopony</name>
+    </author>
+    <author>
+      <name>Ishigh</name>
+    </author>
+    <content>## 🗳️ New Options&#13;
+- Added a start position option, that contains north horon, sunken city, tarm ruins, temple of seasons and samasa desert&#13;
+&#13;
+## ⏫ Miscellaneous Improvements&#13;
+- Shops items can now be bought more than once if it is local and makes sense to be bought more than once (potions, ore chunks, rupees)&#13;
+- Owl hints now try to give items that appear later in logic, and should stop constantly telling you how to get what you already have&#13;
+- You can now always put the 4 jewels in their slots if you want&#13;
+- Subrosia digging spots are now permanently dug up&#13;
+- Added a way to warp back to the ship after giving the bell to the pirate captain&#13;
+- Added bomb and bombchu upgrades to the pool, packs of bombs no longer increase the max bomb count&#13;
+&#13;
+## 🧠 Logic&#13;
+- Added logic requiring some amounts of heart containers before beating some bosses or doing skips. The amount depends on the logic difficulty&#13;
+- Breaking the blocks to the goron chest with bombchus is now hard logic&#13;
+- Added logic to jump on the button in d8, for the armos chest&#13;
+- Added bombchu jumps to hell logic (thanks omega)&#13;
+&#13;
+## 🛠️ Bugfixes&#13;
+- Moved the mt cucco warp to between tarm ruins and sunken city&#13;
+- Fixed Switch Hook allowing to jump at the same time</content>
+    <link href="https://github.com/Dinopony/ArchipelagoOoS/releases/tag/oos-23.0.1"/>
+  </entry>
+  <entry>
+    <id>https://github.com/FyreDay/Archipelago-MinaTheHollower/releases/tag/v1.1.0</id>
+    <title>Mina The Hollower v1.1.0</title>
+    <updated>2026-08-30T18:58:55+00:00</updated>
+    <author>
+      <name>FyreDay, Axertin, ZXavier</name>
+    </author>
+    <content>Features:&#13;
+- Updated the Yaml descriptions&#13;
+- Merged "Start In Ossex" Option into Ability Rando for the yaml&#13;
+- Added Traps&#13;
+- Astral Orrery Mirror's End Switch items&#13;
+- Add Generator Pool&#13;
+&#13;
+Bug Fixes:&#13;
+- Fix two Burrow tunnels in Kindlewood&#13;
+- Fix requiring you to go through dungeons not in your goal to reach an area&#13;
+- Added soft combat logic to some fish</content>
+    <link href="https://github.com/FyreDay/Archipelago-MinaTheHollower/releases/tag/v1.1.0"/>
+  </entry>
+  <entry>
+    <id>https://github.com/riezahughes/MedievilAPWorld/releases/tag/v0.3.1</id>
+    <title>Medievil v0.3.0r2</title>
+    <updated>2026-08-30T19:43:07+00:00</updated>
+    <author>
+      <name>RiezaHughes</name>
+    </author>
+    <content/>
+    <link href="https://github.com/riezahughes/MedievilAPWorld/releases/tag/v0.3.1"/>
+  </entry>
+  <entry>
+    <id>https://github.com/riezahughes/Medievil2APWorld/releases/tag/v0.2.4</id>
+    <title>Medievil 2 v0.2.3r2</title>
+    <updated>2026-08-30T19:43:10+00:00</updated>
+    <author>
+      <name>RiezaHughes</name>
+    </author>
+    <content/>
+    <link href="https://github.com/riezahughes/Medievil2APWorld/releases/tag/v0.2.4"/>
   </entry>
 </feed>
