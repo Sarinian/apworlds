@@ -1,0 +1,30 @@
+{
+  "authors": [
+    "ljtpetersen"
+  ],
+  "flags": [],
+  "game": "Pokemon HeartGold and SoulSilver",
+  "github": "https://github.com/ljtpetersen/hgss_archipelago",
+  "manifest_fields": [
+    "authors",
+    "minimum_ap_version",
+    "world_version"
+  ],
+  "versions": {
+    "v0.0.5": {
+      "created_at": "2026-08-30T05:54:55Z",
+      "description": "## Changelog\r\n### Added\r\n* `game_debug` client command.\r\n### Fixed\r\n* Removed holdovers from Platinum in some option descriptions.\r\n* Fixed `legendaries` blacklist shorthand not working.\r\n* Fixed various minor typographical errors in some option descriptions.\r\n* Fixed description of `dexsanity_required` inaccurately describing the effect of the `legendaries` keyword.\r\n* Requirement of using Cut to access Route 14 - Item from Woman in Grass Patch after Showing Chansey has been added.\r\n* Fixed issues relating to New Bark East exit.\r\n* Fixed Kimono Girls' trainersanity locations.\r\n* Fixed S.S. Anne softlock if initially travelling from Vermilion.\r\n* Fixed the crash with the \"SET TIME\" menu when within the starting room, before receiving the starting items.\r\n* Fixed issues relating to Copycat and the Lost Item.\r\n* Fixed issues regarding receiving the Clear/Tidal bell in the rooms containing to their legendaries.\r\n* Fixed issue with Ethan/Lyra's theme after the catching tutorial.\r\n* Fixed hardlock when talking to NPC in Fuchsia Pok\u00e9mon Center.\r\n* Fixed S.S. Ticket location in Prof. Elm's lab.",
+      "download_url": "https://github.com/ljtpetersen/hgss_archipelago/releases/download/v0.0.5/pokemon_hgss.apworld",
+      "has_manifest": true,
+      "hash_sha256": "f8ecdea0564ff337c1612201c647cf7730f3aed631a3ad75065df1a3369821a2",
+      "html_url": "https://github.com/ljtpetersen/hgss_archipelago/releases/tag/v0.0.5",
+      "minimum_ap_version": "0.6.7",
+      "size": 3976563,
+      "source_url": "https://api.github.com/repos/ljtpetersen/hgss_archipelago",
+      "tag": "v0.0.5",
+      "title": "Release 0.0.5",
+      "version_simple": "0.0.5",
+      "world_version": "0.0.5"
+    }
+  }
+}
