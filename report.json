@@ -1,7 +1,7 @@
 {
   "total_repositories": 816,
   "total_packages": 942,
-  "total_versions": 10704,
+  "total_versions": 10711,
   "manifest_ready": {
     "outer_wilds": true,
     "mpadv": false,
@@ -412,7 +412,7 @@
     "manual_walkabout_energymaster": false,
     "fnafb": false,
     "Hades2Rogue": false,
-    "westofloathing": false,
+    "westofloathing": true,
     "luck_be_a_landlord": false,
     "minecraft_dig": true,
     "grappledog": true,
@@ -915,14 +915,14 @@
     "manual_ironsworn_axxroy": false
   },
   "max_minimum_ap_version": {
-    "": 431,
+    "": 430,
     "0.4.0": 2,
     "0.5.0": 16,
     "0.5.1": 3,
     "0.6.0": 15,
     "0.6.1": 12,
     "0.6.2": 11,
-    "0.6.3": 60,
+    "0.6.3": 61,
     "0.6.4": 71,
     "0.6.5": 34,
     "0.6.6": 41,
@@ -932,12 +932,12 @@
     "0.7.0": 1
   },
   "max_maximum_ap_version": {
-    "": 567,
+    "": 568,
     "0.0.1": 1,
     "0.4.6": 5,
     "0.6.6": 1,
     "0.6.7": 1,
-    "0.6.99": 323,
+    "0.6.99": 322,
     "0.9.99": 1
   }
 }

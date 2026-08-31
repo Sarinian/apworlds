@@ -2,200 +2,11 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://raw.githubusercontent.com/silasary/apworlds/refs/heads/main/recent.atom</id>
   <title>Recent APWorlds</title>
-  <updated>2026-08-31T02:04:53.557444+00:00</updated>
+  <updated>2026-08-31T12:08:48.447813+00:00</updated>
   <author>
     <name>Silasary</name>
   </author>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
-  <entry>
-    <id>https://github.com/tjwombo/RNSArchipelago/releases/tag/v0.3.9</id>
-    <title>Rabbit and Steel v0.3.9</title>
-    <updated>2026-08-27T21:35:50+00:00</updated>
-    <author>
-      <name>tjwombo</name>
-    </author>
-    <content>Refixed the 4+ kingdoms shira bug&#13;
-&#13;
-# Changelog&#13;
-&#13;
-All notable changes to this project will be documented in this file.&#13;
-&#13;
-The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)&#13;
-and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).&#13;
-&#13;
-## [v0.3.9](https://github.com/tjwombo/RNSArchipelago/compare/v0.3.8...v0.3.9) - 2026-08-27&#13;
-&#13;
-### Commits&#13;
-&#13;
-- readd the hallwaynumber setting [`a6457a5`](https://github.com/tjwombo/RNSArchipelago/commit/a6457a5ceeabbf4b04ca671e84c1ef1b74396ceb)&#13;
-</content>
-    <link href="https://github.com/tjwombo/RNSArchipelago/releases/tag/v0.3.9"/>
-  </entry>
-  <entry>
-    <id>https://github.com/JammyGeeza/CursedWords-Archipelago/releases/tag/v0.5.1</id>
-    <title>Cursed Words v0.5.1</title>
-    <updated>2026-08-27T21:44:02+00:00</updated>
-    <author>
-      <name>JammyGeeza</name>
-    </author>
-    <content>## Information&#13;
-This archipelago implementation is in **early development** and is in public pre-release for testing, so may not be complete and/or may contain bugs that heavily disrupt the experience. It is not advised to include this in large multiworlds at this time, so only do so at your own risk and inform your host beforehand.&#13;
-&#13;
-## Setup Guide&#13;
-Please visit the [Setup Guide](https://github.com/JammyGeeza/CursedWords-Archipelago#setup-guide) for instructions on how to install the mod client.&#13;
-&#13;
-## Issue / Bug Reporting&#13;
-If you experience issues that are not already on the [known issues list](https://github.com/JammyGeeza/CursedWords-Archipelago/issues/views/12865), please raise a new issue or post in the [Cursed Words Forum in the Archipelago Discord Server](https://discord.com/channels/731205301247803413/1499176806962692196)&#13;
-&#13;
-## Patch Notes&#13;
-This patch provides the following fixes:&#13;
-### APWorld&#13;
-- Fixed an issue causing too many stickers/stamps being classed as `progression` items&#13;
-- Fixed an issue causing checks for fairies not being included when `michael` is enabled&#13;
-- Fixed an issue causing `earned_money` locations to always be included&#13;
-- Fixed an issue causing `word_lengths` and `word_scores` locations to not be included&#13;
-### Client&#13;
-- Fixed an issue causing curse-scattering items only scattering Currency and Blank curse types&#13;
-- Fixed an issue causing the game to crash when scattering item tiles&#13;
-- Fixed an issue causing all items rarities to spawn in the shop despite not receiving the `Progressive Item Rarity` items&#13;
-- Fixed an issue causing the game to crash when completing Michael's puzzle grid&#13;
-- Adjusted `Unicorn` so it ignores AP Sticker Padlocks when applying foil to a random sticker</content>
-    <link href="https://github.com/JammyGeeza/CursedWords-Archipelago/releases/tag/v0.5.1"/>
-  </entry>
-  <entry>
-    <id>https://github.com/SilicDev/Archipelago/releases/tag/yohane_bitdb-v0.2.3</id>
-    <title>YOHANE THE PARHELION -BLAZE in the DEEPBLUE- v0.2.3</title>
-    <updated>2026-08-27T22:38:04+00:00</updated>
-    <author>
-      <name>SilicDev</name>
-    </author>
-    <content># Tonosama parts hotfix &#13;
-&#13;
-## Changes&#13;
-- Tonosama's parts got stuck in the region entrances and opened a path in logic that does not exist&#13;
-- Small adjustments to recipe ingredient logic&#13;
-&#13;
-# Internal&#13;
-- More tests&#13;
-&#13;
---- &#13;
-&#13;
-AP Mod download: https://github.com/SilicDev/YohaneAPMod/releases/tag/v0.0.3&#13;
-Yohane BID mod loader download: https://github.com/SilicDev/YohaneBIDModLoader/releases/tag/v0.0.1</content>
-    <link href="https://github.com/SilicDev/Archipelago/releases/tag/yohane_bitdb-v0.2.3"/>
-  </entry>
-  <entry>
-    <id>https://github.com/vyneras/Archipelago/releases/tag/1.1.2</id>
-    <title>Pokemon FireRed and LeafGreen v1.1.2</title>
-    <updated>2026-08-28T01:05:22+00:00</updated>
-    <author>
-      <name>Vyneras</name>
-    </author>
-    <content>ROM CHECKSUM: `00939B09`&#13;
-&#13;
-[Setup Guide](https://github.com/vyneras/Archipelago/blob/1.1.2/worlds/pokemon_frlg/docs/setup_en.md)&#13;
-[Rom Changes](https://github.com/vyneras/Archipelago/blob/1.1.2/worlds/pokemon_frlg/docs/rom%20changes.md)&#13;
-&#13;
-**Bug Fixes**&#13;
-- Fixed an issue where strength wasn't required to enter Route 12 from Route 11 when `route_12_boulders` was on</content>
-    <link href="https://github.com/vyneras/Archipelago/releases/tag/1.1.2"/>
-  </entry>
-  <entry>
-    <id>https://github.com/ChakraaThePanda/Archipelago-Northgard/releases/tag/2026.08.27</id>
-    <title>Northgard v2026.8.27</title>
-    <updated>2026-08-28T02:30:30+00:00</updated>
-    <author>
-      <name>Chakraa</name>
-    </author>
-    <content>### Fixed&#13;
-- Northgard's updates shuffled its internal function numbers, breaking chapter-lock enforcement. It's should now be fixed by having the patcher find functions by name instead of a fixed number, so it survives future updates.&#13;
-- The "already patched?" check just compared file bytes, so it falsely said "patched" right after the update and auto-heal never kicked in. It should now be fixed by checking the actual patched code directly instead, so it can't give that false positive again.&#13;
-&#13;
-**Full Changelog**: https://github.com/ChakraaThePanda/Archipelago-Northgard/compare/2026.08.16...2026.08.27</content>
-    <link href="https://github.com/ChakraaThePanda/Archipelago-Northgard/releases/tag/2026.08.27"/>
-  </entry>
-  <entry>
-    <id>https://github.com/MaragonMH/Archipelago/releases/tag/XenoX0.2.5</id>
-    <title>Xenoblade X v0.2.5</title>
-    <updated>2026-08-28T12:38:52+00:00</updated>
-    <author>
-      <name>Maragon</name>
-    </author>
-    <author>
-      <name>Nina</name>
-    </author>
-    <content>- The ingame system log now properly displays item type and allows additional characters and has a longer duration&#13;
-- Combine blade license, skell license and flight module into progressive license&#13;
-- Overhaul of the default options to provide the best possible starter setup&#13;
-- Added a new option `Early Chapter 4` that prevents the required items to be behind hard to reach locations&#13;
-- Fix getting items from collectopedia&#13;
-- Fix fashion armor getting sent again&#13;
-- Improve documentation&#13;
-- Removed l shop relocation&#13;
-- Remove duplicates for required armor and weapon from shop terminal&#13;
-- Fixed overcapped field skill level crashes&#13;
-- Segments are now touchable by default&#13;
-- Fuel up for skells fills them to the max&#13;
-- L shop does no longer remove the miranium&#13;
-- Debris no longer notifies you that the itembox is full</content>
-    <link href="https://github.com/MaragonMH/Archipelago/releases/tag/XenoX0.2.5"/>
-  </entry>
-  <entry>
-    <id>https://github.com/nhyldmar/fez-ap/releases/tag/v0.6.0</id>
-    <title>Fez v0.6.0</title>
-    <updated>2026-08-28T13:44:57+00:00</updated>
-    <author>
-      <name>Nolih</name>
-    </author>
-    <content>## What's Changed&#13;
-&#13;
-- Added new Ability Randomizer option!&#13;
-  - When enabled, the ability to carry (bombs, crates, etc) and turn objects (cranks, pivots) are locked behind checks&#13;
-- Change end goal configuration to allow any number of cubes from 32 to 64&#13;
-- Fixes for a few cube checks&#13;
-  - Parlor and Zu House QR anti-cube locations are now associated&#13;
-  - QR code map cube is now supported and associated with Watertower Secret&#13;
-- Many bugfixes, stability improvements, and quality of life improvements&#13;
-  - Item pickup detection is now much more reliable. Deviations in the item's position should no longer cause pickups to fail to be detected&#13;
-  - Fix incorrect graphics for locked doors&#13;
-  - Locked doors now update immediately when unlocked and no longer require reentering the room or using `reload`. Locked doors also turn into regular doors when unlocked rather than disappearing&#13;
-  - Fix softlock when getting Emotional Support while the camera is spiraling down&#13;
-  - Prevent Rotation Trap while in a flat room to prevent a softlock&#13;
-  - Fix "Memory stream could not be expanded"&#13;
-  - Show the HUD when you receive an item that changes your cube count instead of when you pick up an item&#13;
-  - Fix 8 bit cube assemble animation happening if you have 7 bits and pick up a bit&#13;
-  - Improve stability of `connect` and `disconnect` commands&#13;
-  - Fix item spam after connecting&#13;
-  - Fix incorrect number of cubes in the Hex Rebuild and wrong ending cutscene due to auto collection&#13;
-  - Handle receiving collected locations (e.g. unlocked via auto collection or `/send_location`)&#13;
-- Any configuration that ends up with more items than available slots will now put filler items into your starting inventory to ensure all items are obtainable&#13;
-  - The number of Golden Cubes that can be replaced with bits has been raised to 16 (the vanilla value)&#13;
-  - When not shuffling clock antis, those locations are now fully removed from the game&#13;
-- Rename some doors to reduce confusion&#13;
-  - "Tree Door Unlocked" -&gt; "Tree Crumble Door Unlocked"&#13;
-  - "Sewer Hub Door Unlocked" -&gt; "Sewer QR Door Unlocked"&#13;
-  - "Sewer Pillars Door Unlocked" -&gt; "Sewer Fork Door Unlocked"&#13;
-- Compatibility with HAT 2.0&#13;
-&#13;
-(Credit to @thearst3rd for compiling this list!)&#13;
-&#13;
-## Pull Requests Merged&#13;
-* Associate Parlor and Zu House QR anti-cube locations by @wataniyob in https://github.com/nhyldmar/fez-ap/pull/15&#13;
-* Build System Improvements by @thearst3rd in https://github.com/nhyldmar/fez-ap/pull/7&#13;
-* Support a ranged number of cubes for the end goal by @thearst3rd in https://github.com/nhyldmar/fez-ap/pull/18&#13;
-* Misc bugfixes by @thearst3rd in https://github.com/nhyldmar/fez-ap/pull/17&#13;
-* Rename doors to reduce confusion by @thearst3rd in https://github.com/nhyldmar/fez-ap/pull/23&#13;
-* Abilities Rando by @wataniyob in https://github.com/nhyldmar/fez-ap/pull/22&#13;
-&#13;
-## New Contributors&#13;
-* @thearst3rd made their first contribution in https://github.com/nhyldmar/fez-ap/pull/7&#13;
-&#13;
-Bugs should either be raised as issues here or tracked on the bugtracker here:&#13;
-[https://docs.google.com/spreadsheets/d/1l2KPbde1qFznVFmOZbg8Ee7_sfi5h65sCRZXVndfLwk/edit?usp=sharing](https://docs.google.com/spreadsheets/d/1l2KPbde1qFznVFmOZbg8Ee7_sfi5h65sCRZXVndfLwk/edit?usp=sharing)&#13;
-&#13;
-**Full Changelog**: https://github.com/nhyldmar/fez-ap/compare/v0.5.0...v0.6.0</content>
-    <link href="https://github.com/nhyldmar/fez-ap/releases/tag/v0.6.0"/>
-  </entry>
   <entry>
     <id>https://github.com/Dinopony/ArchipelagoOoS/releases/tag/oos-22.0.0</id>
     <title>The Legend of Zelda - Oracle of Seasons v22.0.0</title>
@@ -1287,6 +1098,32 @@ Please inform me of any issues through the associated [Crypt of the NecroDancer 
     <link href="https://github.com/lastingParadox/Archipelago-CotND/releases/tag/v0.8.1"/>
   </entry>
   <entry>
+    <id>https://github.com/Lucasvdm/WOLAP/releases/tag/v0.2.4-alpha</id>
+    <title>West of Loathing v0.2.4a0</title>
+    <updated>2026-08-30T23:00:15+00:00</updated>
+    <author>
+      <name>Xylen</name>
+    </author>
+    <author>
+      <name>TylerJG92</name>
+    </author>
+    <content># APWorld Changes&#13;
+- Added an `archipelago.json` manifest file for future AP 7.0 support&#13;
+&#13;
+# Client Mod Changes&#13;
+- Added support for installation via Thunderstore/R2ModMan and updated documentation accordingly&#13;
+&#13;
+# Misc Changes&#13;
+- Added a new GitHub Issues template, which we'd encourage people to use for bug reports&#13;
+&#13;
+Beyond any code changes, the most significant update with this release is that @TylerJG92 has joined as a contributor, which is why this is being somewhat resurrected and there's been any work on it at all since the last release almost a full year ago. With the exception of the small new manifest file in the APWorld, he is to thank for all of the sudden new work.&#13;
+&#13;
+I (@Lucasvdm) am still around and plan on helping him out, sharing knowledge, reviewing changes and such, but at least for the foreseeable future @TylerJG92 will probably be the main developer on this project going forward. Who knows, maybe this will inspire me to get back into the swing of things too -- although I am only going to get much, much busier in the coming weeks, so no promises.&#13;
+&#13;
+If you've already installed the mod, the patch can be applied just by overwriting the WOLAP.dll file with the new version. Note, however, that there are now also new installation options, which can take advantage of the contents of the new `Patcher` folder in `WOLAP_Mod`. Applying the new .apworld requires generating a new multiworld.</content>
+    <link href="https://github.com/Lucasvdm/WOLAP/releases/tag/v0.2.4-alpha"/>
+  </entry>
+  <entry>
     <id>https://github.com/ChakraaThePanda/Archipelago-Manual-WorldofWarcraft-Dungeons/releases/tag/2026.08.30</id>
     <title>Manual_WorldofWarcraftDungeons_Chakraa v2026.8.30</title>
     <updated>2026-08-31T00:09:52+00:00</updated>
@@ -1335,5 +1172,140 @@ This patch provides the following fixes:&#13;
 - Processing `Force Grid Re-roll` item now correctly waits for the entire re-roll procedure to finish before processing the next item.&#13;
 - `Money Earned` locations are no longer attempted to be checked if the money total has _decreased_.</content>
     <link href="https://github.com/JammyGeeza/CursedWords-Archipelago/releases/tag/v0.5.2"/>
+  </entry>
+  <entry>
+    <id>https://github.com/drtchops/Archipelago-Astalon/releases/tag/v1.0.0-rc4</id>
+    <title>Astalon v0.99.4</title>
+    <updated>2026-08-31T01:01:04+00:00</updated>
+    <author>
+      <name>DrTChops</name>
+    </author>
+    <content>**This is a testing pre-release. See the latest release for the stable version.**&#13;
+&#13;
+- Added more starting locations&#13;
+- Opened alternative starting locations sphere 1 a little&#13;
+- Completely redone tracker maps, including a new shop "map"&#13;
+- Fixed sending skull puzzle checks&#13;
+- Renamed Hall of the Phantoms to Hall of Phantoms, sorry "the" fans&#13;
+&#13;
+**More Information**: https://github.com/drtchops/Archipelago/blob/astalon/worlds/astalon/docs/en_Astalon.md&#13;
+**Setup Guide**: https://github.com/drtchops/Archipelago/blob/astalon/worlds/astalon/docs/setup_en.md&#13;
+**Full Changelog**: https://github.com/drtchops/Archipelago-Astalon/compare/v1.0.0-rc3...v1.0.0-rc4</content>
+    <link href="https://github.com/drtchops/Archipelago-Astalon/releases/tag/v1.0.0-rc4"/>
+  </entry>
+  <entry>
+    <id>https://github.com/SergeAzel/Archipelago_PDTB/releases/tag/paquerette_down_the_bunburrows-0.2.0</id>
+    <title>Paquerette Down The Bunburrows v0.2.0</title>
+    <updated>2026-08-31T03:22:42+00:00</updated>
+    <author>
+      <name>SergeAzel</name>
+    </author>
+    <content/>
+    <link href="https://github.com/SergeAzel/Archipelago_PDTB/releases/tag/paquerette_down_the_bunburrows-0.2.0"/>
+  </entry>
+  <entry>
+    <id>https://github.com/EpicPuppy613/Wynncraft-APWorld/releases/tag/v0.4.1</id>
+    <title>Wynncraft v0.4.1</title>
+    <updated>2026-08-31T04:10:40+00:00</updated>
+    <author>
+      <name>EpicPuppy613</name>
+    </author>
+    <content>**Compatible with Wynnpelago v0.4.1+**&#13;
+&#13;
+- Add logical gear levels option&#13;
+  - This option ensures that you can access a certain level of gear before content above that level is in logic&#13;
+- Fix daze traps not generating&#13;
+- Fix various logic issues</content>
+    <link href="https://github.com/EpicPuppy613/Wynncraft-APWorld/releases/tag/v0.4.1"/>
+  </entry>
+  <entry>
+    <id>https://github.com/AegeusEvander/Brave-Fencer-Musashi-AP-World/releases/tag/v0.8.0</id>
+    <title>Brave Fencer Musashi v0.8.0</title>
+    <updated>2026-08-31T04:33:39+00:00</updated>
+    <author>
+      <name>AegeusEvander</name>
+    </author>
+    <content>0.8.0 Added:&#13;
+-full map tracker&#13;
+-fixed bell logic (again)&#13;
+-added commands&#13;
+--/teleport [id]&#13;
+---uses the debug menu to teleport the player to selected area (leave blank to teleport back to town)&#13;
+---unstable and may crash if used&#13;
+--/export_geometry&#13;
+---exports the static geometry of the currently loaded level (if no folder was previously selected it will prompt and then run command again), creates an .obj, .mtl, and .png&#13;
+--/export_all_geometry&#13;
+---teleports player to next area that has yet to have an obj file exported and attempts to export until all are done&#13;
+---unstable, but it remembers progress so keep running command if disconnected/timeout or restarting emulator if it crashes&#13;
+&#13;
+Note:&#13;
+-Must use Archipelago v0.6.7 or newer&#13;
+-Not compatible with XDelta Patches, must run unmodified game&#13;
+-compatible with v0.7.1 generations&#13;
+-map tracker with Universal Tracker https://github.com/FarisTheAncient/Archipelago/releases/tag/Tracker_v0.3.3&#13;
+-setup guide:https://github.com/AegeusEvander/Brave-Fencer-Musashi-AP-World/blob/main/docs/setup_en.md&#13;
+-Follow development and report bugs on the Archipelago gg Discord, -&gt; Future-game-design -&gt; Brave Fencer Musashi</content>
+    <link href="https://github.com/AegeusEvander/Brave-Fencer-Musashi-AP-World/releases/tag/v0.8.0"/>
+  </entry>
+  <entry>
+    <id>https://github.com/josephanimate2021/ArchipelagoOoA/releases/tag/v1.1.0</id>
+    <title>The Legend of Zelda - Oracle of Ages v1.1.0</title>
+    <updated>2026-08-31T09:35:53+00:00</updated>
+    <author>
+      <name>josephanimate2021</name>
+    </author>
+    <author>
+      <name>Glan9</name>
+    </author>
+    <author>
+      <name>Piapiou (SenPierre)</name>
+    </author>
+    <author>
+      <name>FlameStripe</name>
+    </author>
+    <content>Hoy ! This was intended to be a small release, and it got even smaller because we wanted to keep retro compat. So it basically have the content of a hot fix x)&#13;
+&#13;
+Anyway, enjoy those bug fixes, something big is coming after it 👀 &#13;
+This is retro compatible with 1.0.0 and onward&#13;
+&#13;
+* Fixed library secret not properly triggering&#13;
+* Changed behavior of the goron elder so it doesn't allow you to get their secret before you beat the normal baseball minigame and get Lava Juice (that you couldn't get if you did the elder minigame first)&#13;
+* Removing text from Nayru cinematic to make it go faster.&#13;
+* Fixing Maku Seed on essences shuffle. Again.&#13;
+* Fixing items not properly shown as orange if they are not pure progression.&#13;
+* Changing Gale seed to progression</content>
+    <link href="https://github.com/josephanimate2021/ArchipelagoOoA/releases/tag/v1.1.0"/>
+  </entry>
+  <entry>
+    <id>https://github.com/Dinopony/ArchipelagoOoS/releases/tag/oos-23.0.3</id>
+    <title>The Legend of Zelda - Oracle of Seasons v23.0.3</title>
+    <updated>2026-08-31T11:55:32+00:00</updated>
+    <author>
+      <name>Dinopony</name>
+    </author>
+    <author>
+      <name>Ishigh</name>
+    </author>
+    <content>## 🗳️ New Options&#13;
+- Added a start position option, that contains north horon, sunken city, tarm ruins, temple of seasons and samasa desert&#13;
+&#13;
+## ⏫ Miscellaneous Improvements&#13;
+- Shops items can now be bought more than once if it is local and makes sense to be bought more than once (potions, ore chunks, rupees)&#13;
+- Owl hints now try to give items that appear later in logic, and should stop constantly telling you how to get what you already have&#13;
+- You can now always put the 4 jewels in their slots if you want&#13;
+- Subrosia digging spots are now permanently dug up&#13;
+- Added a way to warp back to the ship after giving the bell to the pirate captain&#13;
+- Added bomb and bombchu upgrades to the pool, packs of bombs no longer increase the max bomb count&#13;
+&#13;
+## 🧠 Logic&#13;
+- Added logic requiring some amounts of heart containers before beating some bosses or doing skips. The amount depends on the logic difficulty&#13;
+- Breaking the blocks to the goron chest with bombchus is now hard logic&#13;
+- Added logic to jump on the button in d8, for the armos chest&#13;
+- Added bombchu jumps to hell logic (thanks omega)&#13;
+&#13;
+## 🛠️ Bugfixes&#13;
+- Moved the mt cucco warp to between tarm ruins and sunken city&#13;
+- Fixed Switch Hook allowing to jump at the same time</content>
+    <link href="https://github.com/Dinopony/ArchipelagoOoS/releases/tag/oos-23.0.3"/>
   </entry>
 </feed>
