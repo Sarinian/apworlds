@@ -2,144 +2,11 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://raw.githubusercontent.com/silasary/apworlds/refs/heads/main/recent.atom</id>
   <title>Recent APWorlds</title>
-  <updated>2026-09-01T10:50:55.149800+00:00</updated>
+  <updated>2026-09-01T15:51:21.547363+00:00</updated>
   <author>
     <name>Silasary</name>
   </author>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
-  <entry>
-    <id>https://github.com/RischDev/Archipelago/releases/tag/v0.2.0</id>
-    <title>MegaMan Battle Network 6 v0.2.0</title>
-    <updated>2026-08-29T23:48:58+00:00</updated>
-    <author>
-      <name>RischDev</name>
-    </author>
-    <content># Beta - v0.2.0&#13;
-&#13;
-&gt; [!WARNING]&#13;
-&gt; This has been tested and appears to be stable, but there could still be some unknown issues. Please save regularly, and report any bugs you encounter by opening up an issue, or via the Discord thread: https://discord.com/channels/731205301247803413/1242860924092682481&#13;
-&#13;
-- Game Page: [EN](https://github.com/RischDev/Archipelago/blob/main/worlds/mmbn6/docs/en_MegaMan%20Battle%20Network%206.md)&#13;
-- Setup Page: [EN](https://github.com/RischDev/Archipelago/blob/main/worlds/mmbn6/docs/setup_en.md)&#13;
-&#13;
-Compatibility Notes&#13;
-- AP version: v0.6.7&#13;
-  - Other versions have not been tested at this time.&#13;
-&#13;
-## Changelog&#13;
-**Full Changelog**: https://github.com/RischDev/Archipelago/compare/v0.1.1...v0.2.0&#13;
-&#13;
-### New Features&#13;
-- ROMless generation has been added. Now, the host of a multiworld does not require the base Gregar or Falzar ROM in order to generate a world with BN6 in it.&#13;
-- Multiple requests can now be selected at a time. Requests will still be locked by your rank, but this means that you can immediately start all 11 one-star requests, and once you reach rank B, you can select all two-star requests. This prevents softlocks due to grabbing the wrong request.&#13;
-- Bass BX and ProtoMan FZ have been added as potential checks. This also adds ColForce Q and HubBatch J (vanilla rewards for Bass BX in Gregar and Falzar respectively) to the pool.&#13;
-- Added a Progressive Link Navi Item to the pool. Each world will generate with 4 copies of this item, which will upgrade all of the link navi's levels as they would normally due to story progression.&#13;
-&#13;
-### Changes&#13;
-- Virus deletion counts will now start at 32. This means that once you get the BtlrCard, all rare viruses will become immediately available without additional grinding.&#13;
-&#13;
-### Bug Fixes&#13;
-- VacData is now a requirement before beginning GroundMan class. When you talk to Moliarty, if you don't have VacData, he will inform you that it is required and will not let you start the class. This prevents potential softlocks.&#13;
-&#13;
-## Status&#13;
-- ROMless generation has been added via APProcedurePatch&#13;
-- Gregar and Falzar both supported&#13;
-- Upcoming Features:&#13;
-  - Virus randomization.&#13;
-  - New checks like ProtoMan and other link navi fights.&#13;
-  - Optional goals, like Bass, Bass SP, Bass BX, Beast SP, or ProtoMan FZ.&#13;
-&#13;
-### Checks&#13;
-- Base pool: 297&#13;
-- Settings:&#13;
-  - Request Rewards: 38&#13;
-  - EX Bosses: 6&#13;
-  - SP Bosses: 6&#13;
-  - Graveyard checks: 8&#13;
-  - Virus Battler checks: 5&#13;
-  - Bass BX: 1&#13;
-  - ProtoMan FZ: 1&#13;
-- Total with all exclusions: 232&#13;
-- Locations per region (all options enabled):&#13;
-  - Central Town: 105&#13;
-  - Central Internet: 10&#13;
-  - Central 3/Underground: 11&#13;
-  - Seaside Town: 34&#13;
-  - Seaside Internet: 17&#13;
-  - Green Town: 21&#13;
-  - Green Internet: 17&#13;
-  - Sky Town: 31&#13;
-  - Sky Internet: 15&#13;
-  - ACDC Town: 3&#13;
-  - ACDC Internet: 6&#13;
-  - Undernet: 7&#13;
-  - Graveyard: 8&#13;
-  - Expo Site: 12&#13;
-&#13;
-## Known Issues&#13;
-- The client is required for certain location checks (specifically EX and SP bosses) to give items, and is required to set flags when receiving Crosses, BeastOut, and BtlrCard items. As such, playing offline will not fully work, so players cannot play on console for single player games yet, and you must be connected to the client to fully experience the game.&#13;
-- Skipping a cutscene that can give an item (such as after Link Navi classes or after Bass/Bass SP) can result in not receiving a local item. The location check will still be sent, but if it's a local item, it will need to be received via a `/send` command. Try to avoid skipping these cutscenes until after you see the `get item` textbox.&#13;
-- Certain checks that could theoretically scout their contents (such as WWW ID and BtlrCard navis) are not currently scoutable locations. As such, before buying the items, they will display the wrong item.&#13;
-- Fighting Bass always gives the BatKey, even if it is located elsewhere. You can still get the randomized item from this location (don't skip the cutscene for local items), but you will get BatKey as well.&#13;
-- Fighting Bass SP will always give the version-specific giga chip.You can still get the randomized item from this location (don't skip the cutscene for local items), but you will get the giga chip as well.&#13;
-- The puddle to Seaside Area from Central 3 is not a 2-way obstacle. As such, you can go from Seaside into Central 3 even without `ToolPrgm`, but you can't go from Central 3 to Seaside without it.&#13;
-- `AreaPass` does give access to ACDC Area, but the invisible obstacle can only be cleared during the right chapter of the story. You need to trigger the dialogue, then you can enter a menu and close it to re-load the map and clear the obstacle. &#13;
-- Request Points will still display the wrong number of request points under certain circumstances. However, the patch will correctly calculate the appropriate number of request points based on the completion flags, so this can be safely ignored. &#13;
-&#13;
-## Other info&#13;
-For a full list of area requirements of requests, you can reference this [Pastebin](https://pastebin.com/nmb1a562)</content>
-    <link href="https://github.com/RischDev/Archipelago/releases/tag/v0.2.0"/>
-  </entry>
-  <entry>
-    <id>https://github.com/Mekurushi/Archipelago_Pokepark/releases/tag/1.2.7</id>
-    <title>PokePark v1.2.7</title>
-    <updated>2026-08-30T09:00:58+00:00</updated>
-    <author>
-      <name>Joe Mama (Mekurushi)</name>
-    </author>
-    <content>- fixed and added option display names&#13;
-**Full Changelog**: https://github.com/Mekurushi/Archipelago_Pokepark/compare/1.2.6...1.2.7</content>
-    <link href="https://github.com/Mekurushi/Archipelago_Pokepark/releases/tag/1.2.7"/>
-  </entry>
-  <entry>
-    <id>https://github.com/nhyldmar/fez-ap/releases/tag/v0.6.1</id>
-    <title>Fez v0.6.1</title>
-    <updated>2026-08-30T09:10:35+00:00</updated>
-    <author>
-      <name>Nolih</name>
-    </author>
-    <content>## What's Changed&#13;
-- Refactor of patching code under `PatchManager`&#13;
-- Hotfixes to APWorld&#13;
-  - Replacement of sets with lists to store world data and sort region data before placing in world -&gt; Solves issues with world generation determinism&#13;
-  - Fix logic for access to Telescope and Observatory Cube: Check for either "Turn Objects" or for active link door between Throne and Observatory (which puts Gomez at the Telescope entrance level)&#13;
-    - Link doors are activated once the rooms holding both sides are visited, so the Observatory side of link door can be activated just by entering Observatory from Zu City Ruins&#13;
-&#13;
-## Pull Requests Merged&#13;
-* Update APWorld to v0.6.1 by @wataniyob in https://github.com/nhyldmar/fez-ap/pull/29&#13;
-* Refactor patches into PatchManager by @thearst3rd in https://github.com/nhyldmar/fez-ap/pull/24&#13;
-&#13;
-Bugs should either be raised as issues here or tracked on the bugtracker here:&#13;
-https://docs.google.com/spreadsheets/d/1l2KPbde1qFznVFmOZbg8Ee7_sfi5h65sCRZXVndfLwk/edit?usp=sharing&#13;
-&#13;
-**Full Changelog**: https://github.com/nhyldmar/fez-ap/compare/v0.6.0...v0.6.1</content>
-    <link href="https://github.com/nhyldmar/fez-ap/releases/tag/v0.6.1"/>
-  </entry>
-  <entry>
-    <id>https://github.com/Satisha10/APwotw_release/releases/tag/v0.6.5</id>
-    <title>Ori and the Will of the Wisps v0.6.5</title>
-    <updated>2026-08-30T09:16:48+00:00</updated>
-    <author>
-      <name>Satisha</name>
-    </author>
-    <content>This release contains multiple improvements and fixes to the logic and generation, especially with random spawn and entrance randomizer. Huge thanks to @hellhound298 for implementing or suggesting most of these changes !&#13;
-&#13;
-Fixed bugs:&#13;
-- All spawn items should be sent when playing on a solo seed with random spawn.&#13;
-- Fix Teleporters not always being used in the logic.&#13;
-- Fix some `no_combat` options that were not taken into account in the logic.</content>
-    <link href="https://github.com/Satisha10/APwotw_release/releases/tag/v0.6.5"/>
-  </entry>
   <entry>
     <id>https://github.com/jordansds/Archipelago_TWW3_Alt/releases/tag/v0.10.19</id>
     <title>Total War Warhammer 3 v0.10.18r2</title>
@@ -1206,6 +1073,33 @@ This update is compatible with seeds generated on 0.3.X.&#13;
     <link href="https://github.com/Miiroun/Archipelago-NewSuperMarioBrosWii/releases/tag/v0.3.4"/>
   </entry>
   <entry>
+    <id>https://github.com/Miiroun/Archipelago-NewSuperMarioBrosWii/releases/tag/v0.3.5</id>
+    <title>NSMBW v0.3.5</title>
+    <updated>2026-08-31T22:31:21+00:00</updated>
+    <author>
+      <name>Miiroun</name>
+    </author>
+    <content># New Super Mario Bros Wii v0.3.5&#13;
+&#13;
+## Features&#13;
+- No new features.&#13;
+&#13;
+&#13;
+## Fixes&#13;
+- World9 script was broken, this fixes it.&#13;
+For it to work on an already generated patch, run `/rm_tmp` in your client before connecting.&#13;
+&#13;
+&#13;
+## Backwards compatibility&#13;
+This update is compatible with seeds generated on 0.3.X.&#13;
+&#13;
+&#13;
+## Links&#13;
+[Download](https://github.com/Miiroun/Archipelago-NewSuperMarioBrosWii/releases/tag/v0.3.5)&#13;
+[Setup Guide](https://github.com/Miiroun/Archipelago-NewSuperMarioBrosWii/blob/NSMBW/worlds/nsmbw/docs/setup_en.md)</content>
+    <link href="https://github.com/Miiroun/Archipelago-NewSuperMarioBrosWii/releases/tag/v0.3.5"/>
+  </entry>
+  <entry>
     <id>https://github.com/BlastSlimey/Archipelago/releases/tag/pkmn_ranger_quest_1.0.5</id>
     <title>Pokemon Ranger (Quest) v1.0.5</title>
     <updated>2026-08-31T23:45:15+00:00</updated>
@@ -1452,5 +1346,86 @@ Github for the APWorld: https://github.com/VincentBorchardt/Archipelago/blob/mai
     </author>
     <content>A won seed now announces its goal to every session it connects to, instead of only the first. A goal the launcher was not listening for used to be lost for good, leaving the seed unfinished in the room with every location the player never reached still unreleased. The victory screen and the final play time still happen once, when the seed is won.</content>
     <link href="https://github.com/solida1987/openttd-archipelago/releases/tag/v2.2.3"/>
+  </entry>
+  <entry>
+    <id>https://github.com/Crownmuri/Archipelago/releases/tag/v1.0.0</id>
+    <title>La-Mulana 2 v1.0.0</title>
+    <updated>2026-09-01T09:45:30+00:00</updated>
+    <author>
+      <name>Crownmuri</name>
+    </author>
+    <author>
+      <name>Coookie93</name>
+    </author>
+    <content>## Supports: Mod v1.0.0+ -- Tracker v2.0.0+&#13;
+&#13;
+# Changelogs&#13;
+- NEW option: Include Expensive Shop Item (Requires Ganesha's Talisman &amp; Money Fairy or Harp in logic)&#13;
+- Fixed sphere scaled AP item pricing (50-100) and made ammo pricing match vanilla to balance with useful AP filler&#13;
+- Many, many Pot/Glossary/DLC logic fixes (thank you too everyone who reported them!)&#13;
+- Collapsed item labels ("Sacred Orb", "Crystal Skull", "Kosugi Research Papers", non-guardian specific "Ankh Jewel")&#13;
+- Fixed require_fdc option -- it was appending the logic to vanilla exits despite ER&#13;
+- Fixed several instances of world.random instead of self.random causing the same chests to be cursed when there are multiple LM2 players in one multiworld.&#13;
+- Offline seed option is fully compatible with the new AP settings&#13;
+&#13;
+# Generation improvements&#13;
+- Major overhaul of the ER ordering, regeneration and validation (fuzz results at 99.5% with 1000 fully randomized yamls)&#13;
+  - For example, making sure that Gate of Guidance and Mausoleum of Giants is not blocked by a 9 soul gate door with original shops&#13;
+  - For example, rejecting ER layouts where the only way out is through a soul gate but with no guardian in the accessible regions&#13;
+- The non-VoD start Starting Shop can now still have progression items even with original shops to prevent sphere 1 softlock.&#13;
+  - Annwfn and Immortal Battlefield start will reroll if the YAML has original shops but no ER settings due to Pepper being stuck in VoD&#13;
+- Reduce local reserved filler (pot / glossary filler) in sphere 1 locations to prevent softlock.&#13;
+- Set the max amount of the Glossary Hunt goal to 80% of available glossary due to progressive item bloat.&#13;
+  - The remaining glossaries are classified as Filler&#13;
+ </content>
+    <link href="https://github.com/Crownmuri/Archipelago/releases/tag/v1.0.0"/>
+  </entry>
+  <entry>
+    <id>https://github.com/randomsalience/albw-archipelago/releases/tag/v0.3.5</id>
+    <title>A Link Between Worlds v0.3.5</title>
+    <updated>2026-09-01T13:05:05+00:00</updated>
+    <author>
+      <name>randomsalience</name>
+    </author>
+    <content>### Fixes&#13;
+- Fix a bug that prevented the apworld from loading if it failed to clean up old temporary directories</content>
+    <link href="https://github.com/randomsalience/albw-archipelago/releases/tag/v0.3.5"/>
+  </entry>
+  <entry>
+    <id>https://github.com/awakenbad/SanAndreasAP/releases/tag/v0.8.0</id>
+    <title>Grand Theft Auto: San Andreas v0.8.0</title>
+    <updated>2026-09-01T14:55:57+00:00</updated>
+    <author>
+      <name>awaken</name>
+    </author>
+    <content>## New:&#13;
+- Added Fast Travel marker in CJ's House, Badlands Trailer, Doherty Garage and Four Dragons Casino. (#44)&#13;
+- Added a `.ini` settings file with the following options:&#13;
+	- Notification duration (#39)&#13;
+	- Collectible number and Mission counter size (#41)&#13;
+	- Item importance colors in Ammu-nation&#13;
+	- Disabling Fast Travel&#13;
+- Starting Point chosen is now shown in `GTA SA Client` upon connecting. (#45)&#13;
+- Added Freight Train levels as checks&#13;
+- Added Ammu-nation gun challenges as checks&#13;
+- Added 100% as an End Goal (#5)&#13;
+- Added Jetpack pick up next to Four Dragons Casino&#13;
+## Changes:&#13;
+- The entire map is now open (no barricades and wanted level). Every collectible is now in logic early. (#14)&#13;
+  (Thanks to @Lordmau5 for letting me use their code from ChaosModComplementaries)&#13;
+- Added gating items - every early available side activity (paramedic, taxi, tags, snapshots etc.) is now gated behind an item that unlocks that submission specifically. (#50 and #47)&#13;
+- Added an option to start with one unlock item.&#13;
+- Tags cannot be sprayed until `Tags Unlock` item was received, excluding Tagging Up Turf tags (#56 by @Lordmau5)&#13;
+- Submissions cannot be started until their respective item was received (#55 by @Lordmau5)&#13;
+- All submissions now resume from their highest level after failing and restarting (#23)&#13;
+  (Thanks to @Lordmau5 for creating a proof of concept)&#13;
+- Save files are now stored per world inside `GTA San Andreas User Files/archipelago`. (#42)&#13;
+- Starting point save files are now shipped inside `SanAndreasAP-vX.X.X.zip` and their installation is different.&#13;
+- Renamed story missions and side-activity location names to be more comprehensible (#46)&#13;
+- Removed On Completion mode for submissions.&#13;
+## Fixed:&#13;
+- CLEO no longer breaks the mod (#54)&#13;
+- Fixed `Bad Weather Trap` always being sandstorm (#51)</content>
+    <link href="https://github.com/awakenbad/SanAndreasAP/releases/tag/v0.8.0"/>
   </entry>
 </feed>
