@@ -1,9 +1,27 @@
 # Diablo II Archipelago
 
 ## Latest
-- <a href="https://github.com/solida1987/Diablo-II-Archipelago/releases/download/v3.8.9/diablo2_archipelago.apworld">Latest Version (3.8.9)</a>
+- <a href="https://github.com/solida1987/Diablo-II-Archipelago/releases/download/v3.9.5/diablo2_archipelago.apworld">Latest Version (3.8.9r7)</a>
 
 ## All Versions
+
+#### v3.8.9r7
+- <a href="https://github.com/solida1987/Diablo-II-Archipelago/releases/download/v3.9.5/diablo2_archipelago.apworld">https://github.com/solida1987/Diablo-II-Archipelago/releases/download/v3.9.5/diablo2_archipelago.apworld</a>
+
+#### v3.8.9r6
+- <a href="https://github.com/solida1987/Diablo-II-Archipelago/releases/download/v3.9.4/diablo2_archipelago.apworld">https://github.com/solida1987/Diablo-II-Archipelago/releases/download/v3.9.4/diablo2_archipelago.apworld</a>
+
+#### v3.8.9r5
+- <a href="https://github.com/solida1987/Diablo-II-Archipelago/releases/download/v3.9.3/diablo2_archipelago.apworld">https://github.com/solida1987/Diablo-II-Archipelago/releases/download/v3.9.3/diablo2_archipelago.apworld</a>
+
+#### v3.8.9r4
+- <a href="https://github.com/solida1987/Diablo-II-Archipelago/releases/download/v3.9.2/diablo2_archipelago.apworld">https://github.com/solida1987/Diablo-II-Archipelago/releases/download/v3.9.2/diablo2_archipelago.apworld</a>
+
+#### v3.8.9r3
+- <a href="https://github.com/solida1987/Diablo-II-Archipelago/releases/download/v3.9.1/diablo2_archipelago.apworld">https://github.com/solida1987/Diablo-II-Archipelago/releases/download/v3.9.1/diablo2_archipelago.apworld</a>
+
+#### v3.8.9r2
+- <a href="https://github.com/solida1987/Diablo-II-Archipelago/releases/download/v3.9.0/diablo2_archipelago.apworld">https://github.com/solida1987/Diablo-II-Archipelago/releases/download/v3.9.0/diablo2_archipelago.apworld</a>
 
 #### v3.8.9
 - <a href="https://github.com/solida1987/Diablo-II-Archipelago/releases/download/v3.8.9/diablo2_archipelago.apworld">https://github.com/solida1987/Diablo-II-Archipelago/releases/download/v3.8.9/diablo2_archipelago.apworld</a>

@@ -2,256 +2,11 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://raw.githubusercontent.com/silasary/apworlds/refs/heads/main/recent.atom</id>
   <title>Recent APWorlds</title>
-  <updated>2026-09-01T15:51:21.547363+00:00</updated>
+  <updated>2026-09-01T20:30:22.958429+00:00</updated>
   <author>
     <name>Silasary</name>
   </author>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
-  <entry>
-    <id>https://github.com/jordansds/Archipelago_TWW3_Alt/releases/tag/v0.10.19</id>
-    <title>Total War Warhammer 3 v0.10.18r2</title>
-    <updated>2026-08-30T11:08:24+00:00</updated>
-    <author>
-      <name>jordansds</name>
-    </author>
-    <content>Bugfixes&#13;
-&#13;
-**Full Changelog**: https://github.com/jordansds/Archipelago_TWW3_Alt/compare/v0.10.18...v0.10.19&#13;
-&#13;
-[Submod to allow recruitment of units without buildings](https://github.com/jordansds/TWW3-Recruit-Without-Buildings/releases/tag/v1.0.0)&#13;
-</content>
-    <link href="https://github.com/jordansds/Archipelago_TWW3_Alt/releases/tag/v0.10.19"/>
-  </entry>
-  <entry>
-    <id>https://github.com/nielrenned/PokemonSnap_Archipelago/releases/tag/v0.6.2</id>
-    <title>Pokemon Snap v0.6.0r2</title>
-    <updated>2026-08-30T12:28:19+00:00</updated>
-    <author>
-      <name>ArsonAssassin</name>
-    </author>
-    <author>
-      <name>SomeJakeGuy</name>
-    </author>
-    <author>
-      <name>gerbiljames</name>
-    </author>
-    <author>
-      <name>nielrenned</name>
-    </author>
-    <author>
-      <name>cobyw</name>
-    </author>
-    <content>## What's Changed&#13;
-* Use Archipelago repo to build apworld file&#13;
-* Fix Universal Tracker bugs&#13;
-* Fix PKMN Report Count Logic</content>
-    <link href="https://github.com/nielrenned/PokemonSnap_Archipelago/releases/tag/v0.6.2"/>
-  </entry>
-  <entry>
-    <id>https://github.com/silasary/APxiv/releases/tag/0.31.2</id>
-    <title>Final Fantasy XIV v0.31.2</title>
-    <updated>2026-08-30T13:36:59+00:00</updated>
-    <author>
-      <name>silasary</name>
-    </author>
-    <content>* Fixed bug where logic thought you could do duties as a Disciple of the Hand or Land.
-* This confused UT, but hopefully shouldn't have caused any unbeatable seeds.
-* That said, if you genned on 0.31.1, and your Fisher is higher than any of your combat classes... You may have to cheat some locations.
-(Only fisher though, because the rest of them will always be filler.)</content>
-    <link href="https://github.com/silasary/APxiv/releases/tag/0.31.2"/>
-  </entry>
-  <entry>
-    <id>https://github.com/solida1987/openttd-archipelago/releases/tag/v2.2.0</id>
-    <title>OpenTTD v2.5.0</title>
-    <updated>2026-08-30T14:01:24+00:00</updated>
-    <author>
-      <name>OpenTTD AP Team</name>
-    </author>
-    <content>**The seed's settings now reach the game.** World generation is deferred by a
-turn of the main loop, and the NewGRF scan's config reload landed in that gap
-and overwrote everything the seed had chosen — train length, station spread,
-vehicle limits and the rest, which were then baked into the savegame. The
-settings are applied again at the moment the world is built, and a world
-generated with the wrong values is repaired when it is loaded.
-
-**Engine**
-- Reconnecting mid-session no longer replays every item (double money,
-  re-fired traps) and no longer loses mission progress.
-- Infrastructure locks only bind the player — towns can grow their roads and
-  industries can level ground again.
-- Server-synced missions and the Mission Check task reward now count toward
-  shop and tier unlocks.
-- Trap timers no longer run while paused; your own DeathLink no longer
-  bounces back onto you; the Colby event can no longer stall permanently.
-- Shop hints are requested at session start, so slots can show who holds what.
-
-**apworld 2.5.0** — new seeds need this version; existing seeds still play.
-- Every goal is clamped to what the seed can actually supply: missions,
-  vehicles, town counts.
-- Multiplayer mode really removes ruins, stars, Colby and demigods now.
-- Missions and Colby only name cargo that exists in the chosen landscape and
-  FIRS economy.
-- An unlock can no longer be placed behind the tier it unlocks.
-
-**Plugin 1.5.0** — needs launcher 3.21.2 or newer.
-- Standalone sessions connect properly; a game crash during startup no longer
-  hangs the launcher; a fresh install gets ruins and stars in its first seed.
-- The plugin source is back in this repository, under `plugin/`.
-
-This release is machine-verified (generation proven at the option extremes)
-but has not yet been played through — see KNOWN_BUGS.md, and report anything
-on BetaHub.
-</content>
-    <link href="https://github.com/solida1987/openttd-archipelago/releases/tag/v2.2.0"/>
-  </entry>
-  <entry>
-    <id>https://github.com/brodieberger/MMZero3Archipelago/releases/tag/v0.3.4</id>
-    <title>Mega Man Zero 3 v0.3.4</title>
-    <updated>2026-08-30T17:32:38+00:00</updated>
-    <author>
-      <name>brodieberger</name>
-    </author>
-    <content>Tons of bug fixes from the reports on the last release. Biggest ones were the glitched NPC dialogue rewards and Cerveau disappearing and remaining inaccessible.&#13;
-&#13;
-[Check out the full readme before playing.](https://github.com/brodieberger/MMZero3Archipelago)&#13;
-&#13;
-# Features&#13;
-&#13;
-## Hint and track by group&#13;
-&#13;
-Items and locations are sorted into groups now, so commands like `!hint` can be used on a category.&#13;
-&#13;
-| locations | |&#13;
-| --- | --- |&#13;
-| by stage | `Resistance Base` (all three mission sets), `Aegis Volcano Base`, `Sunken Library`, ... |&#13;
-| by type | `Secret Disks`, `Stage Clears`, `Chips`, `A+ Rank Clears`, `Subtanks`, `Weapons`, `1-UPs`, `Minibosses` |&#13;
-&#13;
-| items | |&#13;
-| --- | --- |&#13;
-| by type | `Secret Disks`, `Stage Access`, `Chips`, `Body Chips`, `Foot Chips`, `Head Chips`, `EX Skills`, `Subtanks`, `Weapons` |&#13;
-&#13;
-Try using `!hint Stage Access` or `!missing Resistance Base`.&#13;
-&#13;
-Works in the Yaml too.&#13;
-```yaml&#13;
-Mega Man Zero 3:&#13;
-  exclude_locations: [1-Ups]&#13;
-  start_hints: [Stage Access]&#13;
-  local_items: [Weapons]&#13;
-```&#13;
-&#13;
-## Intermission cutscenes are reimplemented&#13;
-&#13;
-Some missions in the vanilla game start by a cutscene starting which forces you into the level. These have been brought back and will now play when you start the mission through the mission select screen.&#13;
-&#13;
-Mission include: Starting cutscenes from Missile Factory and Sub Arcadia. Ending cutscenes from Derelict Spacecraft, Missile Factory, and Area X-2.&#13;
-&#13;
-You are still able to skip these.&#13;
-&#13;
-## New NPC in Cerveau's room&#13;
-&#13;
-Cerveau leaves his room once the maintenance bay cutscene with Harpuia is supposed to be activated. There is now a resistance soldier standing in his spot waiting to direct you to his location. &#13;
-&lt;div align="center"&gt;&#13;
-&lt;img width="400" alt="Screenshot 2026-08-30 140321" src="https://github.com/user-attachments/assets/5b17a7a5-9c16-4a0c-a2a6-c40851179f71" /&gt;&#13;
-&lt;/div&gt;&#13;
-(The bug where that cutscene is inaccessible until clearing certain stages has also been fixed)&#13;
-&#13;
-## Starting weapons&#13;
-&#13;
-If you leave `starting_weapons` empty and you now get one random weapon.&#13;
-&#13;
-If you start with the Shield Boomerang only, another one gets added to your inventory so you can still attack with the charged attack.&#13;
-&#13;
-# Bug Fixes&#13;
-&#13;
-- Completing the game no longer prompts you to save the game. Effectively removing new game plus and any bugs it had. NG+ is not really that important anyway since you can replay levels with all your items regardless.&#13;
-- The cutscene with Harpuia in the maintenance room is no longer gated behind certain levels being cleared. Should now always be accessible once you have the second story progress item.&#13;
-- Cerveau, Hirondelle, Doigt and Rocinolle now give their items once Story Progress has been sent. Previously they would also check if Area X-2 was cleared in addition to the story progress. This has been fixed to be just the story progress item.&#13;
-- A+ Rank Clear: Sub Arcadia was in the Giant Elevator region for some reason.&#13;
-- Loading a save used to drop you into a level or replay a cutscene based on levels cleared. This has been fixed.&#13;
-- Talking to Ciel would launch Sub Arcadia. Also fixed.&#13;
-- The Sunken Library's disks are now represented properly on the mission select screen.&#13;
-- Fixed the item received indicator palettes being messed up on the mission select screen.&#13;
-&#13;
-# Known bugs&#13;
-&#13;
-- The game got a bit laggier the further you got into a run, since the game does all of the AP logic every frame. This has been optimized, but the game might still have a few stutters when you get late into a run. Will be improved more later.&#13;
-  - Note that the game still lags in vanilla, so its not all from this mod.&#13;
-&#13;
-Still aiming to move this world from unstable to stable, so keep reporting bugs :)&#13;
-</content>
-    <link href="https://github.com/brodieberger/MMZero3Archipelago/releases/tag/v0.3.4"/>
-  </entry>
-  <entry>
-    <id>https://github.com/Dinopony/ArchipelagoOoS/releases/tag/oos-23.0.0</id>
-    <title>The Legend of Zelda - Oracle of Seasons v23.0.0</title>
-    <updated>2026-08-30T17:35:26+00:00</updated>
-    <author>
-      <name>Dinopony</name>
-    </author>
-    <author>
-      <name>Ishigh</name>
-    </author>
-    <content>## 🗳️ New Options&#13;
-- Added a start position option, that contains north horon, sunken city, tarm ruins, temple of seasons and samasa desert&#13;
-&#13;
-## ⏫ Miscellaneous Improvements&#13;
-- Shops items can now be bought more than once if it is local and makes sense to be bought more than once (potions, ore chunks, rupees)&#13;
-- Owl hints now try to give items that appear later in logic, and should stop constantly telling you how to get what you already have&#13;
-- You can now always put the 4 jewels in their slots if you want&#13;
-- Subrosia digging spots are now permanently dug up&#13;
-- Added a way to warp back to the ship after giving the bell to the pirate captain&#13;
-- Added bomb and bombchu upgrades to the pool, packs of bombs no longer increase the max bomb count&#13;
-&#13;
-## 🧠 Logic&#13;
-- Added logic requiring some amounts of heart containers before beating some bosses or doing skips. The amount depends on the logic difficulty&#13;
-- Breaking the blocks to the goron chest with bombchus is now hard logic&#13;
-- Added logic to jump on the button in d8, for the armos chest&#13;
-- Added bombchu jumps to hell logic (thanks omega)&#13;
-&#13;
-## 🛠️ Bugfixes&#13;
-- Moved the mt cucco warp to between tarm ruins and sunken city&#13;
-- Fixed Switch Hook allowing to jump at the same time</content>
-    <link href="https://github.com/Dinopony/ArchipelagoOoS/releases/tag/oos-23.0.0"/>
-  </entry>
-  <entry>
-    <id>https://github.com/PhantomOfAres/ArchipelagoRimworld/releases/tag/v0.6.1-alpha</id>
-    <title>Rimworld v0.6.1a0</title>
-    <updated>2026-08-30T17:57:02+00:00</updated>
-    <author>
-      <name>PhantomOfAres</name>
-    </author>
-    <content>### Version 0.6.1 Release!&#13;
-&#13;
-## Features&#13;
-&#13;
-* Advanced setup improvements&#13;
-&#13;
-1. New folder functionality - no more hunting down the right Documents folder&#13;
-2. An "Open folder" button - open right to the folder with the new files&#13;
-3. An auto-package of the apworld - no more messing with zipped files &#13;
-&#13;
-* Version and ItemDef error handling&#13;
-&#13;
-1. An error will display if the versions don't match between client and apworld&#13;
-2. An error will display if ItemDefs don't match&#13;
-&#13;
-* Options to vary research costs&#13;
-&#13;
-1. ResearchCostVariance: The cost for each research will increase by a random number up to this amount&#13;
-2. ResearchCostIncreasePerTier: Each tier (column) will increase by this static amount.&#13;
-3. Both are optional.&#13;
-&#13;
-## Bugfixes&#13;
-&#13;
-* Universal Tracker craft locations were displaying incorrectly&#13;
-* Raid/trade location items could not be stockpiled&#13;
-&#13;
-## Decided not to fix&#13;
-&#13;
-* Tribute collectors will sell a trade location for 100 honor - I put together a fix for this, but it also prevented normal imperial traders from selling trade locations. It's a little messy this way, but fixing it for real is too much of a pain.</content>
-    <link href="https://github.com/PhantomOfAres/ArchipelagoRimworld/releases/tag/v0.6.1-alpha"/>
-  </entry>
   <entry>
     <id>https://github.com/Dinopony/ArchipelagoOoS/releases/tag/oos-23.0.1</id>
     <title>The Legend of Zelda - Oracle of Seasons v23.0.1</title>
@@ -1349,7 +1104,7 @@ Github for the APWorld: https://github.com/VincentBorchardt/Archipelago/blob/mai
   </entry>
   <entry>
     <id>https://github.com/Crownmuri/Archipelago/releases/tag/v1.0.0</id>
-    <title>La-Mulana 2 v1.0.0</title>
+    <title>La-Mulana 2 v1.0.0.post2</title>
     <updated>2026-09-01T09:45:30+00:00</updated>
     <author>
       <name>Crownmuri</name>
@@ -1375,8 +1130,7 @@ Github for the APWorld: https://github.com/VincentBorchardt/Archipelago/blob/mai
 - The non-VoD start Starting Shop can now still have progression items even with original shops to prevent sphere 1 softlock.&#13;
   - Annwfn and Immortal Battlefield start will reroll if the YAML has original shops but no ER settings due to Pepper being stuck in VoD&#13;
 - Reduce local reserved filler (pot / glossary filler) in sphere 1 locations to prevent softlock.&#13;
-- Set the max amount of the Glossary Hunt goal to 80% of available glossary due to progressive item bloat.&#13;
-  - The remaining glossaries are classified as Filler&#13;
+- Available glossary that are below the set Glossary Hunt goal are automatically classified as filler (will still count towards progress)&#13;
  </content>
     <link href="https://github.com/Crownmuri/Archipelago/releases/tag/v1.0.0"/>
   </entry>
@@ -1427,5 +1181,151 @@ Github for the APWorld: https://github.com/VincentBorchardt/Archipelago/blob/mai
 - CLEO no longer breaks the mod (#54)&#13;
 - Fixed `Bad Weather Trap` always being sandstorm (#51)</content>
     <link href="https://github.com/awakenbad/SanAndreasAP/releases/tag/v0.8.0"/>
+  </entry>
+  <entry>
+    <id>https://github.com/solida1987/Diablo-II-Archipelago/releases/tag/v3.9.0</id>
+    <title>Diablo II Archipelago v3.8.9r2</title>
+    <updated>2026-09-01T16:44:49+00:00</updated>
+    <author>
+      <name>solida1987</name>
+    </author>
+    <author>
+      <name>ꓘicka (AP logic)</name>
+    </author>
+    <author>
+      <name>Zoë (AP logic)</name>
+    </author>
+    <content># 3.9.0
+
+The Treasure Cow scales to you now.
+
+- Its life follows the level match, so an early cow no longer keeps
+  boss-act life behind an Act 1 name.
+- Its resistances are set from your level with a hard ceiling — it can
+  never roll into an immunity again.
+- The Magic Resistant and Lightning Enchanted modifiers are gone from
+  its spawn.
+- An over-levelled character revisiting an old act meets a cow scaled
+  up to match, not a pushover.
+</content>
+    <link href="https://github.com/solida1987/Diablo-II-Archipelago/releases/tag/v3.9.0"/>
+  </entry>
+  <entry>
+    <id>https://github.com/solida1987/Diablo-II-Archipelago/releases/tag/v3.9.1</id>
+    <title>Diablo II Archipelago v3.8.9r3</title>
+    <updated>2026-09-01T18:03:41+00:00</updated>
+    <author>
+      <name>solida1987</name>
+    </author>
+    <author>
+      <name>ꓘicka (AP logic)</name>
+    </author>
+    <author>
+      <name>Zoë (AP logic)</name>
+    </author>
+    <content># 3.9.1
+
+Walking out of a shuffled dungeon always returns you to the door you
+entered through.
+
+- The act lock used to answer first when an exit surfaced in a locked
+  act, bouncing you back inside — and the two answers ping-ponged
+  forever. The exit rule decides first now; its target is a door you
+  used yourself, in an act you have.
+- The lock messages render their dash correctly.
+</content>
+    <link href="https://github.com/solida1987/Diablo-II-Archipelago/releases/tag/v3.9.1"/>
+  </entry>
+  <entry>
+    <id>https://github.com/solida1987/Diablo-II-Archipelago/releases/tag/v3.9.2</id>
+    <title>Diablo II Archipelago v3.8.9r4</title>
+    <updated>2026-09-01T18:34:31+00:00</updated>
+    <author>
+      <name>solida1987</name>
+    </author>
+    <author>
+      <name>ꓘicka (AP logic)</name>
+    </author>
+    <author>
+      <name>Zoë (AP logic)</name>
+    </author>
+    <content># 3.9.2
+
+A lock's kick always lands somewhere legal.
+
+- The zone lock kicked to the locked region's own town — which could sit
+  in a locked act, whose lock kicked straight back. The two locks
+  ping-ponged the player forever. Zone kicks now go to a town you have,
+  and the act lock never bounces you into locked ground.
+</content>
+    <link href="https://github.com/solida1987/Diablo-II-Archipelago/releases/tag/v3.9.2"/>
+  </entry>
+  <entry>
+    <id>https://github.com/solida1987/Diablo-II-Archipelago/releases/tag/v3.9.3</id>
+    <title>Diablo II Archipelago v3.8.9r5</title>
+    <updated>2026-09-01T18:41:10+00:00</updated>
+    <author>
+      <name>solida1987</name>
+    </author>
+    <author>
+      <name>ꓘicka (AP logic)</name>
+    </author>
+    <author>
+      <name>Zoë (AP logic)</name>
+    </author>
+    <content># 3.9.3
+
+The title screen tells the truth about its version again — it said
+3.8.9 through two releases of fixes.
+</content>
+    <link href="https://github.com/solida1987/Diablo-II-Archipelago/releases/tag/v3.9.3"/>
+  </entry>
+  <entry>
+    <id>https://github.com/solida1987/Diablo-II-Archipelago/releases/tag/v3.9.4</id>
+    <title>Diablo II Archipelago v3.8.9r6</title>
+    <updated>2026-09-01T18:45:14+00:00</updated>
+    <author>
+      <name>solida1987</name>
+    </author>
+    <author>
+      <name>ꓘicka (AP logic)</name>
+    </author>
+    <author>
+      <name>Zoë (AP logic)</name>
+    </author>
+    <content># 3.9.4
+
+Walking out of a shuffled dungeon lands you at the door you entered
+through — for real this time.
+
+- The return-to-your-door warp was queued correctly, and the zone lock
+  overwrote it one frame later while you still stood on locked ground,
+  sending you to town instead. A queued redirect is respected now; the
+  town kick stays as the fallback it was meant to be.
+</content>
+    <link href="https://github.com/solida1987/Diablo-II-Archipelago/releases/tag/v3.9.4"/>
+  </entry>
+  <entry>
+    <id>https://github.com/solida1987/Diablo-II-Archipelago/releases/tag/v3.9.5</id>
+    <title>Diablo II Archipelago v3.8.9r7</title>
+    <updated>2026-09-01T19:44:55+00:00</updated>
+    <author>
+      <name>solida1987</name>
+    </author>
+    <author>
+      <name>ꓘicka (AP logic)</name>
+    </author>
+    <author>
+      <name>Zoë (AP logic)</name>
+    </author>
+    <content># 3.9.5
+
+- Act-boss Shuffle and the legacy Boss Shuffle are gone from the options
+  — both were disabled placeholders that only invited confusion. Old
+  YAMLs that still set them must drop those two lines.
+- Option descriptions are shown in full everywhere; they used to stop
+  mid-sentence at 150 characters.
+</content>
+    <link href="https://github.com/solida1987/Diablo-II-Archipelago/releases/tag/v3.9.5"/>
   </entry>
 </feed>
