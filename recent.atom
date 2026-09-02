@@ -2,75 +2,11 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://raw.githubusercontent.com/silasary/apworlds/refs/heads/main/recent.atom</id>
   <title>Recent APWorlds</title>
-  <updated>2026-09-02T10:20:35.815747+00:00</updated>
+  <updated>2026-09-02T15:38:43.172298+00:00</updated>
   <author>
     <name>Silasary</name>
   </author>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
-  <entry>
-    <id>https://github.com/JammyGeeza/CursedWords-Archipelago/releases/tag/v0.5.2</id>
-    <title>Cursed Words v0.5.2</title>
-    <updated>2026-08-31T00:16:39+00:00</updated>
-    <author>
-      <name>JammyGeeza</name>
-    </author>
-    <content>## Information&#13;
-This archipelago implementation is in **early development** and is in public pre-release for testing, so may not be complete and/or may contain bugs that heavily disrupt the experience. It is not advised to include this in large multiworlds at this time, so only do so at your own risk and inform your host beforehand.&#13;
-&#13;
-## Setup Guide&#13;
-Please visit the [Setup Guide](https://github.com/JammyGeeza/CursedWords-Archipelago#setup-guide) for instructions on how to install the mod client.&#13;
-&#13;
-## Issue / Bug Reporting&#13;
-If you experience issues that are not already on the [known issues list](https://github.com/JammyGeeza/CursedWords-Archipelago/issues/views/12865), please raise a new issue or post in the [Cursed Words Forum in the Archipelago Discord Server](https://discord.com/channels/731205301247803413/1499176806962692196)&#13;
-&#13;
-## Patch Notes&#13;
-This patch provides the following fixes:&#13;
-### APWorld&#13;
-- Further improvements to sticker/stamp groupings for characters _(including metadata of tags used by in-game vanilla)_&#13;
-- Fixed typos / mis-matches for `King Of The Bridge`, `Glass Of Milk` and `Sequoia Sapling`&#13;
-### Client&#13;
-- Save slot menu now displays last known Slot Name and Checked Locations count for each save.&#13;
-- Items received now trigger an in-game notification.&#13;
-- In-game text-client console provided to view activity history and send messages/commands&#13;
-- Processing `Force Grid Re-roll` item now correctly waits for the entire re-roll procedure to finish before processing the next item.&#13;
-- `Money Earned` locations are no longer attempted to be checked if the money total has _decreased_.</content>
-    <link href="https://github.com/JammyGeeza/CursedWords-Archipelago/releases/tag/v0.5.2"/>
-  </entry>
-  <entry>
-    <id>https://github.com/drtchops/Archipelago-Astalon/releases/tag/v1.0.0-rc4</id>
-    <title>Astalon v0.99.4</title>
-    <updated>2026-08-31T01:01:04+00:00</updated>
-    <author>
-      <name>DrTChops</name>
-    </author>
-    <content>**This is a testing pre-release. See the latest release for the stable version.**&#13;
-&#13;
-- Added more starting locations&#13;
-- Opened alternative starting locations sphere 1 a little&#13;
-- Completely redone tracker maps, including a new shop "map"&#13;
-- Fixed sending skull puzzle checks&#13;
-- Renamed Hall of the Phantoms to Hall of Phantoms, sorry "the" fans&#13;
-&#13;
-**More Information**: https://github.com/drtchops/Archipelago/blob/astalon/worlds/astalon/docs/en_Astalon.md&#13;
-**Setup Guide**: https://github.com/drtchops/Archipelago/blob/astalon/worlds/astalon/docs/setup_en.md&#13;
-**Full Changelog**: https://github.com/drtchops/Archipelago-Astalon/compare/v1.0.0-rc3...v1.0.0-rc4</content>
-    <link href="https://github.com/drtchops/Archipelago-Astalon/releases/tag/v1.0.0-rc4"/>
-  </entry>
-  <entry>
-    <id>https://github.com/EpicPuppy613/Wynncraft-APWorld/releases/tag/v0.4.1</id>
-    <title>Wynncraft v0.4.1</title>
-    <updated>2026-08-31T04:10:40+00:00</updated>
-    <author>
-      <name>EpicPuppy613</name>
-    </author>
-    <content>**Compatible with Wynnpelago v0.4.1+**&#13;
-&#13;
-- Add logical gear levels option&#13;
-  - This option ensures that you can access a certain level of gear before content above that level is in logic&#13;
-- Fix daze traps not generating&#13;
-- Fix various logic issues</content>
-    <link href="https://github.com/EpicPuppy613/Wynncraft-APWorld/releases/tag/v0.4.1"/>
-  </entry>
   <entry>
     <id>https://github.com/AegeusEvander/Brave-Fencer-Musashi-AP-World/releases/tag/v0.8.0</id>
     <title>Brave Fencer Musashi v0.8.0</title>
@@ -1219,5 +1155,85 @@ Documentation:&#13;
     </author>
     <content>Fixed the Join panel's Play button starting a run with unmodified tables. That path launches the game from a background thread, where the progress window cannot be created; the window was built outside the guarded block, so the failure escaped before the tables were ever generated or applied and the error was swallowed. Item and skill requirement toggles, shop, monster and super-unique shuffle now apply from both launch buttons, and the tables are verified in place before the game loads them.</content>
     <link href="https://github.com/solida1987/Diablo-II-Archipelago/releases/tag/v3.9.10"/>
+  </entry>
+  <entry>
+    <id>https://github.com/awakenbad/SanAndreasAP/releases/tag/v0.8.1</id>
+    <title>Grand Theft Auto: San Andreas v0.8.1</title>
+    <updated>2026-09-02T12:16:41+00:00</updated>
+    <author>
+      <name>awaken</name>
+    </author>
+    <content>## Fixed:&#13;
+- Fixed `.asi` not receiving the world seed from GTA SA Client if Universal Tracker isn't installed.</content>
+    <link href="https://github.com/awakenbad/SanAndreasAP/releases/tag/v0.8.1"/>
+  </entry>
+  <entry>
+    <id>https://github.com/SilicDev/Archipelago/releases/tag/yohane_bitdb-v0.2.4</id>
+    <title>YOHANE THE PARHELION -BLAZE in the DEEPBLUE- v0.2.4</title>
+    <updated>2026-09-02T13:36:38+00:00</updated>
+    <author>
+      <name>SilicDev</name>
+    </author>
+    <content># Hard and easy logic logic &#13;
+**Full Changelog**: https://github.com/SilicDev/Archipelago/compare/yohane_bitdb-v0.2.3...yohane_bitdb-v0.2.4&#13;
+&#13;
+## Changes&#13;
+- Added Fashion for Dummies as requirement for Infernal Altar and Sunken Volcano bosses on easy logic&#13;
+- Implemented an early version of hard logic, enabling damage boosting as a logically required step and force enabling you skips&#13;
+- Adjusted the death and damagelink messages&#13;
+&#13;
+## Internal: &#13;
+- Fixed an issue breaking generation on Linux&#13;
+&#13;
+AP Mod download: https://github.com/SilicDev/YohaneAPMod/releases/tag/v0.0.3&#13;
+Yohane BID mod loader download: https://github.com/SilicDev/YohaneBIDModLoader/releases/tag/v0.0.1</content>
+    <link href="https://github.com/SilicDev/Archipelago/releases/tag/yohane_bitdb-v0.2.4"/>
+  </entry>
+  <entry>
+    <id>https://github.com/ChakraaThePanda/Archipelago-Northgard/releases/tag/2026.09.02</id>
+    <title>Northgard v2026.9.2</title>
+    <updated>2026-09-02T14:42:18+00:00</updated>
+    <author>
+      <name>Chakraa</name>
+    </author>
+    <content>### Fixed
+- Reconnecting the client to a different room could fail with "The server is running a different multiworld than your client is. (invalid seed_name)" and silently not log in. It should now be fixed by clearing the stale seed_name before each new connection attempt.
+- After a Northgard update, applying the patch could silently re-patch the stale pre-update backup and overwrite the freshly-updated game with a repatched OLD build, instead of patching the new one. It should now be fixed by re-checking whether the live install is fresh and vanilla before deciding what to patch.
+
+**Full Changelog**: https://github.com/ChakraaThePanda/Archipelago-Northgard/compare/2026.08.27...2026.09.02
+</content>
+    <link href="https://github.com/ChakraaThePanda/Archipelago-Northgard/releases/tag/2026.09.02"/>
+  </entry>
+  <entry>
+    <id>https://github.com/Dinopony/ArchipelagoOoS/releases/tag/oos-23.0.4</id>
+    <title>The Legend of Zelda - Oracle of Seasons v23.0.4r2</title>
+    <updated>2026-09-02T15:02:22+00:00</updated>
+    <author>
+      <name>Dinopony</name>
+    </author>
+    <author>
+      <name>Ishigh</name>
+    </author>
+    <content>## 🗳️ New Options&#13;
+- Added a start position option, that contains north horon, sunken city, tarm ruins, temple of seasons and samasa desert&#13;
+&#13;
+## ⏫ Miscellaneous Improvements&#13;
+- Shops items can now be bought more than once if it is local and makes sense to be bought more than once (potions, ore chunks, rupees)&#13;
+- Owl hints now try to give items that appear later in logic, and should stop constantly telling you how to get what you already have&#13;
+- You can now always put the 4 jewels in their slots if you want&#13;
+- Subrosia digging spots are now permanently dug up&#13;
+- Added a way to warp back to the ship after giving the bell to the pirate captain&#13;
+- Added bomb and bombchu upgrades to the pool, packs of bombs no longer increase the max bomb count&#13;
+&#13;
+## 🧠 Logic&#13;
+- Added logic requiring some amounts of heart containers before beating some bosses or doing skips. The amount depends on the logic difficulty&#13;
+- Breaking the blocks to the goron chest with bombchus is now hard logic&#13;
+- Added logic to jump on the button in d8, for the armos chest&#13;
+- Added bombchu jumps to hell logic (thanks omega)&#13;
+&#13;
+## 🛠️ Bugfixes&#13;
+- Moved the mt cucco warp to between tarm ruins and sunken city&#13;
+- Fixed Switch Hook allowing to jump at the same time</content>
+    <link href="https://github.com/Dinopony/ArchipelagoOoS/releases/tag/oos-23.0.4"/>
   </entry>
 </feed>
