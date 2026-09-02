@@ -1776,6 +1776,21 @@
       "version_simple": "3.8.9",
       "world_version": "3.8.9r3"
     },
+    "v3.9.10": {
+      "created_at": "2026-09-02T06:26:21Z",
+      "description": "Fixed the Join panel's Play button starting a run with unmodified tables. That path launches the game from a background thread, where the progress window cannot be created; the window was built outside the guarded block, so the failure escaped before the tables were ever generated or applied and the error was swallowed. Item and skill requirement toggles, shop, monster and super-unique shuffle now apply from both launch buttons, and the tables are verified in place before the game loads them.",
+      "download_url": "https://github.com/solida1987/Diablo-II-Archipelago/releases/download/v3.9.10/diablo2_archipelago.apworld",
+      "has_manifest": true,
+      "hash_sha256": "8638128df5176bfc1fa46885ac3c88ff4d820b66b5c27a3a7387b7e42f52e4e1",
+      "html_url": "https://github.com/solida1987/Diablo-II-Archipelago/releases/tag/v3.9.10",
+      "minimum_ap_version": "0.5.0",
+      "size": 84049,
+      "source_url": "https://api.github.com/repos/solida1987/Diablo-II-Archipelago",
+      "tag": "v3.9.10",
+      "title": "v3.9.10",
+      "version_simple": "3.9.10",
+      "world_version": "3.9.10"
+    },
     "v3.9.2": {
       "created_at": "2026-09-01T18:34:31Z",
       "description": "# 3.9.2\n\nA lock's kick always lands somewhere legal.\n\n- The zone lock kicked to the locked region's own town \u2014 which could sit\n  in a locked act, whose lock kicked straight back. The two locks\n  ping-ponged the player forever. Zone kicks now go to a town you have,\n  and the act lock never bounces you into locked ground.\n",
@@ -1880,6 +1895,21 @@
       "title": "v3.9.8",
       "version_simple": "3.9.8",
       "world_version": "3.9.8"
+    },
+    "v3.9.9": {
+      "created_at": "2026-09-01T22:29:58Z",
+      "description": "Settings audit. The skill pool size is now always sent with the seed: when a YAML left it at the default, the game fell back to whatever the player last used in standalone, letting a local setting leak into a multiworld run. When the seed's settings cannot be applied at launch, the launcher now says so instead of starting a run whose YAML quietly did nothing, and it verifies the seed's tables are actually in place before the game loads them.",
+      "download_url": "https://github.com/solida1987/Diablo-II-Archipelago/releases/download/v3.9.9/diablo2_archipelago.apworld",
+      "has_manifest": true,
+      "hash_sha256": "332633c45532b60fdcc133b25478698d81ce8c861d0cc2b47be4b4013663abb9",
+      "html_url": "https://github.com/solida1987/Diablo-II-Archipelago/releases/tag/v3.9.9",
+      "minimum_ap_version": "0.5.0",
+      "size": 84049,
+      "source_url": "https://api.github.com/repos/solida1987/Diablo-II-Archipelago",
+      "tag": "v3.9.9",
+      "title": "v3.9.9",
+      "version_simple": "3.9.9",
+      "world_version": "3.9.9"
     }
   }
 }
