@@ -2,199 +2,11 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://raw.githubusercontent.com/silasary/apworlds/refs/heads/main/recent.atom</id>
   <title>Recent APWorlds</title>
-  <updated>2026-09-01T20:30:22.958429+00:00</updated>
+  <updated>2026-09-02T01:51:17.002052+00:00</updated>
   <author>
     <name>Silasary</name>
   </author>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
-  <entry>
-    <id>https://github.com/Dinopony/ArchipelagoOoS/releases/tag/oos-23.0.1</id>
-    <title>The Legend of Zelda - Oracle of Seasons v23.0.1</title>
-    <updated>2026-08-30T17:58:39+00:00</updated>
-    <author>
-      <name>Dinopony</name>
-    </author>
-    <author>
-      <name>Ishigh</name>
-    </author>
-    <content>## 🗳️ New Options&#13;
-- Added a start position option, that contains north horon, sunken city, tarm ruins, temple of seasons and samasa desert&#13;
-&#13;
-## ⏫ Miscellaneous Improvements&#13;
-- Shops items can now be bought more than once if it is local and makes sense to be bought more than once (potions, ore chunks, rupees)&#13;
-- Owl hints now try to give items that appear later in logic, and should stop constantly telling you how to get what you already have&#13;
-- You can now always put the 4 jewels in their slots if you want&#13;
-- Subrosia digging spots are now permanently dug up&#13;
-- Added a way to warp back to the ship after giving the bell to the pirate captain&#13;
-- Added bomb and bombchu upgrades to the pool, packs of bombs no longer increase the max bomb count&#13;
-&#13;
-## 🧠 Logic&#13;
-- Added logic requiring some amounts of heart containers before beating some bosses or doing skips. The amount depends on the logic difficulty&#13;
-- Breaking the blocks to the goron chest with bombchus is now hard logic&#13;
-- Added logic to jump on the button in d8, for the armos chest&#13;
-- Added bombchu jumps to hell logic (thanks omega)&#13;
-&#13;
-## 🛠️ Bugfixes&#13;
-- Moved the mt cucco warp to between tarm ruins and sunken city&#13;
-- Fixed Switch Hook allowing to jump at the same time</content>
-    <link href="https://github.com/Dinopony/ArchipelagoOoS/releases/tag/oos-23.0.1"/>
-  </entry>
-  <entry>
-    <id>https://github.com/FyreDay/Archipelago-MinaTheHollower/releases/tag/v1.1.0</id>
-    <title>Mina The Hollower v1.1.0</title>
-    <updated>2026-08-30T18:58:55+00:00</updated>
-    <author>
-      <name>FyreDay, Axertin, ZXavier</name>
-    </author>
-    <content>Features:&#13;
-- Updated the Yaml descriptions&#13;
-- Merged "Start In Ossex" Option into Ability Rando for the yaml&#13;
-- Added Traps&#13;
-- Astral Orrery Mirror's End Switch items&#13;
-- Add Generator Pool&#13;
-&#13;
-Bug Fixes:&#13;
-- Fix two Burrow tunnels in Kindlewood&#13;
-- Fix requiring you to go through dungeons not in your goal to reach an area&#13;
-- Added soft combat logic to some fish</content>
-    <link href="https://github.com/FyreDay/Archipelago-MinaTheHollower/releases/tag/v1.1.0"/>
-  </entry>
-  <entry>
-    <id>https://github.com/riezahughes/MedievilAPWorld/releases/tag/v0.3.1</id>
-    <title>Medievil v0.3.0r2</title>
-    <updated>2026-08-30T19:43:07+00:00</updated>
-    <author>
-      <name>RiezaHughes</name>
-    </author>
-    <content/>
-    <link href="https://github.com/riezahughes/MedievilAPWorld/releases/tag/v0.3.1"/>
-  </entry>
-  <entry>
-    <id>https://github.com/riezahughes/Medievil2APWorld/releases/tag/v0.2.4</id>
-    <title>Medievil 2 v0.2.3r2</title>
-    <updated>2026-08-30T19:43:10+00:00</updated>
-    <author>
-      <name>RiezaHughes</name>
-    </author>
-    <content/>
-    <link href="https://github.com/riezahughes/Medievil2APWorld/releases/tag/v0.2.4"/>
-  </entry>
-  <entry>
-    <id>https://github.com/WCutePy/ArchipelagoAlmia/releases/tag/trozei_v0.0.3</id>
-    <title>Pokemon Trozei v0.0.3</title>
-    <updated>2026-08-30T20:41:33+00:00</updated>
-    <author>
-      <name>WCutePy</name>
-    </author>
-    <content># Changelog&#13;
-&#13;
-## Added&#13;
-- Hard mode yaml option&#13;
-- Hard mode as trap yaml option</content>
-    <link href="https://github.com/WCutePy/ArchipelagoAlmia/releases/tag/trozei_v0.0.3"/>
-  </entry>
-  <entry>
-    <id>https://github.com/ljtpetersen/platinum_archipelago/releases/tag/v0.2.0</id>
-    <title>Pokemon Platinum v0.2.0</title>
-    <updated>2026-08-30T20:55:29+00:00</updated>
-    <author>
-      <name>ljtpetersen</name>
-    </author>
-    <content>## Changelog&#13;
-### Added&#13;
-* Universal tracker YAML-less support.&#13;
-* A location for the bag item.&#13;
-* GBA cartridge items and locations for them.&#13;
-* A linking cable item and a location for it.&#13;
-* TMs for Rollout, Ancient Power, Double Hit, and Mimic, and corresponding locations for them.&#13;
-* AP items now display their name and destination when picked up.&#13;
-* A location for the S.S. Ticket.&#13;
-* A location for the Marsh Pass.&#13;
-* Daytime and nighttime items.&#13;
-* An option to normalize encounter slot probabilities.&#13;
-* Dexsanity support, including partial.&#13;
-* Trainersanity support, including partial.&#13;
-* Instant text speed option.&#13;
-* Death Link support.&#13;
-* Starter randomization.&#13;
-* Encounter randomization, including special encounters.&#13;
-* Trainer party randomization.&#13;
-* Hold A to advance option.&#13;
-* Randomizing the species that Rowan shows during the intro.&#13;
-* A clerk in the fourth floor of the Veilstone Department Store, who sells non-reusable evolution items after they have been previously obtained.&#13;
-He also sells TM70 Flash.&#13;
-* An option for reusable TMs.&#13;
-* An option to have a 100% catch rate.&#13;
-* Cheats in the client.&#13;
-* Swarms can now be attracted by berries.&#13;
-* AP Helper NPC to 2nd floors of all Pokémon Centers.&#13;
-* Dowsing Machine Upgrades to identify munchlax honey trees and feebas fishing tiles.&#13;
-* An item to allow use of field moves without a party member knowing them.&#13;
-* An option to just talk to trainers. (useful for trainersanity)&#13;
-* Added option groups to the WebWorld and the template YAML ([@snowflav-goob](https://github.com/snowflav-goob))&#13;
-* The slot name is now stored in the ROM, so it does not need to be entered when BizHawk Client connects.&#13;
-* There is now an option to have "relaxed" player and rival name conversion, which replaces unknown characters and truncates&#13;
-appropriately.&#13;
-* An event for defeating Team Galactic at Stark Mountain.&#13;
-* The boat can now be taken between Canalave City, Pastoria City, and Snowpoint City.&#13;
-* More options for roadblocks in Routes 207, 210, and 215.&#13;
-* A Poketch app to modify the camera type and make the player invisible.&#13;
-* An option to include fly regions as locations.&#13;
-* An option to filter item notifications by classification.&#13;
-* The R button can be held to stop receiving items.&#13;
-* An option to add TM/HM compatibility.&#13;
-* An option for fast fishing.&#13;
-* Entries to the game credits.&#13;
-* Version number to title screen.&#13;
-* A QOL menu when pressing the select button.&#13;
-* An option to prevent the PopTracker from spoiling optional roadblocks, and client support for the option.&#13;
-* `Field Machines` item group.&#13;
-* `start_inventory_from_pool` option.&#13;
-* `game_debug` client command.&#13;
-### Changed&#13;
-* In-game game options option is now validated before generation.&#13;
-* Some evolution stones have been key-itemified, and are no longer consumed when used.&#13;
-* Honey trees no longer have a 6 hour delay for encounters. Honey trees no longer have bad odds when using the same tree twice in a row.&#13;
-* The trophy garden can now be quickly reset.&#13;
-* Locations that check for number of seen species now require the Pokédex.&#13;
-* Poké Radar no longer needs to recharge.&#13;
-* Remote items now have more options regarding which items are remote.&#13;
-* There is no longer an option to show unrandomized progression items.&#13;
-* The Great Marsh binoculars now reset the special encounters in the Great Marsh when they are checked.&#13;
-* Up to 64 items can be received at once (when using none item notification).&#13;
-* The experience multiplier now supports fractional values. It is now modifiable in-game.&#13;
-* Changed to rule builder.&#13;
-* Scientist in Sunyshore no longer requires Pokémon of specific natures.&#13;
-* A lot of item classification changes to better reflect their usefulness ([@Justior-l](https://github.com/Justior-l),  [@palex00](https://github.com/palex00))&#13;
-* The Pokétch is now the requirement to access Route 203 from Jubilife, instead of the parcel and three coupons.&#13;
-* The bicycle can now be used indoors.&#13;
-* The escape rope can now be used in lost tower.&#13;
-* Title screen logo.&#13;
-* The female cyclist in the upper left of cycling road now moves around.&#13;
-* The journal is now a trap item.&#13;
-* Various location name changes.&#13;
-* VS Seeker location is now correctly classified as a `key_item` location.&#13;
-* Structure of version data in client now better supports backwards compatibility.&#13;
-### Fixed&#13;
-* Non-determinism of generation. (hopefully)&#13;
-* Elite Four rematch is triggered only if the game has been completed and stark mountain has been cleared.&#13;
-* The bag now shows the amount of collected unown file items.&#13;
-* Team Galactic Grunts now disappear if you defeat Mars before hitting the Route 205 South trigger.&#13;
-* Correct Rev. 0 ROM is now being used for diffs.&#13;
-* APWorld building is now compatible with Archipelago 7.&#13;
-* Triggering the second Galactic warehouse scene before defeating Maylene and doing the first scene is no longer possible.&#13;
-* Victory Road room after defeating Cynthia now requires Defog logically.&#13;
-* Fixed bug where received items can occasionally be lost.&#13;
-* Triggers cannot be walked through when receiving items.&#13;
-* The clown in front of Jubilife TV now moves immediately after the Team Galactic event in Jubuilife City, instead of requiring leaving and re-entering.&#13;
-* Fixed broken texture in Route 214.&#13;
-* Remove badge requirement option has incorrect effect.&#13;
-* The bag can no longer be used in the Great Marsh if it has not yet been obtained.&#13;
-### Removed&#13;
-* The `all` key item option no longer exists.&#13;
-* The `hm_badge_requirement` option no longer exists.</content>
-    <link href="https://github.com/ljtpetersen/platinum_archipelago/releases/tag/v0.2.0"/>
-  </entry>
   <entry>
     <id>https://github.com/Demorck/ClairObscur_APWorld/releases/tag/v0.4.0</id>
     <title>Clair Obscur Expedition 33 v0.4.0</title>
@@ -384,16 +196,6 @@ This patch provides the following fixes:&#13;
 **Setup Guide**: https://github.com/drtchops/Archipelago/blob/astalon/worlds/astalon/docs/setup_en.md&#13;
 **Full Changelog**: https://github.com/drtchops/Archipelago-Astalon/compare/v1.0.0-rc3...v1.0.0-rc4</content>
     <link href="https://github.com/drtchops/Archipelago-Astalon/releases/tag/v1.0.0-rc4"/>
-  </entry>
-  <entry>
-    <id>https://github.com/SergeAzel/Archipelago_PDTB/releases/tag/paquerette_down_the_bunburrows-0.2.0</id>
-    <title>Paquerette Down The Bunburrows v0.2.0</title>
-    <updated>2026-08-31T03:22:42+00:00</updated>
-    <author>
-      <name>SergeAzel</name>
-    </author>
-    <content/>
-    <link href="https://github.com/SergeAzel/Archipelago_PDTB/releases/tag/paquerette_down_the_bunburrows-0.2.0"/>
   </entry>
   <entry>
     <id>https://github.com/EpicPuppy613/Wynncraft-APWorld/releases/tag/v0.4.1</id>
@@ -1327,5 +1129,124 @@ through — for real this time.
   mid-sentence at 150 characters.
 </content>
     <link href="https://github.com/solida1987/Diablo-II-Archipelago/releases/tag/v3.9.5"/>
+  </entry>
+  <entry>
+    <id>https://github.com/MLSTRM/ArchipelagoFF132/releases/tag/ff132/0.2.0</id>
+    <title>Final Fantasy XIII-2 v0.1.3r2</title>
+    <updated>2026-09-01T20:35:27+00:00</updated>
+    <author>
+      <name>MLSTRM</name>
+    </author>
+    <content>Mostly a stabilisation pass to resolve reported issues. Requires the newest available FFModdingWPF Release for compatibility (0.8.2.53+)&#13;
+https://github.com/Bartz24/FFModdingWPF/releases/tag/pre-release-0.8&#13;
+&#13;
+AP fixes:&#13;
+Fix debug log prefix to actually say FF13-2 now to reduce confusion&#13;
+&#13;
+Associated core rando fixes:&#13;
+Correct issues with double time duration option on clock puzzles&#13;
+Add DLC check to generation of an AP modpack to prevent misconfiguration&#13;
+Script adjustments to ensure that Thorne's Information check can always be obtained even if the associated quest is handed in first&#13;
+Script adjustments to force that the Archylte sheep are interacted with before allowing the quest to be completed (preventing the checks becoming missable)&#13;
+&#13;
+Specific check logic fixes:&#13;
+Correct Yaschas 10 raised area logic&#13;
+Correct Archylte Grave Ridge (now correctly allows just chocobo access as an access possibility)&#13;
+Yaschas 1X -&gt; Serendipity area exit now correctly expects a Mog Level&#13;
+Bresha Ruins 5AF Locked Inside mog levels corrected</content>
+    <link href="https://github.com/MLSTRM/ArchipelagoFF132/releases/tag/ff132/0.2.0"/>
+  </entry>
+  <entry>
+    <id>https://github.com/solida1987/Diablo-II-Archipelago/releases/tag/v3.9.6</id>
+    <title>Diablo II Archipelago v3.8.9r2</title>
+    <updated>2026-09-01T20:50:36+00:00</updated>
+    <author>
+      <name>solida1987</name>
+    </author>
+    <author>
+      <name>ꓘicka (AP logic)</name>
+    </author>
+    <author>
+      <name>Zoë (AP logic)</name>
+    </author>
+    <content>Fixed seed generation failing on check-heavy YAMLs (FillError: more excluded locations than filler) when tiered filler depth was on: the module reserved non-excluded locations first, opposite of its design. It now prefers excluded locations and caps non-excluded use to the filler surplus.</content>
+    <link href="https://github.com/solida1987/Diablo-II-Archipelago/releases/tag/v3.9.6"/>
+  </entry>
+  <entry>
+    <id>https://github.com/SergeAzel/Archipelago_PDTB/releases/tag/paquerette_down_the_bunburrows-0.2.0</id>
+    <title>Paquerette Down The Bunburrows v0.2.0.post2</title>
+    <updated>2026-09-01T21:33:51+00:00</updated>
+    <author>
+      <name>SergeAzel</name>
+    </author>
+    <content/>
+    <link href="https://github.com/SergeAzel/Archipelago_PDTB/releases/tag/paquerette_down_the_bunburrows-0.2.0"/>
+  </entry>
+  <entry>
+    <id>https://github.com/solida1987/Diablo-II-Archipelago/releases/tag/v3.9.7</id>
+    <title>Diablo II Archipelago v3.9.7</title>
+    <updated>2026-09-01T22:06:09+00:00</updated>
+    <author>
+      <name>solida1987</name>
+    </author>
+    <author>
+      <name>ꓘicka (AP logic)</name>
+    </author>
+    <author>
+      <name>Zoë (AP logic)</name>
+    </author>
+    <content>Item level/stat requirement toggles work on fresh installs again: the vanilla tables they patch (weapons, armor, affixes, sets, Levels) are Blizzard's and are not shipped — the launcher now extracts any missing one from the player's own MPQ archives before generating a seed's data files. Gear shop shuffle and full-level generation get their sources back the same way. The in-game requirement strip also covers every item now, not only tracked collectibles. Collection toggles (sets/runes/gems/specials) apply under every goal: they shape the F1 book and fire their AP checks on any run, not only Goal=Collection.</content>
+    <link href="https://github.com/solida1987/Diablo-II-Archipelago/releases/tag/v3.9.7"/>
+  </entry>
+  <entry>
+    <id>https://github.com/solida1987/Diablo-II-Archipelago/releases/tag/v3.9.8</id>
+    <title>Diablo II Archipelago v3.9.8</title>
+    <updated>2026-09-01T22:06:09+00:00</updated>
+    <author>
+      <name>solida1987</name>
+    </author>
+    <author>
+      <name>ꓘicka (AP logic)</name>
+    </author>
+    <author>
+      <name>Zoë (AP logic)</name>
+    </author>
+    <content>The six data tables the randomizer edits — weapons, armor, Levels, MagicPrefix, MagicSuffix, SetItems — now ship with the game and are covered by the manifest, so verify and repair keep them in place. Item level and stat requirement toggles, gear shop shuffle and full-level generation work on a fresh install instead of silently doing nothing when those tables were absent. Seed-patched tables no longer report as the wrong size after a crash.</content>
+    <link href="https://github.com/solida1987/Diablo-II-Archipelago/releases/tag/v3.9.8"/>
+  </entry>
+  <entry>
+    <id>https://github.com/Rhelys/SlimeRancher2-AP/releases/tag/v0.13.0</id>
+    <title>Slime Rancher 2 v0.13.0</title>
+    <updated>2026-09-01T22:20:51+00:00</updated>
+    <author>
+      <name>Rhelys</name>
+    </author>
+    <content>## New Features&#13;
+- New Goal option: Prisma Shard Hunt&#13;
+  - General purpose MacGuffin hunt goal option - Collect the desired number of Prisma Shards and then clear the Prismacore encounter to win&#13;
+  - For the Prismacore encounter, all Harmonizers will automatically activate to accelerate your trip to the end of the game. You'll still need the Water Tank to beat the fight.&#13;
+- New Settings:&#13;
+  - `randomize_fabricator` - Allows you to turn off Fabricator location checks and make the upgrades vanilla&#13;
+  - `randomize_shadow_doors` - Either adds Shadow Plort doors/dispensers to the pool with the `locations` option or eliminates them entirely with the `disabled` option&#13;
+  - `shadow_plort_requirement` - Modifies the amount of shadow plorts needed for doors/dispensers to speed up (or slow down) progress through the Grey Labyrinth&#13;
+  - `item_notifications` - Allows you to customize what incoming items pop up on the in-game UI&#13;
+&#13;
+## Quality of Life&#13;
+- In-Game UI notifications on incoming items - Now it's easier to see when you get important items!&#13;
+&lt;img width="875" height="492" alt="image" src="https://github.com/user-attachments/assets/d8f8e585-9570-4b0a-97e9-b8ac1eca7e24" /&gt;&#13;
+&#13;
+- Added clearer messaging and teleport guardrails if you find yourself in the wrong zone or in a softlocked position post-teleport&#13;
+ &#13;
+## Logic Fixes&#13;
+- Flutter and Puddle Slimes now correctly require the Jetpack to access&#13;
+  - This also applies to their plorts and radiant variants&#13;
+- Fixed region access requirements for Treasure Pods in Rainbow Fields that required activating the 2nd teleporters in Ember Valley and Starlight Strand&#13;
+- Correctly classified the `Progressive Water Tank` as a Progression item&#13;
+&#13;
+## Bug Fixes&#13;
+- Refactored how offline checks/progress/repairs work&#13;
+  - This should address situations where being disconnected from the AP server would leave games in a desynced state between client and server when it comes to upgrades. It also makes offline progress still work from a check perspective, but items won't be granted until reconnection.&#13;
+  - Upgrades will now persist locally, meaning progress can still be made even if you're unable to connect to the server when loading the save file</content>
+    <link href="https://github.com/Rhelys/SlimeRancher2-AP/releases/tag/v0.13.0"/>
   </entry>
 </feed>

@@ -1835,6 +1835,51 @@
       "title": "v3.9.5",
       "version_simple": "3.8.9",
       "world_version": "3.8.9r7"
+    },
+    "v3.9.6": {
+      "created_at": "2026-09-01T20:50:36Z",
+      "description": "Fixed seed generation failing on check-heavy YAMLs (FillError: more excluded locations than filler) when tiered filler depth was on: the module reserved non-excluded locations first, opposite of its design. It now prefers excluded locations and caps non-excluded use to the filler surplus.",
+      "download_url": "https://github.com/solida1987/Diablo-II-Archipelago/releases/download/v3.9.6/diablo2_archipelago.apworld",
+      "has_manifest": true,
+      "hash_sha256": "5cd57593c1fc07d8191fe30e4b1d3af79bc5852cb3073782152118cda3daf38f",
+      "html_url": "https://github.com/solida1987/Diablo-II-Archipelago/releases/tag/v3.9.6",
+      "minimum_ap_version": "0.5.0",
+      "size": 83621,
+      "source_url": "https://api.github.com/repos/solida1987/Diablo-II-Archipelago",
+      "tag": "v3.9.6",
+      "title": "v3.9.6",
+      "version_simple": "3.8.9",
+      "world_version": "3.8.9r2"
+    },
+    "v3.9.7": {
+      "created_at": "2026-09-01T22:06:09Z",
+      "description": "Item level/stat requirement toggles work on fresh installs again: the vanilla tables they patch (weapons, armor, affixes, sets, Levels) are Blizzard's and are not shipped \u2014 the launcher now extracts any missing one from the player's own MPQ archives before generating a seed's data files. Gear shop shuffle and full-level generation get their sources back the same way. The in-game requirement strip also covers every item now, not only tracked collectibles. Collection toggles (sets/runes/gems/specials) apply under every goal: they shape the F1 book and fire their AP checks on any run, not only Goal=Collection.",
+      "download_url": "https://github.com/solida1987/Diablo-II-Archipelago/releases/download/v3.9.7/diablo2_archipelago.apworld",
+      "has_manifest": true,
+      "hash_sha256": "b07e14b7266e216a48ab5ab1059d0f1e2d4c733285ab333869779286f22a1967",
+      "html_url": "https://github.com/solida1987/Diablo-II-Archipelago/releases/tag/v3.9.7",
+      "minimum_ap_version": "0.5.0",
+      "size": 83838,
+      "source_url": "https://api.github.com/repos/solida1987/Diablo-II-Archipelago",
+      "tag": "v3.9.7",
+      "title": "v3.9.7",
+      "version_simple": "3.9.7",
+      "world_version": "3.9.7"
+    },
+    "v3.9.8": {
+      "created_at": "2026-09-01T22:06:09Z",
+      "description": "The six data tables the randomizer edits \u2014 weapons, armor, Levels, MagicPrefix, MagicSuffix, SetItems \u2014 now ship with the game and are covered by the manifest, so verify and repair keep them in place. Item level and stat requirement toggles, gear shop shuffle and full-level generation work on a fresh install instead of silently doing nothing when those tables were absent. Seed-patched tables no longer report as the wrong size after a crash.",
+      "download_url": "https://github.com/solida1987/Diablo-II-Archipelago/releases/download/v3.9.8/diablo2_archipelago.apworld",
+      "has_manifest": true,
+      "hash_sha256": "7ef6a42b2821bf14b67a4d4496498caf5156176f87f2a9a1591c7f7b2b4c9a1a",
+      "html_url": "https://github.com/solida1987/Diablo-II-Archipelago/releases/tag/v3.9.8",
+      "minimum_ap_version": "0.5.0",
+      "size": 83835,
+      "source_url": "https://api.github.com/repos/solida1987/Diablo-II-Archipelago",
+      "tag": "v3.9.8",
+      "title": "v3.9.8",
+      "version_simple": "3.9.8",
+      "world_version": "3.9.8"
     }
   }
 }
