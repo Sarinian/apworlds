@@ -2,63 +2,11 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://raw.githubusercontent.com/silasary/apworlds/refs/heads/main/recent.atom</id>
   <title>Recent APWorlds</title>
-  <updated>2026-09-03T01:54:16.356382+00:00</updated>
+  <updated>2026-09-03T10:27:46.014007+00:00</updated>
   <author>
     <name>Silasary</name>
   </author>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
-  <entry>
-    <id>https://github.com/solida1987/openttd-archipelago/releases/tag/v2.2.1</id>
-    <title>OpenTTD v2.6.0</title>
-    <updated>2026-08-31T12:15:31+00:00</updated>
-    <author>
-      <name>OpenTTD AP Team</name>
-    </author>
-    <content>**Win targets recalibrated against a real session.** A 5.5-hour Hard game
-showed three of the six goals finishing on time and three that never could.
-
-- **The profit goal is yearly now.** The old check read a single
-  `old_economy` entry and called it monthly — those entries are quarters, so
-  the label was wrong twice over. The engine sums the last four completed
-  quarters and the status window says *Yr. Profit*.
-- **The population goal respects the map.** The engine clamps it to 10,000
-  per town on the actual map, so a 30-town map is held to 300k, not 700k.
-  This applies to running seeds too.
-- **Preset table rescaled** (apworld 2.6.0): population 50k–800k across the
-  difficulties, cargo 1.5M–35M (measured throughput was about 1.2M tonnes an
-  hour; the old Hard column was sixty hours of hauling), profit 1M–50M
-  yearly. Company value, vehicles and missions are unchanged.
-
-**Fixed: "Buy any item from the shop" never completed.** The apworld sends
-that mission as type `purchase`; the engine matched three older strings and
-none of them was that. The check now also counts shop locations already sent
-to the server, so purchases made before this fix complete the mission on the
-next session.
-
-Existing seeds keep their baked cargo and value numbers; the profit unit and
-the population clamp apply to them immediately. New seeds need apworld 2.6.0.
-Plugin 1.5.1 only updates the settings form (the profit slider says Yearly);
-existing YAML files stay valid.
-</content>
-    <link href="https://github.com/solida1987/openttd-archipelago/releases/tag/v2.2.1"/>
-  </entry>
-  <entry>
-    <id>https://github.com/Demorck/ClairObscur_APWorld/releases/tag/v0.4.1</id>
-    <title>Clair Obscur Expedition 33 v0.4.0r2</title>
-    <updated>2026-08-31T12:20:16+00:00</updated>
-    <author>
-      <name>Démorck</name>
-    </author>
-    <author>
-      <name>Yezzdia</name>
-    </author>
-    <author>
-      <name>Noeva</name>
-    </author>
-    <content>- Noco shop items is always excluded for now&#13;
-- Chroma pack is now a filler item</content>
-    <link href="https://github.com/Demorck/ClairObscur_APWorld/releases/tag/v0.4.1"/>
-  </entry>
   <entry>
     <id>https://github.com/BlastSlimey/Archipelago/releases/tag/pkmn_ranger_quest_1.0.4</id>
     <title>Pokemon Ranger (Quest) v1.0.4</title>
@@ -1234,5 +1182,52 @@ I plan to add more options in this release before its final. This'll be the yaml
  [ALTERNATE SIDELOADER](https://github.com/iris-cat-dev/mintcat)&#13;
  Mod file now included in releases for mint users.</content>
     <link href="https://github.com/Cousinit117/Deep-Rock-Galactic-AP/releases/tag/0.20"/>
+  </entry>
+  <entry>
+    <id>https://github.com/drtchops/Archipelago-Astalon/releases/tag/v1.0.0-rc5</id>
+    <title>Astalon v0.99.5</title>
+    <updated>2026-09-03T03:55:56+00:00</updated>
+    <author>
+      <name>DrTChops</name>
+    </author>
+    <content>**This is a testing pre-release. See the latest release for the stable version.**&#13;
+&#13;
+- Added more detail to the new maps&#13;
+  - Fixed some incorrect placements on the maps&#13;
+- Added custom icons to replace the random ones I was using&#13;
+- Added trap weights option&#13;
+  - Wait, there's also a new trap? Uh oh, better be ready to run&#13;
+&#13;
+**More Information**: https://github.com/drtchops/Archipelago/blob/astalon/worlds/astalon/docs/en_Astalon.md&#13;
+**Setup Guide**: https://github.com/drtchops/Archipelago/blob/astalon/worlds/astalon/docs/setup_en.md&#13;
+**Full Changelog**: https://github.com/drtchops/Archipelago-Astalon/compare/v1.0.0-rc4...v1.0.0-rc5</content>
+    <link href="https://github.com/drtchops/Archipelago-Astalon/releases/tag/v1.0.0-rc5"/>
+  </entry>
+  <entry>
+    <id>https://github.com/zane31415/ArchipelagoBG3/releases/tag/v0.7.0</id>
+    <title>Baldur's Gate 3 v0.7.0</title>
+    <updated>2026-09-03T05:13:32+00:00</updated>
+    <author>
+      <name>Broney</name>
+    </author>
+    <content>0.7.0 Release&#13;
+&#13;
+Changes to mod in this version-&#13;
+* Removed Halsin's defense portal killsanity checks (they're missable)&#13;
+* Removed or fixed ~40 questsanity locations (no more nettie poisoning)&#13;
+* Added character allowlisting in the yaml- you can remove characters and you shouldn't get their quests in questsanity (experimental, unstable)&#13;
+* Added heartbeat / connection code (taken from Trials of Tav, thank you)&#13;
+* Added Killsanity Strictness option- allows monsters to send killsanity checks on death, not just kill (experimental)&#13;
+* Added Netherbrain goal handling (does not have killsanity or questsanity support yet, this is just the architecture for later)&#13;
+* Added act 3 regions&#13;
+* Fixed act 1 regions - goblin camp, hag's basement and zhentarim basement now properly separate their logic from behind the lockout item and past the lockout item&#13;
+* Fixed act 1 bug if you did halsin goal, hag basement checks could be unreachable&#13;
+* Fixed some duplicate location and item ids (no game effect)&#13;
+* Updated location counts in option file&#13;
+&#13;
+Known bugs:&#13;
+* Some containersanity coordinates were misgenerated. I will need to do a run to collect correct values, but it is a display-only issue at this time.&#13;
+* Killsanity strictness was left visibility.none. I'll fix it next release. The option would be "killsanity_strictness: "relaxed"" if anybody wants to just add it to their yaml.</content>
+    <link href="https://github.com/zane31415/ArchipelagoBG3/releases/tag/v0.7.0"/>
   </entry>
 </feed>
