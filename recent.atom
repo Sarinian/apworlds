@@ -2,58 +2,11 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://raw.githubusercontent.com/silasary/apworlds/refs/heads/main/recent.atom</id>
   <title>Recent APWorlds</title>
-  <updated>2026-09-03T15:34:02.882845+00:00</updated>
+  <updated>2026-09-03T20:22:58.312452+00:00</updated>
   <author>
     <name>Silasary</name>
   </author>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
-  <entry>
-    <id>https://github.com/Miiroun/Archipelago-NewSuperMarioBrosWii/releases/tag/v0.3.3</id>
-    <title>NSMBW v0.3.3</title>
-    <updated>2026-08-31T15:03:58+00:00</updated>
-    <author>
-      <name>Miiroun</name>
-    </author>
-    <content># New Super Mario Bros Wii v0.3.3&#13;
-&#13;
-## Features&#13;
-- Shuffling of the Pa0_jyotyu tile sheet to have differently colored brick and ? blocks.&#13;
-- Spam error message if you are on wrong save file.&#13;
-- Better validation of dolphin folder.&#13;
-- background music and sound effects are no longer mixed&#13;
-&#13;
-&#13;
-## Fixes&#13;
-- Door being closed even thou level_elements were not enabled,.&#13;
-- Added generation error if enabled hint movies and level shuffle together. This is due to them causing crashes that I have been unable to fix.&#13;
-- Level shuffle confused 8-C and 8-A, so they had each others logic.&#13;
-- P-Switch disabling was not working.&#13;
-- Entering mushroom house sends death link.&#13;
-&#13;
-&#13;
-## Backwards compatibility&#13;
-This update is compatible with seeds generated on 0.3.X.&#13;
-&#13;
-&#13;
-## Links&#13;
-[Download](https://github.com/Miiroun/Archipelago-NewSuperMarioBrosWii/releases/tag/v0.3.3)&#13;
-[Setup Guide](https://github.com/Miiroun/Archipelago-NewSuperMarioBrosWii/blob/NSMBW/worlds/nsmbw/docs/setup_en.md)</content>
-    <link href="https://github.com/Miiroun/Archipelago-NewSuperMarioBrosWii/releases/tag/v0.3.3"/>
-  </entry>
-  <entry>
-    <id>https://github.com/anonymous-heap/Archipelago/releases/tag/cvaos-apworld-2026.08.30</id>
-    <title>Castlevania - Aria of Sorrow v2026.8.30</title>
-    <updated>2026-08-31T15:15:21+00:00</updated>
-    <author>
-      <name>dem1995</name>
-    </author>
-    <content>&lt;to be fleshed out&gt;&#13;
-&#13;
-Adds soul-shuffling options.&#13;
-&#13;
-Also adds some preliminary soul drop-chance multiplier options.</content>
-    <link href="https://github.com/anonymous-heap/Archipelago/releases/tag/cvaos-apworld-2026.08.30"/>
-  </entry>
   <entry>
     <id>https://github.com/dowlle/PokepelagoClient/releases/tag/v0.6.4</id>
     <title>Pokepelago v0.6.4</title>
@@ -1193,7 +1146,7 @@ Known bugs:&#13;
   </entry>
   <entry>
     <id>https://github.com/Nebulea-dev/Archipelago-BlueFire/releases/tag/0.6.0</id>
-    <title>Blue Fire v0.1.0r2</title>
+    <title>Blue Fire v0.1.0r3</title>
     <updated>2026-09-03T12:18:20+00:00</updated>
     <author>
       <name>Nebulea</name>
@@ -1202,5 +1155,56 @@ Known bugs:&#13;
 &#13;
 [FIX] Locations in the firefall river and the steam house have the correct ID</content>
     <link href="https://github.com/Nebulea-dev/Archipelago-BlueFire/releases/tag/0.6.0"/>
+  </entry>
+  <entry>
+    <id>https://github.com/solida1987/Diablo-II-Archipelago/releases/tag/v3.9.11</id>
+    <title>Diablo II Archipelago v3.9.10r2</title>
+    <updated>2026-09-03T15:34:53+00:00</updated>
+    <author>
+      <name>solida1987</name>
+    </author>
+    <author>
+      <name>ꓘicka (AP logic)</name>
+    </author>
+    <author>
+      <name>Zoë (AP logic)</name>
+    </author>
+    <content>The skill book stops breaking after a save and quit.
+
+Every relog used to leave the book drawing pieces of the game world — character
+models, monsters, the title flames — where its icons and frame should be, until
+the game was closed and started again. It has come and gone since the 2.x days,
+each fix moving it from one picture to another.
+
+Measured this time: the pictures the mod loads from its own files were intact
+after the relog, at the same addresses, and still drew wrong. The renderer
+keeps a cache of decoded frames keyed on the picture's address and rebuilds
+that cache's memory when a game ends; a picture kept across the relog was a
+stale key pointing at recycled memory. So every one of them is now loaded
+afresh for each session, and the previous copy is released with the allocator
+that made it.
+
+Two checks guard it: one that no picture loaded from disk is ever handed to
+the wrong free, and one that every such picture is reloaded per session.
+
+Plugin and world file are unchanged from v3.9.10.
+</content>
+    <link href="https://github.com/solida1987/Diablo-II-Archipelago/releases/tag/v3.9.11"/>
+  </entry>
+  <entry>
+    <id>https://github.com/MaragonMH/Archipelago/releases/tag/XenoX0.2.7</id>
+    <title>Xenoblade X v0.2.7</title>
+    <updated>2026-09-03T17:44:42+00:00</updated>
+    <author>
+      <name>Maragon</name>
+    </author>
+    <author>
+      <name>Nina</name>
+    </author>
+    <content>- Fix ap graphic pack @jackisk98&#13;
+- Add lvl logic support for skells&#13;
+- Add universal tracker support&#13;
+- Improve logic for `The Skell License`</content>
+    <link href="https://github.com/MaragonMH/Archipelago/releases/tag/XenoX0.2.7"/>
   </entry>
 </feed>

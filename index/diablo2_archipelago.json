@@ -1791,6 +1791,21 @@
       "version_simple": "3.9.10",
       "world_version": "3.9.10"
     },
+    "v3.9.11": {
+      "created_at": "2026-09-03T15:34:53Z",
+      "description": "The skill book stops breaking after a save and quit.\n\nEvery relog used to leave the book drawing pieces of the game world \u2014 character\nmodels, monsters, the title flames \u2014 where its icons and frame should be, until\nthe game was closed and started again. It has come and gone since the 2.x days,\neach fix moving it from one picture to another.\n\nMeasured this time: the pictures the mod loads from its own files were intact\nafter the relog, at the same addresses, and still drew wrong. The renderer\nkeeps a cache of decoded frames keyed on the picture's address and rebuilds\nthat cache's memory when a game ends; a picture kept across the relog was a\nstale key pointing at recycled memory. So every one of them is now loaded\nafresh for each session, and the previous copy is released with the allocator\nthat made it.\n\nTwo checks guard it: one that no picture loaded from disk is ever handed to\nthe wrong free, and one that every such picture is reloaded per session.\n\nPlugin and world file are unchanged from v3.9.10.\n",
+      "download_url": "https://github.com/solida1987/Diablo-II-Archipelago/releases/download/v3.9.11/diablo2_archipelago.apworld",
+      "has_manifest": true,
+      "hash_sha256": "c65928cf62a48cd89e0ae93817288b2e2e6d0bb08f51d1f3ac509b1c8d228b49",
+      "html_url": "https://github.com/solida1987/Diablo-II-Archipelago/releases/tag/v3.9.11",
+      "minimum_ap_version": "0.5.0",
+      "size": 82065,
+      "source_url": "https://api.github.com/repos/solida1987/Diablo-II-Archipelago",
+      "tag": "v3.9.11",
+      "title": "v3.9.11",
+      "version_simple": "3.9.10",
+      "world_version": "3.9.10r2"
+    },
     "v3.9.2": {
       "created_at": "2026-09-01T18:34:31Z",
       "description": "# 3.9.2\r\n\r\nA lock's kick always lands somewhere legal.\r\n\r\n- The zone lock kicked to the locked region's own town \u2014 which could sit\r\n  in a locked act, whose lock kicked straight back. The two locks\r\n  ping-ponged the player forever. Zone kicks now go to a town you have,\r\n  and the act lock never bounces you into locked ground.\r\n",
