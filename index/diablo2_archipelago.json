@@ -1778,7 +1778,7 @@
     },
     "v3.9.10": {
       "created_at": "2026-09-02T06:26:21Z",
-      "description": "Fixed the Join panel's Play button starting a run with unmodified tables. That path launches the game from a background thread, where the progress window cannot be created; the window was built outside the guarded block, so the failure escaped before the tables were ever generated or applied and the error was swallowed. Item and skill requirement toggles, shop, monster and super-unique shuffle now apply from both launch buttons, and the tables are verified in place before the game loads them.",
+      "description": "Fixed the Join panel's Play button",
       "download_url": "https://github.com/solida1987/Diablo-II-Archipelago/releases/download/v3.9.10/diablo2_archipelago.apworld",
       "has_manifest": true,
       "hash_sha256": "8638128df5176bfc1fa46885ac3c88ff4d820b66b5c27a3a7387b7e42f52e4e1",
