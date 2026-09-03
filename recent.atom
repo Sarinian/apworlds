@@ -2,43 +2,11 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://raw.githubusercontent.com/silasary/apworlds/refs/heads/main/recent.atom</id>
   <title>Recent APWorlds</title>
-  <updated>2026-09-02T20:24:54.479731+00:00</updated>
+  <updated>2026-09-03T01:54:16.356382+00:00</updated>
   <author>
     <name>Silasary</name>
   </author>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
-  <entry>
-    <id>https://github.com/Dinopony/ArchipelagoOoS/releases/tag/oos-23.0.3</id>
-    <title>The Legend of Zelda - Oracle of Seasons v23.0.3</title>
-    <updated>2026-08-31T11:55:32+00:00</updated>
-    <author>
-      <name>Dinopony</name>
-    </author>
-    <author>
-      <name>Ishigh</name>
-    </author>
-    <content>## 🗳️ New Options&#13;
-- Added a start position option, that contains north horon, sunken city, tarm ruins, temple of seasons and samasa desert&#13;
-&#13;
-## ⏫ Miscellaneous Improvements&#13;
-- Shops items can now be bought more than once if it is local and makes sense to be bought more than once (potions, ore chunks, rupees)&#13;
-- Owl hints now try to give items that appear later in logic, and should stop constantly telling you how to get what you already have&#13;
-- You can now always put the 4 jewels in their slots if you want&#13;
-- Subrosia digging spots are now permanently dug up&#13;
-- Added a way to warp back to the ship after giving the bell to the pirate captain&#13;
-- Added bomb and bombchu upgrades to the pool, packs of bombs no longer increase the max bomb count&#13;
-&#13;
-## 🧠 Logic&#13;
-- Added logic requiring some amounts of heart containers before beating some bosses or doing skips. The amount depends on the logic difficulty&#13;
-- Breaking the blocks to the goron chest with bombchus is now hard logic&#13;
-- Added logic to jump on the button in d8, for the armos chest&#13;
-- Added bombchu jumps to hell logic (thanks omega)&#13;
-&#13;
-## 🛠️ Bugfixes&#13;
-- Moved the mt cucco warp to between tarm ruins and sunken city&#13;
-- Fixed Switch Hook allowing to jump at the same time</content>
-    <link href="https://github.com/Dinopony/ArchipelagoOoS/releases/tag/oos-23.0.3"/>
-  </entry>
   <entry>
     <id>https://github.com/solida1987/openttd-archipelago/releases/tag/v2.2.1</id>
     <title>OpenTTD v2.6.0</title>
@@ -1238,5 +1206,33 @@ Should still be fully compatible with releases going back to 0.2.0.&#13;
 - **Attila 1:** Kill the Scythian Scout and Free the Scythian Scout may both be completed in a single playthrough, if set up properly.&#13;
 - Fixed Attila 3, 4 and 6 declaring victory before the player researches the "Declare Victory" tech in the APavilion.</content>
     <link href="https://github.com/dmwever/Ageipelago/releases/tag/0.2.2"/>
+  </entry>
+  <entry>
+    <id>https://github.com/Cousinit117/Deep-Rock-Galactic-AP/releases/tag/0.20</id>
+    <title>Deep Rock Galactic v0.19.1</title>
+    <updated>2026-09-02T20:48:34+00:00</updated>
+    <author>
+      <name>SipcoGamingGuild</name>
+    </author>
+    <author>
+      <name>Taz</name>
+    </author>
+    <content>**Settings File Rework (Should be compatible with older ap generations, but unsure)**&#13;
+&#13;
+**0.20a**&#13;
+- Fix for Gauntlet Mission 1&#13;
+- Added Blacklist options for biomes, objectives, secondaries, and warnings to YAML&#13;
+- Fixed some in mod UI bugs&#13;
+- Added more debugging tools in mod&#13;
+&#13;
+I plan to add more options in this release before its final. This'll be the yaml settings release basically.&#13;
+&#13;
+**INFO FILES (Sideloader must be used with the .pak file for PreRelease Builds)**&#13;
+ [INSTRUCTIONS](https://docs.google.com/document/d/16At-2kS_azJRf9PdUcZeA8Esfoh6kNm2dWVWy8u8wA0/edit?usp=sharing)&#13;
+ [MOD on MOD.IO](https://mod.io/g/drg/m/test-archipelago-integration#description)&#13;
+ [SIDELOADER for DRG Mods](https://github.com/trumank/mint)&#13;
+ [ALTERNATE SIDELOADER](https://github.com/iris-cat-dev/mintcat)&#13;
+ Mod file now included in releases for mint users.</content>
+    <link href="https://github.com/Cousinit117/Deep-Rock-Galactic-AP/releases/tag/0.20"/>
   </entry>
 </feed>
