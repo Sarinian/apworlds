@@ -2,112 +2,11 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://raw.githubusercontent.com/silasary/apworlds/refs/heads/main/recent.atom</id>
   <title>Recent APWorlds</title>
-  <updated>2026-09-03T20:22:58.312452+00:00</updated>
+  <updated>2026-09-04T01:48:14.238871+00:00</updated>
   <author>
     <name>Silasary</name>
   </author>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
-  <entry>
-    <id>https://github.com/dowlle/PokepelagoClient/releases/tag/v0.6.4</id>
-    <title>Pokepelago v0.6.4</title>
-    <updated>2026-08-31T16:27:22+00:00</updated>
-    <author>
-      <name>Appie</name>
-    </author>
-    <content># Pokepelago v0.6.4
-
-In this release, I've brought everything that was on beta during July and August to everyone.
-
-## Web client
-
-- **Sprite fix:** silhouettes no longer stop rendering after switching between Derpy and normal sprites, so you no longer need to refresh the page. (BUG-21)
-- **New-player onboarding:** I added a first-run "What is Pokepelago?" card and a guided tour of the interface. You can replay it from Settings.
-- **Tracker fix:** the Pokedex and Pokegear items were swapped in the tracker display, so a granted Pokedex appeared as a Pokegear and vice versa. This was display-only, and seeds were never affected. (BUG-24)
-- **Sound notifications**, contributed by AfiliaFrostfang: you can opt in to sounds for when a Pokemon becomes guessable and when a progressive item arrives, with support for custom sound files.
-- **Connection help:** the connect form now explains why an HTTPS page can only reach wss:// servers.
-- **Decode hardening:** route key and line unlock items now decode using explicit ID maps exported by the APWorld. This replaces client-side arithmetic that has caused drift bugs in the past.
-- I added search-engine metadata so the site can be found.
-- The client now reports a few anonymous operational events, including connection successes or failures and goal completions, so I can see recurring problems. There is no account linkage and no gameplay data. Details are at https://ap-pie.com/privacy.
-
-## APWorld
-
-- I fixed a rare generation failure (FillError) that happened when a random region roll landed on Hisui alone with a heavy lock stack. About 0.04% of random-region seeds were affected.
-- Generation now warns you when route locks or line locks force dexsanity on, instead of silently changing your YAML's setting.
-- Choosing Hisui as your only region together with two or more lock options is now rejected at the start of generation with a clear message naming the fix, instead of failing later with a cryptic FillError.
-- I added item name groups for YAML convenience.
-- Archipelago 0.6.7 or newer is required, unchanged since v0.6.1.
-
-## Also
-
-Pokepelago is now also available at https://pokepelago.ap-pie.com. It is the same site. Just note that your browser's progress and settings stay with whichever address you use.
-</content>
-    <link href="https://github.com/dowlle/PokepelagoClient/releases/tag/v0.6.4"/>
-  </entry>
-  <entry>
-    <id>https://github.com/vegemiiBG/Archipelago-NepRb3/releases/tag/v0.2.0</id>
-    <title>Hyperdimension Neptunia Re;Birth3 V GENERATION v0.2.0</title>
-    <updated>2026-08-31T17:41:44+00:00</updated>
-    <author>
-      <name>vegemiiBG</name>
-    </author>
-    <content>****Huge release for the Neptunia Rebirth 3 Archipelago World****&#13;
-&#13;
-Nep RB3 APWorld update:&#13;
-&#13;
-- Quests are now added, please update to the latest Mod version from BlackSoulKnight for quests to function properly&#13;
-- All quests are available by default, they currently work in-logic through Universal Tracker (Currently no in Poptracker)&#13;
-- New Yaml Option regarding quests&#13;
-- Updated incorrect region requirements for a few dungeons</content>
-    <link href="https://github.com/vegemiiBG/Archipelago-NepRb3/releases/tag/v0.2.0"/>
-  </entry>
-  <entry>
-    <id>https://github.com/Lemix028/SupermarketSimulator-Archipelago/releases/tag/v0.3.4</id>
-    <title>Supermarket Simulator v0.3.4</title>
-    <updated>2026-08-31T18:36:37+00:00</updated>
-    <author>
-      <name>Lemix028</name>
-    </author>
-    <content>### Added&#13;
-&#13;
-* Day and Store Level Progression Tiers: Checks are now divided into five progression tiers based on received progression items&#13;
-* Late Check Progression Exclusion: Added an option to prevent progression items from appearing in the latest Day and Store Level checks&#13;
-&#13;
-### Fixed&#13;
-&#13;
-* Filler Weights: Setting a filler weight to `0` now fully disables that filler item&#13;
-* Trap Frequency now works correctly when generating filler items&#13;
-* Fixed duplicate filler selection logic&#13;
-* Fixed Reach Highest Generated Store Level goal with non-divisible store level intervals&#13;
-&#13;
-</content>
-    <link href="https://github.com/Lemix028/SupermarketSimulator-Archipelago/releases/tag/v0.3.4"/>
-  </entry>
-  <entry>
-    <id>https://github.com/Miiroun/Archipelago-NewSuperMarioBrosWii/releases/tag/v0.3.4</id>
-    <title>NSMBW v0.3.4</title>
-    <updated>2026-08-31T20:41:08+00:00</updated>
-    <author>
-      <name>Miiroun</name>
-    </author>
-    <content># New Super Mario Bros Wii v0.3.4&#13;
-&#13;
-## Features&#13;
-- New alternative goal : all levels.&#13;
-&#13;
-&#13;
-## Fixes&#13;
-- Forgot to update memory scrip after refactoring to work on frozen.&#13;
-&#13;
-&#13;
-## Backwards compatibility&#13;
-This update is compatible with seeds generated on 0.3.X.&#13;
-&#13;
-&#13;
-## Links&#13;
-[Download](https://github.com/Miiroun/Archipelago-NewSuperMarioBrosWii/releases/tag/v0.3.4)&#13;
-[Setup Guide](https://github.com/Miiroun/Archipelago-NewSuperMarioBrosWii/blob/NSMBW/worlds/nsmbw/docs/setup_en.md)</content>
-    <link href="https://github.com/Miiroun/Archipelago-NewSuperMarioBrosWii/releases/tag/v0.3.4"/>
-  </entry>
   <entry>
     <id>https://github.com/Miiroun/Archipelago-NewSuperMarioBrosWii/releases/tag/v0.3.5</id>
     <title>NSMBW v0.3.5</title>
@@ -284,7 +183,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Implemented "Hide Completed Research" option in module config file to hide previously completed research items at the research bench.&#13;
 - Implemented "Enforce Research Prereqs" option in module config file. This defaults to false, removing research prerequisites other than having the required materials. Previous behavior can be restored if desired by changing value to true.&#13;
 - Updated apworld logic to ensure the ability to create meads has been gained before Bonemass and/or Mountain biomes are required.&#13;
-- Updated apworld logic to make sure that armor types in logic also have necessary workstation upgrades in logic to be able to craft.</content>
+- Updated apworld logic to make sure that armor types in logic also have necessary workstation upgrades in logic to be able to craft.&#13;
+&#13;
+09/03/26: Uploaded hotfix1 mod file. The only change is capitalization of the k's in Mead Ketill in the accompanying research.tsv file. This typo prevented players from being able to build the mead ketill even after receiving the AP item.</content>
     <link href="https://github.com/xyzzy44/ValheimArchipelagoRandomizer/releases/tag/0.2.3"/>
   </entry>
   <entry>
@@ -869,8 +770,8 @@ Documentation:&#13;
 ## Internal: &#13;
 - Fixed an issue breaking generation on Linux&#13;
 &#13;
-AP Mod download: https://github.com/SilicDev/YohaneAPMod/releases/tag/v0.0.3&#13;
-Yohane BID mod loader download: https://github.com/SilicDev/YohaneBIDModLoader/releases/tag/v0.0.1</content>
+AP Mod download: https://github.com/SilicDev/YohaneAPMod/releases/tag/v0.0.4&#13;
+Yohane BID mod loader download: https://github.com/SilicDev/YohaneBIDModLoader/releases/tag/v0.0.2</content>
     <link href="https://github.com/SilicDev/Archipelago/releases/tag/yohane_bitdb-v0.2.4"/>
   </entry>
   <entry>
@@ -1053,6 +954,30 @@ Should still be fully compatible with releases going back to 0.2.0.&#13;
     <link href="https://github.com/dmwever/Ageipelago/releases/tag/0.2.2"/>
   </entry>
   <entry>
+    <id>https://github.com/AllPoland/unbeatAP/releases/tag/v0.8.0-alpha</id>
+    <title>UNBEATABLE Arcade v0.8.0a0</title>
+    <updated>2026-09-02T18:54:47+00:00</updated>
+    <author>
+      <name>AllPoland</name>
+    </author>
+    <author>
+      <name>estradiol-valerate</name>
+    </author>
+    <content>This update catches up with patch 2.3, which adds 4 new songs:&#13;
+- cryogenic&#13;
+- moon child (unbeatable's loveadelic rpg adventure remix)&#13;
+- moon child (amiga mix)&#13;
+- moon child (windows mix)&#13;
+&#13;
+The **client** is **compatible** with v0.7.2, v0.7.1, v0.7.0, v0.6.0, v0.5.0 and v0.4.0 apworlds! You can update the mod even if you're currently in an async!&#13;
+The **apworld** is **not compatible** with v0.7.x clients!&#13;
+&#13;
+**Please read the YAML options carefully and test your options before joining a lobby**, since the pacing and difficulty of the apworld is very volatile. It's currently very easy to make a randomizer that is way too short or way too long.&#13;
+&#13;
+Any feedback or ideas are welcome in the "UNBEATABLE (PC)" thread in `#future-game-design` in the [Archipelago Discord](https://discord.gg/8Z65BR2)!</content>
+    <link href="https://github.com/AllPoland/unbeatAP/releases/tag/v0.8.0-alpha"/>
+  </entry>
+  <entry>
     <id>https://github.com/Cousinit117/Deep-Rock-Galactic-AP/releases/tag/0.20</id>
     <title>Deep Rock Galactic v0.19.1</title>
     <updated>2026-09-02T20:48:34+00:00</updated>
@@ -1146,7 +1071,7 @@ Known bugs:&#13;
   </entry>
   <entry>
     <id>https://github.com/Nebulea-dev/Archipelago-BlueFire/releases/tag/0.6.0</id>
-    <title>Blue Fire v0.1.0r3</title>
+    <title>Blue Fire v0.1.0r2</title>
     <updated>2026-09-03T12:18:20+00:00</updated>
     <author>
       <name>Nebulea</name>
@@ -1206,5 +1131,66 @@ Plugin and world file are unchanged from v3.9.10.
 - Add universal tracker support&#13;
 - Improve logic for `The Skell License`</content>
     <link href="https://github.com/MaragonMH/Archipelago/releases/tag/XenoX0.2.7"/>
+  </entry>
+  <entry>
+    <id>https://github.com/spinerak/refunct-tas-archipelago/releases/tag/v1.6.0</id>
+    <title>Refunct v1.6.0</title>
+    <updated>2026-09-03T20:29:59+00:00</updated>
+    <author>
+      <name>Spineraks</name>
+    </author>
+    <content># New apworld and mod (and yaml)!&#13;
+- Added Defunct minigame, drown all platforms and win, but at what cost D:&#13;
+- Added option to warp back to start in block brawl, climb minigames and Defunct. (hold R)&#13;
+- Fixed that the mod would make the game less "red" than it is supposed to be.&#13;
+- Added the map editor and practice menu to the main menu (m). But CTRL+SHIFT+M and CTRL+SHIFT+P also still work.&#13;
+- Removed frogger and beat block test levels, maybe they'll return.</content>
+    <link href="https://github.com/spinerak/refunct-tas-archipelago/releases/tag/v1.6.0"/>
+  </entry>
+  <entry>
+    <id>https://github.com/FuzzyGamesOn/RE2R_AP_World/releases/tag/0.3.5</id>
+    <title>Resident Evil 2 Remake v0.3.5</title>
+    <updated>2026-09-03T22:22:54+00:00</updated>
+    <author>
+      <name>FuzzyGamesOn</name>
+    </author>
+    <content>**List of updates in this release:**&#13;
+- "Enemy Kills" options renamed to "Killsanity"&#13;
+- Lots of killsanity logic revisions, courtesy of @RopeyRed &#13;
+- YAML options are now grouped into intuitive option groups, courtesy of @AmondoVagyok &#13;
+- Logic revisions with Supplies Storage Room in Sewers, courtesy of @AmondoVagyok </content>
+    <link href="https://github.com/FuzzyGamesOn/RE2R_AP_World/releases/tag/0.3.5"/>
+  </entry>
+  <entry>
+    <id>https://github.com/WritingHusky/haste_apworld/releases/tag/v0.5.1</id>
+    <title>Haste v0.5.1</title>
+    <updated>2026-09-03T23:24:37+00:00</updated>
+    <author>
+      <name>JXJacob</name>
+    </author>
+    <author>
+      <name>WritingHusky</name>
+    </author>
+    <content>The first revision to the fifth major release of the Haste Archipelago&#13;
+&#13;
+You will need to subscribe to and enable the [Mod](https://steamcommunity.com/sharedfiles/filedetails/?id=3462307025) on Steam.&#13;
+&#13;
+&#13;
+## Logic Changes&#13;
+- The Triangular Distribution for Fragmentsanity can **no longer** be enabled with Dynamic Per-Shard Fragmentsanity, due to an emerging concern over seeds taking dozens of hours to finish a single late-game Shard's worth of fragment clears if the scaling was high enough&#13;
+  - Triangular Distribution can still be used with Static Per-Shard and Global Fragmentsanities, and Balanced Triangular is unaffected&#13;
+  - This restriction may be revisited at a later time, due to Triangular being a "landmine" setting that can catastrophically blow up expected seed times with certain combinations of settings&#13;
+  - As an example:&#13;
+    - With the maximum Dynamic Scaling of 200%, there would be **66** checks in Disaster Shard 2 (and onward), and would require **2211 Fragment clears** to attain&#13;
+    - At a *generously* estimated 40 seconds per Fragment, it would roughly **24.5 hours** to complete *just* D2's Fragmentsanity checks&#13;
+    - With the same scaling, Shard 1's 26 checks would take **3.9 hours** to complete&#13;
+    - In total, from Shard 1 to D2, it would take at best **~120 hours** to do all 482 checks&#13;
+    - **This is an unreasonable ask in basically any scenario**&#13;
+    - However, at 100% scaling, it would take **30 hours** to complete its 241 checks. This is still a large value, but could hypothetically be playable in long asyncs&#13;
+&#13;
+&#13;
+## Bugfixes&#13;
+- Fixed Shopsanity Scaling accidentally using Fragmentsanity Scaling's value in the slot data</content>
+    <link href="https://github.com/WritingHusky/haste_apworld/releases/tag/v0.5.1"/>
   </entry>
 </feed>
