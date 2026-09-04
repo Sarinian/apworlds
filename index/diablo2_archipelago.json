@@ -1806,6 +1806,21 @@
       "version_simple": "3.9.10",
       "world_version": "3.9.10r2"
     },
+    "v3.9.12": {
+      "created_at": "2026-09-04T10:22:30Z",
+      "description": "Shop Shuffle now stocks the whole game. Every vendor draws its shelf from the\ncomplete item list on all three tabs \u2014 weapons, armor, gems, runes, jewels,\ncharms, rings and amulets \u2014 and rolls them as normal, magic, rare, set and\nunique items. The game prices them itself, so the best pieces cost a fortune,\nand the shelf re-rolls whenever the vendor restocks. Potions, scrolls, keys and\nammo stay exactly as before. Items you buy count for the Collection book.\n\nThe mod fills the shelf itself now. The engine walked the item table in file\norder, stopped after thirty rows and never rolled anything above magic, which\nis why every shop showed the same first handful of weapons. The vendor columns\nstill come from the seed's tables, so an install without the mod's filler shows\na plain slice of the same pool.\n\nThe launcher reads ItemTypes.txt out of your own archives, with a built-in copy\nas fallback. Without that table the shop deal did nothing on a fresh install.\n",
+      "download_url": "https://github.com/solida1987/Diablo-II-Archipelago/releases/download/v3.9.12/diablo2_archipelago.apworld",
+      "has_manifest": true,
+      "hash_sha256": "f9a162928fc71bd5154f1b205c8397708be9fffbea81d776523c764426357478",
+      "html_url": "https://github.com/solida1987/Diablo-II-Archipelago/releases/tag/v3.9.12",
+      "minimum_ap_version": "0.5.0",
+      "size": 82207,
+      "source_url": "https://api.github.com/repos/solida1987/Diablo-II-Archipelago",
+      "tag": "v3.9.12",
+      "title": "v3.9.12",
+      "version_simple": "3.9.12",
+      "world_version": "3.9.12"
+    },
     "v3.9.2": {
       "created_at": "2026-09-01T18:34:31Z",
       "description": "# 3.9.2\r\n\r\nA lock's kick always lands somewhere legal.\r\n\r\n- The zone lock kicked to the locked region's own town \u2014 which could sit\r\n  in a locked act, whose lock kicked straight back. The two locks\r\n  ping-ponged the player forever. Zone kicks now go to a town you have,\r\n  and the act lock never bounces you into locked ground.\r\n",
