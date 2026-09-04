@@ -2,145 +2,11 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://raw.githubusercontent.com/silasary/apworlds/refs/heads/main/recent.atom</id>
   <title>Recent APWorlds</title>
-  <updated>2026-09-04T15:30:31.046697+00:00</updated>
+  <updated>2026-09-04T20:08:42.623530+00:00</updated>
   <author>
     <name>Silasary</name>
   </author>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
-  <entry>
-    <id>https://github.com/Crownmuri/Archipelago/releases/tag/v1.0.0</id>
-    <title>La-Mulana 2 v1.0.0.post2</title>
-    <updated>2026-09-01T09:45:30+00:00</updated>
-    <author>
-      <name>Crownmuri</name>
-    </author>
-    <author>
-      <name>Coookie93</name>
-    </author>
-    <content>## Supports: Mod v1.0.0+ -- Tracker v2.0.0+&#13;
-&#13;
-# Changelogs&#13;
-- NEW option: Include Expensive Shop Item (Requires Ganesha's Talisman &amp; Money Fairy or Harp in logic)&#13;
-- Fixed sphere scaled AP item pricing (50-100) and made ammo pricing match vanilla to balance with useful AP filler&#13;
-- Many, many Pot/Glossary/DLC logic fixes (thank you too everyone who reported them!)&#13;
-- Collapsed item labels ("Sacred Orb", "Crystal Skull", "Kosugi Research Papers", non-guardian specific "Ankh Jewel")&#13;
-- Fixed require_fdc option -- it was appending the logic to vanilla exits despite ER&#13;
-- Fixed several instances of world.random instead of self.random causing the same chests to be cursed when there are multiple LM2 players in one multiworld.&#13;
-- Offline seed option is fully compatible with the new AP settings&#13;
-&#13;
-# Generation improvements&#13;
-- Major overhaul of the ER ordering, regeneration and validation (fuzz results at 99.5% with 1000 fully randomized yamls)&#13;
-  - For example, making sure that Gate of Guidance and Mausoleum of Giants is not blocked by a 9 soul gate door with original shops&#13;
-  - For example, rejecting ER layouts where the only way out is through a soul gate but with no guardian in the accessible regions&#13;
-- The non-VoD start Starting Shop can now still have progression items even with original shops to prevent sphere 1 softlock.&#13;
-  - Annwfn and Immortal Battlefield start will reroll if the YAML has original shops but no ER settings due to Pepper being stuck in VoD&#13;
-- Reduce local reserved filler (pot / glossary filler) in sphere 1 locations to prevent softlock.&#13;
-- Available glossary that are below the set Glossary Hunt goal are automatically classified as filler (will still count towards progress)&#13;
- </content>
-    <link href="https://github.com/Crownmuri/Archipelago/releases/tag/v1.0.0"/>
-  </entry>
-  <entry>
-    <id>https://github.com/randomsalience/albw-archipelago/releases/tag/v0.3.5</id>
-    <title>A Link Between Worlds v0.3.5</title>
-    <updated>2026-09-01T13:05:05+00:00</updated>
-    <author>
-      <name>randomsalience</name>
-    </author>
-    <content>### Fixes&#13;
-- Fix a bug that prevented the apworld from loading if it failed to clean up old temporary directories</content>
-    <link href="https://github.com/randomsalience/albw-archipelago/releases/tag/v0.3.5"/>
-  </entry>
-  <entry>
-    <id>https://github.com/awakenbad/SanAndreasAP/releases/tag/v0.8.0</id>
-    <title>Grand Theft Auto: San Andreas v0.8.0</title>
-    <updated>2026-09-01T14:55:57+00:00</updated>
-    <author>
-      <name>awaken</name>
-    </author>
-    <content>## New:&#13;
-- Added Fast Travel marker in CJ's House, Badlands Trailer, Doherty Garage and Four Dragons Casino. (#44)&#13;
-- Added a `.ini` settings file with the following options:&#13;
-	- Notification duration (#39)&#13;
-	- Collectible number and Mission counter size (#41)&#13;
-	- Item importance colors in Ammu-nation&#13;
-	- Disabling Fast Travel&#13;
-- Starting Point chosen is now shown in `GTA SA Client` upon connecting. (#45)&#13;
-- Added Freight Train levels as checks&#13;
-- Added Ammu-nation gun challenges as checks&#13;
-- Added 100% as an End Goal (#5)&#13;
-- Added Jetpack pick up next to Four Dragons Casino&#13;
-## Changes:&#13;
-- The entire map is now open (no barricades and wanted level). Every collectible is now in logic early. (#14)&#13;
-  (Thanks to @Lordmau5 for letting me use their code from ChaosModComplementaries)&#13;
-- Added gating items - every early available side activity (paramedic, taxi, tags, snapshots etc.) is now gated behind an item that unlocks that submission specifically. (#50 and #47)&#13;
-- Added an option to start with one unlock item.&#13;
-- Tags cannot be sprayed until `Tags Unlock` item was received, excluding Tagging Up Turf tags (#56 by @Lordmau5)&#13;
-- Submissions cannot be started until their respective item was received (#55 by @Lordmau5)&#13;
-- All submissions now resume from their highest level after failing and restarting (#23)&#13;
-  (Thanks to @Lordmau5 for creating a proof of concept)&#13;
-- Save files are now stored per world inside `GTA San Andreas User Files/archipelago`. (#42)&#13;
-- Starting point save files are now shipped inside `SanAndreasAP-vX.X.X.zip` and their installation is different.&#13;
-- Renamed story missions and side-activity location names to be more comprehensible (#46)&#13;
-- Removed On Completion mode for submissions.&#13;
-## Fixed:&#13;
-- CLEO no longer breaks the mod (#54)&#13;
-- Fixed `Bad Weather Trap` always being sandstorm (#51)</content>
-    <link href="https://github.com/awakenbad/SanAndreasAP/releases/tag/v0.8.0"/>
-  </entry>
-  <entry>
-    <id>https://github.com/solida1987/Diablo-II-Archipelago/releases/tag/v3.9.0</id>
-    <title>Diablo II Archipelago v3.8.9r2</title>
-    <updated>2026-09-01T16:44:49+00:00</updated>
-    <author>
-      <name>solida1987</name>
-    </author>
-    <author>
-      <name>ꓘicka (AP logic)</name>
-    </author>
-    <author>
-      <name>Zoë (AP logic)</name>
-    </author>
-    <content># 3.9.0&#13;
-&#13;
-The Treasure Cow scales to you now.&#13;
-&#13;
-- Its life follows the level match, so an early cow no longer keeps&#13;
-  boss-act life behind an Act 1 name.&#13;
-- Its resistances are set from your level with a hard ceiling — it can&#13;
-  never roll into an immunity again.&#13;
-- The Magic Resistant and Lightning Enchanted modifiers are gone from&#13;
-  its spawn.&#13;
-- An over-levelled character revisiting an old act meets a cow scaled&#13;
-  up to match, not a pushover.&#13;
-</content>
-    <link href="https://github.com/solida1987/Diablo-II-Archipelago/releases/tag/v3.9.0"/>
-  </entry>
-  <entry>
-    <id>https://github.com/solida1987/Diablo-II-Archipelago/releases/tag/v3.9.1</id>
-    <title>Diablo II Archipelago v3.8.9r3</title>
-    <updated>2026-09-01T18:03:41+00:00</updated>
-    <author>
-      <name>solida1987</name>
-    </author>
-    <author>
-      <name>ꓘicka (AP logic)</name>
-    </author>
-    <author>
-      <name>Zoë (AP logic)</name>
-    </author>
-    <content># 3.9.1&#13;
-&#13;
-Walking out of a shuffled dungeon always returns you to the door you&#13;
-entered through.&#13;
-&#13;
-- The act lock used to answer first when an exit surfaced in a locked&#13;
-  act, bouncing you back inside — and the two answers ping-ponged&#13;
-  forever. The exit rule decides first now; its target is a door you&#13;
-  used yourself, in an act you have.&#13;
-- The lock messages render their dash correctly.&#13;
-</content>
-    <link href="https://github.com/solida1987/Diablo-II-Archipelago/releases/tag/v3.9.1"/>
-  </entry>
   <entry>
     <id>https://github.com/solida1987/Diablo-II-Archipelago/releases/tag/v3.9.2</id>
     <title>Diablo II Archipelago v3.8.9r4</title>
@@ -794,7 +660,7 @@ Known bugs:&#13;
   </entry>
   <entry>
     <id>https://github.com/Nebulea-dev/Archipelago-BlueFire/releases/tag/0.6.0</id>
-    <title>Blue Fire v0.1.0r2</title>
+    <title>Blue Fire v0.1.0r3</title>
     <updated>2026-09-03T12:18:20+00:00</updated>
     <author>
       <name>Nebulea</name>
@@ -1125,5 +991,131 @@ This is an early release and has not been extensively tested. Expect bugs and mi
 - Improved Logic handling for Post-Game Condition-related entrances and locations&#13;
 </content>
     <link href="https://github.com/aidanii24/ae3-archipelago/releases/tag/v2.1.0"/>
+  </entry>
+  <entry>
+    <id>https://github.com/awakenbad/SanAndreasAP/releases/tag/v0.8.2</id>
+    <title>Grand Theft Auto: San Andreas v0.8.1r2</title>
+    <updated>2026-09-04T17:00:27+00:00</updated>
+    <author>
+      <name>awaken</name>
+    </author>
+    <content>## Fixed:&#13;
+- Fixed LV Air Street Races not sending out checks&#13;
+&#13;
+## Notes:&#13;
+If you had this issue on 0.8.1, you can change only the `.asi` and the mod will send out pending checks.</content>
+    <link href="https://github.com/awakenbad/SanAndreasAP/releases/tag/v0.8.2"/>
+  </entry>
+  <entry>
+    <id>https://github.com/CATEM1NAL/PD2-Criminal-Dawn/releases/tag/v1.0.10</id>
+    <title>PAYDAY 2: Criminal Dawn v1.0.4r2</title>
+    <updated>2026-09-04T18:27:53+00:00</updated>
+    <author>
+      <name>C@:\EM1NAL\</name>
+    </author>
+    <author>
+      <name>jordansds</name>
+    </author>
+    <content>A continuous problem has been that the timing on White House is somewhat unfair and very tight, however in all my testing I tend to get Crude Awakening as the final heist instead so I was never really able to experience how rough it could be for myself. After replaying White House a couple times now (not in Criminal Dawn, just generally) I've realised that, yeah. White House *is* a lot longer than I previously thought it was - a well executed loud playthrough can take 20 minutes minimum.&#13;
+&#13;
+Because I kept getting Crude Awakening in testing, a lot of the timer balance was tailored around *that* heist instead - the issue with this is Crude Awakening can be easily completed in about *ten* minutes, half the time of White House. This creates a huge time gap, and makes White House incredibly unfair to get as the final heist, which is why a lot of people have (rightfully!!) complained about it.&#13;
+&#13;
+All this is to say White House now benefits from Objectivity when it's chosen as the final heist, *but* you only receive 50% of the bonus instead of the entire bonus. If you have 60% objective speed, you will get 30% on White House. 90% objective speed, you get 45% on White House - etc.&#13;
+&#13;
+_No APWorld changes since v1.0.4._</content>
+    <link href="https://github.com/CATEM1NAL/PD2-Criminal-Dawn/releases/tag/v1.0.10"/>
+  </entry>
+  <entry>
+    <id>https://github.com/solida1987/Diablo-II-Archipelago/releases/tag/v3.9.13</id>
+    <title>Diablo II Archipelago v3.9.13</title>
+    <updated>2026-09-04T18:46:14+00:00</updated>
+    <author>
+      <name>solida1987</name>
+    </author>
+    <author>
+      <name>ꓘicka (AP logic)</name>
+    </author>
+    <author>
+      <name>Zoë (AP logic)</name>
+    </author>
+    <content>Fixes from Testing Round 1.
+
+**XP multiplier came back at 0x after every relaunch** (BetaHub #22). The
+multiplier is read from the seed when a character is created, and the state
+file's copy is deliberately not trusted under Archipelago, so an existing
+character loaded with standard XP no matter what the YAML said. The
+player-side settings (XP multiplier, skill cap, skill level requirements) now
+follow the seed on every character load.
+
+**Hellfire Torch arrived as a Magic Large Charm** (BetaHub #26). Hellfire
+Torch and Annihilus have item level 110 in the game's own table, and the
+delivery never tried above 99, so the unique roll could not pass and the
+engine handed back a magic charm. Uniques are now created at their own level.
+
+**Shrines, urns, barrels and chests now fire their check every time.** The
+escalating chance (10% to 100%) is a YAML option, "Bonus Checks Random
+Chance", off by default. Seeds generated before this release stop rolling and
+become guaranteed; the number of locations is unchanged either way.
+
+**The unstuck message names the skill.** "Fists of Fire cannot be used with
+this weapon" instead of "that skill" (BetaHub #21 and #23). The three
+elemental Martial Arts charge-ups are claw-only in the base game; the engine
+freezes the character rather than refusing, and the watchdog frees them.
+
+Plugin 1.2.16 carries the new YAML option in Create YAML.
+</content>
+    <link href="https://github.com/solida1987/Diablo-II-Archipelago/releases/tag/v3.9.13"/>
+  </entry>
+  <entry>
+    <id>https://github.com/solida1987/Diablo-II-Archipelago/releases/tag/v3.9.14</id>
+    <title>Diablo II Archipelago v3.9.14</title>
+    <updated>2026-09-04T19:28:52+00:00</updated>
+    <author>
+      <name>solida1987</name>
+    </author>
+    <author>
+      <name>ꓘicka (AP logic)</name>
+    </author>
+    <author>
+      <name>Zoë (AP logic)</name>
+    </author>
+    <content>**Collection toggles are off by default.** All 76 of them: the 32 sets, the
+33 runes, gems, and the 10 specials. Turn on the items you want to collect
+instead of turning off the ones you do not. Reported in Testing Round 1:
+building a small collection meant unticking seventy boxes by hand.
+
+Existing YAML files are unaffected: a key that is written stays as written.
+Only keys left out of the file fall back to the new default. Seeds already
+generated carry their own collection in slot data and do not change.
+
+Plugin 1.2.17 carries the new defaults in Create YAML.
+</content>
+    <link href="https://github.com/solida1987/Diablo-II-Archipelago/releases/tag/v3.9.14"/>
+  </entry>
+  <entry>
+    <id>https://github.com/solida1987/Diablo-II-Archipelago/releases/tag/v3.9.15</id>
+    <title>Diablo II Archipelago v3.9.15</title>
+    <updated>2026-09-04T19:47:18+00:00</updated>
+    <author>
+      <name>solida1987</name>
+    </author>
+    <author>
+      <name>ꓘicka (AP logic)</name>
+    </author>
+    <author>
+      <name>Zoë (AP logic)</name>
+    </author>
+    <content>**Gold limits raised 30x.** The game caps carried gold at level x 10,000 and
+the stash at 2,500,000 (level 99). Both are now multiplied by a new YAML
+option, "Gold Cap Multiplier", default 30: a level-10 character carries 3M,
+and the stash holds 33M from the start. Both limits stop at 33,000,000
+because the save file stores gold in 25 bits.
+
+Seeds generated before this release use the default of 30 as well; the
+multiplier lives in the mod, and the YAML value only overrides it.
+
+Plugin 1.2.18 carries the option in Create YAML.
+</content>
+    <link href="https://github.com/solida1987/Diablo-II-Archipelago/releases/tag/v3.9.15"/>
   </entry>
 </feed>
