@@ -89,6 +89,21 @@
       "title": "Silksong Randomizer 0.4.5",
       "version_simple": "0.4.5",
       "world_version": "0.4.5"
+    },
+    "v0.4.5-Hotfix": {
+      "created_at": "2026-09-05T15:01:13Z",
+      "description": "I'm an idiot and forgot to fix somethinig major so have the tiniest changelog\r\n\r\n- Shellwood -> Widow doesn't have \"nothing\" as logic requirement anymore\r\n- First Sinner memory sequence gets properly skipped now (to avoid softlocks)\r\n- Added KnockbackLink option to make up for this blunder (so far only compatible with PixelDraw, Sweet Defeat, PEAK, Spark the Electric Jester 3, Noita and other Silksong players)\r\n- Also somehow forgot spelling bee wincon in premade YAML oopsie",
+      "download_url": "https://github.com/Batatvideogames/silksong-archipelago-randomizer/releases/download/v0.4.5-Hotfix/silksong.apworld",
+      "has_manifest": true,
+      "hash_sha256": "896c49bb6e6470530fc1454f7fe9888f5b9cd4f905ceba993260b6e5f548a224",
+      "html_url": "https://github.com/Batatvideogames/silksong-archipelago-randomizer/releases/tag/v0.4.5-Hotfix",
+      "minimum_ap_version": "0.6.7",
+      "size": 493072,
+      "source_url": "https://api.github.com/repos/Batatvideogames/silksong-archipelago-randomizer",
+      "tag": "v0.4.5-Hotfix",
+      "title": "Silksong Randomizer 0.4.5 - HOTFIX",
+      "version_simple": "0.4.5",
+      "world_version": "0.4.5r2"
     }
   }
 }

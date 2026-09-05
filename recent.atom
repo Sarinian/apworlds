@@ -2,102 +2,11 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://raw.githubusercontent.com/silasary/apworlds/refs/heads/main/recent.atom</id>
   <title>Recent APWorlds</title>
-  <updated>2026-09-05T14:17:48.060987+00:00</updated>
+  <updated>2026-09-05T19:47:46.607473+00:00</updated>
   <author>
     <name>Silasary</name>
   </author>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
-  <entry>
-    <id>https://github.com/awakenbad/SanAndreasAP/releases/tag/v0.8.1</id>
-    <title>Grand Theft Auto: San Andreas v0.8.1</title>
-    <updated>2026-09-02T12:16:41+00:00</updated>
-    <author>
-      <name>awaken</name>
-    </author>
-    <content>## Fixed:&#13;
-- Fixed `.asi` not receiving the world seed from GTA SA Client if Universal Tracker isn't installed.</content>
-    <link href="https://github.com/awakenbad/SanAndreasAP/releases/tag/v0.8.1"/>
-  </entry>
-  <entry>
-    <id>https://github.com/SilicDev/Archipelago/releases/tag/yohane_bitdb-v0.2.4</id>
-    <title>YOHANE THE PARHELION -BLAZE in the DEEPBLUE- v0.2.4</title>
-    <updated>2026-09-02T13:36:38+00:00</updated>
-    <author>
-      <name>SilicDev</name>
-    </author>
-    <content># Hard and easy logic logic &#13;
-**Full Changelog**: https://github.com/SilicDev/Archipelago/compare/yohane_bitdb-v0.2.3...yohane_bitdb-v0.2.4&#13;
-&#13;
-## Changes&#13;
-- Added Fashion for Dummies as requirement for Infernal Altar and Sunken Volcano bosses on easy logic&#13;
-- Implemented an early version of hard logic, enabling damage boosting as a logically required step and force enabling you skips&#13;
-- Adjusted the death and damagelink messages&#13;
-&#13;
-## Internal: &#13;
-- Fixed an issue breaking generation on Linux&#13;
-&#13;
-AP Mod download: https://github.com/SilicDev/YohaneAPMod/releases/tag/v0.0.4&#13;
-Yohane BID mod loader download: https://github.com/SilicDev/YohaneBIDModLoader/releases/tag/v0.0.2</content>
-    <link href="https://github.com/SilicDev/Archipelago/releases/tag/yohane_bitdb-v0.2.4"/>
-  </entry>
-  <entry>
-    <id>https://github.com/ChakraaThePanda/Archipelago-Northgard/releases/tag/2026.09.02</id>
-    <title>Northgard v2026.9.2</title>
-    <updated>2026-09-02T14:42:18+00:00</updated>
-    <author>
-      <name>Chakraa</name>
-    </author>
-    <content>### Fixed
-- Reconnecting the client to a different room could fail with "The server is running a different multiworld than your client is. (invalid seed_name)" and silently not log in. It should now be fixed by clearing the stale seed_name before each new connection attempt.
-- After a Northgard update, applying the patch could silently re-patch the stale pre-update backup and overwrite the freshly-updated game with a repatched OLD build, instead of patching the new one. It should now be fixed by re-checking whether the live install is fresh and vanilla before deciding what to patch.
-
-**Full Changelog**: https://github.com/ChakraaThePanda/Archipelago-Northgard/compare/2026.08.27...2026.09.02
-</content>
-    <link href="https://github.com/ChakraaThePanda/Archipelago-Northgard/releases/tag/2026.09.02"/>
-  </entry>
-  <entry>
-    <id>https://github.com/Dinopony/ArchipelagoOoS/releases/tag/oos-23.0.4</id>
-    <title>The Legend of Zelda - Oracle of Seasons v23.0.4r2</title>
-    <updated>2026-09-02T15:02:22+00:00</updated>
-    <author>
-      <name>Dinopony</name>
-    </author>
-    <author>
-      <name>Ishigh</name>
-    </author>
-    <content>## 🗳️ New Options&#13;
-- Added a start position option, that contains north horon, sunken city, tarm ruins, temple of seasons and samasa desert&#13;
-&#13;
-## ⏫ Miscellaneous Improvements&#13;
-- Shops items can now be bought more than once if it is local and makes sense to be bought more than once (potions, ore chunks, rupees)&#13;
-- Owl hints now try to give items that appear later in logic, and should stop constantly telling you how to get what you already have&#13;
-- You can now always put the 4 jewels in their slots if you want&#13;
-- Subrosia digging spots are now permanently dug up&#13;
-- Added a way to warp back to the ship after giving the bell to the pirate captain&#13;
-- Added bomb and bombchu upgrades to the pool, packs of bombs no longer increase the max bomb count&#13;
-&#13;
-## 🧠 Logic&#13;
-- Added logic requiring some amounts of heart containers before beating some bosses or doing skips. The amount depends on the logic difficulty&#13;
-- Breaking the blocks to the goron chest with bombchus is now hard logic&#13;
-- Added logic to jump on the button in d8, for the armos chest&#13;
-- Added bombchu jumps to hell logic (thanks omega)&#13;
-&#13;
-## 🛠️ Bugfixes&#13;
-- Moved the mt cucco warp to between tarm ruins and sunken city&#13;
-- Fixed Switch Hook allowing to jump at the same time</content>
-    <link href="https://github.com/Dinopony/ArchipelagoOoS/releases/tag/oos-23.0.4"/>
-  </entry>
-  <entry>
-    <id>https://github.com/GraphiteGraphic/NuclearThroneArchipelago/releases/tag/nt_v1.5</id>
-    <title>Nuclear Throne v1.4.3r2</title>
-    <updated>2026-09-02T15:55:05+00:00</updated>
-    <author>
-      <name>RomanPenguin</name>
-    </author>
-    <content>### **New Feature**&#13;
-- Leaving a Crown Vault now sends hints for discovered crowns to AP Client</content>
-    <link href="https://github.com/GraphiteGraphic/NuclearThroneArchipelago/releases/tag/nt_v1.5"/>
-  </entry>
   <entry>
     <id>https://github.com/cxve/q-ap-world/releases/tag/v3.0.0</id>
     <title>Q-UP v3.0.0</title>
@@ -337,7 +246,7 @@ Known bugs:&#13;
   </entry>
   <entry>
     <id>https://github.com/Nebulea-dev/Archipelago-BlueFire/releases/tag/0.6.0</id>
-    <title>Blue Fire v0.1.0r2</title>
+    <title>Blue Fire v0.1.0r3</title>
     <updated>2026-09-03T12:18:20+00:00</updated>
     <author>
       <name>Nebulea</name>
@@ -701,7 +610,7 @@ If you had this issue on 0.8.1, you can change only the `.asi` and the mod will 
   </entry>
   <entry>
     <id>https://github.com/CATEM1NAL/PD2-Criminal-Dawn/releases/tag/v1.0.10</id>
-    <title>PAYDAY 2: Criminal Dawn v1.0.4r3</title>
+    <title>PAYDAY 2: Criminal Dawn v1.0.4r2</title>
     <updated>2026-09-04T18:27:53+00:00</updated>
     <author>
       <name>C@:\EM1NAL\</name>
@@ -1203,5 +1112,141 @@ Provisional release to make sure there are no larger issues&#13;
 &#13;
 </content>
     <link href="https://github.com/anonymous-heap/Archipelago/releases/tag/cvaos-apworld-2026.09.04"/>
+  </entry>
+  <entry>
+    <id>https://github.com/solida1987/Diablo-II-Archipelago/releases/tag/v3.9.22</id>
+    <title>Diablo II Archipelago v3.9.22</title>
+    <updated>2026-09-05T15:14:40+00:00</updated>
+    <author>
+      <name>solida1987</name>
+    </author>
+    <author>
+      <name>ꓘicka (AP logic)</name>
+    </author>
+    <author>
+      <name>Zoë (AP logic)</name>
+    </author>
+    <content>**Skill trees with more than 255 points now come back whole on relog.** The
+save file's skill-point pool is an 8-bit field, so at exit anything above
+255 goes to a ledger in the state file and the save keeps 255. At character
+load the mod rebuilds the reinvest list and budgeted it against the save
+alone: a player who owned 697 points had six buttons queued and twelve
+dropped. The dropped points resurfaced later as free pool from the ledger,
+so nothing was destroyed, but most of the tree emptied on every relog. The
+ledger is now part of the budget.
+
+**Reinvested points are always paid for.** Each point applied during the
+reinvest is taken from the live pool, and from the ledger once the pool is
+at zero. Before, a point the pool could not cover was applied without being
+paid for, and the ledger later handed the same point back as free pool.
+
+**Three verification passes after every reinvest.** A few seconds after the
+points are applied, again when the character first moves, and again on the
+first mouse click, the mod reads each reinvested skill's level back from the
+live character. A skill found below the level that was applied is topped up
+through the same path and paid for the same way. The passes log
+`REINVEST AUDIT` lines with ok/low/missing counts, pool and ledger, so a
+future report can be checked against the log. A skill the player has raised
+above the applied level is left alone.
+
+Verified against a live log: cache held 18 buttons totalling 697 points,
+save pool 255, ledger 442; six buttons were reinvested and the ledger then
+refilled the pool to 255.
+
+Plugin stays at 1.2.19.
+</content>
+    <link href="https://github.com/solida1987/Diablo-II-Archipelago/releases/tag/v3.9.22"/>
+  </entry>
+  <entry>
+    <id>https://github.com/lepideble/factorio-apworld/releases/tag/platformer-0.4.5</id>
+    <title>Factorio: Platformer v0.4.5</title>
+    <updated>2026-09-05T15:40:59+00:00</updated>
+    <author>
+      <name>lepideble</name>
+    </author>
+    <content>## Fixes&#13;
+* Sort item pool to fix mismatched checksum error in UT by @lepideble in https://github.com/lepideble/factorio-apworld/pull/70&#13;
+* Fix an error loading the world on older python version @lepideble in https://github.com/lepideble/factorio-apworld/pull/71&#13;
+&#13;
+&#13;
+**Full Changelog**: https://github.com/lepideble/factorio-apworld/compare/platformer-0.4.4...platformer-0.4.5</content>
+    <link href="https://github.com/lepideble/factorio-apworld/releases/tag/platformer-0.4.5"/>
+  </entry>
+  <entry>
+    <id>https://github.com/solida1987/Diablo-II-Archipelago/releases/tag/v3.9.23</id>
+    <title>Diablo II Archipelago v3.9.23</title>
+    <updated>2026-09-05T16:09:54+00:00</updated>
+    <author>
+      <name>solida1987</name>
+    </author>
+    <author>
+      <name>ꓘicka (AP logic)</name>
+    </author>
+    <author>
+      <name>Zoë (AP logic)</name>
+    </author>
+    <content>**Monster shuffle leaves every revivable family alone.** A tester crashed in
+the Great Marsh with an access violation inside the game's own unit lookup.
+The minidump shows the unit was a flayer whose monstats row had been given
+another monster's record by the shuffle, while the flayer shamans, which
+the shuffle already skips, still revive that row. The fallen family had
+been protected against exactly this since the sliding-corpse report; the
+other families a reviver raises had not. Flayers and blowgun flayers
+(fetish shamans), zealots (cantors), mummies (greater mummies) and
+reanimated hordes, which rise on their own, now keep their own rows. The
+greater mummies themselves are skipped as well.
+
+The change only removes swaps, so a running seed keeps every check; a few
+monsters in Act 2, 3 and 5 look like themselves again.
+
+Plugin stays at 1.2.19.
+</content>
+    <link href="https://github.com/solida1987/Diablo-II-Archipelago/releases/tag/v3.9.23"/>
+  </entry>
+  <entry>
+    <id>https://github.com/Mickemoose/peak-archipelago/releases/tag/0.6.2</id>
+    <title>PEAK v0.6.2</title>
+    <updated>2026-09-05T18:01:44+00:00</updated>
+    <author>
+      <name>ArchipelagoBrad</name>
+    </author>
+    <author>
+      <name>ManNamedGarbo</name>
+    </author>
+    <author>
+      <name>Mickemoose</name>
+    </author>
+    <content>## v0.6.2 latest patch support (RELEASE CANDIDATE)&#13;
+&#13;
+**May POTENTIALLY be compatible with previously generated worlds**&#13;
+&#13;
+&lt;ul&gt;&#13;
+    &lt;li&gt;Badges and their checks should now work in custom runs, including stat-based badges&lt;/li&gt;&#13;
+    &lt;li&gt;EnergyLink conversion values for the new Gloom/Citadel items&lt;/li&gt;&#13;
+    &lt;li&gt;Amulets, Scout's Honor and Scoutmaster's Soul can no longer be converted into EnergyLink energy&lt;/li&gt;&#13;
+    &lt;li&gt;Three new EnergyLink store bundles featuring the new items&lt;/li&gt;&#13;
+    &lt;li&gt;New option Item Spawns: when Item Sanity is &lt;b&gt;off&lt;/b&gt;, every item with an Acquire check is added to the pool as a useful item that spawns in front of you when received (Scout's Honor excluded)&lt;/li&gt;&#13;
+    &lt;li&gt;The Scoutmaster's Soul only orbits you while you are in the Nadir if received&lt;/li&gt;&#13;
+    &lt;li&gt;Support fixes for the latest patch&lt;/li&gt;&#13;
+&lt;/ul&gt;&#13;
+&#13;
+### Notes/Known Issues&#13;
+High Altitude Badge is currently disabled as a check until further notice&#13;
+On startup there may be a slight hitch, i grab some biome specific hazards for traps from a loaded map called WilIsland at launch so that some traps work when their biome isnt in that day's run.</content>
+    <link href="https://github.com/Mickemoose/peak-archipelago/releases/tag/0.6.2"/>
+  </entry>
+  <entry>
+    <id>https://github.com/awakenbad/SanAndreasAP/releases/tag/v0.8.3</id>
+    <title>Grand Theft Auto: San Andreas v0.8.1r2</title>
+    <updated>2026-09-05T18:24:30+00:00</updated>
+    <author>
+      <name>awaken</name>
+    </author>
+    <content>## Fixed:&#13;
+- Fixed LS phone calls not triggering (#63 by @Lordmau5)&#13;
+&#13;
+## Notes:&#13;
+If you were stuck on `High Stakes, Low Ryder`, `Burning Desire` or other mission that requires a phone call, you can just change the `.asi` to continue the run.</content>
+    <link href="https://github.com/awakenbad/SanAndreasAP/releases/tag/v0.8.3"/>
   </entry>
 </feed>

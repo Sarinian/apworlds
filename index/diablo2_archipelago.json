@@ -1971,6 +1971,36 @@
       "version_simple": "3.9.21",
       "world_version": "3.9.21"
     },
+    "v3.9.22": {
+      "created_at": "2026-09-05T15:14:40Z",
+      "description": "**Skill trees with more than 255 points now come back whole on relog.** The\nsave file's skill-point pool is an 8-bit field, so at exit anything above\n255 goes to a ledger in the state file and the save keeps 255. At character\nload the mod rebuilds the reinvest list and budgeted it against the save\nalone: a player who owned 697 points had six buttons queued and twelve\ndropped. The dropped points resurfaced later as free pool from the ledger,\nso nothing was destroyed, but most of the tree emptied on every relog. The\nledger is now part of the budget.\n\n**Reinvested points are always paid for.** Each point applied during the\nreinvest is taken from the live pool, and from the ledger once the pool is\nat zero. Before, a point the pool could not cover was applied without being\npaid for, and the ledger later handed the same point back as free pool.\n\n**Three verification passes after every reinvest.** A few seconds after the\npoints are applied, again when the character first moves, and again on the\nfirst mouse click, the mod reads each reinvested skill's level back from the\nlive character. A skill found below the level that was applied is topped up\nthrough the same path and paid for the same way. The passes log\n`REINVEST AUDIT` lines with ok/low/missing counts, pool and ledger, so a\nfuture report can be checked against the log. A skill the player has raised\nabove the applied level is left alone.\n\nVerified against a live log: cache held 18 buttons totalling 697 points,\nsave pool 255, ledger 442; six buttons were reinvested and the ledger then\nrefilled the pool to 255.\n\nPlugin stays at 1.2.19.\n",
+      "download_url": "https://github.com/solida1987/Diablo-II-Archipelago/releases/download/v3.9.22/diablo2_archipelago.apworld",
+      "has_manifest": true,
+      "hash_sha256": "8379d89981aab3b6bba82c001ff765abf8bfb05685876c82104ced25d58ff09f",
+      "html_url": "https://github.com/solida1987/Diablo-II-Archipelago/releases/tag/v3.9.22",
+      "minimum_ap_version": "0.5.0",
+      "size": 83548,
+      "source_url": "https://api.github.com/repos/solida1987/Diablo-II-Archipelago",
+      "tag": "v3.9.22",
+      "title": "Diablo II Archipelago 3.9.22",
+      "version_simple": "3.9.22",
+      "world_version": "3.9.22"
+    },
+    "v3.9.23": {
+      "created_at": "2026-09-05T16:09:54Z",
+      "description": "**Monster shuffle leaves every revivable family alone.** A tester crashed in\nthe Great Marsh with an access violation inside the game's own unit lookup.\nThe minidump shows the unit was a flayer whose monstats row had been given\nanother monster's record by the shuffle, while the flayer shamans, which\nthe shuffle already skips, still revive that row. The fallen family had\nbeen protected against exactly this since the sliding-corpse report; the\nother families a reviver raises had not. Flayers and blowgun flayers\n(fetish shamans), zealots (cantors), mummies (greater mummies) and\nreanimated hordes, which rise on their own, now keep their own rows. The\ngreater mummies themselves are skipped as well.\n\nThe change only removes swaps, so a running seed keeps every check; a few\nmonsters in Act 2, 3 and 5 look like themselves again.\n\nPlugin stays at 1.2.19.\n",
+      "download_url": "https://github.com/solida1987/Diablo-II-Archipelago/releases/download/v3.9.23/diablo2_archipelago.apworld",
+      "has_manifest": true,
+      "hash_sha256": "1f329461f4a66bb9fc03f30d4356a13c17c6ee275af6bbcdc4a2ecab632809e6",
+      "html_url": "https://github.com/solida1987/Diablo-II-Archipelago/releases/tag/v3.9.23",
+      "minimum_ap_version": "0.5.0",
+      "size": 83548,
+      "source_url": "https://api.github.com/repos/solida1987/Diablo-II-Archipelago",
+      "tag": "v3.9.23",
+      "title": "Diablo II Archipelago 3.9.23",
+      "version_simple": "3.9.23",
+      "world_version": "3.9.23"
+    },
     "v3.9.3": {
       "created_at": "2026-09-01T18:41:10Z",
       "description": "# 3.9.3\r\n\r\nThe title screen tells the truth about its version again \u2014 it said\r\n3.8.9 through two releases of fixes.\r\n",
