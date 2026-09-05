@@ -2,145 +2,11 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://raw.githubusercontent.com/silasary/apworlds/refs/heads/main/recent.atom</id>
   <title>Recent APWorlds</title>
-  <updated>2026-09-04T20:08:42.623530+00:00</updated>
+  <updated>2026-09-05T01:55:31.212665+00:00</updated>
   <author>
     <name>Silasary</name>
   </author>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
-  <entry>
-    <id>https://github.com/solida1987/Diablo-II-Archipelago/releases/tag/v3.9.2</id>
-    <title>Diablo II Archipelago v3.8.9r4</title>
-    <updated>2026-09-01T18:34:31+00:00</updated>
-    <author>
-      <name>solida1987</name>
-    </author>
-    <author>
-      <name>ꓘicka (AP logic)</name>
-    </author>
-    <author>
-      <name>Zoë (AP logic)</name>
-    </author>
-    <content># 3.9.2&#13;
-&#13;
-A lock's kick always lands somewhere legal.&#13;
-&#13;
-- The zone lock kicked to the locked region's own town — which could sit&#13;
-  in a locked act, whose lock kicked straight back. The two locks&#13;
-  ping-ponged the player forever. Zone kicks now go to a town you have,&#13;
-  and the act lock never bounces you into locked ground.&#13;
-</content>
-    <link href="https://github.com/solida1987/Diablo-II-Archipelago/releases/tag/v3.9.2"/>
-  </entry>
-  <entry>
-    <id>https://github.com/solida1987/Diablo-II-Archipelago/releases/tag/v3.9.3</id>
-    <title>Diablo II Archipelago v3.8.9r5</title>
-    <updated>2026-09-01T18:41:10+00:00</updated>
-    <author>
-      <name>solida1987</name>
-    </author>
-    <author>
-      <name>ꓘicka (AP logic)</name>
-    </author>
-    <author>
-      <name>Zoë (AP logic)</name>
-    </author>
-    <content># 3.9.3&#13;
-&#13;
-The title screen tells the truth about its version again — it said&#13;
-3.8.9 through two releases of fixes.&#13;
-</content>
-    <link href="https://github.com/solida1987/Diablo-II-Archipelago/releases/tag/v3.9.3"/>
-  </entry>
-  <entry>
-    <id>https://github.com/solida1987/Diablo-II-Archipelago/releases/tag/v3.9.4</id>
-    <title>Diablo II Archipelago v3.8.9r6</title>
-    <updated>2026-09-01T18:45:14+00:00</updated>
-    <author>
-      <name>solida1987</name>
-    </author>
-    <author>
-      <name>ꓘicka (AP logic)</name>
-    </author>
-    <author>
-      <name>Zoë (AP logic)</name>
-    </author>
-    <content># 3.9.4&#13;
-&#13;
-Walking out of a shuffled dungeon lands you at the door you entered&#13;
-through — for real this time.&#13;
-&#13;
-- The return-to-your-door warp was queued correctly, and the zone lock&#13;
-  overwrote it one frame later while you still stood on locked ground,&#13;
-  sending you to town instead. A queued redirect is respected now; the&#13;
-  town kick stays as the fallback it was meant to be.&#13;
-</content>
-    <link href="https://github.com/solida1987/Diablo-II-Archipelago/releases/tag/v3.9.4"/>
-  </entry>
-  <entry>
-    <id>https://github.com/solida1987/Diablo-II-Archipelago/releases/tag/v3.9.5</id>
-    <title>Diablo II Archipelago v3.8.9r7</title>
-    <updated>2026-09-01T19:44:55+00:00</updated>
-    <author>
-      <name>solida1987</name>
-    </author>
-    <author>
-      <name>ꓘicka (AP logic)</name>
-    </author>
-    <author>
-      <name>Zoë (AP logic)</name>
-    </author>
-    <content># 3.9.5&#13;
-&#13;
-- Act-boss Shuffle and the legacy Boss Shuffle are gone from the options&#13;
-  — both were disabled placeholders that only invited confusion. Old&#13;
-  YAMLs that still set them must drop those two lines.&#13;
-- Option descriptions are shown in full everywhere; they used to stop&#13;
-  mid-sentence at 150 characters.&#13;
-</content>
-    <link href="https://github.com/solida1987/Diablo-II-Archipelago/releases/tag/v3.9.5"/>
-  </entry>
-  <entry>
-    <id>https://github.com/MLSTRM/ArchipelagoFF132/releases/tag/ff132/0.2.0</id>
-    <title>Final Fantasy XIII-2 v0.1.3r2</title>
-    <updated>2026-09-01T20:35:27+00:00</updated>
-    <author>
-      <name>MLSTRM</name>
-    </author>
-    <content>Mostly a stabilisation pass to resolve reported issues. Requires the newest available FFModdingWPF Release for compatibility (0.8.2.53+)&#13;
-https://github.com/Bartz24/FFModdingWPF/releases/tag/pre-release-0.8&#13;
-&#13;
-AP fixes:&#13;
-Fix debug log prefix to actually say FF13-2 now to reduce confusion&#13;
-&#13;
-Associated core rando fixes:&#13;
-Correct issues with double time duration option on clock puzzles&#13;
-Add DLC check to generation of an AP modpack to prevent misconfiguration&#13;
-Script adjustments to ensure that Thorne's Information check can always be obtained even if the associated quest is handed in first&#13;
-Script adjustments to force that the Archylte sheep are interacted with before allowing the quest to be completed (preventing the checks becoming missable)&#13;
-&#13;
-Specific check logic fixes:&#13;
-Correct Yaschas 10 raised area logic&#13;
-Correct Archylte Grave Ridge (now correctly allows just chocobo access as an access possibility)&#13;
-Yaschas 1X -&gt; Serendipity area exit now correctly expects a Mog Level&#13;
-Bresha Ruins 5AF Locked Inside mog levels corrected</content>
-    <link href="https://github.com/MLSTRM/ArchipelagoFF132/releases/tag/ff132/0.2.0"/>
-  </entry>
-  <entry>
-    <id>https://github.com/solida1987/Diablo-II-Archipelago/releases/tag/v3.9.6</id>
-    <title>Diablo II Archipelago v3.8.9r2</title>
-    <updated>2026-09-01T20:50:36+00:00</updated>
-    <author>
-      <name>solida1987</name>
-    </author>
-    <author>
-      <name>ꓘicka (AP logic)</name>
-    </author>
-    <author>
-      <name>Zoë (AP logic)</name>
-    </author>
-    <content>Fixed seed generation failing on check-heavy YAMLs (FillError: more excluded locations than filler) when tiered filler depth was on: the module reserved non-excluded locations first, opposite of its design. It now prefers excluded locations and caps non-excluded use to the filler surplus.</content>
-    <link href="https://github.com/solida1987/Diablo-II-Archipelago/releases/tag/v3.9.6"/>
-  </entry>
   <entry>
     <id>https://github.com/SergeAzel/Archipelago_PDTB/releases/tag/paquerette_down_the_bunburrows-0.2.0</id>
     <title>Paquerette Down The Bunburrows v0.2.0.post2</title>
@@ -660,7 +526,7 @@ Known bugs:&#13;
   </entry>
   <entry>
     <id>https://github.com/Nebulea-dev/Archipelago-BlueFire/releases/tag/0.6.0</id>
-    <title>Blue Fire v0.1.0r3</title>
+    <title>Blue Fire v0.1.0r2</title>
     <updated>2026-09-03T12:18:20+00:00</updated>
     <author>
       <name>Nebulea</name>
@@ -1008,7 +874,7 @@ If you had this issue on 0.8.1, you can change only the `.asi` and the mod will 
   </entry>
   <entry>
     <id>https://github.com/CATEM1NAL/PD2-Criminal-Dawn/releases/tag/v1.0.10</id>
-    <title>PAYDAY 2: Criminal Dawn v1.0.4r2</title>
+    <title>PAYDAY 2: Criminal Dawn v1.0.4r3</title>
     <updated>2026-09-04T18:27:53+00:00</updated>
     <author>
       <name>C@:\EM1NAL\</name>
@@ -1117,5 +983,165 @@ multiplier lives in the mod, and the YAML value only overrides it.
 Plugin 1.2.18 carries the option in Create YAML.
 </content>
     <link href="https://github.com/solida1987/Diablo-II-Archipelago/releases/tag/v3.9.15"/>
+  </entry>
+  <entry>
+    <id>https://github.com/solida1987/Diablo-II-Archipelago/releases/tag/v3.9.16</id>
+    <title>Diablo II Archipelago v3.9.16</title>
+    <updated>2026-09-04T20:16:43+00:00</updated>
+    <author>
+      <name>solida1987</name>
+    </author>
+    <author>
+      <name>ꓘicka (AP logic)</name>
+    </author>
+    <author>
+      <name>Zoë (AP logic)</name>
+    </author>
+    <content>**Items no longer vanish from the cursor.** Every item the launcher delivers
+goes in through the game's own quest-item routine, which puts the new item
+wherever there is room. When the player was holding an item mid-drag, that
+room was the cursor, and the held item was gone (BetaHub #25: a weapon lost
+the moment a Flawless Gem arrived).
+
+Item rewards and boss loot now wait while anything is on the cursor. The
+queue keeps them; they arrive the tick after the item is put down. A hold
+longer than a click shows "Items wait until you put that down" so a delayed
+delivery reads as waiting, not lost.
+
+Gold, XP, stat and skill points are unaffected and still arrive at once.
+</content>
+    <link href="https://github.com/solida1987/Diablo-II-Archipelago/releases/tag/v3.9.16"/>
+  </entry>
+  <entry>
+    <id>https://github.com/FyreDay/Archipelago-TCGCardShopSimulator/releases/tag/v1.2.0</id>
+    <title>TCG Card Shop Simulator v1.2.0</title>
+    <updated>2026-09-04T20:17:42+00:00</updated>
+    <author>
+      <name>FyreDay</name>
+    </author>
+    <content>- Fix Game 15 not sending&#13;
+- Fix Bulk box ids&#13;
+- Add Locking Grading</content>
+    <link href="https://github.com/FyreDay/Archipelago-TCGCardShopSimulator/releases/tag/v1.2.0"/>
+  </entry>
+  <entry>
+    <id>https://github.com/solida1987/Diablo-II-Archipelago/releases/tag/v3.9.17</id>
+    <title>Diablo II Archipelago v3.9.17</title>
+    <updated>2026-09-04T20:52:19+00:00</updated>
+    <author>
+      <name>solida1987</name>
+    </author>
+    <author>
+      <name>ꓘicka (AP logic)</name>
+    </author>
+    <author>
+      <name>Zoë (AP logic)</name>
+    </author>
+    <content>**Fifteen super-unique hunts pointed at the wrong area.** The quest book, the
+seed check and the logic all read one hand-written table, and it had Creeping
+Feature in Palace Cellar 1 (BetaHub #28); he lives in Stony Tomb 2. Checked
+against kill logs and the game's own presets, the table was off for
+Bloodwitch (Halls of the Dead 3), Fire Eye (Palace Cellar 3), Sszark (Spider
+Cavern), Witch Doctor Endugu (Flayer Dungeon 3), Toorc Icefist (Travincal),
+Bremm Sparkfist, Wyand Voidbringer and Maffer Dragonhand (Durance of Hate 3),
+Dac Farren (Bloody Foothills), Bonesaw Breaker (Glacial Trail), Eyeback the
+Unleashed (Frigid Highlands), Thresh Socket (Arreat Plateau), Snapchip Shatter
+(Icy Cellar) and Frozenstein (Frozen River). All corrected.
+
+The quest book shows the right area from this release. Seeds already running
+keep their logic; the monsters were always where the game puts them.
+
+Plugin 1.2.19 carries the corrected table for the seed check.
+</content>
+    <link href="https://github.com/solida1987/Diablo-II-Archipelago/releases/tag/v3.9.17"/>
+  </entry>
+  <entry>
+    <id>https://github.com/solida1987/Diablo-II-Archipelago/releases/tag/v3.9.18</id>
+    <title>Diablo II Archipelago v3.9.18</title>
+    <updated>2026-09-04T21:43:08+00:00</updated>
+    <author>
+      <name>solida1987</name>
+    </author>
+    <author>
+      <name>ꓘicka (AP logic)</name>
+    </author>
+    <author>
+      <name>Zoë (AP logic)</name>
+    </author>
+    <content>**Skills granted by items work again** (BetaHub #30). Enigma's Teleport, a
+staff's Fire Bolt, charges on a wand: the skill sits in the randomizer's pool
+without being unlocked, and the ownership guard kicked it off the hand with
+"That skill is not yours yet". The guard now asks the skill which item grants
+it and leaves a granted skill alone. Only a bare, unowned pool skill is reset.
+
+**Class filter applies to every character** (BetaHub #27). The seed has always
+sent the class filter in its slot data, but the mod only ever read it from
+the local ini and switched it off under Archipelago. The first character
+happened to load before the connection finished and was filtered; the second
+loaded after and got every class in the menu. The filter now comes from the
+seed and applies under Archipelago too. Characters already created keep their
+saved pool.
+
+Plugin stays at 1.2.19.
+</content>
+    <link href="https://github.com/solida1987/Diablo-II-Archipelago/releases/tag/v3.9.18"/>
+  </entry>
+  <entry>
+    <id>https://github.com/DeDeDeK/KARchipelago/releases/tag/v1.2.0-TEST</id>
+    <title>Kirby Air Ride v1.2.0</title>
+    <updated>2026-09-04T21:44:08+00:00</updated>
+    <author>
+      <name>DeDeDK</name>
+    </author>
+    <content>Additions:&#13;
+- Custom machine: Archipelago Star&#13;
+  - add options, goals, items, logic, etc. for archipelago star&#13;
+  - add archipelago sphere legendary assembly items&#13;
+- Archipelago patches + Archipelago box&#13;
+  - add options, locations, logic, etc. for ap patches + ap box&#13;
+- Add yaml-less Universal Tracker support&#13;
+  - Tracker tab now exists in the client if you have UT installed&#13;
+- Add message passing from client to mod&#13;
+  - hints, items, locations, player names, server messages, etc. will now show in-game &#13;
+- Options reworks and tweaks&#13;
+  - a few options are now more fine-grained, e.g. enabled city trial item gives&#13;
+  - checklist reward options simplified&#13;
+- simplified logging messages during connection&#13;
+- scripts refactoring&#13;
+- readme and setup guide updates&#13;
+- bump version to 1.2.0&#13;
+&#13;
+Fixes:&#13;
+- fix for air ride CSS menu hang&#13;
+- fix for crash on boot due to ap tab + checkbox reward item backfill&#13;
+- fix for deathlink loop due to HP death in city trial&#13;
+- fix for red checkboxes showing up in the ap tab on non-reward boxes&#13;
+- fixed deathlink/energylink/traplink toggle bouncing during connection&#13;
+- fix coral break check being per-player instead of global&#13;
+- fix CPU color picking&#13;
+- fix checks counting during the main menu auto-demo CT mode&#13;
+- fix legendary part give items not showing visually&#13;
+- misc logic fixes&#13;
+- many misc code improvements/cleanup&#13;
+&#13;
+## What's Changed&#13;
+* v1.2.0-TEST PR by @DeDeDeK in https://github.com/DeDeDeK/KARchipelago/pull/56&#13;
+&#13;
+&#13;
+**Full Changelog**: https://github.com/DeDeDeK/KARchipelago/compare/v1.1.1-TEST...v1.2.0-TEST</content>
+    <link href="https://github.com/DeDeDeK/KARchipelago/releases/tag/v1.2.0-TEST"/>
+  </entry>
+  <entry>
+    <id>https://github.com/ChakraaThePanda/Archipelago-Northgard/releases/tag/2026.09.04</id>
+    <title>Northgard v2026.9.4</title>
+    <updated>2026-09-05T00:07:37+00:00</updated>
+    <author>
+      <name>Chakraa</name>
+    </author>
+    <content>### Fixed
+- Non-Linear Mode: the `chapter7_requirement` option was enforced only by the client against real in-game battle wins, invisible to Archipelago's own logic. Fill could freely place one of the other Chapters' own unlock items inside a Chapter 07 location, creating an unwinnable seed the client would never let you escape. Chapter 07's region is now also gated in logic on holding enough of the other Chapters' items, matching the client's count (Chapter 01's precollected item counts toward the requirement, same as in-game).
+
+**Full Changelog**: https://github.com/ChakraaThePanda/Archipelago-Northgard/compare/2026.09.02...2026.09.04</content>
+    <link href="https://github.com/ChakraaThePanda/Archipelago-Northgard/releases/tag/2026.09.04"/>
   </entry>
 </feed>
