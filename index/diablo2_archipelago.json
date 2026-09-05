@@ -1911,6 +1911,21 @@
       "version_simple": "3.9.18",
       "world_version": "3.9.18"
     },
+    "v3.9.19": {
+      "created_at": "2026-09-05T07:14:24Z",
+      "description": "**Clear Kurast Sewers L2 asks for 5 kills, not 15.** The level is small and\nsparsely populated; a tester sat on 9 of 15 with the floor empty. Characters\nalready past 5 kills complete it on their next kill in the level.\n\nPlugin stays at 1.2.19.\n",
+      "download_url": "https://github.com/solida1987/Diablo-II-Archipelago/releases/download/v3.9.19/diablo2_archipelago.apworld",
+      "has_manifest": true,
+      "hash_sha256": "3631693286bc5955ce174e03cf5d6565dd0ae15fec6894bf3d4a8b47261ce3b4",
+      "html_url": "https://github.com/solida1987/Diablo-II-Archipelago/releases/tag/v3.9.19",
+      "minimum_ap_version": "0.5.0",
+      "size": 83228,
+      "source_url": "https://api.github.com/repos/solida1987/Diablo-II-Archipelago",
+      "tag": "v3.9.19",
+      "title": "v3.9.19",
+      "version_simple": "3.9.19",
+      "world_version": "3.9.19"
+    },
     "v3.9.2": {
       "created_at": "2026-09-01T18:34:31Z",
       "description": "# 3.9.2\r\n\r\nA lock's kick always lands somewhere legal.\r\n\r\n- The zone lock kicked to the locked region's own town \u2014 which could sit\r\n  in a locked act, whose lock kicked straight back. The two locks\r\n  ping-ponged the player forever. Zone kicks now go to a town you have,\r\n  and the act lock never bounces you into locked ground.\r\n",
@@ -1925,6 +1940,36 @@
       "title": "v3.9.2",
       "version_simple": "3.8.9",
       "world_version": "3.8.9r4"
+    },
+    "v3.9.20": {
+      "created_at": "2026-09-05T08:49:33Z",
+      "description": "**Skill points no longer move between skills on relog.** At exit the mod reads\neach button's level out of the save file to reinvest it after the reset. The\ngame writes those bytes in class-skill-list order, and the mod fills that\nlist compactly, empty buttons skipped, so a button's level sits at \"number of\nfilled buttons before it\", not at the button's own index. The mod read the\nwrong byte for every button after the first gap: one skill picked up another's\nlevel, the real owner read 0 and fell back to the click cache, and the pool\nclamp then zeroed the last row. Nothing was lost \u2014 the total was constant\nacross cycles \u2014 but points wandered on every relog. The read now follows the\nsame compact order the list is written in. Verified against a live log where\nsave bytes 9 to 12 held exactly the levels of buttons 13, 20, 21 and 22.\n\nPoints that ended up unspent are in your pool; spend them again once and\nthey stay put.\n\nPlugin stays at 1.2.19.\n",
+      "download_url": "https://github.com/solida1987/Diablo-II-Archipelago/releases/download/v3.9.20/diablo2_archipelago.apworld",
+      "has_manifest": true,
+      "hash_sha256": "885f2b0ee7b4989371556d71ecab53dd29a715a0ba6c6f83f8224bb2d8775719",
+      "html_url": "https://github.com/solida1987/Diablo-II-Archipelago/releases/tag/v3.9.20",
+      "minimum_ap_version": "0.5.0",
+      "size": 83228,
+      "source_url": "https://api.github.com/repos/solida1987/Diablo-II-Archipelago",
+      "tag": "v3.9.20",
+      "title": "v3.9.20",
+      "version_simple": "3.9.20",
+      "world_version": "3.9.20"
+    },
+    "v3.9.21": {
+      "created_at": "2026-09-05T09:35:22Z",
+      "description": "**Zone locks no longer follow you from one difficulty into another.** The\nmod keeps one lock table and built it once, at character load, from the\ndifficulty stored in the state file. That is the difficulty of the previous\nsession, not of the game being joined. A player who last saved in Hell and\nthen made a Normal game got Hell's locks, nothing received there yet so\neverything shut, laid over Normal, and a final region they had already\ncleared was locked again. Keys received in the new game then poked holes in\na table that belonged to a different difficulty.\n\nCharacter load now reads the difficulty from the live game before building\nthe table and before the load-time reconcile, and every difficulty change\nduring play rebuilds the table from that difficulty's own keys. Quest\ncompletions, area kills, gate-boss kills, waypoints, level milestones and\ngate-key receipts were already tracked per difficulty; the lock table was\nthe only piece that was not, so nothing else moves.\n\nVerified against a live log: character loaded with the stored difficulty 2\n(Hell), locks applied for Hell, first tick reported \"Difficulty change: 2 ->\n0\" with no rebuild. That is the sequence this fixes.\n\nPlugin stays at 1.2.19.\n",
+      "download_url": "https://github.com/solida1987/Diablo-II-Archipelago/releases/download/v3.9.21/diablo2_archipelago.apworld",
+      "has_manifest": true,
+      "hash_sha256": "fe98225db851d2b8a5ba8cf6d7b72db1d2f67ea5f2c73f9755d731872791581a",
+      "html_url": "https://github.com/solida1987/Diablo-II-Archipelago/releases/tag/v3.9.21",
+      "minimum_ap_version": "0.5.0",
+      "size": 83548,
+      "source_url": "https://api.github.com/repos/solida1987/Diablo-II-Archipelago",
+      "tag": "v3.9.21",
+      "title": "Diablo II Archipelago 3.9.21",
+      "version_simple": "3.9.21",
+      "world_version": "3.9.21"
     },
     "v3.9.3": {
       "created_at": "2026-09-01T18:41:10Z",
