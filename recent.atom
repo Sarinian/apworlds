@@ -2,46 +2,11 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://raw.githubusercontent.com/silasary/apworlds/refs/heads/main/recent.atom</id>
   <title>Recent APWorlds</title>
-  <updated>2026-09-05T09:45:23.413396+00:00</updated>
+  <updated>2026-09-05T14:17:48.060987+00:00</updated>
   <author>
     <name>Silasary</name>
   </author>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
-  <entry>
-    <id>https://github.com/MacH8s/Narcopelago/releases/tag/v3.6.4</id>
-    <title>Schedule I v3.6.4</title>
-    <updated>2026-09-02T03:59:53+00:00</updated>
-    <author>
-      <name>MacH8s</name>
-    </author>
-    <content>### Refactored rule setting to check for people unlock vs other unlock.&#13;
-### Combined customers dealers and suppliers when setting rules. Issue was that the condition was OR'd with level unlocks, causing level unlocks alone to be able to unlock sampling, when it needed to be AND'd with a relation unlock.&#13;
-&#13;
-### Fixed cash for trash checks always being in the same region, mixing mania.&#13;
-&#13;
-### Refactor recipe unlock logic to use consistent naming for Mixing Station Mk2 and improve option condition checks&#13;
-&#13;
-### Fixed cash for trash checks always being in the sam eregion, mixing mania.&#13;
-&#13;
-### Refactor recipe unlock logic to use consistent naming for Mixing Station Mk2 and improve option condition checks</content>
-    <link href="https://github.com/MacH8s/Narcopelago/releases/tag/v3.6.4"/>
-  </entry>
-  <entry>
-    <id>https://github.com/solida1987/Diablo-II-Archipelago/releases/tag/v3.9.10</id>
-    <title>Diablo II Archipelago v3.9.10</title>
-    <updated>2026-09-02T06:26:21+00:00</updated>
-    <author>
-      <name>solida1987</name>
-    </author>
-    <author>
-      <name>ꓘicka (AP logic)</name>
-    </author>
-    <author>
-      <name>Zoë (AP logic)</name>
-    </author>
-    <content>Fixed the Join panel's Play button</content>
-    <link href="https://github.com/solida1987/Diablo-II-Archipelago/releases/tag/v3.9.10"/>
-  </entry>
   <entry>
     <id>https://github.com/awakenbad/SanAndreasAP/releases/tag/v0.8.1</id>
     <title>Grand Theft Auto: San Andreas v0.8.1</title>
@@ -372,7 +337,7 @@ Known bugs:&#13;
   </entry>
   <entry>
     <id>https://github.com/Nebulea-dev/Archipelago-BlueFire/releases/tag/0.6.0</id>
-    <title>Blue Fire v0.1.0r3</title>
+    <title>Blue Fire v0.1.0r2</title>
     <updated>2026-09-03T12:18:20+00:00</updated>
     <author>
       <name>Nebulea</name>
@@ -736,7 +701,7 @@ If you had this issue on 0.8.1, you can change only the `.asi` and the mod will 
   </entry>
   <entry>
     <id>https://github.com/CATEM1NAL/PD2-Criminal-Dawn/releases/tag/v1.0.10</id>
-    <title>PAYDAY 2: Criminal Dawn v1.0.4r2</title>
+    <title>PAYDAY 2: Criminal Dawn v1.0.4r3</title>
     <updated>2026-09-04T18:27:53+00:00</updated>
     <author>
       <name>C@:\EM1NAL\</name>
@@ -1206,5 +1171,37 @@ Verified against a live log: character loaded with the stored difficulty 2
 Plugin stays at 1.2.19.
 </content>
     <link href="https://github.com/solida1987/Diablo-II-Archipelago/releases/tag/v3.9.21"/>
+  </entry>
+  <entry>
+    <id>https://github.com/Demorck/ClairObscur_APWorld/releases/tag/v0.4.3</id>
+    <title>Clair Obscur Expedition 33 v0.4.3</title>
+    <updated>2026-09-05T10:51:35+00:00</updated>
+    <author>
+      <name>Démorck</name>
+    </author>
+    <author>
+      <name>Yezzdia</name>
+    </author>
+    <author>
+      <name>Noeva</name>
+    </author>
+    <content/>
+    <link href="https://github.com/Demorck/ClairObscur_APWorld/releases/tag/v0.4.3"/>
+  </entry>
+  <entry>
+    <id>https://github.com/anonymous-heap/Archipelago/releases/tag/cvaos-apworld-2026.09.04</id>
+    <title>Castlevania - Aria of Sorrow v2026.9.4</title>
+    <updated>2026-09-05T12:31:16+00:00</updated>
+    <author>
+      <name>dem1995</name>
+    </author>
+    <content>Adds Advance Collection support&#13;
+&#13;
+Adds reception textboxes/sfx&#13;
+&#13;
+Provisional release to make sure there are no larger issues&#13;
+&#13;
+</content>
+    <link href="https://github.com/anonymous-heap/Archipelago/releases/tag/cvaos-apworld-2026.09.04"/>
   </entry>
 </feed>
