@@ -10,5 +10,4 @@ Hollow Knight: Silksong item randomizer support for the uploaded BepInEx client.
 ## Game Information
 
 ## Setup Guide
-- <a href="setup_en">English</a>
 
