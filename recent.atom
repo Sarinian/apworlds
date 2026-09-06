@@ -2,56 +2,11 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://raw.githubusercontent.com/silasary/apworlds/refs/heads/main/recent.atom</id>
   <title>Recent APWorlds</title>
-  <updated>2026-09-06T09:56:25.397754+00:00</updated>
+  <updated>2026-09-06T14:39:02.869324+00:00</updated>
   <author>
     <name>Silasary</name>
   </author>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
-  <entry>
-    <id>https://github.com/MaragonMH/Archipelago/releases/tag/XenoX0.2.7</id>
-    <title>Xenoblade X v0.2.7</title>
-    <updated>2026-09-03T17:44:42+00:00</updated>
-    <author>
-      <name>Maragon</name>
-    </author>
-    <author>
-      <name>Nina</name>
-    </author>
-    <content>- Fix ap graphic pack @jackisk98&#13;
-- Add lvl logic support for skells&#13;
-- Add universal tracker support&#13;
-- Improve logic for `The Skell License`</content>
-    <link href="https://github.com/MaragonMH/Archipelago/releases/tag/XenoX0.2.7"/>
-  </entry>
-  <entry>
-    <id>https://github.com/spinerak/refunct-tas-archipelago/releases/tag/v1.6.0</id>
-    <title>Refunct v1.6.0</title>
-    <updated>2026-09-03T20:29:59+00:00</updated>
-    <author>
-      <name>Spineraks</name>
-    </author>
-    <content># New apworld and mod (and yaml)!&#13;
-- Added Defunct minigame, drown all platforms and win, but at what cost D:&#13;
-- Added option to warp back to start in block brawl, climb minigames and Defunct. (hold R)&#13;
-- Fixed that the mod would make the game less "red" than it is supposed to be.&#13;
-- Added the map editor and practice menu to the main menu (m). But CTRL+SHIFT+M and CTRL+SHIFT+P also still work.&#13;
-- Removed frogger and beat block test levels, maybe they'll return.</content>
-    <link href="https://github.com/spinerak/refunct-tas-archipelago/releases/tag/v1.6.0"/>
-  </entry>
-  <entry>
-    <id>https://github.com/FuzzyGamesOn/RE2R_AP_World/releases/tag/0.3.5</id>
-    <title>Resident Evil 2 Remake v0.3.5</title>
-    <updated>2026-09-03T22:22:54+00:00</updated>
-    <author>
-      <name>FuzzyGamesOn</name>
-    </author>
-    <content>**List of updates in this release:**&#13;
-- "Enemy Kills" options renamed to "Killsanity"&#13;
-- Lots of killsanity logic revisions, courtesy of @RopeyRed &#13;
-- YAML options are now grouped into intuitive option groups, courtesy of @AmondoVagyok &#13;
-- Logic revisions with Supplies Storage Room in Sewers, courtesy of @AmondoVagyok </content>
-    <link href="https://github.com/FuzzyGamesOn/RE2R_AP_World/releases/tag/0.3.5"/>
-  </entry>
   <entry>
     <id>https://github.com/WritingHusky/haste_apworld/releases/tag/v0.5.1</id>
     <title>Haste v0.5.1</title>
@@ -329,7 +284,7 @@ If you had this issue on 0.8.1, you can change only the `.asi` and the mod will 
   </entry>
   <entry>
     <id>https://github.com/CATEM1NAL/PD2-Criminal-Dawn/releases/tag/v1.0.10</id>
-    <title>PAYDAY 2: Criminal Dawn v1.0.4r2</title>
+    <title>PAYDAY 2: Criminal Dawn v1.0.4r3</title>
     <updated>2026-09-04T18:27:53+00:00</updated>
     <author>
       <name>C@:\EM1NAL\</name>
@@ -1090,7 +1045,7 @@ This revision allows P. Sugar to be used for parry logic in the tutorial level.&
   </entry>
   <entry>
     <id>https://github.com/VincentBorchardt/Civ4-Archipelago-Mod/releases/tag/Alpha_0_2_1</id>
-    <title>Civilization IV v0.0.1r2</title>
+    <title>Civilization IV v0.0.1r3</title>
     <updated>2026-09-06T02:11:31+00:00</updated>
     <author>
       <name>VincentSIFTD</name>
@@ -1157,5 +1112,82 @@ Also fixes the soft lock in the Tracking Station bug for non-Kopernicus games. K
 fixed a bug where receiving multiple heart containers in succession (such as in an async) wouldn't refill health correctly&#13;
 modified the victory jingle</content>
     <link href="https://github.com/NyanMC/ap-islesoftrials/releases/tag/0.2.0c"/>
+  </entry>
+  <entry>
+    <id>https://github.com/JammyGeeza/CursedWords-Archipelago/releases/tag/v0.5.4</id>
+    <title>Cursed Words v0.5.2r2</title>
+    <updated>2026-09-06T10:17:04+00:00</updated>
+    <author>
+      <name>JammyGeeza</name>
+    </author>
+    <content>## Information&#13;
+This archipelago implementation is in **early development** and is in public pre-release for testing, so may not be complete and/or may contain bugs that heavily disrupt the experience. It is not advised to include this in large multiworlds at this time, so only do so at your own risk and inform your host beforehand.&#13;
+&#13;
+## Setup Guide&#13;
+Please visit the [Setup Guide](https://github.com/JammyGeeza/CursedWords-Archipelago#setup-guide) for instructions on how to install the mod client.&#13;
+&#13;
+## Issue / Bug Reporting&#13;
+If you experience issues that are not already on the [known issues list](https://github.com/JammyGeeza/CursedWords-Archipelago/issues/views/12865), please raise a new issue or post in the [Cursed Words Forum in the Archipelago Discord Server](https://discord.com/channels/731205301247803413/1499176806962692196)&#13;
+&#13;
+## Patch Notes&#13;
+This patch provides the following fixes:&#13;
+### APWorld&#13;
+- _None_&#13;
+### Client&#13;
+- Fixes an issue causing the goal condition not to trigger on successful completion.&#13;
+- Fixes an issue causing the `Supervillain` item to only scatter `?` and Currency items.</content>
+    <link href="https://github.com/JammyGeeza/CursedWords-Archipelago/releases/tag/v0.5.4"/>
+  </entry>
+  <entry>
+    <id>https://github.com/IHaveNoFunnyName/Archipelago/releases/tag/0.4.7</id>
+    <title>Idle Loops v0.4.7</title>
+    <updated>2026-09-06T10:23:30+00:00</updated>
+    <author>
+      <name>IHaveNoFunnyName</name>
+    </author>
+    <content>## Idle Loops AP 0.4.7 ##&#13;
+&#13;
+* Fixed logic for locations that require Guild membership</content>
+    <link href="https://github.com/IHaveNoFunnyName/Archipelago/releases/tag/0.4.7"/>
+  </entry>
+  <entry>
+    <id>https://github.com/Radis7Noir/pokemon_bw_extra_logic_plugin/releases/tag/v11</id>
+    <title>Pokemon BW Extra Logic Plugin v1.11.0</title>
+    <updated>2026-09-06T12:30:20+00:00</updated>
+    <author>
+      <name>RadisNoir</name>
+    </author>
+    <content>**Fix**&#13;
+* Fixed a missing rule for the `Item from Amanita` location when Striaton Gym is dark&#13;
+&#13;
+**YAML Options List**&#13;
+* The following options need to be added to the Black and White YAML under `plugin_options`:&#13;
+```&#13;
+  plugin_options:&#13;
+    extra_logic:  # same as v8&#13;
+      randomize_starting_town: true&#13;
+      starting_town_blacklist: []  # list in README&#13;
+      add_ss_ticket: true&#13;
+      add_pass: true&#13;
+      hm_with_badges: true&#13;
+      add_rock_smash: true&#13;
+      add_rock_smash_musharna: true  # requires add_rock_smash&#13;
+      extra_cut_trees: true&#13;
+      extra_cut_trees_kyurem: true   # requires extra_cut_trees&#13;
+      move_strength_boulders: true&#13;
+      move_strength_boulders_vi_road: true   # requires move_strength_boulders&#13;
+      dark_areas: ["Wellspring Cave B1F", "Mistralton Cave", "Challengers Cave"]  # supports "_All" and "_Random", see README&#13;
+```&#13;
+&#13;
+**Important Notes**&#13;
+* The plugin needs to be installed by the host before generation. The player also needs the plugin to patch their ROM.&#13;
+* It is not possible to add the extra logic options mid-playthrough.&#13;
+&#13;
+**Backwards Compatibility**&#13;
+* This version is compatible with v0.3.37+ of the main BW APworld&#13;
+* This version is compatible with v23 of the QoL Plugin&#13;
+&#13;
+**Full Changelog**: https://github.com/Radis7Noir/pokemon_bw_extra_logic_plugin/compare/v10...v11</content>
+    <link href="https://github.com/Radis7Noir/pokemon_bw_extra_logic_plugin/releases/tag/v11"/>
   </entry>
 </feed>
