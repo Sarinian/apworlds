@@ -2,184 +2,11 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://raw.githubusercontent.com/silasary/apworlds/refs/heads/main/recent.atom</id>
   <title>Recent APWorlds</title>
-  <updated>2026-09-05T19:47:46.607473+00:00</updated>
+  <updated>2026-09-06T01:43:51.245743+00:00</updated>
   <author>
     <name>Silasary</name>
   </author>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
-  <entry>
-    <id>https://github.com/cxve/q-ap-world/releases/tag/v3.0.0</id>
-    <title>Q-UP v3.0.0</title>
-    <updated>2026-09-02T16:30:57+00:00</updated>
-    <author>
-      <name>cxve</name>
-    </author>
-    <content>**Info** [Game Page](&lt;https://github.com/cxve/q-ap-world/blob/main-q-up/worlds/q_up/docs/en_Q-UP.md&gt;) - [Setup Guide](&lt;https://github.com/cxve/q-ap-world/blob/main-q-up/worlds/q_up/docs/setup_en.md&gt;)&#13;
-**Downloads** [World](&lt;https://github.com/cxve/q-ap-world/releases/&gt;) - [Mod](&lt;https://github.com/cxve/q-ap-mod/releases/&gt;) - [PopTracker](&lt;https://github.com/cxve/q-ap-poptracker/releases/&gt;)&#13;
-## Highlights&#13;
-- New: Recycling Set Sanity&#13;
-	- Receive checks for submitting the requested recycling set&#13;
-- New: Trigger Combo Sanity&#13;
-	- Get checks for your highest trigger count in one flip&#13;
-- New options to enforce stricter balancing rules&#13;
-- Positions for fixed skills are now reserved&#13;
-## Features &amp; Changes&#13;
-- New Random Gear filler item&#13;
-- New option to remove content after goal&#13;
-- New option to put additional qblock breaker into the item pool&#13;
-- New option to automatically fix yamls with too many progression items&#13;
-- Received item notifications are now sent via mail&#13;
-- Optimized access_rules for drastically faster generation&#13;
-- The console can now be opened with F10&#13;
-## Balancing Changes&#13;
-- Replaced skill distribution mode option with skill distribution gates option&#13;
-	- This option changes how often the randomizer will enforce skill distribution rules&#13;
-- Shop upgrade logic was completely reworked&#13;
-	- Logic is now based on shop prices instead of shop depth&#13;
-	- Corruption shards logic now works the same as crystal logic&#13;
-- Skill logic now takes trigger conditions into account&#13;
-- More checks were added to sphere 1&#13;
-- Challenges are now guarantueed to appear in earlier spheres&#13;
-- QBlock Breaker logic is now stricter&#13;
-- Shop Slots were promoted from filler to useful, as they increase chance for better shop items&#13;
-- Upgrade points were demoted from progression to useful&#13;
-- Gold filler was buffed significantly&#13;
-- Crystal drops were slightly nerfed&#13;
-## Fixes &amp; Other Changes&#13;
-- 05_GOTO_03 now requires 03_GOTO_01 in the item pool&#13;
-- The amount of fixed skills in the item pool should now match the option&#13;
-- Save files now get properly deselected in the main menu&#13;
-- Added fail-safe for when duplicate items are received from MultiClient&#13;
-- Reload skill screen when receiving skills&#13;
-- Reload shop screen when receiving crystals&#13;
-- Challange sanity rewards are now properly displayed in-game&#13;
-- Locations are now properly synced when connecting to the server&#13;
-- Fixed a hypernode duplication bug&#13;
-&#13;
-**Full Changelog**: https://github.com/cxve/q-ap-world/compare/v2.0.2...v3.0.0</content>
-    <link href="https://github.com/cxve/q-ap-world/releases/tag/v3.0.0"/>
-  </entry>
-  <entry>
-    <id>https://github.com/JammyGeeza/CursedWords-Archipelago/releases/tag/v0.5.3</id>
-    <title>Cursed Words v0.5.2r2</title>
-    <updated>2026-09-02T18:14:28+00:00</updated>
-    <author>
-      <name>JammyGeeza</name>
-    </author>
-    <content>## Information&#13;
-This archipelago implementation is in **early development** and is in public pre-release for testing, so may not be complete and/or may contain bugs that heavily disrupt the experience. It is not advised to include this in large multiworlds at this time, so only do so at your own risk and inform your host beforehand.&#13;
-&#13;
-## Setup Guide&#13;
-Please visit the [Setup Guide](https://github.com/JammyGeeza/CursedWords-Archipelago#setup-guide) for instructions on how to install the mod client.&#13;
-&#13;
-## Issue / Bug Reporting&#13;
-If you experience issues that are not already on the [known issues list](https://github.com/JammyGeeza/CursedWords-Archipelago/issues/views/12865), please raise a new issue or post in the [Cursed Words Forum in the Archipelago Discord Server](https://discord.com/channels/731205301247803413/1499176806962692196)&#13;
-&#13;
-## Patch Notes&#13;
-This patch provides the following fixes:&#13;
-### APWorld&#13;
-- _None_&#13;
-### Client&#13;
-- Items of higher rarities are now correctly gated by the `Progressive Item Rarity` items (again)&#13;
-- Fixed `Word Score: 25+` and `Word Score: 125+` locations not being checked.</content>
-    <link href="https://github.com/JammyGeeza/CursedWords-Archipelago/releases/tag/v0.5.3"/>
-  </entry>
-  <entry>
-    <id>https://github.com/dmwever/Ageipelago/releases/tag/0.2.2</id>
-    <title>Age Of Empires II: Definitive Edition v0.0.1r2</title>
-    <updated>2026-09-02T18:15:47+00:00</updated>
-    <author>
-      <name>dmwever</name>
-    </author>
-    <content>## What's Changed&#13;
-&#13;
-### AP World&#13;
-Should still be fully compatible with releases going back to 0.2.0.&#13;
-&#13;
-#### Generation&#13;
-- Castle now counts as either a military building or a defense building.&#13;
-- Typo on Attila 3 Green Dock locations.&#13;
-&#13;
-#### Logic&#13;
-- Attila 3 Build a Castle now requires Castle item.&#13;
-- Joan 5 Rendezvous and Escort Joan locations now expect that the scenario can be beaten.&#13;
-&#13;
-#### Client&#13;
-- Removed unused/dev commands.&#13;
-- Fixed set_user_folder again, allowing the folder to be set before connecting to the game.&#13;
-- Connecting and disconnecting should no longer give players access to items they unlocked from a different world.&#13;
-- Game Context now keeps track of the current scenario's collected locations.&#13;
-- Most game data is now loaded before establishing a connection with the game.&#13;
-- Campaign files now properly cleaned up upon disconnect.&#13;
-&#13;
-### Game&#13;
-&#13;
-#### General&#13;
-- The game will now send a received location until the server confirms that it is checked.&#13;
-- The game now keeps track of which locations have been collected according to the server.&#13;
-- The game now loads relevant locations before establishing a connection.&#13;
-- Completing a check before being connected now sends the location to the server.&#13;
-- Completing a check that gives an item before being connected now receives the item upon connection.&#13;
-&#13;
-#### Attila the Hun&#13;
-- Added Scenario Locations to the sidebar with detailed instructions in the Objectives menu.&#13;
-- **Attila 1:** Kill the Iron Boar, Betray Bleda, and Blow Bleda Off can now all be completed in a single playthrough, if done in the right order.&#13;
-- **Attila 1:** Kill the Scythian Scout and Free the Scythian Scout may both be completed in a single playthrough, if set up properly.&#13;
-- Fixed Attila 3, 4 and 6 declaring victory before the player researches the "Declare Victory" tech in the APavilion.</content>
-    <link href="https://github.com/dmwever/Ageipelago/releases/tag/0.2.2"/>
-  </entry>
-  <entry>
-    <id>https://github.com/AllPoland/unbeatAP/releases/tag/v0.8.0-alpha</id>
-    <title>UNBEATABLE Arcade v0.8.0a0</title>
-    <updated>2026-09-02T18:54:47+00:00</updated>
-    <author>
-      <name>AllPoland</name>
-    </author>
-    <author>
-      <name>estradiol-valerate</name>
-    </author>
-    <content>This update catches up with patch 2.3, which adds 4 new songs:&#13;
-- cryogenic&#13;
-- moon child (unbeatable's loveadelic rpg adventure remix)&#13;
-- moon child (amiga mix)&#13;
-- moon child (windows mix)&#13;
-&#13;
-The **client** is **compatible** with v0.7.2, v0.7.1, v0.7.0, v0.6.0, v0.5.0 and v0.4.0 apworlds! You can update the mod even if you're currently in an async!&#13;
-The **apworld** is **not compatible** with v0.7.x clients!&#13;
-&#13;
-**Please read the YAML options carefully and test your options before joining a lobby**, since the pacing and difficulty of the apworld is very volatile. It's currently very easy to make a randomizer that is way too short or way too long.&#13;
-&#13;
-Any feedback or ideas are welcome in the "UNBEATABLE (PC)" thread in `#future-game-design` in the [Archipelago Discord](https://discord.gg/8Z65BR2)!</content>
-    <link href="https://github.com/AllPoland/unbeatAP/releases/tag/v0.8.0-alpha"/>
-  </entry>
-  <entry>
-    <id>https://github.com/Cousinit117/Deep-Rock-Galactic-AP/releases/tag/0.20</id>
-    <title>Deep Rock Galactic v0.19.1</title>
-    <updated>2026-09-02T20:48:34+00:00</updated>
-    <author>
-      <name>SipcoGamingGuild</name>
-    </author>
-    <author>
-      <name>Taz</name>
-    </author>
-    <content>**Settings File Rework (Should be compatible with older ap generations, but unsure)**&#13;
-&#13;
-**0.20a**&#13;
-- Fix for Gauntlet Mission 1&#13;
-- Added Blacklist options for biomes, objectives, secondaries, and warnings to YAML&#13;
-- Fixed some in mod UI bugs&#13;
-- Added more debugging tools in mod&#13;
-&#13;
-I plan to add more options in this release before its final. This'll be the yaml settings release basically.&#13;
-&#13;
-**INFO FILES (Sideloader must be used with the .pak file for PreRelease Builds)**&#13;
- [INSTRUCTIONS](https://docs.google.com/document/d/16At-2kS_azJRf9PdUcZeA8Esfoh6kNm2dWVWy8u8wA0/edit?usp=sharing)&#13;
- [MOD on MOD.IO](https://mod.io/g/drg/m/test-archipelago-integration#description)&#13;
- [SIDELOADER for DRG Mods](https://github.com/trumank/mint)&#13;
- [ALTERNATE SIDELOADER](https://github.com/iris-cat-dev/mintcat)&#13;
- Mod file now included in releases for mint users.</content>
-    <link href="https://github.com/Cousinit117/Deep-Rock-Galactic-AP/releases/tag/0.20"/>
-  </entry>
   <entry>
     <id>https://github.com/drtchops/Archipelago-Astalon/releases/tag/v1.0.0-rc5</id>
     <title>Astalon v0.99.5</title>
@@ -246,7 +73,7 @@ Known bugs:&#13;
   </entry>
   <entry>
     <id>https://github.com/Nebulea-dev/Archipelago-BlueFire/releases/tag/0.6.0</id>
-    <title>Blue Fire v0.1.0r3</title>
+    <title>Blue Fire v0.1.0r2</title>
     <updated>2026-09-03T12:18:20+00:00</updated>
     <author>
       <name>Nebulea</name>
@@ -610,7 +437,7 @@ If you had this issue on 0.8.1, you can change only the `.asi` and the mod will 
   </entry>
   <entry>
     <id>https://github.com/CATEM1NAL/PD2-Criminal-Dawn/releases/tag/v1.0.10</id>
-    <title>PAYDAY 2: Criminal Dawn v1.0.4r2</title>
+    <title>PAYDAY 2: Criminal Dawn v1.0.4r3</title>
     <updated>2026-09-04T18:27:53+00:00</updated>
     <author>
       <name>C@:\EM1NAL\</name>
@@ -879,6 +706,43 @@ Fixes:&#13;
 
 **Full Changelog**: https://github.com/ChakraaThePanda/Archipelago-Northgard/compare/2026.09.02...2026.09.04</content>
     <link href="https://github.com/ChakraaThePanda/Archipelago-Northgard/releases/tag/2026.09.04"/>
+  </entry>
+  <entry>
+    <id>https://github.com/Movido51/Archipelago/releases/tag/zuma-deluxe-v0.1.7-b</id>
+    <title>Zuma Deluxe v0.1.7b0</title>
+    <updated>2026-09-05T02:04:51+00:00</updated>
+    <author>
+      <name>Movido51</name>
+    </author>
+    <content>Small Release for the Archipelago of Zuma Deluxe&#13;
+&#13;
+A playable version of the randomizer for Zuma Deluxe, still changes to come.&#13;
+&#13;
+Only a client fix from the version 0.1.6.&#13;
+&#13;
+# Quick Fixes&#13;
+- Added some small fixes from 0.2 to 0.1.6 to make that build better while 0.2 becomes playable..&#13;
+- traps and filler fixes.&#13;
+- unlock all adventure.&#13;
+&#13;
+# Compatible Version&#13;
+This release is a hot fix of version [0.1.0](https://github.com/Movido51/Archipelago/releases/tag/zuma-deluxe-v0.1.6-b) its compatible with the games made in that version, and only affects the client.&#13;
+&#13;
+# Remainders&#13;
+You need to have the Zuma Deluxe Client and the Zuma Deluxe game open at the same time to play&#13;
+&#13;
+If you connect while you have a level open in Zuma go back to the menu.&#13;
+&#13;
+If the game is not found it probably is not being played on English&#13;
+&#13;
+To keep track of locations use universal tracker&#13;
+&#13;
+When entering a map, always use the new game, it might not recognize the mode otherwise&#13;
+&#13;
+Any question, Bug or idea, feel free to ask on the discord channel for the game.&#13;
+&#13;
+</content>
+    <link href="https://github.com/Movido51/Archipelago/releases/tag/zuma-deluxe-v0.1.7-b"/>
   </entry>
   <entry>
     <id>https://github.com/IcyPenguin28/DotDAP/releases/tag/0.2.0</id>
@@ -1248,5 +1112,63 @@ On startup there may be a slight hitch, i grab some biome specific hazards for t
 ## Notes:&#13;
 If you were stuck on `High Stakes, Low Ryder`, `Burning Desire` or other mission that requires a phone call, you can just change the `.asi` to continue the run.</content>
     <link href="https://github.com/awakenbad/SanAndreasAP/releases/tag/v0.8.3"/>
+  </entry>
+  <entry>
+    <id>https://github.com/lordlou/Archipelago/releases/tag/v0.119.4</id>
+    <title>Super Metroid Map Rando v0.119.4</title>
+    <updated>2026-09-05T21:23:06+00:00</updated>
+    <author>
+      <name>lordlou</name>
+    </author>
+    <content>## What's Changed&#13;
+- Fixed progression item that could be placed in unreachable (and inexistent) locations&#13;
+- Updated missing requirements.txt to v0.119.3 (for pysmmaprando lib)</content>
+    <link href="https://github.com/lordlou/Archipelago/releases/tag/v0.119.4"/>
+  </entry>
+  <entry>
+    <id>https://github.com/JKLeckr/Archipelago-cuphead/releases/tag/alpha03k</id>
+    <title>Cuphead v0.2.20021010</title>
+    <updated>2026-09-05T21:29:51+00:00</updated>
+    <author>
+      <name>JKLeckr</name>
+    </author>
+    <content>**To see notes and what's new for alpha03, see [alpha03a](https://github.com/JKLeckr/Archipelago-cuphead/releases/tag/alpha03a)**&#13;
+&#13;
+### Revision&#13;
+&#13;
+This revision allows P. Sugar to be used for parry logic in the tutorial level.&#13;
+</content>
+    <link href="https://github.com/JKLeckr/Archipelago-cuphead/releases/tag/alpha03k"/>
+  </entry>
+  <entry>
+    <id>https://github.com/drtchops/Archipelago-Astalon/releases/tag/v1.0.0-rc6</id>
+    <title>Astalon v0.99.6</title>
+    <updated>2026-09-05T22:57:31+00:00</updated>
+    <author>
+      <name>DrTChops</name>
+    </author>
+    <content>**This is a testing pre-release. See the latest release for the stable version.**&#13;
+&#13;
+- Fix up issues with displaying items&#13;
+- Oops, another trap&#13;
+&#13;
+**More Information**: https://github.com/drtchops/Archipelago/blob/astalon/worlds/astalon/docs/en_Astalon.md&#13;
+**Setup Guide**: https://github.com/drtchops/Archipelago/blob/astalon/worlds/astalon/docs/setup_en.md&#13;
+**Full Changelog**: https://github.com/drtchops/Archipelago-Astalon/compare/v1.0.0-rc5...v1.0.0-rc6</content>
+    <link href="https://github.com/drtchops/Archipelago-Astalon/releases/tag/v1.0.0-rc6"/>
+  </entry>
+  <entry>
+    <id>https://github.com/TheNooodle/MinishootRandomizer/releases/tag/v0.6.1</id>
+    <title>Minishoot Adventures v0.6.0r2</title>
+    <updated>2026-09-06T00:02:21+00:00</updated>
+    <author>
+      <name>TheNouillet</name>
+    </author>
+    <content>## [0.6.1] - 2026-09-06&#13;
+&#13;
+### Changed&#13;
+&#13;
+- Fixed not being able to unlock Sunken Temple entrance with Split Supershot enabled and not having Flameshot.</content>
+    <link href="https://github.com/TheNooodle/MinishootRandomizer/releases/tag/v0.6.1"/>
   </entry>
 </feed>
