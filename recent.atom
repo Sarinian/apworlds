@@ -2,123 +2,11 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://raw.githubusercontent.com/silasary/apworlds/refs/heads/main/recent.atom</id>
   <title>Recent APWorlds</title>
-  <updated>2026-09-07T11:08:34.707816+00:00</updated>
+  <updated>2026-09-07T16:59:58.659068+00:00</updated>
   <author>
     <name>Silasary</name>
   </author>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
-  <entry>
-    <id>https://github.com/CATEM1NAL/PD2-Criminal-Dawn/releases/tag/v1.0.10</id>
-    <title>PAYDAY 2: Criminal Dawn v1.0.4r2</title>
-    <updated>2026-09-04T18:27:53+00:00</updated>
-    <author>
-      <name>C@:\EM1NAL\</name>
-    </author>
-    <author>
-      <name>jordansds</name>
-    </author>
-    <content>A continuous problem has been that the timing on White House is somewhat unfair and very tight, however in all my testing I tend to get Crude Awakening as the final heist instead so I was never really able to experience how rough it could be for myself. After replaying White House a couple times now (not in Criminal Dawn, just generally) I've realised that, yeah. White House *is* a lot longer than I previously thought it was - a well executed loud playthrough can take 20 minutes minimum.&#13;
-&#13;
-Because I kept getting Crude Awakening in testing, a lot of the timer balance was tailored around *that* heist instead - the issue with this is Crude Awakening can be easily completed in about *ten* minutes, half the time of White House. This creates a huge time gap, and makes White House incredibly unfair to get as the final heist, which is why a lot of people have (rightfully!!) complained about it.&#13;
-&#13;
-All this is to say White House now benefits from Objectivity when it's chosen as the final heist, *but* you only receive 50% of the bonus instead of the entire bonus. If you have 60% objective speed, you will get 30% on White House. 90% objective speed, you get 45% on White House - etc.&#13;
-&#13;
-_No APWorld changes since v1.0.4._</content>
-    <link href="https://github.com/CATEM1NAL/PD2-Criminal-Dawn/releases/tag/v1.0.10"/>
-  </entry>
-  <entry>
-    <id>https://github.com/solida1987/Diablo-II-Archipelago/releases/tag/v3.9.13</id>
-    <title>Diablo II Archipelago v3.9.13</title>
-    <updated>2026-09-04T18:46:14+00:00</updated>
-    <author>
-      <name>solida1987</name>
-    </author>
-    <author>
-      <name>ꓘicka (AP logic)</name>
-    </author>
-    <author>
-      <name>Zoë (AP logic)</name>
-    </author>
-    <content>Fixes from Testing Round 1.
-
-**XP multiplier came back at 0x after every relaunch** (BetaHub #22). The
-multiplier is read from the seed when a character is created, and the state
-file's copy is deliberately not trusted under Archipelago, so an existing
-character loaded with standard XP no matter what the YAML said. The
-player-side settings (XP multiplier, skill cap, skill level requirements) now
-follow the seed on every character load.
-
-**Hellfire Torch arrived as a Magic Large Charm** (BetaHub #26). Hellfire
-Torch and Annihilus have item level 110 in the game's own table, and the
-delivery never tried above 99, so the unique roll could not pass and the
-engine handed back a magic charm. Uniques are now created at their own level.
-
-**Shrines, urns, barrels and chests now fire their check every time.** The
-escalating chance (10% to 100%) is a YAML option, "Bonus Checks Random
-Chance", off by default. Seeds generated before this release stop rolling and
-become guaranteed; the number of locations is unchanged either way.
-
-**The unstuck message names the skill.** "Fists of Fire cannot be used with
-this weapon" instead of "that skill" (BetaHub #21 and #23). The three
-elemental Martial Arts charge-ups are claw-only in the base game; the engine
-freezes the character rather than refusing, and the watchdog frees them.
-
-Plugin 1.2.16 carries the new YAML option in Create YAML.
-</content>
-    <link href="https://github.com/solida1987/Diablo-II-Archipelago/releases/tag/v3.9.13"/>
-  </entry>
-  <entry>
-    <id>https://github.com/solida1987/Diablo-II-Archipelago/releases/tag/v3.9.14</id>
-    <title>Diablo II Archipelago v3.9.14</title>
-    <updated>2026-09-04T19:28:52+00:00</updated>
-    <author>
-      <name>solida1987</name>
-    </author>
-    <author>
-      <name>ꓘicka (AP logic)</name>
-    </author>
-    <author>
-      <name>Zoë (AP logic)</name>
-    </author>
-    <content>**Collection toggles are off by default.** All 76 of them: the 32 sets, the
-33 runes, gems, and the 10 specials. Turn on the items you want to collect
-instead of turning off the ones you do not. Reported in Testing Round 1:
-building a small collection meant unticking seventy boxes by hand.
-
-Existing YAML files are unaffected: a key that is written stays as written.
-Only keys left out of the file fall back to the new default. Seeds already
-generated carry their own collection in slot data and do not change.
-
-Plugin 1.2.17 carries the new defaults in Create YAML.
-</content>
-    <link href="https://github.com/solida1987/Diablo-II-Archipelago/releases/tag/v3.9.14"/>
-  </entry>
-  <entry>
-    <id>https://github.com/solida1987/Diablo-II-Archipelago/releases/tag/v3.9.15</id>
-    <title>Diablo II Archipelago v3.9.15</title>
-    <updated>2026-09-04T19:47:18+00:00</updated>
-    <author>
-      <name>solida1987</name>
-    </author>
-    <author>
-      <name>ꓘicka (AP logic)</name>
-    </author>
-    <author>
-      <name>Zoë (AP logic)</name>
-    </author>
-    <content>**Gold limits raised 30x.** The game caps carried gold at level x 10,000 and
-the stash at 2,500,000 (level 99). Both are now multiplied by a new YAML
-option, "Gold Cap Multiplier", default 30: a level-10 character carries 3M,
-and the stash holds 33M from the start. Both limits stop at 33,000,000
-because the save file stores gold in 25 bits.
-
-Seeds generated before this release use the default of 30 as well; the
-multiplier lives in the mod, and the YAML value only overrides it.
-
-Plugin 1.2.18 carries the option in Create YAML.
-</content>
-    <link href="https://github.com/solida1987/Diablo-II-Archipelago/releases/tag/v3.9.15"/>
-  </entry>
   <entry>
     <id>https://github.com/solida1987/Diablo-II-Archipelago/releases/tag/v3.9.16</id>
     <title>Diablo II Archipelago v3.9.16</title>
@@ -1171,5 +1059,169 @@ Changes:&#13;
   - `shop_catalog` enables splitting up the available shop checks behind new progression items. The first "batch" of shop checks is always available&#13;
   - `shop_catalog_items` chooses how many of the new Progressive Shop Catalog items are added in the pool - maximum of 4 (20% chunks)</content>
     <link href="https://github.com/Rhelys/SlimeRancher2-AP/releases/tag/v0.14.0"/>
+  </entry>
+  <entry>
+    <id>https://github.com/dlueben1/Slay-the-Spire-2-Archipelago/releases/tag/pre-release-mp-2.2.0</id>
+    <title>Slay the Spire II v1.1.0</title>
+    <updated>2026-09-07T13:26:39+00:00</updated>
+    <author>
+      <name>Kirbyfanner</name>
+    </author>
+    <author>
+      <name>Platano Bailando</name>
+    </author>
+    <author>
+      <name>Lyxn</name>
+    </author>
+    <author>
+      <name>MartyredG</name>
+    </author>
+    <author>
+      <name>Terairk</name>
+    </author>
+    <content>Yes you will need a new APworld but your yaml only needs to change by one line from 1.0.1&#13;
+&#13;
+## Multiplayer Stuff&#13;
+- Testing was done on beta branch so please use that. I did ZERO testing on the main branch for this.&#13;
+- Universal Buffs don't work, this is normal - they're automatically turned into 5 gold.&#13;
+- If you want to use the website to generate the yaml you sort of can: but you need to add a line for "player_count: 1", value can be 1-4.&#13;
+- You can either make one yaml for each player with "player_count: 1" aka one slot per player and each person joins their own slot. Host determines what ascensions and ascension downs count. Everything else should be player dependent&#13;
+- Alternatively: you can set "player_count: 2" or "player_count: 3" or "player_count: 4" in your yaml and everyone connects to the same slot. THEN in game (before you connect to a slot): you can hit Archipelago Settings -&gt; Multiplayer settings and change your player number&#13;
+- Yes the above system can make you generate a big yaml with like 1000+ checks if you wanted to and you can play that in singleplayer.&#13;
+- There's too many multiplayer adjustments / design decisions that had to be done to get this working so just message in the discord channel if you're curious about something, thanks. Also if you need help setting up just ask.&#13;
+- Everyone needs the Archipelago mod installed, yes. Everyone must have the same mod list (if you've installed other mods like say character mods and discover a bug: your bugs will take less priority, try to only run RitsuLib and this Mod (and maybe BaseLib and modded characters but modded characters are also borked)&#13;
+- If you encounter a state divergence: just host again and try again. If this happens frequently: open the dev console with ` or shift+8 and type "ap report" and then send the zipfile (in discord) that it hopefully opens. state divergences are impossible to debug without this so without it: state divergences occur way way before it actually puts the message in game.&#13;
+- &#13;
+Manually Installing the Mod from GitHub&#13;
+Ensure that you have [RitsuLib](https://steamcommunity.com/sharedfiles/filedetails/?id=3747602295) installed. The easiest way to obtain it is from Steam Workshop.&#13;
+Download the "Archipelago.zip" from&#13;
+Go to your Slay the Spire II directory (In Steam, click "Browse Local Files")&#13;
+If a folder called mods does not exist, create it&#13;
+Unzip the contents of Archipelago.zip into mods&#13;
+If you've done this step correctly, your directory structure should look like this: /&lt;slay-the-spire-2-local-files&gt;/mods/Archipelago/ and the contents of that folder should be a bunch of .dll files and a .pck file (there may be more files too, please don't touch anything in this folder)&#13;
+&#13;
+## Random Bug Fixes&#13;
+- Have 2 saves in multiplayer: recent natural AP checkpoint (ie chests and bosses) and one checkpoint at each floor (probably a temporary adjustment while bugs and state divergences are common so you lose less progress).&#13;
+- Allow disconnecting and connecting to different multiworlds without restarting your game.&#13;
+- Allow golden compass to appear in start of act mode in act 2.&#13;
+- Many many many other bug fixes such as campfire softlock&#13;
+- Controller Support but only for beta branch&#13;
+- Massively overhauled architecture and restructuring of how Beta-Main compatibility works so things might break.&#13;
+- Fix !collect support&#13;
+- Fix progressive ancients, smiths and rests not being cleared in singleplayer leading to more than expected.&#13;
+- Option descriptions should be improved / better&#13;
+- Add accessibility and progression balancing in the yaml template and options creator (note website isn't updated until this stuff becomes a non experimental thing) &#13;
+- Ascension when launching should be more accurate&#13;
+- Shop Checks page button should be more noticeable (looks ugly though)&#13;
+- Shops send out hints automatically&#13;
+- Maybe fix the checks sending between different multiworlds&#13;
+- Remove lasting candy because its too complicated to support properly&#13;
+- Fix bug with visual display of 'Press Start location' being wrong in the Character Tracker UI&#13;
+- Golden Compass is now available in start of act mode in act 2.&#13;
+&#13;
+</content>
+    <link href="https://github.com/dlueben1/Slay-the-Spire-2-Archipelago/releases/tag/pre-release-mp-2.2.0"/>
+  </entry>
+  <entry>
+    <id>https://github.com/colin969/bo3_archipelago/releases/tag/0.5.9</id>
+    <title>Black Ops 3 - Zombies v0.5.9</title>
+    <updated>2026-09-07T13:47:33+00:00</updated>
+    <author>
+      <name>colin969</name>
+    </author>
+    <content>**Apworld + Mod update**&#13;
+&#13;
+- Starting Maps list is now shown after connection validation&#13;
+- **Item Category changes**&#13;
+  - Shield parts and map specific machines now have unique item categories:&#13;
+    - e.g `(Gorod Krovi) Shield` can be used to hint for the next logical shield part&#13;
+    - e.g `(Shadows of Evil) Perk` can be used to hint the next logical Shadows specific perk machine&#13;
+  - `Machines` is now `Perk`&#13;
+  - Other categories now use singulars (e.g `Gifts` is now `Gift`)&#13;
+  - Weapons now have specific item groups based on their category&#13;
+    - `Assault Rifle`, `Submachine Gun`, `Light Machine Gun`, `Sniper Rifle`, `Shotgun`, `Pistol`, `Launcher`, `Melee`, `Wonder Weapon`, `Equipment`, `Other`&#13;
+- Added location list for Nacht der Untoten to menu&#13;
+- Fixed not being able to receive items from players or locations with backslashes or quotes in their name&#13;
+- Fixed Origins late EE steps not logically requiring Maxis drone parts&#13;
+- Fixed Gorod Krovi Monkey Bomb upgrade location not logically requiring shield</content>
+    <link href="https://github.com/colin969/bo3_archipelago/releases/tag/0.5.9"/>
+  </entry>
+  <entry>
+    <id>https://github.com/gaithernOrg/ArchipelagoKHBBS/releases/tag/0.2.0</id>
+    <title>Kingdom Hearts Birth by Sleep v0.2.0</title>
+    <updated>2026-09-07T15:32:15+00:00</updated>
+    <author>
+      <name>gaithernOrg</name>
+    </author>
+    <content>### DISCLAIMER&#13;
+Always check for updates in OpenKH for the AP Companion mod every time you play!  &#13;
+&#13;
+- Click Settings &gt; Check Mods for Updates&#13;
+- If there are updates to the AP Mod, download them and rebuild your game using Mod Loader &gt; Build and Run&#13;
+&#13;
+The game is prone to crashing, PLEASE SAVE OFTEN&#13;
+&#13;
+### How to play:&#13;
+&#13;
+BEFORE MODDING, PLEASE INSTALL AND RUN KHBBS AT LEAST ONCE.&#13;
+&#13;
+1. Install OpenKH and the Lua Backend. &#13;
+- Download the latest release of OpenKH here: https://github.com/OpenKH/OpenKh/releases/tag/latest&#13;
+- Extract the files to a directory of your choosing.&#13;
+- Open OpenKh.Tools.ModsManager.exe and run first time set up.&#13;
+- When prompted for game edition, choose PC, choose which platform you are playing on (Steam or EGS), navigate to your KH I.5 + II.5 installation folder in the path box, then click "Next"&#13;
+- When prompted, install Panacea, then click "Next"&#13;
+- When prompted, check KHBBS plus any other AP game you play (KH2) and click "Install and configure Lua backend", then click "Next".&#13;
+- Extracting game data for KHBBS is unnecessary, but you may want to extract data for KH2 if you plan on playing KH2 AP.&#13;
+- Click "Finish"&#13;
+&#13;
+2. Open "OpenKh.Tools.ModsManager.exe"&#13;
+3. Click the drop down menu at the top-right and choose "Birth by Sleep"&#13;
+4. Click Mods&gt;Install a New Mod&#13;
+5. In "Add a new mod from GitHub" paste "gaithern/KH-BBS-AP-LUA"&#13;
+6. Click Install&#13;
+7. Navigate to Mod Loader and click "Build Only"&#13;
+8. Place your khbbs.apworld file in your worlds folder (usually /lib/worlds/)&#13;
+9. Run ArchipelagoLauncher.exe&#13;
+10. Click "Generate Template Settings".  This will open file explorer&#13;
+11. Find "Kingdom Hearts Birth by Sleep.yaml" and copy it to /Players/ (create this folder if it does not exist)&#13;
+12. Open the YAML file and change the line that says "name: Player{number}" to your desired player name.&#13;
+13. Adjust the settings in the YAML to your liking&#13;
+14. Run ArchipelagoGenerate.exe&#13;
+15. Take the newly created AP_XXX.zip file in /output/ in upload it here: https://archipelago.gg/uploads&#13;
+16. Open ArchipelagoLauncher.exe&#13;
+17. Click "KHBBS Client" and connect to your server hosted on archipelago.gg&#13;
+18. From the zip file mentioned above, retrieve the seed zip file (example: AP-95162914732603780136-P1-Player1_0.5.0.zip)&#13;
+19. In OpenKH, click the green plus to add a mod, then click "Select and install Mod Archive or Lua Script"&#13;
+20. Navigate to and select your seed zip.&#13;
+21. With both the companion and the seed checked, click "Mod Loader", then "Build and Run"&#13;
+22. Play!&#13;
+&#13;
+----------&#13;
+&#13;
+### How the randomizer works:&#13;
+&#13;
+- All chests, stickers, bonus rewards, and pop up story rewards are randomized.&#13;
+- You must collect 3 Wayfinders to open The Keyblade Graveyard and complete your seed.</content>
+    <link href="https://github.com/gaithernOrg/ArchipelagoKHBBS/releases/tag/0.2.0"/>
+  </entry>
+  <entry>
+    <id>https://github.com/barretg/Taskipelago/releases/tag/v1.0.2</id>
+    <title>Taskipelago v1.0.2</title>
+    <updated>2026-09-07T15:58:36+00:00</updated>
+    <author>
+      <name>barretg</name>
+    </author>
+    <content>Quick bug fix patch&#13;
+&#13;
+## Bug fixes&#13;
+* Fixed an issue where the offsets for item rows under a filler block were not being offset properly on export&#13;
+* Fixed pop-up windows on linux &#13;
+* Fixed a bug with drawer rendering on linux&#13;
+Note on linux fixes: I use wayland, need verification from other compositor/window manager users&#13;
+&#13;
+## Known Issues&#13;
+* Universal Tracker is unhappy with the structure of the datapackage because of the dynamic nature of Taskipelago's location names. This is aimed to be resolved in a future patch. This is an issue specifically with multiple taskipelago worlds in a single multiworld with shared item or location names.</content>
+    <link href="https://github.com/barretg/Taskipelago/releases/tag/v1.0.2"/>
   </entry>
 </feed>
