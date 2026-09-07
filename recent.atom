@@ -2,113 +2,11 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://raw.githubusercontent.com/silasary/apworlds/refs/heads/main/recent.atom</id>
   <title>Recent APWorlds</title>
-  <updated>2026-09-07T16:59:58.659068+00:00</updated>
+  <updated>2026-09-07T21:02:46.937656+00:00</updated>
   <author>
     <name>Silasary</name>
   </author>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
-  <entry>
-    <id>https://github.com/solida1987/Diablo-II-Archipelago/releases/tag/v3.9.16</id>
-    <title>Diablo II Archipelago v3.9.16</title>
-    <updated>2026-09-04T20:16:43+00:00</updated>
-    <author>
-      <name>solida1987</name>
-    </author>
-    <author>
-      <name>ꓘicka (AP logic)</name>
-    </author>
-    <author>
-      <name>Zoë (AP logic)</name>
-    </author>
-    <content>**Items no longer vanish from the cursor.** Every item the launcher delivers
-goes in through the game's own quest-item routine, which puts the new item
-wherever there is room. When the player was holding an item mid-drag, that
-room was the cursor, and the held item was gone (BetaHub #25: a weapon lost
-the moment a Flawless Gem arrived).
-
-Item rewards and boss loot now wait while anything is on the cursor. The
-queue keeps them; they arrive the tick after the item is put down. A hold
-longer than a click shows "Items wait until you put that down" so a delayed
-delivery reads as waiting, not lost.
-
-Gold, XP, stat and skill points are unaffected and still arrive at once.
-</content>
-    <link href="https://github.com/solida1987/Diablo-II-Archipelago/releases/tag/v3.9.16"/>
-  </entry>
-  <entry>
-    <id>https://github.com/FyreDay/Archipelago-TCGCardShopSimulator/releases/tag/v1.2.0</id>
-    <title>TCG Card Shop Simulator v1.2.0</title>
-    <updated>2026-09-04T20:17:42+00:00</updated>
-    <author>
-      <name>FyreDay</name>
-    </author>
-    <content>- Fix Game 15 not sending&#13;
-- Fix Bulk box ids&#13;
-- Add Locking Grading</content>
-    <link href="https://github.com/FyreDay/Archipelago-TCGCardShopSimulator/releases/tag/v1.2.0"/>
-  </entry>
-  <entry>
-    <id>https://github.com/solida1987/Diablo-II-Archipelago/releases/tag/v3.9.17</id>
-    <title>Diablo II Archipelago v3.9.17</title>
-    <updated>2026-09-04T20:52:19+00:00</updated>
-    <author>
-      <name>solida1987</name>
-    </author>
-    <author>
-      <name>ꓘicka (AP logic)</name>
-    </author>
-    <author>
-      <name>Zoë (AP logic)</name>
-    </author>
-    <content>**Fifteen super-unique hunts pointed at the wrong area.** The quest book, the
-seed check and the logic all read one hand-written table, and it had Creeping
-Feature in Palace Cellar 1 (BetaHub #28); he lives in Stony Tomb 2. Checked
-against kill logs and the game's own presets, the table was off for
-Bloodwitch (Halls of the Dead 3), Fire Eye (Palace Cellar 3), Sszark (Spider
-Cavern), Witch Doctor Endugu (Flayer Dungeon 3), Toorc Icefist (Travincal),
-Bremm Sparkfist, Wyand Voidbringer and Maffer Dragonhand (Durance of Hate 3),
-Dac Farren (Bloody Foothills), Bonesaw Breaker (Glacial Trail), Eyeback the
-Unleashed (Frigid Highlands), Thresh Socket (Arreat Plateau), Snapchip Shatter
-(Icy Cellar) and Frozenstein (Frozen River). All corrected.
-
-The quest book shows the right area from this release. Seeds already running
-keep their logic; the monsters were always where the game puts them.
-
-Plugin 1.2.19 carries the corrected table for the seed check.
-</content>
-    <link href="https://github.com/solida1987/Diablo-II-Archipelago/releases/tag/v3.9.17"/>
-  </entry>
-  <entry>
-    <id>https://github.com/solida1987/Diablo-II-Archipelago/releases/tag/v3.9.18</id>
-    <title>Diablo II Archipelago v3.9.18</title>
-    <updated>2026-09-04T21:43:08+00:00</updated>
-    <author>
-      <name>solida1987</name>
-    </author>
-    <author>
-      <name>ꓘicka (AP logic)</name>
-    </author>
-    <author>
-      <name>Zoë (AP logic)</name>
-    </author>
-    <content>**Skills granted by items work again** (BetaHub #30). Enigma's Teleport, a
-staff's Fire Bolt, charges on a wand: the skill sits in the randomizer's pool
-without being unlocked, and the ownership guard kicked it off the hand with
-"That skill is not yours yet". The guard now asks the skill which item grants
-it and leaves a granted skill alone. Only a bare, unowned pool skill is reset.
-
-**Class filter applies to every character** (BetaHub #27). The seed has always
-sent the class filter in its slot data, but the mod only ever read it from
-the local ini and switched it off under Archipelago. The first character
-happened to load before the connection finished and was filtered; the second
-loaded after and got every class in the menu. The filter now comes from the
-seed and applies under Archipelago too. Characters already created keep their
-saved pool.
-
-Plugin stays at 1.2.19.
-</content>
-    <link href="https://github.com/solida1987/Diablo-II-Archipelago/releases/tag/v3.9.18"/>
-  </entry>
   <entry>
     <id>https://github.com/DeDeDeK/KARchipelago/releases/tag/v1.2.0-TEST</id>
     <title>Kirby Air Ride v1.2.0</title>
@@ -655,6 +553,31 @@ This revision allows P. Sugar to be used for parry logic in the tutorial level.&
 - Made Grandmas unavailable when Evelyn doesn't exist&#13;
 - Improved wording on bundles that are not scouted (saying if it's intentionally not scouted or if the scouting failed)</content>
     <link href="https://github.com/agilbert1412/StardewArchipelago/releases/tag/8.15"/>
+  </entry>
+  <entry>
+    <id>https://github.com/agilbert1412/StardewArchipelago/releases/tag/8.1.5</id>
+    <title>Stardew Valley v8.1.5r2</title>
+    <updated>2026-09-06T01:41:14+00:00</updated>
+    <author>
+      <name>Kaito Kid</name>
+    </author>
+    <author>
+      <name>Jouramie</name>
+    </author>
+    <author>
+      <name>Witchybun (Mod Support)</name>
+    </author>
+    <author>
+      <name>Noa (Entrance Randomizer)</name>
+    </author>
+    <content>## Apworld&#13;
+- Added logic requirement on Evelyn for the Cookie Clicker Bundle&#13;
+&#13;
+## Mod&#13;
+- Fixed Cookie Clicker Bundle crashing when Evelyn doesn't exist&#13;
+- Made Grandmas unavailable when Evelyn doesn't exist&#13;
+- Improved wording on bundles that are not scouted (saying if it's intentionally not scouted or if the scouting failed)</content>
+    <link href="https://github.com/agilbert1412/StardewArchipelago/releases/tag/8.1.5"/>
   </entry>
   <entry>
     <id>https://github.com/VincentBorchardt/Civ4-Archipelago-Mod/releases/tag/Alpha_0_2_1</id>
@@ -1223,5 +1146,186 @@ Note on linux fixes: I use wayland, need verification from other compositor/wind
 ## Known Issues&#13;
 * Universal Tracker is unhappy with the structure of the datapackage because of the dynamic nature of Taskipelago's location names. This is aimed to be resolved in a future patch. This is an issue specifically with multiple taskipelago worlds in a single multiworld with shared item or location names.</content>
     <link href="https://github.com/barretg/Taskipelago/releases/tag/v1.0.2"/>
+  </entry>
+  <entry>
+    <id>https://github.com/AegeusEvander/Brave-Fencer-Musashi-AP-World/releases/tag/v0.8.1</id>
+    <title>Brave Fencer Musashi v0.8.1</title>
+    <updated>2026-09-07T17:25:50+00:00</updated>
+    <author>
+      <name>AegeusEvander</name>
+    </author>
+    <content>0.8.1 added:&#13;
+-fixed BP getting reset when reconnecting client when BP Sanity is False&#13;
+&#13;
+0.8.0 Added:&#13;
+-full map tracker&#13;
+-fixed bell logic (again)&#13;
+-added commands&#13;
+--/teleport [id]&#13;
+---uses the debug menu to teleport the player to selected area (leave blank to teleport back to town)&#13;
+---unstable and may crash if used&#13;
+--/export_geometry&#13;
+---exports the static geometry of the currently loaded level (if no folder was previously selected it will prompt and then run command again), creates an .obj, .mtl, and .png&#13;
+--/export_all_geometry&#13;
+---teleports player to next area that has yet to have an obj file exported and attempts to export until all are done&#13;
+---unstable, but it remembers progress so keep running command if disconnected/timeout or restarting emulator if it crashes&#13;
+&#13;
+Note:&#13;
+-Must use Archipelago v0.6.7 or newer&#13;
+-Not compatible with XDelta Patches, must run unmodified game&#13;
+-compatible with v0.7.1 generations&#13;
+-map tracker with Universal Tracker https://github.com/FarisTheAncient/Archipelago/releases/tag/Tracker_v0.3.3&#13;
+-setup guide:https://github.com/AegeusEvander/Brave-Fencer-Musashi-AP-World/blob/main/docs/setup_en.md&#13;
+-Follow development and report bugs on the Archipelago gg Discord, -&gt; Future-game-design -&gt; Brave Fencer Musashi</content>
+    <link href="https://github.com/AegeusEvander/Brave-Fencer-Musashi-AP-World/releases/tag/v0.8.1"/>
+  </entry>
+  <entry>
+    <id>https://github.com/xyzzy44/ValheimArchipelagoRandomizer/releases/tag/0.2.4</id>
+    <title>Valheim v0.2.4</title>
+    <updated>2026-09-07T20:10:57+00:00</updated>
+    <author>
+      <name>xyzzy44</name>
+    </author>
+    <content>This is a minor release, fixing the finewood recipes in the research file.</content>
+    <link href="https://github.com/xyzzy44/ValheimArchipelagoRandomizer/releases/tag/0.2.4"/>
+  </entry>
+  <entry>
+    <id>https://github.com/dlueben1/Slay-the-Spire-2-Archipelago/releases/tag/1.1.0</id>
+    <title>Slay the Spire II v1.1.0r2</title>
+    <updated>2026-09-07T20:49:22+00:00</updated>
+    <author>
+      <name>Kirbyfanner</name>
+    </author>
+    <author>
+      <name>Platano Bailando</name>
+    </author>
+    <author>
+      <name>Lyxn</name>
+    </author>
+    <author>
+      <name>MartyredG</name>
+    </author>
+    <author>
+      <name>Terairk</name>
+    </author>
+    <content># Changelist&#13;
+&#13;
+## Bonus Items and Wax Relics&#13;
+&#13;
+* Added a new **Bonus Item** system! Bonus Items are useful non-progression rewards that are added to the item pool before filler items and can be customized in your YAML. ([[#265](https://github.com/dlueben1/Slay-the-Spire-2-Archipelago/pull/265)](https://github.com/dlueben1/Slay-the-Spire-2-Archipelago/pull/265))&#13;
+  * The first Bonus Item is the **Bonus Wax Relic**, which grants a temporary relic that melts after three combats.&#13;
+  * Wax Relics can be configured as a specific relic or randomized from a customizable pool.&#13;
+  * Bonus Items are entirely opt-in and none are added by default.&#13;
+  * Eventually, there will be many more types of Bonus Items, such as **Max HP upgrades**, **Card Enchantments**, and more!&#13;
+* Added Wax Relic configuration to the online YAML Builder, including custom relic pools and relic selection. ([[#265](https://github.com/dlueben1/Slay-the-Spire-2-Archipelago/pull/265)](https://github.com/dlueben1/Slay-the-Spire-2-Archipelago/pull/265))&#13;
+* Wax Relics are now handled directly by the Archipelago client, including Wax Relics received from ToyBox.&#13;
+&#13;
+## Rewards, Shops, and Interface&#13;
+&#13;
+* Reworked the Archipelago Reward UI to use Slay the Spire II's normal reward flow instead of a separate custom reward implementation. ([[#257](https://github.com/dlueben1/Slay-the-Spire-2-Archipelago/pull/257)](https://github.com/dlueben1/Slay-the-Spire-2-Archipelago/pull/257))&#13;
+  * This greatly simplifies interactions between Archipelago rewards and the base game.&#13;
+  * Improved controller support across both the public and beta branches.&#13;
+  * Added an L3 controller binding for opening the Archipelago Reward Menu.&#13;
+  * Fixed controller navigation for Linked Ancient Relics.&#13;
+  * Fixed Relic Coupon tradeability and improved the displayed coupon count.&#13;
+  * Includes additional compatibility improvements for MacOS.&#13;
+* Fixed Rare Card Reward visuals and reward text sizing so long reward descriptions fit correctly. ([[#262](https://github.com/dlueben1/Slay-the-Spire-2-Archipelago/pull/262)](https://github.com/dlueben1/Slay-the-Spire-2-Archipelago/pull/262))&#13;
+* Improved Shop Sanity navigation and hinting. ([[#275](https://github.com/dlueben1/Slay-the-Spire-2-Archipelago/pull/275)](https://github.com/dlueben1/Slay-the-Spire-2-Archipelago/pull/275))&#13;
+  * Shop Sanity checks are now automatically hinted.&#13;
+  * Shop navigation buttons are visually distinguished and Archipelago shop checks now display an AP icon.&#13;
+* Fixed the character-select Ascension banner so it displays the correct current Ascension count after receiving Ascension Down items. ([[#269](https://github.com/dlueben1/Slay-the-Spire-2-Archipelago/pull/269)](https://github.com/dlueben1/Slay-the-Spire-2-Archipelago/pull/269))&#13;
+&#13;
+## AP World and YAML Improvements&#13;
+&#13;
+* **APWorld compatibility is no longer tied directly to the client release version.** ([[#266](https://github.com/dlueben1/Slay-the-Spire-2-Archipelago/pull/266)](https://github.com/dlueben1/Slay-the-Spire-2-Archipelago/pull/266))&#13;
+  * The client and APWorld now use a separate compatibility flag to determine whether they can safely connect.&#13;
+  * Older APWorld versions can continue connecting when they are compatible instead of requiring the APWorld and client version numbers to advance together.&#13;
+  * Version differences can still be used to recommend updating an older APWorld without unnecessarily blocking a connection.&#13;
+* Added proper `!collect` support by synchronizing collected locations with the client. ([[#277](https://github.com/dlueben1/Slay-the-Spire-2-Archipelago/pull/277)](https://github.com/dlueben1/Slay-the-Spire-2-Archipelago/pull/277); fixes [[#219](https://github.com/dlueben1/Slay-the-Spire-2-Archipelago/issues/219)](https://github.com/dlueben1/Slay-the-Spire-2-Archipelago/issues/219))&#13;
+* **Neow Sanity now supports Anytime mode.** Neow Relics received after the beginning of a run can be collected through the Archipelago Reward Menu. ([[#278](https://github.com/dlueben1/Slay-the-Spire-2-Archipelago/pull/278)](https://github.com/dlueben1/Slay-the-Spire-2-Archipelago/pull/278))&#13;
+* Fixed filler-item weighted selection.&#13;
+* Fixed and clarified several option descriptions and restored missing common options to generated YAML templates. ([[#278](https://github.com/dlueben1/Slay-the-Spire-2-Archipelago/pull/278)](https://github.com/dlueben1/Slay-the-Spire-2-Archipelago/pull/278))&#13;
+  * Corrected the Ascender's Bane option name.&#13;
+  * Corrected the Ascension Down description.&#13;
+  * Clarified that combat filler buffs are applied on the player's next turn rather than at the start of combat.&#13;
+* The YAML Builder received a substantial internal architecture refactor to share more relic and option data between the website, APWorld, and client. ([[#265](https://github.com/dlueben1/Slay-the-Spire-2-Archipelago/pull/265)](https://github.com/dlueben1/Slay-the-Spire-2-Archipelago/pull/265))&#13;
+&#13;
+## Connection and Save Reliability&#13;
+&#13;
+* Significantly improved connection and reconnection handling. ([[#268](https://github.com/dlueben1/Slay-the-Spire-2-Archipelago/pull/268)](https://github.com/dlueben1/Slay-the-Spire-2-Archipelago/pull/268))&#13;
+  * The client now automatically retries connections with backoff instead of immediately treating the first failed connection attempt as a recovery scenario.&#13;
+  * The AP connection can now be directly connected and disconnected through the menu more reliably.&#13;
+* Offline checks are now isolated to the Multiworld they came from, preventing queued checks from accidentally being sent to a different Archipelago session after reconnecting. ([[#268](https://github.com/dlueben1/Slay-the-Spire-2-Archipelago/pull/268)](https://github.com/dlueben1/Slay-the-Spire-2-Archipelago/pull/268))&#13;
+* Improved cleanup when intentionally leaving an Archipelago session, including slot-specific caches, callbacks, queued items, saves, and character state. ([[#268](https://github.com/dlueben1/Slay-the-Spire-2-Archipelago/pull/268)](https://github.com/dlueben1/Slay-the-Spire-2-Archipelago/pull/268))&#13;
+&#13;
+## Bug Fixes &amp; Reliability Updates&#13;
+&#13;
+* Fixed **Press Start Location** offsets for non-starting characters, which could cause the wrong location to be sent or displayed in the tracker. ([[#267](https://github.com/dlueben1/Slay-the-Spire-2-Archipelago/pull/267)](https://github.com/dlueben1/Slay-the-Spire-2-Archipelago/pull/267))&#13;
+* Fixed a Campfire softlock when Progressive Smith was available but the player had no upgradeable cards, including an edge case involving Meat Cleaver. ([[#267](https://github.com/dlueben1/Slay-the-Spire-2-Archipelago/pull/267)](https://github.com/dlueben1/Slay-the-Spire-2-Archipelago/pull/267))&#13;
+* Fixed Progressive Item receipt counts being incorrectly restored from saves, which could cause items to be over-counted and invalid rewards to be granted. ([[#267](https://github.com/dlueben1/Slay-the-Spire-2-Archipelago/pull/267)](https://github.com/dlueben1/Slay-the-Spire-2-Archipelago/pull/267))&#13;
+* **Golden Compass** can now appear in Act 2 Ancient Reward pools when using Chaos or True Chaos settings, as we've tested it to ensure it behaves properly. ([[#267](https://github.com/dlueben1/Slay-the-Spire-2-Archipelago/pull/267)](https://github.com/dlueben1/Slay-the-Spire-2-Archipelago/pull/267))&#13;
+* **Lasting Candy** has been removed from Archipelago relic pools due to unreliable compatibility with Archipelago. ([[#267](https://github.com/dlueben1/Slay-the-Spire-2-Archipelago/pull/267)](https://github.com/dlueben1/Slay-the-Spire-2-Archipelago/pull/267))&#13;
+&#13;
+## Internal Improvements&#13;
+&#13;
+* Migrated the client project to **C# 14** and cleaned up the project configuration. ([[#258](https://github.com/dlueben1/Slay-the-Spire-2-Archipelago/pull/258)](https://github.com/dlueben1/Slay-the-Spire-2-Archipelago/pull/258))&#13;
+&#13;
+# Mod Information&#13;
+&#13;
+## Pre-Requisites&#13;
+&#13;
+- **Your host MUST use Archipelago Client v0.6.7+**.&#13;
+- This version of the mod is intended to be used for **v0.107.1**  of Slay the Spire II&#13;
+  - While we have experimental support for the public beta branch **v0.111.0**, we recommend **the "Default Public/Main Version"** of the game to most players. Since the beta branch is updated more frequently and is more volatile, it's less likely to be bug-free. Please use it at your own risk. However numerous players have used it just fine, @Terairk is the maintainer for this and he mostly develops here.&#13;
+  - We will do our best to keep up with game updates as they release, so please be patient when encountering issues.&#13;
+&#13;
+## Installing the Mod from Steam Workshop (Recommended)&#13;
+&#13;
+1. Ensure that you have [RitsuLib](https://steamcommunity.com/sharedfiles/filedetails/?id=3747602295) installed. The easiest way to obtain it is from Steam Workshop.&#13;
+2. Subscribe to the [Slay the Spire II Archipelago Client](https://steamcommunity.com/sharedfiles/filedetails/?id=3748826296) on Steam Workshop.&#13;
+3. Make sure that any other unnecessary mods are turned off, unless you're trying to use a specific modded character for your Archipelago session.&#13;
+4. Start the game&#13;
+&#13;
+## Manually Installing the Mod from GitHub&#13;
+&#13;
+1. Ensure that you have [RitsuLib](https://steamcommunity.com/sharedfiles/filedetails/?id=3747602295) installed. The easiest way to obtain it is from Steam Workshop.&#13;
+2. Download the "sts2-client.zip" from the [Releases](https://github.com/dlueben1/Slay-the-Spire-2-Archipelago/releases/latest) section of the Repo&#13;
+3. Go to your Slay the Spire II directory (In Steam, click "Browse Local Files")&#13;
+4. If a folder called `mods` does not exist, create it&#13;
+5. Unzip the **contents** of `sts2-client.zip` into `mods`&#13;
+&#13;
+- If you've done this step correctly, your directory structure should look like this: `/&lt;slay-the-spire-2-local-files&gt;/mods/Archipelago/` and the contents of that folder should be a bunch of `.dll` files and a `.pck` file (there may be more files too, please don't touch anything in this folder)&#13;
+&#13;
+6. Start the game&#13;
+&#13;
+### Additional Steps for **Hosts**&#13;
+&#13;
+7. Download `spire2.apworld`&#13;
+8. Open your Archipelago Launcher&#13;
+9. Click "Install APWorld"&#13;
+10. Select `spire2.apworld` in the file dialog that pops up&#13;
+11. **Restart the Archipelago Launcher**&#13;
+12. Now you should be able to properly host/generate an Archipelago Session with StS 2&#13;
+&#13;
+- If you want to use `archipelago.gg` to host the game, generate it locally first following the steps above, then upload the `.zip` file from the `output` folder in your Archipelago installation&#13;
+&#13;
+&gt; [!IMPORTANT]&#13;
+&gt; You need to use Archipelago Version 0.6.7+ and CANNOT use earlier versions of Archipelago with this mod!&#13;
+&#13;
+## Known Issues/Limitations&#13;
+&#13;
+- Switching Slay the Spire II branches during an active run may make that run's checkpoint incompatible with the other branch.&#13;
+&#13;
+## Common Q&amp;A&#13;
+&#13;
+### Will this mess with my unmodded Save File?&#13;
+&#13;
+No.&#13;
+&#13;
+### I installed the AP World but it's not working&#13;
+&#13;
+Is your Archipelago Launcher v0.6.7 or later? If not it **won't work**.&#13;
+</content>
+    <link href="https://github.com/dlueben1/Slay-the-Spire-2-Archipelago/releases/tag/1.1.0"/>
   </entry>
 </feed>
