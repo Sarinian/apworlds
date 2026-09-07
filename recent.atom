@@ -2,173 +2,14 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://raw.githubusercontent.com/silasary/apworlds/refs/heads/main/recent.atom</id>
   <title>Recent APWorlds</title>
-  <updated>2026-09-07T01:47:17.793653+00:00</updated>
+  <updated>2026-09-07T11:08:34.707816+00:00</updated>
   <author>
     <name>Silasary</name>
   </author>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
   <entry>
-    <id>https://github.com/TheLivingShadow97/THAWAP/releases/tag/Downtown/Deathlink</id>
-    <title>Tony Hawk's American Wasteland v0.0.1r2</title>
-    <updated>2026-09-04T05:27:08+00:00</updated>
-    <author>
-      <name>TheLivingShadow</name>
-    </author>
-    <content>## Compatible with the new client update, this apworld adds:&#13;
-- All gaps, missions, and buyables from the first entry to the skate ranch up to entering Vans Park through Downtown and winning the skate competition, which is a new goal option.&#13;
-- Deathlink, as well as a yaml option for how many bails trigger sending it.&#13;
-- New yaml options shopsanity, progressive wallet, and whether to include your skateboard itself as an item in the pool.&#13;
-- New client features like debug logging for easier bugfixing/troubleshooting, a new "/unstuck" command, a rewritten mission tracker, as well as a text file list of every item name included for easier hinting.&#13;
-&#13;
-Make sure you also grab the newly updated V0.0.3 client, as its required to use the new features.</content>
-    <link href="https://github.com/TheLivingShadow97/THAWAP/releases/tag/Downtown/Deathlink"/>
-  </entry>
-  <entry>
-    <id>https://github.com/IHaveNoFunnyName/Archipelago/releases/tag/0.4.6</id>
-    <title>Idle Loops v0.4.6</title>
-    <updated>2026-09-04T05:42:30+00:00</updated>
-    <author>
-      <name>IHaveNoFunnyName</name>
-    </author>
-    <content>## IdleLoopsAP 0.4.6 ##&#13;
-&#13;
-### Minor update ###&#13;
-&#13;
-* Deathlink support&#13;
-  * Receiving a Deathlink ends the current loop&#13;
-  * For sending them, "Death" isn't a concept in this game, there's nothing that really fit so I made it local-only trap items.&#13;
-* Split Chrono/Pyromancy off from normal difficulty skills.&#13;
-  * i.e. Default max 200 &gt; 50&#13;
-* Added Imbue Body (... I skipped it before because I thought it was imbue Soul)&#13;
-  * (...also, added a source of Soulstones as a logical requirement for Imbue Mind/Body and upped its Default max to 10)&#13;
-* Remove "Fight Segments" option, thinking about it again there's kinda no reason for it.&#13;
-  * (It's always 5 now)&#13;
-* Added an option to have Throw Party logically required for 51%+ Meet People/Short Quest, defaults to off&#13;
-* Removed an accidental "Z1 - Shop (Expensive)" item that shouldn't have existed</content>
-    <link href="https://github.com/IHaveNoFunnyName/Archipelago/releases/tag/0.4.6"/>
-  </entry>
-  <entry>
-    <id>https://github.com/solida1987/Diablo-II-Archipelago/releases/tag/v3.9.12</id>
-    <title>Diablo II Archipelago v3.9.12</title>
-    <updated>2026-09-04T10:22:30+00:00</updated>
-    <author>
-      <name>solida1987</name>
-    </author>
-    <author>
-      <name>ꓘicka (AP logic)</name>
-    </author>
-    <author>
-      <name>Zoë (AP logic)</name>
-    </author>
-    <content>Shop Shuffle now stocks the whole game. Every vendor draws its shelf from the
-complete item list on all three tabs — weapons, armor, gems, runes, jewels,
-charms, rings and amulets — and rolls them as normal, magic, rare, set and
-unique items. The game prices them itself, so the best pieces cost a fortune,
-and the shelf re-rolls whenever the vendor restocks. Potions, scrolls, keys and
-ammo stay exactly as before. Items you buy count for the Collection book.
-
-The mod fills the shelf itself now. The engine walked the item table in file
-order, stopped after thirty rows and never rolled anything above magic, which
-is why every shop showed the same first handful of weapons. The vendor columns
-still come from the seed's tables, so an install without the mod's filler shows
-a plain slice of the same pool.
-
-The launcher reads ItemTypes.txt out of your own archives, with a built-in copy
-as fallback. Without that table the shop deal did nothing on a fresh install.
-</content>
-    <link href="https://github.com/solida1987/Diablo-II-Archipelago/releases/tag/v3.9.12"/>
-  </entry>
-  <entry>
-    <id>https://github.com/Demorck/ClairObscur_APWorld/releases/tag/v0.4.2</id>
-    <title>Clair Obscur Expedition 33 v0.4.0r2</title>
-    <updated>2026-09-04T11:59:05+00:00</updated>
-    <author>
-      <name>Démorck</name>
-    </author>
-    <author>
-      <name>Yezzdia</name>
-    </author>
-    <author>
-      <name>Noeva</name>
-    </author>
-    <content>## Fixes&#13;
-- Some shop was inverted&#13;
-&#13;
-**Full Changelog**: https://github.com/Demorck/ClairObscur_APWorld/compare/v0.4.1...v0.4.2</content>
-    <link href="https://github.com/Demorck/ClairObscur_APWorld/releases/tag/v0.4.2"/>
-  </entry>
-  <entry>
-    <id>https://github.com/Trexounay/EnderLilies.Archipelago/releases/tag/endermagnolia-v0.1.7</id>
-    <title>Ender Magnolia v0.1.7</title>
-    <updated>2026-09-04T13:18:02+00:00</updated>
-    <author>
-      <name>Trex</name>
-    </author>
-    <content>**Archipelago** world for **Ender Magnolia**&#13;
-&#13;
-## Update&#13;
-- Logic update&#13;
-- Option to randomize bosses&#13;
-- Fix generation failure in some edge case for meta progression&#13;
-&#13;
-## Requirements&#13;
-- [Archipelago](https://github.com/ArchipelagoMW/Archipelago/releases)&#13;
-- [Ender Magnolia Randomizer](https://github.com/Trexounay/EnderMagnolia.Randomizer/releases/tag/endermagnolia-v0.1.7)&#13;
-&#13;
-## Current Features&#13;
-- 340 checks&#13;
-- 2 Goals: **Ending A** **Ending B**&#13;
-- Starting Skill option (except non breaking walls weapon)&#13;
-- Shuffle relic costs&#13;
-- Progressive Aptitudes&#13;
-- Start with heal/fast travel&#13;
-- min/max chapters&#13;
-- Central Elevator Fix option&#13;
-- Starting respite&#13;
-&#13;
-## Notes&#13;
-This is an early release and has not been extensively tested. Expect bugs and missing features, and please report any issues or feedback.</content>
-    <link href="https://github.com/Trexounay/EnderLilies.Archipelago/releases/tag/endermagnolia-v0.1.7"/>
-  </entry>
-  <entry>
-    <id>https://github.com/aidanii24/ae3-archipelago/releases/tag/v2.1.0</id>
-    <title>Ape Escape 3 v2.1.0.post2</title>
-    <updated>2026-09-04T14:39:06+00:00</updated>
-    <author>
-      <name>aidanii</name>
-    </author>
-    <content># Ape Escape 3 Archipelago v2.1.0&#13;
-&#13;
-:warning: **BREAKING LOGIC**&#13;
-## Changelog&#13;
-### Client&#13;
-- New Client UI displaying Channel Order and Progress in real time&#13;
-- Client will now also try to use XDG_DIRS on other unix-like systems outside of Linux (and except for MacOS) for detecting the PINE socket (e.g. FreeBSD)&#13;
-### Fixes&#13;
-- Improved Logic handling for Post-Game Condition-related entrances and locations&#13;
-&#13;
-## Refresh&#13;
-### 2026/09/06&#13;
-- Fixed division by zero scenarios when updating Overview Status of Shopping District when Shoppingsanity is set to Collection</content>
-    <link href="https://github.com/aidanii24/ae3-archipelago/releases/tag/v2.1.0"/>
-  </entry>
-  <entry>
-    <id>https://github.com/awakenbad/SanAndreasAP/releases/tag/v0.8.2</id>
-    <title>Grand Theft Auto: San Andreas v0.8.1r2</title>
-    <updated>2026-09-04T17:00:27+00:00</updated>
-    <author>
-      <name>awaken</name>
-    </author>
-    <content>## Fixed:&#13;
-- Fixed LV Air Street Races not sending out checks&#13;
-&#13;
-## Notes:&#13;
-If you had this issue on 0.8.1, you can change only the `.asi` and the mod will send out pending checks.</content>
-    <link href="https://github.com/awakenbad/SanAndreasAP/releases/tag/v0.8.2"/>
-  </entry>
-  <entry>
     <id>https://github.com/CATEM1NAL/PD2-Criminal-Dawn/releases/tag/v1.0.10</id>
-    <title>PAYDAY 2: Criminal Dawn v1.0.4r3</title>
+    <title>PAYDAY 2: Criminal Dawn v1.0.4r2</title>
     <updated>2026-09-04T18:27:53+00:00</updated>
     <author>
       <name>C@:\EM1NAL\</name>
@@ -1196,5 +1037,139 @@ Changes:&#13;
 &#13;
 **Full Changelog**: https://github.com/energymaster22/YARGArchipelago/compare/1.1.0...1.2.0</content>
     <link href="https://github.com/energymaster22/YARGArchipelago/releases/tag/1.2.0"/>
+  </entry>
+  <entry>
+    <id>https://github.com/Crownmuri/Archipelago/releases/tag/v1.0.2</id>
+    <title>La-Mulana 2 v1.0.2</title>
+    <updated>2026-09-07T01:49:54+00:00</updated>
+    <author>
+      <name>Crownmuri</name>
+    </author>
+    <author>
+      <name>Coookie93</name>
+    </author>
+    <content>## Supports: Mod v1.0.0+ -- Tracker v2.0.2+&#13;
+&#13;
+# Changelogs&#13;
+- Fixed a logic softlock due to AnnwfnOneWay not forcing HorizontalAttack despite a pot blocking the way&#13;
+- Fixed a logic issue where the Cog of Antiquity Chest (the Twin Statue chest in Heaven's Labyrinth) was considered accessible through Heaven's Labyrinth instead of the one-way exit above it. (Pots and glossary are now in a new HLStatue subregion in logic)</content>
+    <link href="https://github.com/Crownmuri/Archipelago/releases/tag/v1.0.2"/>
+  </entry>
+  <entry>
+    <id>https://github.com/TheLX5/Archipelago/releases/tag/rha-v1.0.1</id>
+    <title>Rhythm Heaven Advance v1.0.1</title>
+    <updated>2026-09-07T03:17:15+00:00</updated>
+    <author>
+      <name>lx5</name>
+    </author>
+    <content># Info&#13;
+* [Info](https://thelx5.github.io/rha/index.html)&#13;
+* [Setup](https://thelx5.github.io/rha/setup.html)&#13;
+# Changes&#13;
+* Added a label on the client that tells players how many medals they have and how many are required for goaling.&#13;
+# Notes&#13;
+* You need to reload the game menu to see any changes on the level grid, especially on the first load.</content>
+    <link href="https://github.com/TheLX5/Archipelago/releases/tag/rha-v1.0.1"/>
+  </entry>
+  <entry>
+    <id>https://github.com/TheLX5/Archipelago/releases/tag/tengoku-v1.0.2</id>
+    <title>Rhythm Tengoku v1.0.2</title>
+    <updated>2026-09-07T03:17:43+00:00</updated>
+    <author>
+      <name>lx5</name>
+    </author>
+    <content># Info&#13;
+* [Info](https://thelx5.github.io/tengoku/index.html)&#13;
+* [Setup](https://thelx5.github.io/tengoku/setup.html)&#13;
+# Changes&#13;
+* Added a label on the client that tells players how many medals they have and how many are required for goaling.&#13;
+# Notes&#13;
+* You need to reload the game menu to see any changes on the level grid, especially on the first load.</content>
+    <link href="https://github.com/TheLX5/Archipelago/releases/tag/tengoku-v1.0.2"/>
+  </entry>
+  <entry>
+    <id>https://github.com/1-800-thewolf/AoM-Archipelago/releases/tag/v1.3.7</id>
+    <title>Age Of Mythology Retold v1.3.7</title>
+    <updated>2026-09-07T03:55:46+00:00</updated>
+    <author>
+      <name>1.800.thewolf</name>
+    </author>
+    <content>## Suite of bug fixes and small qoL improvements.&#13;
+- New `/keys` command to see which keys go to which scenarios&#13;
+- Better key handling so keys don't pollute `!hint` points&#13;
+- New yaml option to disable Demeter and Freyr&#13;
+- New safety guard to prevent accidentally goaling on a new game&#13;
+- New `/logs` command for better troubleshooting/debugging&#13;
+&#13;
+### Bug Fixes including bugs related to&#13;
+- Aztecs being unable to Time Shift on Odin's Tower if you have the DLC&#13;
+- Aztec Villager Cary Capacity item&#13;
+- Atlantis Reborn Minor God Bug&#13;
+&#13;
+## 👍 Fully compatible with current games v1.1+</content>
+    <link href="https://github.com/1-800-thewolf/AoM-Archipelago/releases/tag/v1.3.7"/>
+  </entry>
+  <entry>
+    <id>https://github.com/josephanimate2021/ArchipelagoOoA/releases/tag/v1.1.2</id>
+    <title>The Legend of Zelda - Oracle of Ages v1.1.2</title>
+    <updated>2026-09-07T06:57:59+00:00</updated>
+    <author>
+      <name>josephanimate2021</name>
+    </author>
+    <author>
+      <name>Glan9</name>
+    </author>
+    <author>
+      <name>Piapiou (SenPierre)</name>
+    </author>
+    <author>
+      <name>FlameStripe</name>
+    </author>
+    <content>Hotfixes&#13;
+&#13;
+* Fix sea of storm  spot error that could appear when secrets were not enabled.&#13;
+* Fix generation error on minimal settings&#13;
+* Overall improvement on generation success rate&#13;
+* As a result, Rupees (20) &amp; Rupees (30) are not considered progression anymore&#13;
+* Fix a determinism error with the seed trees</content>
+    <link href="https://github.com/josephanimate2021/ArchipelagoOoA/releases/tag/v1.1.2"/>
+  </entry>
+  <entry>
+    <id>https://github.com/vgm5/Night_Of_100_Frights_ap_world/releases/tag/Release_1_4_0</id>
+    <title>Scooby-Doo! Night of 100 Frights v1r2</title>
+    <updated>2026-09-07T07:03:47+00:00</updated>
+    <author>
+      <name>vgm5</name>
+    </author>
+    <content># Major Release&#13;
+&#13;
+## Rev 1 Implementation&#13;
+- Patching and Runtime execution have been reworked to allow users with the Rev 1 version of the game to play the apworld&#13;
+- Current Expectation is that there are no fundamental differences for people playing on one or the other</content>
+    <link href="https://github.com/vgm5/Night_Of_100_Frights_ap_world/releases/tag/Release_1_4_0"/>
+  </entry>
+  <entry>
+    <id>https://github.com/randomcodegen/ironwail_ap/releases/tag/1.2.0</id>
+    <title>Quake 1 v1.2.0</title>
+    <updated>2026-09-07T07:42:58+00:00</updated>
+    <author>
+      <name>randomcodegen</name>
+    </author>
+    <content>- Added ap_minnotify cvar to filter out notifications based on item (useful/filler/progression)&#13;
+- Forced vanilla items to spawn when a location is excluded</content>
+    <link href="https://github.com/randomcodegen/ironwail_ap/releases/tag/1.2.0"/>
+  </entry>
+  <entry>
+    <id>https://github.com/Rhelys/SlimeRancher2-AP/releases/tag/v0.14.0</id>
+    <title>Slime Rancher 2 v0.14.0</title>
+    <updated>2026-09-07T10:35:10+00:00</updated>
+    <author>
+      <name>Rhelys</name>
+    </author>
+    <content>## New Features&#13;
+- Added new settings for shop randomization&#13;
+  - `shop_catalog` enables splitting up the available shop checks behind new progression items. The first "batch" of shop checks is always available&#13;
+  - `shop_catalog_items` chooses how many of the new Progressive Shop Catalog items are added in the pool - maximum of 4 (20% chunks)</content>
+    <link href="https://github.com/Rhelys/SlimeRancher2-AP/releases/tag/v0.14.0"/>
   </entry>
 </feed>
