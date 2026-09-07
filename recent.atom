@@ -2,49 +2,11 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://raw.githubusercontent.com/silasary/apworlds/refs/heads/main/recent.atom</id>
   <title>Recent APWorlds</title>
-  <updated>2026-09-06T19:49:51.338361+00:00</updated>
+  <updated>2026-09-07T01:47:17.793653+00:00</updated>
   <author>
     <name>Silasary</name>
   </author>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
-  <entry>
-    <id>https://github.com/EdricY/Bouncy-Loot-God/releases/tag/be-101</id>
-    <title>Borderlands The Pre-Sequel v101</title>
-    <updated>2026-09-04T05:09:28+00:00</updated>
-    <author>
-      <name>EdricY</name>
-    </author>
-    <content>Want to test on the frontlines? Get the latest developments here. Higher likelihood of showstopping issues.&#13;
-Good luck out there, Slab!&#13;
-&#13;
-setup instructions on the home page and [readme](https://github.com/EdricY/Bouncy-Loot-God/blob/main/README.md)&#13;
-&#13;
-[sample yamls](https://github.com/EdricY/Bouncy-Loot-God/tree/main/sample-yamls)&#13;
-&#13;
-new stuff (since 0.5.5):&#13;
-- skip generic pizza spawn if check has been received&#13;
-- new travel targets at Hunter's Grotto Lodge and Windshear Start&#13;
-- new ramps to make DLCs more completable without jump&#13;
-- big reordering of checks&#13;
-- fully unlocked mode setting&#13;
-- base game story quests in fully unlocked mode</content>
-    <link href="https://github.com/EdricY/Bouncy-Loot-God/releases/tag/be-101"/>
-  </entry>
-  <entry>
-    <id>https://github.com/EpicPuppy613/Wynncraft-APWorld/releases/tag/v0.4.2</id>
-    <title>Wynncraft v0.4.2</title>
-    <updated>2026-09-04T05:23:20+00:00</updated>
-    <author>
-      <name>EpicPuppy613</name>
-    </author>
-    <content>**Compatible with Wynnpelago v0.4.2+**&#13;
-&#13;
-- Add level requirement to access regions&#13;
-- Exclude accessories from counting towards logical gear levels&#13;
-- **Increase max level to 120**&#13;
-  - Includes Canyon of the Lost, Molten Heights, Sky Islands, Corkus, The Silent Expanse, and The Province of Fruma</content>
-    <link href="https://github.com/EpicPuppy613/Wynncraft-APWorld/releases/tag/v0.4.2"/>
-  </entry>
   <entry>
     <id>https://github.com/TheLivingShadow97/THAWAP/releases/tag/Downtown/Deathlink</id>
     <title>Tony Hawk's American Wasteland v0.0.1r2</title>
@@ -206,7 +168,7 @@ If you had this issue on 0.8.1, you can change only the `.asi` and the mod will 
   </entry>
   <entry>
     <id>https://github.com/CATEM1NAL/PD2-Criminal-Dawn/releases/tag/v1.0.10</id>
-    <title>PAYDAY 2: Criminal Dawn v1.0.4r2</title>
+    <title>PAYDAY 2: Criminal Dawn v1.0.4r3</title>
     <updated>2026-09-04T18:27:53+00:00</updated>
     <author>
       <name>C@:\EM1NAL\</name>
@@ -1183,5 +1145,56 @@ Fixed an issue where save points could not be interacted with in heist mode&#13;
 &#13;
 **Full Changelog**: https://github.com/nielrenned/PokemonSnap_Archipelago/compare/v0.6.2...v0.7.0</content>
     <link href="https://github.com/nielrenned/PokemonSnap_Archipelago/releases/tag/v0.7.0"/>
+  </entry>
+  <entry>
+    <id>https://github.com/benny-dreamly/Manuals/releases/tag/GA-6.1.0</id>
+    <title>Manual_GlassAnimals_bennydreamly v6.1.0</title>
+    <updated>2026-09-06T21:21:49+00:00</updated>
+    <author>
+      <name>benny-dreamly</name>
+    </author>
+    <content>This release fixes the APWorld not loading because of the migration to the latest stable having left in the example events.json file from the stable APWorld&#13;
+&#13;
+**Full Changelog**: https://github.com/benny-dreamly/Manuals/compare/GA-6.0.0...GA-6.1.0</content>
+    <link href="https://github.com/benny-dreamly/Manuals/releases/tag/GA-6.1.0"/>
+  </entry>
+  <entry>
+    <id>https://github.com/benny-dreamly/Manuals/releases/tag/TS-6.3.0</id>
+    <title>Manual_TaylorSwiftDiscography_bennydreamly v6.3.0</title>
+    <updated>2026-09-06T21:26:35+00:00</updated>
+    <author>
+      <name>benny-dreamly</name>
+    </author>
+    <content>This release fixes the APWorld not loading because of an accidentally included example events.json from the stable manual APWorld.&#13;
+&#13;
+**Full Changelog**: https://github.com/benny-dreamly/Manuals/compare/TS-6.2.0...TS-6.3.0</content>
+    <link href="https://github.com/benny-dreamly/Manuals/releases/tag/TS-6.3.0"/>
+  </entry>
+  <entry>
+    <id>https://github.com/energymaster22/YARGArchipelago/releases/tag/1.2.0</id>
+    <title>YARG v1.2.0</title>
+    <updated>2026-09-07T00:58:53+00:00</updated>
+    <author>
+      <name>Energymaster22</name>
+    </author>
+    <author>
+      <name>thedrummonger</name>
+    </author>
+    <content># Use Client Version 1.y.z.&#13;
+&#13;
+New:&#13;
+- Support for Go Down in History Setlist&#13;
+&#13;
+Changes:&#13;
+- Changed the format of the item and location names. &#13;
+&gt; [!WARNING]&#13;
+&gt; This change will cause any `.yaml` generated on earlier versions that used song names in any way to no longer work as expected. They will need to be updated to follow the new format of `"(Song name)" by (Artist name) from (source)`&#13;
+&#13;
+## What's Changed&#13;
+* 70 add go down in history setlist by @energymaster22 in https://github.com/energymaster22/YARGArchipelago/pull/71&#13;
+&#13;
+&#13;
+**Full Changelog**: https://github.com/energymaster22/YARGArchipelago/compare/1.1.0...1.2.0</content>
+    <link href="https://github.com/energymaster22/YARGArchipelago/releases/tag/1.2.0"/>
   </entry>
 </feed>
