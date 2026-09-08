@@ -2,87 +2,11 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://raw.githubusercontent.com/silasary/apworlds/refs/heads/main/recent.atom</id>
   <title>Recent APWorlds</title>
-  <updated>2026-09-08T10:26:41.558827+00:00</updated>
+  <updated>2026-09-08T15:40:06.718539+00:00</updated>
   <author>
     <name>Silasary</name>
   </author>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
-  <entry>
-    <id>https://github.com/EdricY/Bouncy-Loot-God/releases/tag/be-102</id>
-    <title>Borderlands The Pre-Sequel v102</title>
-    <updated>2026-09-05T06:20:48+00:00</updated>
-    <author>
-      <name>EdricY</name>
-    </author>
-    <content>Want to test on the frontlines? Get the latest developments here. Higher likelihood of showstopping issues.&#13;
-Good luck out there, Slab!&#13;
-&#13;
-setup instructions on the home page and [readme](https://github.com/EdricY/Bouncy-Loot-God/blob/main/README.md)&#13;
-&#13;
-[sample yamls](https://github.com/EdricY/Bouncy-Loot-God/tree/main/sample-yamls)&#13;
-&#13;
-new stuff (since 0.5.5):&#13;
-- skip generic pizza spawn if check has been received&#13;
-- new travel targets at Hunter's Grotto Lodge and Windshear Start&#13;
-- new ramps to make DLCs more completable without jump&#13;
-- big reordering of checks&#13;
-- fully unlocked mode setting&#13;
-- base game story quests in fully unlocked mode</content>
-    <link href="https://github.com/EdricY/Bouncy-Loot-God/releases/tag/be-102"/>
-  </entry>
-  <entry>
-    <id>https://github.com/solida1987/Diablo-II-Archipelago/releases/tag/v3.9.19</id>
-    <title>Diablo II Archipelago v3.9.19</title>
-    <updated>2026-09-05T07:14:24+00:00</updated>
-    <author>
-      <name>solida1987</name>
-    </author>
-    <author>
-      <name>ꓘicka (AP logic)</name>
-    </author>
-    <author>
-      <name>Zoë (AP logic)</name>
-    </author>
-    <content>**Clear Kurast Sewers L2 asks for 5 kills, not 15.** The level is small and
-sparsely populated; a tester sat on 9 of 15 with the floor empty. Characters
-already past 5 kills complete it on their next kill in the level.
-
-Plugin stays at 1.2.19.
-</content>
-    <link href="https://github.com/solida1987/Diablo-II-Archipelago/releases/tag/v3.9.19"/>
-  </entry>
-  <entry>
-    <id>https://github.com/solida1987/Diablo-II-Archipelago/releases/tag/v3.9.20</id>
-    <title>Diablo II Archipelago v3.9.20</title>
-    <updated>2026-09-05T08:49:33+00:00</updated>
-    <author>
-      <name>solida1987</name>
-    </author>
-    <author>
-      <name>ꓘicka (AP logic)</name>
-    </author>
-    <author>
-      <name>Zoë (AP logic)</name>
-    </author>
-    <content>**Skill points no longer move between skills on relog.** At exit the mod reads
-each button's level out of the save file to reinvest it after the reset. The
-game writes those bytes in class-skill-list order, and the mod fills that
-list compactly, empty buttons skipped, so a button's level sits at "number of
-filled buttons before it", not at the button's own index. The mod read the
-wrong byte for every button after the first gap: one skill picked up another's
-level, the real owner read 0 and fell back to the click cache, and the pool
-clamp then zeroed the last row. Nothing was lost — the total was constant
-across cycles — but points wandered on every relog. The read now follows the
-same compact order the list is written in. Verified against a live log where
-save bytes 9 to 12 held exactly the levels of buttons 13, 20, 21 and 22.
-
-Points that ended up unspent are in your pool; spend them again once and
-they stay put.
-
-Plugin stays at 1.2.19.
-</content>
-    <link href="https://github.com/solida1987/Diablo-II-Archipelago/releases/tag/v3.9.20"/>
-  </entry>
   <entry>
     <id>https://github.com/TheNooodle/MinishootRandomizer/releases/tag/v0.6.0</id>
     <title>Minishoot Adventures v0.6.0</title>
@@ -835,7 +759,7 @@ Changes:&#13;
   </entry>
   <entry>
     <id>https://github.com/randomcodegen/ironwail_ap/releases/tag/1.2.0</id>
-    <title>Quake 1 v1.2.0</title>
+    <title>Quake 1 v1.2.0.post2</title>
     <updated>2026-09-07T07:42:58+00:00</updated>
     <author>
       <name>randomcodegen</name>
@@ -1593,5 +1517,54 @@ Or, alternatively,&#13;
 ## Chapter 4 &amp; 5&#13;
 - Excluded Rock Video options now correctly works</content>
     <link href="https://github.com/theemeraldsword85/DELTARUNEAP/releases/tag/v2.2.1"/>
+  </entry>
+  <entry>
+    <id>https://github.com/randomcodegen/ironwail_ap/releases/tag/1.2.1</id>
+    <title>Quake 1 v1.2.1</title>
+    <updated>2026-09-08T12:04:08+00:00</updated>
+    <author>
+      <name>randomcodegen</name>
+    </author>
+    <content>- Fixed YAML-less Universal Tracker support.&#13;
+- Added `ap_vanilla_items`. Set an item type to `1` to spawn its vanilla pickup when excluded from the seed, or `0` to disable it.&#13;
+- Fixed excluded multiplayer-only items appearing in single-player maps.</content>
+    <link href="https://github.com/randomcodegen/ironwail_ap/releases/tag/1.2.1"/>
+  </entry>
+  <entry>
+    <id>https://github.com/Frisk202020/Archipelago/releases/tag/0.0.9</id>
+    <title>Splasher v0.0.9</title>
+    <updated>2026-09-08T14:42:15+00:00</updated>
+    <author>
+      <name>Frisk</name>
+    </author>
+    <content># Splasher Archipelago (**v.0.0.9**) -- Checkpoint Sanity&#13;
+&#13;
+**This version requires to update the APWorld accordingly**&#13;
+&#13;
+**Don't forget to update your asset files**&#13;
+&#13;
+## Highlights&#13;
+&#13;
+### Checkpoint Sanity&#13;
+&#13;
+A new randomization layer has been added : checkpoints sanity. When enabled, each checkpoint in the game becomes a location and, optionally, needs a corresponding *item* to be triggered. Checkpoints items have different levels of relevance depending on your (*CheckpointSanity*) option :&#13;
+&#13;
+- `useful` : the item allows its checkpoint to save the level progression (essence, position). Upon dying, the player respawns to the farthest **unlocked** checkpoint. &#13;
+- `progression` : the item also allows to send uncollected splashers. With this option checkpoint items may appear in a seed's logic, although it is currently somewhat limited because level exits are not yet gated by items (this will be worked on in the next version).&#13;
+&#13;
+Checkpoint items, if enabled, can be added in the pool as :&#13;
+- **individual** items (one per checkpoint)&#13;
+- **level pack** items (one per level, unlocking all checkpoints in it)&#13;
+- **zone pack** items (one per zone, unlocking all checkpoints in it)&#13;
+&#13;
+### In-game item feedback&#13;
+&#13;
+A feature that I should've implemented way earlier, but the game finally shows a pop-up message when you receive an item. How this is implemented is quite similar to [Celeste Open World](https://archipelago.gg/games/Celeste%20(Open%20World)/info/en) : a pop-up appears for a few seconds on the top-center of your screen, lasting for a few seconds (defaults to 5s, can be adjusted in `connection.yaml`).&#13;
+&#13;
+## Additional features&#13;
+&#13;
+- Added an option to instantly collect splashers (without reaching a checkpoint). This is a **seed** option (not overridable in `connection.yaml`) because it affects the logic the randomizer.&#13;
+- You can know teleport towards the next checkpoint (if that checkpoint is unlocked), reducing runbacks.</content>
+    <link href="https://github.com/Frisk202020/Archipelago/releases/tag/0.0.9"/>
   </entry>
 </feed>
