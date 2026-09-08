@@ -2,42 +2,11 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://raw.githubusercontent.com/silasary/apworlds/refs/heads/main/recent.atom</id>
   <title>Recent APWorlds</title>
-  <updated>2026-09-08T01:51:40.136125+00:00</updated>
+  <updated>2026-09-08T10:26:41.558827+00:00</updated>
   <author>
     <name>Silasary</name>
   </author>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
-  <entry>
-    <id>https://github.com/IcyPenguin28/DotDAP/releases/tag/0.2.0</id>
-    <title>The Legend of Spyro: Dawn of the Dragon v0.2.0</title>
-    <updated>2026-09-05T03:50:52+00:00</updated>
-    <author>
-      <name>IcyPenguin_</name>
-    </author>
-    <author>
-      <name>Dragonsoul5000</name>
-    </author>
-    <content>## Additions:&#13;
-- Elements can now be shuffled into the item pool (excluding Fire and Poison, which the game selects on level load by default)&#13;
-- Added options to handle how elements are added to the item pool for both Spyro and Cynder&#13;
-- The ability to climb walls can now be shuffled into the item pool&#13;
-- The ability to run on walls can now be shuffled into the item pool&#13;
-- Elite enemy mask elements can now be randomized&#13;
-- Objectives are now location checks&#13;
-- The client now has a new icon courtesy of wheezingteapot&#13;
-## Changes:&#13;
-- Health Gem S/Mana Gem S items have been renamed to Small Health Gem/Small Mana Gem&#13;
-- All instances of the French "Remparts" in the location names have been changed to the English "Ramparts"&#13;
-## Fixes:&#13;
-- Issues with Death Link's implementation have been fixed.&#13;
-- Small Health Gems and Small Mana Gems are now clamped to Spyro's and Cynder's respective current maximum capacties for those resources.&#13;
-- Catacombs lock/unlock state is not reset by accident after pressing New Game/Load Game&#13;
-- Reconnecting to the multiworld no longer gives excess EXP from out of nowhere&#13;
-## Known Bugs:&#13;
-- Patches are lost when rebooting the game (#14)&#13;
-- Client always writes patches and items to memory when connecting to Archipelago regardless of game version (#13)</content>
-    <link href="https://github.com/IcyPenguin28/DotDAP/releases/tag/0.2.0"/>
-  </entry>
   <entry>
     <id>https://github.com/EdricY/Bouncy-Loot-God/releases/tag/be-102</id>
     <title>Borderlands The Pre-Sequel v102</title>
@@ -1433,5 +1402,196 @@ Or, alternatively,&#13;
 - Losing recruits no longer being able to reach tvworld (except for Zapper and pippins and shuttah so you don't have to replay board 2)&#13;
 - PhysicalChallengeSanity</content>
     <link href="https://github.com/theemeraldsword85/DELTARUNEAP/releases/tag/v2.2.0"/>
+  </entry>
+  <entry>
+    <id>https://github.com/Alchav/Archipelago/releases/tag/spicy-1.0.0</id>
+    <title>SM64: Spicy Mycena 64 v1.0.0</title>
+    <updated>2026-09-08T02:46:27+00:00</updated>
+    <author>
+      <name>Alchav</name>
+    </author>
+    <content>## Coin System&#13;
+&#13;
+- Permanent Coins is now the only coin-collection mode. The old `permanent_coin_collection` option has been removed.&#13;
+- `Coinsanity` has been renamed to **Coin Count Checks**. These remain threshold checks within each course.&#13;
+- Added **Coin Checks**, a percentage option that creates checks for individual physical coin outputs. Red and blue&#13;
+  coins each produce one check.&#13;
+- Added **Global Coin Count Checks**, which creates thresholds based on the combined permanent coin total of every&#13;
+  course and secret stage.&#13;
+- Added **Counts Coins Beyond Coin Stars**. When disabled, each course's contribution to the global total is capped at&#13;
+  its configured Coin Star maximum; when enabled, every collectible coin contributes.&#13;
+- Castle Grounds, Castle interior, and Castle Courtyard coins can be individual Coin Checks, but do not contribute to&#13;
+  course or global Coin Count Checks because those areas have no coin counter.&#13;
+- Secret-stage coin-count maximum options have been made hidden YAML options to reduce option bloat, and they default&#13;
+  to the maximum, as secret stages generally are not annoying to collect all coins in.&#13;
+&#13;
+## Entrance Shuffle&#13;
+&#13;
+- Replaced the single Entrance Randomizer option with four independent options:&#13;
+  - **Main Course Shuffle**: `vanilla`, `separate`, or `mixed`.&#13;
+  - **Secret Course Shuffle**: `vanilla`, `separate`, or `mixed`.&#13;
+  - **Sub-Area Shuffle**: `vanilla`, `separate`, `mixed`, or `mixed_decoupled`.&#13;
+  - **Castle Return Shuffle**: `vanilla`, `mixed`, or `death`.&#13;
+- Categories set to `separate` shuffle only within their own category. All categories set to `mixed` share one pool.&#13;
+- Sub-Area Shuffle `mixed` keeps sub-areas with reusable exits coupled to the corresponding return destination.&#13;
+  `mixed_decoupled` uses the same mixed pool but shuffles those entrances and exits independently.&#13;
+- The client tracks nested shuffled entrances with a return stack. Death, Exit Course, and Star/key exits return through&#13;
+  the route Mario actually entered, while vanilla Castle painting and course exits retain their normal presentation.&#13;
+  Re-entering a zone already on the return stack collapses the loop instead of growing the stack indefinitely.&#13;
+&#13;
+## Signs and Hints&#13;
+&#13;
+- Signs may contain hints!&#13;
+- Added **Sign Unlocks** with `not_shuffled`, `global`, `per_level`, and `both` modes. `Castle - Signs` covers signposts&#13;
+  and wall-mounted signs in the Castle Grounds, Castle interior, and Castle Courtyard.&#13;
+&#13;
+## Items and Item Pool&#13;
+&#13;
+- Removed the `1-Up Mushroom` filler item and replaced it with three progressive fillers:&#13;
+  - **Progressive Cap Length** adds 1% of vanilla duration to the shared cap timer per copy.&#13;
+  - **Progressive Breath** increases time between underwater, cold-water, and toxic-gas health drain by 1% per copy.&#13;
+  - **Progressive Damage Dodge** gives you an increasing chance to avoid damage.&#13;
+- Lives are no longer part of gameplay. Life displays and Game Over behavior are removed. A 1-Up fully heals Mario when&#13;
+  1-Up Checks are disabled.&#13;
+- Added a `both` mode to Cap Items, Level Features, Bob-omb Buddies, Coin Object Unlocks, Enemy Unlocks, 1-Up Unlocks,&#13;
+  Sign Unlocks, Bowser Arena Bombs, and Bowser Stage 1-Up Behavior where applicable. This places global and per-level&#13;
+  forms in the same pool.&#13;
+- Added separate secret-stage move items for BITDW, BITFS, BITS, VCUTM, COTMC, TOTWC, and WMOTR. The new **Combined&#13;
+  Castle and Secret Stage Move Items** option collapses these back into shared `Misc` moves.&#13;
+- Added level unlock items for Bob-omb Battlefield, The Princess's Secret Slide, The Secret Aquarium, and Cavern of the&#13;
+  Metal Cap. With Full Level Unlocks, COTMC's door becomes a large locked Star door; PSS and SA warps remain disabled&#13;
+  until unlocked.&#13;
+- Expanded level-feature unlocks with Vertical Wind, Horizontal Wind, Freestanding Stars, Star Blocks, Koopa Shell&#13;
+  Blocks, Star Secrets, Jet Streams, Cap Switches, and Dire, Dire Docks - Moat Exit.&#13;
+- Added progression or trick-dependent enemy/object unlocks for Bowsers, Bob-omb Battlefield's Chain Chomp,&#13;
+  Tiny-Huge Island's Wiggler, Wet-Dry World's Heave-Hos, and Shifting Sand Land's Tweesters.&#13;
+- Added hazard/trap unlocks for Klepto, Amps, Mad Piano, Haunted Chairs, Sushi Sharks, Bubbas, Tox Boxes, Bowling Balls,&#13;
+  Water Bombs, Boulders, Flamethrowers and Fire Bars, Bouncing Fireballs, Spindel, Falling Pillars, Fire Spitters, and&#13;
+  Bubs.&#13;
+- Klepto and Klepto with Star are independent SSL objects and unlock items. Both may be present at the same time.&#13;
+- Added separate **Castle - Boos** item for coin-producing Courtyard Boos. The Lobby Boo and BBH entrance Boo are&#13;
+  controlled by Unlock Big Boo's Haunt.&#13;
+- Bowser Arena Bombs are individually numbered instead of progressive. Global Bomb 1-4 unlock the corresponding bomb&#13;
+  in every arena; BITS has its own fifth bomb. Item-name groups support useful hints for global, per-level, and per-arena&#13;
+  bomb sets.&#13;
+- Mario's Hat becomes advancement when Lava Damage Boosting is enabled. If a hat-stealing enemy is unavailable, a lost&#13;
+  hat is restored so it cannot become permanently inaccessible.&#13;
+&#13;
+## Locations and Goals&#13;
+&#13;
+- Added individual Coin Check locations for all courses, secret stages, Bowser stages, and Castle areas.&#13;
+- Added Visit Checks for the player-visible zones: Castle floors, Castle Grounds/Courtyard, main courses, distinct&#13;
+  slides/caves/interiors, cap stages, Bowser stages, and Bowser arenas. Internal areas that do not look like a separate&#13;
+  zone, such as WDW Downtown and DDD's Bowser's Sub section, do not receive separate Visit Checks.&#13;
+- Added **Bowser in the Sky - Grand Star** when Completion Goal is All Bowser Stages. The final undefeated Bowser among&#13;
+  the three can start the ending sequence in whichever arena completes the goal.&#13;
+&#13;
+### New Tricks&#13;
+&#13;
+- Castle Lobby Backwards Long Jump Through the 8 Star Door (Hard).&#13;
+- The Princess's Secret Slide Coin Triggers 1-Up without Coin Markers (Easy).&#13;
+- Bob-omb Battlefield Island with Koopa Shell and Wing Cap (Easy).&#13;
+- Bob-omb Battlefield Chain Chomp Gate with Throwable Cork Box Clip (Hard).&#13;
+- Wet-Dry World Ground Pound Underwater Shocking Arrow Lifts Box (Easy).&#13;
+- Wet-Dry World Pedestal with Heave-ho (Easy).&#13;
+- Tall, Tall Mountain Upper Region with Spin Jump Off of Fly Guy (Easy).&#13;
+- Tall, Tall Mountain Breathtaking View from Bridge with Triple Jump from Below (Medium).&#13;
+- Rainbow Ride Fall to Tricky Triangles from Somewhere Over the Rainbow (Easy).&#13;
+- Rainbow Ride Fall to Tricky Triangles 1-Up from Somewhere Over the Rainbow (Medium).&#13;
+&#13;
+## Client and Interface&#13;
+&#13;
+- Added Trigger Sparkles: green for 1-Up triggers, purple for 1-Up butterfly spots, blue for hidden warps, and yellow&#13;
+  for Star Secrets and SSL pyramid triggers. Only available, unfinished triggers sparkle. Vanilla Star, 1-Up, shell,&#13;
+  and other sparkle effects remain on their original code path and colors. Idea from a patch by @ItzLoonie, implemented&#13;
+  independently.&#13;
+- Coin-producing enemies and objects, Star-producing objects, blocks, Bob-omb Buddies, Bowsers, signs, Monty Moles,&#13;
+  baby penguins, 1-Ups, and 1-Up blocks turn gray when all relevant rewards/checks are exhausted. Boos use the same&#13;
+  readable gray treatment. Cap blocks keep a colored border around a gray center so their type remains visible.&#13;
+- Added a single `CAP` timer for the shared vanilla cap timer. It stacks with race timers, disappears at zero, and&#13;
+  repositions its fractional display for three-digit seconds.&#13;
+- Cap stages ignore Progressive Cap Length for their automatically granted cap until that stage's cap item or the global&#13;
+  cap has been received.&#13;
+- Bowser-stage level-item menus display required Bowser health and the individually unlocked Bowser Bombs.&#13;
+- The level-items and camera menus remain available whenever paused; only course-exit commands require Mario to be&#13;
+  stationary.&#13;
+- Blast to the Stone Pillar uses a Star Block in the JP build to be consistent with the US version.&#13;
+- Fix for Better Camera Bowser-stage is applied automatically and no longer an optional patch.&#13;
+&#13;
+## Bug Fixes&#13;
+&#13;
+- Fixed permanent coin formations reappearing yellow and becoming collectible again after moving between loaded areas.&#13;
+  The old formation initialization restored only its behavior-parameter mask, not the server ledger's collected slots.&#13;
+- Fixed Red Coin counters getting ahead of the number physically collected, resetting after slides/sub-areas, or&#13;
+  requiring a reload to spawn the Star. The old code incremented the controller on interaction while separately&#13;
+  reconstructing the count by scanning only currently loaded Red Coin objects.&#13;
+- Fixed No Despawns granting coins on nonlethal surfaces and failing to grant some objects that actually reached a death&#13;
+  plane. The old code maintained separate approximate floor/death-barrier tests instead of using death-surface behavior.&#13;
+- Fixed spawned enemy/object coin outputs sharing, losing, or changing permanent source identities. The old generic loot&#13;
+  helper inferred one slot range from `oNumLootCoins`, which could not distinguish separate reward methods or inherited&#13;
+  child objects.&#13;
+- Fixed Whomps granting Ground Pound-only coins after repeated jumps. The old jump and Ground Pound rewards used the same&#13;
+  undifferentiated loot-slot assignment.&#13;
+- Fixed reconnect reconciliation duplicating live coins, checking uncollected giant-Goomba outputs, and failing to gray&#13;
+  some exhausted sources. The old reconciliation was a single boolean with no delay or semantic source catalog.&#13;
+- Fixed coin-related server disconnects caused by overlapping raw JSON sends. In 0.2.3, normal location sends and&#13;
+  permanent-ledger writes could independently call the AP transport without one serialized request path.&#13;
+- Fixed global and per-level 1-Up unlock behavior depending on whether 1-Up Checks was enabled. The old runtime returned&#13;
+  every source as unlocked whenever checks were disabled instead of treating received unlock items as authoritative.&#13;
+- Fixed Bowser-stage return/camera handling being bypassed entirely for BITS and the third Bowser arena. The old redirect&#13;
+  returned before applying any entrance handling for those levels.&#13;
+- Fixed exit and death camera views after entrance randomization. Camera cutscenes now use the physical entrance Mario&#13;
+  returns through instead of the randomized stage he exited, including Bowser exits, non-painting exits, and TTM's&#13;
+  special painting camera. Adapted from a patch by @soopercool101&#13;
+- Fixed Eyerok intermittently failing to appear or starting with only one hand when the object pool was temporarily full.&#13;
+  The old initialization attempted each hand once and advanced regardless of whether either spawn failed.&#13;
+- Fixed the DDD portal's visible barrier remaining forward after receiving the BITFS unlock.&#13;
+- Fixed the Metal Cap object inheriting custom Mario hat colors. Its metal display lists used the same mutable lights as&#13;
+  the ordinary cap instead of dedicated neutral metal lighting.&#13;
+</content>
+    <link href="https://github.com/Alchav/Archipelago/releases/tag/spicy-1.0.0"/>
+  </entry>
+  <entry>
+    <id>https://github.com/theemeraldsword85/DELTARUNEAP/releases/tag/v2.2.1</id>
+    <title>Deltarune v2.2.1</title>
+    <updated>2026-09-08T08:17:42+00:00</updated>
+    <author>
+      <name>Mewlif</name>
+    </author>
+    <author>
+      <name>theemeraldsword85</name>
+    </author>
+    <author>
+      <name>Tenebrosful</name>
+    </author>
+    <author>
+      <name>Vintagix</name>
+    </author>
+    <author>
+      <name>Deadzi</name>
+    </author>
+    <author>
+      <name>Charaster</name>
+    </author>
+    <author>
+      <name>Potato</name>
+    </author>
+    <author>
+      <name>TerraFail457</name>
+    </author>
+    <content>[Setup Guide](https://github.com/theemeraldsword85/DELTARUNEAP/blob/v2.2.0/worlds/deltarune/docs/setup_en.md) - [Q&amp;A](https://github.com/theemeraldsword85/DELTARUNEAP/blob/v2.2.0/worlds/deltarune/docs/en_DELTARUNE.md) - [Credits](https://github.com/theemeraldsword85/DELTARUNEAP/blob/main/worlds/deltarune/docs/DELTARUNEAP%20CREDITS.md)&#13;
+&#13;
+[Game Mod Releases](https://github.com/Tenebrosful/DeltaruneAP-mod/releases)&#13;
+Or, alternatively,&#13;
+[GameBanana Page](https://gamebanana.com/mods/699556)&#13;
+&#13;
+**INCOMPATIBLE WITH OLDER VERSION THAN 2.2.0**&#13;
+&#13;
+## All Chapters&#13;
+- 4rd Sanctuary and Knockdown (rhythm version) are no longer shuffled&#13;
+&#13;
+## Chapter 4 &amp; 5&#13;
+- Excluded Rock Video options now correctly works</content>
+    <link href="https://github.com/theemeraldsword85/DELTARUNEAP/releases/tag/v2.2.1"/>
   </entry>
 </feed>
