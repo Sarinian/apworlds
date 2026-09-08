@@ -2,68 +2,11 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://raw.githubusercontent.com/silasary/apworlds/refs/heads/main/recent.atom</id>
   <title>Recent APWorlds</title>
-  <updated>2026-09-08T15:40:06.718539+00:00</updated>
+  <updated>2026-09-08T20:33:44.220019+00:00</updated>
   <author>
     <name>Silasary</name>
   </author>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
-  <entry>
-    <id>https://github.com/TheNooodle/MinishootRandomizer/releases/tag/v0.6.0</id>
-    <title>Minishoot Adventures v0.6.0</title>
-    <updated>2026-09-05T09:10:41+00:00</updated>
-    <author>
-      <name>TheNouillet</name>
-    </author>
-    <content>## [0.6.0] - 2026-09-05&#13;
-&#13;
-### Added&#13;
-&#13;
-- A new setting called "Split Surf" has been added.&#13;
-    - When enabled, each water type requires its own Surf item to be navigable.&#13;
-    - When disabled, the normal Surf item unlocks navigation on all water types.&#13;
-    - Will replace Surf and 4 filler items.&#13;
-    - Water types are: Normal, Blue, Soiled, Dungeon and Gold.&#13;
-    - Logic has been adjusted to accomodate this new setting.&#13;
-    - Each surf items will be visible in the inventory.&#13;
-- A new setting called "Split Supershot" has been added.&#13;
-    - When enabled, the Supershot is broken down into 2 distinct items.&#13;
-    - Blastshot allows you to break rocks and walls.&#13;
-    - Flameshot allows you to light torches.&#13;
-    - Having one these two items will unlock Supershot for combat usage.&#13;
-    - When enabled, Supershot and one filler item will be replaced.&#13;
-    - Logic has been adjusted to accomodate this new setting.&#13;
-    - Both of these items will be visible in the inventory.&#13;
-- A new setting called "Primordial Crystal Activation Threshold" has been added.&#13;
-    - Set the Primordial Crystal activation threshold.&#13;
-    - If your current HP percentage is greater than or equal to this value and you have the Primordial Crystal, it will activate.&#13;
-    - This allows for more flexibility in the use of the Primordial Crystal, especially in combination with the "Enable Primordial Crystal Logic" option.&#13;
-    - This option does not affect logic. The value must be between 10 and 100.&#13;
-- A new setting called "Progressive Boost" has been added.&#13;
-    - When enabled, the game will fuse the Boost and the Advanced Energy module into two cumulative progressive upgrades.&#13;
-    - The first upgrade will always allow you to boost, and the second will reduce the energy cost of boosting.&#13;
-    - Note that both instances of Progressive Boost are marked as "Progression", although the second upgrade does not unlock any location.&#13;
-- A new setting called "Progressive Powers" has been added.&#13;
-    - When enabled, the game will fuse all powers and the corresponding idols into two cumulative progressive upgrades.&#13;
-    - The first upgrade will always allow you to use the corresponding power, and the second will grant you the idol's effect.&#13;
-    - Note that both instances of Progressive Power of protection are marked as "Progression", although the second upgrade does not unlock any location.&#13;
-- The APWorld now has a manifest.&#13;
-&#13;
-### Changed&#13;
-&#13;
-- **IMPORTANT** Some settings and location names have been renamed. See [docs/dev/history/0-6-0-renames.md](docs/dev/history/0-6-0-renames.md) for the full list.&#13;
-    - This means that you must change your YAML settings file for Archipelago. Refer to the file above for the replacements.&#13;
-- Fixed "Dungeon 3 - Behind North West doors" logic : now properly check for a way to use springboards&#13;
-    - Necessary to unlock the door to said location.&#13;
-- All shop locations requiring Super Crystals are now locked behind the same conditions as clearing Dungeon 5.&#13;
-    - As of now, there is no guarantee to have a sufficient amount of Super Crystals to buy the items you need.&#13;
-    - This is temporary, as work on this very subject will begin soon-ish.&#13;
-- When the goal is set to "Spirit Tower", the Golden Crystal Heart will now replace a filler item, instead of an Ancient Tablet.&#13;
-&#13;
-### Known issues&#13;
-&#13;
-- Rarely, when hovering between a piece of land and a piece of water, Minishoot can fall.</content>
-    <link href="https://github.com/TheNooodle/MinishootRandomizer/releases/tag/v0.6.0"/>
-  </entry>
   <entry>
     <id>https://github.com/solida1987/Diablo-II-Archipelago/releases/tag/v3.9.21</id>
     <title>Diablo II Archipelago v3.9.21</title>
@@ -1472,7 +1415,9 @@ Or, alternatively,&#13;
 - Fixed the DDD portal's visible barrier remaining forward after receiving the BITFS unlock.&#13;
 - Fixed the Metal Cap object inheriting custom Mario hat colors. Its metal display lists used the same mutable lights as&#13;
   the ordinary cap instead of dedicated neutral metal lighting.&#13;
-</content>
+&#13;
+## SM64ex hotfixes:&#13;
+- September 8: Fixed Tiny Island Impossible Coin assignment, was incorrectly mapped as Coin 3</content>
     <link href="https://github.com/Alchav/Archipelago/releases/tag/spicy-1.0.0"/>
   </entry>
   <entry>
@@ -1566,5 +1511,77 @@ A feature that I should've implemented way earlier, but the game finally shows a
 - Added an option to instantly collect splashers (without reaching a checkpoint). This is a **seed** option (not overridable in `connection.yaml`) because it affects the logic the randomizer.&#13;
 - You can know teleport towards the next checkpoint (if that checkpoint is unlocked), reducing runbacks.</content>
     <link href="https://github.com/Frisk202020/Archipelago/releases/tag/0.0.9"/>
+  </entry>
+  <entry>
+    <id>https://github.com/dlueben1/Slay-the-Spire-2-Archipelago/releases/tag/1.1.1</id>
+    <title>Slay the Spire II v1.1.0r2</title>
+    <updated>2026-09-08T15:13:41+00:00</updated>
+    <author>
+      <name>Kirbyfanner</name>
+    </author>
+    <author>
+      <name>Platano Bailando</name>
+    </author>
+    <author>
+      <name>Lyxn</name>
+    </author>
+    <author>
+      <name>MartyredG</name>
+    </author>
+    <author>
+      <name>Terairk</name>
+    </author>
+    <content># Fixes&#13;
+- Crash / blackscreen when save-quitting while AP menu is open&#13;
+- Kaleidoscope now correctly gives 3 card rewards from other characters (instead of 0, 1, 2 cards depending on your unlocked characters)&#13;
+- Hopefully fix the issue when connecting to an older APworld and not sending any checks (in my testing it didn't work for some reason and then worked when i restart - I would not be surprised if it showed up again&#13;
+- Fix the behaviour where Silver Crucible, Silken Tress etc did not work correctly - they now consume upon viewing a Card Reward for the first time - opposes base game behaviour&#13;
+- One of the above hopefully fixes the ancient relics breaking (I didn't notice them breaking in my testing)&#13;
+&#13;
+I didn't do a full 100% thorough test so maybe some other random features broke.&#13;
+&#13;
+# Mod Information&#13;
+&#13;
+## Pre-Requisites&#13;
+&#13;
+- **Your host MUST use Archipelago Client v0.6.7+**.&#13;
+- This version of the mod is intended to be used for **v0.107.1**  of Slay the Spire II&#13;
+  - While we have experimental support for the public beta branch **v0.111.0**, we recommend **the "Default Public/Main Version"** of the game to most players. Since the beta branch is updated more frequently and is more volatile, it's less likely to be bug-free. Please use it at your own risk. However numerous players have used it just fine, @Terairk is the maintainer for this and he mostly develops here.&#13;
+  - We will do our best to keep up with game updates as they release, so please be patient when encountering issues.&#13;
+&#13;
+## Installing the Mod from Steam Workshop (Recommended)&#13;
+&#13;
+1. Ensure that you have [RitsuLib](https://steamcommunity.com/sharedfiles/filedetails/?id=3747602295) installed. The easiest way to obtain it is from Steam Workshop.&#13;
+2. Subscribe to the [Slay the Spire II Archipelago Client](https://steamcommunity.com/sharedfiles/filedetails/?id=3748826296) on Steam Workshop.&#13;
+3. Make sure that any other unnecessary mods are turned off, unless you're trying to use a specific modded character for your Archipelago session.&#13;
+4. Start the game&#13;
+&#13;
+## Manually Installing the Mod from GitHub&#13;
+&#13;
+1. Ensure that you have [RitsuLib](https://steamcommunity.com/sharedfiles/filedetails/?id=3747602295) installed. The easiest way to obtain it is from Steam Workshop.&#13;
+2. Download the "Archipelago.zip" from the [Releases](https://github.com/dlueben1/Slay-the-Spire-2-Archipelago/releases/latest) section of the Repo&#13;
+3. Go to your Slay the Spire II directory (In Steam, click "Browse Local Files")&#13;
+4. If a folder called `mods` does not exist, create it&#13;
+5. Copy the `Archipelago.zip` into `mods`. Then click `extract all` on your favourite ZIP tool.&#13;
+&#13;
+- If you've done this step correctly, your directory structure should look like this: `/&lt;slay-the-spire-2-local-files&gt;/mods/Archipelago/` and the contents of that folder should be a bunch of `.dll` files and a `.pck` file (there may be more files too, please don't touch anything in this folder)&#13;
+&#13;
+6. Start the game&#13;
+&#13;
+### Additional Steps for **Hosts**&#13;
+&#13;
+7. Download `spire2.apworld`&#13;
+8. Open your Archipelago Launcher&#13;
+9. Click "Install APWorld"&#13;
+10. Select `spire2.apworld` in the file dialog that pops up&#13;
+11. **Restart the Archipelago Launcher**&#13;
+12. Now you should be able to properly host/generate an Archipelago Session with StS 2&#13;
+&#13;
+- If you want to use `archipelago.gg` to host the game, generate it locally first following the steps above, then upload the `.zip` file from the `output` folder in your Archipelago installation&#13;
+&#13;
+&gt; [!IMPORTANT]&#13;
+&gt; You need to use Archipelago Version 0.6.7+ and CANNOT use earlier versions of Archipelago with this mod!&#13;
+</content>
+    <link href="https://github.com/dlueben1/Slay-the-Spire-2-Archipelago/releases/tag/1.1.1"/>
   </entry>
 </feed>
