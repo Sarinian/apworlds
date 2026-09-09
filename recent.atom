@@ -2,173 +2,14 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://raw.githubusercontent.com/silasary/apworlds/refs/heads/main/recent.atom</id>
   <title>Recent APWorlds</title>
-  <updated>2026-09-08T20:33:44.220019+00:00</updated>
+  <updated>2026-09-09T02:05:28.998622+00:00</updated>
   <author>
     <name>Silasary</name>
   </author>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
   <entry>
-    <id>https://github.com/solida1987/Diablo-II-Archipelago/releases/tag/v3.9.21</id>
-    <title>Diablo II Archipelago v3.9.21</title>
-    <updated>2026-09-05T09:35:22+00:00</updated>
-    <author>
-      <name>solida1987</name>
-    </author>
-    <author>
-      <name>ꓘicka (AP logic)</name>
-    </author>
-    <author>
-      <name>Zoë (AP logic)</name>
-    </author>
-    <content>**Zone locks no longer follow you from one difficulty into another.** The
-mod keeps one lock table and built it once, at character load, from the
-difficulty stored in the state file. That is the difficulty of the previous
-session, not of the game being joined. A player who last saved in Hell and
-then made a Normal game got Hell's locks, nothing received there yet so
-everything shut, laid over Normal, and a final region they had already
-cleared was locked again. Keys received in the new game then poked holes in
-a table that belonged to a different difficulty.
-
-Character load now reads the difficulty from the live game before building
-the table and before the load-time reconcile, and every difficulty change
-during play rebuilds the table from that difficulty's own keys. Quest
-completions, area kills, gate-boss kills, waypoints, level milestones and
-gate-key receipts were already tracked per difficulty; the lock table was
-the only piece that was not, so nothing else moves.
-
-Verified against a live log: character loaded with the stored difficulty 2
-(Hell), locks applied for Hell, first tick reported "Difficulty change: 2 -&gt;
-0" with no rebuild. That is the sequence this fixes.
-
-Plugin stays at 1.2.19.
-</content>
-    <link href="https://github.com/solida1987/Diablo-II-Archipelago/releases/tag/v3.9.21"/>
-  </entry>
-  <entry>
-    <id>https://github.com/Demorck/ClairObscur_APWorld/releases/tag/v0.4.3</id>
-    <title>Clair Obscur Expedition 33 v0.4.3</title>
-    <updated>2026-09-05T10:51:35+00:00</updated>
-    <author>
-      <name>Démorck</name>
-    </author>
-    <author>
-      <name>Yezzdia</name>
-    </author>
-    <author>
-      <name>Noeva</name>
-    </author>
-    <content/>
-    <link href="https://github.com/Demorck/ClairObscur_APWorld/releases/tag/v0.4.3"/>
-  </entry>
-  <entry>
-    <id>https://github.com/anonymous-heap/Archipelago/releases/tag/cvaos-apworld-2026.09.04</id>
-    <title>Castlevania - Aria of Sorrow v2026.9.4</title>
-    <updated>2026-09-05T12:31:16+00:00</updated>
-    <author>
-      <name>dem1995</name>
-    </author>
-    <content>Adds Advance Collection support&#13;
-&#13;
-Adds reception textboxes/sfx&#13;
-&#13;
-Provisional release to make sure there are no larger issues&#13;
-&#13;
-</content>
-    <link href="https://github.com/anonymous-heap/Archipelago/releases/tag/cvaos-apworld-2026.09.04"/>
-  </entry>
-  <entry>
-    <id>https://github.com/solida1987/Diablo-II-Archipelago/releases/tag/v3.9.22</id>
-    <title>Diablo II Archipelago v3.9.22</title>
-    <updated>2026-09-05T15:14:40+00:00</updated>
-    <author>
-      <name>solida1987</name>
-    </author>
-    <author>
-      <name>ꓘicka (AP logic)</name>
-    </author>
-    <author>
-      <name>Zoë (AP logic)</name>
-    </author>
-    <content>**Skill trees with more than 255 points now come back whole on relog.** The
-save file's skill-point pool is an 8-bit field, so at exit anything above
-255 goes to a ledger in the state file and the save keeps 255. At character
-load the mod rebuilds the reinvest list and budgeted it against the save
-alone: a player who owned 697 points had six buttons queued and twelve
-dropped. The dropped points resurfaced later as free pool from the ledger,
-so nothing was destroyed, but most of the tree emptied on every relog. The
-ledger is now part of the budget.
-
-**Reinvested points are always paid for.** Each point applied during the
-reinvest is taken from the live pool, and from the ledger once the pool is
-at zero. Before, a point the pool could not cover was applied without being
-paid for, and the ledger later handed the same point back as free pool.
-
-**Three verification passes after every reinvest.** A few seconds after the
-points are applied, again when the character first moves, and again on the
-first mouse click, the mod reads each reinvested skill's level back from the
-live character. A skill found below the level that was applied is topped up
-through the same path and paid for the same way. The passes log
-`REINVEST AUDIT` lines with ok/low/missing counts, pool and ledger, so a
-future report can be checked against the log. A skill the player has raised
-above the applied level is left alone.
-
-Verified against a live log: cache held 18 buttons totalling 697 points,
-save pool 255, ledger 442; six buttons were reinvested and the ledger then
-refilled the pool to 255.
-
-Plugin stays at 1.2.19.
-</content>
-    <link href="https://github.com/solida1987/Diablo-II-Archipelago/releases/tag/v3.9.22"/>
-  </entry>
-  <entry>
-    <id>https://github.com/lepideble/factorio-apworld/releases/tag/platformer-0.4.5</id>
-    <title>Factorio: Platformer v0.4.5</title>
-    <updated>2026-09-05T15:40:59+00:00</updated>
-    <author>
-      <name>lepideble</name>
-    </author>
-    <content>## Fixes&#13;
-* Sort item pool to fix mismatched checksum error in UT by @lepideble in https://github.com/lepideble/factorio-apworld/pull/70&#13;
-* Fix an error loading the world on older python version @lepideble in https://github.com/lepideble/factorio-apworld/pull/71&#13;
-&#13;
-&#13;
-**Full Changelog**: https://github.com/lepideble/factorio-apworld/compare/platformer-0.4.4...platformer-0.4.5</content>
-    <link href="https://github.com/lepideble/factorio-apworld/releases/tag/platformer-0.4.5"/>
-  </entry>
-  <entry>
-    <id>https://github.com/solida1987/Diablo-II-Archipelago/releases/tag/v3.9.23</id>
-    <title>Diablo II Archipelago v3.9.23</title>
-    <updated>2026-09-05T16:09:54+00:00</updated>
-    <author>
-      <name>solida1987</name>
-    </author>
-    <author>
-      <name>ꓘicka (AP logic)</name>
-    </author>
-    <author>
-      <name>Zoë (AP logic)</name>
-    </author>
-    <content>**Monster shuffle leaves every revivable family alone.** A tester crashed in
-the Great Marsh with an access violation inside the game's own unit lookup.
-The minidump shows the unit was a flayer whose monstats row had been given
-another monster's record by the shuffle, while the flayer shamans, which
-the shuffle already skips, still revive that row. The fallen family had
-been protected against exactly this since the sliding-corpse report; the
-other families a reviver raises had not. Flayers and blowgun flayers
-(fetish shamans), zealots (cantors), mummies (greater mummies) and
-reanimated hordes, which rise on their own, now keep their own rows. The
-greater mummies themselves are skipped as well.
-
-The change only removes swaps, so a running seed keeps every check; a few
-monsters in Act 2, 3 and 5 look like themselves again.
-
-Plugin stays at 1.2.19.
-</content>
-    <link href="https://github.com/solida1987/Diablo-II-Archipelago/releases/tag/v3.9.23"/>
-  </entry>
-  <entry>
     <id>https://github.com/Mickemoose/peak-archipelago/releases/tag/0.6.2</id>
-    <title>PEAK v0.6.2</title>
+    <title>PEAK v0.6.2.post2</title>
     <updated>2026-09-05T18:01:44+00:00</updated>
     <author>
       <name>ArchipelagoBrad</name>
@@ -179,7 +20,7 @@ Plugin stays at 1.2.19.
     <author>
       <name>Mickemoose</name>
     </author>
-    <content>## v0.6.2 latest patch support (RELEASE CANDIDATE)&#13;
+    <content>## v0.6.2 latest patch support &#13;
 &#13;
 **May POTENTIALLY be compatible with previously generated worlds**&#13;
 &#13;
@@ -191,6 +32,10 @@ Plugin stays at 1.2.19.
     &lt;li&gt;New option Item Spawns: when Item Sanity is &lt;b&gt;off&lt;/b&gt;, every item with an Acquire check is added to the pool as a useful item that spawns in front of you when received (Scout's Honor excluded)&lt;/li&gt;&#13;
     &lt;li&gt;The Scoutmaster's Soul only orbits you while you are in the Nadir if received&lt;/li&gt;&#13;
     &lt;li&gt;Support fixes for the latest patch&lt;/li&gt;&#13;
+    &lt;li&gt;New option Multiplayer Only Items: choose whether the multiplayer-only items appear in loot pools (Fanny Pack excluded)&lt;/li&gt;&#13;
+    &lt;li&gt;Rule Zero Badge is now a hard badge; Medieval History, Exorcist and Bellringer are now biome badges&lt;/li&gt;&#13;
+    &lt;li&gt;Trap fixes&lt;/li&gt;&#13;
+    &lt;li&gt;Anti Sphere fix&lt;/li&gt;&#13;
 &lt;/ul&gt;&#13;
 &#13;
 ### Notes/Known Issues&#13;
@@ -506,6 +351,25 @@ Fixed an issue where save points could not be interacted with in heist mode&#13;
 - Receiving a passive point cap increase does not update the available passive points until a passive is toggled on or off.&#13;
 - Mods that change the text scrolls (such as the intro in spawning meadows) may result in unexpected behaviour</content>
     <link href="https://github.com/Emerassi/CrystalProjectAPWorld/releases/tag/CrystalProject-v0.18.0"/>
+  </entry>
+  <entry>
+    <id>https://github.com/Emerassi/CrystalProjectAPWorld/releases/tag/CrystalProject-v0.18.1</id>
+    <title>Crystal Project v0.18.0r2</title>
+    <updated>2026-09-06T15:52:28+00:00</updated>
+    <author>
+      <name>Dragons but also Rabbits, FabulaFey, Emerassi</name>
+    </author>
+    <content>### **Crystal Project v.0.18.1**&#13;
+&lt;https://github.com/Emerassi/CrystalProjectAPWorld/releases&gt;&#13;
+&#13;
+### 🚨 Bug Fixes 🚨&#13;
+Fixed shop items being purchasable in vanilla shopsanity but not added to inventory&#13;
+Fixed heist mode not showing the extreme regionsanity countdown&#13;
+&#13;
+### KNOWN ISSUES&#13;
+- Receiving a passive point cap increase does not update the available passive points until a passive is toggled on or off.&#13;
+- Mods that change the text scrolls (such as the intro in spawning meadows) may result in unexpected behaviour</content>
+    <link href="https://github.com/Emerassi/CrystalProjectAPWorld/releases/tag/CrystalProject-v0.18.1"/>
   </entry>
   <entry>
     <id>https://github.com/nielrenned/PokemonSnap_Archipelago/releases/tag/v0.7.0</id>
@@ -1583,5 +1447,73 @@ I didn't do a full 100% thorough test so maybe some other random features broke.
 &gt; You need to use Archipelago Version 0.6.7+ and CANNOT use earlier versions of Archipelago with this mod!&#13;
 </content>
     <link href="https://github.com/dlueben1/Slay-the-Spire-2-Archipelago/releases/tag/1.1.1"/>
+  </entry>
+  <entry>
+    <id>https://github.com/jm771/apworld_crossword/releases/tag/v0.1.6</id>
+    <title>Crossword v0.0.0r2</title>
+    <updated>2026-09-09T00:01:09+00:00</updated>
+    <author>
+      <name>JHeard</name>
+    </author>
+    <content>Bug fix - support for using characters in the upper half of the latin-1 encoding</content>
+    <link href="https://github.com/jm771/apworld_crossword/releases/tag/v0.1.6"/>
+  </entry>
+  <entry>
+    <id>https://github.com/lastingParadox/Archipelago-CotND/releases/tag/v0.8.2</id>
+    <title>Crypt of the NecroDancer v0.8.2</title>
+    <updated>2026-09-09T01:16:49+00:00</updated>
+    <author>
+      <name>lastingParadox</name>
+    </author>
+    <content>### Notes&#13;
+- **This update requires AP Redux mod v4.1.0 or newer.** While this is mainly a fix for the vendored ZStandard code causing the Client to crash on some operating systems, support for the Marv Trap requires a mod version update.&#13;
+  - **In-progress multiworlds can be carried over to v0.8.2, however.**&#13;
+&#13;
+### Changes&#13;
+- Add Marv Trap as a possible trap item.&#13;
+- Modify iteration strategy for finding the appropriate zstandard version dependent on python version and operating system&#13;
+- Delete ~60 MB (~17 MB zipped) of unreferenced `.cffi` and `.so` files in the vendored zstandard versions&#13;
+&#13;
+Please see the [setup file](https://github.com/lastingParadox/Archipelago-CotND/blob/crypt-of-the-necrodancer/worlds/cotnd/docs/setup_en.md) for getting started.&#13;
+&#13;
+Please inform me of any issues through the associated [Crypt of the NecroDancer channel in the Archipelago Discord](https://discord.com/channels/731205301247803413/1192775219740422176) or through [GitHub Issues](https://github.com/lastingParadox/Archipelago-CotND/issues).</content>
+    <link href="https://github.com/lastingParadox/Archipelago-CotND/releases/tag/v0.8.2"/>
+  </entry>
+  <entry>
+    <id>https://github.com/Silvris/Archipelago/releases/tag/k64_0.4.0</id>
+    <title>Kirby 64 - The Crystal Shards v0.4.0</title>
+    <updated>2026-09-09T01:23:32+00:00</updated>
+    <author>
+      <name>Silvris</name>
+    </author>
+    <content># New Features&#13;
+* Boss Shuffle&#13;
+  * Supports plando placement, identical to Kirby's Dream Land 3 (see AP plando guide for more info)&#13;
+* When enough crystals have been acquired for goal, friend status will be placed in the client display instead.&#13;
+&#13;
+# Bug Fixes&#13;
+* Rules were moved to Rule Builder.&#13;
+* An issue where Adeleine in Pop Star 3 did not logically require Adeleine was fixed&#13;
+* The number of valid abilities for the Shard/consumables at the end of Ripple Star 2 were reduced&#13;
+* Added missing Sandwich check in Aqua Star 2&#13;
+* Fixed the third sandwich in Rock Star 2 being missing&#13;
+* Fixed an issue where the opening cutscene would play again immediately following the post-Whispy Woods cutscene&#13;
+* Added additional checks before sending deathlinks</content>
+    <link href="https://github.com/Silvris/Archipelago/releases/tag/k64_0.4.0"/>
+  </entry>
+  <entry>
+    <id>https://github.com/ChakraaThePanda/Archipelago-Northgard/releases/tag/2026.09.08</id>
+    <title>Northgard v2026.9.8</title>
+    <updated>2026-09-09T01:35:03+00:00</updated>
+    <author>
+      <name>Chakraa</name>
+    </author>
+    <content>### Added&#13;
+- New Useful/Filler items: Resources (Krowns, Food, Wood, Lore/Faith, Stone, Iron, Military Experience/Hunting Trophies). Each one comes as two item types:&#13;
+  - A filler item like "100 Food" gives you that amount instantly the moment you receive it, but only while you're online and playing. It's forfeited if you're not around to catch it.&#13;
+  - A "Starting X" item like "50 Starting Food" is a permanent, one-time bonus: once you get it, you'll start with that extra amount at the beginning of every battle you play from then on, whether you were online to receive it or not.&#13;
+&#13;
+**Full Changelog**: https://github.com/ChakraaThePanda/Archipelago-Northgard/compare/2026.09.04...2026.09.08</content>
+    <link href="https://github.com/ChakraaThePanda/Archipelago-Northgard/releases/tag/2026.09.08"/>
   </entry>
 </feed>
