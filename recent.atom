@@ -2,108 +2,11 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://raw.githubusercontent.com/silasary/apworlds/refs/heads/main/recent.atom</id>
   <title>Recent APWorlds</title>
-  <updated>2026-09-10T10:22:23.126382+00:00</updated>
+  <updated>2026-09-10T15:32:22.027959+00:00</updated>
   <author>
     <name>Silasary</name>
   </author>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
-  <entry>
-    <id>https://github.com/Tincancrafter/Red-Prince-Releases/releases/tag/v1.0.14</id>
-    <title>Red Prince v1.0.14</title>
-    <updated>2026-09-08T03:25:16+00:00</updated>
-    <author>
-      <name>deefdragon</name>
-    </author>
-    <author>
-      <name>BatmenzDW</name>
-    </author>
-    <content># Red Prince 1.0.14
-
-## Gameplay and logic
-
-- Fixed unreceived outer rooms appearing with Outer Room Sanity enabled.
-- Added Closet fallback choices when too few eligible outer rooms are
-  available for the draft.
-- Fixed selecting a Closet placing Tomb instead. Outer-room filtering and
-  Closet placement have been confirmed working in-game.
-- Added outer-draft logging to help diagnose selection and placement issues.
-
-## Inventory - attempted fixes
-
-- Attempted to prevent simple inventory items from being granted again while
-  carried or stored in Coat Check. In-game confirmation is still pending.
-- Attempted to suppress completed microchip world pickups after day-start
-  restoration. A user still saw the Blackbridge chip while holding all three
-  chips, so the duplication issue remains unresolved.
-- Added null checks around microchip pickup suppression when scene objects
-  are unavailable.
-- Upgrade-disk duplication through Coat Check remains unresolved; disks use
-  a separate persistence path from simple inventory items.
-
-## Known issues
-
-- A user reported a crash while attempting to place microchips. The user is
-  unsure what caused it, and the available logs do not establish a cause.
-- An extra Blackbridge chip was visible before the crash, but whether it was
-  collected is unknown. No causal link to duplication or the attempted fix
-  has been confirmed. This update does not claim to fix the crash.
-
-## Check names and documentation
-
-- Renamed the microchip checks to Microchip - West Path, Microchip - Front
-  Entrance, and Microchip - Blackbridge Grotto.
-- The plugin continues to recognize the previous microchip check names.
-- Corrected Common Locked Trunks documentation to clarify that Bedroom and
-  Den do not have trunk checks.
-
-## Compatibility
-
-- Archipelago 0.6.7 or newer.
-- The 1.0.14 game plugin and 1.0.14 APWorld should be distributed together.
-</content>
-    <link href="https://github.com/Tincancrafter/Red-Prince-Releases/releases/tag/v1.0.14"/>
-  </entry>
-  <entry>
-    <id>https://github.com/JDLKMR/SpaceEngine-APManual/releases/tag/v1.0.0</id>
-    <title>Manual_SpaceEngine_JD v1.0.0</title>
-    <updated>2026-09-08T06:18:25+00:00</updated>
-    <author>
-      <name>JDLKMR</name>
-    </author>
-    <content/>
-    <link href="https://github.com/JDLKMR/SpaceEngine-APManual/releases/tag/v1.0.0"/>
-  </entry>
-  <entry>
-    <id>https://github.com/JDLKMR/SpaceEngine-APManual/releases/tag/v1.0.1</id>
-    <title>Manual_SpaceEngine_JD v1.0.1</title>
-    <updated>2026-09-08T06:18:25+00:00</updated>
-    <author>
-      <name>JDLKMR</name>
-    </author>
-    <content>- Added Kepler-22 and Kepler-22 b</content>
-    <link href="https://github.com/JDLKMR/SpaceEngine-APManual/releases/tag/v1.0.1"/>
-  </entry>
-  <entry>
-    <id>https://github.com/JDLKMR/SpaceEngine-APManual/releases/tag/v1.1.0</id>
-    <title>Manual_SpaceEngine_JD v1.1.0</title>
-    <updated>2026-09-08T06:18:25+00:00</updated>
-    <author>
-      <name>JDLKMR</name>
-    </author>
-    <content>- Adjusted goal from APM 08279+5255 to TON 618, a quasar with one of the largest black holes ever known, and even further away.&#13;
-- Added "Quasars" category for appropriate objects.</content>
-    <link href="https://github.com/JDLKMR/SpaceEngine-APManual/releases/tag/v1.1.0"/>
-  </entry>
-  <entry>
-    <id>https://github.com/JDLKMR/The-Impossible-Game-APManual/releases/tag/v1.0.0</id>
-    <title>Manual_TheImpossibleGame_JD v1.0.0</title>
-    <updated>2026-09-08T06:39:25+00:00</updated>
-    <author>
-      <name>JDLKMR</name>
-    </author>
-    <content/>
-    <link href="https://github.com/JDLKMR/The-Impossible-Game-APManual/releases/tag/v1.0.0"/>
-  </entry>
   <entry>
     <id>https://github.com/JDLKMR/The-Impossible-Game-APManual/releases/tag/v1.0.1</id>
     <title>Manual_TheImpossibleGame_JD v1.0.1</title>
@@ -1330,7 +1233,7 @@ The implementation now has proper [documentation](https://github.com/SerpentAI/A
   </entry>
   <entry>
     <id>https://github.com/dmwever/Ageipelago/releases/tag/v0.2.3</id>
-    <title>Age Of Empires II: Definitive Edition v0.0.1r2</title>
+    <title>Age Of Empires II: Definitive Edition v0.0.1r3</title>
     <updated>2026-09-10T02:36:50+00:00</updated>
     <author>
       <name>dmwever</name>
@@ -1367,7 +1270,7 @@ Should still be fully compatible with releases going back to 0.2.0.&#13;
   </entry>
   <entry>
     <id>https://github.com/Jbaker16163/Ark-Survival-Archipelago/releases/tag/v0.3</id>
-    <title>ARK Survival Evolved v1.0.0r2</title>
+    <title>ARK Survival Evolved v1.0.0r5</title>
     <updated>2026-09-10T03:23:40+00:00</updated>
     <author>
       <name>Jbaker16163</name>
@@ -1479,7 +1382,7 @@ I will be taking a break on adding new maps to the supported list as I am gettin
   </entry>
   <entry>
     <id>https://github.com/m-this/tf2-archipelago/releases/tag/nightly</id>
-    <title>Team Fortress 2 Mann vs Machine v1.12.0r2</title>
+    <title>Team Fortress 2 Mann vs Machine v1.12.0r3</title>
     <updated>2026-09-10T08:48:18+00:00</updated>
     <author>
       <name>mathis</name>
@@ -1488,7 +1391,7 @@ I will be taking a break on adding new maps to the supported list as I am gettin
 and it is replaced without warning. For something that stays put, use the
 [latest release](https://github.com/m-this/tf2-archipelago/releases/latest).
 
-Built from `3153ad63b8a5f35ba31948e47822db36759ee442`.
+Built from `62a5a1fe58e36de0555ebf4c5df8075beb57360e`.
 
 ## Downloads
 
@@ -1497,9 +1400,29 @@ Built from `3153ad63b8a5f35ba31948e47822db36759ee442`.
 
 ## Since v1.12.0
 
+- fix(web): keep the screens alive through a refusal, and the review's other findings
+- chore(launcher): untrack the fakelauncher binary
+- ci: name what a frontend target needs, once
+- ci: web-lint needs the generated code it lints against
+- ci: the web job needs the CA certificates to check anything out
+- fix(launcher): the archive a mission came from is the launcher's answer
+- fix(web): the settings footer follows the page on screen
 - fix(plugin): make disposable sentry buffs independent
+- fix(web): the screens now match the design they were drawn from
 - fix(webui): render session mission details
 - feat(launcher): find Archipelago on Linux
+- chore(beads): the browser launcher epic is done
+- fix(launcher): the policy refused the styles the log needs to scroll
+- docs: the launcher opens in a browser
+- test(web): vitest and Playwright over the fake launcher
+- feat(launcher): the browser is the only face
+- feat(web): the Admin Console design, the shell and the first screens
+- feat(launcher): the live state is a WebSocket
+- feat(launcher): ConnectRPC on the loopback mux
+- refactor(launcher): the launcher's core moves out of the web view
+- build: proto and the browser interface in the gate
+- feat(proto): the launcher's contract in proto/tf2ap/launcher/v1
+- feat(web): Angular 22 skeleton at launcher/web
 - fix(fastdl): clarify Linux Funnel onboarding
 </content>
     <link href="https://github.com/m-this/tf2-archipelago/releases/tag/nightly"/>
@@ -1526,5 +1449,164 @@ This is a pretty well tested version by now. Generation fails still might happen
 Please note: Since OoT is currently not shipped as a bundled .apworld file, but unpacked by the core AP releases, you will have to delete the lib/worlds/oot folder first before adding this custom apworld.&#13;
 Even after deletion, the "Open Patch" Workflow in AP currently still starts the OoT Client, even if you deleted the world. So make sure you have the correct "Ocarina of Time Client" open that references the APWorld 9.1.0 after patching, or patch directly through the new Adjuster. If your client says "Archipelago Ocarina of Time Client 0.6.x" in the top bar with no info about the apworld version, you are using the old client.</content>
     <link href="https://github.com/TreZc0/OoTR-APWorld/releases/tag/v9.1.0-release2"/>
+  </entry>
+  <entry>
+    <id>https://github.com/barretg/johnny-upgrade-ap/releases/tag/v1.4.1</id>
+    <title>Johnny Upgrade v1.4.1</title>
+    <updated>2026-09-10T12:28:52+00:00</updated>
+    <author>
+      <name>barretg</name>
+    </author>
+    <content>## Bug fixes&#13;
+* Coin bundles should be more stable&#13;
+* Johnny will no longer go into crippling debt</content>
+    <link href="https://github.com/barretg/johnny-upgrade-ap/releases/tag/v1.4.1"/>
+  </entry>
+  <entry>
+    <id>https://github.com/MaragonMH/Archipelago/releases/tag/XenoX0.2.9</id>
+    <title>Xenoblade X v0.2.9</title>
+    <updated>2026-09-10T13:14:12+00:00</updated>
+    <author>
+      <name>Maragon</name>
+    </author>
+    <author>
+      <name>Nina</name>
+    </author>
+    <content>- Fix generation issue without location locations&#13;
+- Fix error message during overfill</content>
+    <link href="https://github.com/MaragonMH/Archipelago/releases/tag/XenoX0.2.9"/>
+  </entry>
+  <entry>
+    <id>https://github.com/dlueben1/Slay-the-Spire-2-Archipelago/releases/tag/pre-release-mp-2.3.0</id>
+    <title>Slay the Spire II v2.0.0</title>
+    <updated>2026-09-10T14:31:09+00:00</updated>
+    <author>
+      <name>Kirbyfanner</name>
+    </author>
+    <author>
+      <name>Platano Bailando</name>
+    </author>
+    <author>
+      <name>Lyxn</name>
+    </author>
+    <author>
+      <name>MartyredG</name>
+    </author>
+    <author>
+      <name>Terairk</name>
+    </author>
+    <content>## Patch Notes compared to the previous 2.2.0 PRE-RELEASE&#13;
+- Support Bonus Items feature (from the mainline 1.1.0 Release. If you want to use the website to generate the yaml you sort of can: but you need to add a line for "player_count: 1", value can be 1-4.&#13;
+- Port the 1.1.1 fixes onto this branch such as the compatibility such as the relic fixes such as silken tress and silver crucible etc and make this work on multiplayer. &#13;
+- New card syncing architecture for multiplayer - this should be more clean and easier for me to maintain&#13;
+- Add proper support for Kaleidoscope, Colourful Philosophers and Prismatic Gem, they should now be closer to what most people expect.&#13;
+- Add support for local saves in singleplayer mode and depreciate AP server saves (they're now opt in and available via client settings)&#13;
+- Have support for up to 6 local checkpoints with a selector instead of 1 checkpoint (plans for maybe 9 but not sure) - this would require a lot of testing to get campfire saves before boss.&#13;
+- Add a connection status icon (looks ugly ik)&#13;
+- Actually upload the correct apworld version and what not this time so the connection won't silently fail.&#13;
+&#13;
+Manually Installing the Mod from GitHub&#13;
+Ensure that you have [RitsuLib](https://steamcommunity.com/sharedfiles/filedetails/?id=3747602295) installed. The easiest way to obtain it is from Steam Workshop.&#13;
+Download the "Archipelago.zip" from&#13;
+Go to your Slay the Spire II directory (In Steam, click "Browse Local Files")&#13;
+If a folder called mods does not exist, create it&#13;
+Unzip the contents of Archipelago.zip into mods&#13;
+If you've done this step correctly, your directory structure should look like this: /&lt;slay-the-spire-2-local-files&gt;/mods/Archipelago/ and the contents of that folder should be a bunch of .dll files and a .pck file (there may be more files too, please don't touch anything in this folder)&#13;
+</content>
+    <link href="https://github.com/dlueben1/Slay-the-Spire-2-Archipelago/releases/tag/pre-release-mp-2.3.0"/>
+  </entry>
+  <entry>
+    <id>https://github.com/dowlle/ctr-native-ap/releases/tag/v0.2.0</id>
+    <title>Crash Team Racing v0.2.0</title>
+    <updated>2026-09-10T14:36:33+00:00</updated>
+    <author>
+      <name>Dowlle</name>
+    </author>
+    <content># CTR-AP v0.2.0
+
+CTR-AP is an Archipelago integration for the native PC port of Crash Team Racing (PlayStation, 1999). It connects to Archipelago in-process, turns races, trophies, relics, tokens, gems and boss wins into checks, and delivers progression items through the multiworld.
+
+Start with the [CTR Archipelago setup guide](https://ap-pie.com/guides/ctr), then follow the [living SETUP.md](https://github.com/dowlle/ctr-native-ap/blob/main/SETUP.md) or the [SETUP.md shipped with v0.2.0](https://github.com/dowlle/ctr-native-ap/blob/v0.2.0/SETUP.md). This release uses the matching CTR-AP native client and apworld pair with schema 9. When generating a new game, use the matching 0.2.0 pair and fresh seeds.
+
+With much of my attention on my partner's recovery, I've relied more than usual on AI assistance for this release. Astra coordinated implementation, reviews and release preparation around plans and priorities we had already agreed on. Automated checks cover part of that work; community testing will help us find what they miss.
+
+## Full release notes
+
+The [full 0.2.0 release notes on AP-Pie](https://ap-pie.com/ctr/reference/0-2-0-release-notes) cover the new checks, progression, traps, goals and known limitations in more detail.
+
+## Setup, hosting and YAML help
+
+- [CTR setup guide](https://ap-pie.com/guides/ctr) and [CTR setup video on YouTube](https://youtu.be/9x63P6JP93E). The video predates 0.2.0; use the current downloads and written guide alongside it.
+- [Hosting guide](https://ap-pie.com/guides/hosting-a-multiworld) and [hosting walkthrough on YouTube](https://youtu.be/CpRbyRodayM).
+- [Build a 0.2.0 CTR YAML](https://ap-pie.com/yaml-builder/ctr?version=0.2.0), [written YAML guide](https://ap-pie.com/guides/setting-up-your-yaml), and [CTR reference](https://ap-pie.com/ctr/reference).
+
+I'm also making a dedicated CTR 0.2.0 YAML explanation video, coming soon.
+
+## Release highlights
+
+- A community-tested stable 0.2.0 client and matching apworld, with the major randomization and native integration work from the Alpha releases brought together.
+- Character unlocks and hub swapping, optional progressive stats and boost, expanded traps, and the in-race Turbo filler item are part of the 0.2.0 feature set.
+- More forgiving AP-box kart and direct-projectile contact. Some awkward placements can still remain; identifiable reports will help us address those individually.
+- Secure AP connections now verify the server's certificate name as well as its trust chain, and datapackage-cache paths reject unsafe components.
+- Recorded AI lap collection and playback are included as experimental features and remain off by default. Playback currently shares up to three recorded lines across opponents, so contributor names can repeat. Per-racer assignment, broader contributor-pool selection, finish-line smoothing and ordinary-crate interaction remain planned corrections for 0.2.1. Recorded AI cannot collect AP check boxes.
+- Setup documentation explains asset extraction, recorded-AI files and options, troubleshooting, and the local support-bundle workflow.
+
+## Bring your own disc
+
+This release ships no game data. Provide the game files from your own NTSC-U (North American) Crash Team Racing disc. PAL and Japanese discs are detected and refused. The supported raw formats are a `.cue` plus `.bin`, a raw `.bin`, or a `.chd`; a cooked 2048-byte `.iso` does not contain the required audio and video sectors. See the [setup guide](https://ap-pie.com/guides/ctr) for the player walkthrough and the [release SETUP.md](https://github.com/dowlle/ctr-native-ap/blob/v0.2.0/SETUP.md) for the exact versioned instructions.
+
+## Testing and support
+
+This is a community-tested 0.2.0 release. Automated coverage includes native harnesses, apworld unit tests, the full eleven-part generation fuzz matrix, and targeted connection/cache checks. These checks do not cover every gameplay or connect-time verifier scenario. Community testing will help extend that coverage, with reproduced issues and verified fixes feeding into matching 0.2.x client/apworld releases.
+
+## Known limitations
+
+- NTSC-U discs only. PAL and Japanese discs are not supported.
+- `.chd` images require `chdman` on your PATH.
+- Recorded AI is experimental, default-off, and currently has the shared-lane and finish-smoothing limitations described above.
+- Large reconnect backlogs still need gameplay coverage. Per-item console logging was reduced, but network parsing remains on the game thread; please include the support bundle if a reconnect causes a long freeze.
+- Optional checks for breaking every time crate in a Relic Race remain deferred to 0.2.1.
+- Generalized custom-track support is planned for 0.3.0. Development builds for that work are not part of this release.
+
+## Credits
+
+- The [CTR-tools CTR-ModSDK decompilation project](https://github.com/CTR-tools/CTR-ModSDK).
+- Icebound777 and Taor for the CTR randomizer work this integration builds on.
+- PsyCross for parts of the PlayStation platform layer.
+- SDL3 and the Archipelago client libraries.
+
+Crash Team Racing is a trademark of its respective rights holders. This is an unofficial fan project and is not affiliated with or endorsed by them.
+
+Parts of this project were developed with AI assistance. See the AI disclosure in the repository for details.
+
+## Download checksums
+
+| Asset | SHA-256 |
+|---|---|
+| `ctr-archipelago-v0.2.0-windows-x86.zip` | `f0198aeaaea187de8a7e639121628a6f51fc5fb3e6ef3023e58a10e41f0dc0e6` |
+| `ctr-archipelago-v0.2.0-linux-x86.tar.gz` | `c1ae14997aecceaf11afbf855e66b73b81fdf3aef7b578e2b1ecde0267b2f384` |
+| `ctr.apworld` | `d40fba25eac9ddf88fe47cfed7b73825d2a32d4f004f7b6467952b1442f5c685` |
+
+## Reporting a problem
+
+Please report crashes, freezes, connection problems, inaccessible checks, incorrect pad or box behavior, or other regressions through the [GitHub issue chooser](https://github.com/dowlle/ctr-native-ap/issues/new/choose). Include the client version, platform, seed or YAML, reproduction steps, and the local support bundle when relevant. The bundle is intended for inspection and does not upload automatically.
+
+Reports are welcome even when the cause is unclear. We will check the version, settings and reproduction evidence before deciding on a fix.
+</content>
+    <link href="https://github.com/dowlle/ctr-native-ap/releases/tag/v0.2.0"/>
+  </entry>
+  <entry>
+    <id>https://github.com/EpicPuppy613/Wynncraft-APWorld/releases/tag/v0.4.4</id>
+    <title>Wynncraft v0.4.4</title>
+    <updated>2026-09-10T14:55:35+00:00</updated>
+    <author>
+      <name>EpicPuppy613</name>
+    </author>
+    <content>**Compatible with Wynnpelago v0.4.4+**&#13;
+&#13;
+- Slight options reorganization&#13;
+  - New category "QOL"&#13;
+- Various logic fixes</content>
+    <link href="https://github.com/EpicPuppy613/Wynncraft-APWorld/releases/tag/v0.4.4"/>
   </entry>
 </feed>
