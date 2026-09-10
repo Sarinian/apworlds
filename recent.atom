@@ -2,263 +2,11 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://raw.githubusercontent.com/silasary/apworlds/refs/heads/main/recent.atom</id>
   <title>Recent APWorlds</title>
-  <updated>2026-09-10T02:02:05.568337+00:00</updated>
+  <updated>2026-09-10T10:22:23.126382+00:00</updated>
   <author>
     <name>Silasary</name>
   </author>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
-  <entry>
-    <id>https://github.com/theemeraldsword85/DELTARUNEAP/releases/tag/v2.2.0</id>
-    <title>Deltarune v2.2.0</title>
-    <updated>2026-09-08T01:26:52+00:00</updated>
-    <author>
-      <name>Mewlif</name>
-    </author>
-    <author>
-      <name>theemeraldsword85</name>
-    </author>
-    <author>
-      <name>Tenebrosful</name>
-    </author>
-    <author>
-      <name>Vintagix</name>
-    </author>
-    <author>
-      <name>Deadzi</name>
-    </author>
-    <author>
-      <name>Charaster</name>
-    </author>
-    <author>
-      <name>Potato</name>
-    </author>
-    <author>
-      <name>TerraFail457</name>
-    </author>
-    <content>[Setup Guide](https://github.com/theemeraldsword85/DELTARUNEAP/blob/v2.2.0/worlds/deltarune/docs/setup_en.md) - [Q&amp;A](https://github.com/theemeraldsword85/DELTARUNEAP/blob/v2.2.0/worlds/deltarune/docs/en_DELTARUNE.md) - [Credits](https://github.com/theemeraldsword85/DELTARUNEAP/blob/main/worlds/deltarune/docs/DELTARUNEAP%20CREDITS.md)&#13;
-&#13;
-[Game Mod Releases](https://github.com/Tenebrosful/DeltaruneAP-mod/releases)&#13;
-Or, alternatively,&#13;
-[GameBanana Page](https://gamebanana.com/mods/699556)&#13;
-&#13;
-**INCOMPATIBLE WITH OLDER VERSION**&#13;
-&#13;
-# Client&#13;
-- Fix auto_patch for linux&#13;
-- Updated Overview map tracker&#13;
-&#13;
-# All Chapters&#13;
-- DeathlinkGroup Support&#13;
-- Add PinkTwinRibbonUnnerf option&#13;
-- Only useful and progression items are in the itempool before the filler phase, meaning filler item can not be in itempool at all now&#13;
-- Change Traps from uncommon to rare by default&#13;
-- OST Shuffler option&#13;
-- Fix white ribbon and glowwrist with starting equipement logic&#13;
-- Logic Difficulty (SpeedrunGlitchesAsLogic, NoHitAsLogic, AnnoyingFarmingAsLogic)&#13;
-&#13;
-# Chapter 1&#13;
-- Donation hole is now a location&#13;
-&#13;
-# Chapter 2&#13;
-- Unused item is no longer in item pool when hidden items are enabled&#13;
-- Add Silver Watch in the itempool&#13;
-- FrayedBowtie is now a filler item again&#13;
-- Everybody weapon no longer always have noelle one if chapter 2 is not included&#13;
-- Fix weird route logic&#13;
-&#13;
-# Chapter 3&#13;
-- Add Pipis in itempool&#13;
-- Losing recruits no longer being able to reach tvworld (except for Zapper and pippins and shuttah so you don't have to replay board 2)&#13;
-- PhysicalChallengeSanity</content>
-    <link href="https://github.com/theemeraldsword85/DELTARUNEAP/releases/tag/v2.2.0"/>
-  </entry>
-  <entry>
-    <id>https://github.com/Hitmanty/S.T.A.L.K.E.R-2-Archipelago/releases/tag/Bugfixpre</id>
-    <title>S.T.A.L.K.E.R. 2: Heart of Chornobyl v0.0.1</title>
-    <updated>2026-09-08T01:41:07+00:00</updated>
-    <author>
-      <name>Hitmanty</name>
-    </author>
-    <content>Updated item giving to automatic instead of a button press&#13;
-fixed a few bugs</content>
-    <link href="https://github.com/Hitmanty/S.T.A.L.K.E.R-2-Archipelago/releases/tag/Bugfixpre"/>
-  </entry>
-  <entry>
-    <id>https://github.com/Hitmanty/S.T.A.L.K.E.R-2-Archipelago/releases/tag/Bugfixpreagain</id>
-    <title>S.T.A.L.K.E.R. 2: Heart of Chornobyl v0.0.2</title>
-    <updated>2026-09-08T01:41:07+00:00</updated>
-    <author>
-      <name>Hitmanty</name>
-    </author>
-    <content>Item grant missing items bugfix&#13;
-Added New items like grenades</content>
-    <link href="https://github.com/Hitmanty/S.T.A.L.K.E.R-2-Archipelago/releases/tag/Bugfixpreagain"/>
-  </entry>
-  <entry>
-    <id>https://github.com/Hitmanty/S.T.A.L.K.E.R-2-Archipelago/releases/tag/Releases</id>
-    <title>S.T.A.L.K.E.R. 2: Heart of Chornobyl v1</title>
-    <updated>2026-09-08T01:41:07+00:00</updated>
-    <author>
-      <name>Hitmanty</name>
-    </author>
-    <content>Pre release test with three goals, and some checks, please provide feedback&#13;
-&#13;
-&#13;
-add main lua into a folder called STALKER2_AP_BRIDGE&#13;
-add BUILD_EXE.bat and STALKER2_ARCHIPELAGO_Client.py into a folder called client</content>
-    <link href="https://github.com/Hitmanty/S.T.A.L.K.E.R-2-Archipelago/releases/tag/Releases"/>
-  </entry>
-  <entry>
-    <id>https://github.com/Alchav/Archipelago/releases/tag/spicy-1.0.0</id>
-    <title>SM64: Spicy Mycena 64 v1.0.0</title>
-    <updated>2026-09-08T02:46:27+00:00</updated>
-    <author>
-      <name>Alchav</name>
-    </author>
-    <content>## Coin System&#13;
-&#13;
-- Permanent Coins is now the only coin-collection mode. The old `permanent_coin_collection` option has been removed.&#13;
-- `Coinsanity` has been renamed to **Coin Count Checks**. These remain threshold checks within each course.&#13;
-- Added **Coin Checks**, a percentage option that creates checks for individual physical coin outputs. Red and blue&#13;
-  coins each produce one check.&#13;
-- Added **Global Coin Count Checks**, which creates thresholds based on the combined permanent coin total of every&#13;
-  course and secret stage.&#13;
-- Added **Counts Coins Beyond Coin Stars**. When disabled, each course's contribution to the global total is capped at&#13;
-  its configured Coin Star maximum; when enabled, every collectible coin contributes.&#13;
-- Castle Grounds, Castle interior, and Castle Courtyard coins can be individual Coin Checks, but do not contribute to&#13;
-  course or global Coin Count Checks because those areas have no coin counter.&#13;
-- Secret-stage coin-count maximum options have been made hidden YAML options to reduce option bloat, and they default&#13;
-  to the maximum, as secret stages generally are not annoying to collect all coins in.&#13;
-&#13;
-## Entrance Shuffle&#13;
-&#13;
-- Replaced the single Entrance Randomizer option with four independent options:&#13;
-  - **Main Course Shuffle**: `vanilla`, `separate`, or `mixed`.&#13;
-  - **Secret Course Shuffle**: `vanilla`, `separate`, or `mixed`.&#13;
-  - **Sub-Area Shuffle**: `vanilla`, `separate`, `mixed`, or `mixed_decoupled`.&#13;
-  - **Castle Return Shuffle**: `vanilla`, `mixed`, or `death`.&#13;
-- Categories set to `separate` shuffle only within their own category. All categories set to `mixed` share one pool.&#13;
-- Sub-Area Shuffle `mixed` keeps sub-areas with reusable exits coupled to the corresponding return destination.&#13;
-  `mixed_decoupled` uses the same mixed pool but shuffles those entrances and exits independently.&#13;
-- The client tracks nested shuffled entrances with a return stack. Death, Exit Course, and Star/key exits return through&#13;
-  the route Mario actually entered, while vanilla Castle painting and course exits retain their normal presentation.&#13;
-  Re-entering a zone already on the return stack collapses the loop instead of growing the stack indefinitely.&#13;
-&#13;
-## Signs and Hints&#13;
-&#13;
-- Signs may contain hints!&#13;
-- Added **Sign Unlocks** with `not_shuffled`, `global`, `per_level`, and `both` modes. `Castle - Signs` covers signposts&#13;
-  and wall-mounted signs in the Castle Grounds, Castle interior, and Castle Courtyard.&#13;
-&#13;
-## Items and Item Pool&#13;
-&#13;
-- Removed the `1-Up Mushroom` filler item and replaced it with three progressive fillers:&#13;
-  - **Progressive Cap Length** adds 1% of vanilla duration to the shared cap timer per copy.&#13;
-  - **Progressive Breath** increases time between underwater, cold-water, and toxic-gas health drain by 1% per copy.&#13;
-  - **Progressive Damage Dodge** gives you an increasing chance to avoid damage.&#13;
-- Lives are no longer part of gameplay. Life displays and Game Over behavior are removed. A 1-Up fully heals Mario when&#13;
-  1-Up Checks are disabled.&#13;
-- Added a `both` mode to Cap Items, Level Features, Bob-omb Buddies, Coin Object Unlocks, Enemy Unlocks, 1-Up Unlocks,&#13;
-  Sign Unlocks, Bowser Arena Bombs, and Bowser Stage 1-Up Behavior where applicable. This places global and per-level&#13;
-  forms in the same pool.&#13;
-- Added separate secret-stage move items for BITDW, BITFS, BITS, VCUTM, COTMC, TOTWC, and WMOTR. The new **Combined&#13;
-  Castle and Secret Stage Move Items** option collapses these back into shared `Misc` moves.&#13;
-- Added level unlock items for Bob-omb Battlefield, The Princess's Secret Slide, The Secret Aquarium, and Cavern of the&#13;
-  Metal Cap. With Full Level Unlocks, COTMC's door becomes a large locked Star door; PSS and SA warps remain disabled&#13;
-  until unlocked.&#13;
-- Expanded level-feature unlocks with Vertical Wind, Horizontal Wind, Freestanding Stars, Star Blocks, Koopa Shell&#13;
-  Blocks, Star Secrets, Jet Streams, Cap Switches, and Dire, Dire Docks - Moat Exit.&#13;
-- Added progression or trick-dependent enemy/object unlocks for Bowsers, Bob-omb Battlefield's Chain Chomp,&#13;
-  Tiny-Huge Island's Wiggler, Wet-Dry World's Heave-Hos, and Shifting Sand Land's Tweesters.&#13;
-- Added hazard/trap unlocks for Klepto, Amps, Mad Piano, Haunted Chairs, Sushi Sharks, Bubbas, Tox Boxes, Bowling Balls,&#13;
-  Water Bombs, Boulders, Flamethrowers and Fire Bars, Bouncing Fireballs, Spindel, Falling Pillars, Fire Spitters, and&#13;
-  Bubs.&#13;
-- Klepto and Klepto with Star are independent SSL objects and unlock items. Both may be present at the same time.&#13;
-- Added separate **Castle - Boos** item for coin-producing Courtyard Boos. The Lobby Boo and BBH entrance Boo are&#13;
-  controlled by Unlock Big Boo's Haunt.&#13;
-- Bowser Arena Bombs are individually numbered instead of progressive. Global Bomb 1-4 unlock the corresponding bomb&#13;
-  in every arena; BITS has its own fifth bomb. Item-name groups support useful hints for global, per-level, and per-arena&#13;
-  bomb sets.&#13;
-- Mario's Hat becomes advancement when Lava Damage Boosting is enabled. If a hat-stealing enemy is unavailable, a lost&#13;
-  hat is restored so it cannot become permanently inaccessible.&#13;
-&#13;
-## Locations and Goals&#13;
-&#13;
-- Added individual Coin Check locations for all courses, secret stages, Bowser stages, and Castle areas.&#13;
-- Added Visit Checks for the player-visible zones: Castle floors, Castle Grounds/Courtyard, main courses, distinct&#13;
-  slides/caves/interiors, cap stages, Bowser stages, and Bowser arenas. Internal areas that do not look like a separate&#13;
-  zone, such as WDW Downtown and DDD's Bowser's Sub section, do not receive separate Visit Checks.&#13;
-- Added **Bowser in the Sky - Grand Star** when Completion Goal is All Bowser Stages. The final undefeated Bowser among&#13;
-  the three can start the ending sequence in whichever arena completes the goal.&#13;
-&#13;
-### New Tricks&#13;
-&#13;
-- Castle Lobby Backwards Long Jump Through the 8 Star Door (Hard).&#13;
-- The Princess's Secret Slide Coin Triggers 1-Up without Coin Markers (Easy).&#13;
-- Bob-omb Battlefield Island with Koopa Shell and Wing Cap (Easy).&#13;
-- Bob-omb Battlefield Chain Chomp Gate with Throwable Cork Box Clip (Hard).&#13;
-- Wet-Dry World Ground Pound Underwater Shocking Arrow Lifts Box (Easy).&#13;
-- Wet-Dry World Pedestal with Heave-ho (Easy).&#13;
-- Tall, Tall Mountain Upper Region with Spin Jump Off of Fly Guy (Easy).&#13;
-- Tall, Tall Mountain Breathtaking View from Bridge with Triple Jump from Below (Medium).&#13;
-- Rainbow Ride Fall to Tricky Triangles from Somewhere Over the Rainbow (Easy).&#13;
-- Rainbow Ride Fall to Tricky Triangles 1-Up from Somewhere Over the Rainbow (Medium).&#13;
-&#13;
-## Client and Interface&#13;
-&#13;
-- Added Trigger Sparkles: green for 1-Up triggers, purple for 1-Up butterfly spots, blue for hidden warps, and yellow&#13;
-  for Star Secrets and SSL pyramid triggers. Only available, unfinished triggers sparkle. Vanilla Star, 1-Up, shell,&#13;
-  and other sparkle effects remain on their original code path and colors. Idea from a patch by @ItzLoonie, implemented&#13;
-  independently.&#13;
-- Coin-producing enemies and objects, Star-producing objects, blocks, Bob-omb Buddies, Bowsers, signs, Monty Moles,&#13;
-  baby penguins, 1-Ups, and 1-Up blocks turn gray when all relevant rewards/checks are exhausted. Boos use the same&#13;
-  readable gray treatment. Cap blocks keep a colored border around a gray center so their type remains visible.&#13;
-- Added a single `CAP` timer for the shared vanilla cap timer. It stacks with race timers, disappears at zero, and&#13;
-  repositions its fractional display for three-digit seconds.&#13;
-- Cap stages ignore Progressive Cap Length for their automatically granted cap until that stage's cap item or the global&#13;
-  cap has been received.&#13;
-- Bowser-stage level-item menus display required Bowser health and the individually unlocked Bowser Bombs.&#13;
-- The level-items and camera menus remain available whenever paused; only course-exit commands require Mario to be&#13;
-  stationary.&#13;
-- Blast to the Stone Pillar uses a Star Block in the JP build to be consistent with the US version.&#13;
-- Fix for Better Camera Bowser-stage is applied automatically and no longer an optional patch.&#13;
-&#13;
-## Bug Fixes&#13;
-&#13;
-- Fixed permanent coin formations reappearing yellow and becoming collectible again after moving between loaded areas.&#13;
-  The old formation initialization restored only its behavior-parameter mask, not the server ledger's collected slots.&#13;
-- Fixed Red Coin counters getting ahead of the number physically collected, resetting after slides/sub-areas, or&#13;
-  requiring a reload to spawn the Star. The old code incremented the controller on interaction while separately&#13;
-  reconstructing the count by scanning only currently loaded Red Coin objects.&#13;
-- Fixed No Despawns granting coins on nonlethal surfaces and failing to grant some objects that actually reached a death&#13;
-  plane. The old code maintained separate approximate floor/death-barrier tests instead of using death-surface behavior.&#13;
-- Fixed spawned enemy/object coin outputs sharing, losing, or changing permanent source identities. The old generic loot&#13;
-  helper inferred one slot range from `oNumLootCoins`, which could not distinguish separate reward methods or inherited&#13;
-  child objects.&#13;
-- Fixed Whomps granting Ground Pound-only coins after repeated jumps. The old jump and Ground Pound rewards used the same&#13;
-  undifferentiated loot-slot assignment.&#13;
-- Fixed reconnect reconciliation duplicating live coins, checking uncollected giant-Goomba outputs, and failing to gray&#13;
-  some exhausted sources. The old reconciliation was a single boolean with no delay or semantic source catalog.&#13;
-- Fixed coin-related server disconnects caused by overlapping raw JSON sends. In 0.2.3, normal location sends and&#13;
-  permanent-ledger writes could independently call the AP transport without one serialized request path.&#13;
-- Fixed global and per-level 1-Up unlock behavior depending on whether 1-Up Checks was enabled. The old runtime returned&#13;
-  every source as unlocked whenever checks were disabled instead of treating received unlock items as authoritative.&#13;
-- Fixed Bowser-stage return/camera handling being bypassed entirely for BITS and the third Bowser arena. The old redirect&#13;
-  returned before applying any entrance handling for those levels.&#13;
-- Fixed exit and death camera views after entrance randomization. Camera cutscenes now use the physical entrance Mario&#13;
-  returns through instead of the randomized stage he exited, including Bowser exits, non-painting exits, and TTM's&#13;
-  special painting camera. Adapted from a patch by @soopercool101&#13;
-- Fixed Eyerok intermittently failing to appear or starting with only one hand when the object pool was temporarily full.&#13;
-  The old initialization attempted each hand once and advanced regardless of whether either spawn failed.&#13;
-- Fixed the DDD portal's visible barrier remaining forward after receiving the BITFS unlock.&#13;
-- Fixed the Metal Cap object inheriting custom Mario hat colors. Its metal display lists used the same mutable lights as&#13;
-  the ordinary cap instead of dedicated neutral metal lighting.&#13;
-&#13;
-## SM64ex hotfixes:&#13;
-- September 8: Fixed Tiny Island Impossible Coin assignment, was incorrectly mapped as Coin 3.&#13;
-- September 9: Uncollect Random Coin Trap no longer affects the currently-loaded level, as intended.</content>
-    <link href="https://github.com/Alchav/Archipelago/releases/tag/spicy-1.0.0"/>
-  </entry>
   <entry>
     <id>https://github.com/Tincancrafter/Red-Prince-Releases/releases/tag/v1.0.14</id>
     <title>Red Prince v1.0.14</title>
@@ -543,29 +291,6 @@ Or, alternatively,&#13;
 ## Chapter 4 &amp; 5&#13;
 - Excluded Rock Video options now correctly works</content>
     <link href="https://github.com/theemeraldsword85/DELTARUNEAP/releases/tag/v2.2.1"/>
-  </entry>
-  <entry>
-    <id>https://github.com/m-this/tf2-archipelago/releases/tag/nightly</id>
-    <title>Team Fortress 2 Mann vs Machine v1.12.0r2</title>
-    <updated>2026-09-08T08:52:07+00:00</updated>
-    <author>
-      <name>mathis</name>
-    </author>
-    <content>**This is not a release.** It is the head of `main`, rebuilt on every push,
-and it is replaced without warning. For something that stays put, use the
-[latest release](https://github.com/m-this/tf2-archipelago/releases/latest).
-
-Built from `7780a139e4480b64e69d42b6bdc8771757a59a08`.
-
-## Downloads
-
-- [tf2ap.exe](https://github.com/m-this/tf2-archipelago/releases/download/nightly/tf2ap.exe) for Windows
-- [tf2ap-linux-amd64](https://github.com/m-this/tf2-archipelago/releases/download/nightly/tf2ap-linux-amd64) for Linux
-
-## Since v1.12.0
-
-</content>
-    <link href="https://github.com/m-this/tf2-archipelago/releases/tag/nightly"/>
   </entry>
   <entry>
     <id>https://github.com/Heinki/Mental-Omega-Randomizer/releases/tag/V1.35</id>
@@ -1602,5 +1327,204 @@ The implementation now has proper [documentation](https://github.com/SerpentAI/A
 ### Bugfix - Enemy Health Being Misread&#13;
 - Enemy health is stored in 2 bytes, not 1. The client was only checking the 2nd of the 2 bytes</content>
     <link href="https://github.com/jciii91/Pokemon-Stadium-AP-World/releases/tag/v1.0.0"/>
+  </entry>
+  <entry>
+    <id>https://github.com/dmwever/Ageipelago/releases/tag/v0.2.3</id>
+    <title>Age Of Empires II: Definitive Edition v0.0.1r2</title>
+    <updated>2026-09-10T02:36:50+00:00</updated>
+    <author>
+      <name>dmwever</name>
+    </author>
+    <content>## What's Changed&#13;
+&#13;
+More Stable - Contains stables (when shuffled) (But hopefully more)&#13;
+&#13;
+## AP World&#13;
+Should still be fully compatible with releases going back to 0.2.0.&#13;
+&#13;
+**Logic**&#13;
+- Attila 3 - 6 victory events now require the scenario to be beaten&#13;
+&#13;
+**AP Client**&#13;
+- Invalid ping could, in extremely rare cases, freeze the client&#13;
+- Scenarios could be marked complete by a different Age2 world if the client switched worlds&#13;
+- Campaign, building, and message info could persist across sessions&#13;
+- Client would read previous game packet instead of current packet.&#13;
+- Game client now disconnects on all disconnections&#13;
+- AP Client now shuts down gracefully&#13;
+- Item IDs no longer leak across packets&#13;
+- Improper client read no longer corrupts latest packet&#13;
+- Items can no longer be skipped when sending more than 12 at once&#13;
+- Progressive scenarios received before their Campaign is unlocked unlock when the Campaign is given&#13;
+&#13;
+## Game&#13;
+&#13;
+**General**&#13;
+- Connect now attempts until connection and items received&#13;
+- "Free Items" now frees actual item&#13;
+- Game no longer tries to read four times the length of every file (ask your programmer friends "why four times the length?")</content>
+    <link href="https://github.com/dmwever/Ageipelago/releases/tag/v0.2.3"/>
+  </entry>
+  <entry>
+    <id>https://github.com/Jbaker16163/Ark-Survival-Archipelago/releases/tag/v0.3</id>
+    <title>ARK Survival Evolved v1.0.0r2</title>
+    <updated>2026-09-10T03:23:40+00:00</updated>
+    <author>
+      <name>Jbaker16163</name>
+    </author>
+    <content>## Release Notes&#13;
+&#13;
+1. **Fjordur is here**. &#13;
+&#13;
+2. Midgard, Asgard, Jotunheim, and Vanaheim occupy the same world space at different elevations, so exploration regions now include altitude bands. &#13;
+&#13;
+   **81 exploration checks total:**&#13;
+   - Midgard: 38&#13;
+   - Asgard: 20&#13;
+   - Vanaheim: 14&#13;
+   - Jotunheim: 9&#13;
+&#13;
+3. **All 200 Fjordur Runes are now checks.** Runes are treated as Explorer Notes under the hood, so collecting one just works. Cave, underwater, and wyvern trench runes are gated behind the gear actually needed to reach them. The 45 runes in Asgard, Jotunheim, and Vanaheim currently contain filler only.&#13;
+&#13;
+4. **The Norse bosses are now supported as goals.** Beyla, Hati &amp; Sköll, and Steinbjörn lead into Fenrisúlfr. Boss kills are detected using the relic dropped by each fight instead of the boss corpse, so the kill still counts if you relog, another player gets the killing blow, or the corpse despawns. Hati &amp; Sköll requires both relics.&#13;
+&#13;
+5. **New goal setting:** choose any combination of bosses using a list.&#13;
+&#13;
+   ```yaml&#13;
+   goal: [broodmother, manticore, fenrisulfr]&#13;
+   ```&#13;
+&#13;
+   `all_bosses` means every boss available across your selected maps. The default remains the four Island bosses.&#13;
+&#13;
+   **BREAKING CHANGE:** The following goal options no longer parse:&#13;
+   - `all_bosses_all_maps`&#13;
+   - `broodmother_megapithecus`&#13;
+   - `broodmother_megapithecus_dragon`&#13;
+&#13;
+   Update your YAML accordingly.&#13;
+&#13;
+6. **Fixed 32 engrams** that could previously be received but would never actually unlock. This includes Clay, Tent, Vessel, the full Adobe set, the Desert Cloth set, Wind Turbine, Thorny Dragon Saddle, and Rock Golem Saddle.&#13;
+&#13;
+7. **Added 14 previously missing engrams:** Maewing, Velonasaur, Ravager, Amargasaurus, Roll Rat, Karkinos, Tropeognathus, Managarmr, and Magmasaur saddles, plus the full five-piece Hazard Suit. These saddles now correctly bundle with their associated tame when `bundle_saddles` is enabled. Previously, that setting did nothing for them.&#13;
+&#13;
+8. **Unlock messages now explain why something unlocked.**&#13;
+&#13;
+   Example:&#13;
+&#13;
+   ```text&#13;
+   Explore: The Savage Heights (Asgard) unlocked for everyone on the server: Engram: ...&#13;
+   ```&#13;
+&#13;
+9. **No more trap floods from `!release` or `!collect`.** Bulk deliveries now skip traps, keep useful filler, and send a single notification in chat.&#13;
+&#13;
+10. **Shared Slot + DeathLink now actually kills the entire server.** If one survivor dies, everyone dies. Previously, the death was sent to every other game in the multiworld while the survivors standing next to the corpse were left completely unaffected.&#13;
+&#13;
+11. **51 dead-end cosmetics are now filler instead of useful items.** This includes signs, flags, furniture, elevators, pipes, trophies, and similar items that previously diluted the useful item pool. Actual gear remains useful.&#13;
+&#13;
+12. **Added Mejoberry collection checks** and completed a broader food-tag pass.&#13;
+&#13;
+13. **Datapackage updates:**&#13;
+    - Engrams: 588 → 610&#13;
+    - Creatures: 127 → 142&#13;
+    - Exploration regions: 154 → 235&#13;
+    - Plugin: v177 → v187&#13;
+&#13;
+14. **Generation sweep: 30/30 passing.** Configurations using `dossier_checks: 120` and `dossier_checks: 0` previously failed generation and now pass correctly.&#13;
+&#13;
+---&#13;
+&#13;
+## Tools&#13;
+&#13;
+Attached are **Avocado's Launcher** and **Lurch's PopTracker**.&#13;
+&#13;
+**Lurch's PopTracker:**  &#13;
+https://github.com/lurch9229/Arkipelago-Poptracker/releases&#13;
+&#13;
+**Avocado's Launcher:**  &#13;
+https://github.com/aSoberAvocado/ARK-Ipelago-Evolved-Launcher/releases&#13;
+&#13;
+&#13;
+I will be taking a break on adding new maps to the supported list as I am getting burnt out. I will be assisting Lurch with supporting the other released maps. I will continue working on bug fixes as they come up. </content>
+    <link href="https://github.com/Jbaker16163/Ark-Survival-Archipelago/releases/tag/v0.3"/>
+  </entry>
+  <entry>
+    <id>https://github.com/Crownmuri/Archipelago/releases/tag/v1.0.3</id>
+    <title>La-Mulana 2 v1.0.3</title>
+    <updated>2026-09-10T04:44:31+00:00</updated>
+    <author>
+      <name>Crownmuri</name>
+    </author>
+    <author>
+      <name>Coookie93</name>
+    </author>
+    <content>## Supports: Mod v1.0.0+ -- Tracker v2.0.3+&#13;
+&#13;
+# Changelogs&#13;
+- Fixed a generation issue where validation of pre-fill shop items post ER would do a multiworld access sweep instead of local, causing it to error if there are slots that have not yet finalized their own region connection (i.e. ER in later game slots)&#13;
+- Adjusted logic for the following locations:&#13;
+  - [IT F-3] Kimono Cowgirl Costume Chest: added `or CanReach(EPG)`&#13;
+  - [GOTD D-4] Little Demon Costume Chest: changed from `True` to `HorizontalAttack`&#13;
+  - [TS F-3] Flare Gun Weapon Vault: added tricky logic using Feather (no Gale Fibula or Lamp of Time)&#13;
+  - Takamagahara Shrine Bottom Gate: changed from `True` to `HorizontalAttack or Start(TSLeft)`&#13;
+  - [HL B-1] NPC Glossary (Baphomet): changed from `True` to `HorizontalAttack`&#13;
+  - [HL] Enemy Glossary (Lizardman): changed to `True` in HL/HLSpun (attackable from below in the War Mural rooms)&#13;
+  - [HL C-2] Middle Top Chest: added logic if top gate is accessible through ER&#13;
+  - [HL B-1] Heaven's Labyrinth Weapon Vault: added top gate access logic with `Has(Feather)` tricky logic&#13;
+  - [HL B-1] Weapon Vault Coin Pot: added top gate access logic with `Has(Feather)` tricky logic&#13;
+  - HLSpun to HLGate logic changed from `True` to `(Has(Feather) or Has(Grapple Claw)) and IsDead(Glasya Labolas)`&#13;
+  - [EPG D-1] Gate with Glowing Eyes Item Pot: added `and Has(Grapple Claw)`&#13;
+  - [EPG E-3] Fourth Hell Gate Exit Coin Pot: changed an incorrect `and` gate to  `or` gate&#13;
+</content>
+    <link href="https://github.com/Crownmuri/Archipelago/releases/tag/v1.0.3"/>
+  </entry>
+  <entry>
+    <id>https://github.com/m-this/tf2-archipelago/releases/tag/nightly</id>
+    <title>Team Fortress 2 Mann vs Machine v1.12.0r2</title>
+    <updated>2026-09-10T08:48:18+00:00</updated>
+    <author>
+      <name>mathis</name>
+    </author>
+    <content>**This is not a release.** It is the head of `main`, rebuilt on every push,
+and it is replaced without warning. For something that stays put, use the
+[latest release](https://github.com/m-this/tf2-archipelago/releases/latest).
+
+Built from `3153ad63b8a5f35ba31948e47822db36759ee442`.
+
+## Downloads
+
+- [tf2ap.exe](https://github.com/m-this/tf2-archipelago/releases/download/nightly/tf2ap.exe) for Windows
+- [tf2ap-linux-amd64](https://github.com/m-this/tf2-archipelago/releases/download/nightly/tf2ap-linux-amd64) for Linux
+
+## Since v1.12.0
+
+- fix(plugin): make disposable sentry buffs independent
+- fix(webui): render session mission details
+- feat(launcher): find Archipelago on Linux
+- fix(fastdl): clarify Linux Funnel onboarding
+</content>
+    <link href="https://github.com/m-this/tf2-archipelago/releases/tag/nightly"/>
+  </entry>
+  <entry>
+    <id>https://github.com/TreZc0/OoTR-APWorld/releases/tag/v9.1.0-release2</id>
+    <title>Ocarina of Time v9.1.0r2</title>
+    <updated>2026-09-10T09:34:44+00:00</updated>
+    <author>
+      <name>espeon65536</name>
+    </author>
+    <author>
+      <name>TreZ</name>
+    </author>
+    <content># OoT Randomizer APWorld v9.1.0 Full Release 2&#13;
+&#13;
+This is a pretty well tested version by now. Generation fails still might happen on occasion, especially when using pre-completed dungeons.&#13;
+&#13;
+## Changes:&#13;
+- Fixed a few left faulty grotto item ids that caused items not to show there in certain settings&#13;
+- Fixed lag with RetroArch connector and risk of item duplication on connect.&#13;
+- Removed fork mentions from template to comply with AP rules&#13;
+&#13;
+Please note: Since OoT is currently not shipped as a bundled .apworld file, but unpacked by the core AP releases, you will have to delete the lib/worlds/oot folder first before adding this custom apworld.&#13;
+Even after deletion, the "Open Patch" Workflow in AP currently still starts the OoT Client, even if you deleted the world. So make sure you have the correct "Ocarina of Time Client" open that references the APWorld 9.1.0 after patching, or patch directly through the new Adjuster. If your client says "Archipelago Ocarina of Time Client 0.6.x" in the top bar with no info about the apworld version, you are using the old client.</content>
+    <link href="https://github.com/TreZc0/OoTR-APWorld/releases/tag/v9.1.0-release2"/>
   </entry>
 </feed>
