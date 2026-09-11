@@ -2,21 +2,11 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://raw.githubusercontent.com/silasary/apworlds/refs/heads/main/recent.atom</id>
   <title>Recent APWorlds</title>
-  <updated>2026-09-11T10:23:43.318865+00:00</updated>
+  <updated>2026-09-11T15:39:53.306110+00:00</updated>
   <author>
     <name>Silasary</name>
   </author>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
-  <entry>
-    <id>https://github.com/JDLKMR/Breaking-Bad-APManual/releases/tag/v1.0.0</id>
-    <title>Manual_BreakingBad_JD v1.0.0</title>
-    <updated>2026-09-08T07:47:19+00:00</updated>
-    <author>
-      <name>JDLKMR</name>
-    </author>
-    <content/>
-    <link href="https://github.com/JDLKMR/Breaking-Bad-APManual/releases/tag/v1.0.0"/>
-  </entry>
   <entry>
     <id>https://github.com/JDLKMR/Breaking-Bad-APManual/releases/tag/v1.0.1</id>
     <title>Manual_BreakingBad_JD v1.0.1</title>
@@ -1125,7 +1115,7 @@ The implementation now has proper [documentation](https://github.com/SerpentAI/A
   </entry>
   <entry>
     <id>https://github.com/dmwever/Ageipelago/releases/tag/v0.2.3</id>
-    <title>Age Of Empires II: Definitive Edition v0.0.1r2</title>
+    <title>Age Of Empires II: Definitive Edition v0.0.1r3</title>
     <updated>2026-09-10T02:36:50+00:00</updated>
     <author>
       <name>dmwever</name>
@@ -1162,7 +1152,7 @@ Should still be fully compatible with releases going back to 0.2.0.&#13;
   </entry>
   <entry>
     <id>https://github.com/Jbaker16163/Ark-Survival-Archipelago/releases/tag/v0.3</id>
-    <title>ARK Survival Evolved v1.0.0r2</title>
+    <title>ARK Survival Evolved v1.0.0r5</title>
     <updated>2026-09-10T03:23:40+00:00</updated>
     <author>
       <name>Jbaker16163</name>
@@ -1829,5 +1819,87 @@ Find installation instructions at [https://github.com/rescheer/Starship-Titanic-
 &#13;
 _No new YAML options. However, you will need to remove Permanent Fever Meter Bonus from your useful item weights for existing YAMLs to be valid_</content>
     <link href="https://github.com/SerpentAI/Archipelago/releases/tag/peggle-deluxe-v2.1.0"/>
+  </entry>
+  <entry>
+    <id>https://github.com/Tincancrafter/Red-Prince-Releases/releases/tag/v1.0.15</id>
+    <title>Red Prince v1.0.15</title>
+    <updated>2026-09-11T13:20:09+00:00</updated>
+    <author>
+      <name>deefdragon</name>
+    </author>
+    <author>
+      <name>BatmenzDW</name>
+    </author>
+    <content># Red Prince 1.0.15
+
+## Gameplay and logic
+
+- Added optional first-observation checks for all 13 constellations through
+  `constellation_sanity`. Normal constellation effects still occur.
+- Added `exclude_north_star`: North Star remains a check but contains filler
+  when enabled. Other constellations can contain progression for any player.
+- Constellation logic assumes repeatable Observatory drafts across days to
+  gain stars, and Ink Well redraws to revisit skipped star counts. It models
+  eventual access, not the current night's sky; farming may take many days.
+- A supplied in-game log confirms North Star activation sent its check and
+  awarded Extra Dice 1. Multiple simultaneous constellations, controller input,
+  and repeat-observation persistence still need in-game confirmation.
+- Added warm-white, lightly yellow-tinted borders for undrafted room choices,
+  using the game's electricity-border geometry and bloom. Visual retest pending.
+- Pool trunk checks now require Gift Shop and Pump Room access. Corrected the
+  shared Pool rule that previously treated a location name as an item.
+- Planetarium trunk checks require telescope access. Trunks with unmodeled
+  luck or upgrade requirements remain excluded from progression placement.
+
+## Inventory - attempted fixes
+
+- Fixed the identified code path that restored Workshop recipe unlocks as
+  physical crafted items on the following day with Keep Simple Items Every Run.
+- Workshop rewards now remain recipe unlocks in the automatic grant path and
+  cannot auto-complete their crafting checks through item restoration.
+- The Workshop fix compiles; normal crafting and next-day behavior still need
+  in-game retesting. Previously sent checks are not rolled back.
+- Corrected runtime loading/reset of DeathLink protection and reporting of
+  constellation options and filler/trap distributions.
+
+## Known issues
+
+- Missing or unpickupable upgrade disks are not fixed by disk pickup-event
+  detection or by using the game's generic disk inventory object/icon.
+- Upgrade-disk duplication through Coat Check remains unresolved.
+- The previously reported microchip duplication and placement-time crash have
+  no confirmed resolution or established common cause.
+- Ordinary-item delivery delays remain under investigation; Workshop recipes
+  are distinct from physical-item delivery.
+- Runtime tests do not replace Unity playtesting. This release does not claim
+  to fix the remaining issues listed in UNRESOLVED_PROBLEMS.txt.
+
+## Check names and documentation
+
+- Published YAML includes both constellation options and all public world
+  options. Personal test starting stars, gems, and room unlocks are not included.
+- Existing location IDs remain stable. New checks use
+  `Constellation - &lt;name&gt; First Observation`.
+- Updated the attempted-fix and unresolved-issue logs to distinguish source
+  fixes, automated verification, confirmed gameplay, and pending playtests.
+
+## Compatibility
+
+- Minimum Archipelago version: 0.6.7. Compatibility with every newer version
+  has not been verified.
+- BepInEx 6 IL2CPP build 755; plugin target remains .NET 6.
+- The 1.0.15 game plugin and 1.0.15 APWorld should be distributed together.
+- Generate a new seed for constellation locations and changed generation rules.
+  Updating the plugin alone does not change an existing multiworld.
+
+## Verification
+
+- 92 world tests passed, public YAML generation succeeded, all 29 public options
+  are present, and runtime option tests passed on .NET 6.0.36.
+- Release compilation passed with existing dependency/analyzer warnings.
+  NuGet vulnerability metadata could not be fetched during the runtime-test restore.
+- Automated checks do not confirm resolution of the pending in-game issues above.
+</content>
+    <link href="https://github.com/Tincancrafter/Red-Prince-Releases/releases/tag/v1.0.15"/>
   </entry>
 </feed>
