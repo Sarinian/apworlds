@@ -2,60 +2,11 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://raw.githubusercontent.com/silasary/apworlds/refs/heads/main/recent.atom</id>
   <title>Recent APWorlds</title>
-  <updated>2026-09-11T20:21:08.143341+00:00</updated>
+  <updated>2026-09-12T01:59:29.319085+00:00</updated>
   <author>
     <name>Silasary</name>
   </author>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
-  <entry>
-    <id>https://github.com/randomcodegen/ironwail_ap/releases/tag/1.2.1</id>
-    <title>Quake 1 v1.2.1</title>
-    <updated>2026-09-08T12:04:08+00:00</updated>
-    <author>
-      <name>randomcodegen</name>
-    </author>
-    <content>- Fixed YAML-less Universal Tracker support.&#13;
-- Added `ap_vanilla_items`. Set an item type to `1` to spawn its vanilla pickup when excluded from the seed, or `0` to disable it.&#13;
-- Fixed excluded multiplayer-only items appearing in single-player maps.</content>
-    <link href="https://github.com/randomcodegen/ironwail_ap/releases/tag/1.2.1"/>
-  </entry>
-  <entry>
-    <id>https://github.com/Frisk202020/Archipelago/releases/tag/0.0.9</id>
-    <title>Splasher v0.0.9</title>
-    <updated>2026-09-08T14:42:15+00:00</updated>
-    <author>
-      <name>Frisk</name>
-    </author>
-    <content># Splasher Archipelago (**v.0.0.9**) -- Checkpoint Sanity&#13;
-&#13;
-**This version requires to update the APWorld accordingly**&#13;
-&#13;
-**Don't forget to update your asset files**&#13;
-&#13;
-## Highlights&#13;
-&#13;
-### Checkpoint Sanity&#13;
-&#13;
-A new randomization layer has been added : checkpoints sanity. When enabled, each checkpoint in the game becomes a location and, optionally, needs a corresponding *item* to be triggered. Checkpoints items have different levels of relevance depending on your (*CheckpointSanity*) option :&#13;
-&#13;
-- `useful` : the item allows its checkpoint to save the level progression (essence, position). Upon dying, the player respawns to the farthest **unlocked** checkpoint. &#13;
-- `progression` : the item also allows to send uncollected splashers. With this option checkpoint items may appear in a seed's logic, although it is currently somewhat limited because level exits are not yet gated by items (this will be worked on in the next version).&#13;
-&#13;
-Checkpoint items, if enabled, can be added in the pool as :&#13;
-- **individual** items (one per checkpoint)&#13;
-- **level pack** items (one per level, unlocking all checkpoints in it)&#13;
-- **zone pack** items (one per zone, unlocking all checkpoints in it)&#13;
-&#13;
-### In-game item feedback&#13;
-&#13;
-A feature that I should've implemented way earlier, but the game finally shows a pop-up message when you receive an item. How this is implemented is quite similar to [Celeste Open World](https://archipelago.gg/games/Celeste%20(Open%20World)/info/en) : a pop-up appears for a few seconds on the top-center of your screen, lasting for a few seconds (defaults to 5s, can be adjusted in `connection.yaml`).&#13;
-&#13;
-## Additional features&#13;
-&#13;
-- Added an option to instantly collect splashers (without reaching a checkpoint). This is a **seed** option (not overridable in `connection.yaml`) because it affects the logic the randomizer.&#13;
-- You can know teleport towards the next checkpoint (if that checkpoint is unlocked), reducing runbacks.</content>
-    <link href="https://github.com/Frisk202020/Archipelago/releases/tag/0.0.9"/>
-  </entry>
   <entry>
     <id>https://github.com/dlueben1/Slay-the-Spire-2-Archipelago/releases/tag/1.1.1</id>
     <title>Slay the Spire II v1.1.0r3</title>
@@ -921,6 +872,7 @@ Free code signing for open source projects, provided by
       <name>Zorasknight</name>
     </author>
     <content>### Hotfix 1: Fixed Progressive Wires failing to send due to outdated progressive_items.json&#13;
+### Hotfix 2: Adds proper Compression, color codes commands in terminal, cleans up terminal text &#13;
 &#13;
 ## Update notes, and goals for the next build&#13;
 &#13;
@@ -1030,7 +982,7 @@ The implementation now has proper [documentation](https://github.com/SerpentAI/A
   </entry>
   <entry>
     <id>https://github.com/dmwever/Ageipelago/releases/tag/v0.2.3</id>
-    <title>Age Of Empires II: Definitive Edition v0.0.1r2</title>
+    <title>Age Of Empires II: Definitive Edition v0.0.1r3</title>
     <updated>2026-09-10T02:36:50+00:00</updated>
     <author>
       <name>dmwever</name>
@@ -1067,7 +1019,7 @@ Should still be fully compatible with releases going back to 0.2.0.&#13;
   </entry>
   <entry>
     <id>https://github.com/Jbaker16163/Ark-Survival-Archipelago/releases/tag/v0.3</id>
-    <title>ARK Survival Evolved v1.0.0r2</title>
+    <title>ARK Survival Evolved v1.0.0r5</title>
     <updated>2026-09-10T03:23:40+00:00</updated>
     <author>
       <name>Jbaker16163</name>
@@ -1898,7 +1850,7 @@ Various logic fixes&#13;
   </entry>
   <entry>
     <id>https://github.com/POD-io/Oblivion-ArchipelagoWorld/releases/tag/v0.6.0</id>
-    <title>Oblivion Remastered v0.6.0</title>
+    <title>Oblivion Remastered v0.6.0.post2</title>
     <updated>2026-09-11T19:02:37+00:00</updated>
     <author>
       <name>POD-io</name>
@@ -1971,5 +1923,17 @@ Requires Archipelago 0.6.7+ and *Final Fantasy VIII* Steam 2013 (`FF8_EN.exe`). 
 **Full Changelog**: https://github.com/wilsonao/ff8_arch/compare/v0.5.0...v0.6.0
 </content>
     <link href="https://github.com/wilsonao/ff8_arch/releases/tag/v0.6.0"/>
+  </entry>
+  <entry>
+    <id>https://github.com/Nepley/mof-apworld/releases/tag/v0.2.0</id>
+    <title>Touhou Fuujinroku ~ Mountain of Faith v0.2.0</title>
+    <updated>2026-09-11T21:37:23+00:00</updated>
+    <author>
+      <name>Nepley</name>
+    </author>
+    <content>* Deathlink added&#13;
+* Fix traps failing generation and speed related traps not working&#13;
+* Fix ending requirement not working when set to "all shot types"</content>
+    <link href="https://github.com/Nepley/mof-apworld/releases/tag/v0.2.0"/>
   </entry>
 </feed>
