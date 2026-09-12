@@ -2,149 +2,11 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://raw.githubusercontent.com/silasary/apworlds/refs/heads/main/recent.atom</id>
   <title>Recent APWorlds</title>
-  <updated>2026-09-12T01:59:29.319085+00:00</updated>
+  <updated>2026-09-12T09:57:45.219403+00:00</updated>
   <author>
     <name>Silasary</name>
   </author>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
-  <entry>
-    <id>https://github.com/dlueben1/Slay-the-Spire-2-Archipelago/releases/tag/1.1.1</id>
-    <title>Slay the Spire II v1.1.0r3</title>
-    <updated>2026-09-08T15:13:41+00:00</updated>
-    <author>
-      <name>Kirbyfanner</name>
-    </author>
-    <author>
-      <name>Platano Bailando</name>
-    </author>
-    <author>
-      <name>Lyxn</name>
-    </author>
-    <author>
-      <name>MartyredG</name>
-    </author>
-    <author>
-      <name>Terairk</name>
-    </author>
-    <content># Fixes&#13;
-- Crash / blackscreen when save-quitting while AP menu is open&#13;
-- Kaleidoscope now correctly gives 3 card rewards from other characters (instead of 0, 1, 2 cards depending on your unlocked characters)&#13;
-- Hopefully fix the issue when connecting to an older APworld and not sending any checks (in my testing it didn't work for some reason and then worked when i restart - I would not be surprised if it showed up again&#13;
-- Fix the behaviour where Silver Crucible, Silken Tress etc did not work correctly - they now consume upon viewing a Card Reward for the first time - opposes base game behaviour&#13;
-- One of the above hopefully fixes the ancient relics breaking (I didn't notice them breaking in my testing)&#13;
-- Multiplayer scroll being able to be selected as a Neow Relic and it breaking (in Anytime mode)&#13;
-&#13;
-I didn't do a full 100% thorough test so maybe some other random features broke.&#13;
-&#13;
-# Mod Information&#13;
-&#13;
-## Pre-Requisites&#13;
-&#13;
-- **Your host MUST use Archipelago Client v0.6.7+**.&#13;
-- This version of the mod is intended to be used for **v0.107.1**  of Slay the Spire II&#13;
-  - While we have experimental support for the public beta branch **v0.111.0**, we recommend **the "Default Public/Main Version"** of the game to most players. Since the beta branch is updated more frequently and is more volatile, it's less likely to be bug-free. Please use it at your own risk. However numerous players have used it just fine, @Terairk is the maintainer for this and he mostly develops here.&#13;
-  - We will do our best to keep up with game updates as they release, so please be patient when encountering issues.&#13;
-&#13;
-## Installing the Mod from Steam Workshop (Recommended)&#13;
-&#13;
-1. Ensure that you have [RitsuLib](https://steamcommunity.com/sharedfiles/filedetails/?id=3747602295) installed. The easiest way to obtain it is from Steam Workshop.&#13;
-2. Subscribe to the [Slay the Spire II Archipelago Client](https://steamcommunity.com/sharedfiles/filedetails/?id=3748826296) on Steam Workshop.&#13;
-3. Make sure that any other unnecessary mods are turned off, unless you're trying to use a specific modded character for your Archipelago session.&#13;
-4. Start the game&#13;
-&#13;
-## Manually Installing the Mod from GitHub&#13;
-&#13;
-1. Ensure that you have [RitsuLib](https://steamcommunity.com/sharedfiles/filedetails/?id=3747602295) installed. The easiest way to obtain it is from Steam Workshop.&#13;
-2. Download the "Archipelago.zip" from the [Releases](https://github.com/dlueben1/Slay-the-Spire-2-Archipelago/releases/latest) section of the Repo&#13;
-3. Go to your Slay the Spire II directory (In Steam, click "Browse Local Files")&#13;
-4. If a folder called `mods` does not exist, create it&#13;
-5. Copy the `Archipelago.zip` into `mods`. Then click `extract all` on your favourite ZIP tool.&#13;
-&#13;
-- If you've done this step correctly, your directory structure should look like this: `/&lt;slay-the-spire-2-local-files&gt;/mods/Archipelago/` and the contents of that folder should be a bunch of `.dll` files and a `.pck` file (there may be more files too, please don't touch anything in this folder)&#13;
-&#13;
-6. Start the game&#13;
-&#13;
-### Additional Steps for **Hosts**&#13;
-&#13;
-7. Download `spire2.apworld`&#13;
-8. Open your Archipelago Launcher&#13;
-9. Click "Install APWorld"&#13;
-10. Select `spire2.apworld` in the file dialog that pops up&#13;
-11. **Restart the Archipelago Launcher**&#13;
-12. Now you should be able to properly host/generate an Archipelago Session with StS 2&#13;
-&#13;
-- If you want to use `archipelago.gg` to host the game, generate it locally first following the steps above, then upload the `.zip` file from the `output` folder in your Archipelago installation&#13;
-&#13;
-&gt; [!IMPORTANT]&#13;
-&gt; You need to use Archipelago Version 0.6.7+ and CANNOT use earlier versions of Archipelago with this mod!&#13;
-</content>
-    <link href="https://github.com/dlueben1/Slay-the-Spire-2-Archipelago/releases/tag/1.1.1"/>
-  </entry>
-  <entry>
-    <id>https://github.com/Kryen112/HP2PC_AP/releases/tag/v2.11.0</id>
-    <title>Harry Potter 2 PC v2.11.0</title>
-    <updated>2026-09-08T15:28:06+00:00</updated>
-    <author>
-      <name>Kryen112</name>
-    </author>
-    <content># HP2PC_AP v2.11.0&#13;
-Every link is now a command you can flip mid-run, auto-launch only fires when you ask for it, and Hold Shift runs faster. Plus an eleventh Diffindo plant pot and four logic corrections.&#13;
-&#13;
-### New&#13;
-- **Turn each link on or off during a run.** `/ringlink`, `/traplink` and `/deathlink` each take `on`, `off` or `seed`, and a bare command flips the current state. Your choice beats the seed setting on every reconnect, so dropping and rejoining keeps it.&#13;
-- **`/autoplay` overrides auto-launch for the client session.** It takes `on` or `off`, and a bare `/autoplay` flips it. Handy when you want one session to behave differently from your `auto_launch_game` setting.&#13;
-&#13;
-### Changed&#13;
-- **Auto-launch only fires on connects you made.** The Connect button, `/connect` and the startup connect arm the launch. A reconnect the client makes by itself after a dropped connection never launches. The game counts as already up when it is bridged or a `Game.exe` is visible, so closing the game at the launcher page no longer wedges auto-launch for the rest of the session. A skipped launch says so and points you at `/play`.&#13;
-- **Hold Shift now caps at 330 units per second**, up from 315. The cap scales off the live ground speed, so a boost the game gives you on its own still stacks on top.&#13;
-- **Blocker hints get a reach per site.** The Great Hall gate drops to 150 units and the Spongify and Skurge doorways to 100, about contact range, so those three stop announcing themselves from across the room. Everything else keeps the 500 unit reach.&#13;
-&#13;
-### Fixed&#13;
-- **A timed trap can no longer expire mid-climb.** Reducio and Engorgio rebuild Harry's collision cylinder when they run out, which corrupted it if he was on a ledge at the time. Expiry now waits until he is standing or walking. Leaving the level still ends the trap immediately.&#13;
-- **A container the engine refuses to swap comes back.** A rejected spawn retries through the engine's own outward search and slides back to the saved spot. A spot that still refuses gets the stock container instead of an empty gap.&#13;
-&#13;
-### Logic and content changes&#13;
-- **Diffindo Challenge has an eleventh plant pot.** The pot set into a wall sconce is a check again, as Plant Pot 8. The pots that were 8, 9 and 10 are now 9, 10 and 11, each keeping its own check.&#13;
-- **Gryffindor Challenge Cauldron 2** now needs **Alohomora** on top of (Diffindo or Running) + Spongify + Flipendo. Cauldron 1 is unchanged.&#13;
-- **Quidditch match 5** no longer needs **Spongify**. Match 6 unlocks at a later game state, past the Spongify lesson, so only match 6 carries the spell.&#13;
-- **Forbidden Forest Secret 4 and Card Scamander** now need **Flipendo**. Both need it to reach.&#13;
-- **Chamber of Secrets Wiggentree Bark Jar 1 and Flobberworm Mucous Jar 1** now need **Diffindo**. Both sit behind a cut.&#13;
-&#13;
-## Poptracker 1.0.8&#13;
-&#13;
-### Changed&#13;
-- Access rules regenerated for the Cauldron 2, Quidditch match 5, Forbidden Forest and Chamber of Secrets gates.&#13;
-- Diffindo Challenge Plant Pot 11 added, and the plant pot pins retargeted so each pin follows its pot rather than its number.</content>
-    <link href="https://github.com/Kryen112/HP2PC_AP/releases/tag/v2.11.0"/>
-  </entry>
-  <entry>
-    <id>https://github.com/chpas/Pikmin2Archipelago/releases/tag/v0.9.1</id>
-    <title>Pikmin 2 v0.9.1</title>
-    <updated>2026-09-08T20:12:36+00:00</updated>
-    <author>
-      <name>chpas</name>
-    </author>
-    <content>**NOTE: This mod is still in the testing phase. Play at your own risk.**&#13;
-&#13;
-## Changelog&#13;
-- Strip pyisotools of extraneous files and use its pure Python implementation instead of its compiled binary&#13;
-  - This greatly reduces the size of the APWorld, as well as making it universal again&#13;
-- Fix a bug where collecting the Professional Noisemaker after killing the Waterwraith in Submerged Castle on a non-boss floor would cause the client to silently crash&#13;
-- Fix a bug where triggering the "You look lost" cutscene would cause the game to crash&#13;
-- Increase enemy heap memory to (hopefully) fix issues with enemy traps&#13;
-- Change the client connection logic so that it reads the user's slot name from your patch file instead of the user having to type it&#13;
-- Add a better error message for when users try to open the client through the "Pikmin 2 Client" widget instead of the "Open Patch" widget&#13;
-&#13;
-## Known Bugs&#13;
-- Queen Candypop Buds sometimes show up as white instead of red, even if you have Red Pikmin unlocked. This means that you can't use them to generate Red Pikmin, but you can use them to generate White Pikmin.&#13;
-- Whatever cave is in Submerged Castle's location will always have the vanilla Submerged Castle music.&#13;
-- Sometimes starting items will not be received properly, if this happens usually restarting the game and client causes them to appear.&#13;
-- Sometimes the Pikmin can't break gates in caves. Usually resetting the cave fixes this.&#13;
-- Sometimes collecting Louie does not trigger the goal.&#13;
-- Pausing the game while receiving items can semi-rarely cause a crash.&#13;
-- Enemy traps have a slight chance to not spawn or crash the game.</content>
-    <link href="https://github.com/chpas/Pikmin2Archipelago/releases/tag/v0.9.1"/>
-  </entry>
   <entry>
     <id>https://github.com/jm771/apworld_crossword/releases/tag/v0.1.6</id>
     <title>Crossword v0.0.0r2</title>
@@ -982,7 +844,7 @@ The implementation now has proper [documentation](https://github.com/SerpentAI/A
   </entry>
   <entry>
     <id>https://github.com/dmwever/Ageipelago/releases/tag/v0.2.3</id>
-    <title>Age Of Empires II: Definitive Edition v0.0.1r3</title>
+    <title>Age Of Empires II: Definitive Edition v0.0.1r2</title>
     <updated>2026-09-10T02:36:50+00:00</updated>
     <author>
       <name>dmwever</name>
@@ -1019,7 +881,7 @@ Should still be fully compatible with releases going back to 0.2.0.&#13;
   </entry>
   <entry>
     <id>https://github.com/Jbaker16163/Ark-Survival-Archipelago/releases/tag/v0.3</id>
-    <title>ARK Survival Evolved v1.0.0r5</title>
+    <title>ARK Survival Evolved v1.0.0r2</title>
     <updated>2026-09-10T03:23:40+00:00</updated>
     <author>
       <name>Jbaker16163</name>
@@ -1140,7 +1002,7 @@ I will be taking a break on adding new maps to the supported list as I am gettin
 and it is replaced without warning. For something that stays put, use the
 [latest release](https://github.com/m-this/tf2-archipelago/releases/latest).
 
-Built from `b68b781c7a008806373cd8220c191662b05e7652`.
+Built from `40572e0cdfd3ee9ecbc69060bd3e3aabeab838df`.
 
 ## Downloads
 
@@ -1149,6 +1011,7 @@ Built from `b68b781c7a008806373cd8220c191662b05e7652`.
 
 ## Since v1.13.0
 
+- fix(launcher): name reward toggles plainly
 - chore(beads): triage of Discord and the issue tracker since 1.12 (#61)
 - fix(bridge): a format version mismatch says what to do about it (#60)
 - fix(launcher): the Grappling Hook can be turned on, and shows when it lands (#59)
@@ -1770,6 +1633,22 @@ _No new YAML options. However, you will need to remove Permanent Fever Meter Bon
     <link href="https://github.com/Tincancrafter/Red-Prince-Releases/releases/tag/v1.0.15"/>
   </entry>
   <entry>
+    <id>https://github.com/Osiris32-and-a-half/BobFactorioAP/releases/tag/V2.3.1</id>
+    <title>Factorio Modpacks v2.3.1</title>
+    <updated>2026-09-11T15:36:41+00:00</updated>
+    <author>
+      <name>Osiris32-and-a-half</name>
+    </author>
+    <content>Cosmicwolf has added the ability to show the normal tech tree in game based on in game options. There are 3 options hidden (this is how it was before), Broken tree (the technologies are viable but they aren't put into a tree) and Tech tree (This shows the full tech tree on the normal modpack, however due to how Factorio handles how we have disabled research the techs it is extremely laggy to the point of crashing, am looking at ways to fix this but suggestions are always wanted)&#13;
+&#13;
+He has also added the information to tooltips in factoriopedia so technology names can still be found for hinting while using hidden tree&#13;
+&#13;
+Lastly I have fix a number of bugs that should fix the bob's modpack and quality&#13;
+&#13;
+**Full Changelog**: https://github.com/Osiris32-and-a-half/BobFactorioAP/compare/V2.3.0...V2.3.1</content>
+    <link href="https://github.com/Osiris32-and-a-half/BobFactorioAP/releases/tag/V2.3.1"/>
+  </entry>
+  <entry>
     <id>https://github.com/Crownmuri/Archipelago/releases/tag/v1.0.4</id>
     <title>La-Mulana 2 v1.0.4</title>
     <updated>2026-09-11T15:47:29+00:00</updated>
@@ -1935,5 +1814,41 @@ Requires Archipelago 0.6.7+ and *Final Fantasy VIII* Steam 2013 (`FF8_EN.exe`). 
 * Fix traps failing generation and speed related traps not working&#13;
 * Fix ending requirement not working when set to "all shot types"</content>
     <link href="https://github.com/Nepley/mof-apworld/releases/tag/v0.2.0"/>
+  </entry>
+  <entry>
+    <id>https://github.com/Rhelys/SlimeRancher2-AP/releases/tag/v0.14.1</id>
+    <title>Slime Rancher 2 v0.14.1</title>
+    <updated>2026-09-12T05:07:41+00:00</updated>
+    <author>
+      <name>Rhelys</name>
+    </author>
+    <content>## Bug Fixes&#13;
+- Updated how upgrade levels are stored for offline recovery</content>
+    <link href="https://github.com/Rhelys/SlimeRancher2-AP/releases/tag/v0.14.1"/>
+  </entry>
+  <entry>
+    <id>https://github.com/randomcodegen/ironwail_ap/releases/tag/1.2.2</id>
+    <title>Quake 1 v1.2.2</title>
+    <updated>2026-09-12T07:11:12+00:00</updated>
+    <author>
+      <name>Rando</name>
+    </author>
+    <content>- Fix killcount (unkillable enemies don't count)</content>
+    <link href="https://github.com/randomcodegen/ironwail_ap/releases/tag/1.2.2"/>
+  </entry>
+  <entry>
+    <id>https://github.com/dannybonz/ae2_archipelago/releases/tag/v1.3.1</id>
+    <title>Ape Escape 2 v1.3.1</title>
+    <updated>2026-09-12T07:46:22+00:00</updated>
+    <author>
+      <name>dannybonz</name>
+    </author>
+    <content>- Added level order to slot data, enabling entrance tracker support for **[Terratoya's Poptracker Pack!](https://github.com/terratoya/ae2-poptracker-pack/releases/latest)**&#13;
+- Corrected behaviour of the Gotcha Box when playing with level-based item gating.&#13;
+- Corrected logic for a Bar room start in Casino City.&#13;
+- Corrected logic for backwards traversal of the Booby Traps room in Panic Pyramid.&#13;
+&#13;
+For instructions, see the [Setup Guide.](https://github.com/dannybonz/ae2_archipelago/blob/main/docs/setup.md)</content>
+    <link href="https://github.com/dannybonz/ae2_archipelago/releases/tag/v1.3.1"/>
   </entry>
 </feed>
