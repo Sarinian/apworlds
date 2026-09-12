@@ -2,110 +2,11 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://raw.githubusercontent.com/silasary/apworlds/refs/heads/main/recent.atom</id>
   <title>Recent APWorlds</title>
-  <updated>2026-09-12T09:57:45.219403+00:00</updated>
+  <updated>2026-09-12T14:46:25.052185+00:00</updated>
   <author>
     <name>Silasary</name>
   </author>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
-  <entry>
-    <id>https://github.com/jm771/apworld_crossword/releases/tag/v0.1.6</id>
-    <title>Crossword v0.0.0r2</title>
-    <updated>2026-09-09T00:01:09+00:00</updated>
-    <author>
-      <name>JHeard</name>
-    </author>
-    <content>Bug fix - support for using characters in the upper half of the latin-1 encoding</content>
-    <link href="https://github.com/jm771/apworld_crossword/releases/tag/v0.1.6"/>
-  </entry>
-  <entry>
-    <id>https://github.com/lastingParadox/Archipelago-CotND/releases/tag/v0.8.2</id>
-    <title>Crypt of the NecroDancer v0.8.2</title>
-    <updated>2026-09-09T01:16:49+00:00</updated>
-    <author>
-      <name>lastingParadox</name>
-    </author>
-    <content>### Notes&#13;
-- **This update requires AP Redux mod v4.1.0 or newer.** While this is mainly a fix for the vendored ZStandard code causing the Client to crash on some operating systems, support for the Marv Trap requires a mod version update.&#13;
-  - **In-progress multiworlds can be carried over to v0.8.2, however.**&#13;
-&#13;
-### Changes&#13;
-- Add Marv Trap as a possible trap item.&#13;
-- Modify iteration strategy for finding the appropriate zstandard version dependent on python version and operating system&#13;
-- Delete ~60 MB (~17 MB zipped) of unreferenced `.cffi` and `.so` files in the vendored zstandard versions&#13;
-&#13;
-Please see the [setup file](https://github.com/lastingParadox/Archipelago-CotND/blob/crypt-of-the-necrodancer/worlds/cotnd/docs/setup_en.md) for getting started.&#13;
-&#13;
-Please inform me of any issues through the associated [Crypt of the NecroDancer channel in the Archipelago Discord](https://discord.com/channels/731205301247803413/1192775219740422176) or through [GitHub Issues](https://github.com/lastingParadox/Archipelago-CotND/issues).</content>
-    <link href="https://github.com/lastingParadox/Archipelago-CotND/releases/tag/v0.8.2"/>
-  </entry>
-  <entry>
-    <id>https://github.com/Silvris/Archipelago/releases/tag/k64_0.4.0</id>
-    <title>Kirby 64 - The Crystal Shards v0.4.0</title>
-    <updated>2026-09-09T01:23:32+00:00</updated>
-    <author>
-      <name>Silvris</name>
-    </author>
-    <content># New Features&#13;
-* Boss Shuffle&#13;
-  * Supports plando placement, identical to Kirby's Dream Land 3 (see AP plando guide for more info)&#13;
-* When enough crystals have been acquired for goal, friend status will be placed in the client display instead.&#13;
-&#13;
-# Bug Fixes&#13;
-* Rules were moved to Rule Builder.&#13;
-* An issue where Adeleine in Pop Star 3 did not logically require Adeleine was fixed&#13;
-* The number of valid abilities for the Shard/consumables at the end of Ripple Star 2 were reduced&#13;
-* Added missing Sandwich check in Aqua Star 2&#13;
-* Fixed the third sandwich in Rock Star 2 being missing&#13;
-* Fixed an issue where the opening cutscene would play again immediately following the post-Whispy Woods cutscene&#13;
-* Added additional checks before sending deathlinks</content>
-    <link href="https://github.com/Silvris/Archipelago/releases/tag/k64_0.4.0"/>
-  </entry>
-  <entry>
-    <id>https://github.com/ChakraaThePanda/Archipelago-Northgard/releases/tag/2026.09.08</id>
-    <title>Northgard v2026.9.8</title>
-    <updated>2026-09-09T01:35:03+00:00</updated>
-    <author>
-      <name>Chakraa</name>
-    </author>
-    <content>### Added&#13;
-- New Useful/Filler items: Resources (Krowns, Food, Wood, Lore/Faith, Stone, Iron, Military Experience/Hunting Trophies). Each one comes as two item types:&#13;
-  - A filler item like "100 Food" gives you that amount instantly the moment you receive it, but only while you're online and playing. It's forfeited if you're not around to catch it.&#13;
-  - A "Starting X" item like "50 Starting Food" is a permanent, one-time bonus: once you get it, you'll start with that extra amount at the beginning of every battle you play from then on, whether you were online to receive it or not.&#13;
-&#13;
-**Full Changelog**: https://github.com/ChakraaThePanda/Archipelago-Northgard/compare/2026.09.04...2026.09.08</content>
-    <link href="https://github.com/ChakraaThePanda/Archipelago-Northgard/releases/tag/2026.09.08"/>
-  </entry>
-  <entry>
-    <id>https://github.com/Aeromaze/Archipelago/releases/tag/v0.2.3</id>
-    <title>Easy Delivery Co. v0.2.3</title>
-    <updated>2026-09-09T10:00:06+00:00</updated>
-    <author>
-      <name>Aeromaze</name>
-    </author>
-    <content>## Changes&#13;
-Intercity deliveries shows the destination town&#13;
-Improved the in-game tracker&#13;
-The in-game tracker can now be closed like any other menu&#13;
-The in-game tracker now has menus to show what's in logic, and what's done. This is still WIP&#13;
-## Fixes&#13;
-Fix sending DeathLinks and improve receiving DeathLinks. Should no longer exit to main menu after receiving a death&#13;
-Fix logic when generating with lock towns without enabling payload deliveries&#13;
-Adjust yaml explanations</content>
-    <link href="https://github.com/Aeromaze/Archipelago/releases/tag/v0.2.3"/>
-  </entry>
-  <entry>
-    <id>https://github.com/xyzzy44/ValheimArchipelagoRandomizer/releases/tag/0.2.5</id>
-    <title>Valheim v0.2.5</title>
-    <updated>2026-09-09T15:45:16+00:00</updated>
-    <author>
-      <name>xyzzy44</name>
-    </author>
-    <content>Note: This update was made with the pre-1.0 Valheim version, and may or may not work with Valheim 1.0. Testing with 1.0 will be done after the upstream dependencies this mod relies on have been updated, and if necessary an updated version for Valheim 1.0 compatibility will be made.&#13;
-&#13;
-- Artisan table fix in research.tsv&#13;
-- Fixed Mistlands logic in apworld</content>
-    <link href="https://github.com/xyzzy44/ValheimArchipelagoRandomizer/releases/tag/0.2.5"/>
-  </entry>
   <entry>
     <id>https://github.com/Lemix028/SupermarketSimulator-Archipelago/releases/tag/v0.3.5</id>
     <title>Supermarket Simulator v0.3.5</title>
@@ -844,7 +745,7 @@ The implementation now has proper [documentation](https://github.com/SerpentAI/A
   </entry>
   <entry>
     <id>https://github.com/dmwever/Ageipelago/releases/tag/v0.2.3</id>
-    <title>Age Of Empires II: Definitive Edition v0.0.1r2</title>
+    <title>Age Of Empires II: Definitive Edition v0.0.1r3</title>
     <updated>2026-09-10T02:36:50+00:00</updated>
     <author>
       <name>dmwever</name>
@@ -881,7 +782,7 @@ Should still be fully compatible with releases going back to 0.2.0.&#13;
   </entry>
   <entry>
     <id>https://github.com/Jbaker16163/Ark-Survival-Archipelago/releases/tag/v0.3</id>
-    <title>ARK Survival Evolved v1.0.0r2</title>
+    <title>ARK Survival Evolved v1.0.0r5</title>
     <updated>2026-09-10T03:23:40+00:00</updated>
     <author>
       <name>Jbaker16163</name>
@@ -990,34 +891,6 @@ I will be taking a break on adding new maps to the supported list as I am gettin
   - [EPG E-3] Fourth Hell Gate Exit Coin Pot: changed an incorrect `and` gate to  `or` gate&#13;
 </content>
     <link href="https://github.com/Crownmuri/Archipelago/releases/tag/v1.0.3"/>
-  </entry>
-  <entry>
-    <id>https://github.com/m-this/tf2-archipelago/releases/tag/nightly</id>
-    <title>Team Fortress 2 Mann vs Machine v1.12.0r3</title>
-    <updated>2026-09-10T08:48:18+00:00</updated>
-    <author>
-      <name>mathis</name>
-    </author>
-    <content>**This is not a release.** It is the head of `main`, rebuilt on every push,
-and it is replaced without warning. For something that stays put, use the
-[latest release](https://github.com/m-this/tf2-archipelago/releases/latest).
-
-Built from `40572e0cdfd3ee9ecbc69060bd3e3aabeab838df`.
-
-## Downloads
-
-- [tf2ap.exe](https://github.com/m-this/tf2-archipelago/releases/download/nightly/tf2ap.exe) for Windows
-- [tf2ap-linux-amd64](https://github.com/m-this/tf2-archipelago/releases/download/nightly/tf2ap-linux-amd64) for Linux
-
-## Since v1.13.0
-
-- fix(launcher): name reward toggles plainly
-- chore(beads): triage of Discord and the issue tracker since 1.12 (#61)
-- fix(bridge): a format version mismatch says what to do about it (#60)
-- fix(launcher): the Grappling Hook can be turned on, and shows when it lands (#59)
-- fix(plugin): PLUGIN_VERSION says 1.13.0, like the apworld
-</content>
-    <link href="https://github.com/m-this/tf2-archipelago/releases/tag/nightly"/>
   </entry>
   <entry>
     <id>https://github.com/TreZc0/OoTR-APWorld/releases/tag/v9.1.0-release2</id>
@@ -1816,6 +1689,41 @@ Requires Archipelago 0.6.7+ and *Final Fantasy VIII* Steam 2013 (`FF8_EN.exe`). 
     <link href="https://github.com/Nepley/mof-apworld/releases/tag/v0.2.0"/>
   </entry>
   <entry>
+    <id>https://github.com/1-800-thewolf/FF1PSP-Archipelago/releases/tag/v0.2.3</id>
+    <title>Final Fantasy 1 PSP v0.2.3</title>
+    <updated>2026-09-12T04:54:47+00:00</updated>
+    <author>
+      <name>1-800-thewolf</name>
+    </author>
+    <content>## Interactive Bestiary Map&#13;
+&lt;img width="462" height="299" alt="air elemental demo" src="https://github.com/user-attachments/assets/57388edb-8900-46fd-b893-f9e12cb9e7a2" /&gt;&#13;
+&#13;
+&gt; Where can I fight Air Elementals?&#13;
+&#13;
+Now you can click a monster on the Bestiary tab in the Archipelago Client to pull up a map, showing all the places to hunt that monster.&#13;
+&#13;
+&lt;img width="743" height="328" alt="bestiary-map-demo" src="https://github.com/user-attachments/assets/8cf20a32-d3e0-4ee4-9ae5-dbfd7b678c4c" /&gt;&#13;
+&#13;
+&gt; Interactable map&#13;
+&#13;
+You can also click an overworld hunting grounds section to show where exactly that is.&#13;
+&#13;
+I'm hoping with these comprehensive features, Bestiarysanity becomes a viable part of the archipelago experience. Players should now be able to answer the question, "I know I want to hunt this monster. Where exactly can I find it?"&#13;
+- Note that these interactive Bestiary-Map features are ***fully compatible*** with shuffled and harder monsters according to your yaml settings.&#13;
+&#13;
+## Catchup Exp Mechanic&#13;
+Now if a missing party member joins at a far lower level than the average of the rest of your party, they gain exp faster to catch up. This directly addresses the frustration of having a level 55+ party and a party member joins at level 15.&#13;
+&#13;
+## Bug Fixes Related To&#13;
+- Bestiarysanity using baseline numbers instead of deltas&#13;
+- Blood Magic with armor&#13;
+- Crystals needed to unlock Chaos sometimes assuming you have the Earth Crystal&#13;
+- Better Bestiarysanity Logic to handle world-changing items. (If you get the Lufenia Bridge, you might have to go kill some monsters in the northern continent)&#13;
+&#13;
+## 👍🏻 Fully compatible with existing v0.2.0+ seeds. Please upgrade mid-run for a better experience.</content>
+    <link href="https://github.com/1-800-thewolf/FF1PSP-Archipelago/releases/tag/v0.2.3"/>
+  </entry>
+  <entry>
     <id>https://github.com/Rhelys/SlimeRancher2-AP/releases/tag/v0.14.1</id>
     <title>Slime Rancher 2 v0.14.1</title>
     <updated>2026-09-12T05:07:41+00:00</updated>
@@ -1850,5 +1758,228 @@ Requires Archipelago 0.6.7+ and *Final Fantasy VIII* Steam 2013 (`FF8_EN.exe`). 
 &#13;
 For instructions, see the [Setup Guide.](https://github.com/dannybonz/ae2_archipelago/blob/main/docs/setup.md)</content>
     <link href="https://github.com/dannybonz/ae2_archipelago/releases/tag/v1.3.1"/>
+  </entry>
+  <entry>
+    <id>https://github.com/MaragonMH/Archipelago/releases/tag/XenoX0.2.10</id>
+    <title>Xenoblade X v0.2.10</title>
+    <updated>2026-09-12T10:48:17+00:00</updated>
+    <author>
+      <name>Maragon</name>
+    </author>
+    <author>
+      <name>Nina</name>
+    </author>
+    <content>- Add error messagebox for duplicate clients&#13;
+- Fix client crash on startup while game is already active</content>
+    <link href="https://github.com/MaragonMH/Archipelago/releases/tag/XenoX0.2.10"/>
+  </entry>
+  <entry>
+    <id>https://github.com/niieli/Niko-Archipelago/releases/tag/0.8.5</id>
+    <title>Here Comes Niko! v0.8.5</title>
+    <updated>2026-09-12T12:19:26+00:00</updated>
+    <author>
+      <name>nieli</name>
+    </author>
+    <content>## Locations&#13;
+- Changed "Public Pool - SPORTVIVAL VOLLEY" -&gt; "Public Pool - WATER VOLLEY"&#13;
+- Fixed typo "Turbine Town - Prianha" -&gt; "Turbine Town - Piranha"&#13;
+- Added "Public Pool - Hint Frog (Chatsanity)"&#13;
+- Added "Public Pool - Hint Frog 2 (Chatsanity)"&#13;
+- Added "Chatsanity - Hint Frog"&#13;
+- Added "Chatsanity - Hint Frog 2"&#13;
+## Logic&#13;
+- Added 'Soda Repair' to "Hairball City - Serschel &amp; Louist"&#13;
+- Added 'Swim Course' to "Salmon Creek Forest - Apple On Third Rock Cluster Near Building Submerged In Ocean 1"&#13;
+- Added 'Swim Course' to "Salmon Creek Forest - Apple On Third Rock Cluster Near Building Submerged In Ocean 2"&#13;
+- Added 'Soda Repair' to "Salmon Creek Forest - Apple By Soda Cannon In Treetops 1"&#13;
+- Added 'Soda Repair' to "Salmon Creek Forest - Apple By Soda Cannon In Treetops 2"&#13;
+- Added 'Soda Repair' to "Salmon Creek Forest - Apple By Soda Cannon In Treetops 3"&#13;
+- Added 'Soda Repair' to "Salmon Creek Forest - Apple By Soda Cannon In Treetops 4"&#13;
+- Added 'Soda Repair' to "Salmon Creek Forest - Apple By Soda Cannon In Treetops 5"&#13;
+- Added Seed logic to "Achievement - Lost at Sea" when `Goal: Garden`&#13;
+- Added 'Swim Course' to "Turbine Town - Britney (Chatsanity)"&#13;
+- Changed "Hairball City - Louist (Chatsanity)" requirement to having 2 Contact Lists (or just the 2nd Contact List) instead of having access to "Hairball City - Serschel &amp; Louist"&#13;
+- Changed "Hairball City - Serschel (Chatsanity)" requirement to having 2 Contact Lists (or just the 2nd Contact List) instead of having access to "Hairball City - Serschel &amp; Louist"&#13;
+- Changed "Turbine Town - Louist (Chatsanity)" requirement to having 2 Contact Lists (or just the 2nd Contact List) instead of having access to "Turbine Town - Serschel &amp; Louist"&#13;
+- Changed "Turbine Town - Serschel (Chatsanity)" requirement to having 2 Contact Lists (or just the 2nd Contact List) instead of having access to "Turbine Town - Serschel &amp; Louist"&#13;
+- Added Elevator Cost to "Chatsanity - Borbie"&#13;
+- Added 'AC Repair' to "Chatsanity - Bird" &amp; "Gary's Garden - Bird (Chatsanity)"&#13;
+- Added 'AC Repair' to "Chatsanity - Dance Frog" &amp; "Gary's Garden - Dance Frog (Chatsanity)"&#13;
+- Added 'AC Repair' to "Chatsanity - Danger Frog" &amp; "Gary's Garden - Danger Frog (Chatsanity)"&#13;
+- Added 'AC Repair' to "Chatsanity - Fear Frog" &amp; "Gary's Garden - Fear Frog (Chatsanity)"&#13;
+- Added 'AC Repair' to "Chatsanity - Tourist Frog" &amp; "Gary's Garden - Tourist Frog (Chatsanity)"&#13;
+- Added 'AC Repair' to "Chatsanity - Hungry Frog" &amp; "Gary's Garden - Hungry Frog (Chatsanity)"&#13;
+- Added 'AC Repair' to "Gary's Garden - Seed 5"&#13;
+- Added 'AC Repair' to "Gary's Garden - Seed 6"&#13;
+- Added 'AC Repair' to "Gary's Garden - Seed 7"&#13;
+- Added 'AC Repair' to "Gary's Garden - Seed 8"&#13;
+- Added 'AC Repair' to "Gary's Garden - Seed 9"&#13;
+- Added 'AC Repair' to "Gary's Garden - Seed 10"&#13;
+- Added 'AC Repair' to "Gary's Garden - On Tree Branch"&#13;
+- Added 'AC Repair' to "Gary's Garden - Next To Smaller Tree"&#13;
+- Added 'AC Repair' to "Gary's Garden - Next Garden Seed On Rocks"&#13;
+- Added 'AC Repair' to "Gary's Garden - Beginning Of Giant Gold Scissor"&#13;
+- Added 'AC Repair' to "Gary's Garden - Near End Of Giant Gold Scissor"&#13;
+- Added 'AC Repair' to "Gary's Garden - Tree Branch Near Gold Scissor Row"&#13;
+- Added 'AC Repair' to "Gary's Garden - Tree Branch Near The Top"&#13;
+- Added 'AC Repair' and 'Soda Repair' to "Gary's Garden - Hasselhop (Chatsanity)"&#13;
+- Added 'AC Repair' and 'Soda Repair' to "Gary's Garden - Gunter &amp; Little Gabi"&#13;
+- Added 'AC Repair', 'Soda Repair' and Seed logic to "Chatsanity - Gunter" &amp; "Gary's Garden - Gunter (Chatsanity)"&#13;
+- Added 'Swim Course' to "Chatsanity - Divin' Doe"&#13;
+- Added 'Swim Course' to "Hairball City - Game Kid"&#13;
+- Added 'Swim Course' to "Salmon Creek Forest - Serschel &amp; Louist"&#13;
+- Added 'Swim Course' to "Tadpole HQ - Apple On Xylophone"&#13;
+- Removed Contact List requirement for "Public Pool - Blippy (Chatsanity)"&#13;
+- Fixed "Chatsanity - Hasselhop" to correctly check for Textboxes &#13;
+- Fixed "Chatsanity - Mom Gull (TT)" checking for Public Pool instead of Turbine Town&#13;
+- Added Elevator Cost to "Chatsanity - Pepper" in Tadpole HQ&#13;
+- Changed "Chatsanity - Penny" &amp; "Chatsanity - Poppy" requirement to '7 Keys/2 Bathhouse Keys', 'Bathhouse Ticket' and 'Bathhouse Textbox'&#13;
+- Actually add "Chatsanity - Marshal" to Chatsanity LMAO&#13;
+- Added 'Swim Course' to "Bathouse - Steamy Frog (Chatsanity)" &amp; "Chatsanity - Steamy Frog"&#13;
+- Added 'Swim Course' to "Bathouse - Mickey (Chatsanity)" &amp; "Chatsanity - Mickey"&#13;
+- Added 'Swim Course' to "Bathouse - Moe (Chatsanity)" &amp; "Chatsanity - Moe"&#13;
+- Added 'Swim Course' to "Bathouse - Marshal (Chatsanity)" &amp; "Chatsanity - Marshal"&#13;
+- Added 'Swim Course' to "Bathouse - Lil' Sis Doe (Chatsanity)" &amp; "Chatsanity - Lil' Sis Doe"&#13;
+- Added 'Swim Course' to "Bathouse - Carl (Chatsanity)" &amp; "Chatsanity - Carl"&#13;
+- Added 'Swim Course' to "Bathouse - Biki (Chatsanity)" &amp; "Chatsanity - Biki"&#13;
+- Added 'Swim Course' to "Bathouse - Wess (Chatsanity)" &amp; "Chatsanity - Wess"&#13;
+- Added 'Swim Course' to "Bathouse - David D. Carota (Chatsanity)" &amp; "Chatsanity - David D. Carota"&#13;
+- Added 'Swim Course' to "Bathouse - Marry D. Carota (Chatsanity)" &amp; "Chatsanity - Marry D. Carota"&#13;
+- Added 'Parasol Repair' to "Hairball City - Palm Tree"&#13;
+- Added 'Parasol Repair' to "Hairball City - Bug On Tall Palm Tree Platform 1"&#13;
+- Added 'Parasol Repair' to "Hairball City - Bug On Tall Palm Tree Platform 2"&#13;
+- Added 'Swim Course' (precise) or 'Parasol Repair' to "Turbine Town - Next To Torri Gates"&#13;
+- Added 'Soda Repair' OR 'AC Repair' to "Chatsanity - Handsome Frog" &amp; "Bathhouse - Handsome Frog"&#13;
+- Added 'Soda Repair' OR 'AC Repair' to "Bathhouse - Apple By Handsome Frog 1"&#13;
+- Added 'Soda Repair' OR 'AC Repair' to "Bathhouse - Apple By Handsome Frog 2"&#13;
+- Added 'Soda Repair' OR 'AC Repair' to "Bathhouse - Apple By Handsome Frog 3"&#13;
+- Added 'Soda Repair' OR 'AC Repair' to "Bathhouse - Apple By Handsome Frog 4"&#13;
+- Added 'Soda Repair' OR 'AC Repair' to "Bathhouse - Apple By Handsome Frog 5"&#13;
+- Added 'Soda Repair' OR 'AC Repair' to "Bathhouse - Apple By Handsome Frog 6"&#13;
+- Added 'Soda Repair' OR 'AC Repair' to "Bathhouse - Apple By Handsome Frog 7"&#13;
+- Added 'Soda Repair' OR 'AC Repair' to "Bathhouse - Apple By Handsome Frog 8"&#13;
+- Added 'Soda Repair' OR 'AC Repair' to "Bathhouse - Apple By Handsome Frog 9"&#13;
+- Added 'Soda Repair' OR 'AC Repair' to "Bathhouse - Apple By Handsome Frog 10"&#13;
+- Added 'Soda Repair' OR 'AC Repair' to "Bathhouse - Bug Near Handsome Frog 1"&#13;
+- Added 'Soda Repair' OR 'AC Repair' to "Bathhouse - Bug Near Handsome Frog 2"&#13;
+- Added 'Soda Repair' OR 'AC Repair' to "Bathhouse - Bug Near Handsome Frog 3"&#13;
+- Added 'Swim Course' to "Public Pool - Behind Frog Statue"&#13;
+- Added 'Swim Course' (precise) to "Public Pool - Bug On Frog Statue 1"&#13;
+- Added 'Swim Course' (precise) to "Public Pool - Bug On Frog Statue 2"&#13;
+- Added 'Swim Course' to "Public Pool - First Apple Group Near Shallow Pool First Palm Tree 1"&#13;
+- Added 'Swim Course' to "Public Pool - First Apple Group Near Shallow Pool First Palm Tree 2"&#13;
+- Added 'Swim Course' to "Public Pool - First Apple Group Near Shallow Pool First Palm Tree 3"&#13;
+- Added 'Swim Course' to "Public Pool - First Apple Group Near Shallow Pool Second Palm Tree 1"&#13;
+- Added 'Swim Course' to "Public Pool - First Apple Group Near Shallow Pool Second Palm Tree 2"&#13;
+- Added 'Swim Course' to "Public Pool - First Apple Group Near Shallow Pool Second Palm Tree 3"&#13;
+- Added 'Swim Course' to "Public Pool - Second Apple Group Near Shallow Pool First Palm Tree 1"&#13;
+- Added 'Swim Course' to "Public Pool - Second Apple Group Near Shallow Pool First Palm Tree 2"&#13;
+- Added 'Swim Course' to "Public Pool - Second Apple Group Near Shallow Pool First Palm Tree 3"&#13;
+- Added 'Swim Course' to "Public Pool - Second Apple Group Near Shallow Pool Second Palm Tree 1"&#13;
+- Added 'Swim Course' to "Public Pool - Second Apple Group Near Shallow Pool Second Palm Tree 2"&#13;
+- Added 'Swim Course' to "Public Pool - Second Apple Group Near Shallow Pool Second Palm Tree 3"&#13;
+- Added 'Swim Course' to "Public Pool - Third Apple Group Near Shallow Pool First Palm Tree 1"&#13;
+- Added 'Swim Course' to "Public Pool - Third Apple Group Near Shallow Pool First Palm Tree 2"&#13;
+- Added 'Swim Course' to "Public Pool - Third Apple Group Near Shallow Pool First Palm Tree 3"&#13;
+- Added 'Swim Course' to "Public Pool - Third Apple Group Near Shallow Pool Second Palm Tree 1"&#13;
+- Added 'Swim Course' to "Public Pool - Third Apple Group Near Shallow Pool Second Palm Tree 2"&#13;
+- Added 'Swim Course' to "Public Pool - Third Apple Group Near Shallow Pool Second Palm Tree 3"&#13;
+- Added 'Swim Course' (precise) to "Tadpole HQ - Bug Near Fischer 1"&#13;
+- Added 'Swim Course' (precise) to "Tadpole HQ - Bug Near Fischer 2"&#13;
+- Added 'Swim Course' (precise) to "Tadpole HQ - Bug Near Fischer 3"&#13;
+- Added 'Swim Course' (precise) to "Tadpole HQ - Bug Near Fischer 4"&#13;
+- Added 'Swim Course' (precise) to "Tadpole HQ - Apple Behind Bench Near Fischer"&#13;
+- Added 'Swim Course' (precise) to "Tadpole HQ - Bug Near Fischer's Pond"&#13;
+- Added 'Swim Course' (precise) to "Tadpole HQ - Apple Behind Fischer Towards Rocks"&#13;
+- Added 'Swim Course' (precise) to "Tadpole HQ - Bug Near Rocks Behind Fischer 1"&#13;
+- Added 'Swim Course' (precise) to "Tadpole HQ - Bug Near Rocks Behind Fischer 2"&#13;
+- Added 'Swim Course' (precise) to "Tadpole HQ - Behind Fischer On A Rock"&#13;
+- Fixed Progressive Cassette logic by @LuxIsACatGirl&#13;
+- Fixed "Chatsanity - Loud Stag" being in Tadpole HQ instead of Salmon Creek Forest by @LuxIsACatGirl&#13;
+## Installation&#13;
+1. Double click the apworld or open ArchipelagoLauncher and `Install APWorld`&#13;
+2. Open ArchipelagoLauncher &#13;
+3. `Generate Template Options` to get the yaml or use the one under the release&#13;
+&#13;
+## Playing&#13;
+1. Setup your yaml and put it in `...\Archipelago\Players`&#13;
+2. Click `Generate` on the ArchipelagoLauncher&#13;
+3. `...\Archipelago\output` should have a AP_XXX.zip&#13;
+4. Host locally via `Host` on the ArchipelagoLauncher OR Upload the zip to the [website](https://archipelago.gg/uploads)&#13;
+5. Follow the Install instructions for the [Mod](https://github.com/niieli/NikoArchipelagoMod?tab=readme-ov-file#installation)&#13;
+&#13;
+## What's Changed&#13;
+* "Chatsanity - Loud Stag" Not Being in Salmon Creek Forest by @LuxIsACatGirl in https://github.com/niieli/Niko-Archipelago/pull/3&#13;
+* Fix Progressive Cassette logic by @LuxIsACatGirl in https://github.com/niieli/Niko-Archipelago/pull/4&#13;
+&#13;
+**Full Changelog**: https://github.com/niieli/Niko-Archipelago/compare/0.8.4...0.8.5</content>
+    <link href="https://github.com/niieli/Niko-Archipelago/releases/tag/0.8.5"/>
+  </entry>
+  <entry>
+    <id>https://github.com/m-this/tf2-archipelago/releases/tag/nightly</id>
+    <title>Team Fortress 2 Mann vs Machine v1.13.0r2</title>
+    <updated>2026-09-12T13:07:28+00:00</updated>
+    <author>
+      <name>mathis</name>
+    </author>
+    <content>**This is not a release.** It is the head of `main`, rebuilt on every push,
+and it is replaced without warning. For something that stays put, use the
+[latest release](https://github.com/m-this/tf2-archipelago/releases/latest).
+
+Built from `4373c87024026e41846869f359a760c0d7eb36ac`.
+
+## Downloads
+
+- [tf2ap.exe](https://github.com/m-this/tf2-archipelago/releases/download/nightly/tf2ap.exe) for Windows
+- [tf2ap-linux-amd64](https://github.com/m-this/tf2-archipelago/releases/download/nightly/tf2ap-linux-amd64) for Linux
+
+## Since v1.13.0
+
+- feat: add static visual campaign tracker (#62)
+- feat(resume): a wave picker beside Play, and a mark kept per mission (#66)
+- fix(fastdl): advertise community wave icons (#72)
+- feat(launcher): unlock selected missions in test mode (#71)
+- fix(launcher): recover Steam relay address from console log (#70)
+- fix(launcher): name reward toggles plainly
+- chore(beads): triage of Discord and the issue tracker since 1.12 (#61)
+- fix(bridge): a format version mismatch says what to do about it (#60)
+- fix(launcher): the Grappling Hook can be turned on, and shows when it lands (#59)
+- fix(plugin): PLUGIN_VERSION says 1.13.0, like the apworld
+</content>
+    <link href="https://github.com/m-this/tf2-archipelago/releases/tag/nightly"/>
+  </entry>
+  <entry>
+    <id>https://github.com/ChakraaThePanda/Archipelago-Manual-WorldofWarcraft-Dungeons/releases/tag/2026.09.12</id>
+    <title>Manual_WorldofWarcraftDungeons_Chakraa v2026.9.12</title>
+    <updated>2026-09-12T14:35:28+00:00</updated>
+    <author>
+      <name>ChakraaThePanda</name>
+    </author>
+    <content>### ADDED
+- New GameMode option, "Mythic+". Selecting it replaces the dungeon pool entirely with the 8 dungeons currently running in the Midnight Season 2 Mythic+ rotation (Altar of Fangs, Murder Row, Den of Nalorakk, The Blinding Vale, Voidscar Arena, King's Rest, Temple of Sethraliss, Ruby Life Pools), ignoring every "Include" option.
+
+### CHANGED
+- King's Rest now shows under "Battle for Azeroth" in the UI like a normal BfA dungeon, but only ever appears in the pool when GameMode is Mythic+ -- it won't show up in Free to Play or All runs.
+- The 5 brand-new Mythic+ dungeons with no prior expansion now show under a "Midnight" category in the UI.
+- The "Items Received" list no longer shows every expansion's category regardless of what's actually in your pool. Picking Mythic+ now only shows the categories your run actually uses, instead of also listing every other expansion with nothing in them.
+
+### FIXED
+- Corrected the "Include Wrath of the Lich King" description: it said 16 dungeons, but it's actually been 12 since an earlier prune.
+
+**Full Changelog**: https://github.com/ChakraaThePanda/Archipelago-Manual-WorldofWarcraft-Dungeons/compare/2026.08.30...2026.09.12</content>
+    <link href="https://github.com/ChakraaThePanda/Archipelago-Manual-WorldofWarcraft-Dungeons/releases/tag/2026.09.12"/>
+  </entry>
+  <entry>
+    <id>https://github.com/ChakraaThePanda/Archipelago-Manual-WatchAShow/releases/tag/2026.09.12</id>
+    <title>Manual_WatchAShow_Chakraa v2026.9.12</title>
+    <updated>2026-09-12T14:36:01+00:00</updated>
+    <author>
+      <name>ChakraaThePanda</name>
+    </author>
+    <content>### UPDATED
+- Updated the underlying Manual template to the latest stable release (2026.03.19), previously on 2025.08.13.
+
+**Full Changelog**: https://github.com/ChakraaThePanda/Archipelago-Manual-WatchAShow/compare/2026.03.09...2026.09.12</content>
+    <link href="https://github.com/ChakraaThePanda/Archipelago-Manual-WatchAShow/releases/tag/2026.09.12"/>
   </entry>
 </feed>
