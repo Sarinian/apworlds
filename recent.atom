@@ -2,94 +2,11 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://raw.githubusercontent.com/silasary/apworlds/refs/heads/main/recent.atom</id>
   <title>Recent APWorlds</title>
-  <updated>2026-09-12T19:58:20.270791+00:00</updated>
+  <updated>2026-09-13T01:50:49.170024+00:00</updated>
   <author>
     <name>Silasary</name>
   </author>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
-  <entry>
-    <id>https://github.com/NathanW001/BTTHArchipelago/releases/tag/0.1.02</id>
-    <title>Bat to the Heavens v0.1.2</title>
-    <updated>2026-09-09T22:08:58+00:00</updated>
-    <author>
-      <name>NathanW001</name>
-    </author>
-    <content>### v0.1.02: a bit of an emergency patch, nothing new&#13;
-&#13;
-&#13;
-- Fixed a critical issue with DataPacks for games overloading the websocket and crashing the connection&#13;
-- Fixed a bug with the way that the game checks for checkpoint completion with All Checkpoints goal&#13;
-- Fixed an issue with focus being lost on the main menu when pressing ESC or hitting back on the Archipelago connection menu&#13;
-- No changes have been made to the APWorld or yaml, just client fixes</content>
-    <link href="https://github.com/NathanW001/BTTHArchipelago/releases/tag/0.1.02"/>
-  </entry>
-  <entry>
-    <id>https://github.com/zorasknight/YakLaDGaiRando/releases/tag/Beta2</id>
-    <title>Yakuza Gaiden v0.6.0r2</title>
-    <updated>2026-09-09T22:31:18+00:00</updated>
-    <author>
-      <name>Zorasknight</name>
-    </author>
-    <content>### Hotfix 1: Fixed Progressive Wires failing to send due to outdated progressive_items.json&#13;
-### Hotfix 2: Adds proper Compression, color codes commands in terminal, cleans up terminal text &#13;
-&#13;
-## Update notes, and goals for the next build&#13;
-&#13;
-First a small aside, I name the builds based all around the myth of the carp climbing the waterfall to become a dragon, because c'mon this is a yakuza randomizer! We started with varieties of fish pre AP integration, then moved to monstrous fish, or dragon fish, since. And on release will likely move to dragon names! This one is named Akuru, which is named after a massive sea monster fish that could eat boats, symbolizing how crazy the bloat became on this build, as it truly became monstrous!&#13;
-&#13;
-Massive release, likely to be met with massive bugs, I swear the next builds will be smaller, and more focused on optimizations and bug fixes over new features, rather than waiting till the next massive feature release before fixing small issues. &#13;
-&#13;
-This build focuses on Akame tasks, logic changes, bug fixes, and some new features tied to requests from the awesome beta testing you all have done!&#13;
-&#13;
-The goal with the following major release will be focused on clean up and QoL features over new content. So consider this the "Last Main Feature" build for adding checks and complex features for at least some chunk of time. The goal for 0.8.0 is to look into trackers, visual displays of items when received, optimizations and code cleanup, and maybe some fun features like deathlink if time allows. And set us up well for the final pre 1.0.0 release which would mark my satisfaction and completion with the randomizer. &#13;
-&#13;
-To clarify, there will likely be a handful of post 1.0.0 changes as you would expect, or as I come up with new ideas. But that's when I can consider it at least "finished" for what that's worth. And that's still quite a ways away. &#13;
-&#13;
-That being said, there's no better time to play then now! Every build gets a bit more efficient, clean, and fun. So like always, if you test it out and have an issue, please reach out to me either through discord, submitting an issue through Github, or make a post on the AP Afterdark page for Gaiden.&#13;
-&#13;
-Anyway, here are the patch notes!&#13;
-&#13;
-## Yakuza Gaiden randomizer Version 0.7.0 (Akuru)&#13;
-&#13;
-- Akame Tasks now give checks! This can be adjusted using options to remove individual types of Akame Tasks if you want to avoid certain ones. Akame Tasks are split between:&#13;
-1. Fetch: Tasks where you must provide an item to the person&#13;
-3. Trial: Tasks where you must perform well at a certain game, or navigate and do some unique action&#13;
-4. Photo: Tasks where you take a photograph of the requested item&#13;
-5. Combat: Tasks where you defend the recipient or open an area blocked off to you&#13;
-6. Outift: Tasks where Kiryu must dress the part to receive the reward&#13;
-&#13;
-- Story moments now also present checks. Defeating notable fights, or completing a dungeon will provide a check to the player now to incentivize progression more than just as a way to finish the game. More of these may be added/deactivated per testing.&#13;
-- Hints have been added to shops and Akame Tasks. Purchasing an item from a store will hint the store for later quick reference, examining an Akame Task in the city that you cannot finish from just talking to them, will also hint that item to help you know if its worth pursuing. This feature has not been extensively tested, so please let me know if any locations fail to hint when you do not have the item in your inventory!&#13;
-- Pocket Circuit cars now contain 5 checks when acquired! This causes each pocket circuit car to be MUCH more valuable as a key item, as each on may contain the crucial parts you may need to finish your races! the remaining parts are still scattered across the worlds so this merely cuts down the amount of pocket circuit parts spread between worlds.&#13;
-- New goals and wincons. Added Defeat Shishido, and Defeat Pocket Circuit Owner Rival Race to the goal list alongside the existing Golden ball wincons. Multiple wincons can now be set at once! and all goals will need to be met to send the goal complete alert, this also has full go mode support too to let you know when its time!&#13;
-- Substories have checks! Completing a Substory now gives 1 check. Currently this is all but the Amon sub story, or the colosseum specific ones with the Kings.&#13;
-- Progressive wires now go up to the max possible in each region, in case you wanted to do just that!&#13;
-- All wires have been (likely) found! Giving us a total of 39 sotenbori, 29 Yokohama, and 19 colosseum&#13;
-- Clothing prices have been removed, all cosmetics are now free, requiring just the item to be sent to you, let those toes out without dropping 1 million yen!&#13;
-- South Poppo has been renamed to West Poppo to avoid confusion, Park Poppo remains as such&#13;
-- Your unique seed is actually unique now. Before if two Gaidens were in the same multiworld, all equipment would randomize the same stats + abilities. This has been changed to a per slot version of the seed now to avoid this hiccup.&#13;
-- swap invalid setting for YAML. If settings are invalid we now have backend validations in place to clean up and fix the yaml before run time. This should fix all min/max problems people were running into, and more importantly allow you to randomize all settings!&#13;
-- Shop keys are now separated into Shop Key and Minigame Key options. This allows you to lock one but not the other if preferred!&#13;
-- Unused key items are removed from the pool (for sure this time), for example if shop keys are on, but consumable shops are off, the consumable shop keys will not be included.&#13;
-- Shigano gains more checks... kind of? Shigano now contains a handful of infinite purchasable items that are required for Akame Tasks, and Akame Fetch tasks are only in logic if Shigano is open to purchase. The randomizer *should* give you the items you need within the pool, but this is a catch all to prevent those emergency bento boxes softlocking you.&#13;
-- Many bug fixes to edge case scenarios for saving and loading with AP items being sent.&#13;
-- Akame should no longer remove your shop keys if given a smoke&#13;
-- Multiple Prompt and console changes to hopefully clear up any confusion (for example /slot is now allowed alongside slot, there will likely be even more changes coming).</content>
-    <link href="https://github.com/zorasknight/YakLaDGaiRando/releases/tag/Beta2"/>
-  </entry>
-  <entry>
-    <id>https://github.com/EpicPuppy613/Wynncraft-APWorld/releases/tag/v0.4.3</id>
-    <title>Wynncraft v0.4.3</title>
-    <updated>2026-09-09T22:45:29+00:00</updated>
-    <author>
-      <name>EpicPuppy613</name>
-    </author>
-    <content>**Compatible with Wynnpelago v0.4.3+**&#13;
-&#13;
-- Improve logical gear levels in some situations&#13;
-- Various logic fixes</content>
-    <link href="https://github.com/EpicPuppy613/Wynncraft-APWorld/releases/tag/v0.4.3"/>
-  </entry>
   <entry>
     <id>https://github.com/SerpentAI/Archipelago/releases/tag/peggle-deluxe-v2.0.0</id>
     <title>Peggle Deluxe v2.0.0</title>
@@ -141,7 +58,7 @@ The implementation now has proper [documentation](https://github.com/SerpentAI/A
   </entry>
   <entry>
     <id>https://github.com/dmwever/Ageipelago/releases/tag/v0.2.3</id>
-    <title>Age Of Empires II: Definitive Edition v0.0.1r2</title>
+    <title>Age Of Empires II: Definitive Edition v0.0.1r3</title>
     <updated>2026-09-10T02:36:50+00:00</updated>
     <author>
       <name>dmwever</name>
@@ -178,7 +95,7 @@ Should still be fully compatible with releases going back to 0.2.0.&#13;
   </entry>
   <entry>
     <id>https://github.com/Jbaker16163/Ark-Survival-Archipelago/releases/tag/v0.3</id>
-    <title>ARK Survival Evolved v1.0.0r2</title>
+    <title>ARK Survival Evolved v1.0.0r5</title>
     <updated>2026-09-10T03:23:40+00:00</updated>
     <author>
       <name>Jbaker16163</name>
@@ -1170,6 +1087,24 @@ For instructions, see the [Setup Guide.](https://github.com/dannybonz/ae2_archip
     <link href="https://github.com/MaragonMH/Archipelago/releases/tag/XenoX0.2.10"/>
   </entry>
   <entry>
+    <id>https://github.com/Badhamknibbs/ArchipelagoNeonWhite/releases/tag/v0.1.0</id>
+    <title>Neon White v0.1.0</title>
+    <updated>2026-09-12T11:22:49+00:00</updated>
+    <author>
+      <name>Badhamknibbs</name>
+    </author>
+    <author>
+      <name>stxticOVFL</name>
+    </author>
+    <content>*Looking for the Neon White mod? Find it [here!](https://github.com/stxticOVFL/NWArchipelagoMod/releases/latest)*&#13;
+*Compatible with v0.1.x of the NWArchipelago mod.*&#13;
+&#13;
+## Initial formal release for the Neon White Archipelago!&#13;
+&#13;
+### **Check the [game info](https://github.com/Badhamknibbs/ArchipelagoNeonWhite/blob/main/worlds/neonwhite/docs/en_NeonWhite.md) and [complete setup guide!](https://github.com/Badhamknibbs/ArchipelagoNeonWhite/blob/main/worlds/neonwhite/docs/setup_en.md)**</content>
+    <link href="https://github.com/Badhamknibbs/ArchipelagoNeonWhite/releases/tag/v0.1.0"/>
+  </entry>
+  <entry>
     <id>https://github.com/niieli/Niko-Archipelago/releases/tag/0.8.5</id>
     <title>Here Comes Niko! v0.8.5</title>
     <updated>2026-09-12T12:19:26+00:00</updated>
@@ -1310,39 +1245,6 @@ For instructions, see the [Setup Guide.](https://github.com/dannybonz/ae2_archip
 &#13;
 **Full Changelog**: https://github.com/niieli/Niko-Archipelago/compare/0.8.4...0.8.5</content>
     <link href="https://github.com/niieli/Niko-Archipelago/releases/tag/0.8.5"/>
-  </entry>
-  <entry>
-    <id>https://github.com/m-this/tf2-archipelago/releases/tag/nightly</id>
-    <title>Team Fortress 2 Mann vs Machine v1.13.0r2</title>
-    <updated>2026-09-12T13:07:28+00:00</updated>
-    <author>
-      <name>mathis</name>
-    </author>
-    <content>**This is not a release.** It is the head of `main`, rebuilt on every push,
-and it is replaced without warning. For something that stays put, use the
-[latest release](https://github.com/m-this/tf2-archipelago/releases/latest).
-
-Built from `4373c87024026e41846869f359a760c0d7eb36ac`.
-
-## Downloads
-
-- [tf2ap.exe](https://github.com/m-this/tf2-archipelago/releases/download/nightly/tf2ap.exe) for Windows
-- [tf2ap-linux-amd64](https://github.com/m-this/tf2-archipelago/releases/download/nightly/tf2ap-linux-amd64) for Linux
-
-## Since v1.13.0
-
-- feat: add static visual campaign tracker (#62)
-- feat(resume): a wave picker beside Play, and a mark kept per mission (#66)
-- fix(fastdl): advertise community wave icons (#72)
-- feat(launcher): unlock selected missions in test mode (#71)
-- fix(launcher): recover Steam relay address from console log (#70)
-- fix(launcher): name reward toggles plainly
-- chore(beads): triage of Discord and the issue tracker since 1.12 (#61)
-- fix(bridge): a format version mismatch says what to do about it (#60)
-- fix(launcher): the Grappling Hook can be turned on, and shows when it lands (#59)
-- fix(plugin): PLUGIN_VERSION says 1.13.0, like the apworld
-</content>
-    <link href="https://github.com/m-this/tf2-archipelago/releases/tag/nightly"/>
   </entry>
   <entry>
     <id>https://github.com/ChakraaThePanda/Archipelago-Manual-WorldofWarcraft-Dungeons/releases/tag/2026.09.12</id>
@@ -1521,5 +1423,69 @@ If the Universal Tracker APWorld cannot be not found, the custom client tab will
 &lt;img width="768" height="356" alt="image" src="https://github.com/user-attachments/assets/5300faf4-7a7e-4107-9a5b-83e80f95f2f2" /&gt;&#13;
 </content>
     <link href="https://github.com/SerpentAI/Archipelago/releases/tag/peggle-deluxe-v2.2.0"/>
+  </entry>
+  <entry>
+    <id>https://github.com/nepcore/RwbyAP/releases/tag/v0.2.2</id>
+    <title>RWBY Grimm Eclipse v0.2.2</title>
+    <updated>2026-09-12T21:22:07+00:00</updated>
+    <author>
+      <name>nepcore</name>
+    </author>
+    <content>* Added a way to switch the open path in levels with a split path (after clearing the level once press F1 or left on the D-pad on subsequent visits)&#13;
+* Added a new goal condition requiring a certain amount of levels to be cleared (optional, can also be used in combination with artifacts)&#13;
+* Made UT sort the tracker list based on the order checks are found within their level by default instead of alphabetic sorting</content>
+    <link href="https://github.com/nepcore/RwbyAP/releases/tag/v0.2.2"/>
+  </entry>
+  <entry>
+    <id>https://github.com/Heinki/Mental-Omega-Randomizer/releases/tag/V1.37</id>
+    <title>Mental Omega v1.37</title>
+    <updated>2026-09-12T22:07:23+00:00</updated>
+    <author>
+      <name>Mental Omega Randomizer contributors</name>
+    </author>
+    <content>- Add Powers to shopmode (Perma Unlocks)&#13;
+- Fix yaml structure for Archipelago&#13;
+- Fix Popup for Shoprun (only shows once now)&#13;
+- Adjust UI and Namping in Shopmode&#13;
+- Adjust wording in Shopmode</content>
+    <link href="https://github.com/Heinki/Mental-Omega-Randomizer/releases/tag/V1.37"/>
+  </entry>
+  <entry>
+    <id>https://github.com/m-this/tf2-archipelago/releases/tag/nightly</id>
+    <title>Team Fortress 2 Mann vs Machine v1.13.0r2</title>
+    <updated>2026-09-12T22:43:49+00:00</updated>
+    <author>
+      <name>mathis</name>
+    </author>
+    <content>**This is not a release.** It is the head of `main`, rebuilt on every push,
+and it is replaced without warning. For something that stays put, use the
+[latest release](https://github.com/m-this/tf2-archipelago/releases/latest).
+
+Built from `771c4fb18b919381854759cb4c52c55172539cdf`.
+
+## Downloads
+
+- [tf2ap.exe](https://github.com/m-this/tf2-archipelago/releases/download/nightly/tf2ap.exe) for Windows
+- [tf2ap-linux-amd64](https://github.com/m-this/tf2-archipelago/releases/download/nightly/tf2ap-linux-amd64) for Linux
+
+## Since v1.13.0
+
+- chore(beads): triage Discord and the tracker, and open the SigMod port
+- Add SigMod community missions (for linux) (#73)
+- fix: merge equivalent weapon buff pools (#77)
+- Fix buffs for decorated weapons and functional reskins (#78)
+- chore(bots): pin v0.15.0 and drop the pin guard (#76)
+- feat: add static visual campaign tracker (#62)
+- feat(resume): a wave picker beside Play, and a mark kept per mission (#66)
+- fix(fastdl): advertise community wave icons (#72)
+- feat(launcher): unlock selected missions in test mode (#71)
+- fix(launcher): recover Steam relay address from console log (#70)
+- fix(launcher): name reward toggles plainly
+- chore(beads): triage of Discord and the issue tracker since 1.12 (#61)
+- fix(bridge): a format version mismatch says what to do about it (#60)
+- fix(launcher): the Grappling Hook can be turned on, and shows when it lands (#59)
+- fix(plugin): PLUGIN_VERSION says 1.13.0, like the apworld
+</content>
+    <link href="https://github.com/m-this/tf2-archipelago/releases/tag/nightly"/>
   </entry>
 </feed>
