@@ -2,37 +2,11 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://raw.githubusercontent.com/silasary/apworlds/refs/heads/main/recent.atom</id>
   <title>Recent APWorlds</title>
-  <updated>2026-09-13T20:13:20.512143+00:00</updated>
+  <updated>2026-09-14T02:11:37.617504+00:00</updated>
   <author>
     <name>Silasary</name>
   </author>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
-  <entry>
-    <id>https://github.com/SWCreeperKing/Pocopelago/releases/tag/v0.1.3</id>
-    <title>Poco v0.1.3</title>
-    <updated>2026-09-11T01:15:29+00:00</updated>
-    <author>
-      <name>SW_CreeperKing</name>
-    </author>
-    <content>- [ApWorld] Maintenance and minor improvements&#13;
-- [ApWorld] Added `Achievent` location group&#13;
-- [ApWorld] Fixed logic bug with Gultch Quest&#13;
-- [Client] Maintenance and minor improvements</content>
-    <link href="https://github.com/SWCreeperKing/Pocopelago/releases/tag/v0.1.3"/>
-  </entry>
-  <entry>
-    <id>https://github.com/silasary/Archipelago/releases/tag/ffxiitm-0.1.0</id>
-    <title>Final Fantasy XII Trial Mode v0.1.0</title>
-    <updated>2026-09-11T03:59:33+00:00</updated>
-    <author>
-      <name>Silasary</name>
-    </author>
-    <author>
-      <name>Sheen</name>
-    </author>
-    <content>Added logical requirements to stages, updated client.</content>
-    <link href="https://github.com/silasary/Archipelago/releases/tag/ffxiitm-0.1.0"/>
-  </entry>
   <entry>
     <id>https://github.com/SerpentAI/Archipelago/releases/tag/peggle-deluxe-v2.1.0</id>
     <title>Peggle Deluxe v2.1.0</title>
@@ -968,8 +942,8 @@ Built from `09491d7fd32994787328a97d1c3f40c83a7425ef`.
       <name>Alchav</name>
     </author>
     <content>.apworld updates:&#13;
-- Fixed Igloo Vanish Cap Block and frozen Coin logic #21&#13;
-- Added trick Snowman’s Land Igloo Vanish Cap Block with Spindrift #21 &#13;
+- Fixed Igloo Vanish Cap Block and frozen Coin logic #21 by @ItzLoonie&#13;
+- Added trick Snowman’s Land Igloo Vanish Cap Block with Spindrift #21 by @ItzLoonie&#13;
 - Fixed Mixed entrance shuffle frequently creating two-step paths back to an entrance’s vanilla level&#13;
 - Entrance hints now appear only for entrance categories that were actually shuffled.&#13;
 - Fixed Secret Course Shuffle failing to provide entrance hints while unshuffled main courses received unnecessary hints.&#13;
@@ -978,7 +952,10 @@ Built from `09491d7fd32994787328a97d1c3f40c83a7425ef`.
 - Fixed a cause for generation failures.&#13;
 &#13;
 SM64ex updates:&#13;
-- Fixed same-area shuffled warps into the Castle First Floor potentially leaving Mario missing and the camera stuck, particularly when the Bowser in the Dark World entrance led back to the lobby.</content>
+- Fixed same-area shuffled warps into the Castle First Floor potentially leaving Mario missing and the camera stuck, particularly when the Bowser in the Dark World entrance led back to the lobby.&#13;
+&#13;
+SM64ex hotfixes:&#13;
+- September 13: Hopefully, finally fix coins respawning as real coins when transitioning to/from sub-areas. Bob-ombs should finally grant coins when falling to the death plan with No Despawns on.</content>
     <link href="https://github.com/Alchav/Archipelago/releases/tag/spicy-1.0.2"/>
   </entry>
   <entry>
@@ -1164,5 +1141,63 @@ Added instant crab bait as a catch tool&#13;
 
 **Full Changelog**: https://github.com/ChakraaThePanda/Archipelago-Northgard/compare/2026.09.08...2026.09.13</content>
     <link href="https://github.com/ChakraaThePanda/Archipelago-Northgard/releases/tag/2026.09.13"/>
+  </entry>
+  <entry>
+    <id>https://github.com/KuroLynx/AEMinecraft/releases/tag/v0.6.1</id>
+    <title>AEMinecraft v0.6.1</title>
+    <updated>2026-09-13T23:44:14+00:00</updated>
+    <author>
+      <name>KuroLynx</name>
+    </author>
+    <content>## AEMinecraft v0.6.1&#13;
+&#13;
+A hotfix release: generation no longer hangs with BlazeandCave's Advancements Pack.&#13;
+&#13;
+### Fixed&#13;
+&#13;
+**Generation froze at "Beginning output..." with BlazeandCave's Advancements Pack.**&#13;
+Seeds using BACAP together with the mob or structure locks could sit at "Beginning&#13;
+output..." for 15 minutes or more, and on machines with less memory could fail outright.&#13;
+These seeds now generate normally: the heaviest reported setup (BACAP, glitch logic, every&#13;
+lock and `challenge_sanity: all`) finishes in under a minute.&#13;
+&#13;
+### Improved&#13;
+&#13;
+**Generation is faster and uses far less memory.** The apworld stopped building millions of&#13;
+duplicate copies of the same logic. The reported seed went from about 9 GB of memory to&#13;
+just over 1 GB, and seeds without BACAP generate roughly twice as fast.&#13;
+&#13;
+### Upgrading&#13;
+&#13;
+- **Only the apworld changed.** The mod is identical to v0.6.0, so if you already installed&#13;
+  the v0.6.0 mod you can keep it and just replace the apworld.&#13;
+- **Seeds generated with v0.6.0 are unaffected** and can be finished as they are.&#13;
+- Item placement is unchanged: the same YAML and seed produce the same world in v0.6.0 and&#13;
+  v0.6.1.&#13;
+- No YAML changes are required.</content>
+    <link href="https://github.com/KuroLynx/AEMinecraft/releases/tag/v0.6.1"/>
+  </entry>
+  <entry>
+    <id>https://github.com/Badhamknibbs/ArchipelagoNeonWhite/releases/tag/v0.1.1</id>
+    <title>Neon White v0.1.1</title>
+    <updated>2026-09-13T23:53:41+00:00</updated>
+    <author>
+      <name>Badhamknibbs</name>
+    </author>
+    <author>
+      <name>stxticOVFL</name>
+    </author>
+    <content>*Looking for the Neon White mod? Find it [here!](https://github.com/stxticOVFL/NWArchipelagoMod/releases/latest)*&#13;
+*Compatible with v0.1.x of the NWArchipelago mod.*&#13;
+&#13;
+- **Universal Tracker support has been fixed** and is now **YAML-less**!&#13;
+  - Please let me know if issues arise, especially with using YAML-less!&#13;
+- Some errors have been changed to `OptionError`s, and some new ones were introduced to cover more bases.&#13;
+- Obligatory logic update.&#13;
+&#13;
+### **Check the [game info](https://github.com/Badhamknibbs/ArchipelagoNeonWhite/blob/main/worlds/neonwhite/docs/en_NeonWhite.md) and [complete setup guide!](https://github.com/Badhamknibbs/ArchipelagoNeonWhite/blob/main/worlds/neonwhite/docs/setup_en.md)**&#13;
+&#13;
+**Changelog compared to v0.1.0**: https://github.com/Badhamknibbs/ArchipelagoNeonWhite/compare/v0.1.0...v0.1.1</content>
+    <link href="https://github.com/Badhamknibbs/ArchipelagoNeonWhite/releases/tag/v0.1.1"/>
   </entry>
 </feed>
