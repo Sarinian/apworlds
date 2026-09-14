@@ -2,99 +2,11 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://raw.githubusercontent.com/silasary/apworlds/refs/heads/main/recent.atom</id>
   <title>Recent APWorlds</title>
-  <updated>2026-09-14T11:22:29.162696+00:00</updated>
+  <updated>2026-09-14T17:21:34.315246+00:00</updated>
   <author>
     <name>Silasary</name>
   </author>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
-  <entry>
-    <id>https://github.com/POD-io/Oblivion-ArchipelagoWorld/releases/tag/v0.6.0</id>
-    <title>Oblivion Remastered v0.6.0.post2</title>
-    <updated>2026-09-11T19:02:37+00:00</updated>
-    <author>
-      <name>POD-io</name>
-    </author>
-    <content>## How to use&#13;
-&#13;
-For Archipelago instructions, see https://archipelago.gg/tutorial/&#13;
-&#13;
-1) Generate a new Archipelago multiworld.&#13;
-2) Launch the Oblivion Remastered Client from the ArchipelagoLauncher.exe.&#13;
-3) Connect to your server.&#13;
-4) Once connected, you can launch Oblivion Remastered through your mod manager and start playing.&#13;
-&#13;
-## v0.6.0 New Features&#13;
-&#13;
-- Bounty Contracts&#13;
-- Bounty Hunter Goal&#13;
-- Black Market&#13;
-- Weapon Lock&#13;
-- Oblivion Kill Checks&#13;
-- Wanted Trap&#13;
-- Skill XP Multiplier&#13;
-- New Unique Items&#13;
-- New Exploration Sidequests&#13;
-- Client Tracker Overhaul</content>
-    <link href="https://github.com/POD-io/Oblivion-ArchipelagoWorld/releases/tag/v0.6.0"/>
-  </entry>
-  <entry>
-    <id>https://github.com/wilsonao/ff8_arch/releases/tag/v0.6.0</id>
-    <title>Final Fantasy VIII v0.6.0</title>
-    <updated>2026-09-11T19:05:38+00:00</updated>
-    <author>
-      <name>ff8_arch</name>
-    </author>
-    <content>## Story Keys
-
-FF8 finally has doors. Twenty **"Key: &lt;area&gt;"** items, one per world-map entrance (Balamb, Dollet, Timber, Deling City, Winhill, Trabia Garden, Esthar City, Lunar Gate, the chocobo forests, ...). Without the key the town's entrance simply does not work: you walk onto it, nothing happens, and the client says `Locked: Key: Dollet`. The moment the key lands the door works again, right where you stand. No story faking, no file patching: the client rewrites one word of the table the game consults every step, and puts it back when the key arrives.
-
-- `story_keys: areas` — every key is a real door and the checks inside need it in logic, but the story path is never blocked.
-- `story_keys: story` — the doors the main line walks through stay shut too, so advancing the story needs keys other players hold. Balamb and Fire Cavern keys are yours from the start.
-- Keys carry their `/ff8warp` destination. New preset **Story Keys** (Staircase + `story_keys: story`).
-- Keys never open a town before the story does (early entry works, but town interiors assume the story state, so it stays off).
-- Also: the study panel credits both starter GFs when one is precollected (thanks Lexra), and the Jukebox trap picks from five tracks.
-
-Off by default while the feature is new. **Stability note:** v0.5.0 remains the stable release; report anything odd with `/ff8` output and the client log. Tracker pack 0.12.0 shows the keys and mirrors the rules.
-
-## Install
-
-1. Archipelago **Launcher** → **Install APWorld** → pick `ff8.apworld` (or copy it into `custom_worlds/`), then restart the Launcher.
-2. Optional: drop `ff8_ap_tracker.zip` into PopTracker's `packs/` folder.
-3. Optional: `ff8_visual_tracker.zip` is a map preset for the [Archipelago Visual Tracker](https://github.com/Wakamu/Archipelago/releases/latest) — see **Visual Tracker** below.
-
-### Visual Tracker
-
-`ff8_visual_tracker.zip` pins every FF8 check on clickable world / extras / GF-ability maps inside the Archipelago Visual Tracker client. To use it:
-
-1. Install [Universal Tracker](https://github.com/FarisTheAncient/Archipelago/releases?q=Tracker) (`tracker.apworld`) and [`visualtracker.apworld`](https://github.com/Wakamu/Archipelago/releases/latest) via **Launcher → Install APWorld**, then restart the Launcher.
-2. Copy `ff8_visual_tracker.zip` into the `visual_packs/` folder of your Archipelago install (create it next to `custom_worlds/` if missing). Do **not** unzip it.
-3. Launcher → **Visual Tracker**, connect to your server/slot; the FF8 preset is picked up automatically.
-
-Visual Tracker support grew out of a community map layout contributed by **caedesender** (Discord) — thank you!
-
-Requires Archipelago 0.6.7+ and *Final Fantasy VIII* Steam 2013 (`FF8_EN.exe`). Setup guide: the **Final Fantasy VIII** page on your WebHost, or the [Player Guide](https://github.com/wilsonao/ff8_arch/blob/main/docs/player-guide.md).
-
-
-## What's Changed
-* Story Keys: real world-map doors as key items (v0.6.0) by @wilsonao in https://github.com/wilsonao/ff8_arch/pull/3
-
-
-**Full Changelog**: https://github.com/wilsonao/ff8_arch/compare/v0.5.0...v0.6.0
-</content>
-    <link href="https://github.com/wilsonao/ff8_arch/releases/tag/v0.6.0"/>
-  </entry>
-  <entry>
-    <id>https://github.com/Nepley/mof-apworld/releases/tag/v0.2.0</id>
-    <title>Touhou Fuujinroku ~ Mountain of Faith v0.2.0</title>
-    <updated>2026-09-11T21:37:23+00:00</updated>
-    <author>
-      <name>Nepley</name>
-    </author>
-    <content>* Deathlink added&#13;
-* Fix traps failing generation and speed related traps not working&#13;
-* Fix ending requirement not working when set to "all shot types"</content>
-    <link href="https://github.com/Nepley/mof-apworld/releases/tag/v0.2.0"/>
-  </entry>
   <entry>
     <id>https://github.com/1-800-thewolf/FF1PSP-Archipelago/releases/tag/v0.2.3</id>
     <title>Final Fantasy 1 PSP v0.2.3</title>
@@ -1480,7 +1392,75 @@ Free code signing for open source projects, provided by
 # Refactors&#13;
 - Added location class&#13;
 - Moved chest item setting to object loop&#13;
-- Changed silent events to actual events</content>
+- Changed silent events to actual events&#13;
+&#13;
+Thanks to Junofa Fuwa for helping with playtesting!</content>
     <link href="https://github.com/carrotinator/Archipelago/releases/tag/ph-v0.10.0-alpha"/>
+  </entry>
+  <entry>
+    <id>https://github.com/T4g1/ArchipelagoTomba/releases/tag/v1.5.7</id>
+    <title>Tomba! v1.5.7</title>
+    <updated>2026-09-14T15:04:23+00:00</updated>
+    <author>
+      <name>T4g1</name>
+    </author>
+    <author>
+      <name>bosshunter</name>
+    </author>
+    <content>This release focusses on bringing the entrance randomization. In the previous release, it was not really possible to make it work. Those issues are now solved hopefully.&#13;
+&#13;
+&gt; [!WARNING]&#13;
+&gt; The entrance randomization feature is a higly unstable option right now. Any issues should be reported on this project tracker page: https://github.com/T4g1/ArchipelagoTomba/issues&#13;
+&#13;
+---&#13;
+&#13;
+## ✨ What's New&#13;
+&#13;
+### 🐛 Bug Fixes&#13;
+* Fix: Can't access Masakari River if Jungle purified before learning how to Swim&#13;
+* Fix: Chest in Swimming Room in Haunted Mansion in logic too soon&#13;
+* Fix Big Key is now required for Seven Friends event&#13;
+* Fix: Unable to deactivate chick randomization&#13;
+* Fix #96 : Every item is now tied to a memory address and a specific check (event cleared, specific count value or bitmask) so any savestate will synchronize the checks automaticaly&#13;
+* Various pre-fixes related to entrance randomization such as forcing some doors to be open and some cleared events to prevent loading issues&#13;
+* Baccus Lake and Baccus Lake Pier connection is enforced even for Randomized Entrances&#13;
+&#13;
+---&#13;
+&#13;
+## 🔧 Installation&#13;
+1. Download the source code or the `.apworld` file.&#13;
+2. Drop it into your Archipelago `custom_worlds/` directory.</content>
+    <link href="https://github.com/T4g1/ArchipelagoTomba/releases/tag/v1.5.7"/>
+  </entry>
+  <entry>
+    <id>https://github.com/ChakraaThePanda/Archipelago-Northgard/releases/tag/2026.09.14</id>
+    <title>Northgard v2026.9.14</title>
+    <updated>2026-09-14T16:26:42+00:00</updated>
+    <author>
+      <name>Chakraa</name>
+    </author>
+    <content>### Fixed
+- Universal Tracker support (added in 2026.09.13) was making the server silently reject real progress: Universal Tracker's context class identifies its connections as tracker-only, and this client was inheriting that identity unchanged. Location checks and goal completion now go through correctly whether or not Universal Tracker is installed.
+
+### Changed
+- Shortened the `/savedir` and `/conquest` in-client help text for readability.
+
+**Full Changelog**: https://github.com/ChakraaThePanda/Archipelago-Northgard/compare/2026.09.13...2026.09.14</content>
+    <link href="https://github.com/ChakraaThePanda/Archipelago-Northgard/releases/tag/2026.09.14"/>
+  </entry>
+  <entry>
+    <id>https://github.com/Jeffdev-Archipelago-Implementations/Archipelago-Funi/releases/tag/1.7.1</id>
+    <title>Funi Raccoon Game v1.7.1</title>
+    <updated>2026-09-14T16:55:42+00:00</updated>
+    <author>
+      <name>Jeffdev</name>
+    </author>
+    <content>This is a small apworld specific release that removes glitched logic from Behrman Speedway, because I accidentally left that in&#13;
+&#13;
+[Mod Link](https://github.com/Jeffdev-Archipelago-Implementations/FuniRaccoonAP/releases/latest)&#13;
+[Setup Guide](https://github.com/Jeffdev-Archipelago-Implementations/Archipelago-Funi/blob/main/worlds/funi_raccoon/docs/setup_en.md)&#13;
+&#13;
+</content>
+    <link href="https://github.com/Jeffdev-Archipelago-Implementations/Archipelago-Funi/releases/tag/1.7.1"/>
   </entry>
 </feed>
