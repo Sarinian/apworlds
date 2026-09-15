@@ -2,32 +2,11 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://raw.githubusercontent.com/silasary/apworlds/refs/heads/main/recent.atom</id>
   <title>Recent APWorlds</title>
-  <updated>2026-09-14T21:23:58.048576+00:00</updated>
+  <updated>2026-09-15T02:19:54.911630+00:00</updated>
   <author>
     <name>Silasary</name>
   </author>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
-  <entry>
-    <id>https://github.com/Rhelys/SlimeRancher2-AP/releases/tag/v0.14.1</id>
-    <title>Slime Rancher 2 v0.14.1</title>
-    <updated>2026-09-12T05:07:41+00:00</updated>
-    <author>
-      <name>Rhelys</name>
-    </author>
-    <content>## Bug Fixes&#13;
-- Updated how upgrade levels are stored for offline recovery</content>
-    <link href="https://github.com/Rhelys/SlimeRancher2-AP/releases/tag/v0.14.1"/>
-  </entry>
-  <entry>
-    <id>https://github.com/randomcodegen/ironwail_ap/releases/tag/1.2.2</id>
-    <title>Quake 1 v1.2.2</title>
-    <updated>2026-09-12T07:11:12+00:00</updated>
-    <author>
-      <name>Rando</name>
-    </author>
-    <content>- Fix killcount (unkillable enemies don't count)</content>
-    <link href="https://github.com/randomcodegen/ironwail_ap/releases/tag/1.2.2"/>
-  </entry>
   <entry>
     <id>https://github.com/dannybonz/ae2_archipelago/releases/tag/v1.3.1</id>
     <title>Ape Escape 2 v1.3.1</title>
@@ -1432,7 +1411,7 @@ Thanks to Junofa Fuwa for helping with playtesting!</content>
   </entry>
   <entry>
     <id>https://github.com/qixils/NeoForgeAP/releases/tag/v2.2.0</id>
-    <title>Minecraft v2.2.0</title>
+    <title>Minecraft v2.2.0.post2</title>
     <updated>2026-09-14T20:05:15+00:00</updated>
     <author>
       <name>qixils</name>
@@ -1464,5 +1443,32 @@ Generation version bumped to v11. The client UI remains compatible with previous
 &#13;
 Contributors: @MrRedstone54 , @coehlrich , @qixils , @Seatori</content>
     <link href="https://github.com/qixils/NeoForgeAP/releases/tag/v2.2.0"/>
+  </entry>
+  <entry>
+    <id>https://github.com/devoidlazarus/SIGNALISArchipelagoRandomizer/releases/tag/v0.2.5</id>
+    <title>Signalis v0.2.5</title>
+    <updated>2026-09-15T00:08:21+00:00</updated>
+    <author>
+      <name>devoidlazarus</name>
+    </author>
+    <content>### New Features&#13;
+&#13;
+- Added a YAML option to not randomize the Airlock Key (Broken) and Adhesive Tape items before you reach the first Save Room&#13;
+&#13;
+### Bug Fixes&#13;
+&#13;
+- Fixed an issue where the 'Grenade Shells (Corrupted Installation AEON - Classroom 4B)' location was not randomized&#13;
+- Removed the '12mm Ammo (Nowhere - Operating Room)' location&#13;
+- Changed the Item types for the Wooden Dolls from Useful to Progression&#13;
+&#13;
+### Known Issues&#13;
+&#13;
+- Goals associated with game endings are currently broken (selecting Artifact ending in the YAML options will still generate the Keys in the item pool, but beating the game by fighting FLKR will incorrectly Goal the slot)&#13;
+&#13;
+[README](https://github.com/devoidlazarus/SIGNALISArchipelagoRandomizer/blob/main/README.md)*&#13;
+[Installation instructions](https://github.com/devoidlazarus/SIGNALISArchipelagoRandomizer/blob/main/installation_instructions.md)&#13;
+&#13;
+*Please read the README before playing!</content>
+    <link href="https://github.com/devoidlazarus/SIGNALISArchipelagoRandomizer/releases/tag/v0.2.5"/>
   </entry>
 </feed>
