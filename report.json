@@ -1,7 +1,7 @@
 {
   "total_repositories": 889,
   "total_packages": 1029,
-  "total_versions": 11277,
+  "total_versions": 11286,
   "manifest_ready": {
     "dome_keeper": false,
     "RiseToRuins": false,
@@ -1013,13 +1013,13 @@
     "0.7.0": 1
   },
   "max_maximum_ap_version": {
-    "": 622,
+    "": 621,
     "0.0.1": 1,
     "0.4.6": 5,
     "0.6.4": 1,
     "0.6.6": 1,
     "0.6.7": 2,
-    "0.6.99": 347,
+    "0.6.99": 348,
     "0.9.99": 1
   }
 }
