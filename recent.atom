@@ -2,59 +2,11 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://raw.githubusercontent.com/silasary/apworlds/refs/heads/main/recent.atom</id>
   <title>Recent APWorlds</title>
-  <updated>2026-09-15T16:05:34.297575+00:00</updated>
+  <updated>2026-09-15T20:47:21.799666+00:00</updated>
   <author>
     <name>Silasary</name>
   </author>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
-  <entry>
-    <id>https://github.com/SerpentAI/Archipelago/releases/tag/peggle-deluxe-v2.2.0</id>
-    <title>Peggle Deluxe v2.2.0</title>
-    <updated>2026-09-12T19:12:25+00:00</updated>
-    <author>
-      <name>SerpentAI</name>
-    </author>
-    <content>This is a feature release that also includes a fix.&#13;
-&#13;
-**This release IS compatible with games generated on the previous version (2.1.0)**&#13;
-&#13;
-- **Feature:** Added in / out of logic location counts under each level image in the Levels section of the custom client tab. Requires Universal Tracker to be installed&#13;
-- **Feature:** The section of the custom client tab showing information about the current level now lists what locations are accessible in / out of logic. Requires Universal Tracker to be installed&#13;
-- **Fix:** Added an extra guard around the detection of Fever Meter Full location checks&#13;
-&#13;
-If the Universal Tracker APWorld cannot be not found, the custom client tab will simply not display this new information.&#13;
-&#13;
-&lt;img width="697" height="642" alt="image" src="https://github.com/user-attachments/assets/f2ba7b28-39a8-4ab6-a76f-963f52a36ac7" /&gt;&#13;
-&lt;img width="768" height="356" alt="image" src="https://github.com/user-attachments/assets/5300faf4-7a7e-4107-9a5b-83e80f95f2f2" /&gt;&#13;
-</content>
-    <link href="https://github.com/SerpentAI/Archipelago/releases/tag/peggle-deluxe-v2.2.0"/>
-  </entry>
-  <entry>
-    <id>https://github.com/nepcore/RwbyAP/releases/tag/v0.2.2</id>
-    <title>RWBY Grimm Eclipse v0.2.2</title>
-    <updated>2026-09-12T21:22:07+00:00</updated>
-    <author>
-      <name>nepcore</name>
-    </author>
-    <content>* Added a way to switch the open path in levels with a split path (after clearing the level once press F1 or left on the D-pad on subsequent visits)&#13;
-* Added a new goal condition requiring a certain amount of levels to be cleared (optional, can also be used in combination with artifacts)&#13;
-* Made UT sort the tracker list based on the order checks are found within their level by default instead of alphabetic sorting</content>
-    <link href="https://github.com/nepcore/RwbyAP/releases/tag/v0.2.2"/>
-  </entry>
-  <entry>
-    <id>https://github.com/Heinki/Mental-Omega-Randomizer/releases/tag/V1.37</id>
-    <title>Mental Omega v1.37</title>
-    <updated>2026-09-12T22:07:23+00:00</updated>
-    <author>
-      <name>Mental Omega Randomizer contributors</name>
-    </author>
-    <content>- Add Powers to shopmode (Perma Unlocks)&#13;
-- Fix yaml structure for Archipelago&#13;
-- Fix Popup for Shoprun (only shows once now)&#13;
-- Adjust UI and Namping in Shopmode&#13;
-- Adjust wording in Shopmode</content>
-    <link href="https://github.com/Heinki/Mental-Omega-Randomizer/releases/tag/V1.37"/>
-  </entry>
   <entry>
     <id>https://github.com/seadoggie001/TFWR-APMod/releases/tag/v0.0.9-beta</id>
     <title>The Farmer Was Replaced v0.0.9b0</title>
@@ -207,45 +159,6 @@ For a explanations of the randomizer and its features or installation and setup:
 * **[Setup Guide](https://github.com/Lemix028/Archipelago-NewSuperMarioBrosDS/tree/nsmbds/worlds/nsmbds/docs/setup_en.md)**&#13;
 * **[Poptracker](https://github.com/Lemix028/NewSuperMarioBrosDS-poptracker/releases/latest)**</content>
     <link href="https://github.com/Lemix028/Archipelago-NewSuperMarioBrosDS/releases/tag/nsmbds-v0.5.0-unstable"/>
-  </entry>
-  <entry>
-    <id>https://github.com/m-this/tf2-archipelago/releases/tag/nightly</id>
-    <title>Team Fortress 2 Mann vs Machine v1.13.0r3</title>
-    <updated>2026-09-13T14:09:34+00:00</updated>
-    <author>
-      <name>mathis</name>
-    </author>
-    <content>**This is not a release.** It is the head of `main`, rebuilt on every push,
-and it is replaced without warning. For something that stays put, use the
-[latest release](https://github.com/m-this/tf2-archipelago/releases/latest).
-
-Built from `36eb834292ced84430eed639b0745b3efd7bbc0c`.
-
-## Downloads
-
-- [tf2ap.exe](https://github.com/m-this/tf2-archipelago/releases/download/nightly/tf2ap.exe) for Windows
-- [tf2ap-linux-amd64](https://github.com/m-this/tf2-archipelago/releases/download/nightly/tf2ap-linux-amd64) for Linux
-
-## Since v1.15.0
-
-- docs(changelog): the v1.16.0 section
-- chore(beads): three bugs the Compose admin review turned up
-- fix(launcher): the shipped random start mission passes the run preflight
-- fix(docker): what running the Compose admin on a plain Docker Engine found
-- fix(settings): a room's string reads back as the same room
-- fix(docker): detect installed SigMod
-- fix(ui): report community archive extraction progress
-- fix(docker): show asset progress and handle server mods
-- fix(docker): install downloaded community assets
-- fix(docker): reload saved settings in admin
-- feat(docker): configure Funnel from admin UI
-- fix(docker): read Steam relay from srcds log
-- docs(docker): show the forced restart command
-- fix(ci): point fork nightlies at fork images
-- fix(docker): retry stalled Steam relay startup
-- feat(docker): serve persistent admin UI
-</content>
-    <link href="https://github.com/m-this/tf2-archipelago/releases/tag/nightly"/>
   </entry>
   <entry>
     <id>https://github.com/Alchav/Archipelago/releases/tag/spicy-1.0.2</id>
@@ -1572,5 +1485,94 @@ Requires Archipelago 0.6.7+ and *Final Fantasy VIII* Steam 2013 (`FF8_EN.exe`). 
 &#13;
 Enjoying the mod? Consider joining our thread in the AP discord! We're close to a channel!</content>
     <link href="https://github.com/Cynichill/DivaAPworld/releases/tag/1.5.2B"/>
+  </entry>
+  <entry>
+    <id>https://github.com/BuffYoda21/ap-glyphs/releases/tag/v1.3.0</id>
+    <title>GLYPHS v1.3.0</title>
+    <updated>2026-09-15T15:54:47+00:00</updated>
+    <author>
+      <name>BuffYoda21</name>
+    </author>
+    <content>## Apworld Changes&#13;
+- Added new option to randomize button shards&#13;
+- Added new option to include individual buttons as item checks&#13;
+- Reworked sphere one logic&#13;
+- Many small logic fixes and tweaks&#13;
+- Numerous optimizations&#13;
+- General code cleanup&#13;
+- Added Universal Tracker support&#13;
+## Mod Changes&#13;
+- Normalized EOL&#13;
+- Added support for button shard randomization&#13;
+- Added support for buttonsanity&#13;
+- Fixed an issue where the sword item sprite wouldn't load properly&#13;
+- Added an extra platform to region 1 to open up the early game more</content>
+    <link href="https://github.com/BuffYoda21/ap-glyphs/releases/tag/v1.3.0"/>
+  </entry>
+  <entry>
+    <id>https://github.com/Heinki/Mental-Omega-Randomizer/releases/tag/V1.38</id>
+    <title>Mental Omega v1.38</title>
+    <updated>2026-09-15T17:28:33+00:00</updated>
+    <author>
+      <name>Mental Omega Randomizer contributors</name>
+    </author>
+    <content>- Fix Shopmode UI&#13;
+- Update Shopmode Balancing&#13;
+- Fix Archipelago Template Generation&#13;
+- Improve ShopUI&#13;
+- Fix Crashing due to Nanofibre powerup</content>
+    <link href="https://github.com/Heinki/Mental-Omega-Randomizer/releases/tag/V1.38"/>
+  </entry>
+  <entry>
+    <id>https://github.com/m-this/tf2-archipelago/releases/tag/nightly</id>
+    <title>Team Fortress 2 Mann vs Machine v1.15.0r2</title>
+    <updated>2026-09-15T18:03:09+00:00</updated>
+    <author>
+      <name>mathis</name>
+    </author>
+    <content>**This is not a release.** It is the head of `main`, rebuilt on every push,
+and it is replaced without warning. For something that stays put, use the
+[latest release](https://github.com/m-this/tf2-archipelago/releases/latest).
+
+Built from `b747ba3a1648090e6b722bd2a77f74ef4e893b61`.
+
+## Downloads
+
+- [tf2ap.exe](https://github.com/m-this/tf2-archipelago/releases/download/nightly/tf2ap.exe) for Windows
+- [tf2ap-linux-amd64](https://github.com/m-this/tf2-archipelago/releases/download/nightly/tf2ap-linux-amd64) for Linux
+
+## Since v1.15.0
+
+- fix(apworld): a mission draws no modifier when the draw is zero (#86)
+- fix(gamedata): a flag the weapon already carries is not a buff (#87)
+- docs(changelog): the v1.16.0 section
+- chore(beads): three bugs the Compose admin review turned up
+- fix(launcher): the shipped random start mission passes the run preflight
+- fix(docker): what running the Compose admin on a plain Docker Engine found
+- fix(settings): a room's string reads back as the same room
+- fix(docker): detect installed SigMod
+- fix(ui): report community archive extraction progress
+- fix(docker): show asset progress and handle server mods
+- fix(docker): install downloaded community assets
+- fix(docker): reload saved settings in admin
+- feat(docker): configure Funnel from admin UI
+- fix(docker): read Steam relay from srcds log
+- docs(docker): show the forced restart command
+- fix(ci): point fork nightlies at fork images
+- fix(docker): retry stalled Steam relay startup
+- feat(docker): serve persistent admin UI
+</content>
+    <link href="https://github.com/m-this/tf2-archipelago/releases/tag/nightly"/>
+  </entry>
+  <entry>
+    <id>https://github.com/247Tossing/cyberpunk_archipelago/releases/tag/0.7.2</id>
+    <title>Cyberpunk 2077 v0.7.0r2</title>
+    <updated>2026-09-15T19:51:45+00:00</updated>
+    <author>
+      <name>247Tossing</name>
+    </author>
+    <content>Renamed vendors to be more clear in the AP world.&#13;
+Fixed oversight where password field wasnt visible in the CET overlay client.</content>
+    <link href="https://github.com/247Tossing/cyberpunk_archipelago/releases/tag/0.7.2"/>
   </entry>
 </feed>
