@@ -383,7 +383,7 @@
       "hash_sha256": "4a9d476d7b85350e65b1822f07faaf10b81bfe7d846c76aeb8258074da2501d7",
       "html_url": "https://github.com/Cousinit117/Deep-Rock-Galactic-AP/releases/tag/0.20",
       "minimum_ap_version": "0.6.7",
-      "prerelease": true,
+      "prerelease": false,
       "size": 45693,
       "source_url": "https://api.github.com/repos/Cousinit117/Deep-Rock-Galactic-AP",
       "tag": "0.20",
