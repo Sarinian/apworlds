@@ -156,6 +156,22 @@
       "version_simple": "1.15.0",
       "world_version": "1.15.0r2"
     },
+    "nightlyr18": {
+      "created_at": "2026-09-16T08:12:02Z",
+      "description": "**This is not a release.** It is the head of `main`, rebuilt on every push,\nand it is replaced without warning. For something that stays put, use the\n[latest release](https://github.com/m-this/tf2-archipelago/releases/latest).\n\nBuilt from `c33060a946a319aed8733add9143eddc800cb8a9`.\n\n## Downloads\n\n- [tf2ap.exe](https://github.com/m-this/tf2-archipelago/releases/download/nightly/tf2ap.exe) for Windows\n- [tf2ap-linux-amd64](https://github.com/m-this/tf2-archipelago/releases/download/nightly/tf2ap-linux-amd64) for Linux\n\n## Since v1.15.0\n\n- docs(changelog): the defender bots standing still after a map change\n- refactor(tracker): read the earned slot count off the exported order\n- style: satisfy Go and apworld format checks\n- fix(docker): refresh defender nav cache on map changes\n- style: format merged class slot changes\n- fix(buffs): the Cow Mangler keeps ammo on hit, which the plugin pays in energy\n- fix(tracker): show per-class weapon slots\n- chore(beads): close the bugs merged into v1.16.0\n- docs(changelog): the five new check options and the fixes in v1.16.0\n- fix(deploy): return from the sourced entrypoint instead of wrapping it\n- fix(docker): reload SourceMod admins after install\n- fix(web): align empty mission action cells\n- fix(test-mode): unlock every listed mission\n- ci: publish the campaign tracker on Pages\n- feat: giantsanity and tanksanity, a check for every giant and tank of every wave\n- feat: weapon slots per class, each class earning its own two\n- feat: milestone checks, running totals over the whole run\n- feat: victory caches, a mission clear worth checks scaled by its tier\n- fix(buffs): max health follows the player, and five pools lose inert buffs\n- fix(apworld): a mission draws no modifier when the draw is zero (#86)\n- fix(gamedata): a flag the weapon already carries is not a buff (#87)\n- fix(gamedata): a flag the weapon already carries is not a buff\n- fix(apworld): a mission draws no modifier when the draw is zero\n- docs(changelog): the v1.16.0 section\n- chore(beads): three bugs the Compose admin review turned up\n- fix(launcher): the shipped random start mission passes the run preflight\n- fix(docker): what running the Compose admin on a plain Docker Engine found\n- fix(settings): a room's string reads back as the same room\n- fix(docker): detect installed SigMod\n- fix(ui): report community archive extraction progress\n- fix(docker): show asset progress and handle server mods\n- fix(docker): install downloaded community assets\n- fix(docker): reload saved settings in admin\n- feat(docker): configure Funnel from admin UI\n- fix(docker): read Steam relay from srcds log\n- docs(docker): show the forced restart command\n- fix(ci): point fork nightlies at fork images\n- fix(docker): retry stalled Steam relay startup\n- feat(docker): serve persistent admin UI\n",
+      "download_url": "https://github.com/m-this/tf2-archipelago/releases/download/nightly/tf2_mvm.apworld",
+      "has_manifest": true,
+      "hash_sha256": "73ed198672fae71a2dbf36f5fc0b6112d156dada73ce7864e4a87502a187b8ad",
+      "html_url": "https://github.com/m-this/tf2-archipelago/releases/tag/nightly",
+      "minimum_ap_version": "0.6.7",
+      "prerelease": true,
+      "size": 236324,
+      "source_url": "https://api.github.com/repos/m-this/tf2-archipelago",
+      "tag": "nightlyr18",
+      "title": "nightly",
+      "version_simple": "1.15.0",
+      "world_version": "1.15.0r2"
+    },
     "nightlyr2": {
       "created_at": "2026-08-27T08:53:32Z",
       "description": "**This is not a release.** It is the head of `main`, rebuilt on every push,\nand it is replaced without warning. For something that stays put, use the\n[latest release](https://github.com/m-this/tf2-archipelago/releases/latest).\n\nBuilt from `d7b32eb40a08102ba2d10ff5fa0fc5ff902d45cc`.\n\n## Downloads\n\n- [tf2ap.exe](https://github.com/m-this/tf2-archipelago/releases/download/nightly/tf2ap.exe) for Windows\n- [tf2ap-linux-amd64](https://github.com/m-this/tf2-archipelago/releases/download/nightly/tf2ap-linux-amd64) for Linux\n\n## Since v1.10.0\n\n- fix(test): skip the game data test without the real ripext (apw-5tk)\n- chore(beads): apw-5tk, what PR #3 solves\n- Add Archipelago weapon buff upgrades\n- chore(beads): a restart must not cost the mission (apw)\n- chore(deps): bots v2.18.1 -> v2.19.0 (mvm-bha)\n- feat(launcher): build your own bot loadouts (mvm-e5r)\n- feat(launcher): resolve the loadouts a player builds (mvm-e5r)\n- docs: the Bot Switcher, in both languages (mvm-6dc)\n- feat(gamedata): a weapon catalogue, generated from the mod and the game (mvm-e5r)\n- feat(launcher): a Bot Switcher tab, and lineup changes without a restart (mvm-6dc)\n- chore(beads): update a bead\n- chore(beads): update apw-r85 The game server crashes with an access violation, and the la\u2026\n- chore(beads): update apw-hut RED gets nine bots when the mission loads\n- chore(beads): update apw-48u De-upgrading appears not to take\n- chore(beads): update apw-4cb A bundle is money the game never recorded\n",
@@ -234,7 +250,7 @@
       "tag": "nightlyr6",
       "title": "nightly",
       "version_simple": "1.11.0",
-      "world_version": "1.11.0r2"
+      "world_version": "1.11.0r3"
     },
     "nightlyr7": {
       "created_at": "2026-09-06T18:20:06Z",
@@ -250,7 +266,7 @@
       "tag": "nightlyr7",
       "title": "nightly",
       "version_simple": "1.11.0",
-      "world_version": "1.11.0r2"
+      "world_version": "1.11.0r4"
     },
     "nightlyr8": {
       "created_at": "2026-09-06T12:00:14Z",
@@ -282,7 +298,7 @@
       "tag": "nightlyr9",
       "title": "nightly",
       "version_simple": "1.11.0",
-      "world_version": "1.11.0r3"
+      "world_version": "1.11.0r2"
     },
     "v1.0.0": {
       "created_at": "2026-08-17T17:37:17Z",
