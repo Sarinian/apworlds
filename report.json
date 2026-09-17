@@ -1,7 +1,7 @@
 {
   "total_repositories": 889,
-  "total_packages": 1031,
-  "total_versions": 11332,
+  "total_packages": 1030,
+  "total_versions": 11326,
   "manifest_ready": {
     "dome_keeper": false,
     "RiseToRuins": false,
@@ -221,7 +221,6 @@
     "rimworld": true,
     "severed_steel": true,
     "ForgeAP": true,
-    "redprince": true,
     "manual_ctcsudoku_axxroy": false,
     "bits_and_bops": true,
     "spyro_aht": true,
@@ -1007,13 +1006,13 @@
     "0.6.4": 74,
     "0.6.5": 34,
     "0.6.6": 43,
-    "0.6.7": 244,
+    "0.6.7": 243,
     "0.6.8": 5,
     "0.6.9": 1,
     "0.7.0": 1
   },
   "max_maximum_ap_version": {
-    "": 623,
+    "": 622,
     "0.0.1": 1,
     "0.4.6": 5,
     "0.6.4": 1,
