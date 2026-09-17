@@ -2,113 +2,11 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://raw.githubusercontent.com/silasary/apworlds/refs/heads/main/recent.atom</id>
   <title>Recent APWorlds</title>
-  <updated>2026-09-17T02:20:08.147705+00:00</updated>
+  <updated>2026-09-17T10:43:33.721942+00:00</updated>
   <author>
     <name>Silasary</name>
   </author>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
-  <entry>
-    <id>https://github.com/KuroLynx/AEMinecraft/releases/tag/v0.6.1</id>
-    <title>AEMinecraft v0.6.1</title>
-    <updated>2026-09-13T23:44:14+00:00</updated>
-    <author>
-      <name>KuroLynx</name>
-    </author>
-    <content>## AEMinecraft v0.6.1&#13;
-&#13;
-A hotfix release: generation no longer hangs with BlazeandCave's Advancements Pack.&#13;
-&#13;
-### Fixed&#13;
-&#13;
-**Generation froze at "Beginning output..." with BlazeandCave's Advancements Pack.**&#13;
-Seeds using BACAP together with the mob or structure locks could sit at "Beginning&#13;
-output..." for 15 minutes or more, and on machines with less memory could fail outright.&#13;
-These seeds now generate normally: the heaviest reported setup (BACAP, glitch logic, every&#13;
-lock and `challenge_sanity: all`) finishes in under a minute.&#13;
-&#13;
-### Improved&#13;
-&#13;
-**Generation is faster and uses far less memory.** The apworld stopped building millions of&#13;
-duplicate copies of the same logic. The reported seed went from about 9 GB of memory to&#13;
-just over 1 GB, and seeds without BACAP generate roughly twice as fast.&#13;
-&#13;
-### Upgrading&#13;
-&#13;
-- **Only the apworld changed.** The mod is identical to v0.6.0, so if you already installed&#13;
-  the v0.6.0 mod you can keep it and just replace the apworld.&#13;
-- **Seeds generated with v0.6.0 are unaffected** and can be finished as they are.&#13;
-- Item placement is unchanged: the same YAML and seed produce the same world in v0.6.0 and&#13;
-  v0.6.1.&#13;
-- No YAML changes are required.</content>
-    <link href="https://github.com/KuroLynx/AEMinecraft/releases/tag/v0.6.1"/>
-  </entry>
-  <entry>
-    <id>https://github.com/Badhamknibbs/ArchipelagoNeonWhite/releases/tag/v0.1.1</id>
-    <title>Neon White v0.1.1</title>
-    <updated>2026-09-13T23:53:41+00:00</updated>
-    <author>
-      <name>Badhamknibbs</name>
-    </author>
-    <author>
-      <name>stxticOVFL</name>
-    </author>
-    <content>*Looking for the Neon White mod? Find it [here!](https://github.com/stxticOVFL/NWArchipelagoMod/releases/latest)*&#13;
-*Compatible with v0.1.x of the NWArchipelago mod.*&#13;
-&#13;
-- **Universal Tracker support has been fixed** and is now **YAML-less**!&#13;
-  - Please let me know if issues arise, especially with using YAML-less!&#13;
-- Some errors have been changed to `OptionError`s, and some new ones were introduced to cover more bases.&#13;
-- Obligatory logic update.&#13;
-&#13;
-### **Check the [game info](https://github.com/Badhamknibbs/ArchipelagoNeonWhite/blob/main/worlds/neonwhite/docs/en_NeonWhite.md) and [complete setup guide!](https://github.com/Badhamknibbs/ArchipelagoNeonWhite/blob/main/worlds/neonwhite/docs/setup_en.md)**&#13;
-&#13;
-**Changelog compared to v0.1.0**: https://github.com/Badhamknibbs/ArchipelagoNeonWhite/compare/v0.1.0...v0.1.1</content>
-    <link href="https://github.com/Badhamknibbs/ArchipelagoNeonWhite/releases/tag/v0.1.1"/>
-  </entry>
-  <entry>
-    <id>https://github.com/benny-dreamly/Archipelago/releases/tag/ts-1.2.2</id>
-    <title>Taylor Swift Discography v1.2.2</title>
-    <updated>2026-09-14T01:59:18+00:00</updated>
-    <author>
-      <name>benny-dreamly</name>
-    </author>
-    <content>This release adds a new option to further toggle songs that aren't included in the main deluxe releases of albums like the demo tracks and the voice memos. Not much else to say other than that. &#13;
-&#13;
-Zip file of config files has changed this release. &#13;
-&#13;
-**Full Changelog**: https://github.com/benny-dreamly/Archipelago/compare/ts-1.2.1...ts-1.2.2</content>
-    <link href="https://github.com/benny-dreamly/Archipelago/releases/tag/ts-1.2.2"/>
-  </entry>
-  <entry>
-    <id>https://github.com/tjwombo/RNSArchipelago/releases/tag/v0.4.2</id>
-    <title>Rabbit and Steel v0.4.2</title>
-    <updated>2026-09-14T02:04:26+00:00</updated>
-    <author>
-      <name>tjwombo</name>
-    </author>
-    <content>fixed:&#13;
-3 kingdom runs not handling the last 2 hallways correctly&#13;
-&#13;
-added:&#13;
-mod version is printed on connection&#13;
-generation check to ensure all kingdoms for that run type is present in kingdom order option list if kingdom order is being used&#13;
-&#13;
-# Changelog&#13;
-&#13;
-All notable changes to this project will be documented in this file.&#13;
-&#13;
-The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)&#13;
-and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).&#13;
-&#13;
-## [v0.4.2](https://github.com/tjwombo/RNSArchipelago/compare/v0.4.1...v0.4.2) - 2026-09-13&#13;
-&#13;
-### Commits&#13;
-&#13;
-- Add mod version to info printed [`c22ec0b`](https://github.com/tjwombo/RNSArchipelago/commit/c22ec0b077a64ef319cb6b174e346166ef079948)&#13;
-- Fixed last 2 hallway check on 3 kingdom runs [`ecd1141`](https://github.com/tjwombo/RNSArchipelago/commit/ecd1141039d2d251bf58c51f02753a49bb3ddf63)&#13;
-</content>
-    <link href="https://github.com/tjwombo/RNSArchipelago/releases/tag/v0.4.2"/>
-  </entry>
   <entry>
     <id>https://github.com/KuroLynx/AEMinecraft/releases/tag/v0.6.2</id>
     <title>AEMinecraft v0.6.2</title>
@@ -1337,7 +1235,7 @@ no regeneration - see **What carries over** for the two exceptions.&#13;
   </entry>
   <entry>
     <id>https://github.com/CATEM1NAL/PD2-Criminal-Dawn/releases/tag/v1.0.11</id>
-    <title>PAYDAY 2: Criminal Dawn v1.0.4r2</title>
+    <title>PAYDAY 2: Criminal Dawn v1.0.4r3</title>
     <updated>2026-09-16T00:06:19+00:00</updated>
     <author>
       <name>C@:\EM1NAL\</name>
@@ -2045,30 +1943,6 @@ Free code signing for open source projects, provided by
     <link href="https://github.com/m-this/tf2-archipelago/releases/tag/v1.16.1"/>
   </entry>
   <entry>
-    <id>https://github.com/m-this/tf2-archipelago/releases/tag/nightly</id>
-    <title>Team Fortress 2 Mann vs Machine v1.16.1r2</title>
-    <updated>2026-09-16T20:19:47+00:00</updated>
-    <author>
-      <name>mathis</name>
-    </author>
-    <content>**This is not a release.** It is the head of `main`, rebuilt on every push,
-and it is replaced without warning. For something that stays put, use the
-[latest release](https://github.com/m-this/tf2-archipelago/releases/latest).
-
-Built from `a280c330c88e0978e7738e3ea409304937758232`.
-
-## Downloads
-
-- [tf2ap.exe](https://github.com/m-this/tf2-archipelago/releases/download/nightly/tf2ap.exe) for Windows
-- [tf2ap-linux-amd64](https://github.com/m-this/tf2-archipelago/releases/download/nightly/tf2ap-linux-amd64) for Linux
-
-## Since v1.16.1
-
-- style(apworld): ruff format the named slot table
-</content>
-    <link href="https://github.com/m-this/tf2-archipelago/releases/tag/nightly"/>
-  </entry>
-  <entry>
     <id>https://github.com/JKLeckr/Archipelago-cuphead/releases/tag/alpha03l</id>
     <title>Cuphead v0.2.20021110</title>
     <updated>2026-09-16T20:53:05+00:00</updated>
@@ -2094,5 +1968,237 @@ This revision updates the setup doc in the APWorld. The webhosts and the people 
 &#13;
 fixed issues preventing generation when using roots_unlocked = false</content>
     <link href="https://github.com/Stuff691734/ModdedMCArchipelago/releases/tag/v3.0.9"/>
+  </entry>
+  <entry>
+    <id>https://github.com/TheLX5/Archipelago/releases/tag/wariowareinc-v1.1.0</id>
+    <title>WarioWare, Inc. - Mega Microgame$! v1.1.0</title>
+    <updated>2026-09-17T04:39:34+00:00</updated>
+    <author>
+      <name>lx5</name>
+    </author>
+    <content>Wario just released a shiny new update for you to play! Wahahahaha!&#13;
+# Info&#13;
+* [Info](https://thelx5.github.io/wario_ware_inc/index.html)&#13;
+* [Setup](https://thelx5.github.io/wario_ware_inc/setup.html)&#13;
+# Changes&#13;
+* Microgames now tell you which items they contain in their description&#13;
+* Added an option that allows players to start with a certain number of microgames unlocked&#13;
+* Players will **always** start with a minimum of 4 microgames unlocked&#13;
+* Added an option that allows players to exclude microgames from ever appearing&#13;
+* Added an option to select which stage will be unlocked at the start&#13;
+* Players are now able to disable the Introduction Stage&#13;
+* Allow players to disable stages completely from being added to the pool&#13;
+* Cutscenes are instantly skipped, this also includes ending cutscenes&#13;
+* Added several new location groups&#13;
+&#13;
+# Notes&#13;
+* The game UI doesn't update until you enter a stage or microgame.&#13;
+* There's _may_ be a crash (couldn't reproduce) when navigating the microgame menu. Resetting the save will fix any anomalies.</content>
+    <link href="https://github.com/TheLX5/Archipelago/releases/tag/wariowareinc-v1.1.0"/>
+  </entry>
+  <entry>
+    <id>https://github.com/SingeKiller/Pok-HeartGold_Apworld/releases/tag/v0.2.4-hotfix</id>
+    <title>Pokemon HGSS v0.9.0r2</title>
+    <updated>2026-09-17T05:21:09+00:00</updated>
+    <author>
+      <name>Olivier</name>
+    </author>
+    <content># Pokemon HeartGold / SoulSilver APWorld - v0.2.4-hotfix&#13;
+&#13;
+Bug-fix release on top of v0.2.4, based on playtester reports. **Compatible with games already in progress**&#13;
+&#13;
+## How to update&#13;
+&#13;
+1. Replace `pokemon_hgss.apworld` in your Archipelago `custom_worlds` folder with the one attached below.&#13;
+2. Re-open your existing `.apheartgold` file as usual. Your save is kept.&#13;
+&#13;
+- **Client fixes** apply as soon as the apworld is updated.&#13;
+- **ROM fixes** apply when you re-open your `.apheartgold` with this version.&#13;
+- **Logic fixes** only affect newly generated seeds.&#13;
+&#13;
+## Fixes&#13;
+&#13;
+### Logic (new seeds)&#13;
+- **Cliff Edge Gate no longer requires Rock Climb.** The gate between Cianwood and Route 47 is a plain walk-through: only the Secret Potion is needed, as in vanilla. Route 47, Route 48 and their checks are no longer pushed to the late game.&#13;
+- **Dead seeds through the Magnet Train.** The train also needs the Kanto Power Plant repaired, which the logic ignored (a real seed put HM03 Surf on Route 12).&#13;
+  - `magnet_train` on (default): the Power Plant counts as repaired from the start. The train works as soon as you have the Pass, and the Machine Part quest is skipped along with its TM57 location. Requires the matching client.&#13;
+  - `magnet_train` off: the train only counts once the Power Plant has really been repaired.&#13;
+- **The Copycat's Pass** now requires the Power Plant repair when `magnet_train` is off, since her Lost Item only appears after it.&#13;
+- **Bell Tower and Lugia monks.** The monks never check your bag: each one only lets you through once the NPC who hands out that wing has done so. The logic now requires talking to that NPC:&#13;
+  - HeartGold: the Radio Tower director (Goldenrod) for the Rainbow Wing, the old man in Pewter City for the Silver Wing.&#13;
+  - SoulSilver: the other way round.&#13;
+&#13;
+  Both wings are now merely useful items.&#13;
+&#13;
+### Client (games in progress included)&#13;
+- **Goal is now reported to the server**, so "release on goal" and other goal-based settings finally trigger. This covers `elite_four`, `champion_red` and `n_badges`.&#13;
+- **Vermilion Gym could become impossible** if the Thunder Badge arrived before beating Lt. Surge. The client now hides the badge while you are in Vermilion City or its gym, until Surge is beaten. If you are stuck inside the gym, walk out and back in.&#13;
+- **Whiteout sent you back to New Bark** with `randomize_start_location` before your first Pokemon Center visit. You now wake up at your starting town's Pokemon Center. This fix only works on seeds generated with this version.&#13;
+&#13;
+### ROM (re-open your .apheartgold)&#13;
+- **The Pass trade chain could break.** The Fan Club chairman refused the Lost Item if you already held a Pass, and the Copycat could stop offering her trade after your first talk.&#13;
+- **HeartGold: the Pewter City old man always gave a real Silver Wing** instead of the item placed there.&#13;
+&#13;
+## Workarounds for games in progress&#13;
+- **Stuck at a wing monk:** talk to the NPC who hands out that wing in your version (listed above), even if you already hold the wing.&#13;
+- **Stuck by the Magnet Train on an older seed:** ask the host for the missing item (`/send` or `!getitem`).</content>
+    <link href="https://github.com/SingeKiller/Pok-HeartGold_Apworld/releases/tag/v0.2.4-hotfix"/>
+  </entry>
+  <entry>
+    <id>https://github.com/m-this/tf2-archipelago/releases/tag/v1.16.2</id>
+    <title>Team Fortress 2 Mann vs Machine v1.16.2</title>
+    <updated>2026-09-17T06:04:12+00:00</updated>
+    <author>
+      <name>mathis</name>
+    </author>
+    <content>&lt;p align="center"&gt;
+  &lt;a href="https://github.com/m-this/tf2-archipelago/releases/latest/download/tf2ap.exe"&gt;
+    &lt;img alt="Download tf2ap.exe for Windows" src="https://img.shields.io/badge/Download-tf2ap.exe%20for%20Windows-2ea44f?style=for-the-badge&amp;logo=windows&amp;logoColor=white"&gt;
+  &lt;/a&gt;
+  &lt;a href="https://github.com/m-this/tf2-archipelago/releases/latest/download/tf2ap-linux-amd64"&gt;
+    &lt;img alt="Download tf2ap-linux-amd64 for Linux" src="https://img.shields.io/badge/Download-tf2ap--linux--amd64-1b1f27?style=for-the-badge&amp;logo=linux&amp;logoColor=white"&gt;
+  &lt;/a&gt;
+&lt;/p&gt;
+
+## Changes
+
+### Fixed
+
+- Turning off SigMod or Community missions on the Missions page now takes their
+  missions out of the pool. Before, they stayed ticked: the pool looked full,
+  and Check Run Selection still asked for SigMod after you had turned it off.
+  If the start mission was one of them, the start goes back to Any and the
+  server boots on its default map again. By kelly-cs.
+- A mission that stayed ticked after its requirement went away can be unticked.
+  Its row used to be locked, so it could not be taken out of the pool.
+- All in the pool no longer puts community missions back while Community
+  missions is off.
+
+
+## Windows
+
+Download **`tf2ap.exe`** above. Run it. It installs everything else.
+
+Windows will warn you, and it is a false positive. The exe unpacks archives and
+starts a game server without a code signature, which looks like a virus to a
+scanner. Click **More info**, then **Run anyway**, or check it below first.
+
+[Full guide](https://m-this.github.io/tf2-archipelago/en/setup/install-windows.html)
+
+## Linux
+
+Download **`tf2ap-linux-amd64`**. Run it. It installs everything else.
+
+```sh
+chmod +x tf2ap-linux-amd64
+./tf2ap-linux-amd64
+```
+
+[Full guide](https://m-this.github.io/tf2-archipelago/en/setup/install-linux.html)
+
+## Docker
+
+Download **`compose.yaml`** and **`env.example`**:
+
+```sh
+mkdir mann-vs-archipelago &amp;&amp; cd mann-vs-archipelago
+base=https://github.com/m-this/tf2-archipelago/releases/latest/download
+curl -fsSLO "$base/compose.yaml"
+curl -fsSL -o .env "$base/env.example"
+```
+
+Set `SRCDS_RCONPW` in `.env`, then:
+
+```sh
+docker compose --profile seed run --rm seed   # writes ./seed
+docker compose up -d
+```
+
+Upload the file from `seed/` at
+[archipelago.gg/uploads](https://archipelago.gg/uploads) and put the room's
+port into `AP_PORT`.
+
+[Full guide](https://m-this.github.io/tf2-archipelago/en/setup/install.html)
+
+## Other assets
+
+| File | For |
+| --- | --- |
+| `tf2_mvm.apworld` | The official Archipelago app. |
+| `tf2_archipelago.smx` | A SourceMod server the launcher and compose file don't manage. |
+| `tf2-defender-bots.zip` | The bots for that same server. Unzip into `tf/`. |
+| `meta.json`, `items.json`, `missions.json` | The item and check tables, for reference. |
+
+## Checking what you downloaded
+
+**`SHA256SUMS`** is attached to this release. It holds the hash of every file
+here, computed by the workflow that built them.
+
+```powershell
+Get-FileHash tf2ap.exe -Algorithm SHA256    # Windows
+```
+
+```sh
+sha256sum -c SHA256SUMS --ignore-missing    # Linux
+```
+
+Each binary carries a signed record of the commit and the workflow that built
+it:
+
+```sh
+gh attestation verify tf2ap.exe --repo m-this/tf2-archipelago
+```
+
+The binaries are scanned on VirusTotal, and the reports are linked at the end of
+these notes. Expect a few heuristic detections and no named malware family. The
+source is all in the repository, and `make launcher` rebuilds the exe on your
+own machine.
+
+## Code signing policy
+
+Free code signing for open source projects, provided by
+[SignPath.org](https://signpath.org), with a certificate from the
+[SignPath Foundation](https://signpath.org).
+
+&gt; [!WARNING]
+&gt; The application is open, not granted. Nothing is signed yet: `tf2ap.exe` ships
+&gt; unsigned, and Windows warns about it until that changes.
+
+
+## What's Changed
+* Fix mission pool toggles when SigMod or community missions turn off by @kelly-cs in https://github.com/m-this/tf2-archipelago/pull/105
+
+
+**Full Changelog**: https://github.com/m-this/tf2-archipelago/compare/v1.16.1...v1.16.2
+
+## VirusTotal
+
+- [`tf2ap.exe`](https://www.virustotal.com/gui/file-analysis/MjAwZGMzMDQ2OWNjZWJhODAwZGFhMTU0N2QxNmYyZDY6MTc4OTYyNTUwMg==/detection)
+- [`tf2ap-linux-amd64`](https://www.virustotal.com/gui/file-analysis/MjQ4NWRjYThkMmNjZjgyOGI0NzNkZTU0Mzc3OGU1YzY6MTc4OTYyNTUwNA==/detection)
+</content>
+    <link href="https://github.com/m-this/tf2-archipelago/releases/tag/v1.16.2"/>
+  </entry>
+  <entry>
+    <id>https://github.com/m-this/tf2-archipelago/releases/tag/nightly</id>
+    <title>Team Fortress 2 Mann vs Machine v1.16.2r2</title>
+    <updated>2026-09-17T06:04:12+00:00</updated>
+    <author>
+      <name>mathis</name>
+    </author>
+    <content>**This is not a release.** It is the head of `main`, rebuilt on every push,
+and it is replaced without warning. For something that stays put, use the
+[latest release](https://github.com/m-this/tf2-archipelago/releases/latest).
+
+Built from `a960bb32e97e8a3452962f5445b146df2aa59de9`.
+
+## Downloads
+
+- [tf2ap.exe](https://github.com/m-this/tf2-archipelago/releases/download/nightly/tf2ap.exe) for Windows
+- [tf2ap-linux-amd64](https://github.com/m-this/tf2-archipelago/releases/download/nightly/tf2ap-linux-amd64) for Linux
+
+## Since v1.16.2
+
+</content>
+    <link href="https://github.com/m-this/tf2-archipelago/releases/tag/nightly"/>
   </entry>
 </feed>
