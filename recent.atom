@@ -2,49 +2,11 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://raw.githubusercontent.com/silasary/apworlds/refs/heads/main/recent.atom</id>
   <title>Recent APWorlds</title>
-  <updated>2026-09-16T20:45:00.512227+00:00</updated>
+  <updated>2026-09-17T02:20:08.147705+00:00</updated>
   <author>
     <name>Silasary</name>
   </author>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
-  <entry>
-    <id>https://github.com/EverydaySimpleDev/Archipelago/releases/tag/1.2.6</id>
-    <title>Chibi Robo v1.2.6</title>
-    <updated>2026-09-13T17:48:09+00:00</updated>
-    <author>
-      <name>EverydaySimpleDev</name>
-    </author>
-    <content>- Updated Gen Logic / Rules / Bug Fixes&#13;
-- New Victory Goal (Let's Go Divorce)&#13;
-- Added Spider Queen Left Leg / Frog Ring Locations</content>
-    <link href="https://github.com/EverydaySimpleDev/Archipelago/releases/tag/1.2.6"/>
-  </entry>
-  <entry>
-    <id>https://github.com/alextric234/ArchipelagoDredge/releases/tag/dredge_0.5.2</id>
-    <title>Dredge v0.5.0r2</title>
-    <updated>2026-09-13T18:19:13+00:00</updated>
-    <author>
-      <name>Alextric</name>
-    </author>
-    <content>Includes previous release changes&#13;
-Corrected some fish locations&#13;
-Added instant crab bait as a catch tool&#13;
-</content>
-    <link href="https://github.com/alextric234/ArchipelagoDredge/releases/tag/dredge_0.5.2"/>
-  </entry>
-  <entry>
-    <id>https://github.com/ChakraaThePanda/Archipelago-Northgard/releases/tag/2026.09.13</id>
-    <title>Northgard v2026.9.13</title>
-    <updated>2026-09-13T19:14:35+00:00</updated>
-    <author>
-      <name>Chakraa</name>
-    </author>
-    <content>### Added
-- Optional Universal Tracker support: if you have the Universal Tracker apworld installed, the client now shows a tracker tab with in-logic location/item state, derived directly from this world's own logic. No effect on the client if Universal Tracker isn't installed.
-
-**Full Changelog**: https://github.com/ChakraaThePanda/Archipelago-Northgard/compare/2026.09.08...2026.09.13</content>
-    <link href="https://github.com/ChakraaThePanda/Archipelago-Northgard/releases/tag/2026.09.13"/>
-  </entry>
   <entry>
     <id>https://github.com/KuroLynx/AEMinecraft/releases/tag/v0.6.1</id>
     <title>AEMinecraft v0.6.1</title>
@@ -687,6 +649,18 @@ It is **strongly** recommended to update to this version as soon as you can, on 
 [Mod Link](https://github.com/Jeffdev-Archipelago-Implementations/FuniRaccoonAP/releases/latest)&#13;
 [Setup Guide](https://github.com/Jeffdev-Archipelago-Implementations/Archipelago-Funi/blob/main/worlds/funi_raccoon/docs/setup_en.md)</content>
     <link href="https://github.com/Jeffdev-Archipelago-Implementations/Archipelago-Funi/releases/tag/1.7.3"/>
+  </entry>
+  <entry>
+    <id>https://github.com/JDLKMR/TotK-APManual/releases/tag/v1.1.1</id>
+    <title>Manual_TearsoftheKingdom_JD v1.1.1</title>
+    <updated>2026-09-14T19:37:39+00:00</updated>
+    <author>
+      <name>JDLKMR</name>
+    </author>
+    <content>&lt;img width="220" height="220" alt="patrick-star-minor-s" src="https://github.com/user-attachments/assets/23de7f00-d4e5-48f6-8ce7-9ca7c9505f8f" /&gt;&#13;
+&#13;
+- Fixed typo in the Popla Foothills Tower location's category</content>
+    <link href="https://github.com/JDLKMR/TotK-APManual/releases/tag/v1.1.1"/>
   </entry>
   <entry>
     <id>https://github.com/qixils/NeoForgeAP/releases/tag/v2.2.0</id>
@@ -1363,7 +1337,7 @@ no regeneration - see **What carries over** for the two exceptions.&#13;
   </entry>
   <entry>
     <id>https://github.com/CATEM1NAL/PD2-Criminal-Dawn/releases/tag/v1.0.11</id>
-    <title>PAYDAY 2: Criminal Dawn v1.0.4r3</title>
+    <title>PAYDAY 2: Criminal Dawn v1.0.4r2</title>
     <updated>2026-09-16T00:06:19+00:00</updated>
     <author>
       <name>C@:\EM1NAL\</name>
@@ -2093,5 +2067,32 @@ Built from `a280c330c88e0978e7738e3ea409304937758232`.
 - style(apworld): ruff format the named slot table
 </content>
     <link href="https://github.com/m-this/tf2-archipelago/releases/tag/nightly"/>
+  </entry>
+  <entry>
+    <id>https://github.com/JKLeckr/Archipelago-cuphead/releases/tag/alpha03l</id>
+    <title>Cuphead v0.2.20021110</title>
+    <updated>2026-09-16T20:53:05+00:00</updated>
+    <author>
+      <name>JKLeckr</name>
+    </author>
+    <content>**To see notes and what's new for alpha03, see [alpha03a](https://github.com/JKLeckr/Archipelago-cuphead/releases/tag/alpha03a)**&#13;
+&#13;
+### Revision&#13;
+&#13;
+This revision updates the setup doc in the APWorld. The webhosts and the people viewing them will mainly see these changes.&#13;
+</content>
+    <link href="https://github.com/JKLeckr/Archipelago-cuphead/releases/tag/alpha03l"/>
+  </entry>
+  <entry>
+    <id>https://github.com/Stuff691734/ModdedMCArchipelago/releases/tag/v3.0.9</id>
+    <title>Modded Minecraft v3.0.9</title>
+    <updated>2026-09-17T00:45:37+00:00</updated>
+    <author>
+      <name>Stuff691734</name>
+    </author>
+    <content>added start_inventory_from_pool option to yaml.&#13;
+&#13;
+fixed issues preventing generation when using roots_unlocked = false</content>
+    <link href="https://github.com/Stuff691734/ModdedMCArchipelago/releases/tag/v3.0.9"/>
   </entry>
 </feed>
