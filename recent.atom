@@ -2,42 +2,11 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://raw.githubusercontent.com/silasary/apworlds/refs/heads/main/recent.atom</id>
   <title>Recent APWorlds</title>
-  <updated>2026-09-17T15:58:33.979491+00:00</updated>
+  <updated>2026-09-17T20:49:49.121301+00:00</updated>
   <author>
     <name>Silasary</name>
   </author>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
-  <entry>
-    <id>https://github.com/ChakraaThePanda/Archipelago-Northgard/releases/tag/2026.09.14</id>
-    <title>Northgard v2026.9.14</title>
-    <updated>2026-09-14T16:26:42+00:00</updated>
-    <author>
-      <name>Chakraa</name>
-    </author>
-    <content>### Fixed
-- Universal Tracker support (added in 2026.09.13) was making the server silently reject real progress: Universal Tracker's context class identifies its connections as tracker-only, and this client was inheriting that identity unchanged. Location checks and goal completion now go through correctly whether or not Universal Tracker is installed.
-
-### Changed
-- Shortened the `/savedir` and `/conquest` in-client help text for readability.
-
-**Full Changelog**: https://github.com/ChakraaThePanda/Archipelago-Northgard/compare/2026.09.13...2026.09.14</content>
-    <link href="https://github.com/ChakraaThePanda/Archipelago-Northgard/releases/tag/2026.09.14"/>
-  </entry>
-  <entry>
-    <id>https://github.com/Jeffdev-Archipelago-Implementations/Archipelago-Funi/releases/tag/1.7.1</id>
-    <title>Funi Raccoon Game v1.7.1</title>
-    <updated>2026-09-14T16:55:42+00:00</updated>
-    <author>
-      <name>Jeffdev</name>
-    </author>
-    <content>This is a small apworld specific release that removes glitched logic from Behrman Speedway, because I accidentally left that in&#13;
-&#13;
-[Mod Link](https://github.com/Jeffdev-Archipelago-Implementations/FuniRaccoonAP/releases/latest)&#13;
-[Setup Guide](https://github.com/Jeffdev-Archipelago-Implementations/Archipelago-Funi/blob/main/worlds/funi_raccoon/docs/setup_en.md)&#13;
-&#13;
-</content>
-    <link href="https://github.com/Jeffdev-Archipelago-Implementations/Archipelago-Funi/releases/tag/1.7.1"/>
-  </entry>
   <entry>
     <id>https://github.com/Jeffdev-Archipelago-Implementations/Archipelago-Funi/releases/tag/1.7.2</id>
     <title>Funi Raccoon Game v1.7.1r2</title>
@@ -762,7 +731,7 @@ no regeneration - see **What carries over** for the two exceptions.&#13;
   </entry>
   <entry>
     <id>https://github.com/CATEM1NAL/PD2-Criminal-Dawn/releases/tag/v1.0.11</id>
-    <title>PAYDAY 2: Criminal Dawn v1.0.4r2</title>
+    <title>PAYDAY 2: Criminal Dawn v1.0.4r3</title>
     <updated>2026-09-16T00:06:19+00:00</updated>
     <author>
       <name>C@:\EM1NAL\</name>
@@ -1929,5 +1898,51 @@ Note: should be fully backwards compatible with worlds generated at v1.0.2. Also
     </author>
     <content>- Removed Plando settings from slot data to allow Plando to do whatever it does.</content>
     <link href="https://github.com/ethentianknight/shellipelago/releases/tag/1.15"/>
+  </entry>
+  <entry>
+    <id>https://github.com/cuberyl-catastrophe/Archipelago/releases/tag/iosas-ap-v2.1.1</id>
+    <title>IslesOfSeaAndSky v2.1.1</title>
+    <updated>2026-09-17T18:09:17+00:00</updated>
+    <author>
+      <name>KimDelicious</name>
+    </author>
+    <author>
+      <name>Angrevol</name>
+    </author>
+    <author>
+      <name>Woli</name>
+    </author>
+    <author>
+      <name>Cuberyl</name>
+    </author>
+    <content>Additions:&#13;
+- Snakesanity option returns! When enabled, every snakeblock will send a check when broken.&#13;
+&#13;
+Changes:&#13;
+- Renamed RequireSerpentClues to SerpentPuzzleMemorization and inverted its true/false values&#13;
+- The standard for logic options from here on out will be for logic to be made harder when options are set to true&#13;
+- Marked Shuffle Meteroites and Traps yaml options with an [EXPERIMENTAL] label, they're functional but need polish in some places.&#13;
+- Updated docs to fix outdated links&#13;
+&#13;
+Logic Fixes:&#13;
+- Fixed Water A2 - N - Star Piece not having any logic rules apart from reaching its region&#13;
+- Fixed the Seashell Puzzle not requiring Water Elementals, 1 of the potential shell locations is locked behind them.&#13;
+- Fixed Fire D1 - Ruby checking if the player can reach the wrong entrance (causing this check to not be in logic when it should be)&#13;
+- Fixed Wind E4 - E - Ancient Key requiring Kite Cloak (it only needs Wind Elementals)</content>
+    <link href="https://github.com/cuberyl-catastrophe/Archipelago/releases/tag/iosas-ap-v2.1.1"/>
+  </entry>
+  <entry>
+    <id>https://github.com/ItsSeras/Laika-Aged-Through-Blood-Archipelago/releases/tag/v-0.1.4</id>
+    <title>Laika: Aged Through Blood v0.1.0r2</title>
+    <updated>2026-09-17T19:24:12+00:00</updated>
+    <author>
+      <name>Seras</name>
+    </author>
+    <content>A fix to the traveling merchant camera bug, contributed by @kennethbchen.&#13;
+&#13;
+This should completely fix the traveling merchant's shop breaking the zoom functionality, as well as working with any existing run. &#13;
+&#13;
+You only need to replace LaikaMod.dll for this fix. </content>
+    <link href="https://github.com/ItsSeras/Laika-Aged-Through-Blood-Archipelago/releases/tag/v-0.1.4"/>
   </entry>
 </feed>
