@@ -8,6 +8,9 @@
 #### v2.2.0.post2
 - <a href="https://github.com/qixils/NeoForgeAP/releases/download/v2.2.0/minecraft.apworld">https://github.com/qixils/NeoForgeAP/releases/download/v2.2.0/minecraft.apworld</a>
 
+#### v2.2.0r2
+- <a href="https://github.com/qixils/NeoForgeAP/releases/download/v2.2.1/minecraft.apworld">https://github.com/qixils/NeoForgeAP/releases/download/v2.2.1/minecraft.apworld</a>
+
 #### v2.2.0
 - <a href="https://github.com/qixils/NeoForgeAP/releases/download/v2.2.0/minecraft.apworld">https://github.com/qixils/NeoForgeAP/releases/download/v2.2.0/minecraft.apworld</a>
 
