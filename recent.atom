@@ -2,105 +2,11 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://raw.githubusercontent.com/silasary/apworlds/refs/heads/main/recent.atom</id>
   <title>Recent APWorlds</title>
-  <updated>2026-09-18T10:22:56.158761+00:00</updated>
+  <updated>2026-09-18T15:29:02.382613+00:00</updated>
   <author>
     <name>Silasary</name>
   </author>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
-  <entry>
-    <id>https://github.com/wilsonao/ff8_arch/releases/tag/v0.7.0</id>
-    <title>Final Fantasy VIII v0.7.0</title>
-    <updated>2026-09-15T14:08:12+00:00</updated>
-    <author>
-      <name>ff8_arch</name>
-    </author>
-    <content>## Early entry, Battle Assist, and the Story Keys of v0.6.0&#13;
-&#13;
-- **Early entry** (needs `vehicle_unlocks`): with the Ragnarok item in hand, the Tomb of the Unknown King, the Centra Ruins, the chocobo forests, **Winhill** and **Shumi Village** open before the story reaches them, and their first-opening checks join logic from the start (with `story_keys` on, the area's key is needed too). Winhill and Shumi were surveyed room by room on a Disc 1 save, including a save and reload inside. Other towns stay closed until surveyed (Deling City's hotel lounge soft-locks early).&#13;
-- **Battle Assist** (`/ff8assist`, client-side, off by default): `oneshot` leaves every enemy in a random encounter at 1 HP so the first hit ends it (bosses and scripted fights stay real), `enc` keeps Enc-None equipped for no random encounters from the first step, `atb` keeps ATB full, `hp` keeps HP topped up. DeathLink always takes priority.&#13;
-- **Story Keys** (from v0.6.0, `story_keys`, off by default): twenty "Key: &lt;area&gt;" items that physically lock the world-map entrances; `areas` never blocks the story, `story` makes the main-line doors hard gates. Keys carry their `/ff8warp` destination. Preset **Story Keys**.&#13;
-- The real Magical Lamp and Solomon Ring keep their names once they arrive; the Shumi warp lands beside the village dome.&#13;
-&#13;
-Tracker pack 0.13.0 shows the keys and the early-entry areas and mirrors the rules. **Stability note:** the new options are experimental and off by default; leave them off and this is the safe upgrade over v0.5.0. Report anything odd with `/ff8` output and the client log.&#13;
-&#13;
-## Install&#13;
-&#13;
-1. Archipelago **Launcher** → **Install APWorld** → pick `ff8.apworld` (or copy it into `custom_worlds/`), then restart the Launcher.&#13;
-2. Optional: drop `ff8_ap_tracker.zip` into PopTracker's `packs/` folder.&#13;
-3. Optional: `ff8_visual_tracker.zip` is a map preset for the [Archipelago Visual Tracker](https://github.com/Wakamu/Archipelago/releases/latest) — see **Visual Tracker** below.&#13;
-&#13;
-### Visual Tracker&#13;
-&#13;
-`ff8_visual_tracker.zip` pins every FF8 check on clickable world / extras / GF-ability maps inside the Archipelago Visual Tracker client. To use it:&#13;
-&#13;
-1. Install [Universal Tracker](https://github.com/FarisTheAncient/Archipelago/releases?q=Tracker) (`tracker.apworld`) and [`visualtracker.apworld`](https://github.com/Wakamu/Archipelago/releases/latest) via **Launcher → Install APWorld**, then restart the Launcher.&#13;
-2. Copy `ff8_visual_tracker.zip` into the `visual_packs/` folder of your Archipelago install (create it next to `custom_worlds/` if missing). Do **not** unzip it.&#13;
-3. Launcher → **Visual Tracker**, connect to your server/slot; the FF8 preset is picked up automatically.&#13;
-&#13;
-Visual Tracker support grew out of a community map layout contributed by **caedesender** (Discord) — thank you!&#13;
-&#13;
-Requires Archipelago 0.6.7+ and *Final Fantasy VIII* Steam 2013 (`FF8_EN.exe`). Setup guide: the **Final Fantasy VIII** page on your WebHost, or the [Player Guide](https://github.com/wilsonao/ff8_arch/blob/main/docs/player-guide.md).&#13;
-&#13;
-&#13;
-## What's Changed&#13;
-* Early entry: never-gated areas open with the Ragnarok item (C3) by @wilsonao in https://github.com/wilsonao/ff8_arch/pull/4&#13;
-* Release prep for v0.7.0 by @wilsonao in https://github.com/wilsonao/ff8_arch/pull/5&#13;
-&#13;
-&#13;
-**Full Changelog**: https://github.com/wilsonao/ff8_arch/compare/v0.6.0...v0.7.0&#13;
-</content>
-    <link href="https://github.com/wilsonao/ff8_arch/releases/tag/v0.7.0"/>
-  </entry>
-  <entry>
-    <id>https://github.com/Cynichill/DivaAPworld/releases/tag/1.5.2B</id>
-    <title>Hatsune Miku Project Diva Mega Mix+ v1.5.2b0</title>
-    <updated>2026-09-15T14:30:25+00:00</updated>
-    <author>
-      <name>Cynichill</name>
-    </author>
-    <author>
-      <name>repod</name>
-    </author>
-    <content># Changelog:&#13;
-&#13;
-# World&#13;
-- New goal mode: Location Percentage&#13;
-- Added Stutter, Slow, and PSP Traps&#13;
-- Song IDs (`123`) can be used for include, exclude, and goal song options&#13;
-&#13;
-# Mod&#13;
-- Support the AP World changes&#13;
-- Trap Link&#13;
-- Improved right-click menus and sortable tables for Tracker and Hints tab&#13;
-- Automatic retry on death&#13;
-- Various bug fixes and quality of life improvements&#13;
-&#13;
-Enjoying the mod? Consider joining our thread in the AP discord! We're close to a channel!</content>
-    <link href="https://github.com/Cynichill/DivaAPworld/releases/tag/1.5.2B"/>
-  </entry>
-  <entry>
-    <id>https://github.com/BuffYoda21/ap-glyphs/releases/tag/v1.3.0</id>
-    <title>GLYPHS v1.3.0</title>
-    <updated>2026-09-15T15:54:47+00:00</updated>
-    <author>
-      <name>BuffYoda21</name>
-    </author>
-    <content>## Apworld Changes&#13;
-- Added new option to randomize button shards&#13;
-- Added new option to include individual buttons as item checks&#13;
-- Reworked sphere one logic&#13;
-- Many small logic fixes and tweaks&#13;
-- Numerous optimizations&#13;
-- General code cleanup&#13;
-- Added Universal Tracker support&#13;
-## Mod Changes&#13;
-- Normalized EOL&#13;
-- Added support for button shard randomization&#13;
-- Added support for buttonsanity&#13;
-- Fixed an issue where the sword item sprite wouldn't load properly&#13;
-- Added an extra platform to region 1 to open up the early game more</content>
-    <link href="https://github.com/BuffYoda21/ap-glyphs/releases/tag/v1.3.0"/>
-  </entry>
   <entry>
     <id>https://github.com/Heinki/Mental-Omega-Randomizer/releases/tag/V1.38</id>
     <title>Mental Omega v1.38</title>
@@ -241,7 +147,7 @@ no regeneration - see **What carries over** for the two exceptions.&#13;
   </entry>
   <entry>
     <id>https://github.com/CATEM1NAL/PD2-Criminal-Dawn/releases/tag/v1.0.11</id>
-    <title>PAYDAY 2: Criminal Dawn v1.0.4r3</title>
+    <title>PAYDAY 2: Criminal Dawn v1.0.4r2</title>
     <updated>2026-09-16T00:06:19+00:00</updated>
     <author>
       <name>C@:\EM1NAL\</name>
@@ -1420,7 +1326,7 @@ Logic Fixes:&#13;
   </entry>
   <entry>
     <id>https://github.com/ItsSeras/Laika-Aged-Through-Blood-Archipelago/releases/tag/v-0.1.4</id>
-    <title>Laika: Aged Through Blood v0.1.0r2</title>
+    <title>Laika: Aged Through Blood v0.1.0r3</title>
     <updated>2026-09-17T19:24:12+00:00</updated>
     <author>
       <name>Seras</name>
@@ -1694,29 +1600,6 @@ Gather feedback from the community test sessions, refine the Adventure tracker, 
     <link href="https://github.com/dowlle/ctr-native-ap/releases/tag/v0.2.1-alpha2"/>
   </entry>
   <entry>
-    <id>https://github.com/m-this/tf2-archipelago/releases/tag/nightly</id>
-    <title>Team Fortress 2 Mann vs Machine v1.17.0</title>
-    <updated>2026-09-18T10:05:34+00:00</updated>
-    <author>
-      <name>mathis</name>
-    </author>
-    <content>**This is not a release.** It is the head of `main`, rebuilt on every push,
-and it is replaced without warning. For something that stays put, use the
-[latest release](https://github.com/m-this/tf2-archipelago/releases/latest).
-
-Built from `1e88a0f28c34bec201043eec50f55ef268a21660`.
-
-## Downloads
-
-- [tf2ap.exe](https://github.com/m-this/tf2-archipelago/releases/download/nightly/tf2ap.exe) for Windows
-- [tf2ap-linux-amd64](https://github.com/m-this/tf2-archipelago/releases/download/nightly/tf2ap-linux-amd64) for Linux
-
-## Since v1.17.0
-
-</content>
-    <link href="https://github.com/m-this/tf2-archipelago/releases/tag/nightly"/>
-  </entry>
-  <entry>
     <id>https://github.com/m-this/tf2-archipelago/releases/tag/v1.17.0</id>
     <title>Team Fortress 2 Mann vs Machine v1.17.0r2</title>
     <updated>2026-09-18T10:05:40+00:00</updated>
@@ -1894,5 +1777,212 @@ Free code signing for open source projects, provided by
 - [`tf2ap-linux-amd64`](https://www.virustotal.com/gui/file-analysis/MzczMjQ0MjAyZWI2N2FlYzM4MThlNzQwM2UzODE4ZjU6MTc4OTcyNjYxNw==/detection)
 </content>
     <link href="https://github.com/m-this/tf2-archipelago/releases/tag/v1.17.0"/>
+  </entry>
+  <entry>
+    <id>https://github.com/m-this/tf2-archipelago/releases/tag/v1.17.1</id>
+    <title>Team Fortress 2 Mann vs Machine v1.17.1</title>
+    <updated>2026-09-18T11:29:08+00:00</updated>
+    <author>
+      <name>mathis</name>
+    </author>
+    <content>&lt;p align="center"&gt;
+  &lt;a href="https://github.com/m-this/tf2-archipelago/releases/latest/download/tf2ap.exe"&gt;
+    &lt;img alt="Download tf2ap.exe for Windows" src="https://img.shields.io/badge/Download-tf2ap.exe%20for%20Windows-2ea44f?style=for-the-badge&amp;logo=windows&amp;logoColor=white"&gt;
+  &lt;/a&gt;
+  &lt;a href="https://github.com/m-this/tf2-archipelago/releases/latest/download/tf2ap-linux-amd64"&gt;
+    &lt;img alt="Download tf2ap-linux-amd64 for Linux" src="https://img.shields.io/badge/Download-tf2ap--linux--amd64-1b1f27?style=for-the-badge&amp;logo=linux&amp;logoColor=white"&gt;
+  &lt;/a&gt;
+&lt;/p&gt;
+
+## Changes
+
+### Fixed
+
+- **A mission file the server cannot read now says so, and the run moves on.**
+  A community mission whose file uses syntax stock TF2 rejects left the map up
+  with no waves in it and the team on wave 0, with nothing saying why. The
+  server now names the mission, points at the console line that names what it
+  refused, says when SigMod is the missing piece, and moves to the next mission
+  in the run. Reported by Doctor Pyro on Breaking Walls.
+- **A long kill tally can no longer hold up a multiworld.** Every tally was
+  reachable from the first mission, so an item somebody else needed could be
+  placed behind "40 Tanks Destroyed" and the only way to it was replaying one
+  mission ten times over. The first tally of each kind still counts from the
+  start; the longer ones now wait for their share of the run. Reported by
+  Roseburst.
+
+
+## Windows
+
+Download **`tf2ap.exe`** above. Run it. It installs everything else.
+
+Windows will warn you, and it is a false positive. The exe unpacks archives and
+starts a game server without a code signature, which looks like a virus to a
+scanner. Click **More info**, then **Run anyway**, or check it below first.
+
+[Full guide](https://m-this.github.io/tf2-archipelago/en/setup/install-windows.html)
+
+## Linux
+
+Download **`tf2ap-linux-amd64`**. Run it. It installs everything else.
+
+```sh
+chmod +x tf2ap-linux-amd64
+./tf2ap-linux-amd64
+```
+
+[Full guide](https://m-this.github.io/tf2-archipelago/en/setup/install-linux.html)
+
+## Docker
+
+Download **`compose.yaml`** and **`env.example`**:
+
+```sh
+mkdir mann-vs-archipelago &amp;&amp; cd mann-vs-archipelago
+base=https://github.com/m-this/tf2-archipelago/releases/latest/download
+curl -fsSLO "$base/compose.yaml"
+curl -fsSL -o .env "$base/env.example"
+```
+
+Set `SRCDS_RCONPW` in `.env`, then:
+
+```sh
+docker compose --profile seed run --rm seed   # writes ./seed
+docker compose up -d
+```
+
+Upload the file from `seed/` at
+[archipelago.gg/uploads](https://archipelago.gg/uploads) and put the room's
+port into `AP_PORT`.
+
+[Full guide](https://m-this.github.io/tf2-archipelago/en/setup/install.html)
+
+## Other assets
+
+| File | For |
+| --- | --- |
+| `tf2_mvm.apworld` | The official Archipelago app. |
+| `tf2_archipelago.smx` | A SourceMod server the launcher and compose file don't manage. |
+| `tf2-defender-bots.zip` | The bots for that same server. Unzip into `tf/`. |
+| `meta.json`, `items.json`, `missions.json` | The item and check tables, for reference. |
+
+## Checking what you downloaded
+
+**`SHA256SUMS`** is attached to this release. It holds the hash of every file
+here, computed by the workflow that built them.
+
+```powershell
+Get-FileHash tf2ap.exe -Algorithm SHA256    # Windows
+```
+
+```sh
+sha256sum -c SHA256SUMS --ignore-missing    # Linux
+```
+
+Each binary carries a signed record of the commit and the workflow that built
+it:
+
+```sh
+gh attestation verify tf2ap.exe --repo m-this/tf2-archipelago
+```
+
+The binaries are scanned on VirusTotal, and the reports are linked at the end of
+these notes. Expect a few heuristic detections and no named malware family. The
+source is all in the repository, and `make launcher` rebuilds the exe on your
+own machine.
+
+## Code signing policy
+
+Free code signing for open source projects, provided by
+[SignPath.org](https://signpath.org), with a certificate from the
+[SignPath Foundation](https://signpath.org).
+
+&gt; [!WARNING]
+&gt; The application is open, not granted. Nothing is signed yet: `tf2ap.exe` ships
+&gt; unsigned, and Windows warns about it until that changes.
+
+
+## What's Changed
+* Report a popfile the server refuses, and deepen the kill tallies by @m-this in https://github.com/m-this/tf2-archipelago/pull/118
+
+
+**Full Changelog**: https://github.com/m-this/tf2-archipelago/compare/v1.17.0...v1.17.1
+
+## VirusTotal
+
+- [`tf2ap.exe`](https://www.virustotal.com/gui/file-analysis/ZTFkYWMyZWYzMzM2NDI1NzJiNmJkMzVmMThjNTc5NGQ6MTc4OTczMTMzNQ==/detection)
+- [`tf2ap-linux-amd64`](https://www.virustotal.com/gui/file-analysis/MDhmMmEwNDFjZDAyN2IwMjRiMDQ1MTM4MDBmN2UyNzY6MTc4OTczMTMzOA==/detection)
+</content>
+    <link href="https://github.com/m-this/tf2-archipelago/releases/tag/v1.17.1"/>
+  </entry>
+  <entry>
+    <id>https://github.com/m-this/tf2-archipelago/releases/tag/nightly</id>
+    <title>Team Fortress 2 Mann vs Machine v1.17.1r2</title>
+    <updated>2026-09-18T13:32:05+00:00</updated>
+    <author>
+      <name>mathis</name>
+    </author>
+    <content>**This is not a release.** It is the head of `main`, rebuilt on every push,
+and it is replaced without warning. For something that stays put, use the
+[latest release](https://github.com/m-this/tf2-archipelago/releases/latest).
+
+Built from `4d251608b020627690ad6da5f07e55fccb43a183`.
+
+## Downloads
+
+- [tf2ap.exe](https://github.com/m-this/tf2-archipelago/releases/download/nightly/tf2ap.exe) for Windows
+- [tf2ap-linux-amd64](https://github.com/m-this/tf2-archipelago/releases/download/nightly/tf2ap-linux-amd64) for Linux
+
+## Since v1.17.1
+
+- docs: rewrite the book for hosts, add a launcher tutorial and the tracker
+</content>
+    <link href="https://github.com/m-this/tf2-archipelago/releases/tag/nightly"/>
+  </entry>
+  <entry>
+    <id>https://github.com/T4g1/ArchipelagoTomba/releases/tag/v1.5.8</id>
+    <title>Tomba! v1.5.8</title>
+    <updated>2026-09-18T13:54:02+00:00</updated>
+    <author>
+      <name>T4g1</name>
+    </author>
+    <author>
+      <name>bosshunter</name>
+    </author>
+    <content>This release is mostly focussed on ER (entrance randomization): It brings various stability fixes to prevent desynchronization with the various randomized entrances.&#13;
+&#13;
+&gt; [!WARNING]&#13;
+&gt; The entrance randomization feature is a higly unstable option right now. Any issues should be reported on this project tracker page: https://github.com/T4g1/ArchipelagoTomba/issues&#13;
+&#13;
+---&#13;
+&#13;
+## ✨ What's New&#13;
+&#13;
+### 🐛 Bug Fixes&#13;
+* Queue event actions so its not done too soon and overriden by the game's code: Fix A Drink For Grownup not being forced clear from the start&#13;
+* Removed Ol' Pond entrance from randomized entrances to allow clearing the Take me home event&#13;
+* Removed flower tower entrance from randomized entrances to avoid softlock with flower tears&#13;
+* Typo in Death Fuit missing an R&#13;
+* Better transition updates handling: The updates are now handled at first frame of being out of loading. Going in inventory reloads the transitions too and leaving boss fights also updates them&#13;
+* Yan Father giving the lunch box location was no longer working&#13;
+* Removed Lava Caves exits from randomized entrances to avoid glitch when getting there before having purified it.&#13;
+* Fix being killed for some reason when going to Stormy Mountains: Issue in transition being modified&#13;
+* Fix Baccus Door not unlocked as it should because the change was overwritten by the game being loaded&#13;
+* Clock Tower cutscene causes randomization to be overriden by original destination&#13;
+* Clear the fog event was never cleared upon entering the 100 YOM's hut due to game state never being out of dialog&#13;
+* Blue Powder and Healing Mushrooms no longer dispatched as they should&#13;
+* Masakari River is no longer randomized except for the Old Tree Hill&#13;
+* Clear the Fog and Furious Tornado are no longer randomized in entrance randomization runs&#13;
+* Removes rewards and notifications for event that are force cleared in entrance randomization mode&#13;
+* Clear the Fog is now cleared in ER but the furious tornado is still accessible at the start of the run as the Fog can't be removed dynamically yet&#13;
+* Underground prison removed from ER pool to avoid softlocks&#13;
+* Fix issue where Saving/Loading the game would reset ER&#13;
+&#13;
+---&#13;
+&#13;
+## 🔧 Installation&#13;
+1. Download the source code or the `.apworld` file.&#13;
+2. Drop it into your Archipelago `custom_worlds/` directory.</content>
+    <link href="https://github.com/T4g1/ArchipelagoTomba/releases/tag/v1.5.8"/>
   </entry>
 </feed>
