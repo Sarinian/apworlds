@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://raw.githubusercontent.com/silasary/apworlds/refs/heads/main/recent.atom</id>
   <title>Recent APWorlds</title>
-  <updated>2026-09-20T10:28:21.481584+00:00</updated>
+  <updated>2026-09-20T15:11:21.299428+00:00</updated>
   <author>
     <name>Silasary</name>
   </author>
@@ -1041,11 +1041,9 @@ Now there won't be anything til next weekend for real no matter how severe, have
 - Greymoor → Far Fields now requires opening the shortcut from Far Fields first&#13;
 - Fixed Forebrothers appearing in logic through aforementioned unopened shortcut&#13;
 - Fixed map tracking of completed Last Judge/Phantom fights and Act 2 access&#13;
-- Fixed early Rune Rage receipt preventing First Sinner activation&#13;
 - Moved Reserve Bind’s marker to its actual reward location. Its logic remains unresolved until that room is mapped&#13;
 - Fixed Phantom’s approach and Act 1 goal logic&#13;
 - Fixed missing requirements for the second flea reward, Ruined Tool and lower Wormways checks&#13;
-- Fixed Curvesickle being rejected by the Mottled Child’s throwing challenge&#13;
 - Added Flea Brew’s Marrow caravan marker alongside its Greymoor marker. Both clear together&#13;
 - Fixed first-opening map-pin initialization and objective-marker visibility during loading&#13;
 - Fixed Bone Bottom Bellway access logic&#13;
