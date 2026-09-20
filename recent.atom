@@ -2,189 +2,11 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://raw.githubusercontent.com/silasary/apworlds/refs/heads/main/recent.atom</id>
   <title>Recent APWorlds</title>
-  <updated>2026-09-19T19:54:16.164166+00:00</updated>
+  <updated>2026-09-20T02:07:28.728510+00:00</updated>
   <author>
     <name>Silasary</name>
   </author>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
-  <entry>
-    <id>https://github.com/randomcodegen/ironwail_ap/releases/tag/1.2.3</id>
-    <title>Quake 1 v1.2.3</title>
-    <updated>2026-09-17T11:11:24+00:00</updated>
-    <author>
-      <name>Rando</name>
-    </author>
-    <content>## Changes&#13;
-- Fixed WebSocket compression compatibility&#13;
-- Added AP commands to the in-game console, including !hint and !hint_location&#13;
-- Added item and location name autocomplete when using hint or hint_location&#13;
-- Updated the Ironwail engine base&#13;
-&#13;
-## Ironwail engine base 0.8.3-dev changes:&#13;
-- Stability/rendering fixes: console-copy crashes, texture-compression crashes, a GPU buffer leak, and shader issues on NVIDIA and older AMD hardware.&#13;
-- UI improvements: map names on the level-completion screen, mod-specific key-binding menus, and better center-message readability.&#13;
-- Improved model support: MD3 replacement models, faster MD3 loading, and reduced GPU memory usage.&#13;
-- Compatibility with Quake’s 30th-anniversary update, including upstream support for Dawn of the Machine.&#13;
-- Startup control: cl_startmenu lets players choose whether the menu opens at startup.&#13;
-- Better controller support: a modifier button provides a second layer of gamepad bindings, plus PlayStation Bluetooth gyro/rumble fixes and smoother flick-stick adjustments.</content>
-    <link href="https://github.com/randomcodegen/ironwail_ap/releases/tag/1.2.3"/>
-  </entry>
-  <entry>
-    <id>https://github.com/Dreskn/Wikipelago-Continued/releases/tag/1.0.3</id>
-    <title>Wikipelago v1.0.3</title>
-    <updated>2026-09-17T12:19:24+00:00</updated>
-    <author>
-      <name>Dreskn (continued)</name>
-    </author>
-    <author>
-      <name>Skrumptily69 (original)</name>
-    </author>
-    <content>Requires Archipelago **0.6.7** (or compatible). Web client: https://wikipelago.dreskn.fr/&#13;
-&#13;
----&#13;
-&#13;
-### Apworld / YAML&#13;
-&#13;
-- Option Creator tooltips now match the comments in the release YAML, so a launcher-generated template reads the same as this one.&#13;
-&#13;
----&#13;
-&#13;
-### Web client&#13;
-&#13;
-**Bingo**&#13;
-- Diagonal and anti-diagonal are marked with **D** / **AD** ticks.&#13;
-- Larger grids keep the same cell and font size as a 5×5. You can also click the board to enlarge it.&#13;
-&#13;
-**Journey**&#13;
-- Full screen from the Journey window or pop out into its own window.&#13;
-&#13;
-**Bug fixes**&#13;
-- Reaching the Grand Goal no longer auto-sends leftover rounds. Remaining checks follow the room **Release** setting (`!release` / auto-release). The HUD updates from Archipelago’s checked locations after a release.&#13;
-- Redirects and short titles now resolve to the real Wikipedia page name before a check is sent (e.g. `Task Scheduler` → `Windows Task Scheduler`).</content>
-    <link href="https://github.com/Dreskn/Wikipelago-Continued/releases/tag/1.0.3"/>
-  </entry>
-  <entry>
-    <id>https://github.com/Kryen112/AP_Stick_Ranger/releases/tag/1.8.0</id>
-    <title>Stick Ranger v1.8.0</title>
-    <updated>2026-09-17T13:07:07+00:00</updated>
-    <author>
-      <name>Kryen112</name>
-    </author>
-    <content>## Installation
-
--   Download the APworld for Stick Ranger
--   Put the stick_ranger.apworld in the /custom_worlds folder inside Archipelago
--   Generate a yaml or download the one in here
--   Customize the yaml and put it in the /players folder inside Archipelago
--   Generate a game
--   Connect to and play the game [here](https://kryen112.github.io/)
-
-## Heads up
-
--   **A game already in progress will lose its map colours.** The website updates
-    for everyone at once, and from now on the seed itself tells the client what
-    is in logic. A seed generated before 1.8.0 does not carry that, so its stages
-    show simply as unlocked or completed. Everything else keeps working, and a
-    new seed gets the colours back.
--   **Regenerate your yaml** for the new options below.
--   Requires Archipelago **0.6.7 or newer**.
-
-## New options
-
--   **Enforce Logic** — stages that are out of logic cannot be entered at all.
-    They stay on the map, greyed out, so you can still see what you hold. There
-    is no override: the run cannot be broken by accident or on purpose.
--   **Ring Link** — your gold is linked to every other Ring Link player's rings.
-    Gold you earn sends rings to the room, rings you receive become gold, and
-    spending sends a negative. **Ring Link Ratio** (default 100) sets how much
-    gold one ring is worth in both directions, because Stick Ranger's gold is
-    one to two orders of magnitude larger than the ring counts games like Sonic
-    deal in.
--   **Gold per Thrown Ring** — every ring an Angel throws pays gold. Defaults to
-    50, and goes up to 1000. Set it to 0 to turn it off. It ignores the Gold
-    Multiplier and the Gold Medal, so the number you pick is the number you get.
-    Be aware that an Angel throws about two rings a second, or seven on a quick
-    ring, and four of them at the maximum out-earns every enemy in the game.
-
-## Changes
-
-### Logic now comes from the seed
-
-The website used to carry its own copy of the apworld's rules, written by hand
-and kept in step by hand. That is what went wrong six different ways in 1.6.0.
-
-The apworld now describes its own logic and sends it with the seed, and the
-website evaluates that instead of a copy. There is no second set of rules left to
-drift. Checked by comparing 25,500 stage verdicts against Archipelago's own
-answer across 300 random item states.
-
-This is why an older seed loses its colours: it never sent a description.
-
-### APWorld
-
--   Universal Tracker gets the boss requirements the seed actually rolled, so it
-    stops rolling its own and disagreeing with the game.
--   New: Enforce Logic, Ring Link, Ring Link Ratio, Gold per Thrown Ring.
-
-### Client
-
--   Every movement of gold now goes through one place, which is what Ring Link
-    watches. What it reports is what actually happened, so a purchase you could
-    not afford or a pickup at the gold cap sends nothing.
--   Ring Link batches: gold moves constantly here, so instead of a packet per
-    change it totals up and sends at most one every five seconds. The total is
-    added up before being divided, so ten $40 gun shots count as 4 rings rather
-    than ten lots of nothing, and the remainder carries to the next send.
--   Gold arriving from Ring Link is never sent back out, so two linked Stick
-    Ranger players cannot amplify each other.
-</content>
-    <link href="https://github.com/Kryen112/AP_Stick_Ranger/releases/tag/1.8.0"/>
-  </entry>
-  <entry>
-    <id>https://github.com/m0ester/WarioworldAP/releases/tag/v0.1.9h</id>
-    <title>Warioworld v0.1.9r2</title>
-    <updated>2026-09-17T14:05:19+00:00</updated>
-    <author>
-      <name>moester_</name>
-    </author>
-    <content># Warioworld Archipelago v0.1.9 hotfix&#13;
-&#13;
-### Fixes&#13;
-&gt; Fixed Level Gates not opening if the player did not manually clear the cache (usually by savestating)&#13;
-&gt; Fixed some items being given incorrectly&#13;
-&gt; Fixed the Save Prompt being incorrectly brought up after exiting a level or punching a Save Book&#13;
-&#13;
-### Known Bugs&#13;
-&gt;The most recent item will be given to you again if it is a Filler/Trap item on reloading the savefile (this can softlock you if you have been given the Death Trap last, being sent another item will fix this)&#13;
-&gt; Some checks need to be collected twice to register (this is random and inconsistent, even across savestates)</content>
-    <link href="https://github.com/m0ester/WarioworldAP/releases/tag/v0.1.9h"/>
-  </entry>
-  <entry>
-    <id>https://github.com/barretg/Taskipelago/releases/tag/v1.1.0</id>
-    <title>Taskipelago v1.1.0</title>
-    <updated>2026-09-17T14:59:00+00:00</updated>
-    <author>
-      <name>barretg</name>
-    </author>
-    <content>*One client to rule them all*&#13;
-&#13;
-## What's new&#13;
-* One unified web client that hosts itself from the apworld, or is hosted at the [usual web address](https://barretg.github.io/Taskipelago/web-client/).&#13;
-* Hints tab&#13;
-* Deathlink alerts with noises that can be turned on and off&#13;
-* Deathlink lock mode&#13;
-* Deathlink task rows&#13;
-* Item filtering on items tab&#13;
-* Find/replace on YAML Generator&#13;
-* Renaming something optionally updates all references for your convenience&#13;
-* Reordering of tasks/items is now supported&#13;
-* Progressive groups now have colors tied to them&#13;
-* Bingo now generates filler if no items are listed&#13;
-* Fixed case where names with trailing special characters made things a little funky&#13;
-&#13;
-Note: should be fully backwards compatible with worlds generated at v1.0.2. Also Universal Tracker is still incompatible.</content>
-    <link href="https://github.com/barretg/Taskipelago/releases/tag/v1.1.0"/>
-  </entry>
   <entry>
     <id>https://github.com/ethentianknight/shellipelago/releases/tag/1.15</id>
     <title>Shellipelago v1.15.0</title>
@@ -305,7 +127,7 @@ needs regenerating to install this.&#13;
   </entry>
   <entry>
     <id>https://github.com/ItsSeras/Laika-Aged-Through-Blood-Archipelago/releases/tag/v-0.1.4</id>
-    <title>Laika: Aged Through Blood v0.1.0r2</title>
+    <title>Laika: Aged Through Blood v0.1.0r3</title>
     <updated>2026-09-17T19:24:12+00:00</updated>
     <author>
       <name>Seras</name>
@@ -1569,5 +1391,119 @@ This release was automatically generated from the **main** branch.&#13;
 Latest (main) releases are recommended, as pre-releases (staging) may contain experimental or in-progress changes.&#13;
 </content>
     <link href="https://github.com/Panguu/Archipelago-RaCSM/releases/tag/rac-size-matters/v0.4.17"/>
+  </entry>
+  <entry>
+    <id>https://github.com/alextric234/ArchipelagoDredge/releases/tag/dredge_0.6.0</id>
+    <title>Dredge v0.6.0</title>
+    <updated>2026-09-19T20:43:39+00:00</updated>
+    <author>
+      <name>Alextric</name>
+    </author>
+    <author>
+      <name>fight4day</name>
+    </author>
+    <content>- added fishing licenses and logic&#13;
+- added passage items and logic&#13;
+- removed the builder item and locations&#13;
+  - This is an early scaffolding for pursuits as locations, but there's still plenty of work to be done&#13;
+- filtering item creation differently&#13;
+- fixed ironhaven crate expansion</content>
+    <link href="https://github.com/alextric234/ArchipelagoDredge/releases/tag/dredge_0.6.0"/>
+  </entry>
+  <entry>
+    <id>https://github.com/UFO-50-Archipelago/Archipelago/releases/tag/0.3.0</id>
+    <title>UFO 50 v0.3.0</title>
+    <updated>2026-09-19T23:12:45+00:00</updated>
+    <author>
+      <name>UFO-50-Archipelago</name>
+    </author>
+    <content>Divers has been added thanks to SSBStew!&#13;
+Also some minor bug fixes.&#13;
+&#13;
+## What's Changed&#13;
+* UFO 50 - Divers Implementation by @SSBStew in https://github.com/UFO-50-Archipelago/Archipelago/pull/26&#13;
+* UFO 50 - Divers item and location adjustment by @SSBStew in https://github.com/UFO-50-Archipelago/Archipelago/pull/27&#13;
+&#13;
+## New Contributors&#13;
+* @SSBStew made their first contribution in https://github.com/UFO-50-Archipelago/Archipelago/pull/26&#13;
+&#13;
+**Full Changelog**: https://github.com/UFO-50-Archipelago/Archipelago/compare/0.2.1...0.3.0</content>
+    <link href="https://github.com/UFO-50-Archipelago/Archipelago/releases/tag/0.3.0"/>
+  </entry>
+  <entry>
+    <id>https://github.com/Panguu/Archipelago-RaCSM/releases/tag/rac-size-matters/v0.4.18</id>
+    <title>Ratchet &amp; Clank: Size Matters v0.4.18</title>
+    <updated>2026-09-19T23:41:58+00:00</updated>
+    <author>
+      <name>Pangu</name>
+    </author>
+    <author>
+      <name>Amondo</name>
+    </author>
+    <author>
+      <name>ImJustATester</name>
+    </author>
+    <content>## RaC Size Matters APWorld rac-size-matters/v0.4.18&#13;
+&#13;
+**Branch:** main&#13;
+**Date:** 2026-09-19 23:44 UTC&#13;
+&#13;
+&lt;details&gt;&#13;
+&lt;summary&gt;&lt;strong&gt;Changes since rac-size-matters/v0.4.17&lt;/strong&gt;&lt;/summary&gt;&#13;
+&#13;
+- fix(SM): vendor now displays ap icon and displays appropriate text for items in vendor (b40b2295)&#13;
+&#13;
+&lt;/details&gt;&#13;
+&#13;
+**Full changelog and compare**: https://github.com/Panguu/Archipelago-RaCSM/compare/rac-size-matters/v0.4.17...rac-size-matters/v0.4.18&#13;
+&#13;
+### Notes&#13;
+This release was automatically generated from the **main** branch.&#13;
+Latest (main) releases are recommended, as pre-releases (staging) may contain experimental or in-progress changes.&#13;
+</content>
+    <link href="https://github.com/Panguu/Archipelago-RaCSM/releases/tag/rac-size-matters/v0.4.18"/>
+  </entry>
+  <entry>
+    <id>https://github.com/Panguu/Archipelago-RaCSM/releases/tag/rac-size-matters/v0.4.19</id>
+    <title>Ratchet &amp; Clank: Size Matters v0.4.19</title>
+    <updated>2026-09-19T23:56:24+00:00</updated>
+    <author>
+      <name>Pangu</name>
+    </author>
+    <author>
+      <name>Amondo</name>
+    </author>
+    <author>
+      <name>ImJustATester</name>
+    </author>
+    <content>## RaC Size Matters APWorld rac-size-matters/v0.4.19
+
+**Branch:** main
+**Date:** 2026-09-19 23:58 UTC
+
+&lt;details&gt;
+&lt;summary&gt;&lt;strong&gt;Changes since rac-size-matters/v0.4.18&lt;/strong&gt;&lt;/summary&gt;
+
+- fix(SM): failing import of archipelago icons (f77dd072)
+
+&lt;/details&gt;
+
+**Full changelog and compare**: https://github.com/Panguu/Archipelago-RaCSM/compare/rac-size-matters/v0.4.18...rac-size-matters/v0.4.19
+
+### Notes
+This release was automatically generated from the **main** branch.
+Latest (main) releases are recommended, as pre-releases (staging) may contain experimental or in-progress changes.
+</content>
+    <link href="https://github.com/Panguu/Archipelago-RaCSM/releases/tag/rac-size-matters/v0.4.19"/>
+  </entry>
+  <entry>
+    <id>https://github.com/TheLivingShadow97/THAWAP/releases/tag/Small-Logic-Fixes</id>
+    <title>Tony Hawk's American Wasteland v0.0.1r2</title>
+    <updated>2026-09-20T01:05:32+00:00</updated>
+    <author>
+      <name>TheLivingShadow</name>
+    </author>
+    <content>- Fixes the regions for the "Big Lip", "Overpass Air", and "Pyramid Drop" gaps so it expects you to have entered the part of the story when you can remove the cars from the freeway before they're in logic, so that you can do those gaps.</content>
+    <link href="https://github.com/TheLivingShadow97/THAWAP/releases/tag/Small-Logic-Fixes"/>
   </entry>
 </feed>
