@@ -20,6 +20,9 @@
 #### v2.1.2.post2
 - <a href="https://github.com/cuberyl-catastrophe/Archipelago/releases/download/iosas-ap-v2.1.2/isles_of_sea_and_sky.apworld">https://github.com/cuberyl-catastrophe/Archipelago/releases/download/iosas-ap-v2.1.2/isles_of_sea_and_sky.apworld</a>
 
+#### v2.1.2
+- <a href="https://github.com/cuberyl-catastrophe/Archipelago/releases/download/iosas-ap-v2.1.1/isles_of_sea_and_sky.apworld">https://github.com/cuberyl-catastrophe/Archipelago/releases/download/iosas-ap-v2.1.1/isles_of_sea_and_sky.apworld</a>
+
 #### v2.1.1r2
 - <a href="https://github.com/cuberyl-catastrophe/Archipelago/releases/download/iosas-ap-v2.1.2/isles_of_sea_and_sky.apworld">https://github.com/cuberyl-catastrophe/Archipelago/releases/download/iosas-ap-v2.1.2/isles_of_sea_and_sky.apworld</a>
 

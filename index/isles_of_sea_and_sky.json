@@ -229,6 +229,22 @@
       "version_simple": "2.1.1",
       "world_version": "2.1.1"
     },
+    "iosas-ap-v2.1.1r2": {
+      "created_at": "2026-09-17T18:09:17Z",
+      "description": "Additions:\r\n- Snakesanity option returns! When enabled, every snakeblock will send a check when broken.\r\n\r\nChanges:\r\n- Renamed RequireSerpentClues to SerpentPuzzleMemorization and inverted its true/false values\r\n- The standard for logic options from here on out will be for logic to be made harder when options are set to true\r\n- Marked Shuffle Meteroites and Traps yaml options with an [EXPERIMENTAL] label, they're functional but need polish in some places.\r\n- Updated docs to fix outdated links\r\n\r\nLogic Fixes:\r\n- Fixed Water A2 - N - Star Piece not having any logic rules apart from reaching its region\r\n- Fixed the Seashell Puzzle not requiring Water Elementals, 1 of the potential shell locations is locked behind them.\r\n- Fixed Fire D1 - Ruby checking if the player can reach the wrong entrance (causing this check to not be in logic when it should be)\r\n- Fixed Wind E4 - E - Ancient Key requiring Kite Cloak (it only needs Wind Elementals)",
+      "download_url": "https://github.com/cuberyl-catastrophe/Archipelago/releases/download/iosas-ap-v2.1.1/isles_of_sea_and_sky.apworld",
+      "has_manifest": true,
+      "hash_sha256": "8d19e7f67508c89ddb8499a0b81bf6d2a4b66704cb470d6909ccc9aa7f3dd181",
+      "html_url": "https://github.com/cuberyl-catastrophe/Archipelago/releases/tag/iosas-ap-v2.1.1",
+      "minimum_ap_version": "0.6.7",
+      "prerelease": true,
+      "size": 1329749,
+      "source_url": "https://api.github.com/repos/cuberyl-catastrophe/Archipelago",
+      "tag": "iosas-ap-v2.1.1r2",
+      "title": "Isles of Sea and Sky Archipelago v2.1.1",
+      "version_simple": "2.1.2",
+      "world_version": "2.1.2"
+    },
     "iosas-ap-v2.1.2": {
       "created_at": "2026-09-19T01:05:28Z",
       "description": "Fixes:\r\n- Fixed AP mod not working on Linux (hopefully)\r\n\r\nLogic Fixes:\r\n- Fixed an issue with Stony Cliffs B4 logic not requiring Earth Elementals\r\n- Fixed Sea Nunatak B0 Pyramidion not requiring Ancient Rune Stone ",
