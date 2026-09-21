@@ -2,327 +2,11 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://raw.githubusercontent.com/silasary/apworlds/refs/heads/main/recent.atom</id>
   <title>Recent APWorlds</title>
-  <updated>2026-09-21T02:08:40.109649+00:00</updated>
+  <updated>2026-09-21T11:28:46.963434+00:00</updated>
   <author>
     <name>Silasary</name>
   </author>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
-  <entry>
-    <id>https://github.com/m-this/tf2-archipelago/releases/tag/v1.17.0</id>
-    <title>Team Fortress 2 Mann vs Machine v1.17.0r2</title>
-    <updated>2026-09-18T10:05:40+00:00</updated>
-    <author>
-      <name>mathis</name>
-    </author>
-    <content>&lt;p align="center"&gt;
-  &lt;a href="https://github.com/m-this/tf2-archipelago/releases/latest/download/tf2ap.exe"&gt;
-    &lt;img alt="Download tf2ap.exe for Windows" src="https://img.shields.io/badge/Download-tf2ap.exe%20for%20Windows-2ea44f?style=for-the-badge&amp;logo=windows&amp;logoColor=white"&gt;
-  &lt;/a&gt;
-  &lt;a href="https://github.com/m-this/tf2-archipelago/releases/latest/download/tf2ap-linux-amd64"&gt;
-    &lt;img alt="Download tf2ap-linux-amd64 for Linux" src="https://img.shields.io/badge/Download-tf2ap--linux--amd64-1b1f27?style=for-the-badge&amp;logo=linux&amp;logoColor=white"&gt;
-  &lt;/a&gt;
-&lt;/p&gt;
-
-## Changes
-
-### Two new mission modifiers
-
-- **Mental.** The robots, the tanks and their buildings stay cloaked for the
-  whole wave. A normal hit makes one shimmer for a moment; a reveal-on-hit
-  weapon buff decloaks it properly for five seconds before it fades back.
-- **Make it Count.** Your non-melee weapons and your sentries hit for two and
-  a half times as much, and in exchange RED carries a quarter of the reserve
-  ammo and the Engineer a quarter of the metal. Dispensers top you up every
-  four seconds rather than continuously.
-- Both by kelly-cs, and both are drawn per mission like the rest: a mission
-  keeps the modifiers it was given for the whole run.
-
-### SigMod missions on a Windows server
-
-- **The 99 community missions that need SigMod now run on Windows.** They were
-  listed and locked there because rafradek publishes a Linux server build only.
-  The extension is now cross-compiled for Windows in `m-this/sigsegv-mvm-win`,
-  and the launcher downloads and verifies it the same way it does the Linux one.
-- Turn on **SigMod** on the Missions page and press **Download / set up
-  selected server mods**, exactly as on Linux. Nothing installs it otherwise:
-  it is only needed by missions that ask for it, and a run without one never
-  downloads it.
-
-### Fixed
-
-- **Defender bots ready up again after a map change.** A per-client
-  ready-command deadline kept the previous map's game clock, so the bots
-  stopped pressing F4 until the new map's clock had caught up with it. On a
-  mission switch that could leave the team standing in the spawn room.
-- **A bot is no longer called "// Managed by tf2ap. Edits here".** The names
-  file the launcher writes starts with a managed-file comment, and the mod read
-  that line as a name and let the game cut it at 31 characters. Reported with a
-  screenshot by Cowser the Khelinace.
-- **Adding a bot name works again.** Typing a name on the Bots page and pressing
-  Add this name answered `settings action "bots.name_add" is not wired` and
-  added nothing. Reported by Cowser the Khelinace.
-- **A Windows server no longer hangs when the mission changes.** The bots walked
-  navigation areas left over from the previous map and the server never came
-  back, with nothing in the log after the last bot finished shopping. Since a
-  run changes mission by changing map, every switch could meet it.
-- **Bot Surge waves that stalled now recover.** On some wave patterns the
-  endless support robots respawned fast enough to hold every enemy slot, so the
-  wave itself stopped progressing, Cybernetic Carnage wave 1 among them. After
-  twenty seconds with no progress and no tank alive, the support is cleared for
-  four seconds to let the wave through. By kelly-cs.
-- **Docker: the defender bots load again.** The v1.16.1 server image built its
-  two native extensions against a newer C library than the image runs, so
-  SourceMod could load neither and no bots joined. By kelly-cs.
-
-
-## Windows
-
-Download **`tf2ap.exe`** above. Run it. It installs everything else.
-
-Windows will warn you, and it is a false positive. The exe unpacks archives and
-starts a game server without a code signature, which looks like a virus to a
-scanner. Click **More info**, then **Run anyway**, or check it below first.
-
-[Full guide](https://m-this.github.io/tf2-archipelago/en/setup/install-windows.html)
-
-## Linux
-
-Download **`tf2ap-linux-amd64`**. Run it. It installs everything else.
-
-```sh
-chmod +x tf2ap-linux-amd64
-./tf2ap-linux-amd64
-```
-
-[Full guide](https://m-this.github.io/tf2-archipelago/en/setup/install-linux.html)
-
-## Docker
-
-Download **`compose.yaml`** and **`env.example`**:
-
-```sh
-mkdir mann-vs-archipelago &amp;&amp; cd mann-vs-archipelago
-base=https://github.com/m-this/tf2-archipelago/releases/latest/download
-curl -fsSLO "$base/compose.yaml"
-curl -fsSL -o .env "$base/env.example"
-```
-
-Set `SRCDS_RCONPW` in `.env`, then:
-
-```sh
-docker compose --profile seed run --rm seed   # writes ./seed
-docker compose up -d
-```
-
-Upload the file from `seed/` at
-[archipelago.gg/uploads](https://archipelago.gg/uploads) and put the room's
-port into `AP_PORT`.
-
-[Full guide](https://m-this.github.io/tf2-archipelago/en/setup/install.html)
-
-## Other assets
-
-| File | For |
-| --- | --- |
-| `tf2_mvm.apworld` | The official Archipelago app. |
-| `tf2_archipelago.smx` | A SourceMod server the launcher and compose file don't manage. |
-| `tf2-defender-bots.zip` | The bots for that same server. Unzip into `tf/`. |
-| `meta.json`, `items.json`, `missions.json` | The item and check tables, for reference. |
-
-## Checking what you downloaded
-
-**`SHA256SUMS`** is attached to this release. It holds the hash of every file
-here, computed by the workflow that built them.
-
-```powershell
-Get-FileHash tf2ap.exe -Algorithm SHA256    # Windows
-```
-
-```sh
-sha256sum -c SHA256SUMS --ignore-missing    # Linux
-```
-
-Each binary carries a signed record of the commit and the workflow that built
-it:
-
-```sh
-gh attestation verify tf2ap.exe --repo m-this/tf2-archipelago
-```
-
-The binaries are scanned on VirusTotal, and the reports are linked at the end of
-these notes. Expect a few heuristic detections and no named malware family. The
-source is all in the repository, and `make launcher` rebuilds the exe on your
-own machine.
-
-## Code signing policy
-
-Free code signing for open source projects, provided by
-[SignPath.org](https://signpath.org), with a certificate from the
-[SignPath Foundation](https://signpath.org).
-
-&gt; [!WARNING]
-&gt; The application is open, not granted. Nothing is signed yet: `tf2ap.exe` ships
-&gt; unsigned, and Windows warns about it until that changes.
-
-
-## What's Changed
-* fix(bots): build Linux extensions against server glibc by @kelly-cs in https://github.com/m-this/tf2-archipelago/pull/106
-* feat(modifiers): add Mental cloak mode by @kelly-cs in https://github.com/m-this/tf2-archipelago/pull/111
-* fix(mvm): recover stalled Bot Surge waves using BLU support only by @kelly-cs in https://github.com/m-this/tf2-archipelago/pull/107
-* fix(testmode): honor Docker options and award eligible check rewards by @kelly-cs in https://github.com/m-this/tf2-archipelago/pull/108
-* feat(modifiers): add Make it Count by @kelly-cs in https://github.com/m-this/tf2-archipelago/pull/112
-* Wire Add this name on the Bots page by @m-this in https://github.com/m-this/tf2-archipelago/pull/116
-* Build CBaseNPC for Windows with the nav-cache patch by @m-this in https://github.com/m-this/tf2-archipelago/pull/114
-* SigMod missions run on a Windows server by @m-this in https://github.com/m-this/tf2-archipelago/pull/113
-* Cache and pin the CBaseNPC and Actions build by @m-this in https://github.com/m-this/tf2-archipelago/pull/117
-
-
-**Full Changelog**: https://github.com/m-this/tf2-archipelago/compare/v1.16.2...v1.17.0
-
-## VirusTotal
-
-- [`tf2ap.exe`](https://www.virustotal.com/gui/file-analysis/YzgxNTdlMDZhNDlkYjI2NWJiN2FjOTA3MWM0Y2FiY2Y6MTc4OTcyNjYxNQ==/detection)
-- [`tf2ap-linux-amd64`](https://www.virustotal.com/gui/file-analysis/MzczMjQ0MjAyZWI2N2FlYzM4MThlNzQwM2UzODE4ZjU6MTc4OTcyNjYxNw==/detection)
-</content>
-    <link href="https://github.com/m-this/tf2-archipelago/releases/tag/v1.17.0"/>
-  </entry>
-  <entry>
-    <id>https://github.com/m-this/tf2-archipelago/releases/tag/v1.17.1</id>
-    <title>Team Fortress 2 Mann vs Machine v1.17.1</title>
-    <updated>2026-09-18T11:29:08+00:00</updated>
-    <author>
-      <name>mathis</name>
-    </author>
-    <content>&lt;p align="center"&gt;
-  &lt;a href="https://github.com/m-this/tf2-archipelago/releases/latest/download/tf2ap.exe"&gt;
-    &lt;img alt="Download tf2ap.exe for Windows" src="https://img.shields.io/badge/Download-tf2ap.exe%20for%20Windows-2ea44f?style=for-the-badge&amp;logo=windows&amp;logoColor=white"&gt;
-  &lt;/a&gt;
-  &lt;a href="https://github.com/m-this/tf2-archipelago/releases/latest/download/tf2ap-linux-amd64"&gt;
-    &lt;img alt="Download tf2ap-linux-amd64 for Linux" src="https://img.shields.io/badge/Download-tf2ap--linux--amd64-1b1f27?style=for-the-badge&amp;logo=linux&amp;logoColor=white"&gt;
-  &lt;/a&gt;
-&lt;/p&gt;
-
-## Changes
-
-### Fixed
-
-- **A mission file the server cannot read now says so, and the run moves on.**
-  A community mission whose file uses syntax stock TF2 rejects left the map up
-  with no waves in it and the team on wave 0, with nothing saying why. The
-  server now names the mission, points at the console line that names what it
-  refused, says when SigMod is the missing piece, and moves to the next mission
-  in the run. Reported by Doctor Pyro on Breaking Walls.
-- **A long kill tally can no longer hold up a multiworld.** Every tally was
-  reachable from the first mission, so an item somebody else needed could be
-  placed behind "40 Tanks Destroyed" and the only way to it was replaying one
-  mission ten times over. The first tally of each kind still counts from the
-  start; the longer ones now wait for their share of the run. Reported by
-  Roseburst.
-
-
-## Windows
-
-Download **`tf2ap.exe`** above. Run it. It installs everything else.
-
-Windows will warn you, and it is a false positive. The exe unpacks archives and
-starts a game server without a code signature, which looks like a virus to a
-scanner. Click **More info**, then **Run anyway**, or check it below first.
-
-[Full guide](https://m-this.github.io/tf2-archipelago/en/setup/install-windows.html)
-
-## Linux
-
-Download **`tf2ap-linux-amd64`**. Run it. It installs everything else.
-
-```sh
-chmod +x tf2ap-linux-amd64
-./tf2ap-linux-amd64
-```
-
-[Full guide](https://m-this.github.io/tf2-archipelago/en/setup/install-linux.html)
-
-## Docker
-
-Download **`compose.yaml`** and **`env.example`**:
-
-```sh
-mkdir mann-vs-archipelago &amp;&amp; cd mann-vs-archipelago
-base=https://github.com/m-this/tf2-archipelago/releases/latest/download
-curl -fsSLO "$base/compose.yaml"
-curl -fsSL -o .env "$base/env.example"
-```
-
-Set `SRCDS_RCONPW` in `.env`, then:
-
-```sh
-docker compose --profile seed run --rm seed   # writes ./seed
-docker compose up -d
-```
-
-Upload the file from `seed/` at
-[archipelago.gg/uploads](https://archipelago.gg/uploads) and put the room's
-port into `AP_PORT`.
-
-[Full guide](https://m-this.github.io/tf2-archipelago/en/setup/install.html)
-
-## Other assets
-
-| File | For |
-| --- | --- |
-| `tf2_mvm.apworld` | The official Archipelago app. |
-| `tf2_archipelago.smx` | A SourceMod server the launcher and compose file don't manage. |
-| `tf2-defender-bots.zip` | The bots for that same server. Unzip into `tf/`. |
-| `meta.json`, `items.json`, `missions.json` | The item and check tables, for reference. |
-
-## Checking what you downloaded
-
-**`SHA256SUMS`** is attached to this release. It holds the hash of every file
-here, computed by the workflow that built them.
-
-```powershell
-Get-FileHash tf2ap.exe -Algorithm SHA256    # Windows
-```
-
-```sh
-sha256sum -c SHA256SUMS --ignore-missing    # Linux
-```
-
-Each binary carries a signed record of the commit and the workflow that built
-it:
-
-```sh
-gh attestation verify tf2ap.exe --repo m-this/tf2-archipelago
-```
-
-The binaries are scanned on VirusTotal, and the reports are linked at the end of
-these notes. Expect a few heuristic detections and no named malware family. The
-source is all in the repository, and `make launcher` rebuilds the exe on your
-own machine.
-
-## Code signing policy
-
-Free code signing for open source projects, provided by
-[SignPath.org](https://signpath.org), with a certificate from the
-[SignPath Foundation](https://signpath.org).
-
-&gt; [!WARNING]
-&gt; The application is open, not granted. Nothing is signed yet: `tf2ap.exe` ships
-&gt; unsigned, and Windows warns about it until that changes.
-
-
-## What's Changed
-* Report a popfile the server refuses, and deepen the kill tallies by @m-this in https://github.com/m-this/tf2-archipelago/pull/118
-
-
-**Full Changelog**: https://github.com/m-this/tf2-archipelago/compare/v1.17.0...v1.17.1
-
-## VirusTotal
-
-- [`tf2ap.exe`](https://www.virustotal.com/gui/file-analysis/ZTFkYWMyZWYzMzM2NDI1NzJiNmJkMzVmMThjNTc5NGQ6MTc4OTczMTMzNQ==/detection)
-- [`tf2ap-linux-amd64`](https://www.virustotal.com/gui/file-analysis/MDhmMmEwNDFjZDAyN2IwMjRiMDQ1MTM4MDBmN2UyNzY6MTc4OTczMTMzOA==/detection)
-</content>
-    <link href="https://github.com/m-this/tf2-archipelago/releases/tag/v1.17.1"/>
-  </entry>
   <entry>
     <id>https://github.com/T4g1/ArchipelagoTomba/releases/tag/v1.5.8</id>
     <title>Tomba! v1.5.8</title>
@@ -1079,8 +763,6 @@ Cerveau now has a shop menu. Open his secret disk analysis screen and press L or
   /&gt;&#13;
 &lt;/div&gt;&#13;
 &#13;
-The `Shop` location group works with `!hint` and `!missing`. Prices and shop slots are also configurable.&#13;
-&#13;
 ### Open all disks&#13;
 Pressing SELECT on the analysis screen now opens every disk you own at once.&#13;
 &#13;
@@ -1497,5 +1179,42 @@ The following chapters now operate as follows:&#13;
 &#13;
 ### **By popular demand, a new starting inventory option has been added: full Oil Can Parts**</content>
     <link href="https://github.com/Metaruler/ArchipelagoCR/releases/tag/V1.0"/>
+  </entry>
+  <entry>
+    <id>https://github.com/PinkSwitch/Archipelago/releases/tag/cvooe2.0.1</id>
+    <title>Castlevania: Order of Ecclesia v2.0.1</title>
+    <updated>2026-09-21T02:37:00+00:00</updated>
+    <author>
+      <name>Pink Switch</name>
+    </author>
+    <content># Castlevania: Order of Ecclesia Archipelago Version 2.0.1 #&#13;
+## New Settings ##&#13;
+N/A&#13;
+## Changes ##&#13;
+* Talking to Barlow now gives randomizer-relevant dialogue, and can activate the Dominus check automatically without needing to reload the room.&#13;
+## Fixes ##&#13;
+* Fixed Kalidus Depths Left chest being assigned to the wrong half&#13;
+## Known Issues ##&#13;
+* None so Far</content>
+    <link href="https://github.com/PinkSwitch/Archipelago/releases/tag/cvooe2.0.1"/>
+  </entry>
+  <entry>
+    <id>https://github.com/VincentsSin/Resident-Evil-4-Manual-AP/releases/tag/v2.2.0</id>
+    <title>Manual_ResidentEvil4_VincentsSin v2.2.0</title>
+    <updated>2026-09-21T05:25:57+00:00</updated>
+    <author>
+      <name>VincentsSin</name>
+    </author>
+    <content>Changes:&#13;
+- Reorganized location names to break alphabetical sorting, instead using mostly numerical to maintain story order listing.&#13;
+  - Memos are excluded due to their unique names and small amount.&#13;
+- Added `Infinite Launcher`, `Chicago Typewriter`, and `P.R.L. 412` to Merchant locations.&#13;
+  - Will only populate if relative weapons are enabled in yaml settings.&#13;
+- Healing items are now their own singular item to find. Does not affect logic; all are marked `useful`.&#13;
+&#13;
+Fixes:&#13;
+- Added missing `Stock (Red9)` and `Punisher` locations from Merchant checks.&#13;
+- Fixed `Chapter 1-2` region connection ignoring progressive chapter requirement through incorrect connection from `Chapter 1-1 Merchant` if `New Game Plus` was enabled.</content>
+    <link href="https://github.com/VincentsSin/Resident-Evil-4-Manual-AP/releases/tag/v2.2.0"/>
   </entry>
 </feed>

@@ -1,7 +1,7 @@
 {
-  "total_repositories": 889,
-  "total_packages": 1032,
-  "total_versions": 11416,
+  "total_repositories": 888,
+  "total_packages": 1031,
+  "total_versions": 11419,
   "manifest_ready": {
     "dome_keeper": false,
     "RiseToRuins": false,
@@ -120,7 +120,6 @@
     "christmasdeliveryapworld-main": false,
     "forgedcurse": true,
     "okamihd": true,
-    "ut99": true,
     "rac1": true,
     "haste": true,
     "mpadv": false,
@@ -781,7 +780,7 @@
     "frickbears3": false,
     "dos2": true,
     "mario_golf_64": false,
-    "manual_residentevil4_vincentssin": false,
+    "manual_residentevil4_vincentssin": true,
     "casualtiesunknown": true,
     "ys_origin": true,
     "archipelaballs": true,
@@ -995,7 +994,7 @@
     "pokepark": true
   },
   "max_minimum_ap_version": {
-    "": 453,
+    "": 451,
     "0.4.0": 2,
     "0.5.0": 18,
     "0.5.1": 4,
@@ -1006,7 +1005,7 @@
     "0.6.4": 75,
     "0.6.5": 35,
     "0.6.6": 42,
-    "0.6.7": 244,
+    "0.6.7": 245,
     "0.6.8": 5,
     "0.6.9": 1,
     "0.7.0": 1
@@ -1018,7 +1017,7 @@
     "0.6.4": 1,
     "0.6.6": 1,
     "0.6.7": 2,
-    "0.6.99": 336,
+    "0.6.99": 335,
     "0.9.99": 1
   }
 }
