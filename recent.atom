@@ -2,88 +2,11 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://raw.githubusercontent.com/silasary/apworlds/refs/heads/main/recent.atom</id>
   <title>Recent APWorlds</title>
-  <updated>2026-09-21T11:28:46.963434+00:00</updated>
+  <updated>2026-09-21T17:28:22.323391+00:00</updated>
   <author>
     <name>Silasary</name>
   </author>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
-  <entry>
-    <id>https://github.com/T4g1/ArchipelagoTomba/releases/tag/v1.5.8</id>
-    <title>Tomba! v1.5.8</title>
-    <updated>2026-09-18T13:54:02+00:00</updated>
-    <author>
-      <name>T4g1</name>
-    </author>
-    <author>
-      <name>bosshunter</name>
-    </author>
-    <content>This release is mostly focussed on ER (entrance randomization): It brings various stability fixes to prevent desynchronization with the various randomized entrances.&#13;
-&#13;
-&gt; [!WARNING]&#13;
-&gt; The entrance randomization feature is a higly unstable option right now. Any issues should be reported on this project tracker page: https://github.com/T4g1/ArchipelagoTomba/issues&#13;
-&#13;
----&#13;
-&#13;
-## ✨ What's New&#13;
-&#13;
-### 🐛 Bug Fixes&#13;
-* Queue event actions so its not done too soon and overriden by the game's code: Fix A Drink For Grownup not being forced clear from the start&#13;
-* Removed Ol' Pond entrance from randomized entrances to allow clearing the Take me home event&#13;
-* Removed flower tower entrance from randomized entrances to avoid softlock with flower tears&#13;
-* Typo in Death Fuit missing an R&#13;
-* Better transition updates handling: The updates are now handled at first frame of being out of loading. Going in inventory reloads the transitions too and leaving boss fights also updates them&#13;
-* Yan Father giving the lunch box location was no longer working&#13;
-* Removed Lava Caves exits from randomized entrances to avoid glitch when getting there before having purified it.&#13;
-* Fix being killed for some reason when going to Stormy Mountains: Issue in transition being modified&#13;
-* Fix Baccus Door not unlocked as it should because the change was overwritten by the game being loaded&#13;
-* Clock Tower cutscene causes randomization to be overriden by original destination&#13;
-* Clear the fog event was never cleared upon entering the 100 YOM's hut due to game state never being out of dialog&#13;
-* Blue Powder and Healing Mushrooms no longer dispatched as they should&#13;
-* Masakari River is no longer randomized except for the Old Tree Hill&#13;
-* Clear the Fog and Furious Tornado are no longer randomized in entrance randomization runs&#13;
-* Removes rewards and notifications for event that are force cleared in entrance randomization mode&#13;
-* Clear the Fog is now cleared in ER but the furious tornado is still accessible at the start of the run as the Fog can't be removed dynamically yet&#13;
-* Underground prison removed from ER pool to avoid softlocks&#13;
-* Fix issue where Saving/Loading the game would reset ER&#13;
-&#13;
----&#13;
-&#13;
-## 🔧 Installation&#13;
-1. Download the source code or the `.apworld` file.&#13;
-2. Drop it into your Archipelago `custom_worlds/` directory.</content>
-    <link href="https://github.com/T4g1/ArchipelagoTomba/releases/tag/v1.5.8"/>
-  </entry>
-  <entry>
-    <id>https://github.com/kbab13reel/Archipelago/releases/tag/lol_0.2.6</id>
-    <title>League of Legends v0.2.6</title>
-    <updated>2026-09-18T14:45:34+00:00</updated>
-    <author>
-      <name>kbab</name>
-    </author>
-    <content>### Features&#13;
-- Added support for Archipelago’s URI launch feature. The Archipelago Launcher can now offer the LoL Client when launching from a room link.&#13;
-- Added a public League of Legends setup guide to the repo.&#13;
-###  Bugfixes&#13;
-- Fixed the Connector crashing when non-champion items appeared in the received item list.&#13;
-- Fixed the tracked teammates list resetting to the top while scrolling.&#13;
-- Fixed received items failing to be written after disconnecting and reconnecting to a server. (thanks to @Neverified for the fix proposition)</content>
-    <link href="https://github.com/kbab13reel/Archipelago/releases/tag/lol_0.2.6"/>
-  </entry>
-  <entry>
-    <id>https://github.com/TheLX5/Archipelago/releases/tag/tengoku-v1.0.3</id>
-    <title>Rhythm Tengoku v1.0.3</title>
-    <updated>2026-09-18T15:45:17+00:00</updated>
-    <author>
-      <name>lx5</name>
-    </author>
-    <content>Beep.&#13;
-## Info&#13;
-* [Info](https://thelx5.github.io/tengoku/index.html)&#13;
-* [Setup](https://thelx5.github.io/tengoku/setup.html)&#13;
-## Changes&#13;
-* Level tiles are now updated automagically whenever players unlock a new level, no need to reload the menu ever again</content>
-    <link href="https://github.com/TheLX5/Archipelago/releases/tag/tengoku-v1.0.3"/>
-  </entry>
   <entry>
     <id>https://github.com/TheLX5/Archipelago/releases/tag/rha-v1.0.2</id>
     <title>Rhythm Heaven Advance v1.0.2</title>
@@ -1216,5 +1139,88 @@ Fixes:&#13;
 - Added missing `Stock (Red9)` and `Punisher` locations from Merchant checks.&#13;
 - Fixed `Chapter 1-2` region connection ignoring progressive chapter requirement through incorrect connection from `Chapter 1-1 Merchant` if `New Game Plus` was enabled.</content>
     <link href="https://github.com/VincentsSin/Resident-Evil-4-Manual-AP/releases/tag/v2.2.0"/>
+  </entry>
+  <entry>
+    <id>https://github.com/WolfBoi008/One-More-Night/releases/tag/2.3.3</id>
+    <title>Manual_OneMoreNight_WolfBoi008 v2.3.3</title>
+    <updated>2026-09-21T10:54:35+00:00</updated>
+    <author>
+      <name>WolfBoi008</name>
+    </author>
+    <content># Known Issues&#13;
+- #43: Memory Achievements Do Not Consider Unique Cases - I could use some help refining this since doing it alone would be annoying...&#13;
+# Changelog&#13;
+- Fixed up the logic for Emptiness for real this time. (Thanks, Kayo!)&#13;
+- Changed all instances of Jumpscare to Death to match the Jumpscaresanity Option changing its name to Deathsanity. (@oliwier7778)&#13;
+- Removed the Everyone Is Here Preset Check.&#13;
+- Temporarily removed the Artificial Insanity Preset Check.&#13;
+  - Will be re-added once I start adding Community Presets.&#13;
+- Removed the Non-Achievement Challenges Option.</content>
+    <link href="https://github.com/WolfBoi008/One-More-Night/releases/tag/2.3.3"/>
+  </entry>
+  <entry>
+    <id>https://github.com/WolfBoi008/One-More-Night/releases/tag/2.3.4</id>
+    <title>Manual_OneMoreNight_WolfBoi008 v2.3.4</title>
+    <updated>2026-09-21T12:11:04+00:00</updated>
+    <author>
+      <name>WolfBoi008</name>
+    </author>
+    <content># Known Issues&#13;
+#43: Memory Achievements Do Not Consider Unique Cases - I could use some help refining this since doing it alone would be annoying...&#13;
+# Changelog&#13;
+- Fixed Emptiness' logic *again*.&#13;
+  - I hope this is the last time...&#13;
+&lt;sub&gt;Dav, if you read this and you change the game in a way that requires changing the logic again, I swear to god...&lt;/sub&gt;</content>
+    <link href="https://github.com/WolfBoi008/One-More-Night/releases/tag/2.3.4"/>
+  </entry>
+  <entry>
+    <id>https://github.com/benny-dreamly/Archipelago/releases/tag/ts-1.2.3</id>
+    <title>Taylor Swift Discography v1.2.3</title>
+    <updated>2026-09-21T14:59:47+00:00</updated>
+    <author>
+      <name>benny-dreamly</name>
+    </author>
+    <content>This release makes 1989 actually gen properly... oopsies. &#13;
+&#13;
+As always, the .whl file is not for end users.&#13;
+&#13;
+The zip file is unchanged from the last release, but it has been rezipped. &#13;
+&#13;
+**Full Changelog**: https://github.com/benny-dreamly/Archipelago/compare/ts-1.2.2...ts-1.2.3</content>
+    <link href="https://github.com/benny-dreamly/Archipelago/releases/tag/ts-1.2.3"/>
+  </entry>
+  <entry>
+    <id>https://github.com/Panguu/Archipelago-RaCSM/releases/tag/rac-size-matters/v0.4.20</id>
+    <title>Ratchet &amp; Clank: Size Matters v0.4.20</title>
+    <updated>2026-09-21T16:41:22+00:00</updated>
+    <author>
+      <name>Pangu</name>
+    </author>
+    <author>
+      <name>Amondo</name>
+    </author>
+    <author>
+      <name>ImJustATester</name>
+    </author>
+    <content>## RaC Size Matters APWorld rac-size-matters/v0.4.20
+
+**Branch:** main
+**Date:** 2026-09-21 16:43 UTC
+
+&lt;details&gt;
+&lt;summary&gt;&lt;strong&gt;Changes since rac-size-matters/v0.4.19&lt;/strong&gt;&lt;/summary&gt;
+
+- fix(SM): disconnection message, additional multiplayer skins, additional ship selection menu and QoL changes (ca4984fa)
+- fix(SM): disconnection message, additional multiplayer skins, additional ship selection menu and QoL changes (5c9be6b6)
+
+&lt;/details&gt;
+
+**Full changelog and compare**: https://github.com/Panguu/Archipelago-RaCSM/compare/rac-size-matters/v0.4.19...rac-size-matters/v0.4.20
+
+### Notes
+This release was automatically generated from the **main** branch.
+Latest (main) releases are recommended, as pre-releases (staging) may contain experimental or in-progress changes.
+</content>
+    <link href="https://github.com/Panguu/Archipelago-RaCSM/releases/tag/rac-size-matters/v0.4.20"/>
   </entry>
 </feed>
