@@ -2,36 +2,11 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://raw.githubusercontent.com/silasary/apworlds/refs/heads/main/recent.atom</id>
   <title>Recent APWorlds</title>
-  <updated>2026-09-22T16:03:58.835903+00:00</updated>
+  <updated>2026-09-22T20:48:55.372802+00:00</updated>
   <author>
     <name>Silasary</name>
   </author>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
-  <entry>
-    <id>https://github.com/galdiuz/archipeladoku/releases/tag/v2026.09.19</id>
-    <title>Archipeladoku v2026.9.19</title>
-    <updated>2026-09-19T11:46:10+00:00</updated>
-    <author>
-      <name>Galdiuz</name>
-    </author>
-    <link href="https://github.com/galdiuz/archipeladoku/releases/tag/v2026.09.19"/>
-  </entry>
-  <entry>
-    <id>https://github.com/dannybonz/replanted_archipelago/releases/tag/v1.10.1</id>
-    <title>Plants vs. Zombies: Replanted v1.10.1</title>
-    <updated>2026-09-19T12:10:43+00:00</updated>
-    <author>
-      <name>Bonzorio</name>
-    </author>
-    <content>- The "Butter Ability" item will no longer appear giant-sized when dropped as a reward.&#13;
-- The "Seed Bank Randomiser Trap" is no longer capable of picking repeat seeds.&#13;
-- Added additional location and item groups.&#13;
-- Logic improvements.&#13;
-- Improved generation success rate.&#13;
-&#13;
-For instructions, see the [Setup Guide.](https://github.com/dannybonz/replanted_archipelago/blob/main/apworld/docs/setup.md)</content>
-    <link href="https://github.com/dannybonz/replanted_archipelago/releases/tag/v1.10.1"/>
-  </entry>
   <entry>
     <id>https://github.com/Batatvideogames/silksong-archipelago-randomizer/releases/tag/v0.4.6-Hotfix</id>
     <title>Hollow Knight: Silksong v0.4.6r2</title>
@@ -1041,45 +1016,15 @@ Client / mod data changes:&#13;
 and it is replaced without warning. For something that stays put, use the
 [latest release](https://github.com/m-this/tf2-archipelago/releases/latest).
 
-Built from `442283bd8d2e18107a54ba9d3a0ee3d2090a91cd`.
+Built from `a37bdb38b3fc39348a144d5d5b0f4e442714e609`.
 
 ## Downloads
 
 - [tf2ap.exe](https://github.com/m-this/tf2-archipelago/releases/download/nightly/tf2ap.exe) for Windows
 - [tf2ap-linux-amd64](https://github.com/m-this/tf2-archipelago/releases/download/nightly/tf2ap-linux-amd64) for Linux
 
-## Since v1.17.2
+## Since v1.17.3
 
-- feat(apworld): reward families can be turned off entirely
-- fix(launcher): the item server line drops its terminal colors
-- fix(missions): SigMod's extra loadout menu shows its labels
-- feat(launcher): mirror the pinned community archives on GitHub
-- Cap stock Caliginous extraction retries during startup
-- fix(deploy): handle popfile cleanup errors explicitly
-- style(deploy): format stock popfile installer
-- fix(mvm): repair stock Caliginous Caper wave 666
-- Avoid archive rehash in settings and clear stale import markers
-- Fix archive hash PR lint and browser expectations
-- Pin community archive hashes and require explicit mismatch approval
-- Keep SigMod server config conditional and test both modes
-- fix(mvm): exclude RED defenders from invader limit
-- Log stalled invader removals and make timeout configurable
-- fix(plugin): clear invaders stuck protected in spawn
-- Derive Medic-only catalog label from population ClassLimit
-- feat(missions): label Remedic as Medic only
-- Keep Bot Surge acceleration for high-capacity TFBot spawns
-- fix(bot surge): preserve scripted wave timers
-- Poll run seed only for Docker test rooms
-- fix: refresh plugin missions when Docker test run changes
-- fix: honor full eligible mission pool in Docker test mode
-- Scope SigMod includes to each archive and refresh catalog counts
-- fix(gamedata): mark missions using shared SigMod extensions
-- Share missing mod wording and name mission table inputs
-- fix: keep edited SigMod config from hiding missions
-- Fix mission checkbox assertion for SigMod choice
-- feat(missions): the Windows SigMod row says beta, and the docs say why
-- fix(plugin): Windows signatures for 13 hooks that only had Linux symbols
-- feat(missions): a server mod is off, needed, or always, and SigMod returns to Windows
 </content>
     <link href="https://github.com/m-this/tf2-archipelago/releases/tag/nightly"/>
   </entry>
@@ -1137,5 +1082,219 @@ source code: https://github.com/thejoshwolfe/Archipelago/tree/space-age/worlds/f
 &#13;
 **This is meant as an attempt for a fix on some Linux distros. For most other purposes, please download the [standard 1.1.7 release](https://github.com/ArchipelagoBrad/deadlockipelago/releases/tag/1.1.7) instead.**</content>
     <link href="https://github.com/ArchipelagoBrad/deadlockipelago/releases/tag/1.1.7-Linux"/>
+  </entry>
+  <entry>
+    <id>https://github.com/ljtpetersen/platinum_archipelago/releases/tag/v0.2.2</id>
+    <title>Pokemon Platinum v0.2.2</title>
+    <updated>2026-09-22T18:47:38+00:00</updated>
+    <author>
+      <name>ljtpetersen</name>
+    </author>
+    <content>### Fixed&#13;
+* Using old patches with the new version now works.</content>
+    <link href="https://github.com/ljtpetersen/platinum_archipelago/releases/tag/v0.2.2"/>
+  </entry>
+  <entry>
+    <id>https://github.com/m-this/tf2-archipelago/releases/tag/v1.17.3</id>
+    <title>Team Fortress 2 Mann vs Machine v1.17.3</title>
+    <updated>2026-09-22T19:44:42+00:00</updated>
+    <author>
+      <name>mathis</name>
+    </author>
+    <content>&lt;p align="center"&gt;
+  &lt;a href="https://github.com/m-this/tf2-archipelago/releases/latest/download/tf2ap.exe"&gt;
+    &lt;img alt="Download tf2ap.exe for Windows" src="https://img.shields.io/badge/Download-tf2ap.exe%20for%20Windows-2ea44f?style=for-the-badge&amp;logo=windows&amp;logoColor=white"&gt;
+  &lt;/a&gt;
+  &lt;a href="https://github.com/m-this/tf2-archipelago/releases/latest/download/tf2ap-linux-amd64"&gt;
+    &lt;img alt="Download tf2ap-linux-amd64 for Linux" src="https://img.shields.io/badge/Download-tf2ap--linux--amd64-1b1f27?style=for-the-badge&amp;logo=linux&amp;logoColor=white"&gt;
+  &lt;/a&gt;
+&lt;/p&gt;
+
+## Changes
+
+### Added
+
+- **Server mods have three answers instead of a tick: off, only when a mission
+  needs it, or always.** Installing a mod used to be the same thing as loading
+  it, because the game server loads an extension whenever its file is on the
+  disk. They are separate now. The default loads a mod only while your mission
+  pool holds a mission that names it, so a run that never asks for SigMod
+  never has it in the server. Turning a mod off leaves the download in place,
+  so turning it back on costs nothing.
+- **SigMod is offered on Windows again**, through this project's own port,
+  since upstream publishes no Windows build. It is off by default and the row
+  reads **SigMod (beta)**: the port crashed one player's server, and the new
+  loading setting is what makes it safe to offer. Leave it on **only when a
+  mission needs it** unless you are testing it. Linux, Docker and WSL download
+  upstream's build and are the safe way to play those missions today.
+- **Each reward family can be turned off.** Mission Ticket, Class Unlock and
+  Weapon Slot Importance take **Disabled - All Unlocked**: everything starts
+  unlocked and leaves the item pool, per-class slots included. Weapon Buff
+  Importance takes **Disabled - No Buffs**, and the spare checks become cash.
+  The defaults are unchanged. By kelly-cs.
+- **Remedic is labelled Medic only** in the mission table, the mission pool and
+  the start-mission choices, since its population file bans every other class.
+  By kelly-cs.
+- **Community archives are checked against a pinned hash.** The Potato and
+  Moonlight snapshots now download from this project's GitHub release first,
+  with the Potato servers as fallback, and a file whose hash differs is held
+  back until you press **Ignore hash mismatch** on the Missions page. By
+  kelly-cs.
+
+### Fixed
+
+- **A server mod can be turned off.** Whether you run the launcher or the
+  Docker stack, taking a mod out of the settings left it loading from the game
+  files it had already been installed into, with nothing on screen admitting
+  it. Both now take the marker away.
+- **Modifiers work on a Windows server.** Thirteen of the plugin's game hooks
+  had no Windows signature, so a modifier could be drawn and announced while
+  half of it did nothing. Faulty Calibration and Mental's cloak now work there,
+  and a refused mission file is reported. Bot Surge's support fillers and Make
+  it Count's dispenser limit still do nothing on Windows.
+- **A robot stuck protected in its spawn no longer holds the wave open.** After
+  two minutes the plugin removes it. Condemned Trespasser wave 2 could not end
+  without this. By kelly-cs.
+- **Bot Surge no longer loses scripted waves at once.** It shortened every
+  spawn delay, including the timers some missions use to open the hatch, so
+  Homestead Happenings wave 5 was lost after seven seconds. Only robot spawns
+  are sped up now. By kelly-cs.
+- **Caliginous Caper wave 666 has its tanks and its Halloween look.** The stock
+  file sends its tanks down a path the map does not have. The server now
+  repairs it from your game files at start. By kelly-cs.
+- **SigMod no longer kicks RED defender bots.** Its robot limit counted them,
+  so a crowded wave kicked one and the bots added it back, over and over. By
+  kelly-cs.
+- **Ten community missions are marked as needing SigMod**, among them Bionic
+  Breach, Nuclear Threat and Twilight Of Terror. They were offered without it
+  and could not run. By kelly-cs.
+- **SigMod's extra loadout menu shows its item names and title** instead of
+  `%t: %s %s %t`. On the Windows and Linux launchers, SigMod shows as not ready
+  once after this update: press **Download / set up selected server mods** to
+  apply the fix. By kelly-cs.
+- **Docker: editing SigMod's config no longer hides its missions**, and the
+  settings page no longer points at a setup button that does nothing in Docker.
+  By kelly-cs.
+- **Docker: Test mode uses the whole mission pool you asked for**, not eight,
+  and the server picks up a new test run without a restart. By kelly-cs.
+- **The item server line no longer shows terminal color codes.** By kelly-cs.
+
+
+## Windows
+
+Download **`tf2ap.exe`** above. Run it. It installs everything else.
+
+Windows will warn you, and it is a false positive. The exe unpacks archives and
+starts a game server without a code signature, which looks like a virus to a
+scanner. Click **More info**, then **Run anyway**, or check it below first.
+
+[Full guide](https://m-this.github.io/tf2-archipelago/en/setup/install-windows.html)
+
+## Linux
+
+Download **`tf2ap-linux-amd64`**. Run it. It installs everything else.
+
+```sh
+chmod +x tf2ap-linux-amd64
+./tf2ap-linux-amd64
+```
+
+[Full guide](https://m-this.github.io/tf2-archipelago/en/setup/install-linux.html)
+
+## Docker
+
+Download **`compose.yaml`** and **`env.example`**:
+
+```sh
+mkdir mann-vs-archipelago &amp;&amp; cd mann-vs-archipelago
+base=https://github.com/m-this/tf2-archipelago/releases/latest/download
+curl -fsSLO "$base/compose.yaml"
+curl -fsSL -o .env "$base/env.example"
+```
+
+Set `SRCDS_RCONPW` in `.env`, then:
+
+```sh
+docker compose --profile seed run --rm seed   # writes ./seed
+docker compose up -d
+```
+
+Upload the file from `seed/` at
+[archipelago.gg/uploads](https://archipelago.gg/uploads) and put the room's
+port into `AP_PORT`.
+
+[Full guide](https://m-this.github.io/tf2-archipelago/en/setup/install.html)
+
+## Other assets
+
+| File | For |
+| --- | --- |
+| `tf2_mvm.apworld` | The official Archipelago app. |
+| `tf2_archipelago.smx` | A SourceMod server the launcher and compose file don't manage. |
+| `tf2-defender-bots.zip` | The bots for that same server. Unzip into `tf/`. |
+| `meta.json`, `items.json`, `missions.json` | The item and check tables, for reference. |
+
+## Checking what you downloaded
+
+**`SHA256SUMS`** is attached to this release. It holds the hash of every file
+here, computed by the workflow that built them.
+
+```powershell
+Get-FileHash tf2ap.exe -Algorithm SHA256    # Windows
+```
+
+```sh
+sha256sum -c SHA256SUMS --ignore-missing    # Linux
+```
+
+Each binary carries a signed record of the commit and the workflow that built
+it:
+
+```sh
+gh attestation verify tf2ap.exe --repo m-this/tf2-archipelago
+```
+
+The binaries are scanned on VirusTotal, and the reports are linked at the end of
+these notes. Expect a few heuristic detections and no named malware family. The
+source is all in the repository, and `make launcher` rebuilds the exe on your
+own machine.
+
+## Code signing policy
+
+Free code signing for open source projects, provided by
+[SignPath.org](https://signpath.org), with a certificate from the
+[SignPath Foundation](https://signpath.org).
+
+&gt; [!WARNING]
+&gt; The application is open, not granted. Nothing is signed yet: `tf2ap.exe` ships
+&gt; unsigned, and Windows warns about it until that changes.
+
+
+## What's Changed
+* Fix mission table checkbox assertion for SigMod choice by @kelly-cs in https://github.com/m-this/tf2-archipelago/pull/136
+* Fix Caliginous Caper wave 666 tanks and Halloween mode by @kelly-cs in https://github.com/m-this/tf2-archipelago/pull/120
+* Stop RED defenders counting toward the invader limit by @kelly-cs in https://github.com/m-this/tf2-archipelago/pull/121
+* Fix SigMod mission availability after editing server config by @kelly-cs in https://github.com/m-this/tf2-archipelago/pull/123
+* fix(gamedata): mark missions using shared SigMod extensions by @kelly-cs in https://github.com/m-this/tf2-archipelago/pull/125
+* Fix Docker test mission selection and stale plugin list by @kelly-cs in https://github.com/m-this/tf2-archipelago/pull/126
+* Fix Bot Surge triggering scripted wave timers early by @kelly-cs in https://github.com/m-this/tf2-archipelago/pull/127
+* Label Remedic as Medic only in mission lists by @kelly-cs in https://github.com/m-this/tf2-archipelago/pull/128
+* fix(plugin): clear invaders stuck protected in spawn for &gt;2 mins by @kelly-cs in https://github.com/m-this/tf2-archipelago/pull/129
+* Pin community archive hashes and require mismatch approval by @kelly-cs in https://github.com/m-this/tf2-archipelago/pull/132
+* Mirror pinned community archives on GitHub with Potato fallback by @kelly-cs in https://github.com/m-this/tf2-archipelago/pull/133
+* Fix SigMod extra loadout item labels and title by @kelly-cs in https://github.com/m-this/tf2-archipelago/pull/134
+* Fix terminal color codes in item server status by @kelly-cs in https://github.com/m-this/tf2-archipelago/pull/139
+* Add explicit disabled modes for reward families by @kelly-cs in https://github.com/m-this/tf2-archipelago/pull/138
+* Add an optional all-wave MvM smoke probe for docker by @kelly-cs in https://github.com/m-this/tf2-archipelago/pull/124
+
+
+**Full Changelog**: https://github.com/m-this/tf2-archipelago/compare/v1.17.2...v1.17.3
+
+## VirusTotal
+
+- [`tf2ap.exe`](https://www.virustotal.com/gui/file-analysis/Njk2NzFlZTc2YzM3YzhiMzdjYTQ3NjI5YTY2YjAzZTM6MTc5MDEwNjYyMw==/detection)
+- [`tf2ap-linux-amd64`](https://www.virustotal.com/gui/file-analysis/ZmJjMjk0MDY3ZTM2NjQyY2NlZDE2N2Y1MDY4MjU4YjE6MTc5MDEwNjYyNQ==/detection)
+</content>
+    <link href="https://github.com/m-this/tf2-archipelago/releases/tag/v1.17.3"/>
   </entry>
 </feed>
