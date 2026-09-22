@@ -2,96 +2,11 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://raw.githubusercontent.com/silasary/apworlds/refs/heads/main/recent.atom</id>
   <title>Recent APWorlds</title>
-  <updated>2026-09-22T10:37:22.406714+00:00</updated>
+  <updated>2026-09-22T16:03:58.835903+00:00</updated>
   <author>
     <name>Silasary</name>
   </author>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
-  <entry>
-    <id>https://github.com/rescheer/Starship-Titanic-AP/releases/tag/v0.2.3</id>
-    <title>Starship Titanic v0.2.3</title>
-    <updated>2026-09-19T01:40:53+00:00</updated>
-    <author>
-      <name>rescheer</name>
-    </author>
-    <content># v0.2.3 (Unstable)&#13;
-Bug fix for client only. .apworld is unchanged. Compatible with existing seeds.&#13;
-## Fixes&#13;
-- Seed detection was writing the wrong size data into the save file. The game ignored it on load, which caused the client to assume any loaded save was a fresh save.&#13;
-## Changes&#13;
-- none&#13;
-## Known Issues in this release&#13;
-- Cosmetic issues with items in the world sometimes&#13;
-&#13;
-## General Tips&#13;
-- Ctrl+C opens the cheat menu, which allows teleporting around the ship. This shouldn't cause any major issues, but I would be careful spawning items, because that may get messy.&#13;
-- No visual tracker yet, but for now I highly recommend Universal Tracker to see in-logic checks&#13;
-&#13;
-Find installation instructions at [https://github.com/rescheer/Starship-Titanic-AP#installation](https://github.com/rescheer/Starship-Titanic-AP#installation)</content>
-    <link href="https://github.com/rescheer/Starship-Titanic-AP/releases/tag/v0.2.3"/>
-  </entry>
-  <entry>
-    <id>https://github.com/Panguu/Archipelago-RaCSM/releases/tag/rac-size-matters/v0.4.16</id>
-    <title>Ratchet &amp; Clank: Size Matters v0.4.16</title>
-    <updated>2026-09-19T01:49:54+00:00</updated>
-    <author>
-      <name>Pangu</name>
-    </author>
-    <author>
-      <name>Amondo</name>
-    </author>
-    <author>
-      <name>ImJustATester</name>
-    </author>
-    <content>## RaC Size Matters APWorld rac-size-matters/v0.4.16&#13;
-&#13;
-**Branch:** main&#13;
-**Date:** 2026-09-19 11:18 UTC&#13;
-&#13;
-&lt;details&gt;&#13;
-&lt;summary&gt;&lt;strong&gt;Changes since rac-size-matters/v0.4.15&lt;/strong&gt;&lt;/summary&gt;&#13;
-&#13;
-- feat(SM): Redesign of SM logic to include live patching (cdbad74b)&#13;
-&#13;
-&lt;/details&gt;&#13;
-&#13;
-**Full changelog and compare**: https://github.com/Panguu/Archipelago-RaCSM/compare/rac-size-matters/v0.4.15...rac-size-matters/v0.4.16&#13;
-&#13;
-### Notes&#13;
-This release was automatically generated from the **main** branch.&#13;
-Latest (main) releases are recommended, as pre-releases (staging) may contain experimental or in-progress changes.&#13;
-</content>
-    <link href="https://github.com/Panguu/Archipelago-RaCSM/releases/tag/rac-size-matters/v0.4.16"/>
-  </entry>
-  <entry>
-    <id>https://github.com/dannybonz/ae2_archipelago/releases/tag/v1.3.2</id>
-    <title>Ape Escape 2 v1.3.2</title>
-    <updated>2026-09-19T07:32:06+00:00</updated>
-    <author>
-      <name>dannybonz</name>
-    </author>
-    <content>- Added level information to data storage, enabling tab auto-switching for **[Terratoya's PopTracker Pack.](https://github.com/terratoya/ae2-poptracker-pack/releases/)**&#13;
-- "Enter The Monkey: Johnny" no longer logically requires the Water Net.&#13;
-&#13;
-For instructions, see the [Setup Guide.](https://github.com/dannybonz/ae2_archipelago/blob/main/docs/setup.md)</content>
-    <link href="https://github.com/dannybonz/ae2_archipelago/releases/tag/v1.3.2"/>
-  </entry>
-  <entry>
-    <id>https://github.com/ElectroStarz/ArchipelagoMSM/releases/tag/v3.0.1</id>
-    <title>Mario Sports Mix v3.0.1</title>
-    <updated>2026-09-19T11:18:16+00:00</updated>
-    <author>
-      <name>ElectroStarz</name>
-    </author>
-    <author>
-      <name>Puffy</name>
-    </author>
-    <content>## What's Changed?&#13;
-* Fixed an issue with Party Palooza tracking&#13;
-&#13;
-Yeah that's all... 3.1.0 is coming I promise!!! (Hopefully within the next month or so, tryna get this stable enough for Ionium)</content>
-    <link href="https://github.com/ElectroStarz/ArchipelagoMSM/releases/tag/v3.0.1"/>
-  </entry>
   <entry>
     <id>https://github.com/galdiuz/archipeladoku/releases/tag/v2026.09.19</id>
     <title>Archipeladoku v2026.9.19</title>
@@ -759,6 +674,26 @@ Fixes:&#13;
     <link href="https://github.com/VincentsSin/Resident-Evil-4-Manual-AP/releases/tag/v2.2.0"/>
   </entry>
   <entry>
+    <id>https://github.com/toent/Archipelago-MKWii/releases/tag/pre0.2.4</id>
+    <title>Mario Kart Wii v0.2.4</title>
+    <updated>2026-09-21T08:55:33+00:00</updated>
+    <author>
+      <name>toent</name>
+    </author>
+    <content>## Pre-Release Version 0.2.4: Victory Trophy handling rework&#13;
+Been a while! Got a bunch of reports of Victory Trophies not being counted properly on reconnect. So I reworked the handling of them. It is currently untested, and thus marked as a pre-release. Please let me know in the discord how your experience with it is!&#13;
+&#13;
+### Changelog:&#13;
+- Reworked victory trophy handling.&#13;
+&#13;
+**REQUIRES APWORLD VERSION 0.2.0 - 0.2.4**&#13;
+&#13;
+_Linux users, download the source code here to run the client._&#13;
+&#13;
+**Full Changelog**: https://github.com/toent/Archipelago-MKWii/compare/v0.2.3...pre0.2.4</content>
+    <link href="https://github.com/toent/Archipelago-MKWii/releases/tag/pre0.2.4"/>
+  </entry>
+  <entry>
     <id>https://github.com/WolfBoi008/One-More-Night/releases/tag/2.3.3</id>
     <title>Manual_OneMoreNight_WolfBoi008 v2.3.3</title>
     <updated>2026-09-21T10:54:35+00:00</updated>
@@ -946,7 +881,7 @@ Note: should be fully backwards compatible with worlds generated from 1.0 onward
   </entry>
   <entry>
     <id>https://github.com/Heinki/Mental-Omega-Randomizer/releases/tag/V1.39</id>
-    <title>Mental Omega v1.39</title>
+    <title>Mental Omega v1.39.post2</title>
     <updated>2026-09-21T19:59:40+00:00</updated>
     <author>
       <name>Mental Omega Randomizer contributors</name>
@@ -957,7 +892,9 @@ Note: should be fully backwards compatible with worlds generated from 1.0 onward
 - Add MCV as unlocks&#13;
 - Adjust and Improve UI for Shopmode&#13;
 - Fix Nanofibre Sync not working correctly and crashing on some maps&#13;
-- Fix Weapon switching units loosing their buffs</content>
+- Fix Weapon switching units loosing their buffs&#13;
+- Add Heavy Trooper as Special&#13;
+- Fix costs for Special Brutes</content>
     <link href="https://github.com/Heinki/Mental-Omega-Randomizer/releases/tag/V1.39"/>
   </entry>
   <entry>
@@ -1095,7 +1032,7 @@ Client / mod data changes:&#13;
   </entry>
   <entry>
     <id>https://github.com/m-this/tf2-archipelago/releases/tag/nightly</id>
-    <title>Team Fortress 2 Mann vs Machine v1.17.2r2</title>
+    <title>Team Fortress 2 Mann vs Machine v1.17.2r3</title>
     <updated>2026-09-22T09:00:52+00:00</updated>
     <author>
       <name>mathis</name>
@@ -1145,5 +1082,60 @@ Built from `442283bd8d2e18107a54ba9d3a0ee3d2090a91cd`.
 - feat(missions): a server mod is off, needed, or always, and SigMod returns to Windows
 </content>
     <link href="https://github.com/m-this/tf2-archipelago/releases/tag/nightly"/>
+  </entry>
+  <entry>
+    <id>https://github.com/CazIsABoi/Archipelago/releases/tag/0.2.7.1</id>
+    <title>plateup v0.2.7.1</title>
+    <updated>2026-09-22T14:06:43+00:00</updated>
+    <author>
+      <name>CazIsABoi</name>
+    </author>
+    <content>## What's New?&#13;
+&#13;
+* Fixed achievement checks not being included in the location pool — `achievement_check_mode` now actually adds achievement checks to your run, gated by day count and (for `earned_only`) by whether `appliance_unlocks` is enabled&#13;
+* Fixed dish-specific Day Leases wrongly chaining dishes together — each dish's day progression is now fully independent, instead of requiring an earlier-selected dish to be fully leased before a later dish could even start Day 1&#13;
+* Fixed franchise runs under dish-specific Day Lease mode needing an ever-growing number of leases as `franchise_count` increased — leasing now correctly resets each franchise run instead of accumulating across all of them (thanks to Mike Lydeamore)&#13;
+&#13;
+## Balance Changes&#13;
+&#13;
+* `Complete Day N` and franchise-goal completions could previously become reachable with very few or zero items when using dish-specific Day Leases — some `complete_x_days` and `reach_day_x_with_dishes` goals could resolve almost immediately. This is fixed: a Day Lease pool sized to your goal's day count now always paces the day chain, independent of Day Lease mode&#13;
+* Franchise goal + dish-specific leasing now requires an available, sufficiently-leased dish for each individual run rather than pulling from one global cumulative lease pool, so high `franchise_count` values no longer demand disproportionately more leases&#13;
+&#13;
+[Mod Update 2.7.1](https://github.com/CazIsABoi/PlateUpAPMod/releases/tag/2.7.1)&#13;
+</content>
+    <link href="https://github.com/CazIsABoi/Archipelago/releases/tag/0.2.7.1"/>
+  </entry>
+  <entry>
+    <id>https://github.com/thejoshwolfe/Archipelago/releases/tag/space-age-v3.0.5</id>
+    <title>Factorio: Space Age v3.0.5</title>
+    <updated>2026-09-22T14:31:54+00:00</updated>
+    <author>
+      <name>Berserker</name>
+    </author>
+    <author>
+      <name>Josh Wolfe</name>
+    </author>
+    <content># Factorio: Space Age apworld 3.0.5&#13;
+&#13;
+* Better error reporting when creating save files in directories with problematic permissions. Thanks @lepideble for the suggestion.&#13;
+&#13;
+download: https://github.com/thejoshwolfe/Archipelago/releases .&#13;
+general docs: https://github.com/thejoshwolfe/Archipelago/blob/space-age/worlds/factorio_space_age/docs/en_Factorio_Space_Age.md .&#13;
+setup guide: https://github.com/thejoshwolfe/Archipelago/blob/space-age/worlds/factorio_space_age/docs/setup_en.md .&#13;
+source code: https://github.com/thejoshwolfe/Archipelago/tree/space-age/worlds/factorio_space_age .</content>
+    <link href="https://github.com/thejoshwolfe/Archipelago/releases/tag/space-age-v3.0.5"/>
+  </entry>
+  <entry>
+    <id>https://github.com/ArchipelagoBrad/deadlockipelago/releases/tag/1.1.7-Linux</id>
+    <title>Deadlock v1.1.7r2</title>
+    <updated>2026-09-22T15:15:58+00:00</updated>
+    <author>
+      <name>ArchipelagoBrad</name>
+    </author>
+    <content>Bring Linux version to be in parity with version 1.1.7 while retaining the SSL fix needed for Linux.&#13;
+[Read 1.1.7 Changes Here](https://github.com/ArchipelagoBrad/deadlockipelago/releases/tag/1.1.7)&#13;
+&#13;
+**This is meant as an attempt for a fix on some Linux distros. For most other purposes, please download the [standard 1.1.7 release](https://github.com/ArchipelagoBrad/deadlockipelago/releases/tag/1.1.7) instead.**</content>
+    <link href="https://github.com/ArchipelagoBrad/deadlockipelago/releases/tag/1.1.7-Linux"/>
   </entry>
 </feed>
