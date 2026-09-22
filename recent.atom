@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://raw.githubusercontent.com/silasary/apworlds/refs/heads/main/recent.atom</id>
   <title>Recent APWorlds</title>
-  <updated>2026-09-21T21:28:32.174761+00:00</updated>
+  <updated>2026-09-22T02:16:07.761751+00:00</updated>
   <author>
     <name>Silasary</name>
   </author>
@@ -1094,5 +1094,19 @@ Note: should be fully backwards compatible with worlds generated from 1.0 onward
     <content>## Fixes&#13;
 - Fixed an issue where the gem check count option didn't do anything.</content>
     <link href="https://github.com/Happyhappyism/Bomberman-Hero-Archipelago/releases/tag/bomberman_hero_v0.2.4"/>
+  </entry>
+  <entry>
+    <id>https://github.com/Matt41321/Archipelago/releases/tag/v0.8.1</id>
+    <title>Bloons TD6 v0.8.1</title>
+    <updated>2026-09-21T21:49:08+00:00</updated>
+    <author>
+      <name>Matt41321</name>
+    </author>
+    <content># Bloons AP v(0.10.0/0.8.1) (Mod/APWorld)&#13;
+&#13;
+- Fixed some Category Lock logic&#13;
+- Clearer option errors during generation&#13;
+- Fixed item count sometimes not matching locations</content>
+    <link href="https://github.com/Matt41321/Archipelago/releases/tag/v0.8.1"/>
   </entry>
 </feed>

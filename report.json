@@ -1,7 +1,7 @@
 {
   "total_repositories": 888,
-  "total_packages": 1031,
-  "total_versions": 11430,
+  "total_packages": 1030,
+  "total_versions": 11404,
   "manifest_ready": {
     "dome_keeper": false,
     "RiseToRuins": false,
@@ -579,7 +579,6 @@
     "deaths_door": true,
     "rac2": true,
     "manual_marvellegendary_samitian": false,
-    "srb2": false,
     "old_launcher": true,
     "kh1": false,
     "zalia": true,
@@ -933,7 +932,7 @@
     "vision_soft_reset": true,
     "manual_taylorswiftdiscography_bennydreamly": false,
     "dqix": true,
-    "bloonstd6": false,
+    "bloonstd6": true,
     "gta_vice_city": true,
     "lego_star_wars_tcs": true,
     "widget_inc": true,
@@ -994,14 +993,14 @@
     "pokepark": true
   },
   "max_minimum_ap_version": {
-    "": 451,
+    "": 449,
     "0.4.0": 2,
     "0.5.0": 18,
     "0.5.1": 4,
     "0.6.0": 15,
     "0.6.1": 12,
     "0.6.2": 11,
-    "0.6.3": 61,
+    "0.6.3": 62,
     "0.6.4": 75,
     "0.6.5": 35,
     "0.6.6": 42,
@@ -1011,13 +1010,13 @@
     "0.7.0": 1
   },
   "max_maximum_ap_version": {
-    "": 632,
+    "": 633,
     "0.0.1": 1,
     "0.4.6": 5,
     "0.6.4": 1,
     "0.6.6": 1,
     "0.6.7": 2,
-    "0.6.99": 335,
+    "0.6.99": 333,
     "0.9.99": 1
   }
 }
