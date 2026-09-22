@@ -1,7 +1,7 @@
 {
   "total_repositories": 888,
-  "total_packages": 1030,
-  "total_versions": 11404,
+  "total_packages": 1031,
+  "total_versions": 11438,
   "manifest_ready": {
     "dome_keeper": false,
     "RiseToRuins": false,
@@ -579,6 +579,7 @@
     "deaths_door": true,
     "rac2": true,
     "manual_marvellegendary_samitian": false,
+    "srb2": false,
     "old_launcher": true,
     "kh1": false,
     "zalia": true,
@@ -993,7 +994,7 @@
     "pokepark": true
   },
   "max_minimum_ap_version": {
-    "": 449,
+    "": 450,
     "0.4.0": 2,
     "0.5.0": 18,
     "0.5.1": 4,
@@ -1016,7 +1017,7 @@
     "0.6.4": 1,
     "0.6.6": 1,
     "0.6.7": 2,
-    "0.6.99": 333,
+    "0.6.99": 334,
     "0.9.99": 1
   }
 }
