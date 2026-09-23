@@ -2,108 +2,11 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://raw.githubusercontent.com/silasary/apworlds/refs/heads/main/recent.atom</id>
   <title>Recent APWorlds</title>
-  <updated>2026-09-23T15:50:33.425005+00:00</updated>
+  <updated>2026-09-23T20:58:25.593996+00:00</updated>
   <author>
     <name>Silasary</name>
   </author>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
-  <entry>
-    <id>https://github.com/brodieberger/MMZero3Archipelago/releases/tag/v0.3.5</id>
-    <title>Mega Man Zero 3 v0.3.5</title>
-    <updated>2026-09-20T01:00:44+00:00</updated>
-    <author>
-      <name>brodieberger</name>
-    </author>
-    <content>Cerveau now has an item shop, the disk analysis screen got an open all button, and there are a bunch of new yaml options including itemsanity, randomized palettes, and more select button features.&#13;
-&#13;
-[Full Readme here](https://github.com/brodieberger/MMZero3Archipelago)&#13;
-&#13;
-## Features&#13;
-&#13;
-### Cerveau's shop&#13;
-&#13;
-Cerveau now has a shop menu. Open his secret disk analysis screen and press L or R to access the shop page. Every slot is an Archipelago location, and buying one with E-Crystals sends the check. Items from other games appear as the Archipelago logo, with the background color indicating the progression type.&#13;
-&#13;
-&lt;div align="center"&gt;&#13;
-  &lt;img&#13;
-    height="250"&#13;
-    alt="image"&#13;
-    src="https://github.com/user-attachments/assets/469a0044-1db3-43af-87cc-22d8649a138a"&#13;
-  /&gt;&#13;
-&lt;/div&gt;&#13;
-&#13;
-### Open all disks&#13;
-Pressing SELECT on the analysis screen now opens every disk you own at once.&#13;
-&#13;
-### Itemsanity (option)&#13;
-&#13;
-Every static life capsule and E-Crystal pickup in the game can now be a location check, 82 in total. Enabled with the itemsanity option.&#13;
-&#13;
-The ten 1-UP checks are now an option too (`extra_life_sanity`), on by default.&#13;
-&#13;
-### Randomized palettes (option)&#13;
-&#13;
-Randomized palettes draws every stage in a randomly picked color scheme. Enabled with its option.&#13;
-&#13;
-&lt;div align="center"&gt;&#13;
-&lt;img height="250" alt="image" src="https://github.com/user-attachments/assets/46d6d829-235e-4504-9b07-f45436c7f607" /&gt;&#13;
-&lt;img height="250" alt="image" src="https://github.com/user-attachments/assets/eea24771-fc51-4b83-868c-6b12d00be5c4" /&gt;&#13;
-&#13;
-&lt;/div&gt;&#13;
-&#13;
-### Cyber elf (option)&#13;
-&#13;
-`cyber_elves` has three settings. Affects fusion elves only, Satellite elves unchanged.&#13;
-&#13;
-- `vanilla`: how the game normally works. Upgrading elves costs crystals and fusing one hurts your rank.&#13;
-- `no_penalty`: fusing an elf doesn't affect your rank.&#13;
-- `auto`: every passive elf you receive from a disk is opened and applied on arrival, and Artan and Zictan just give you their sub tanks. No rank penalty. Makes the game a lot easier but gives it a nice sense of progression.&#13;
-&#13;
-### SELECT button (option)&#13;
-&#13;
-The select button's functionality. Choose between Cycling the sub weapon (default), the main weapon, the head, body or foot chip, or use the fullest subtank. &#13;
-&#13;
-### Disk name popup (option)&#13;
-&#13;
-When a secret disk arrives from Archipelago the game's message box displays its name and short description. &#13;
-&#13;
-### Smaller stuff&#13;
-&#13;
-- `weapon_damage_upgrades` new option that turns off the last three steps of each progressive weapon (the damage boosts).&#13;
-- `start_inventory_from_pool` is supported.&#13;
-- Secret disk items are named `Disk 001: ...` instead of `Secret Disk 001: ...`. Some location names got shortened too, so heads up to anyone who has this names in their yaml. Sorry to @ambibii and their poptracker...&#13;
-&#13;
-## Bug Fixes&#13;
-&#13;
-- Fixed bug where another player using `!collect` on your world could open the final stage even if you hadn't cleared every stage yourself.&#13;
-- Fix bug where the client would reporting "unknown location id 0" on killing a boss sometimes.&#13;
-- Boss portraits on the mission select screen would spin around as they faded in once you had cleared a stage.</content>
-    <link href="https://github.com/brodieberger/MMZero3Archipelago/releases/tag/v0.3.5"/>
-  </entry>
-  <entry>
-    <id>https://github.com/TheLivingShadow97/THAWAP/releases/tag/Small-Logic-Fixes</id>
-    <title>Tony Hawk's American Wasteland v0.0.1r3</title>
-    <updated>2026-09-20T01:05:32+00:00</updated>
-    <author>
-      <name>TheLivingShadow</name>
-    </author>
-    <content>- Fixes the regions for the "Big Lip", "Overpass Air", and "Pyramid Drop" gaps so it expects you to have entered the part of the story when you can remove the cars from the freeway before they're in logic, so that you can do those gaps.</content>
-    <link href="https://github.com/TheLivingShadow97/THAWAP/releases/tag/Small-Logic-Fixes"/>
-  </entry>
-  <entry>
-    <id>https://github.com/SerpentAI/Archipelago/releases/tag/severed-steel-v1.0.1</id>
-    <title>Severed Steel v1.0.1</title>
-    <updated>2026-09-20T02:58:39+00:00</updated>
-    <author>
-      <name>SerpentAI</name>
-    </author>
-    <content>This is a minor fix release.&#13;
-&#13;
-**This release IS compatible with games generated on the previous version.**&#13;
-&#13;
-- **Fix:** Updated a handful of offsets to support the recent 5 Year Anniversary update</content>
-    <link href="https://github.com/SerpentAI/Archipelago/releases/tag/severed-steel-v1.0.1"/>
-  </entry>
   <entry>
     <id>https://github.com/jamesbrq/GauntletLegendsAP/releases/tag/v2.1.7</id>
     <title>Gauntlet Legends v2.1.7.post2</title>
@@ -1309,5 +1212,120 @@ _Linux users, download the source code here to run the client._&#13;
 &#13;
 **Full Changelog**: https://github.com/toent/Archipelago-MKWii/compare/v0.2.3...v0.3.0</content>
     <link href="https://github.com/toent/Archipelago-MKWii/releases/tag/v0.3.0"/>
+  </entry>
+  <entry>
+    <id>https://github.com/JBtheShadow/APManuals/releases/tag/v1.2.0</id>
+    <title>Manual_FantasyLife_JBtheShadow v1.2.0</title>
+    <updated>2026-09-23T15:45:39+00:00</updated>
+    <author>
+      <name>JBtheShadow</name>
+    </author>
+    <content>## New: Deathlink and Filler Traps&#13;
+These options used to be disabled before. You _can_ die in Fantasy Life but it mostly asks if you wanna use a Life Cure on the spot or get revived back at your home, so I figure similarly you can choose to discard a Life Cure (as if you had used it) or teleport back home if you wanna play with deathlink on but would rather not force yourself into losing to an enemy.&#13;
+&#13;
+As for traps, here are some I came up with, subject to change in the future:&#13;
+* **Sneak Trap:** replenish your stamina gauge then sneak around in place until it's fully depleted;&#13;
+* **Run Trap:** replenish your stamina gauge then run around in place until it's fully depleted;&#13;
+* **Sit Trap:** first drain your entire stamina gauge then sit down until it's fully recovered;&#13;
+* **Pacifist Trap:** you're not allowed to harm enemies for X time;&#13;
+* **No Gathering Trap:** you're not allowed to mine, chop, fish or pick up items for X time;&#13;
+* **No Crafting Trap:** you're not allowed to create items via artisan stations for X time;&#13;
+* **No Items Trap:** you're not allowed to use consumables for X time;&#13;
+* **No Shopping Trap:** you're not allowed to purchase anything for X time;&#13;
+* **Life Change Trap:** you're forced to switch into one of your available lives and be unable to switch them again for X time;&#13;
+* **Teleport Trap:** you're forced to teleport to one of your available fast travel points and cannot use them again for X time;&#13;
+* **Famine Trap:** you're forced to consume a food item;&#13;
+* **Hydration Trap:** you're forced to consume a potion or other drinkable item;&#13;
+&#13;
+I'm not sure what amount of time can work for the traps that specify something. 1 minute? 5? So I left it open. It is a manual after all.&#13;
+&#13;
+## New: Bingo Goal&#13;
+A new goal objective has been added, named Bingo. You can create 3x3, 5x5, 7x7 or 9x9 board of locations logically required as part of the goal. These locations are all named Bingo Board Row A Column B, and their requirements are copied from random existing locations in the APWorld.&#13;
+&#13;
+Each board tile also has the original location marked as their "entrance" to make it easier to visualize which location you're supposed to do first before you're allowed to check that tile:&#13;
+&lt;img width="1914" height="641" alt="image" src="https://github.com/user-attachments/assets/43c1e22d-d4d8-48f7-86e5-1c15215116d9" /&gt;&#13;
+&#13;
+Ideally there should have been some visual aid on the locations and board tiles but for the time being the hinted locations should help. &#13;
+&#13;
+Additionally, there are bonus locations for rows, columns and diagonals, which also may only be checked once their corresponding tiles have also been checked out.&#13;
+&#13;
+## New: Additional Filters for Shops and Chests&#13;
+* You can now toggle Castele, Port Puerto, Al Maajik or Other shops;&#13;
+* You can now specify which areas in game to consider for chest locations;&#13;
+&#13;
+## Changes:&#13;
+* Not all but several locations have been renamed to be easier to spot at a glance where they're from;&#13;
+* Some csv files have been removed in favor of readding that info into the respective json files;&#13;
+* Locations for unlocking bliss bonuses have had their requirements tweaked to require progressive chapters too;&#13;
+* Temporarily removed locations for finding and equipping item rarities&#13;
+  * Needs some rework&#13;
+&#13;
+## Fixes:&#13;
+* Restricted shop location logic was not respecting the spoiler log&#13;
+&#13;
+## TODO:&#13;
+- [ ] Review requirements for challenges and crafting recipes;&#13;
+- [ ] Include other types of chests (purple, invisible, master);&#13;
+- [ ] Include an alternative to challenges or crafting locations in the form of tasks;&#13;
+  - Similar scope, collect X items or fight X enemies and the like;&#13;
+- [x] Add more goal requirements;&#13;
+  - I like the Bingo one; it sorta works as a task list too; &#13;
+- [ ] Add template yamls for different setups, like different game modes;&#13;
+- [ ] Fix item rarities&#13;
+- [ ] Look into other ways to allow a playthrough from an existing save;&#13;
+- [ ] Look into other improvements;&#13;
+- [ ] Look into any other issues caused by upgrading the manual to the unstable version;</content>
+    <link href="https://github.com/JBtheShadow/APManuals/releases/tag/v1.2.0"/>
+  </entry>
+  <entry>
+    <id>https://github.com/awakenbad/SanAndreasAP/releases/tag/v0.9.0</id>
+    <title>Grand Theft Auto: San Andreas v0.9.0</title>
+    <updated>2026-09-23T18:29:11+00:00</updated>
+    <author>
+      <name>awaken</name>
+    </author>
+    <content>## New:&#13;
+- Wang Cars now unlocks at any point in the game with an unlock item and is blocked otherwise (#57 by @Lordmau5)&#13;
+- Added Stunt Jumps as checks and an unlock item for them (#59 by @Lordmau5)&#13;
+- Added collectible height indicator on the radar (#67 by @Lordmau5)&#13;
+- Added Courier unlock item&#13;
+&#13;
+## Changes:&#13;
+- All submissions can now be turned off (#60)&#13;
+- Corrected gating on side activities that are now available early (Courier missions, Stadium events, Schools etc.) (#65)&#13;
+- The mod now shows an error message and prevents new game from starting if CLEO 4 is installed.&#13;
+&#13;
+## Fixed:&#13;
+- Radar numbers are not shown anymore whenever radar/blips are not drawn (#58)&#13;
+- Fixed Driving Schools sending checks for the wrong tests&#13;
+- Fixed `High Stakes, Low Ryder` not sending out a check if its Street Race was completed first (#66)&#13;
+- Fixed `High Stakes, Low Ryder` crashing the game if the player dies right after the cutscene (#79)&#13;
+- Fixed Flying School becoming blocked after completing it. (#71)&#13;
+- Fixed Quarry Level 7 not sending out a check&#13;
+- Detection of snapshots is now far more reliable (#80 by @Lordmau5)&#13;
+- CLEO version is not overlapped by Archipelago text in the main menu anymore (#10)</content>
+    <link href="https://github.com/awakenbad/SanAndreasAP/releases/tag/v0.9.0"/>
+  </entry>
+  <entry>
+    <id>https://github.com/Heinki/Mental-Omega-Randomizer/releases/tag/V1.40</id>
+    <title>Mental Omega v1.40</title>
+    <updated>2026-09-23T20:23:35+00:00</updated>
+    <author>
+      <name>Mental Omega Randomizer contributors</name>
+    </author>
+    <content>- Fix Cloned MCV deploying into the original MCV&#13;
+- Nanofibre sync not taking all units for upgrades&#13;
+- Fixed crash on maps due to MCV cloning&#13;
+- Add Enemy Buffs&#13;
+- Add Shopmode and Gridmode Details for Mission in tooltip&#13;
+- Add double click for permanent buff switch&#13;
+- Add new modifiers for Shopmode&#13;
+- Improve UI Performance&#13;
+- Adjust unit buffs which were wrong or useless&#13;
+- Adjust Hardcore Modifier to be even more "Hardcore"&#13;
+- Adjust permanent loadout options&#13;
+- Show ore cost on free buff token&#13;
+- Add rebalnacing on permanent unit upgrades to switch or just "play" around with new builds</content>
+    <link href="https://github.com/Heinki/Mental-Omega-Randomizer/releases/tag/V1.40"/>
   </entry>
 </feed>
