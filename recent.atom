@@ -2,37 +2,11 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://raw.githubusercontent.com/silasary/apworlds/refs/heads/main/recent.atom</id>
   <title>Recent APWorlds</title>
-  <updated>2026-09-22T20:48:55.372802+00:00</updated>
+  <updated>2026-09-23T02:21:21.046126+00:00</updated>
   <author>
     <name>Silasary</name>
   </author>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
-  <entry>
-    <id>https://github.com/Batatvideogames/silksong-archipelago-randomizer/releases/tag/v0.4.6-Hotfix</id>
-    <title>Hollow Knight: Silksong v0.4.6r2</title>
-    <updated>2026-09-19T16:38:01+00:00</updated>
-    <author>
-      <name>BatAtVideoGames</name>
-    </author>
-    <content>"There won't be any hotfix" - arrogant devs before being hit by some shnasty bugreports&#13;
-Now there won't be anything til next weekend for real no matter how severe, have fun&#13;
-&#13;
-- Greymoor → Far Fields now requires opening the shortcut from Far Fields first&#13;
-- Fixed Forebrothers appearing in logic through aforementioned unopened shortcut&#13;
-- Fixed map tracking of completed Last Judge/Phantom fights and Act 2 access&#13;
-- Moved Reserve Bind’s marker to its actual reward location. Its logic remains unresolved until that room is mapped&#13;
-- Fixed Phantom’s approach and Act 1 goal logic&#13;
-- Fixed missing requirements for the second flea reward, Ruined Tool and lower Wormways checks&#13;
-- Added Flea Brew’s Marrow caravan marker alongside its Greymoor marker. Both clear together&#13;
-- Fixed first-opening map-pin initialization and objective-marker visibility during loading&#13;
-- Fixed Bone Bottom Bellway access logic&#13;
-- Added Proficient Movement to two Songclave Flea and westward Mount Fay routes&#13;
-- Replaced UUID event names in diagnostics with readable room/event labels&#13;
-- Silk and Soul Points option now caps at 19. Higher numbers automatically clamp to 19&#13;
-     - This is until the logic for the other 6 potential quests is secure&#13;
-- Cleared unfinished Bellway arrival state when using F4 to prevent wrongwarps</content>
-    <link href="https://github.com/Batatvideogames/silksong-archipelago-randomizer/releases/tag/v0.4.6-Hotfix"/>
-  </entry>
   <entry>
     <id>https://github.com/Alchav/Archipelago/releases/tag/alttp2026-v5</id>
     <title>A Link to the Past Beta v6.0.2r2</title>
@@ -1296,5 +1270,15 @@ Free code signing for open source projects, provided by
 - [`tf2ap-linux-amd64`](https://www.virustotal.com/gui/file-analysis/ZmJjMjk0MDY3ZTM2NjQyY2NlZDE2N2Y1MDY4MjU4YjE6MTc5MDEwNjYyNQ==/detection)
 </content>
     <link href="https://github.com/m-this/tf2-archipelago/releases/tag/v1.17.3"/>
+  </entry>
+  <entry>
+    <id>https://github.com/DannySchultzDev/Archipelago-Horse-Magnifier-Client/releases/tag/V1.3.1</id>
+    <title>Horse Magnifier v1.3.1</title>
+    <updated>2026-09-23T00:16:38+00:00</updated>
+    <author>
+      <name>WaluigiGoesWa</name>
+    </author>
+    <content>Remove unused Using statements. (There was a LADX reference that was causing failures submitting the world to Ionium)</content>
+    <link href="https://github.com/DannySchultzDev/Archipelago-Horse-Magnifier-Client/releases/tag/V1.3.1"/>
   </entry>
 </feed>
