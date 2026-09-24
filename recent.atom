@@ -2,52 +2,11 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://raw.githubusercontent.com/silasary/apworlds/refs/heads/main/recent.atom</id>
   <title>Recent APWorlds</title>
-  <updated>2026-09-23T20:58:25.593996+00:00</updated>
+  <updated>2026-09-24T02:02:36.946349+00:00</updated>
   <author>
     <name>Silasary</name>
   </author>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
-  <entry>
-    <id>https://github.com/jamesbrq/GauntletLegendsAP/releases/tag/v2.1.7</id>
-    <title>Gauntlet Legends v2.1.7.post2</title>
-    <updated>2026-09-20T04:16:31+00:00</updated>
-    <author>
-      <name>jamesbrq</name>
-    </author>
-    <content>REQUIRED: Archipelago -&gt; https://github.com/ArchipelagoMW/Archipelago/releases&#13;
-REQUIRED: Retroarch -&gt; https://www.retroarch.com/?page=platforms&#13;
-Drag and drop gl.apworld into your custom_worlds folder in your Archipelago install.&#13;
-&#13;
-You can launch the client from ArchipelagoLauncher, just click on the Gauntlet Legends Client button.&#13;
-&#13;
-To patch the game, you are required to have a US copy of Gauntlet Legends for the N64.&#13;
-Either drag the patch onto ArchipelagoLauncher.exe or Right click the patch and 'Open With...' ArchipelagoLauncher.exe&#13;
-The host does not need to have a copy of the game to generate.&#13;
-&#13;
-RETROARCH IS REQUIRED IT IS THE ONLY EMULATOR THAT WILL WORK.&#13;
-&#13;
-IN RETROARCH: You must go to Settings-&gt;User Interface and turn the Show Advanced Settings ON. Then in Settings-&gt; Network, you must also turn ON Network Commands. Leave the port the default.&#13;
-&#13;
-Make sure you use Mupen64-plus-next in Retroarch as your core.&#13;
-&#13;
-**Full Changelog**: https://github.com/jamesbrq/GauntletLegendsAP/compare/v2.1.6...v2.1.7</content>
-    <link href="https://github.com/jamesbrq/GauntletLegendsAP/releases/tag/v2.1.7"/>
-  </entry>
-  <entry>
-    <id>https://github.com/Silvris/Archipelago/releases/tag/pbrs_0.3.2</id>
-    <title>Pokemon Pinball Ruby &amp; Sapphire v0.3.2</title>
-    <updated>2026-09-20T07:07:07+00:00</updated>
-    <author>
-      <name>Silvris</name>
-    </author>
-    <content># Bug Fixes&#13;
-* Fixed an issue where an invalid song would make the game lock up on music shuffle.&#13;
-* Fixed an issue where the Get Arrow on the Ruby Board wouldn't increment.&#13;
-* Fixed an issue where Travel mode on the Ruby Board would display corrupted graphics and distort audio.&#13;
-* Fixed an issue where attempting to buy an extra life after having previously bought one would cause undefined behavior.&#13;
-* Attempted to make deathlink more resilient to self-sends.</content>
-    <link href="https://github.com/Silvris/Archipelago/releases/tag/pbrs_0.3.2"/>
-  </entry>
   <entry>
     <id>https://github.com/T4g1/ArchipelagoTomba/releases/tag/v1.5.9</id>
     <title>Tomba! v1.5.9</title>
@@ -1327,5 +1286,47 @@ Additionally, there are bonus locations for rows, columns and diagonals, which a
 - Show ore cost on free buff token&#13;
 - Add rebalnacing on permanent unit upgrades to switch or just "play" around with new builds</content>
     <link href="https://github.com/Heinki/Mental-Omega-Randomizer/releases/tag/V1.40"/>
+  </entry>
+  <entry>
+    <id>https://github.com/FyreDay/Archipelago-MinaTheHollower/releases/tag/v1.1.1</id>
+    <title>Mina The Hollower v1.1.1</title>
+    <updated>2026-09-23T21:57:19+00:00</updated>
+    <author>
+      <name>FyreDay, Axertin, ZXavier</name>
+    </author>
+    <content>Bug Fixes:&#13;
+- Fix UT yamless grabbing the wrong data&#13;
+- Fix non deterministic randomization&#13;
+- Fix Some generation errors related to vanilla kears&#13;
+- Fix some General generation issues related to duplicate items</content>
+    <link href="https://github.com/FyreDay/Archipelago-MinaTheHollower/releases/tag/v1.1.1"/>
+  </entry>
+  <entry>
+    <id>https://github.com/cxve/q-ap-world/releases/tag/v3.0.1</id>
+    <title>Q-UP v3.0.1</title>
+    <updated>2026-09-23T22:07:14+00:00</updated>
+    <author>
+      <name>cxve</name>
+    </author>
+    <content>**Info** [Game Page](&lt;https://github.com/cxve/q-ap-world/blob/main-q-up/worlds/q_up/docs/en_Q-UP.md&gt;) - [Setup Guide](&lt;https://github.com/cxve/q-ap-world/blob/main-q-up/worlds/q_up/docs/setup_en.md&gt;)&#13;
+**Downloads** [World](&lt;https://github.com/cxve/q-ap-world/releases/&gt;) - [Mod](&lt;https://github.com/cxve/q-ap-mod/releases/&gt;) - [PopTracker](&lt;https://github.com/cxve/q-ap-poptracker/releases/&gt;)&#13;
+## World Fixes &amp; Changes&#13;
+- Add missing item_shop requirement to recycling set sanity locations&#13;
+- Randomizer will no longer stop filling fixed skills prematurely after resolving dependency skills&#13;
+- Fixed an issue causing most trigger combo sanity locations to be placed in sphere 1&#13;
+- You can now hint skills based on their trigger condition: `!hint On Win Skill`, `!hint On Loss Skill`, `!hint On Flip Skill`, and `!hint On Trigger Skill`&#13;
+### Updating both the world and the mod to the latest version is highly recommended!&#13;
+**Full Changelog**: https://github.com/cxve/q-ap-world/compare/v3.0.0...v3.0.1</content>
+    <link href="https://github.com/cxve/q-ap-world/releases/tag/v3.0.1"/>
+  </entry>
+  <entry>
+    <id>https://github.com/silasary/Archipelago/releases/tag/apworld_manager-0.0.26</id>
+    <title>APWorld Manager v0.0.26</title>
+    <updated>2026-09-24T00:26:00+00:00</updated>
+    <author>
+      <name>silasary</name>
+    </author>
+    <content>* More error handling when a repo has invalid data.</content>
+    <link href="https://github.com/silasary/Archipelago/releases/tag/apworld_manager-0.0.26"/>
   </entry>
 </feed>
