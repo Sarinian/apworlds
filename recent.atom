@@ -2,25 +2,11 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://raw.githubusercontent.com/silasary/apworlds/refs/heads/main/recent.atom</id>
   <title>Recent APWorlds</title>
-  <updated>2026-09-24T16:14:40.070218+00:00</updated>
+  <updated>2026-09-24T21:13:36.575470+00:00</updated>
   <author>
     <name>Silasary</name>
   </author>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
-  <entry>
-    <id>https://github.com/Happyhappyism/Bomberman-The-Second-Attack-Archipelago/releases/tag/bomberman_tsa_v1.0.2</id>
-    <title>Bomberman The Second Attack v1.0.2</title>
-    <updated>2026-09-20T18:02:33+00:00</updated>
-    <author>
-      <name>Happyhappyism</name>
-    </author>
-    <author>
-      <name>SavageWizzrobe</name>
-    </author>
-    <content>## Fixes&#13;
-- Removed debug logging during generation.</content>
-    <link href="https://github.com/Happyhappyism/Bomberman-The-Second-Attack-Archipelago/releases/tag/bomberman_tsa_v1.0.2"/>
-  </entry>
   <entry>
     <id>https://github.com/cuberyl-catastrophe/Archipelago/releases/tag/iosas-ap-v2.1.2</id>
     <title>IslesOfSeaAndSky v2.1.2.post3</title>
@@ -1311,7 +1297,7 @@ Additionally, there are bonus locations for rows, columns and diagonals, which a
 - Lake of Rage start is now allowed when Gates are not participating in ER&#13;
 - Fix various logic issues with Headbutt trees revealed by ER&#13;
 - Fix ER overwriting dexsanity extended hint data (thanks @snowflav-goob)&#13;
-- Make the /fishing command dynamic based on Johto only&#13;
+- Fix some of the /fishing command not being dynamic based on Johto Only&#13;
 - Make friendly region names dynamic based on Johto only&#13;
 - Time of day no longer changes when receiving a time of day item without the Pokegear&#13;
 - You can no longer change time of day in options without the Pokegear when time of day unlocks are enabled&#13;
@@ -1322,5 +1308,21 @@ Additionally, there are bonus locations for rows, columns and diagonals, which a
 &#13;
 _This release is backwards compatible down to 6.0.0-rc.1, re-patch your ROM to benefit from in-game fixes_</content>
     <link href="https://github.com/gerbiljames/Archipelago-Crystal/releases/tag/6.0.0-rc.2"/>
+  </entry>
+  <entry>
+    <id>https://github.com/spinerak/refunct-tas-archipelago/releases/tag/v1.8.0</id>
+    <title>Refunct v1.8.0</title>
+    <updated>2026-09-24T19:24:10+00:00</updated>
+    <author>
+      <name>Spineraks</name>
+    </author>
+    <content># Refunct 1.8.0!&#13;
+- (new "Relocate" minigame) Refunct Corp is looking for investigators. Photos from a previous lifeform have been discovered. The task at hand is to **relocate** and recreate these photos. Rumors have it that they hide rewards for other dimensions when copied perfectly.&#13;
+  &lt;img width="342" height="192" alt="image" src="https://github.com/user-attachments/assets/dbffc4a1-f468-4d1f-a6de-62174e316bf5" /&gt; &lt;img width="342" height="192" alt="image" src="https://github.com/user-attachments/assets/6f91a3f9-7365-4147-b4a8-3f4be8e13ebb" /&gt;&#13;
+&#13;
+- Even prettier UI that let's you select minigames easier. @nepcore&#13;
+- Pretty Relocate thumbnail! @nepcore&#13;
+- You can now play Block Brawl &amp; Blub offline without Archipelago and tweak a few options.</content>
+    <link href="https://github.com/spinerak/refunct-tas-archipelago/releases/tag/v1.8.0"/>
   </entry>
 </feed>
