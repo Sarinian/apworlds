@@ -2,65 +2,11 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://raw.githubusercontent.com/silasary/apworlds/refs/heads/main/recent.atom</id>
   <title>Recent APWorlds</title>
-  <updated>2026-09-24T02:02:36.946349+00:00</updated>
+  <updated>2026-09-24T10:48:22.249687+00:00</updated>
   <author>
     <name>Silasary</name>
   </author>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
-  <entry>
-    <id>https://github.com/T4g1/ArchipelagoTomba/releases/tag/v1.5.9</id>
-    <title>Tomba! v1.5.9</title>
-    <updated>2026-09-20T08:02:00+00:00</updated>
-    <author>
-      <name>T4g1</name>
-    </author>
-    <author>
-      <name>bosshunter</name>
-    </author>
-    <content>This one is mostly for entrance randomization (ER) but it also brings some necessary fixes for "normal" runs so be sure to not skip this one&#13;
-&#13;
----&#13;
-&#13;
-## ✨ What's New&#13;
-&#13;
-### 🛠️ New feature&#13;
-* **Inifinite Charity Wings**: While entrance randomization is active, the client will automatically make sure you never run out of Charity Wings in order to avoid softlocks. This is required by the Archipelago algorithm as it assumes that you can always go back to the first area of the game&#13;
-* **Multiplayer display**: The game will now display a notification when you have found items that belong to another world (#100)&#13;
-&#13;
-### 🐛 Bug Fixes&#13;
-* Fix: Baccus Lake entrance leading to vanilla location in ER&#13;
-* Fix: Haunted Mansion South to Baccus Village leading to vanilla location in ER&#13;
-* Fix: Weird slope when entering Iron Castle rooms&#13;
-* Fix: Softlock when entering underground prison for the first time&#13;
-* Fix: Regression with RetroArch communication&#13;
-* Fix: Transition from the Lake to the mansion by boat was wrongly tagged as a two way door&#13;
-* Removed the left door of the mansion beach from ER to avoid being softlock when the player does not have the pig bag anymore&#13;
-* Fix: Crystal balls location given too soon&#13;
-* Enhance game status management&#13;
-* Fix inverted doors under the Mansion on the beach&#13;
-* Various Stormy Mountains location were wrongly reported in the first part of that area eventually leading to softlock in ER&#13;
-* Fix regression in the fix for correct entrance animations&#13;
-* Fix: Clear related events from Baccus Village when it's cleared early&#13;
-&#13;
----&#13;
-&#13;
-## 🔧 Installation&#13;
-1. Download the source code or the `.apworld` file.&#13;
-2. Drop it into your Archipelago `custom_worlds/` directory.</content>
-    <link href="https://github.com/T4g1/ArchipelagoTomba/releases/tag/v1.5.9"/>
-  </entry>
-  <entry>
-    <id>https://github.com/Wakamu/Archipelago/releases/tag/0.3.30</id>
-    <title>Archipelago Visual Tracker v0.3.30</title>
-    <updated>2026-09-20T15:52:43+00:00</updated>
-    <author>
-      <name>Wakamu</name>
-    </author>
-    <content>**What's new**:&#13;
-&#13;
-- Auto-tabbing implementation.</content>
-    <link href="https://github.com/Wakamu/Archipelago/releases/tag/0.3.30"/>
-  </entry>
   <entry>
     <id>https://github.com/FlySniper/Archipelago/releases/tag/wargroove2-1.1.11</id>
     <title>Wargroove 2 v1.1.11</title>
@@ -447,6 +393,23 @@ This release was automatically generated from the **main** branch.&#13;
 Latest (main) releases are recommended, as pre-releases (staging) may contain experimental or in-progress changes.&#13;
 </content>
     <link href="https://github.com/Panguu/Archipelago-RaCSM/releases/tag/rac-size-matters/v0.4.21"/>
+  </entry>
+  <entry>
+    <id>https://github.com/WolfBoi008/One-More-Night/releases/tag/2.3.6</id>
+    <title>Manual_OneMoreNight_WolfBoi008 v2.3.6</title>
+    <updated>2026-09-21T19:03:12+00:00</updated>
+    <author>
+      <name>WolfBoi008</name>
+    </author>
+    <content># Known Issues&#13;
+#43: Memory Achievements Do Not Consider Unique Cases - I could use some help refining this since doing it alone would be annoying...&#13;
+# Changelog&#13;
+- Added the Realistic Gun Main Item.&#13;
+  - Made the Bell Logic Option affect the Realistic Gun Main Item, too.&#13;
+    - May rename the Option sometime in the future, but I think it might be funnier to leave it as is.&#13;
+- Added several new gag Filler Items.&#13;
+  - Also removed one of the existing ones due to some confusion.</content>
+    <link href="https://github.com/WolfBoi008/One-More-Night/releases/tag/2.3.6"/>
   </entry>
   <entry>
     <id>https://github.com/Panguu/Archipelago-RaCSM/releases/tag/rac-size-matters/v0.4.22</id>
@@ -1328,5 +1291,24 @@ Additionally, there are bonus locations for rows, columns and diagonals, which a
     </author>
     <content>* More error handling when a repo has invalid data.</content>
     <link href="https://github.com/silasary/Archipelago/releases/tag/apworld_manager-0.0.26"/>
+  </entry>
+  <entry>
+    <id>https://github.com/Jeffdev-Archipelago-Implementations/Archipelago-Funi/releases/tag/1.8.0-prerelease2</id>
+    <title>Funi Raccoon Game v1.8.0r2</title>
+    <updated>2026-09-24T09:48:04+00:00</updated>
+    <author>
+      <name>Jeffdev</name>
+    </author>
+    <content>- Changed the mod loading order so it loads the modloader before anthing else. This makes it easier to work with, but may introduce some new bugs. Please report back with any bugs found.&#13;
+- Added object ids to the CHEESE in the trasco train.&#13;
+- Cleaned up a lot of internal code to de-sloppify some bits&#13;
+- Changed the function key hotkeys to instead be settings in the AP tab on the settings menu. The monitor sound toggle was also moved to the audio settings.&#13;
+- Changed "F1" to quick open the AP tab.&#13;
+- Changed Mystical Jewels to be "Progressive Mystical Jewel" rather than 4 separate items&#13;
+- Removed the Orb requirement for using the Orb Store in the gully both from logic and the mod.&#13;
+- (Theoretically???) fixed the race in blimbo village crashing the game (maybe??)&#13;
+- Fixed a few kei truck bypass exploits&#13;
+- Fixed (if you can call it a fix) the vanilla game adding PURGATORY to found levels early, and Cricket having a 1% chance from a fish vore door, making it impossible to use Fish Vore to enter these levels early.</content>
+    <link href="https://github.com/Jeffdev-Archipelago-Implementations/Archipelago-Funi/releases/tag/1.8.0-prerelease2"/>
   </entry>
 </feed>
