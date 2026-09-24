@@ -2,30 +2,11 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://raw.githubusercontent.com/silasary/apworlds/refs/heads/main/recent.atom</id>
   <title>Recent APWorlds</title>
-  <updated>2026-09-24T10:48:22.249687+00:00</updated>
+  <updated>2026-09-24T16:14:40.070218+00:00</updated>
   <author>
     <name>Silasary</name>
   </author>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
-  <entry>
-    <id>https://github.com/FlySniper/Archipelago/releases/tag/wargroove2-1.1.11</id>
-    <title>Wargroove 2 v1.1.11</title>
-    <updated>2026-09-20T17:15:53+00:00</updated>
-    <author>
-      <name>Fly Hyping</name>
-    </author>
-    <author>
-      <name>Magnemania</name>
-    </author>
-    <author>
-      <name>Akblabla</name>
-    </author>
-    <author>
-      <name>Luminary Lytra</name>
-    </author>
-    <content>Fixed Wargroove Warriors and Giant Issue.</content>
-    <link href="https://github.com/FlySniper/Archipelago/releases/tag/wargroove2-1.1.11"/>
-  </entry>
   <entry>
     <id>https://github.com/Happyhappyism/Bomberman-The-Second-Attack-Archipelago/releases/tag/bomberman_tsa_v1.0.2</id>
     <title>Bomberman The Second Attack v1.0.2</title>
@@ -1310,5 +1291,36 @@ Additionally, there are bonus locations for rows, columns and diagonals, which a
 - Fixed a few kei truck bypass exploits&#13;
 - Fixed (if you can call it a fix) the vanilla game adding PURGATORY to found levels early, and Cricket having a 1% chance from a fish vore door, making it impossible to use Fish Vore to enter these levels early.</content>
     <link href="https://github.com/Jeffdev-Archipelago-Implementations/Archipelago-Funi/releases/tag/1.8.0-prerelease2"/>
+  </entry>
+  <entry>
+    <id>https://github.com/gerbiljames/Archipelago-Crystal/releases/tag/6.0.0-rc.2</id>
+    <title>Pokemon Crystal Prerelease v1.31.1</title>
+    <updated>2026-09-24T15:35:08+00:00</updated>
+    <author>
+      <name>gerbiljames</name>
+    </author>
+    <content># Changelog&#13;
+&#13;
+## Features&#13;
+- Tier and battle number are now added to Battle Tower Sanity trainers extended hint data (thanks @snowflav-goob)&#13;
+- The documentation has been updated to be consistent for 6.0.0 (thanks @snowflav-goob and @palex00)&#13;
+&#13;
+## Bug Fixes&#13;
+- Skip Elite 4 can no longer be overridden at patch time if those entrances are participating in ER&#13;
+- Releasing the beasts now breaks level scaling spheres&#13;
+- Lake of Rage start is now allowed when Gates are not participating in ER&#13;
+- Fix various logic issues with Headbutt trees revealed by ER&#13;
+- Fix ER overwriting dexsanity extended hint data (thanks @snowflav-goob)&#13;
+- Make the /fishing command dynamic based on Johto only&#13;
+- Make friendly region names dynamic based on Johto only&#13;
+- Time of day no longer changes when receiving a time of day item without the Pokegear&#13;
+- You can no longer change time of day in options without the Pokegear when time of day unlocks are enabled&#13;
+- Fruit trees with filler items are no longer forced as locations when remote items and Apricorn shopsanity is enabled&#13;
+- Add some missing warnings around settings which affect sphere 1&#13;
+- Do not show the Pokedex registration screen for game corner Pokemon without the Pokedex&#13;
+- Fix various issues with music rando&#13;
+&#13;
+_This release is backwards compatible down to 6.0.0-rc.1, re-patch your ROM to benefit from in-game fixes_</content>
+    <link href="https://github.com/gerbiljames/Archipelago-Crystal/releases/tag/6.0.0-rc.2"/>
   </entry>
 </feed>
