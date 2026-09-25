@@ -2,116 +2,11 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://raw.githubusercontent.com/silasary/apworlds/refs/heads/main/recent.atom</id>
   <title>Recent APWorlds</title>
-  <updated>2026-09-24T21:13:36.575470+00:00</updated>
+  <updated>2026-09-25T02:19:34.050237+00:00</updated>
   <author>
     <name>Silasary</name>
   </author>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
-  <entry>
-    <id>https://github.com/cuberyl-catastrophe/Archipelago/releases/tag/iosas-ap-v2.1.2</id>
-    <title>IslesOfSeaAndSky v2.1.2.post3</title>
-    <updated>2026-09-20T18:14:59+00:00</updated>
-    <author>
-      <name>KimDelicious</name>
-    </author>
-    <author>
-      <name>Angrevol</name>
-    </author>
-    <author>
-      <name>Woli</name>
-    </author>
-    <author>
-      <name>Cuberyl</name>
-    </author>
-    <content>Changes:&#13;
-- Added an error message when the apOptions file cannot be found by the game (It means that client is not writing to the right folder)&#13;
-- The error message will tell the user to use user to use the /savepath command to configure the client to target the correct folder&#13;
-&#13;
-Logic Fixes:&#13;
-- Fixed an issue with Stony Cliffs B4 logic not requiring Earth Elementals&#13;
-- Fixed Sea Nunatak B0 Pyramidion not requiring Ancient Rune Stone </content>
-    <link href="https://github.com/cuberyl-catastrophe/Archipelago/releases/tag/iosas-ap-v2.1.2"/>
-  </entry>
-  <entry>
-    <id>https://github.com/TreZc0/OoTR-APWorld/releases/tag/v9.1.0-release4</id>
-    <title>Ocarina of Time v9.1.0r3</title>
-    <updated>2026-09-20T19:07:42+00:00</updated>
-    <author>
-      <name>espeon65536</name>
-    </author>
-    <author>
-      <name>TreZ</name>
-    </author>
-    <content># OoT Randomizer APWorld v9.1.0 Full Release 4&#13;
-&#13;
-This is a pretty well tested version by now. Generation fails still might happen on occasion, especially when using pre-completed dungeons.&#13;
-&#13;
-## Changes:&#13;
-- Fixed TCG doors handling with small key removal&#13;
-- Missing Silver Rupee Flag Patches&#13;
-&#13;
-Please note: Since OoT is currently not shipped as a bundled .apworld file, but unpacked by the core AP releases, you will have to delete the lib/worlds/oot folder first before adding this custom apworld.&#13;
-Even after deletion, the "Open Patch" Workflow in AP currently still starts the OoT Client, even if you deleted the world. So make sure you have the correct "Ocarina of Time Client" open that references the APWorld 9.1.0 after patching, or patch directly through the new Adjuster. If your client says "Archipelago Ocarina of Time Client 0.6.x" in the top bar with no info about the apworld version, you are using the old client.</content>
-    <link href="https://github.com/TreZc0/OoTR-APWorld/releases/tag/v9.1.0-release4"/>
-  </entry>
-  <entry>
-    <id>https://github.com/z3xox/Budokai3AP/releases/tag/v0.2.4</id>
-    <title>Dragon Ball Z Budokai 3 v0.2.4</title>
-    <updated>2026-09-20T21:24:39+00:00</updated>
-    <author>
-      <name>z3xox</name>
-    </author>
-    <content>**⚠️ Existing seeds must be regenerated.** Location names and item classifications changed, so a run generated on v0.2.3 or earlier will not work with this build. Finish it on the old version or reroll.
-
-### Fixed
-
-- **The Skill Shop sometimes opened as the normal shop instead of the AP shop** — capsule purchases didn't send checks, and the client froze for several seconds at a time. The shop now loads AP stock reliably and without the stall.
-- **Crash when entering your first Dragon Arena fight** after picking a stage.
-- **Winning a fight sometimes sent a DeathLink death.** If the KO registered just before the results screen appeared, your win was reported as a death.
-- **Quitting a Dragon Arena fight sent its death at the wrong moment** — it stayed queued and fired later, usually when you next walked into the arena. It now fires when you quit.
-- **Seeds with ShopSanity off:** the Skill Shop was emptied on every entry, so you couldn't buy anything with your Zeni.
-- **Kid Gohan's Frieza fight was mislabeled** as First Form — it's Third Form.
-
-### Changed
-
-- **Fight names are consistent.** Frieza uses ordinals (`Frieza 1st/2nd/3rd/Final Form`); Cell uses his real form names (`Imperfect Cell`, `Semi-Perfect Cell`, `Perfect Cell`) instead of a mix of numbers and parentheticals.
-- **Skill capsules are now `useful` instead of filler** — all 11 Breakthroughs plus every DU character ability (transformations, signature attacks, Unlock Potential, fusions). They're weighted better in placement and surface in trackers and hints. They still aren't required by logic.
-
-### New
-
-- **`/deathlink`** toggles DeathLink on or off mid-run from the client, and it sticks across reconnects.
-</content>
-    <link href="https://github.com/z3xox/Budokai3AP/releases/tag/v0.2.4"/>
-  </entry>
-  <entry>
-    <id>https://github.com/nmize1/Archipelago/releases/tag/v0.5.5-b</id>
-    <title>The Simpsons Hit And Run v0.5.5b0</title>
-    <updated>2026-09-21T00:39:10+00:00</updated>
-    <author>
-      <name>nmize1</name>
-    </author>
-    <content>* Added new options to require races or bonus missions in addition to other goals.&#13;
-* Removed all missions goal&#13;
-* Exclude cars from traffic that cause missions to crash or be impossible.&#13;
-* Reworked shuffled card logic&#13;
-* Cleaned up some location names&#13;
-* Fixed some logic errors&#13;
-* Removed DMV light pole card locations&#13;
-</content>
-    <link href="https://github.com/nmize1/Archipelago/releases/tag/v0.5.5-b"/>
-  </entry>
-  <entry>
-    <id>https://github.com/xMcacutt-Archipelago/Archipelago-Bits-and-Bops/releases/tag/1.1.0</id>
-    <title>Bits &amp; Bops v1.1.0</title>
-    <updated>2026-09-21T00:43:11+00:00</updated>
-    <author>
-      <name>xMcacutt</name>
-    </author>
-    <content># [APWorld](https://github.com/xMcacutt-Archipelago/Archipelago-Bits-and-Bops/releases/tag/1.1.0)&#13;
-# [Client - FOR GAME VERSION 1.6.0+ (NON BETA)](https://github.com/xMcacutt-Archipelago/BitsAndBopsAP-Client/releases/tag/1.1.0)&#13;
-- Fixed Encore and Symphony swapped.</content>
-    <link href="https://github.com/xMcacutt-Archipelago/Archipelago-Bits-and-Bops/releases/tag/1.1.0"/>
-  </entry>
   <entry>
     <id>https://github.com/ljtpetersen/platinum_archipelago/releases/tag/v0.2.1</id>
     <title>Pokemon Platinum v0.2.1</title>
@@ -1324,5 +1219,215 @@ _This release is backwards compatible down to 6.0.0-rc.1, re-patch your ROM to b
 - Pretty Relocate thumbnail! @nepcore&#13;
 - You can now play Block Brawl &amp; Blub offline without Archipelago and tweak a few options.</content>
     <link href="https://github.com/spinerak/refunct-tas-archipelago/releases/tag/v1.8.0"/>
+  </entry>
+  <entry>
+    <id>https://github.com/neverhelios/Archipelago/releases/tag/v0.3.0</id>
+    <title>Deathbulge v0.3.0</title>
+    <updated>2026-09-24T21:11:36+00:00</updated>
+    <author>
+      <name>neverhelios</name>
+    </author>
+    <content>Not much changes in the APworld since I didn't included any content of the 2.0&#13;
+But I found some bugs and logic errors that have been fixed, so a release always welcomed</content>
+    <link href="https://github.com/neverhelios/Archipelago/releases/tag/v0.3.0"/>
+  </entry>
+  <entry>
+    <id>https://github.com/Mekurushi/Archipelago_Pokepark/releases/tag/1.2.8</id>
+    <title>PokePark v1.2.8</title>
+    <updated>2026-09-24T22:24:03+00:00</updated>
+    <author>
+      <name>Joe Mama (Mekurushi)</name>
+    </author>
+    <content>- fixed determinism breaking logic&#13;
+&#13;
+**Full Changelog**: https://github.com/Mekurushi/Archipelago_Pokepark/compare/1.2.7...1.2.8</content>
+    <link href="https://github.com/Mekurushi/Archipelago_Pokepark/releases/tag/1.2.8"/>
+  </entry>
+  <entry>
+    <id>https://github.com/Maxlamenace572/DeadCellsArchipelago/releases/tag/0.1.9</id>
+    <title>Dead Cells v0.1.9</title>
+    <updated>2026-09-24T22:57:15+00:00</updated>
+    <author>
+      <name>Max_lamenace572</name>
+    </author>
+    <author>
+      <name>OnlyLeafeon</name>
+    </author>
+    <author>
+      <name>Rayze</name>
+    </author>
+    <content>New Features:&#13;
+- Improved the biome warp system by adding a biome reload&#13;
+  - Reloading a biome will warp you to the start of your biome and generate a new one, allowing for easier farming of mobs or lore rooms in the targeted biome&#13;
+  - For balance purposes, scrolls of power obtained won't appear again upon reload&#13;
+- Upon restart, your current cells are now automatically sent to the bank&#13;
+&#13;
+Quality of Life:&#13;
+- Added a search bar to find items in the tracker&#13;
+  - As this was added mostly for searching for an item name after receiving a hint, the search is based on the apworld name, no matter what language you are using&#13;
+- Removed redundant requirement rules left on the biome tracker, as icons are removed dynamically&#13;
+- Added possible biomes for an item in the item's description&#13;
+- The check counter now turns gray when there are no checks to do for that biome/BSC difficulty&#13;
+- Added descriptions for items that can be found in the bank, along with the possible depth&#13;
+&#13;
+Bug Fixes:&#13;
+- Distillery icon in the tracker never showing as accessible&#13;
+- Some obscure exploits that could be done with some exit doors&#13;
+- Energy link not being updated in real time&#13;
+- Description for Guillian's head not showing&#13;
+- Crash for some versions of DCCM upon receiving the boss rush statue&#13;
+&#13;
+Other:&#13;
+- The mod is now also available in the Steam Workshop&#13;
+- Changed the save data path, using the new norm for DCCM&#13;
+- Improved the sync system (useful if your friend inadvertently deletes the server save TWICE...)&#13;
+- Updated the ninja outfit, which is now a 2 BSC blueprint (since the last Dead Cells hotfix)&#13;
+&#13;
+Rayze's Changes:&#13;
+- Aspects now have a dedicated setting: "false" means your first 13 deaths are no longer AP locations and you will start with all of them in start inventory&#13;
+- Magma Blob and Familiar Outfit rule fixed to require any lava&#13;
+- Luchador Outfit now mapped specifically to Forgotten Sepulcher&#13;
+- No more preemptive item culling, AP handles overfill now and will notify when applicable (shouldnt be anymore though)&#13;
+- Giant Comb and Sewing Scissors locations no longer generate with Outfits disabled&#13;
+- Biter Head now properly looks for the Swarm grenade&#13;
+- Fixed most items with new Progression tags failing accessibility checks</content>
+    <link href="https://github.com/Maxlamenace572/DeadCellsArchipelago/releases/tag/0.1.9"/>
+  </entry>
+  <entry>
+    <id>https://github.com/247Tossing/cyberpunk_archipelago/releases/tag/0.7.3</id>
+    <title>Cyberpunk 2077 v0.7.0r2</title>
+    <updated>2026-09-25T00:15:42+00:00</updated>
+    <author>
+      <name>247Tossing</name>
+    </author>
+    <content>Addressed fill errors in edge cases.</content>
+    <link href="https://github.com/247Tossing/cyberpunk_archipelago/releases/tag/0.7.3"/>
+  </entry>
+  <entry>
+    <id>https://github.com/ItsSeras/Laika-Aged-Through-Blood-Archipelago/releases/tag/v-0.1.5</id>
+    <title>Laika: Aged Through Blood v0.1.5</title>
+    <updated>2026-09-25T00:17:24+00:00</updated>
+    <author>
+      <name>Seras</name>
+    </author>
+    <content># V-0.1.5 IS OFFICIALLY RELEASED!&#13;
+Hope everyone is ready for a **MASSIVE** update coming your way! &#13;
+&#13;
+The Wasteland has improved a lot since v-0.1.4, and I have a lot of new and exciting fixes for you guys to try out. So take a seat and share this excitement with me as I give you all the juicy things I have been working on in the background!&#13;
+&#13;
+&lt;img width="187" height="453" alt="Explorer_idle_1" src="https://github.com/user-attachments/assets/9223892d-0b71-4c1b-9c70-e11741a203ca" /&gt;&#13;
+&#13;
+&#13;
+# Fixes&#13;
+### Plenty of bug fixes, including newer... and longstanding bugs! Let's do some (late) spring-cleaning!&#13;
+&#13;
+* **Hectist and The Bonehead’s Hook:** Receiving the grappling hook early no longer lets you interact with her stale exterior dialogue. Added recovery for quest progression when you destroy the debris before completing the expected bomb step.&#13;
+* **Hook Head:** Completing The Bonehead’s Hook now recovers the location if early Hook access made its pickup unavailable.&#13;
+* **Harpoon parts:** Turning in AP-provided items `Key Item: Carved Whale Tooth` and `Key Item: Long Rope` now sends their locations, preventing those checks from being lost when vanilla removes the pickups.&#13;
+* **Magical Book:** Receiving the book early no longer leaves its shop location unchecked. The check sends after completing its book dialogue, with recovery for saves where that dialogue already happened.&#13;
+* **Shop cleanup:** Added location recovery for consumed AP key items before removing remaining shop stock.&#13;
+* **Gargantuan Swimcrab:** Corrected its logic to follow the antenna-route requirements instead of requiring Radio Silence completion. Updated the tracker explanation to match.&#13;
+* **Logic Tweaks:** The Wastelanders and `Boss Defeated: A Gargantuan Swimcrab` have had their logic tightened to ensure more runs are possible. More logic tweaks are necessary, but these are the two biggest that have been fixed.&#13;
+&#13;
+# Downtime Adjustment&#13;
+### Good news (and some) bad news.&#13;
+&#13;
+* Laika no longer begins the run with her pistol. This is due to a potential contribution to how enemies spawn later on the level *Where Birds Lurk* level. Players can receive AP weapons early, but Laika will be required to grab her pistol from Jakob&#13;
+  * If a player receives a weapon early enough to avoid the need of acquiring the pistol, the game will distribute the pistol alongside that weapon to ensure Laika still receives the pistol.&#13;
+* The long road sequence after speaking to Orella following the Pope fight is now completely skipped, using the game’s normal return transition. Less time for you to wait for dialogue to pass!&#13;
+* Roy’s lengthy outbound boat ride and dialogue sequence during Radio Silence is now also COMPLETELY SKIPPED! Yes, this includes first meeting him, all the way through getting caught at the last gate. Hopefully this makes up for losing the pistol at the start &lt;3.&#13;
+&#13;
+# Client and UI&#13;
+### Our older versions had broken or outright messy UI, leading to confusion or messy user display. That, however, has since been fixed!&#13;
+&#13;
+* Fixed incorrect PrintJSON colors for items from other games.&#13;
+* Standardized Laika’s item colors and improved support for Archipelago events, including chat and players joining or leaving.&#13;
+* Updated the “Archipelago Edition” menu text and added a version display in the bottom-left corner.&#13;
+* Updated the advertised Archipelago client version to 0.6.7 and aligned build/deployment dependencies.&#13;
+&#13;
+# Diagnostics&#13;
+### Mostly backend stuff for me to fix future problems easier. This should provide little impact to gameplay and narrow down issues to squash them sooner.&#13;
+&#13;
+* Added automatic boat and grapple diagnostics without additional hotkeys.&#13;
+* Diagnostic output now uses one `LaikaBoatTrace.log` instead of creating timestamped files. Save reloads preserve the current run’s evidence, and recording has a cap to verify any potential issues/improvements that can be made from our new boat transition scene.&#13;
+&#13;
+# Known issues&#13;
+### Only one minor bug. However, how long will that last for?&#13;
+&#13;
+*  **[Minor]:** Discovered a strange interaction where the player may temporarily lose the `Bike Upgrade: Grappling Hook` during Hectist's bomb sequence. Reloading your save grants the grappling hook back. Attempting to reciprocate this in testing yielded little results (If this happens, please include `LogOutput.log` and `LaikaBoatTrace.log` from the BepInEx folder in your report. Copy them before restarting the game).&#13;
+&#13;
+# Updating&#13;
+### As always, please read below before immediately attempting to update/replacing files!&#13;
+&#13;
+The AP World and LaikaMod both require updates, as logic has been tweaked and *plenty* of modifications have been done to LaikaMod specifically. As always, you are advised to start new runs when updating due to the sheer amount of tweaks and updates done compared to the previous version. The other files included are not required to update, but are present regardless to provide a seamless onboarding experience for those interested.&#13;
+&#13;
+# Closing Thoughts/Notes&#13;
+That's all for now! You have no idea how happy I am to finally bring this update after all this time. These fixes and tweaks have made me feel confidant to change the `Alpha` tag... to `Beta`! This is a massive deal, and here is to hoping to eventually removing `Beta` and changing `Unstable` to `Stable` very soon!&#13;
+&#13;
+Yes, you read that right...&#13;
+&#13;
+We're out of Alpha, and officially in Beta! I think now is a better time than ever, especially now that our little AP is shaping up to be a proper and more stable AP.&#13;
+&#13;
+I'm excited for what comes next, and hope all of y'all are as well.&#13;
+&#13;
+Stay safe out in the Wasteland, and make sure to make those birds pay!&#13;
+&#13;
+&lt;img width="1229" height="690" alt="Laika-Aged-Through-Blood-trailer" src="https://github.com/user-attachments/assets/81a4c511-5f19-4690-a616-cbab3fb9b2c4" /&gt;&#13;
+&#13;
+**Full Changelog**: https://github.com/ItsSeras/Laika-Aged-Through-Blood-Archipelago/compare/v-0.1.4...v-0.1.5</content>
+    <link href="https://github.com/ItsSeras/Laika-Aged-Through-Blood-Archipelago/releases/tag/v-0.1.5"/>
+  </entry>
+  <entry>
+    <id>https://github.com/DeDeDeK/KARchipelago/releases/tag/v1.2.1-TEST</id>
+    <title>Kirby Air Ride v1.2.1</title>
+    <updated>2026-09-25T00:25:40+00:00</updated>
+    <author>
+      <name>DeDeDK</name>
+    </author>
+    <content>Changes:&#13;
+- reworked per-mode progression category options (replaces the old progression toggles)&#13;
+- added option to exclude or fully remove non-progression checkbox locations&#13;
+- added setting for AP box spawn rate&#13;
+- added Archipelago checklist location groups&#13;
+- added "get 10 Offense Patches" check&#13;
+- removed "Go out of bounds" check (too hard to monitor)&#13;
+- added AP mod version on the title screen&#13;
+- tweak AP sphere tracker icons&#13;
+- gated the garage machines in Free Run&#13;
+- drop ability, air quick spin and on-foot zoom settings now default to enabled&#13;
+- split trap categories&#13;
+- renamed patch items to "X Up Patch"&#13;
+- permanent patches can now appear in Air Ride-only seeds&#13;
+- tweaked permanent patch item counting&#13;
+- reworked some item classifications&#13;
+- code cleanup, test and fuzz improvements&#13;
+&#13;
+Fixes:&#13;
+- fixed Top Ride machines not being unlocked when Top Ride is disabled&#13;
+- fixed sphere piece tracker not removing dropped spheres&#13;
+- fixed once-only events not being checked&#13;
+- fixed Top Ride item spawn crash&#13;
+- fixed Hydra part reward display on AP checklist&#13;
+- fixed sis text issue with debug menu&#13;
+- fixed small issue with EnergyLink counter&#13;
+- fixed check backfill race condition&#13;
+- logic fixes:&#13;
+  - legendary pieces/spheres need Red box&#13;
+  - fix tac items check logic&#13;
+  - City Trial Free Run and machine swaps&#13;
+  - mileage checks need a machine&#13;
+  - highest point needs a flight machine&#13;
+  - Destruction Derby 5 damage sources&#13;
+  - Air Glider needs a good glider or Glide patch&#13;
+  - KM1 100 KOs needs abilities + Inhale&#13;
+  - Drag Race photo finish opens from any Drag Race&#13;
+  - high effort / RNG category adjustments&#13;
+&#13;
+## What's Changed&#13;
+* v1.2.1-TEST PR by @DeDeDeK in https://github.com/DeDeDeK/KARchipelago/pull/57&#13;
+&#13;
+&#13;
+**Full Changelog**: https://github.com/DeDeDeK/KARchipelago/compare/v1.2.0-TEST...v1.2.1-TEST</content>
+    <link href="https://github.com/DeDeDeK/KARchipelago/releases/tag/v1.2.1-TEST"/>
   </entry>
 </feed>
