@@ -1,7 +1,7 @@
 {
   "total_repositories": 888,
   "total_packages": 1032,
-  "total_versions": 11485,
+  "total_versions": 11491,
   "manifest_ready": {
     "isles_of_trials": true,
     "manual_skylandersgiants_thisguyhere": true,
@@ -825,7 +825,7 @@
     "waffles": true,
     "saints_row_2": true,
     "manual_infinityblade_jd": false,
-    "angband": false,
+    "angband": true,
     "megamix": true,
     "DeliveringHope": true,
     "blender": true,
@@ -994,7 +994,7 @@
     "smw": true
   },
   "max_minimum_ap_version": {
-    "": 450,
+    "": 449,
     "0.4.0": 2,
     "0.5.0": 17,
     "0.5.1": 4,
@@ -1002,7 +1002,7 @@
     "0.6.1": 12,
     "0.6.2": 11,
     "0.6.3": 62,
-    "0.6.4": 75,
+    "0.6.4": 76,
     "0.6.5": 35,
     "0.6.6": 42,
     "0.6.7": 246,
@@ -1011,13 +1011,13 @@
     "0.7.0": 1
   },
   "max_maximum_ap_version": {
-    "": 632,
+    "": 633,
     "0.0.1": 1,
     "0.4.6": 5,
     "0.6.4": 1,
     "0.6.6": 1,
     "0.6.7": 2,
-    "0.6.99": 335,
+    "0.6.99": 334,
     "0.9.99": 1
   }
 }
