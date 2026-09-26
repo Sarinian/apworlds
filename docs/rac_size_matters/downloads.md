@@ -1,9 +1,12 @@
 # Ratchet &amp; Clank: Size Matters
 
 ## Latest
-- <a href="https://github.com/Panguu/Archipelago-RaCSM/releases/download/rac_size_matters-v0.4.23/rac_size_matters.apworld">Latest Version (0.4.22r2)</a>
+- <a href="https://github.com/Panguu/Archipelago-RaCSM/releases/download/rac_size_matters-v0.4.24/rac_size_matters.apworld">Latest Version (0.4.23)</a>
 
 ## All Versions
+
+#### v0.4.23
+- <a href="https://github.com/Panguu/Archipelago-RaCSM/releases/download/rac_size_matters-v0.4.24/rac_size_matters.apworld">https://github.com/Panguu/Archipelago-RaCSM/releases/download/rac_size_matters-v0.4.24/rac_size_matters.apworld</a>
 
 #### v0.4.22r2
 - <a href="https://github.com/Panguu/Archipelago-RaCSM/releases/download/rac_size_matters-v0.4.23/rac_size_matters.apworld">https://github.com/Panguu/Archipelago-RaCSM/releases/download/rac_size_matters-v0.4.23/rac_size_matters.apworld</a>
