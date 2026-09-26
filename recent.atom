@@ -2,74 +2,11 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://raw.githubusercontent.com/silasary/apworlds/refs/heads/main/recent.atom</id>
   <title>Recent APWorlds</title>
-  <updated>2026-09-26T15:23:31.755877+00:00</updated>
+  <updated>2026-09-26T20:28:50.544135+00:00</updated>
   <author>
     <name>Silasary</name>
   </author>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
-  <entry>
-    <id>https://github.com/zane31415/ArchipelagoBG3/releases/tag/v0.7.1</id>
-    <title>Baldur's Gate 3 v0.7.1</title>
-    <updated>2026-09-22T08:13:34+00:00</updated>
-    <author>
-      <name>Broney</name>
-    </author>
-    <content>Baldur's Gate 3 v0.7.1 release!&#13;
-&#13;
-In this version:&#13;
-New YAML options:&#13;
-* Added additional traps (confusion/sussur/clown/blinded)&#13;
-* Made monster traps scale with your level (experimental)&#13;
-* local_fill_percent keeps a share of your filler in your own world&#13;
-* Killsanity strictness (relaxed killsanity means that if a monster dies, it counts as a kill, regardless of whether you killed them or not. Note: there are some exceptions that hard-require killing because the game kills them as level setup, like the skeletons in Wither's crypt)&#13;
-&#13;
-Logic gating changes:&#13;
-* Moonlight Towers now only has three gates, not 5 - the tower, the roof, the colony&#13;
-* Mason's Guild, Last Light Inn Basement and Moonrise Rooftop are now handled as additional regions, allowing logic to treat locations as properly accessible&#13;
-* Added some backups for various questsanity locations (learn goblin leader names, barcus' reunion, halsin rescue, moonlantern pickup, notice artefact)&#13;
-* Renamed some locations for clarity (Talk to Ethel about Tadpole, Build a Kuotoa Army)&#13;
-* Removed questsanity checks: Put flowers on pet grave, wake art, hear minthara/ragzlin talk about artefact&#13;
-&#13;
-Removed some killsanity checks (they were missable)&#13;
-* Giant Spiders in goblin camp&#13;
-* Redcaps in Hag's swamp&#13;
-Added a killsanity check (how did I miss him?):&#13;
-* Brawler Rancer in the Goblin Camp&#13;
-&#13;
-Oh so many containersanity changes&#13;
-* Containers now trigger on destruction&#13;
-* Data quality pass- containersanity should be entirely playable for Halsin goal (I am not willing to call it stable yet)&#13;
-&#13;
-Client / mod data changes:&#13;
-* Client and mod can now recover from a corrupted data file on its own without needing my help for it&#13;
-* Does better about regenerating the ap_in file instead of waiting for a new intake item to do so&#13;
-* If the wrong BG3 folder is chosen on setup, don't write it to host.yaml&#13;
-* BG3 mod in-game window now shows window/client/server build information to aid debugging. This may have an init issue and want you to click 'resync' in the window but said resync is harmless.&#13;
-* There is a hidden YAML option called "DevDebugOn" that when set to true will tell the mod to write a debug.json about various game events (mostly used for dev situations like containersanity)</content>
-    <link href="https://github.com/zane31415/ArchipelagoBG3/releases/tag/v0.7.1"/>
-  </entry>
-  <entry>
-    <id>https://github.com/CazIsABoi/Archipelago/releases/tag/0.2.7.1</id>
-    <title>plateup v0.2.7.1</title>
-    <updated>2026-09-22T14:06:43+00:00</updated>
-    <author>
-      <name>CazIsABoi</name>
-    </author>
-    <content>## What's New?&#13;
-&#13;
-* Fixed achievement checks not being included in the location pool — `achievement_check_mode` now actually adds achievement checks to your run, gated by day count and (for `earned_only`) by whether `appliance_unlocks` is enabled&#13;
-* Fixed dish-specific Day Leases wrongly chaining dishes together — each dish's day progression is now fully independent, instead of requiring an earlier-selected dish to be fully leased before a later dish could even start Day 1&#13;
-* Fixed franchise runs under dish-specific Day Lease mode needing an ever-growing number of leases as `franchise_count` increased — leasing now correctly resets each franchise run instead of accumulating across all of them (thanks to Mike Lydeamore)&#13;
-&#13;
-## Balance Changes&#13;
-&#13;
-* `Complete Day N` and franchise-goal completions could previously become reachable with very few or zero items when using dish-specific Day Leases — some `complete_x_days` and `reach_day_x_with_dishes` goals could resolve almost immediately. This is fixed: a Day Lease pool sized to your goal's day count now always paces the day chain, independent of Day Lease mode&#13;
-* Franchise goal + dish-specific leasing now requires an available, sufficiently-leased dish for each individual run rather than pulling from one global cumulative lease pool, so high `franchise_count` values no longer demand disproportionately more leases&#13;
-&#13;
-[Mod Update 2.7.1](https://github.com/CazIsABoi/PlateUpAPMod/releases/tag/2.7.1)&#13;
-</content>
-    <link href="https://github.com/CazIsABoi/Archipelago/releases/tag/0.2.7.1"/>
-  </entry>
   <entry>
     <id>https://github.com/thejoshwolfe/Archipelago/releases/tag/space-age-v3.0.5</id>
     <title>Factorio: Space Age v3.0.5</title>
@@ -969,6 +906,36 @@ Fixes:&#13;
     <link href="https://github.com/DeDeDeK/KARchipelago/releases/tag/v1.2.1-TEST"/>
   </entry>
   <entry>
+    <id>https://github.com/brodieberger/MMZero3Archipelago/releases/tag/v0.3.6</id>
+    <title>Mega Man Zero 3 v0.3.6</title>
+    <updated>2026-09-25T02:25:48+00:00</updated>
+    <author>
+      <name>Stingrays110</name>
+    </author>
+    <content>Small update. New yaml options for rank requirements and infinite lives, and the apworld now has an archipelago.json.&#13;
+&#13;
+[Full Readme here](https://github.com/brodieberger/MMZero3Archipelago)&#13;
+[Link to poptracker pack here](https://github.com/ambibii/mmz3-poptracker/releases/tag/v3.5.1)&#13;
+&#13;
+## Features&#13;
+&#13;
+### EX Skill rank (option)&#13;
+`ex_skill_rank` sets the rank you need on a stage clear to get that stage's EX Skill check.&#13;
+&#13;
+This replaces `easy_ex_skill`, with `ex_skill_rank: f` doing the same thing.&#13;
+&#13;
+### Final stage rank (option)&#13;
+`final_stage_rank` sets the required rank you need for every stage before the final stage opens. Default is F, which means clearing the final level in any way would unlock the final boss.&#13;
+&#13;
+It also has a `none` setting that drops the stage clears entirely. The final stage opens as soon as you are holding the required secret disks.&#13;
+&#13;
+Your best rank on each stage is shown when you hover it on the mission select screen.&#13;
+&#13;
+### Infinite lives (option)&#13;
+Does what you think it would.</content>
+    <link href="https://github.com/brodieberger/MMZero3Archipelago/releases/tag/v0.3.6"/>
+  </entry>
+  <entry>
     <id>https://github.com/DeamonHunter/ArchipelagoMuseDash/releases/tag/v1.5.37</id>
     <title>Muse Dash v1.5.37.post2</title>
     <updated>2026-09-25T09:39:06+00:00</updated>
@@ -1021,7 +988,7 @@ Fixes:&#13;
 and it is replaced without warning. For something that stays put, use the
 [latest release](https://github.com/m-this/tf2-archipelago/releases/latest).
 
-Built from `d89acca611cb667ac84258d8014cbf999544c5c3`.
+Built from `2d67867423d788001df211a63fc2539eacc4db17`.
 
 ## Downloads
 
@@ -1030,12 +997,20 @@ Built from `d89acca611cb667ac84258d8014cbf999544c5c3`.
 
 ## Since v1.17.3
 
+- beads: the share of SigMod still unresolved on Windows, measured
+- beads: close apw-5g4.29, the plugin's GetMaxAmmo hook runs on every map
+- beads: the Windows SigMod port's state after the bed sweeps
+- plugin: log the first GetMaxAmmo hook call on each map
+- fix(plugin): stop resending every queued objective while the bridge fails
 - feat(bots): "Shop where they stand", an option for every bot (#165)
-- Bot cards 5/5: the card deck and the tracker (browser) (#164)
-- Bot cards 4/5: the launcher's bot-card squad (#163)
-- Bot cards 3/5: cards on the game server (plugin) (#162)
-- Bot cards 2/5: the bridge grants a card and still reads v6 seeds (#161)
-- Bot cards 1/5: optional bot-card rewards in the seed (apworld) (#160)
+- feat(web): the card deck and the tracker (#164)
+- feat(launcher): the bot-card squad (#163)
+- feat(plugin): bot cards on the game server (#162)
+- feat(bridge): grant bot cards and keep reading v6 seeds (#161)
+- feat(apworld): optional bot-card rewards in the seed (#160)
+- fix(rcon): read a full 4096 byte body
+- fix(plugin): Make it Count finds the dispenser on Windows
+- feat(waveprobe): a Windows bed for the SigMod missions
 - fix(buffs): no-self-blast keeps the blast-jump push and refunds the health (#146)
 - chore(deps): tf2-mvm-bots-go v0.17.0
 - feat(bots): Villa defender orders and the roof transfer for Recalled to Life (#142)
@@ -1658,5 +1633,76 @@ general docs: https://github.com/thejoshwolfe/Archipelago/blob/space-age/worlds/
 setup guide: https://github.com/thejoshwolfe/Archipelago/blob/space-age/worlds/factorio_space_age/docs/setup_en.md .&#13;
 source code: https://github.com/thejoshwolfe/Archipelago/tree/space-age/worlds/factorio_space_age .</content>
     <link href="https://github.com/thejoshwolfe/Archipelago/releases/tag/space-age-v3.0.6"/>
+  </entry>
+  <entry>
+    <id>https://github.com/Batatvideogames/silksong-archipelago-randomizer/releases/tag/v0.4.7</id>
+    <title>Hollow Knight: Silksong v0.4.7</title>
+    <updated>2026-09-26T17:03:54+00:00</updated>
+    <author>
+      <name>BatAtVideoGames</name>
+    </author>
+    <content>Another week another big update. Can you believe it, only 33 of the 862 locations are not fully mapped? The progress is insane and I want to express my gratitude to all who've been with this project whether it's just playing, reporting bugs or otherwise giving input on the matter. And ultra big shoutout to the mappers (who are all credited in the README), they've been doing an insane part in all this. I can safely say that logic will be extremely solid by the time 0.5.0 rolls out but also that I got something huge planned for it. (Also as usual if you like what I do and wanna [buy me a coffee](https://streamlabs.com/batatvideogames/tip) I'd appreciate it 👍)&#13;
+&#13;
+# Changelog&#13;
+&#13;
+### General updates: &#13;
+&#13;
+- **Updated traversal, combat and wish logic in 244 existing rooms across 29 areas**&#13;
+- Added combat requirements to 77 mapped bosses/gauntlets&#13;
+- Shops and wishes now display matching Silksong item icons&#13;
+- Pressing A on needle in inventory allows to toggle between the upgrades unlocked so far&#13;
+- Made courier deliveries unbreakable but they instead need to logically satisfy being able to pick up the quest and getting to their delivery spot&#13;
+- Universal Tracker now supports newly generated seeds without a player YAML, automatically loading their settings and entrance layout&#13;
+- Reduced connection data size (by a lot)&#13;
+- Kept Skarr’s unchecked randomized shop items available after his story death&#13;
+&#13;
+### Option updates&#13;
+&#13;
+- Removed the bs "skips" option and instead separated it into proper categories (red tool stall, crest pogo skips, needle strike logic, heal stall logic, hazard respawn logic). The attached YAML and the built in AP Options Creator describe what these entail&#13;
+- Changed Proficient Combat from true (bypass combat reqs) and false (keep combat reqs) to off, goated (lower combat reqs by 1 tier) and hell (bypass combat reqs)&#13;
+- Silk and Soul Points now caps at 23. Higher numbers automatically clamp to 23&#13;
+- Added optional trap disguises with mirrored shop/wish icons and subtly misspelled shop/crest names&#13;
+- Added independent Quill and Compass randomization settings. Kept Automatic Compass and Start Fully Mapped as separate conveniences&#13;
+&#13;
+### Fixes: &#13;
+&#13;
+- Fixed the randomized Egg of Flealia not being recognized when unlocking Flea Games and Ecstasy of the End&#13;
+- Fixed Peak_04d, Shellwood_13, Shellwood_25 and Crawl_09 screen being black when entering from "wrong" side when breakable walls are still present&#13;
+- Fixed Flick becoming non-interactable at Bone Bottoms wish wall, blocking courier turn-ins&#13;
+- Fixed Memorium - Shard Bundle incorrectly appearing in Act 1 goals&#13;
+- Threefold Pin now randomizes in Act 1 goals when tool randomization is enabled&#13;
+- Final Audience wish name correction (accidentally named it Last Audience)&#13;
+- Fixed the long pause when completing free randomized donations&#13;
+- Eva became inactive when Sylphsong gets sent (via other game release). Fixed that and also chapel doors remain open now&#13;
+- Fixed incorrect access to lower Whispering Vaults through the rotating-tunnel route&#13;
+- Fixed a Skill Shuffle starting layout that could prevent generation&#13;
+- General game generation updates (genuinely)&#13;
+- Corrected The Slab Memory Locket’s map marker position&#13;
+- Renamed "Progressive Compass" back to Quill&#13;
+- Fixed swapped entrance connections in the Sacred Cylinder room&#13;
+- Fixed Universal Tracker disconnecting when Silk &amp; Soul points are set to random&#13;
+- Fixed swapped access logic for Memorium - Map Purchase and Memorium - Shard Bundle&#13;
+- Moved Putrified Ducts Shell Shard Cache 6 out of the ceiling to floor level&#13;
+- Grouped Blasted Steps Shell Shard Caches 4–5 with the Beast Shard marker&#13;
+- Fixed Sacred Cylinder moving randomized melody markers back to their vanilla position&#13;
+- Improved AP check visibility over other map pins&#13;
+- Fixed the Deep Docks lower climb’s movement requirements&#13;
+- Fixed shop stock getting stuck displaying generic “AP Item” text until reconnecting&#13;
+- Prevented Chapel Maid from appearing during an unfinished Moss Mother fight (lmao)&#13;
+- Fixed off-screen objective bubbles following vanilla locations instead of randomized bells and melodies&#13;
+- Corrected access logic for the Whispering Vaults map and Pale Oil, Whiteward Spool Fragment and Cogwork Core map&#13;
+- Fixed early Rune Rage receipt preventing First Sinner activation&#13;
+- Fixed Hunter's March big shaft room only needing ledgegrab to get to the treasure room with the Blowjob Brothers&#13;
+- Fixed Curvesickle being rejected by the Mottled Child’s throwing challenge (this time for real)</content>
+    <link href="https://github.com/Batatvideogames/silksong-archipelago-randomizer/releases/tag/v0.4.7"/>
+  </entry>
+  <entry>
+    <id>https://github.com/galdiuz/archipeladoku/releases/tag/v2026.09.26</id>
+    <title>Archipeladoku v2026.9.26</title>
+    <updated>2026-09-26T17:58:05+00:00</updated>
+    <author>
+      <name>Galdiuz</name>
+    </author>
+    <link href="https://github.com/galdiuz/archipeladoku/releases/tag/v2026.09.26"/>
   </entry>
 </feed>
