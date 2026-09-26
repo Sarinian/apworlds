@@ -2,103 +2,11 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://raw.githubusercontent.com/silasary/apworlds/refs/heads/main/recent.atom</id>
   <title>Recent APWorlds</title>
-  <updated>2026-09-26T10:39:15.541072+00:00</updated>
+  <updated>2026-09-26T15:23:31.755877+00:00</updated>
   <author>
     <name>Silasary</name>
   </author>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
-  <entry>
-    <id>https://github.com/Happyhappyism/Bomberman-Hero-Archipelago/releases/tag/bomberman_hero_v0.2.4</id>
-    <title>Bomberman Hero v0.2.4</title>
-    <updated>2026-09-21T20:27:41+00:00</updated>
-    <author>
-      <name>Happyhappyism</name>
-    </author>
-    <content>## Fixes&#13;
-- Fixed an issue where the gem check count option didn't do anything.</content>
-    <link href="https://github.com/Happyhappyism/Bomberman-Hero-Archipelago/releases/tag/bomberman_hero_v0.2.4"/>
-  </entry>
-  <entry>
-    <id>https://github.com/Matt41321/Archipelago/releases/tag/v0.8.1</id>
-    <title>Bloons TD6 v0.8.1</title>
-    <updated>2026-09-21T21:49:08+00:00</updated>
-    <author>
-      <name>Matt41321</name>
-    </author>
-    <content># Bloons AP v(0.10.0/0.8.1) (Mod/APWorld)&#13;
-&#13;
-- Fixed some Category Lock logic&#13;
-- Clearer option errors during generation&#13;
-- Fixed item count sometimes not matching locations</content>
-    <link href="https://github.com/Matt41321/Archipelago/releases/tag/v0.8.1"/>
-  </entry>
-  <entry>
-    <id>https://github.com/TheLX5/Archipelago/releases/tag/wariowareinc-v1.1.1</id>
-    <title>WarioWare, Inc. - Mega Microgame$! v1.1.1</title>
-    <updated>2026-09-22T05:28:13+00:00</updated>
-    <author>
-      <name>lx5</name>
-    </author>
-    <content>wa&#13;
-# Info&#13;
-* [Info](https://thelx5.github.io/wario_ware_inc/index.html)&#13;
-* [Setup](https://thelx5.github.io/wario_ware_inc/setup.html)&#13;
-# Changes&#13;
-* Makes ionium happier</content>
-    <link href="https://github.com/TheLX5/Archipelago/releases/tag/wariowareinc-v1.1.1"/>
-  </entry>
-  <entry>
-    <id>https://github.com/CodeTriangle/CCMultiworldRandomizer/releases/tag/0.9.8</id>
-    <title>CrossCode v0.9.8</title>
-    <updated>2026-09-22T07:26:10+00:00</updated>
-    <author>
-      <name>CodeTriangle</name>
-    </author>
-    <content># Changes since 0.9.8 Prerelease 1&#13;
-&#13;
-## Changes to Mod&#13;
-&#13;
-* Map markers that had significant overlap with other map markers have had their position manually adjusted to improve legibility (@CodeTriangle, #102).&#13;
-  * In particular, this targets the overlapping chests in **Bergen Trail**, **Temple Mine**, **Faj'ro Temple**, and **So'najiz Temple**.&#13;
-  * If any incidences remain of overlapping markers, please make me aware.&#13;
-* Map markers are now shown for chests added by the mod, such as the ones in the lobbies of **Faj'ro Temple** and **Grand Krys'kajo** (@CodeTriangle, #102).&#13;
-&#13;
-## Fixes to Mod&#13;
-&#13;
-* Fixed an issue where shop hints would not send unless both **Shop Dialog Hints** and **Quest Dialog Hints** were enabled (@CodeTriangle, #100).&#13;
-* Fixed an issue where botanics would not send immediately if the plant hit was an alternate form of the plant in question (@CodeTriangle, #100).&#13;
-* Map markers for chests that in the vanilla game contain chests keys no longer always display as unlocked.&#13;
-&#13;
-## Fixes to Logic&#13;
-&#13;
-* **Trial of Persistance Lower Left** no longer requires four So'najiz Keys to access (@CodeTriangle, #101).&#13;
-&#13;
-# Changes since 0.9.7&#13;
-&#13;
-## Changes to Mod&#13;
-&#13;
-* Added more functionality to the Archipelago menus (@CodeTriangle, #98).&#13;
-  * Text boxes now accept CTRL-V to paste and CTRL-U to clear.&#13;
-  * Text client now automatically jumps to the bottom.&#13;
-  * Text client can be scrolled one page at a time using L2/R2, and scrolled faster by holding R1 and using the right stick.&#13;
-&#13;
-### Internal Changes&#13;
-&#13;
-* Reformatted a large amount of input data (@Valkhiya, #93)&#13;
-&#13;
-## Changes to APWorld&#13;
-&#13;
-* Fixed one more instance of non-determinism, this time in the `pre_fill` function (@Gudf, CodeTriangle/Archipelago#27).&#13;
-  * This should ensure that generations with the same seed produce the same output.&#13;
-* Replaced logic conditions with pre-optimized lambdas (@CodeTriangle, CodeTriangle/Archipelago#24).&#13;
-  * This should speed up generation on large scales.&#13;
-&#13;
-### Internal Changes&#13;
-&#13;
-* Remove `LogicDict`, a legacy class used in logic, and replace it with a reference to the world itself (@CodeTriangle, CodeTriangle/Archipelago#28).&#13;
-</content>
-    <link href="https://github.com/CodeTriangle/CCMultiworldRandomizer/releases/tag/0.9.8"/>
-  </entry>
   <entry>
     <id>https://github.com/zane31415/ArchipelagoBG3/releases/tag/v0.7.1</id>
     <title>Baldur's Gate 3 v0.7.1</title>
@@ -1617,5 +1525,138 @@ Find the apworld and several template yamls below.</content>
 &#13;
 - Changed the way the map markers are loaded to minimize game freeze.</content>
     <link href="https://github.com/TheNooodle/MinishootRandomizer/releases/tag/v0.6.2"/>
+  </entry>
+  <entry>
+    <id>https://github.com/gerbiljames/Archipelago-Crystal/releases/tag/6.0.0-rc.3</id>
+    <title>Pokemon Crystal Prerelease v1.32.0</title>
+    <updated>2026-09-26T11:05:42+00:00</updated>
+    <author>
+      <name>gerbiljames</name>
+    </author>
+    <content># Changelog&#13;
+&#13;
+## Features&#13;
+- The client will now warn when it attempts to deliver an item but the bag is full&#13;
+- Unlocked flypoints are now fully synced when remote items are enabled&#13;
+- Progress with Bills grandpa is now synced when remote items are enabled&#13;
+- Mom calling you on route 31 is now synced when remote items are enabled&#13;
+- Agreeing to help lance at the Lake of Rage is now synced when remote items are enabled&#13;
+- Send completed trades and seeing request species to the tracker&#13;
+- Receiving the odd egg will now grant the seen dex entry for Ditto&#13;
+- :3&#13;
+&#13;
+## Bug Fixes&#13;
+- Species which evolve via stats (currently only Tyrogue) will now always have equal attack and defense under BST rando&#13;
+- The catch tutorial and roamers no longer count towards unique statics&#13;
+- Fix the entrance to Lance's room being pinned to vanilla when skip E4 was enabled (for real this time)&#13;
+- Fix held evolution items not being able to be given from the party menu&#13;
+- Prevent ER from generating impossible sphere 1 escapes&#13;
+- Fix a starter that was swapped with an Unown into sphere 1 inheriting logic requiring a puzzle solve&#13;
+- Fix the Goldenrod underground switch room not resetting on reentry in ER&#13;
+- Fix completed battle tower tiers only being sent to the tracker when remote items was enabled&#13;
+&#13;
+**This release is not backwards compatible with 6.0.0-rc.2**</content>
+    <link href="https://github.com/gerbiljames/Archipelago-Crystal/releases/tag/6.0.0-rc.3"/>
+  </entry>
+  <entry>
+    <id>https://github.com/barretg/hl1-sven-ap/releases/tag/v0.3.1</id>
+    <title>Half-Life (Sven Co-op) v0.1.0</title>
+    <updated>2026-09-26T11:25:34+00:00</updated>
+    <author>
+      <name>hl1-sven-ap</name>
+    </author>
+    <content>Note that this is a very early build of the apworld. Please report any problems in Discord or the Issues page on github (with reproduction steps please and thank you!)&#13;
+&#13;
+Sven Co-op's Half-Life campaign is meant to be played in multiplayer. No support will be offered to players attempting to circumvent this restriction. (The map "Suspension" is an exception to this rule)&#13;
+&#13;
+**Important**: Run /install to update the plugin after you update your apworld.&#13;
+&#13;
+## New Features&#13;
+* Added the map "suspension" as an option to be enabled in the YAML. This is a co-op class-based arcade shooter where you fight your way across a bridge. Quite fun, and works well for archipelago.&#13;
+* Added new, more refined, deathlink settings.&#13;
+* Commands now work in console with the . prefix: `.ap`, `.ap_tracker`, `.ap_warp`, etc.&#13;
+&#13;
+## Bug Fixes/Improvements&#13;
+* Fixed the completion checks on Blue Shift and OpFor being wonky.&#13;
+* Chargesanity being off would still display text on the user's screen when interacting with a charger.&#13;
+* Held weapons no longer send weapon checks if held on the map corresponding to their location.&#13;
+* Fixed a bug where finishing a mission and having the next mission unlocked would send an extra check that's not meant to be sent until that mission is actually loaded into.&#13;
+* Fixed a bug where chargesanity being disabled would also block weapon checks from being sent.&#13;
+* Made receiving ammo for the weapons you receive less annoying.&#13;
+* Some refinement of what and how information is displayed by commands.&#13;
+* Disconnecting and reconnecting or changing slots is now handled much more cleanly.&#13;
+* Game now syncs completion both ways, so collected checks propogate back to the game now.&#13;
+* Traps now queue up and trigger only after a 5 second gap of stability (not loading or dead).&#13;
+* New logic gating on the Barnacle Grapple for reaching Part 4 of Pit Worm's Nest and through the rest of the campaign.&#13;
+* Removed unreachable chargers on Pit Worm's Nest&#13;
+* Fixed an issue with mission completion for Duty Calls and Power Struggle&#13;
+&#13;
+## Setup&#13;
+As the game host:&#13;
+Install the apworld by downloading and double clicking (or placing it in your custom_worlds folder)&#13;
+Open the Half-Life (Sven Co-op) Client and select your install directory&#13;
+Run /install in the client&#13;
+Connect the client to the multiworld, and open a server on the map -sp_campaign_lobby&#13;
+Once your friends are in game with you (they can just join!), you can type !ap to see unlocked missions in the console, and !warp to change maps to the unlocked mission. (The in-game panels also work)&#13;
+&#13;
+## Known Issues&#13;
+* Sound cacheing bug: sometimes when another player joins the lobby, their sounds are all mixed up. This will self resolve once you get into a mission. I am under the impression that if they install the plugin too that helps, but I'm unsure. This one is kind of complicated to diagnose.</content>
+    <link href="https://github.com/barretg/hl1-sven-ap/releases/tag/v0.3.1"/>
+  </entry>
+  <entry>
+    <id>https://github.com/Panguu/Archipelago-RaCSM/releases/tag/rac_size_matters-v0.4.27</id>
+    <title>Ratchet &amp; Clank: Size Matters v0.4.27</title>
+    <updated>2026-09-26T13:59:11+00:00</updated>
+    <author>
+      <name>Pangu</name>
+    </author>
+    <author>
+      <name>Amondo</name>
+    </author>
+    <author>
+      <name>ImJustATester</name>
+    </author>
+    <content>## Installation &amp; Setup
+
+- Requires [Archipelago](https://github.com/ArchipelagoMW/Archipelago/releases/latest). Make sure you are up-to-date.
+- Download the `.apworld` file below and double-click it to install. Restart Archipelago after installation.
+- Use **Options Creator** or **Generate Template Options** in the Archipelago Launcher to create player option YAML files.
+- Place your edited player option YAML files in the `Players` folder. Use **Browse Files...** in the Launcher to open the Archipelago directory.
+- Make sure you have all required `.apworld` files, your player YAMLs, and any desired `host.yaml` settings ready before generating. (`server_password` is recommended for admin login.)
+- Click **Generate** to create a multiworld `.zip` in the `output` folder.
+- Upload the generated `.zip` to https://archipelago.gg/uploads or self-host it. Self-hosting requires port forwarding.
+- For detailed setup instructions and game-specific documentation, see [game-specific documentation](https://github.com/Panguu/Archipelago-RaCSM/tree/SM-Main/worlds/rac_size_matters/docs).
+- If you encounter errors, run `ArchipelagoLauncherDebug.exe` or launch Archipelago from a terminal and check the `logs` folder.
+- Need help? Join the Archipelago Discord: https://discord.gg/8Z65BR2
+
+
+
+## Changelog
+
+- fix(SM): rules and removal of shrink ray softlock prevention on Outpost Omega 1 (a1b0bc0e)
+
+Full comparison:
+https://github.com/Panguu/Archipelago-RaCSM/compare/rac_size_matters-v0.4.26...rac_size_matters-v0.4.27</content>
+    <link href="https://github.com/Panguu/Archipelago-RaCSM/releases/tag/rac_size_matters-v0.4.27"/>
+  </entry>
+  <entry>
+    <id>https://github.com/thejoshwolfe/Archipelago/releases/tag/space-age-v3.0.6</id>
+    <title>Factorio: Space Age v3.0.6</title>
+    <updated>2026-09-26T15:06:23+00:00</updated>
+    <author>
+      <name>Berserker</name>
+    </author>
+    <author>
+      <name>Josh Wolfe</name>
+    </author>
+    <content># Factorio: Space Age apworld 3.0.6&#13;
+&#13;
+* Fix `goal: aquilo_orbit` causing Factorio crashes with missing `railgun_location` prerequisite. Thanks HandleWithKERR and d_a_v_e_2000 for the bug reports.&#13;
+&#13;
+download: https://github.com/thejoshwolfe/Archipelago/releases .&#13;
+general docs: https://github.com/thejoshwolfe/Archipelago/blob/space-age/worlds/factorio_space_age/docs/en_Factorio_Space_Age.md .&#13;
+setup guide: https://github.com/thejoshwolfe/Archipelago/blob/space-age/worlds/factorio_space_age/docs/setup_en.md .&#13;
+source code: https://github.com/thejoshwolfe/Archipelago/tree/space-age/worlds/factorio_space_age .</content>
+    <link href="https://github.com/thejoshwolfe/Archipelago/releases/tag/space-age-v3.0.6"/>
   </entry>
 </feed>
