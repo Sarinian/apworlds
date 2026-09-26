@@ -2,170 +2,11 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://raw.githubusercontent.com/silasary/apworlds/refs/heads/main/recent.atom</id>
   <title>Recent APWorlds</title>
-  <updated>2026-09-26T02:24:44.258756+00:00</updated>
+  <updated>2026-09-26T10:39:15.541072+00:00</updated>
   <author>
     <name>Silasary</name>
   </author>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
-  <entry>
-    <id>https://github.com/Panguu/Archipelago-RaCSM/releases/tag/rac-size-matters/v0.4.20</id>
-    <title>Ratchet &amp; Clank: Size Matters v0.4.20</title>
-    <updated>2026-09-21T16:41:22+00:00</updated>
-    <author>
-      <name>Pangu</name>
-    </author>
-    <author>
-      <name>Amondo</name>
-    </author>
-    <author>
-      <name>ImJustATester</name>
-    </author>
-    <content>## RaC Size Matters APWorld rac-size-matters/v0.4.20&#13;
-&#13;
-**Branch:** main&#13;
-**Date:** 2026-09-21 16:43 UTC&#13;
-&#13;
-&lt;details&gt;&#13;
-&lt;summary&gt;&lt;strong&gt;Changes since rac-size-matters/v0.4.19&lt;/strong&gt;&lt;/summary&gt;&#13;
-&#13;
-- fix(SM): disconnection message, additional multiplayer skins, additional ship selection menu and QoL changes (ca4984fa)&#13;
-- fix(SM): disconnection message, additional multiplayer skins, additional ship selection menu and QoL changes (5c9be6b6)&#13;
-&#13;
-&lt;/details&gt;&#13;
-&#13;
-**Full changelog and compare**: https://github.com/Panguu/Archipelago-RaCSM/compare/rac-size-matters/v0.4.19...rac-size-matters/v0.4.20&#13;
-&#13;
-### Notes&#13;
-This release was automatically generated from the **main** branch.&#13;
-Latest (main) releases are recommended, as pre-releases (staging) may contain experimental or in-progress changes.&#13;
-</content>
-    <link href="https://github.com/Panguu/Archipelago-RaCSM/releases/tag/rac-size-matters/v0.4.20"/>
-  </entry>
-  <entry>
-    <id>https://github.com/Panguu/Archipelago-RaCSM/releases/tag/rac-size-matters/v0.4.21</id>
-    <title>Ratchet &amp; Clank: Size Matters v0.4.21</title>
-    <updated>2026-09-21T17:58:52+00:00</updated>
-    <author>
-      <name>Pangu</name>
-    </author>
-    <author>
-      <name>Amondo</name>
-    </author>
-    <author>
-      <name>ImJustATester</name>
-    </author>
-    <content>## RaC Size Matters APWorld rac-size-matters/v0.4.21&#13;
-&#13;
-**Branch:** main&#13;
-**Date:** 2026-09-21 18:01 UTC&#13;
-&#13;
-&lt;details&gt;&#13;
-&lt;summary&gt;&lt;strong&gt;Changes since rac-size-matters/v0.4.20&lt;/strong&gt;&lt;/summary&gt;&#13;
-&#13;
-- fix(SM): fix rules error for shrink ray locations (41892199)&#13;
-- fix(SM): if mootator weapon is disabled disable crabby skill point (b64459e0)&#13;
-&#13;
-&lt;/details&gt;&#13;
-&#13;
-**Full changelog and compare**: https://github.com/Panguu/Archipelago-RaCSM/compare/rac-size-matters/v0.4.20...rac-size-matters/v0.4.21&#13;
-&#13;
-### Notes&#13;
-This release was automatically generated from the **main** branch.&#13;
-Latest (main) releases are recommended, as pre-releases (staging) may contain experimental or in-progress changes.&#13;
-</content>
-    <link href="https://github.com/Panguu/Archipelago-RaCSM/releases/tag/rac-size-matters/v0.4.21"/>
-  </entry>
-  <entry>
-    <id>https://github.com/WolfBoi008/One-More-Night/releases/tag/2.3.6</id>
-    <title>Manual_OneMoreNight_WolfBoi008 v2.3.6</title>
-    <updated>2026-09-21T19:03:12+00:00</updated>
-    <author>
-      <name>WolfBoi008</name>
-    </author>
-    <content># Known Issues&#13;
-#43: Memory Achievements Do Not Consider Unique Cases - I could use some help refining this since doing it alone would be annoying...&#13;
-# Changelog&#13;
-- Added the Realistic Gun Main Item.&#13;
-  - Made the Bell Logic Option affect the Realistic Gun Main Item, too.&#13;
-    - May rename the Option sometime in the future, but I think it might be funnier to leave it as is.&#13;
-- Added several new gag Filler Items.&#13;
-  - Also removed one of the existing ones due to some confusion.</content>
-    <link href="https://github.com/WolfBoi008/One-More-Night/releases/tag/2.3.6"/>
-  </entry>
-  <entry>
-    <id>https://github.com/Panguu/Archipelago-RaCSM/releases/tag/rac-size-matters/v0.4.22</id>
-    <title>Ratchet &amp; Clank: Size Matters v0.4.22</title>
-    <updated>2026-09-21T19:24:02+00:00</updated>
-    <author>
-      <name>Pangu</name>
-    </author>
-    <author>
-      <name>Amondo</name>
-    </author>
-    <author>
-      <name>ImJustATester</name>
-    </author>
-    <content>## RaC Size Matters APWorld rac-size-matters/v0.4.22
-
-**Branch:** main
-**Date:** 2026-09-21 20:16 UTC
-
-&lt;details&gt;
-&lt;summary&gt;&lt;strong&gt;Changes since rac-size-matters/v0.4.21&lt;/strong&gt;&lt;/summary&gt;
-
-- fix(sm): weapon levels not persisting across levels (1cb8355c)
-
-&lt;/details&gt;
-
-**Full changelog and compare**: https://github.com/Panguu/Archipelago-RaCSM/compare/rac-size-matters/v0.4.21...rac-size-matters/v0.4.22
-
-### Notes
-This release was automatically generated from the **main** branch.
-Latest (main) releases are recommended, as pre-releases (staging) may contain experimental or in-progress changes.
-</content>
-    <link href="https://github.com/Panguu/Archipelago-RaCSM/releases/tag/rac-size-matters/v0.4.22"/>
-  </entry>
-  <entry>
-    <id>https://github.com/barretg/Taskipelago/releases/tag/v1.2.0-pre</id>
-    <title>Taskipelago v1.2.0rc0</title>
-    <updated>2026-09-21T19:43:00+00:00</updated>
-    <author>
-      <name>barretg</name>
-    </author>
-    <content>*The big region overhaul (and also clicker game mode)*&#13;
-&#13;
-## What's new (v1.2.0)&#13;
-* New types of item grouping definitions. Now progressive, aesthetic, or random-choice&#13;
-  * aesthetic groups merely group things aesthetically with no effect on progression or not.&#13;
-  * random-choice groups randomly choose N or N% as you define items from within the group to be included in the world. No tasks may depend on individual items in these groups since they aren't guaranteed to exist, but depending on the randomized group as a whole or by percentage/count is supported.&#13;
-  * progressive groups function the same as always&#13;
-* Regions can now also be randomized to include N or N% of tasks within that region. May optionally also shuffle the order in which such tasks appear.&#13;
-* Subregions can now be defined within regions that aren't randomized (subregions may be randomized).&#13;
-* Regions may now depend on items and tasks via the syntax item(expr) and task(expr) where expr is any valid task or item dependency expression&#13;
-* Tasclickpelago toggle on the yaml generator that enables a bunch of features for building out an idle game because the concept was funny and I thought of a way to do it well.&#13;
-* Style tab added to the YAML generator so you can recolor the entire application at will while connected to the slot in question. Pretty colors are pretty.&#13;
-&#13;
-Note: should be fully backwards compatible with worlds generated from 1.0 onwards. Also Universal Tracker is still incompatible.</content>
-    <link href="https://github.com/barretg/Taskipelago/releases/tag/v1.2.0-pre"/>
-  </entry>
-  <entry>
-    <id>https://github.com/Heinki/Mental-Omega-Randomizer/releases/tag/V1.39</id>
-    <title>Mental Omega v1.39.post2</title>
-    <updated>2026-09-21T19:59:40+00:00</updated>
-    <author>
-      <name>Mental Omega Randomizer contributors</name>
-    </author>
-    <content>- Fix Archipelago Crash and error when generating a map&#13;
-- Fix T1 Standard units were not assigned correctly&#13;
-- Adjust Elite Force Modification&#13;
-- Add MCV as unlocks&#13;
-- Adjust and Improve UI for Shopmode&#13;
-- Fix Nanofibre Sync not working correctly and crashing on some maps&#13;
-- Fix Weapon switching units loosing their buffs&#13;
-- Add Heavy Trooper as Special&#13;
-- Fix costs for Special Brutes</content>
-    <link href="https://github.com/Heinki/Mental-Omega-Randomizer/releases/tag/V1.39"/>
-  </entry>
   <entry>
     <id>https://github.com/Happyhappyism/Bomberman-Hero-Archipelago/releases/tag/bomberman_hero_v0.2.4</id>
     <title>Bomberman Hero v0.2.4</title>
@@ -1221,7 +1062,7 @@ Fixes:&#13;
   </entry>
   <entry>
     <id>https://github.com/DeamonHunter/ArchipelagoMuseDash/releases/tag/v1.5.37</id>
-    <title>Muse Dash v1.5.37</title>
+    <title>Muse Dash v1.5.37.post2</title>
     <updated>2026-09-25T09:39:06+00:00</updated>
     <author>
       <name>DeamonHunter</name>
@@ -1229,6 +1070,7 @@ Fixes:&#13;
     <content># Changes&#13;
 - Update songs to Slumbering Golden Mark&#13;
 - Updated maximum song count to 800.&#13;
+- HOTFIX: Renamed the new Euphoria song to `Euphoria Laur` to avoid overlap with Euphoria from the Valentine Stage pack&#13;
 &#13;
 # Installation&#13;
 ## Melonloader&#13;
@@ -1603,5 +1445,177 @@ A new open castle option, two Jelly-Legs Jinx fixes, and a boss check fix.&#13;
 - **Killing the Basilisk or Aragog always sends its check.** Holding the cutscene skip button could carry you out of the level before the kill registered, so Chamber of Secrets - Complete (or Forbidden Forest - Complete) never sent. The kill now also counts the moment its victory cutscene starts.&#13;
 </content>
     <link href="https://github.com/Kryen112/HP2PC_AP/releases/tag/v2.11.1"/>
+  </entry>
+  <entry>
+    <id>https://github.com/Crownmuri/Archipelago/releases/tag/v1.0.5</id>
+    <title>La-Mulana 2 v1.0.5</title>
+    <updated>2026-09-26T03:55:44+00:00</updated>
+    <author>
+      <name>Crownmuri</name>
+    </author>
+    <author>
+      <name>Coookie93</name>
+    </author>
+    <content>## Supports: Mod v1.0.0+ -- Tracker v2.0.5+&#13;
+&#13;
+# Changelogs&#13;
+- Fixed UT not taking pre_fill logic appends like FDC logic post ER into regard&#13;
+- Fixed UT showing logic events like `White Pedestals` with the `/next_progression` command &#13;
+- Fixed UT showing a KeyError for some collapsed item labels.&#13;
+- Removed IBLadder from the Bat / Skeleton glossary region list&#13;
+- Added TrickyLogic for some checks next to ladders through self-damaging&#13;
+- Corrected logic for the following checks relating to Bergelmir and AC hot spring area:&#13;
+  - Bergelmir logic event:&#13;
+    - Was: `CanChant(Earth) and CanChant(Moon) and CanChant(Heaven)`&#13;
+    - Now: `(Has(Feather) or HorizontalAttack) and CanChant(Earth) and CanChant(Moon) and CanChant(Heaven)`&#13;
+  - [SFG A-3] Top-Left Breakable Ceiling Chest (Gauntlet)&#13;
+    - Was: `Has(Feather) and Has(Life Sigil) and ((HorizontalAttack and CanUse(Flare Gun)) or Has(Leather Whip) or Has(Axe) or Has(Katana) or CanUse(Earth Spear) or CanUse(Bomb))`&#13;
+    - Now: `Has(Feather) and Has(Life Sigil) and ((HorizontalAttack and CanUse(Flare Gun)) or Has(Leather Whip) or Has(Axe) or Has(Katana) or CanUse(Earth Spear) or CanUse(Bomb) or CanUse(Caltrops))`&#13;
+  - [SFG A-4] Left Snow Drop Coin Pot / Glossary&#13;
+    - Was: `Has(Katana) or Has(Axe) or CanUse(Earth Spear) or CanUse(Caltrops) or CanUse(Bomb) or (Has(Leather Whip) and Has(Vajra)) or (CanUse(Flare Gun) and (Has(Rapier) or Has(Knife) or CanUse(Rolling Shuriken)))`&#13;
+    - Now: `MeleeAttack or Has(Claydoll Suit) or CanUse(Earth Spear) or CanUse(Caltrops) or CanUse(Bomb) or CanUse(Pistol) or (CanUse(Flare Gun) and Has(Feather))`&#13;
+  - [SFG A-5] Hydlit checks&#13;
+    - Added TrickyLogic with just `PuzzleFinished(Bergelmir)`&#13;
+  - [AC D-7] (lava traversal logic for all checks)&#13;
+    - Was: `... and (Has(Claydoll Suit) or (Has(Ice Cloak) and OrbCount(2)))`&#13;
+    - Now: `... and (Has(Claydoll Suit) or Has(Feather) or (Has(Ice Cloak) and OrbCount(2)))`</content>
+    <link href="https://github.com/Crownmuri/Archipelago/releases/tag/v1.0.5"/>
+  </entry>
+  <entry>
+    <id>https://github.com/barretg/Taskipelago/releases/tag/v1.2.0-pre2</id>
+    <title>Taskipelago v1.2.0rc2</title>
+    <updated>2026-09-26T04:11:22+00:00</updated>
+    <author>
+      <name>barretg</name>
+    </author>
+    <content>*The big region overhaul (and also clicker game mode)*&#13;
+&#13;
+## What's new (v1.2.0)&#13;
+* New types of item grouping definitions. Now progressive, aesthetic, or random-choice&#13;
+  * aesthetic groups merely group things aesthetically with no effect on progression or not.&#13;
+  * random-choice groups randomly choose N or N% as you define items from within the group to be included in the world. No tasks may depend on individual items in these groups since they aren't guaranteed to exist, but depending on the randomized group as a whole or by percentage/count is supported.&#13;
+  * progressive groups function the same as always&#13;
+* Regions can now also be randomized to include N or N% of tasks within that region. May optionally also shuffle the order in which such tasks appear.&#13;
+* Subregions can now be defined within regions that aren't randomized (subregions may be randomized).&#13;
+* Regions may now depend on items and tasks via the syntax item(expr) and task(expr) where expr is any valid task or item dependency expression&#13;
+* Tasclickpelago toggle on the yaml generator that enables a bunch of features for building out an idle game because the concept was funny and I thought of a way to do it well.&#13;
+* Style tab added to the YAML generator so you can recolor the entire application at will while connected to the slot in question. Pretty colors are pretty.&#13;
+* Fix browser choice to use user's default where possible and never prefer Edge otherwise&#13;
+&#13;
+Note: should be fully backwards compatible with worlds generated from 1.0 onwards. Also Universal Tracker is still incompatible.</content>
+    <link href="https://github.com/barretg/Taskipelago/releases/tag/v1.2.0-pre2"/>
+  </entry>
+  <entry>
+    <id>https://github.com/Panguu/Archipelago-RaCSM/releases/tag/rac_size_matters-v0.4.26</id>
+    <title>Ratchet &amp; Clank: Size Matters v0.4.25</title>
+    <updated>2026-09-26T05:13:33+00:00</updated>
+    <author>
+      <name>Pangu</name>
+    </author>
+    <author>
+      <name>Amondo</name>
+    </author>
+    <author>
+      <name>ImJustATester</name>
+    </author>
+    <content>## Installation &amp; Setup&#13;
+&#13;
+- Requires [Archipelago](https://github.com/ArchipelagoMW/Archipelago/releases/latest). Make sure you are up-to-date.&#13;
+- Download the `.apworld` file below and double-click it to install. Restart Archipelago after installation.&#13;
+- Use **Options Creator** or **Generate Template Options** in the Archipelago Launcher to create player option YAML files.&#13;
+- Place your edited player option YAML files in the `Players` folder. Use **Browse Files...** in the Launcher to open the Archipelago directory.&#13;
+- Make sure you have all required `.apworld` files, your player YAMLs, and any desired `host.yaml` settings ready before generating. (`server_password` is recommended for admin login.)&#13;
+- Click **Generate** to create a multiworld `.zip` in the `output` folder.&#13;
+- Upload the generated `.zip` to https://archipelago.gg/uploads or self-host it. Self-hosting requires port forwarding.&#13;
+- For detailed setup instructions and game-specific documentation, see [game-specific documentation](https://github.com/Panguu/Archipelago-RaCSM/tree/SM-Main/worlds/rac_size_matters/docs).&#13;
+- If you encounter errors, run `ArchipelagoLauncherDebug.exe` or launch Archipelago from a terminal and check the `logs` folder.&#13;
+- Need help? Join the Archipelago Discord: https://discord.gg/8Z65BR2&#13;
+&#13;
+&#13;
+&#13;
+## Changelog&#13;
+&#13;
+- fix(SM): small fix to size matters rules for clank pack (5067470e)&#13;
+- fix(SM): make json match current world version (a5c56c8e)&#13;
+- fix(SM): clankpack rules (24d39fcb)&#13;
+&#13;
+Full comparison:&#13;
+https://github.com/Panguu/Archipelago-RaCSM/compare/rac_size_matters-v0.4.24...rac_size_matters-v0.4.26</content>
+    <link href="https://github.com/Panguu/Archipelago-RaCSM/releases/tag/rac_size_matters-v0.4.26"/>
+  </entry>
+  <entry>
+    <id>https://github.com/Dark-Listener/ArchipelagoA1800/releases/tag/release/v1.4.0</id>
+    <title>Anno 1800 v1.4.0</title>
+    <updated>2026-09-26T06:29:13+00:00</updated>
+    <author>
+      <name>DarkListener</name>
+    </author>
+    <content>After a bit of a break, I'm finally back with another update for Anno 1800!&#13;
+&#13;
+### Changes&#13;
+* Introduced hint system&#13;
+  * Send hints for visible, but locked items to the AP server&#13;
+  * Option to just send hints for items for which Anno 1800 already tells you the unlock requirement&#13;
+* Client Improvements&#13;
+  * Finally fixed the long-standing issue with order of opening the game and client on Windows (I hope)&#13;
+    * If this still doesn't work, yell at me&#13;
+  * Added version check - the client will now warn you when connecting to an incompatible mod version&#13;
+  * Client messages should be clearer&#13;
+* Added option to enforce Cape Trelawney access&#13;
+* Added location name groups that can be used to exclude locations more easily (see Locations page below)&#13;
+  * Removed option to exclude recipe unlocks due to redundancy&#13;
+* Reduced number of early spheres slightly, now starting checks off in sphere 1&#13;
+* Marked several items as 'useful' (see Items page below)&#13;
+* Fixed ingame notifications for items with square brackets in their name - they will be replaced by '|' instead&#13;
+* Fixed some minor issues in the documentation&#13;
+&#13;
+This release is **not** compatible with earlier versions.&#13;
+&#13;
+### [Game Page](&lt;https://github.com/Dark-Listener/ArchipelagoA1800/blob/release/v1.4.0/worlds/a1800/docs/en_Anno%201800.md&gt;) | [Setup](https://github.com/Dark-Listener/ArchipelagoA1800/blob/release/v1.4.0/worlds/a1800/docs/setup_en.md) | [Items](https://github.com/Dark-Listener/ArchipelagoA1800/blob/release/v1.4.0/worlds/a1800/docs/items_en.md) | [Locations](https://github.com/Dark-Listener/ArchipelagoA1800/blob/release/v1.4.0/worlds/a1800/docs/locations_en.md) | [Roadmap](https://github.com/Dark-Listener/ArchipelagoA1800/blob/release/v1.4.0/worlds/a1800/docs/roadmap_en.md)&#13;
+&#13;
+Find the apworld and several template yamls below.</content>
+    <link href="https://github.com/Dark-Listener/ArchipelagoA1800/releases/tag/release/v1.4.0"/>
+  </entry>
+  <entry>
+    <id>https://github.com/Silvris/Archipelago/releases/tag/mhfu_0.0.3</id>
+    <title>Monster Hunter Freedom Unite v0.0.3</title>
+    <updated>2026-09-26T07:15:43+00:00</updated>
+    <author>
+      <name>Silvris</name>
+    </author>
+    <author>
+      <name>IncognitoMan</name>
+    </author>
+    <content># Changes&#13;
+* Added a new client command `/check_goal` to display the goal quest, required key quest amount, and rank requirements&#13;
+* Key Quest label now displays `All Quests` if enough key quests have been received to access all randomized quests.&#13;
+&#13;
+# Bug Fixes&#13;
+* Fixed an issue where newer versions of PPSSPP would freeze on loading a quest.</content>
+    <link href="https://github.com/Silvris/Archipelago/releases/tag/mhfu_0.0.3"/>
+  </entry>
+  <entry>
+    <id>https://github.com/TheNooodle/MinishootRandomizer/releases/tag/v0.6.2</id>
+    <title>Minishoot Adventures v0.6.0r2</title>
+    <updated>2026-09-26T09:40:05+00:00</updated>
+    <author>
+      <name>TheNouillet</name>
+    </author>
+    <content>## [0.6.2] - 2026-09-26&#13;
+&#13;
+### Added&#13;
+&#13;
+- The map screen can now show the interior of various ingame locations, as well as location markers.&#13;
+    - The game automatically switch the displayed map to the one corresponding to the player current location.&#13;
+    - You can use the "Power of time" and "Power of protection" keybindings to switch from one map to another.&#13;
+- The map screen now shows the goal of the current seed at the top right corner of the screen (e.g. "Objective : Dungeon 5 &amp; Snow").&#13;
+- The map screen now shows the Locations of the marker pointed at in the top right corner of the screen.&#13;
+    - You can hover on markers with your mouse, or with the cursor at the center of the screen when on gamepad.&#13;
+    - Already found Locations are hidden, and the remaining ones are color coded: white when in logic, yellow when out of logic, and dark gray when inaccessible.&#13;
+&#13;
+### Changed&#13;
+&#13;
+- Changed the way the map markers are loaded to minimize game freeze.</content>
+    <link href="https://github.com/TheNooodle/MinishootRandomizer/releases/tag/v0.6.2"/>
   </entry>
 </feed>
