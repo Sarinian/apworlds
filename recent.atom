@@ -2,30 +2,11 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://raw.githubusercontent.com/silasary/apworlds/refs/heads/main/recent.atom</id>
   <title>Recent APWorlds</title>
-  <updated>2026-09-27T16:06:11.632590+00:00</updated>
+  <updated>2026-09-27T20:44:16.490020+00:00</updated>
   <author>
     <name>Silasary</name>
   </author>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
-  <entry>
-    <id>https://github.com/FarisTheAncient/Archipelago/releases/tag/Tracker_v0.3.4</id>
-    <title>Universal Tracker v0.3.4</title>
-    <updated>2026-09-23T03:05:11+00:00</updated>
-    <author>
-      <name>FarisTheAncient</name>
-    </author>
-    <content>## What's Changed&#13;
-* Add zoom and pan to map tracker by @espaspw in https://github.com/FarisTheAncient/Archipelago/pull/146&#13;
-* Added Yamlless fuzzer hook&#13;
-* added message to the tracker tab about /faris_asked... hopefully&#13;
-* Hide excluded locations on the map if we're hiding them from the tracker tab&#13;
-&#13;
-## New Contributors&#13;
-* @espaspw made their first contribution in https://github.com/FarisTheAncient/Archipelago/pull/146&#13;
-&#13;
-**Full Changelog**: https://github.com/FarisTheAncient/Archipelago/compare/Tracker_v0.3.3...Tracker_v0.3.4</content>
-    <link href="https://github.com/FarisTheAncient/Archipelago/releases/tag/Tracker_v0.3.4"/>
-  </entry>
   <entry>
     <id>https://github.com/FarisTheAncient/Archipelago/releases/tag/Tracker_Addons_v0.1.2</id>
     <title>Universal Tracker Addons v0.1.2</title>
@@ -1600,5 +1581,52 @@ For instructions, see the [Setup Guide.](https://github.com/dannybonz/ae2_archip
 &#13;
 **This release is not backwards compatible with 6.0.0-rc.3**</content>
     <link href="https://github.com/gerbiljames/Archipelago-Crystal/releases/tag/6.0.0-rc.4"/>
+  </entry>
+  <entry>
+    <id>https://github.com/Str8UpWHITE64/CrabChampionsAP/releases/tag/1.4.0</id>
+    <title>Crab Champions v1.4.0</title>
+    <updated>2026-09-27T15:39:18+00:00</updated>
+    <author>
+      <name>Str8UpWHITE64</name>
+    </author>
+    <content>## Highlights
+
+Every weapon, melee weapon and ability can now go in the pool, only pool equipment counts toward your goal, and received perks and mods are applied as whole stacks.
+
+**Compatible with 1.3 seeds.** Update the apworld and the mod together.
+
+## Changes
+
+### Full equipment pools
+`weapons_in_pool`, `melee_in_pool` and `abilities_in_pool` now go up to 20, 5 and 7, which puts every item of that kind in the pool. When a pool is full you start with one random item from it, so you always have something to use. `starting_weapons` is forced to at least 1 when `weapons_in_pool` is 20.
+
+### Completion only counts pool equipment
+Equipment you have from the start no longer counts toward `weapons_for_completion`, `melee_for_completion` or `ability_for_completion`. With `equipment_check_mode` set to `regular` or `filler_only`, the goal could previously be finished without receiving a single AP item. Runs with non-pool equipment are still location checks under `equipment_check_mode`, they just don't advance the goal.
+
+Seeds made with 1.3 keep the old rule, so updating mid-seed won't change your goal.
+
+### Starting equipment isn't duplicated
+Equipment you start with is no longer also placed in the item pool. That slot goes to filler instead of a second copy of something you already have.
+
+### `guaranteed_items` copy counts
+Counts are now honored for perks and mods, so `Time Bolt: 2` gives two copies. Relics and equipment are unique and still get one.
+
+## Bug Fixes
+
+- Received perks and mods are now applied as one stack per item. Duplicates that arrived after your inventory filled up no longer get stuck behind other items, and items you already have still stack when the inventory is full.
+- Fixed reconnecting mid-session leaving stale state behind, which could grant pending crystals twice or stop overflowed items from retrying.
+- The mod now refuses to connect to a seed made for a different major version instead of sending checks for the wrong locations, and the overlay says why.
+
+## For Developers
+
+- F9 writes a full pickup dump (`pickup_dump_&lt;time&gt;.txt`) with every item's rarity, loot pool and tag, and flags new and greed items.
+- `tools/check_sync.py` checks the Lua client's item tables against the apworld.
+
+## Download
+
+- Archipelago world: `crabchampions.apworld` → place in your Archipelago `custom_worlds/` directory
+- In-game mod: `CrabChampionsAP.zip` → extract into your Crab Champions `Mods/` directory (UE4SS required)
+</content>
+    <link href="https://github.com/Str8UpWHITE64/CrabChampionsAP/releases/tag/1.4.0"/>
   </entry>
 </feed>
