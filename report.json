@@ -1,7 +1,7 @@
 {
   "total_repositories": 888,
   "total_packages": 1031,
-  "total_versions": 11520,
+  "total_versions": 11534,
   "manifest_ready": {
     "isles_of_trials": true,
     "manual_skylandersgiants_thisguyhere": true,
@@ -645,6 +645,7 @@
     "rimworld": true,
     "manual_powerwashsimulator_hallojasper": false,
     "sims4": true,
+    "ss2": true,
     "dead_cells": true,
     "fp2": true,
     "smash64": true,
@@ -996,7 +997,7 @@
     "": 444,
     "0.4.0": 2,
     "0.5.0": 17,
-    "0.5.1": 3,
+    "0.5.1": 4,
     "0.6.0": 15,
     "0.6.1": 12,
     "0.6.2": 11,
@@ -1016,7 +1017,7 @@
     "0.6.4": 1,
     "0.6.6": 1,
     "0.6.7": 2,
-    "0.6.99": 328,
+    "0.6.99": 329,
     "0.9.99": 1
   }
 }
