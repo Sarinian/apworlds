@@ -2,55 +2,11 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://raw.githubusercontent.com/silasary/apworlds/refs/heads/main/recent.atom</id>
   <title>Recent APWorlds</title>
-  <updated>2026-09-26T20:28:50.544135+00:00</updated>
+  <updated>2026-09-27T02:19:10.828553+00:00</updated>
   <author>
     <name>Silasary</name>
   </author>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
-  <entry>
-    <id>https://github.com/thejoshwolfe/Archipelago/releases/tag/space-age-v3.0.5</id>
-    <title>Factorio: Space Age v3.0.5</title>
-    <updated>2026-09-22T14:31:54+00:00</updated>
-    <author>
-      <name>Berserker</name>
-    </author>
-    <author>
-      <name>Josh Wolfe</name>
-    </author>
-    <content># Factorio: Space Age apworld 3.0.5&#13;
-&#13;
-* Better error reporting when creating save files in directories with problematic permissions. Thanks @lepideble for the suggestion.&#13;
-&#13;
-download: https://github.com/thejoshwolfe/Archipelago/releases .&#13;
-general docs: https://github.com/thejoshwolfe/Archipelago/blob/space-age/worlds/factorio_space_age/docs/en_Factorio_Space_Age.md .&#13;
-setup guide: https://github.com/thejoshwolfe/Archipelago/blob/space-age/worlds/factorio_space_age/docs/setup_en.md .&#13;
-source code: https://github.com/thejoshwolfe/Archipelago/tree/space-age/worlds/factorio_space_age .</content>
-    <link href="https://github.com/thejoshwolfe/Archipelago/releases/tag/space-age-v3.0.5"/>
-  </entry>
-  <entry>
-    <id>https://github.com/ArchipelagoBrad/deadlockipelago/releases/tag/1.1.7-Linux</id>
-    <title>Deadlock v1.1.7r2</title>
-    <updated>2026-09-22T15:15:58+00:00</updated>
-    <author>
-      <name>ArchipelagoBrad</name>
-    </author>
-    <content>Bring Linux version to be in parity with version 1.1.7 while retaining the SSL fix needed for Linux.&#13;
-[Read 1.1.7 Changes Here](https://github.com/ArchipelagoBrad/deadlockipelago/releases/tag/1.1.7)&#13;
-&#13;
-**This is meant as an attempt for a fix on some Linux distros. For most other purposes, please download the [standard 1.1.7 release](https://github.com/ArchipelagoBrad/deadlockipelago/releases/tag/1.1.7) instead.**</content>
-    <link href="https://github.com/ArchipelagoBrad/deadlockipelago/releases/tag/1.1.7-Linux"/>
-  </entry>
-  <entry>
-    <id>https://github.com/ljtpetersen/platinum_archipelago/releases/tag/v0.2.2</id>
-    <title>Pokemon Platinum v0.2.2</title>
-    <updated>2026-09-22T18:47:38+00:00</updated>
-    <author>
-      <name>ljtpetersen</name>
-    </author>
-    <content>### Fixed&#13;
-* Using old patches with the new version now works.</content>
-    <link href="https://github.com/ljtpetersen/platinum_archipelago/releases/tag/v0.2.2"/>
-  </entry>
   <entry>
     <id>https://github.com/m-this/tf2-archipelago/releases/tag/v1.17.3</id>
     <title>Team Fortress 2 Mann vs Machine v1.17.3</title>
@@ -988,7 +944,7 @@ Does what you think it would.</content>
 and it is replaced without warning. For something that stays put, use the
 [latest release](https://github.com/m-this/tf2-archipelago/releases/latest).
 
-Built from `2d67867423d788001df211a63fc2539eacc4db17`.
+Built from `7e3cf749b7815eb13e25752246c47ae662f45e9c`.
 
 ## Downloads
 
@@ -997,6 +953,10 @@ Built from `2d67867423d788001df211a63fc2539eacc4db17`.
 
 ## Since v1.17.3
 
+- fix(launcher): redownload mismatched community packs during Repair (#151)
+- Prevent replayed weapon buffs from increasing levels (#168)
+- feat(waveprobe): measure how the defender bots move (#149)
+- chore(deps): tf2-mvm-bots-go v0.18.1 (#169)
 - beads: the share of SigMod still unresolved on Windows, measured
 - beads: close apw-5g4.29, the plugin's GetMaxAmmo hook runs on every map
 - beads: the Windows SigMod port's state after the bed sweeps
@@ -1704,5 +1664,111 @@ source code: https://github.com/thejoshwolfe/Archipelago/tree/space-age/worlds/f
       <name>Galdiuz</name>
     </author>
     <link href="https://github.com/galdiuz/archipeladoku/releases/tag/v2026.09.26"/>
+  </entry>
+  <entry>
+    <id>https://github.com/Lemix028/Archipelago-NewSuperMarioBrosDS/releases/tag/nsmbds-v0.5.1-unstable</id>
+    <title>New Super Mario Bros. DS v0.5.1</title>
+    <updated>2026-09-26T19:58:20+00:00</updated>
+    <author>
+      <name>Lemix028</name>
+    </author>
+    <content>This update focuses heavily on **performance, stability, and bug fixes**. A lot of work went into reducing emulator stutters and improving the Lua runtime, HUD rendering, Traps, and client communication.&#13;
+&#13;
+It also adds **Music Randomization**, **Death Link Amnesty**, and a new **Star Coin Tracking** option.&#13;
+&#13;
+## Added&#13;
+&#13;
+- Added **Music Randomization** with four modes:&#13;
+  - Off&#13;
+  - Level music&#13;
+  - Level + World Map music&#13;
+  - Mixed Level + World Map music&#13;
+- Added **Death Link Amnesty**&#13;
+  - Controls how many local deaths are required before sending a Death Link&#13;
+  - For example, a value of 5 sends every fifth eligible local death&#13;
+- Added a **Star Coin Tracking** option:&#13;
+  - Instant collection&#13;
+  - Vanilla behavior, where Star Coins are only saved after completing the level&#13;
+- Added new troubleshooting commands:&#13;
+  - /nsmbds_diag [short|full] displays client, BizHawk, synchronization, and runtime information&#13;
+  - /nsmbds_debug [on|off] enables or disables detailed NSMBDS debug logging&#13;
+&#13;
+## Performance &amp; Compatibility&#13;
+&#13;
+- Significantly improved **runtime performance**&#13;
+- Reduced stuttering when sending and receiving items&#13;
+- Improved notification, Trap status, and protection HUD rendering&#13;
+- Improved performance of several Traps, especially **Pixelation**&#13;
+- Reduced unnecessary Lua and client processing&#13;
+- Improved **melonDS JIT compatibility**&#13;
+  - Red Coin Challenges now work with JIT enabled&#13;
+  - Several Trap and input systems now use native ROM hooks&#13;
+- Improved **Universal Tracker compatibility**&#13;
+- Improved **Ionium compatibility**&#13;
+  - High randomized percentage values are now safely capped instead of causing generation failures&#13;
+  - Empty filler selections are now supported&#13;
+&#13;
+&gt; **JIT Recompiler is recommended for better performance.**&#13;
+&#13;
+## Logic &amp; Fixes&#13;
+&#13;
+- Fixed Red Coin Challenges not triggering with melonDS JIT enabled&#13;
+- Fixed several Star Coin Gate logic issues&#13;
+- Fixed incorrect Star Coin Gate ordering in some worlds&#13;
+- Fixed chained Star Coin Gates not accounting for earlier required gates&#13;
+- Fixed some collected Star Coins not counting correctly toward gate requirements&#13;
+- Fixed World 3-Tower Star Coin 3 missing its Mushroom Permit requirement&#13;
+- Fixed several BizHawk launcher and saved path issues&#13;
+- Improved handling of temporary client/BizHawk communication problems&#13;
+- Reduced unnecessary logging and repeated warnings&#13;
+- Various smaller runtime and stability fixes&#13;
+&#13;
+## Important&#13;
+&#13;
+A **newly generated 0.5.1 patch is recommended** because several native ROM hooks have changed.&#13;
+&#13;
+## Links&#13;
+&#13;
+- **Game Info:** https://github.com/Lemix028/Archipelago-NewSuperMarioBrosDS/tree/nsmbds/worlds/nsmbds/docs/en_New%20Super%20Mario%20Bros.%20DS&#13;
+- **Setup Guide:** https://github.com/Lemix028/Archipelago-NewSuperMarioBrosDS/tree/nsmbds/worlds/nsmbds/docs/setup_en.md&#13;
+- **PopTracker:** https://github.com/Lemix028/NewSuperMarioBrosDS-poptracker/releases/latest</content>
+    <link href="https://github.com/Lemix028/Archipelago-NewSuperMarioBrosDS/releases/tag/nsmbds-v0.5.1-unstable"/>
+  </entry>
+  <entry>
+    <id>https://github.com/Nepley/eosd-apworld/releases/tag/v1.5.0</id>
+    <title>Touhou Koumakyou ~ the Embodiment of Scarlet Devil v1.5.0</title>
+    <updated>2026-09-26T20:34:52+00:00</updated>
+    <author>
+      <name>Nepley</name>
+    </author>
+    <content>* Added support for the classic re-release version</content>
+    <link href="https://github.com/Nepley/eosd-apworld/releases/tag/v1.5.0"/>
+  </entry>
+  <entry>
+    <id>https://github.com/barretg/Taskipelago/releases/tag/v1.2.0</id>
+    <title>Taskipelago v1.2.0</title>
+    <updated>2026-09-26T22:11:52+00:00</updated>
+    <author>
+      <name>barretg</name>
+    </author>
+    <content>*The big region overhaul (and also clicker game mode)*&#13;
+&#13;
+## What's new&#13;
+* New types of item grouping definitions. Now progressive, aesthetic, or random-choice&#13;
+  * aesthetic groups merely group things aesthetically with no effect on progression or not.&#13;
+  * random-choice groups randomly choose N or N% as you define items from within the group to be included in the world. No tasks may depend on individual items in these groups since they aren't guaranteed to exist, but depending on the randomized group as a whole or by percentage/count is supported.&#13;
+  * progressive groups function the same as always&#13;
+* Regions can now also be randomized to include N or N% of tasks within that region. May optionally also shuffle the order in which such tasks appear.&#13;
+* Subregions can now be defined within regions that aren't randomized (subregions may be randomized).&#13;
+* Regions may now depend on items and tasks via the syntax item(expr) and task(expr) where expr is any valid task or item dependency expression&#13;
+* Tasclickpelago toggle on the yaml generator that enables a bunch of features for building out an idle game because the concept was funny and I thought of a way to do it well.&#13;
+* Style tab added to the YAML generator so you can recolor the entire application at will while connected to the slot in question. Pretty colors are pretty.&#13;
+* Added syntax `item(...) and task(...)` to reference an item or task from within task prereqs and item prereqs fields respectively. This also works in the goal requirements, so you can now depend on receiving items to goal. The other benefit here is using OR operators on tasks and items together allowing for some interesting new logic.&#13;
+* Added a setting for filler items to grant a hint/scout for a random item (See the hint/scout dropdown).&#13;
+* Fix browser choice to use user's default where possible and never prefer Edge otherwise&#13;
+* Fix OR not working properly with region dependencies&#13;
+&#13;
+Note: should be fully backwards compatible with worlds generated from 1.0 onwards. Also Universal Tracker is still incompatible.</content>
+    <link href="https://github.com/barretg/Taskipelago/releases/tag/v1.2.0"/>
   </entry>
 </feed>
