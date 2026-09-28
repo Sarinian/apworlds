@@ -2,109 +2,11 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://raw.githubusercontent.com/silasary/apworlds/refs/heads/main/recent.atom</id>
   <title>Recent APWorlds</title>
-  <updated>2026-09-28T02:28:42.057125+00:00</updated>
+  <updated>2026-09-28T12:24:57.631659+00:00</updated>
   <author>
     <name>Silasary</name>
   </author>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
-  <entry>
-    <id>https://github.com/Kryen112/AP_Stick_Ranger/releases/tag/1.8.2</id>
-    <title>Stick Ranger v1.8.2</title>
-    <updated>2026-09-23T07:05:47+00:00</updated>
-    <author>
-      <name>Kryen112</name>
-    </author>
-    <content>## Installation
-
--   Download the APworld for Stick Ranger
--   Put the stick_ranger.apworld in the /custom_worlds folder inside Archipelago
--   Generate a yaml or download the one in here
--   Customize the yaml and put it in the /players folder inside Archipelago
--   Generate a game
--   Connect to and play the game [here](https://kryen112.github.io/)
-
-## Heads up
-
--   **Nothing to do.** No gameplay change, no option change, no seed change. If
-    you are on 1.8.1 you are already up to date; the website has updated itself.
--   The APworld is identical to 1.8.1 apart from its version number, so there is
-    no need to re-download it or regenerate anything.
--   Requires Archipelago **0.6.7 or newer**.
-
-## Changes
-
-### Client
-
--   Removed ten leftover values the website set on connect and then never read.
-    They were the boss class and stage requirements, which the website stopped
-    using in 1.8.0 when it started evaluating the logic the seed ships. Leaving
-    them in made it look like those gates were still wired up by hand, which is
-    exactly the confusion that caused the 1.6.0 logic bugs.
--   The save is no longer fetched with an argument that was being read as a
-    "watch this key" flag, so the server stops echoing a notification back on
-    every single save.
-
-Both are housekeeping following the 1.8.1 audit. Nothing you can see changed.
-</content>
-    <link href="https://github.com/Kryen112/AP_Stick_Ranger/releases/tag/1.8.2"/>
-  </entry>
-  <entry>
-    <id>https://github.com/DQIX/ArchipelagoDQIX/releases/tag/0.1.2</id>
-    <title>Dragon Quest IX v0.1.2</title>
-    <updated>2026-09-23T07:55:20+00:00</updated>
-    <author>
-      <name>kid2407</name>
-    </author>
-    <content># Dragon Quest IX - Beta Release (Version 0.1.2)&#13;
-&#13;
-**This is a beta release. Things can possibly break, though the core gameplay should run normally.**&#13;
-&#13;
-*This requires Archipelago **0.6.7 or newer!***&#13;
-*This is most likely **NOT** compatible with seeds generated on an earlier version*&#13;
-&#13;
-New to the game? Check out the [FAQ](https://discord.com/channels/731205301247803413/1427594624389742716/1491731616068800543)&#13;
-## Bugs fixed&#13;
-&#13;
-* Removed old mans bath, since it is not accessible until postgame&#13;
-* Fixed incorrect logic for Realm of the Mighty&#13;
-&#13;
-## Added or Updated Features&#13;
-&#13;
-* When reloading from a save, missing items should now be re-granted instead of being lost (experimental)&#13;
-&#13;
-## Dev Stuff&#13;
-&#13;
-* Some refactoring for items and locations, to make it easier to work with in the future</content>
-    <link href="https://github.com/DQIX/ArchipelagoDQIX/releases/tag/0.1.2"/>
-  </entry>
-  <entry>
-    <id>https://github.com/toent/Archipelago-MKWii/releases/tag/v0.3.0</id>
-    <title>Mario Kart Wii v0.3.0</title>
-    <updated>2026-09-23T12:51:40+00:00</updated>
-    <author>
-      <name>toent</name>
-    </author>
-    <content>## Release Version 0.3.0: Character &amp; Vehicle Randomizing&#13;
-The long awaited update is finally here! From now on default unlocked Characters and Vehicles will be locked from the start. A run will start with 2 starting characters: one with a kart unlocked and one with a bike unlocked. If you make a combo that you dont have unlocked the client will automatically set your Character and Vehicle to a random legal combo for that engine class (so it will only allow you to use both karts and bikes when you have the item for it on 50cc and 100cc).&#13;
-&#13;
-### Changelog:&#13;
-- [APWorld] Added 2 new options for enabling and disabling default character/vehicle inclusion seperately.&#13;
-- [APWorld] Added the default characters and vehicles as items.&#13;
-- [APWorld] Updated the rules of the generator to keep the new options in mind.&#13;
-- [Client] Implemented unlock handling for default unlocked characters and vehicles.&#13;
-- [Client] Implemented safeguard for if the user tries to select an illegal combo anyways.&#13;
-- [Client] Includes the Victory Trophy handling rework of [pre0.2.4](https://github.com/toent/Archipelago-MKWii/releases/tag/pre0.2.4).&#13;
-- [Tracker] Added new tab for characters and their icons to display availability.&#13;
-- [Tracker] Added new tab for vehicles, grouped by weight class to display availability.&#13;
-- [Tracker] Fixed an issue where the hitbox for the eye icon to hide your AP server ip stretched too far downwards, causing accidental clicks.&#13;
- &#13;
-**REQUIRES THIS NEW APWORLD**&#13;
-&#13;
-_Linux users, download the source code here to run the client._&#13;
-&#13;
-**Full Changelog**: https://github.com/toent/Archipelago-MKWii/compare/v0.2.3...v0.3.0</content>
-    <link href="https://github.com/toent/Archipelago-MKWii/releases/tag/v0.3.0"/>
-  </entry>
   <entry>
     <id>https://github.com/JBtheShadow/APManuals/releases/tag/v1.2.0</id>
     <title>Manual_FantasyLife_JBtheShadow v1.2.0</title>
@@ -1639,5 +1541,136 @@ https://github.com/aurabot24/Archipelago-ALttPR/releases/latest&#13;
 [Mod Link](https://github.com/Jeffdev-Archipelago-Implementations/FuniRaccoonAP/releases/latest)&#13;
 [Setup Guide](https://github.com/Jeffdev-Archipelago-Implementations/Archipelago-Funi/blob/main/worlds/funi_raccoon/docs/setup_en.md)</content>
     <link href="https://github.com/Jeffdev-Archipelago-Implementations/Archipelago-Funi/releases/tag/1.8.0"/>
+  </entry>
+  <entry>
+    <id>https://github.com/Kryen112/AP_Stick_Ranger/releases/tag/1.8.3</id>
+    <title>Stick Ranger v1.8.3</title>
+    <updated>2026-09-28T07:16:49+00:00</updated>
+    <author>
+      <name>Kryen112</name>
+    </author>
+    <content>## Installation
+
+-   Download the APworld for Stick Ranger
+-   Put the stick_ranger.apworld in the /custom_worlds folder inside Archipelago
+-   Generate a yaml or download the one in here
+-   Customize the yaml and put it in the /players folder inside Archipelago
+-   Generate a game
+-   Connect to and play the game [here](https://kryen112.github.io/)
+
+## Heads up
+
+-   **Just reload the page.** No new seed, no new yaml, no re-download. The
+    APworld is identical to 1.8.2 apart from its version number.
+-   Requires Archipelago **0.6.7 or newer**.
+
+## Angels no longer crash the game
+
+An Angel froze the game as soon as a thrown ring landed. Gold per Thrown Ring
+defaults to 50, so this hit every seed with an Angel in it.
+
+Stick Ranger checks that your gold still matches what it last recorded, and
+destroys the game window if it does not. Every other place that moves gold tells
+it to record the new value. The ring payout, added in 1.8.0, did not — so the
+next check saw gold it had not agreed to and killed the window.
+
+Thanks to everyone who reported it.
+
+## Also fixed
+
+-   The -50% gold trap changed your gold without going through the one place
+    Ring Link watches, so a trap taking half your money broadcast nothing to the
+    room.
+-   With Ring Link off, the running total of unsent gold was never emptied and
+    grew for the whole session.
+
+## Changes
+
+### Client
+
+-   Every gold movement is now checked against the anti-cheat by a test, at
+    every place in the game that moves gold, so this cannot come back at a new
+    one.
+-   A second test asserts nothing moves gold behind Ring Link's back.
+</content>
+    <link href="https://github.com/Kryen112/AP_Stick_Ranger/releases/tag/1.8.3"/>
+  </entry>
+  <entry>
+    <id>https://github.com/thejoshwolfe/Archipelago/releases/tag/space-age-v4.0.0</id>
+    <title>Factorio: Space Age v4.0.0</title>
+    <updated>2026-09-28T09:39:32+00:00</updated>
+    <author>
+      <name>Berserker</name>
+    </author>
+    <author>
+      <name>Josh Wolfe</name>
+    </author>
+    <content># Factorio: Space Age apworld 4.0.0&#13;
+&#13;
+* MAJOR FEATURE: Add `starting_planet: aquilo_orbit`, which integrates my brand new [aquilo-orbit-start](https://mods.factorio.com/mod/aquilo-orbit-start) mod.&#13;
+    * This is flagged as a major feature with a major version bump because it is dramatically different from the other `starting_planet` options. If you've been putting `random` as your starting planet, you should probably read that mod's description before you dive in again.&#13;
+    * I think the aquilo-orbit-start idea is super fun, but others may find it somewhere between tedious and overpowered. I recommend giving it a try to see if you enjoy it.&#13;
+    * Added a new option `aquilo_orbit_start_settings` to adjust the balance. The default is designed to progress very fast. Please let me know if the defaults are buffed too hard.&#13;
+    * Starting in Aquilo orbit interacts with these other options: `goal`, `space_technology_level`, `require_electric_mining_drill`,&#13;
+    * The mod has been tested, but is still pretty new. Please report bugs, balance suggestions, or any other feedback!&#13;
+&#13;
+download: https://github.com/thejoshwolfe/Archipelago/releases .&#13;
+general docs: https://github.com/thejoshwolfe/Archipelago/blob/space-age/worlds/factorio_space_age/docs/en_Factorio_Space_Age.md .&#13;
+setup guide: https://github.com/thejoshwolfe/Archipelago/blob/space-age/worlds/factorio_space_age/docs/setup_en.md .&#13;
+source code: https://github.com/thejoshwolfe/Archipelago/tree/space-age/worlds/factorio_space_age .</content>
+    <link href="https://github.com/thejoshwolfe/Archipelago/releases/tag/space-age-v4.0.0"/>
+  </entry>
+  <entry>
+    <id>https://github.com/Kryen112/AP_Stick_Ranger/releases/tag/1.8.4</id>
+    <title>Stick Ranger v1.8.4</title>
+    <updated>2026-09-28T11:26:11+00:00</updated>
+    <author>
+      <name>Kryen112</name>
+    </author>
+    <content>## Installation
+
+-   Download the APworld for Stick Ranger
+-   Put the stick_ranger.apworld in the /custom_worlds folder inside Archipelago
+-   Generate a yaml or download the one in here
+-   Customize the yaml and put it in the /players folder inside Archipelago
+-   Generate a game
+-   Connect to and play the game [here](https://kryen112.github.io/)
+
+## Heads up
+
+-   **Just reload the page.** No new seed, no new yaml, no re-download. The
+    APworld is identical to 1.8.3 apart from its version number.
+-   Requires Archipelago **0.6.7 or newer**.
+
+## Rangers walking off on their own
+
+A ranger would sometimes wander towards enemies while still attacking, most
+visibly a Sniper strolling into melee. It was a movement key stuck on.
+
+Only the selected ranger responds to the walk keys, and that walk runs
+independently of attacking, so a stuck key is the one thing that makes a ranger
+walk and shoot at the same time. Three ways it got stuck, all fixed:
+
+-   Releasing `a` or `d` while holding Shift cleared the wrong key and left the
+    original held for good.
+-   A key held while the window lost focus never got a release at all, so
+    alt-tabbing mid-walk left the ranger walking.
+-   Anything typed into the Archipelago chat box also reached the game, so
+    chatting a word with an `a` or `d` in it walked whoever was selected.
+
+## Shop checks
+
+-   Shop cells now show the Archipelago logo. The logo is a separate image and
+    the shop was looking for it in the item sheet, where it does not exist, so
+    the cell came out blank.
+-   The Shop Hints line no longer overlaps. It sat four pixels above the stat
+    rows and ran sideways over the item grid; it now wraps into the space the
+    stats used to take.
+-   An uncollected check no longer lists the weapon's AT, AGI and Range. Buying
+    it sends a check rather than the weapon, so those numbers never described
+    what you were buying. They come back once the check is collected and the
+    cell sells the real item again.
+</content>
+    <link href="https://github.com/Kryen112/AP_Stick_Ranger/releases/tag/1.8.4"/>
   </entry>
 </feed>
