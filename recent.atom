@@ -2,207 +2,11 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://raw.githubusercontent.com/silasary/apworlds/refs/heads/main/recent.atom</id>
   <title>Recent APWorlds</title>
-  <updated>2026-09-29T17:20:14.194462+00:00</updated>
+  <updated>2026-09-29T21:47:12.695189+00:00</updated>
   <author>
     <name>Silasary</name>
   </author>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
-  <entry>
-    <id>https://github.com/Panguu/Archipelago-RaCSM/releases/tag/rac_size_matters-v0.4.23</id>
-    <title>Ratchet &amp; Clank: Size Matters v0.4.22r2</title>
-    <updated>2026-09-25T20:48:34+00:00</updated>
-    <author>
-      <name>Pangu</name>
-    </author>
-    <author>
-      <name>Amondo</name>
-    </author>
-    <author>
-      <name>ImJustATester</name>
-    </author>
-    <content>## Installation &amp; Setup
-
-- Requires [Archipelago](https://github.com/ArchipelagoMW/Archipelago/releases/latest). Make sure you are up-to-date.
-- Download the `.apworld` file below and double-click it to install. Restart Archipelago after installation.
-- Use **Options Creator** or **Generate Template Options** in the Archipelago Launcher to create player option YAML files.
-- Place your edited player option YAML files in the `Players` folder. Use **Browse Files...** in the Launcher to open the Archipelago directory.
-- Make sure you have all required `.apworld` files, your player YAMLs, and any desired `host.yaml` settings ready before generating. (`server_password` is recommended for admin login.)
-- Click **Generate** to create a multiworld `.zip` in the `output` folder.
-- Upload the generated `.zip` to https://archipelago.gg/uploads or self-host it. Self-hosting requires port forwarding.
-- For detailed setup instructions and game-specific documentation, see [game-specific documentation](https://github.com/Panguu/Archipelago-RaCSM/tree/SM-Main/worlds/rac_size_matters/docs).
-- If you encounter errors, run `ArchipelagoLauncherDebug.exe` or launch Archipelago from a terminal and check the `logs` folder.
-- Need help? Join the Archipelago Discord: https://discord.gg/8Z65BR2
-
-
-
-## Changelog
-
-- fix(SM): additional options error (a74587c4)
-- fix(SM): minor rule fixes for inside clank and some tidy up (d49a623c)
-- chore(SM): additional AP icons chosable through /apicon [name] (ccf7281c)
-- feat(SM): restore Size Matters world on SM-Main (ad37a713)
-- chore: move Size Matters worlds to SM-Main branch (01a3a857)
-- feat(SM): clank pack as an optional item (52e5f24e)
-- fix(sm): removed tooling' (2056c670)
-- fix(SM): additional options for clank pack and hopefully fuzz runs (df1e5e47)
-- fix(SM): rules revolving around shrink ray locations (71c6538c)
-- feat(SM): Eu and JP addresses starting implementation and refactor of locations and rules (c8480ee2)
-- fix(sm): actually fixing previous errors as they were still occuring (298b0de3)
-- fix(sm): weapon levels not persisting across levels (1cb8355c)
-- fix(SM): fix rules error for shrink ray locations (41892199)
-- fix(SM): if mootator weapon is disabled disable crabby skill point (b64459e0)
-- fix(SM): disconnection message, additional multiplayer skins, additional ship selection menu and QoL changes (ca4984fa)
-- fix(SM): disconnection message, additional multiplayer skins, additional ship selection menu and QoL changes (5c9be6b6)
-- fix(SM): failing import of archipelago icons (f77dd072)
-- fix(SM): vendor now displays ap icon and displays appropriate text for items in vendor (b40b2295)
-- fix(SM): failing tests (39b643f0)
-- fix(SM): incorrect rules (d2f7c756)
-- fix(SM): rules mismatch for pokitaru (548a7e27)
-- feat(SM): Redesign of SM logic to include live patching (cdbad74b)
-- fix(Rac5): location checks on incorrect planet, vendor logic purchase titans showing duplicate and being buggy (4645cdf6)
-- Fix README formatting and clarify Shrink Ray Skips (aae319e1)
-- Update README with design questions and Shrink Ray Skips (05b64ee1)
-- fix(size matters ps2): options issue on selecting specific clank challanges (77d8d1c5)
-- feat(size matters ps2): added logic for ghost ratchet, ammo link and bolt link for rac5 (56639d96)
-- feat(size matters): tracker and ng+ logic updates. (8f153ddb)
-- fix: rules issue with setting ryllus always acessible (6e4bd3ab)
-- fix(size matters): infobot pokitaru is now infobot pokitaru and ryllus (535db97f)
-- fix(size matters): nicer title for window using r&amp;c 5 if multiple titles are available (ab3773fc)
-- fix: forced starting planet including ryllus (322ab35f)
-- fix(size matters): update docs (847de01d)
-- feat(size matters, dynamic pine): reverted pypine to submodules and giant clank/forced loads are now handled (7e785a60)
-- feat: no more submodules thank fk (cc551230)
-- fix: game logic on forced weapon into weapon cycler and added launched_via_hub for dynamic pine (0ef74027)
-- feat: dynamic pine integration (df1296fd)
-- fix(dyanmic pine, weapons): weapon levels are consistant and prevent accidently over leveling and dynamic pine integration (b1b4d158)
-- feat(dynamic pine): initial implementation of dynamic pine with rac size matters being first ap to use the tool (615ff655)
-- feat(psp, docs): initial implementation of psp mostly matching ps2 state, and some readme docs updates (202c080c)
-- fix: spelling mistake on Sprout O matic (0ec88e90)
-- fix: added slot data and builder for planet specific weapon tables (9717abbf)
-- tidy: tidyup comments and force all weapons/gadgets every cycle (21ae1a02)
-- fix: weapon exp issues (7b44f5aa)
-- fix: additional issues from armour and weapon pickups (75f7ee81)
-- fix: broken pickup logic and planets being given to player outside of ap (5cb4a184)
-- fix: stupid issue with sending multiple starting items, armour sets are working again (667f821f)
-- fix: weapon level names not appearing in apworld (dd738a7d)
-- fix: broken mod vendor logic and fix names for weapon level locations (5f9959f9)
-- fix: broken fill error hopefully... (a582fdec)
-- feat: finally fixed vendors, progressive levels, multiplier for bolts and exp (5b110006)
-- fix: god i hate refactors (a59d1582)
-- feat(refactor): initial refactor of armour system (8c020b59)
-- feat: racSM now uses pypine as submodule instead of copy import, wrapper around pypine for more secure locks LockedPine and inside clank can no longer be accessed without doing luna boss fight (155e7ecc)
-- feat(sync): weapons and armour is now synced for reconnections (5a57f8cb)
-- fix: steal more of rac3 pine logic (0803aad1)
-- fix: update controller mapping to match RAC2 &amp; RAC3 (eb7a7bd6)
-- fix: bug in planet select softlock prevention (d3051265)
-- fix: traps and offline filler items (a2b18692)
-- fix: broken vendor logic (4d451171)
-- fix: added poptracker and vendor logic (c67eefc3)
-- fix: build/release and planet select softlock prevention (fddb4028)
-- fix: fixed incorrect comments and vendor refresh (ad150161)
-- update to new constants and detect wrong game type (ff23f906)
-- Move rac size matters to ap fork (f678bd6e)</content>
-    <link href="https://github.com/Panguu/Archipelago-RaCSM/releases/tag/rac_size_matters-v0.4.23"/>
-  </entry>
-  <entry>
-    <id>https://github.com/Panguu/Archipelago-RaCSM/releases/tag/rac_size_matters-v0.4.24</id>
-    <title>Ratchet &amp; Clank: Size Matters v0.4.23</title>
-    <updated>2026-09-25T21:07:45+00:00</updated>
-    <author>
-      <name>Pangu</name>
-    </author>
-    <author>
-      <name>Amondo</name>
-    </author>
-    <author>
-      <name>ImJustATester</name>
-    </author>
-    <content>## Installation &amp; Setup
-
-- Requires [Archipelago](https://github.com/ArchipelagoMW/Archipelago/releases/latest). Make sure you are up-to-date.
-- Download the `.apworld` file below and double-click it to install. Restart Archipelago after installation.
-- Use **Options Creator** or **Generate Template Options** in the Archipelago Launcher to create player option YAML files.
-- Place your edited player option YAML files in the `Players` folder. Use **Browse Files...** in the Launcher to open the Archipelago directory.
-- Make sure you have all required `.apworld` files, your player YAMLs, and any desired `host.yaml` settings ready before generating. (`server_password` is recommended for admin login.)
-- Click **Generate** to create a multiworld `.zip` in the `output` folder.
-- Upload the generated `.zip` to https://archipelago.gg/uploads or self-host it. Self-hosting requires port forwarding.
-- For detailed setup instructions and game-specific documentation, see [game-specific documentation](https://github.com/Panguu/Archipelago-RaCSM/tree/SM-Main/worlds/rac_size_matters/docs).
-- If you encounter errors, run `ArchipelagoLauncherDebug.exe` or launch Archipelago from a terminal and check the `logs` folder.
-- Need help? Join the Archipelago Discord: https://discord.gg/8Z65BR2
-
-
-
-## Changelog
-
-- fix(SM): bumped it up to 0.4.23 (3b5d12f2)
-- Release rac_size_matters v0.4.23 (0fca0a2b)
-- fix(SM): additional options error (a74587c4)
-- fix(SM): minor rule fixes for inside clank and some tidy up (d49a623c)
-- chore(SM): additional AP icons chosable through /apicon [name] (ccf7281c)
-- feat(SM): restore Size Matters world on SM-Main (ad37a713)
-- chore: move Size Matters worlds to SM-Main branch (01a3a857)
-- feat(SM): clank pack as an optional item (52e5f24e)
-- fix(sm): removed tooling' (2056c670)
-- fix(SM): additional options for clank pack and hopefully fuzz runs (df1e5e47)
-- fix(SM): rules revolving around shrink ray locations (71c6538c)
-- feat(SM): Eu and JP addresses starting implementation and refactor of locations and rules (c8480ee2)
-- fix(sm): actually fixing previous errors as they were still occuring (298b0de3)
-- fix(sm): weapon levels not persisting across levels (1cb8355c)
-- fix(SM): fix rules error for shrink ray locations (41892199)
-- fix(SM): if mootator weapon is disabled disable crabby skill point (b64459e0)
-- fix(SM): disconnection message, additional multiplayer skins, additional ship selection menu and QoL changes (ca4984fa)
-- fix(SM): disconnection message, additional multiplayer skins, additional ship selection menu and QoL changes (5c9be6b6)
-- fix(SM): failing import of archipelago icons (f77dd072)
-- fix(SM): vendor now displays ap icon and displays appropriate text for items in vendor (b40b2295)
-- fix(SM): failing tests (39b643f0)
-- fix(SM): incorrect rules (d2f7c756)
-- fix(SM): rules mismatch for pokitaru (548a7e27)
-- feat(SM): Redesign of SM logic to include live patching (cdbad74b)
-- fix(Rac5): location checks on incorrect planet, vendor logic purchase titans showing duplicate and being buggy (4645cdf6)
-- Fix README formatting and clarify Shrink Ray Skips (aae319e1)
-- Update README with design questions and Shrink Ray Skips (05b64ee1)
-- fix(size matters ps2): options issue on selecting specific clank challanges (77d8d1c5)
-- feat(size matters ps2): added logic for ghost ratchet, ammo link and bolt link for rac5 (56639d96)
-- feat(size matters): tracker and ng+ logic updates. (8f153ddb)
-- fix: rules issue with setting ryllus always acessible (6e4bd3ab)
-- fix(size matters): infobot pokitaru is now infobot pokitaru and ryllus (535db97f)
-- fix(size matters): nicer title for window using r&amp;c 5 if multiple titles are available (ab3773fc)
-- fix: forced starting planet including ryllus (322ab35f)
-- fix(size matters): update docs (847de01d)
-- feat(size matters, dynamic pine): reverted pypine to submodules and giant clank/forced loads are now handled (7e785a60)
-- feat: no more submodules thank fk (cc551230)
-- fix: game logic on forced weapon into weapon cycler and added launched_via_hub for dynamic pine (0ef74027)
-- feat: dynamic pine integration (df1296fd)
-- fix(dyanmic pine, weapons): weapon levels are consistant and prevent accidently over leveling and dynamic pine integration (b1b4d158)
-- feat(dynamic pine): initial implementation of dynamic pine with rac size matters being first ap to use the tool (615ff655)
-- feat(psp, docs): initial implementation of psp mostly matching ps2 state, and some readme docs updates (202c080c)
-- fix: spelling mistake on Sprout O matic (0ec88e90)
-- fix: added slot data and builder for planet specific weapon tables (9717abbf)
-- tidy: tidyup comments and force all weapons/gadgets every cycle (21ae1a02)
-- fix: weapon exp issues (7b44f5aa)
-- fix: additional issues from armour and weapon pickups (75f7ee81)
-- fix: broken pickup logic and planets being given to player outside of ap (5cb4a184)
-- fix: stupid issue with sending multiple starting items, armour sets are working again (667f821f)
-- fix: weapon level names not appearing in apworld (dd738a7d)
-- fix: broken mod vendor logic and fix names for weapon level locations (5f9959f9)
-- fix: broken fill error hopefully... (a582fdec)
-- feat: finally fixed vendors, progressive levels, multiplier for bolts and exp (5b110006)
-- fix: god i hate refactors (a59d1582)
-- feat(refactor): initial refactor of armour system (8c020b59)
-- feat: racSM now uses pypine as submodule instead of copy import, wrapper around pypine for more secure locks LockedPine and inside clank can no longer be accessed without doing luna boss fight (155e7ecc)
-- feat(sync): weapons and armour is now synced for reconnections (5a57f8cb)
-- fix: steal more of rac3 pine logic (0803aad1)
-- fix: update controller mapping to match RAC2 &amp; RAC3 (eb7a7bd6)
-- fix: bug in planet select softlock prevention (d3051265)
-- fix: traps and offline filler items (a2b18692)
-- fix: broken vendor logic (4d451171)
-- fix: added poptracker and vendor logic (c67eefc3)
-- fix: build/release and planet select softlock prevention (fddb4028)
-- fix: fixed incorrect comments and vendor refresh (ad150161)
-- update to new constants and detect wrong game type (ff23f906)
-- Move rac size matters to ap fork (f678bd6e)</content>
-    <link href="https://github.com/Panguu/Archipelago-RaCSM/releases/tag/rac_size_matters-v0.4.24"/>
-  </entry>
   <entry>
     <id>https://github.com/Kryen112/HP2PC_AP/releases/tag/v2.11.1</id>
     <title>Harry Potter 2 PC v2.11.1.post2</title>
@@ -1650,7 +1454,7 @@ _This release is backwards compatible down to 6.0.0-rc.5_</content>
   </entry>
   <entry>
     <id>https://github.com/T4g1/ArchipelagoTomba/releases/tag/v1.6.0</id>
-    <title>Tomba! v1.6.0</title>
+    <title>Tomba! v1.6.0.post2</title>
     <updated>2026-09-29T14:51:56+00:00</updated>
     <author>
       <name>T4g1</name>
@@ -1672,6 +1476,7 @@ _This release is backwards compatible down to 6.0.0-rc.5_</content>
 * Fix: Leaf Slider removed from ER as it does not uses the transition config for some reason&#13;
 * Enh: Camera transition animations are now understood and will always apply the fade to black animation&#13;
 * Fix an issue preventing Yan event to progress&#13;
+* Fix: Issue with bonus chest randomization setting&#13;
 &#13;
 ---&#13;
 &#13;
@@ -1792,5 +1597,18 @@ Problem fix:&#13;
 Others:&#13;
 - Renaming items by removing all the "()": "The Adversary (Princess)" → "Princess - The Adversary"</content>
     <link href="https://github.com/Overlord-Draconic-Fire/Archipelago/releases/tag/STP-0.9.0b"/>
+  </entry>
+  <entry>
+    <id>https://github.com/threeandthreee/Archipelago/releases/tag/13.4.6</id>
+    <title>Links Awakening DX Beta v13.4.6</title>
+    <updated>2026-09-29T20:02:25+00:00</updated>
+    <author>
+      <name>zig</name>
+    </author>
+    <author>
+      <name>threeandthree</name>
+    </author>
+    <content>Fixes the text after stealing from the shop.</content>
+    <link href="https://github.com/threeandthreee/Archipelago/releases/tag/13.4.6"/>
   </entry>
 </feed>
