@@ -4,7 +4,7 @@
 
 
 ## Downloads
-- <a href="https://github.com/Kryen112/AP_Stick_Ranger/releases/download/1.8.8/stick_ranger.apworld">Latest Version (1.8.8)</a>
+- <a href="https://github.com/Kryen112/AP_Stick_Ranger/releases/download/1.8.10/stick_ranger.apworld">Latest Version (1.8.10)</a>
 - <a href="downloads.html">View all versions</a>
 
 ## Game Information

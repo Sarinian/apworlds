@@ -1,9 +1,12 @@
 # Skyward Sword HD
 
 ## Latest
-- <a href="https://github.com/LonLon-Labs/SSHD_APWorld/releases/download/Continuous/sshd.apworld">Latest Version (0.7.4r7)</a>
+- <a href="https://github.com/LonLon-Labs/SSHD_APWorld/releases/download/Continuous/sshd.apworld">Latest Version (0.7.4r8)</a>
 
 ## All Versions
+
+#### v0.7.4r8
+- <a href="https://github.com/LonLon-Labs/SSHD_APWorld/releases/download/Continuous/sshd.apworld">https://github.com/LonLon-Labs/SSHD_APWorld/releases/download/Continuous/sshd.apworld</a>
 
 #### v0.7.4r7
 - <a href="https://github.com/LonLon-Labs/SSHD_APWorld/releases/download/Continuous/sshd.apworld">https://github.com/LonLon-Labs/SSHD_APWorld/releases/download/Continuous/sshd.apworld</a>
