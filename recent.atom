@@ -2,181 +2,11 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://raw.githubusercontent.com/silasary/apworlds/refs/heads/main/recent.atom</id>
   <title>Recent APWorlds</title>
-  <updated>2026-09-30T17:19:05.290242+00:00</updated>
+  <updated>2026-09-30T21:46:30.145124+00:00</updated>
   <author>
     <name>Silasary</name>
   </author>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
-  <entry>
-    <id>https://github.com/thejoshwolfe/Archipelago/releases/tag/space-age-v3.0.6</id>
-    <title>Factorio: Space Age v3.0.6</title>
-    <updated>2026-09-26T15:06:23+00:00</updated>
-    <author>
-      <name>Berserker</name>
-    </author>
-    <author>
-      <name>Josh Wolfe</name>
-    </author>
-    <content># Factorio: Space Age apworld 3.0.6&#13;
-&#13;
-* Fix `goal: aquilo_orbit` causing Factorio crashes with missing `railgun_location` prerequisite. Thanks HandleWithKERR and d_a_v_e_2000 for the bug reports.&#13;
-&#13;
-download: https://github.com/thejoshwolfe/Archipelago/releases .&#13;
-general docs: https://github.com/thejoshwolfe/Archipelago/blob/space-age/worlds/factorio_space_age/docs/en_Factorio_Space_Age.md .&#13;
-setup guide: https://github.com/thejoshwolfe/Archipelago/blob/space-age/worlds/factorio_space_age/docs/setup_en.md .&#13;
-source code: https://github.com/thejoshwolfe/Archipelago/tree/space-age/worlds/factorio_space_age .</content>
-    <link href="https://github.com/thejoshwolfe/Archipelago/releases/tag/space-age-v3.0.6"/>
-  </entry>
-  <entry>
-    <id>https://github.com/Batatvideogames/silksong-archipelago-randomizer/releases/tag/v0.4.7</id>
-    <title>Hollow Knight: Silksong v0.4.7</title>
-    <updated>2026-09-26T17:03:54+00:00</updated>
-    <author>
-      <name>BatAtVideoGames</name>
-    </author>
-    <content>Another week another big update. Can you believe it, only 33 of the 862 locations are not fully mapped? The progress is insane and I want to express my gratitude to all who've been with this project whether it's just playing, reporting bugs or otherwise giving input on the matter. And ultra big shoutout to the mappers (who are all credited in the README), they've been doing an insane part in all this. I can safely say that logic will be extremely solid by the time 0.5.0 rolls out but also that I got something huge planned for it. (Also as usual if you like what I do and wanna [buy me a coffee](https://streamlabs.com/batatvideogames/tip) I'd appreciate it 👍)&#13;
-&#13;
-# Changelog&#13;
-&#13;
-### General updates: &#13;
-&#13;
-- **Updated traversal, combat and wish logic in 244 existing rooms across 29 areas**&#13;
-- Added combat requirements to 77 mapped bosses/gauntlets&#13;
-- Shops and wishes now display matching Silksong item icons&#13;
-- Pressing A on needle in inventory allows to toggle between the upgrades unlocked so far&#13;
-- Made courier deliveries unbreakable but they instead need to logically satisfy being able to pick up the quest and getting to their delivery spot&#13;
-- Universal Tracker now supports newly generated seeds without a player YAML, automatically loading their settings and entrance layout&#13;
-- Reduced connection data size (by a lot)&#13;
-- Kept Skarr’s unchecked randomized shop items available after his story death&#13;
-&#13;
-### Option updates&#13;
-&#13;
-- Removed the bs "skips" option and instead separated it into proper categories (red tool stall, crest pogo skips, needle strike logic, heal stall logic, hazard respawn logic). The attached YAML and the built in AP Options Creator describe what these entail&#13;
-- Changed Proficient Combat from true (bypass combat reqs) and false (keep combat reqs) to off, goated (lower combat reqs by 1 tier) and hell (bypass combat reqs)&#13;
-- Silk and Soul Points now caps at 23. Higher numbers automatically clamp to 23&#13;
-- Added optional trap disguises with mirrored shop/wish icons and subtly misspelled shop/crest names&#13;
-- Added independent Quill and Compass randomization settings. Kept Automatic Compass and Start Fully Mapped as separate conveniences&#13;
-&#13;
-### Fixes: &#13;
-&#13;
-- Fixed the randomized Egg of Flealia not being recognized when unlocking Flea Games and Ecstasy of the End&#13;
-- Fixed Peak_04d, Shellwood_13, Shellwood_25 and Crawl_09 screen being black when entering from "wrong" side when breakable walls are still present&#13;
-- Fixed Flick becoming non-interactable at Bone Bottoms wish wall, blocking courier turn-ins&#13;
-- Fixed Memorium - Shard Bundle incorrectly appearing in Act 1 goals&#13;
-- Threefold Pin now randomizes in Act 1 goals when tool randomization is enabled&#13;
-- Final Audience wish name correction (accidentally named it Last Audience)&#13;
-- Fixed the long pause when completing free randomized donations&#13;
-- Eva became inactive when Sylphsong gets sent (via other game release). Fixed that and also chapel doors remain open now&#13;
-- Fixed incorrect access to lower Whispering Vaults through the rotating-tunnel route&#13;
-- Fixed a Skill Shuffle starting layout that could prevent generation&#13;
-- General game generation updates (genuinely)&#13;
-- Corrected The Slab Memory Locket’s map marker position&#13;
-- Renamed "Progressive Compass" back to Quill&#13;
-- Fixed swapped entrance connections in the Sacred Cylinder room&#13;
-- Fixed Universal Tracker disconnecting when Silk &amp; Soul points are set to random&#13;
-- Fixed swapped access logic for Memorium - Map Purchase and Memorium - Shard Bundle&#13;
-- Moved Putrified Ducts Shell Shard Cache 6 out of the ceiling to floor level&#13;
-- Grouped Blasted Steps Shell Shard Caches 4–5 with the Beast Shard marker&#13;
-- Fixed Sacred Cylinder moving randomized melody markers back to their vanilla position&#13;
-- Improved AP check visibility over other map pins&#13;
-- Fixed the Deep Docks lower climb’s movement requirements&#13;
-- Fixed shop stock getting stuck displaying generic “AP Item” text until reconnecting&#13;
-- Prevented Chapel Maid from appearing during an unfinished Moss Mother fight (lmao)&#13;
-- Fixed off-screen objective bubbles following vanilla locations instead of randomized bells and melodies&#13;
-- Corrected access logic for the Whispering Vaults map and Pale Oil, Whiteward Spool Fragment and Cogwork Core map&#13;
-- Fixed early Rune Rage receipt preventing First Sinner activation&#13;
-- Fixed Hunter's March big shaft room only needing ledgegrab to get to the treasure room with the Blowjob Brothers&#13;
-- Fixed Curvesickle being rejected by the Mottled Child’s throwing challenge (this time for real)</content>
-    <link href="https://github.com/Batatvideogames/silksong-archipelago-randomizer/releases/tag/v0.4.7"/>
-  </entry>
-  <entry>
-    <id>https://github.com/galdiuz/archipeladoku/releases/tag/v2026.09.26</id>
-    <title>Archipeladoku v2026.9.26</title>
-    <updated>2026-09-26T17:58:05+00:00</updated>
-    <author>
-      <name>Galdiuz</name>
-    </author>
-    <link href="https://github.com/galdiuz/archipeladoku/releases/tag/v2026.09.26"/>
-  </entry>
-  <entry>
-    <id>https://github.com/Lemix028/Archipelago-NewSuperMarioBrosDS/releases/tag/nsmbds-v0.5.1-unstable</id>
-    <title>New Super Mario Bros. DS v0.5.1</title>
-    <updated>2026-09-26T19:58:20+00:00</updated>
-    <author>
-      <name>Lemix028</name>
-    </author>
-    <content>This update focuses heavily on **performance, stability, and bug fixes**. A lot of work went into reducing emulator stutters and improving the Lua runtime, HUD rendering, Traps, and client communication.&#13;
-&#13;
-It also adds **Music Randomization**, **Death Link Amnesty**, and a new **Star Coin Tracking** option.&#13;
-&#13;
-## Added&#13;
-&#13;
-- Added **Music Randomization** with four modes:&#13;
-  - Off&#13;
-  - Level music&#13;
-  - Level + World Map music&#13;
-  - Mixed Level + World Map music&#13;
-- Added **Death Link Amnesty**&#13;
-  - Controls how many local deaths are required before sending a Death Link&#13;
-  - For example, a value of 5 sends every fifth eligible local death&#13;
-- Added a **Star Coin Tracking** option:&#13;
-  - Instant collection&#13;
-  - Vanilla behavior, where Star Coins are only saved after completing the level&#13;
-- Added new troubleshooting commands:&#13;
-  - /nsmbds_diag [short|full] displays client, BizHawk, synchronization, and runtime information&#13;
-  - /nsmbds_debug [on|off] enables or disables detailed NSMBDS debug logging&#13;
-&#13;
-## Performance &amp; Compatibility&#13;
-&#13;
-- Significantly improved **runtime performance**&#13;
-- Reduced stuttering when sending and receiving items&#13;
-- Improved notification, Trap status, and protection HUD rendering&#13;
-- Improved performance of several Traps, especially **Pixelation**&#13;
-- Reduced unnecessary Lua and client processing&#13;
-- Improved **melonDS JIT compatibility**&#13;
-  - Red Coin Challenges now work with JIT enabled&#13;
-  - Several Trap and input systems now use native ROM hooks&#13;
-- Improved **Universal Tracker compatibility**&#13;
-- Improved **Ionium compatibility**&#13;
-  - High randomized percentage values are now safely capped instead of causing generation failures&#13;
-  - Empty filler selections are now supported&#13;
-&#13;
-&gt; **JIT Recompiler is recommended for better performance.**&#13;
-&#13;
-## Logic &amp; Fixes&#13;
-&#13;
-- Fixed Red Coin Challenges not triggering with melonDS JIT enabled&#13;
-- Fixed several Star Coin Gate logic issues&#13;
-- Fixed incorrect Star Coin Gate ordering in some worlds&#13;
-- Fixed chained Star Coin Gates not accounting for earlier required gates&#13;
-- Fixed some collected Star Coins not counting correctly toward gate requirements&#13;
-- Fixed World 3-Tower Star Coin 3 missing its Mushroom Permit requirement&#13;
-- Fixed several BizHawk launcher and saved path issues&#13;
-- Improved handling of temporary client/BizHawk communication problems&#13;
-- Reduced unnecessary logging and repeated warnings&#13;
-- Various smaller runtime and stability fixes&#13;
-&#13;
-## Important&#13;
-&#13;
-A **newly generated 0.5.1 patch is recommended** because several native ROM hooks have changed.&#13;
-&#13;
-## Links&#13;
-&#13;
-- **Game Info:** https://github.com/Lemix028/Archipelago-NewSuperMarioBrosDS/tree/nsmbds/worlds/nsmbds/docs/en_New%20Super%20Mario%20Bros.%20DS&#13;
-- **Setup Guide:** https://github.com/Lemix028/Archipelago-NewSuperMarioBrosDS/tree/nsmbds/worlds/nsmbds/docs/setup_en.md&#13;
-- **PopTracker:** https://github.com/Lemix028/NewSuperMarioBrosDS-poptracker/releases/latest</content>
-    <link href="https://github.com/Lemix028/Archipelago-NewSuperMarioBrosDS/releases/tag/nsmbds-v0.5.1-unstable"/>
-  </entry>
-  <entry>
-    <id>https://github.com/Nepley/eosd-apworld/releases/tag/v1.5.0</id>
-    <title>Touhou Koumakyou ~ the Embodiment of Scarlet Devil v1.5.0</title>
-    <updated>2026-09-26T20:34:52+00:00</updated>
-    <author>
-      <name>Nepley</name>
-    </author>
-    <content>* Added support for the classic re-release version</content>
-    <link href="https://github.com/Nepley/eosd-apworld/releases/tag/v1.5.0"/>
-  </entry>
   <entry>
     <id>https://github.com/barretg/Taskipelago/releases/tag/v1.2.0</id>
     <title>Taskipelago v1.2.0</title>
@@ -1610,5 +1440,349 @@ Requires Archipelago 0.6.7+ and *Final Fantasy VIII* Steam 2013 (`FF8_EN.exe`). 
 
 **Full Changelog**: https://github.com/wilsonao/ff8_arch/compare/v0.7.0...v0.8.0</content>
     <link href="https://github.com/wilsonao/ff8_arch/releases/tag/v0.8.0"/>
+  </entry>
+  <entry>
+    <id>https://github.com/barretg/hl1-sven-ap/releases/tag/v0.4</id>
+    <title>Half-Life (Sven Co-op) v0.1.0r2</title>
+    <updated>2026-09-30T18:03:05+00:00</updated>
+    <author>
+      <name>hl1-sven-ap</name>
+    </author>
+    <content>Note that this is an early build of the apworld. Please report any problems in Discord or the Issues page on github (with reproduction steps please and thank you!)&#13;
+&#13;
+Sven Co-op's Half-Life campaign is meant to be played in multiplayer. No support will be offered to players attempting to circumvent this restriction. (The map "Suspension" is an exception to this rule)&#13;
+&#13;
+**Important**: Run /install to update the plugin after you update your apworld.&#13;
+&#13;
+## New Features&#13;
+* !menu GUI added&#13;
+* Melee Throw can now be added to the item pool, allowing you to throw the crowbar, knife, and umbrella via right click.&#13;
+* Bot Swarm Trap&#13;
+* PCV and Security Armor are now randomized separate from the HEV suit&#13;
+* Flashlight can now be randomized&#13;
+* Xen Healing pools added to chargesanity&#13;
+&#13;
+## Bug Fixes/Improvements&#13;
+* Various stability and consistency patches&#13;
+* Fixed an edge case crash related to pre-cacheing&#13;
+* Fixed access to various location &#13;
+* Major logic overhaul for weapon pickups&#13;
+* Locations not present in a seed no longer display in game&#13;
+* When LJM is unshuffled, it now sits at its vanilla location rather than being always active&#13;
+* Gate access to some checks behind the displacement cannon&#13;
+&#13;
+## Setup&#13;
+As the game host:&#13;
+Install the apworld by downloading and double clicking (or placing it in your custom_worlds folder)&#13;
+Open the Half-Life (Sven Co-op) Client and select your install directory&#13;
+Run /install in the client&#13;
+Connect the client to the multiworld, and open a server on the map -sp_campaign_lobby&#13;
+Once your friends are in game with you (they can just join!), you can type !ap to see unlocked missions in the console, and !warp to change maps to the unlocked mission. (The lobby's mission panels also work). &#13;
+In addition, !menu opens an interface to warp, return to hub, find the nearest check, track remaining checks in a map, or locate a specific check.&#13;
+&#13;
+## Known Issues&#13;
+* Sound cacheing bug: sometimes when another player joins the lobby, their sounds are all mixed up. This will self resolve once you get into a mission. I am under the impression that if they install the plugin too that helps, but either way, loading a new map should fix the issue.</content>
+    <link href="https://github.com/barretg/hl1-sven-ap/releases/tag/v0.4"/>
+  </entry>
+  <entry>
+    <id>https://github.com/EverydaySimpleDev/Archipelago/releases/tag/1.3.0</id>
+    <title>Chibi Robo v1.3.0</title>
+    <updated>2026-09-30T18:06:52+00:00</updated>
+    <author>
+      <name>EverydaySimpleDev</name>
+    </author>
+    <content>- New GBA Link Cable Option!&#13;
+- Changed how key items like door keys, chibi gear, etc are handled via code</content>
+    <link href="https://github.com/EverydaySimpleDev/Archipelago/releases/tag/1.3.0"/>
+  </entry>
+  <entry>
+    <id>https://github.com/Panguu/Archipelago-RaCSM/releases/tag/rac_size_matters-v0.5.0</id>
+    <title>Ratchet &amp; Clank: Size Matters v0.5.0</title>
+    <updated>2026-09-30T20:36:24+00:00</updated>
+    <author>
+      <name>Pangu</name>
+    </author>
+    <author>
+      <name>Amondo</name>
+    </author>
+    <author>
+      <name>ImJustATester</name>
+    </author>
+    <content>## Installation &amp; Setup
+
+- Requires [Archipelago](https://github.com/ArchipelagoMW/Archipelago/releases/latest). Make sure you are up-to-date.
+- Download the `.apworld` file below and double-click it to install. Restart Archipelago after installation.
+- Use **Options Creator** or **Generate Template Options** in the Archipelago Launcher to create player option YAML files.
+- Place your edited player option YAML files in the `Players` folder. Use **Browse Files...** in the Launcher to open the Archipelago directory.
+- Make sure you have all required `.apworld` files, your player YAMLs, and any desired `host.yaml` settings ready before generating. (`server_password` is recommended for admin login.)
+- Click **Generate** to create a multiworld `.zip` in the `output` folder.
+- Upload the generated `.zip` to https://archipelago.gg/uploads or self-host it. Self-hosting requires port forwarding.
+- For detailed setup instructions and game-specific documentation, see [game-specific documentation](https://github.com/Panguu/Archipelago-RaCSM/tree/SM-Main/worlds/rac_size_matters/docs).
+- If you encounter errors, run `ArchipelagoLauncherDebug.exe` or launch Archipelago from a terminal and check the `logs` folder.
+- Need help? Join the Archipelago Discord: https://discord.gg/8Z65BR2
+
+
+
+## Changelog
+
+- fix(SM): skin patch on pirate skin not reloading textures (4b1b790e)
+- chore(SM): added experimenetal skins troubleshooting and to known issues (54228de6)
+- chore(SM): update docs added thank yous to those who helped (a2f9d02a)
+- fix(SM): outpost omega interior decorating gated behind incorrect planet id (7aadab35)
+- fix(SM): kalidon shrink ray rules now include hypershot (3b3952f3)
+- fix(SM): vendor and pda fixes (d8acf710)
+- fix(SM): patch load reorder and vendor fixes (b2b17d38)
+- fix(SM): force trap state every tick (39257cb4)
+- fix(SM): options for enabling balance patch in generic (19876820)
+- fix(SM): remove unnecessary docs (f481d110)
+- feat(SM): bring in balance patch as part of client patches toggleable from options menu (95e1c0b1)
+- chore(SM): update the goats balance patch to setup docs (d4aee8e0)
+- fix(SM): remove sprout-o-matic check for dreamtime and decreased grant bolt (d3fd54ec)
+- fix(SM): version challenge mode not linked to correct address, vendor titan weapons showing original names instead of ap item (68f2f991)
+- fix(SM): map locations for ng+ items and shrink ray locations (348f7b29)
+- fix(SM): progressive level cap and cli removal of ghostlink (c66adf99)
+- fix(SM): rule for allowing skillpoint if challenge mode +2 removed you still need mootator for skill point (2d140004)
+- fix(SM): weapon levels were all tide to pokitaru instead of Menu they are acessible as long as player has the weapon (5a0ffcab)
+- fix(SM): update gen rules to prevent shrink ray and skyboard cutscenes from being active unless skyboard races are enabled (9ec220c3)
+- chore(SM): update readme for new acknowledgements (cdf1e625)
+- fix(SM): build apworlds to use github style ignoring and ignoring tools folder (d559549f)
+- fix(SM): update rules to include hypershot for kalidon (a6fe09e0)
+- fix(SM): incorrect logic for plaents without access to enemies and fuzz errors (12c9263f)
+
+Full comparison:
+https://github.com/Panguu/Archipelago-RaCSM/compare/rac_size_matters-v0.4.27...rac_size_matters-v0.5.0</content>
+    <link href="https://github.com/Panguu/Archipelago-RaCSM/releases/tag/rac_size_matters-v0.5.0"/>
+  </entry>
+  <entry>
+    <id>https://github.com/dowlle/ctr-native-ap/releases/tag/v0.2.3</id>
+    <title>Crash Team Racing v0.2.3</title>
+    <updated>2026-09-30T20:36:33+00:00</updated>
+    <author>
+      <name>Dowlle</name>
+    </author>
+    <content>CTR Archipelago 0.2.3 is out. Here's the quick list; the [full release notes are on AP-Pie](https://ap-pie.com/ctr/releases/0-2-3).
+
+[Setup guide (ap-pie.com)](https://ap-pie.com/guides/ctr) · [SETUP.md](https://github.com/dowlle/ctr-native-ap/blob/main/SETUP.md) · [SETUP.md as shipped](https://github.com/dowlle/ctr-native-ap/blob/v0.2.3/SETUP.md)
+
+## What changed since 0.2.2
+
+- **DeathLink rework:** a received death applies only in a live race and is never saved for later. A death that arrives during a pause lands when the race runs again. Every received death shows a popup.
+- **DeathLink crash:** fixed the crash when a DeathLink arrived with `death_link: race_loss`.
+- **DeathLink Send:** new YAML option `death_link_send` (`mask_grab`, `weapon_hit`, `race_loss`) chooses what sends a death. Old YAMLs behave as before. There is no send-only DeathLink.
+- **Race loss goes both ways:** losing a race, a Gem Cup, or restarting or exiting to the map from the pause menu sends a death.
+- **In game:** three new rows on Options &gt; Archipelago: DL SEND FALL, DL SEND HIT, DL SEND LOSS.
+- **Relic Race:** the pad no longer closes before you can take the Perfect check, and it shows the item placed there.
+- **Frame rate:** fixed the low frame rate in the hubs, especially Gem Stone Valley ([#376](https://github.com/dowlle/ctr-native-ap/issues/376)).
+- **Warp pads:** the glow shows the item of every open location, boxes, letters and Wumpa included.
+- **Letters:** short names in the item feed for Slide Coliseum, Turbo Track and Cortex Vortex.
+- **Tracker:** boss garage nodes are gold, green or red by garage state.
+- **Logic (Progressive Boost on):** every Relic Race Perfect needs Ultimate Sacred Fire, Held 1st has no boost floor on hard, and trial-track Gold and Platinum relics are gated like the other tracks.
+
+## Downloads
+
+Get `ctr-archipelago-v0.2.3-windows-x86.zip` for Windows or `ctr-archipelago-v0.2.3-linux-x86.tar.gz` for Linux and Steam Deck (glibc 2.36 or newer). Each has the client and the matching `ctr.apworld`. A 0.2.2 room can be played on the 0.2.3 client; for new seeds use the 0.2.3 client and APWorld together. Archipelago 0.6.7 or newer is needed to host. The separate `ctr.apworld` and `Crash.Team.Racing.yaml` are for hosts and generators. The `.sha256` files check your downloads, `manifest.json` and `manifest.json.minisig` are the signed manifest (how to check it is in the full notes), and the `.debug` files help with crash reports; you don't need them to play. You need your own NTSC-U disc; no game data is included. The client isn't code-signed.
+
+Known issues: short pauses on screen changes, large reconnect backlogs can stall the game ([#147](https://github.com/dowlle/ctr-native-ap/issues/147)), and some podium characters can show up invisible ([#282](https://github.com/dowlle/ctr-native-ap/issues/282)). Not run on the Steam Deck.
+
+## Download checksums
+
+| Asset | SHA-256 |
+|---|---|
+| `ctr-archipelago-v0.2.3-windows-x86.zip` | `1c5d6c74940844379ed80f84c40c5f2b2c4bc4563ff95d0a3c4f57bfdcb6c407` |
+| `ctr-archipelago-v0.2.3-linux-x86.tar.gz` | `fb4db136a43a4c1d68347b736cee57b3c3c271f9bc09f4864a1483edb45a4076` |
+| `ctr.apworld` | `726deb6df971ecd843f42b96508ef2e36b44c4c62167e1f3648e4b4f02b94acb` |
+| `manifest.json` | `4d30fd9d5625c8f13f55000b6913e67af5f79e973e2065fb9fc202a238fad98e` |
+
+## Reporting a problem
+
+[Open a GitHub issue](https://github.com/dowlle/ctr-native-ap/issues/new/choose) with your client version, platform, seed or YAML and what happened. Include the support bundle when it helps: run `support-bundle.bat` on Windows or `support-bundle.sh` on Linux and check it before attaching; it doesn't upload anything by itself. Questions are welcome in the [Crash Team Racing channel](https://discord.com/channels/731205301247803413/1222304293751750777) on the Archipelago Discord.
+
+</content>
+    <link href="https://github.com/dowlle/ctr-native-ap/releases/tag/v0.2.3"/>
+  </entry>
+  <entry>
+    <id>https://github.com/m-this/tf2-archipelago/releases/tag/v1.17.4</id>
+    <title>Team Fortress 2 Mann vs Machine v1.17.4</title>
+    <updated>2026-09-30T21:18:19+00:00</updated>
+    <author>
+      <name>mathis</name>
+    </author>
+    <content>&lt;p align="center"&gt;
+  &lt;a href="https://github.com/m-this/tf2-archipelago/releases/latest/download/tf2ap.exe"&gt;
+    &lt;img alt="Download tf2ap.exe for Windows" src="https://img.shields.io/badge/Download-tf2ap.exe%20for%20Windows-2ea44f?style=for-the-badge&amp;logo=windows&amp;logoColor=white"&gt;
+  &lt;/a&gt;
+  &lt;a href="https://github.com/m-this/tf2-archipelago/releases/latest/download/tf2ap-linux-amd64"&gt;
+    &lt;img alt="Download tf2ap-linux-amd64 for Linux" src="https://img.shields.io/badge/Download-tf2ap--linux--amd64-1b1f27?style=for-the-badge&amp;logo=linux&amp;logoColor=white"&gt;
+  &lt;/a&gt;
+&lt;/p&gt;
+
+## Changes
+
+### Added
+
+- **Bot cards: named defender bots you unlock during the run.** Turn on
+  **Unlockable Bot Cards** and the item pool holds cards for 15 bots. Each bot
+  has a class, a loadout and a buff of its own. A card rolls a rarity, which
+  sets its health and buff stacks, and a form: human, robot or Giant robot.
+  **Starting Bot Cards** gives some at the start, or one stock card per class.
+  Cards are useful items and never lock a mission. Off by default. By kelly-cs.
+- **The Bots page shows your cards as a deck.** Recruit cards into your six
+  seats, drag them to set who stays when a player joins, and choose the form.
+  **Apply** swaps the bots on the running server, with no restart. The tracker
+  shows the cards the run has found. In test mode every card is there.
+- **Shop where they stand**, a Bots page option. Every bot buys its upgrades
+  where it is instead of walking back to the station. A bot that shops during a
+  wave stays in the fight. Off by default. A Giant card always shops where it
+  stands, because it no longer fits through the spawn door.
+
+### Fixed
+
+- **A tank SigMod keeps off the network no longer breaks Mental.** On some
+  community missions Mental threw an error for such a tank every tick, tens of
+  thousands a run.
+- **Make it Count works on a Windows server.** It switched itself off there,
+  because the plugin could not find the dispenser's ammo function on Windows.
+- **A server whose bridge stops answering no longer runs out of memory.** The
+  plugin sent every check it was still holding again every five seconds, so
+  each giant and tank killed while the bridge was down made the traffic grow,
+  until the server stopped with "Out of memory" a few missions later. It now
+  retries the oldest check alone until the bridge answers, then sends the rest.
+- **Bots are no longer put back on the hatch over and over.** The rescue for a
+  bot that is slow to leave spawn puts it on the hatch. On most maps the hatch
+  sits next to RED's spawn, so a few seconds later the rescue moved it again.
+  An engineer that built near the hatch lost its nest before it finished.
+- **Weapon buffs no longer climb on their own.** The server counted the same
+  grants again each time it asked the bridge. A buff you had twice then showed
+  as x44 in the weapon buffs menu until the next mission. By kelly-cs.
+- **Repair fixes a community pack that fails its hash check.** Repair left the
+  old download in place, so the next install stopped on the same "SHA-256
+  mismatch". It now downloads the pack again and keeps the old file until the
+  new one checks out. A mismatch you chose to ignore is left alone. By kelly-cs.
+- **Repair on Windows also throws away the downloaded SigMod package.** It
+  only ever looked for the Linux file, so a broken download stayed in place.
+- **Every SigMod mission plays to the end on a Windows server.** The Windows
+  build of SigMod is updated, and all 95 community missions that need it now
+  play every wave, where about ten used to stop the server mid-mission. Robots
+  that change attributes, map-scripted events, bosses with several phases, bots'
+  dropped items and swords all behave as they do on a Linux server. A squad
+  with a gray robot in it no longer stalls its wave (Dust to Dust, wave 5).
+  Linux and Docker servers keep the regular SigMod release.
+
+
+## Windows
+
+Download **`tf2ap.exe`** above. Run it. It installs everything else.
+
+Windows will warn you, and it is a false positive. The exe unpacks archives and
+starts a game server without a code signature, which looks like a virus to a
+scanner. Click **More info**, then **Run anyway**, or check it below first.
+
+[Full guide](https://m-this.github.io/tf2-archipelago/en/setup/install-windows.html)
+
+## Linux
+
+Download **`tf2ap-linux-amd64`**. Run it. It installs everything else.
+
+```sh
+chmod +x tf2ap-linux-amd64
+./tf2ap-linux-amd64
+```
+
+[Full guide](https://m-this.github.io/tf2-archipelago/en/setup/install-linux.html)
+
+## Docker
+
+Download **`compose.yaml`** and **`env.example`**:
+
+```sh
+mkdir mann-vs-archipelago &amp;&amp; cd mann-vs-archipelago
+base=https://github.com/m-this/tf2-archipelago/releases/latest/download
+curl -fsSLO "$base/compose.yaml"
+curl -fsSL -o .env "$base/env.example"
+```
+
+Set `SRCDS_RCONPW` in `.env`, then:
+
+```sh
+docker compose --profile seed run --rm seed   # writes ./seed
+docker compose up -d
+```
+
+Upload the file from `seed/` at
+[archipelago.gg/uploads](https://archipelago.gg/uploads) and put the room's
+port into `AP_PORT`.
+
+[Full guide](https://m-this.github.io/tf2-archipelago/en/setup/install.html)
+
+## Other assets
+
+| File | For |
+| --- | --- |
+| `tf2_mvm.apworld` | The official Archipelago app. |
+| `tf2_archipelago.smx` | A SourceMod server the launcher and compose file don't manage. |
+| `tf2-defender-bots.zip` | The bots for that same server. Unzip into `tf/`. |
+| `meta.json`, `items.json`, `missions.json` | The item and check tables, for reference. |
+
+## Checking what you downloaded
+
+**`SHA256SUMS`** is attached to this release. It holds the hash of every file
+here, computed by the workflow that built them.
+
+```powershell
+Get-FileHash tf2ap.exe -Algorithm SHA256    # Windows
+```
+
+```sh
+sha256sum -c SHA256SUMS --ignore-missing    # Linux
+```
+
+Each binary carries a signed record of the commit and the workflow that built
+it:
+
+```sh
+gh attestation verify tf2ap.exe --repo m-this/tf2-archipelago
+```
+
+The binaries are scanned on VirusTotal, and the reports are linked at the end of
+these notes. Expect a few heuristic detections and no named malware family. The
+source is all in the repository, and `make launcher` rebuilds the exe on your
+own machine.
+
+## Code signing policy
+
+Free code signing for open source projects, provided by
+[SignPath.org](https://signpath.org), with a certificate from the
+[SignPath Foundation](https://signpath.org).
+
+&gt; [!WARNING]
+&gt; The application is open, not granted. Nothing is signed yet: `tf2ap.exe` ships
+&gt; unsigned, and Windows warns about it until that changes.
+
+
+## What's Changed
+* Honor the selected wave when playing or replaying a mission by @kelly-cs in https://github.com/m-this/tf2-archipelago/pull/141
+* Label Villa missions as Medic only by @kelly-cs in https://github.com/m-this/tf2-archipelago/pull/144
+* Prevent Cow Mangler bonus shots colliding with shooter by @kelly-cs in https://github.com/m-this/tf2-archipelago/pull/145
+* Link admin tracker and clarify per-class loadout order by @kelly-cs in https://github.com/m-this/tf2-archipelago/pull/148
+* Handle Villa defender orders and final boss transfer by @kelly-cs in https://github.com/m-this/tf2-archipelago/pull/142
+* Preserve explosive-jump force with no-self-blast buff by @kelly-cs in https://github.com/m-this/tf2-archipelago/pull/146
+* feat(waveprobe): a Windows bed for the SigMod missions by @m-this in https://github.com/m-this/tf2-archipelago/pull/166
+* chore(deps): tf2-mvm-bots-go v0.18.1 by @m-this in https://github.com/m-this/tf2-archipelago/pull/169
+* feat(waveprobe): measure how the defender bots move by @m-this in https://github.com/m-this/tf2-archipelago/pull/149
+* Prevent replayed weapon buffs from increasing levels by @kelly-cs in https://github.com/m-this/tf2-archipelago/pull/168
+* Repair redownloads community packs after a hash mismatch by @kelly-cs in https://github.com/m-this/tf2-archipelago/pull/151
+* chore(deps): tf2-mvm-bots-go v0.18.2 by @m-this in https://github.com/m-this/tf2-archipelago/pull/170
+* docs(changelog): bot cards, shop where they stand, and Kelly's two fixes by @m-this in https://github.com/m-this/tf2-archipelago/pull/171
+* SigMod for Windows 20260930, and the wave probe plays every SigMod mission to the end by @m-this in https://github.com/m-this/tf2-archipelago/pull/172
+
+
+**Full Changelog**: https://github.com/m-this/tf2-archipelago/compare/v1.17.3...v1.17.4
+
+## VirusTotal
+
+- [`tf2ap.exe`](https://www.virustotal.com/gui/file-analysis/ZGM3NGQzMWEwN2U4OWI0NmI3MmE2NGIzZjM3ZjVhOWE6MTc5MDgwMzQwNw==/detection)
+- [`tf2ap-linux-amd64`](https://www.virustotal.com/gui/file-analysis/YjhiNjBhYTNmMDUyZmE4N2NmNWM0NzY2ZTE1OTI1N2E6MTc5MDgwMzQxMA==/detection)
+</content>
+    <link href="https://github.com/m-this/tf2-archipelago/releases/tag/v1.17.4"/>
   </entry>
 </feed>
