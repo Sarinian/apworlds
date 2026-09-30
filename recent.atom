@@ -2,66 +2,11 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://raw.githubusercontent.com/silasary/apworlds/refs/heads/main/recent.atom</id>
   <title>Recent APWorlds</title>
-  <updated>2026-09-29T21:47:12.695189+00:00</updated>
+  <updated>2026-09-30T02:54:51.332502+00:00</updated>
   <author>
     <name>Silasary</name>
   </author>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
-  <entry>
-    <id>https://github.com/Kryen112/HP2PC_AP/releases/tag/v2.11.1</id>
-    <title>Harry Potter 2 PC v2.11.1.post2</title>
-    <updated>2026-09-25T23:03:50+00:00</updated>
-    <author>
-      <name>Kryen112</name>
-    </author>
-    <content># HP2PC_AP v2.11.1&#13;
-A new open castle option, two Jelly-Legs Jinx fixes, and a boss check fix.&#13;
-&#13;
-### New&#13;
-- **Always Goyle in Slytherin Common Room** (`always_goyle_in_slytherin_common_room`, open castle only, on by default). Harry wears the Goyle disguise for the whole room, so the Slytherins never chase him. A Polyjuice Potion Trap has no effect there, and the disguise comes off when you leave the level.&#13;
-&#13;
-### Fixed&#13;
-- **Spongify pads work during the Jelly-Legs Jinx.** Landing on an active pad bounces you as normal.&#13;
-- **Whomping Willow roots knock you back during the Jelly-Legs Jinx.** A root hit throws Harry clear again, instead of pinning him in place and hitting him every frame.&#13;
-- **Killing the Basilisk or Aragog always sends its check.** Holding the cutscene skip button could carry you out of the level before the kill registered, so Chamber of Secrets - Complete (or Forbidden Forest - Complete) never sent. The kill now also counts the moment its victory cutscene starts.&#13;
-</content>
-    <link href="https://github.com/Kryen112/HP2PC_AP/releases/tag/v2.11.1"/>
-  </entry>
-  <entry>
-    <id>https://github.com/Crownmuri/Archipelago/releases/tag/v1.0.5</id>
-    <title>La-Mulana 2 v1.0.5</title>
-    <updated>2026-09-26T03:55:44+00:00</updated>
-    <author>
-      <name>Crownmuri</name>
-    </author>
-    <author>
-      <name>Coookie93</name>
-    </author>
-    <content>## Supports: Mod v1.0.0+ -- Tracker v2.0.5+&#13;
-&#13;
-# Changelogs&#13;
-- Fixed UT not taking pre_fill logic appends like FDC logic post ER into regard&#13;
-- Fixed UT showing logic events like `White Pedestals` with the `/next_progression` command &#13;
-- Fixed UT showing a KeyError for some collapsed item labels.&#13;
-- Removed IBLadder from the Bat / Skeleton glossary region list&#13;
-- Added TrickyLogic for some checks next to ladders through self-damaging&#13;
-- Corrected logic for the following checks relating to Bergelmir and AC hot spring area:&#13;
-  - Bergelmir logic event:&#13;
-    - Was: `CanChant(Earth) and CanChant(Moon) and CanChant(Heaven)`&#13;
-    - Now: `(Has(Feather) or HorizontalAttack) and CanChant(Earth) and CanChant(Moon) and CanChant(Heaven)`&#13;
-  - [SFG A-3] Top-Left Breakable Ceiling Chest (Gauntlet)&#13;
-    - Was: `Has(Feather) and Has(Life Sigil) and ((HorizontalAttack and CanUse(Flare Gun)) or Has(Leather Whip) or Has(Axe) or Has(Katana) or CanUse(Earth Spear) or CanUse(Bomb))`&#13;
-    - Now: `Has(Feather) and Has(Life Sigil) and ((HorizontalAttack and CanUse(Flare Gun)) or Has(Leather Whip) or Has(Axe) or Has(Katana) or CanUse(Earth Spear) or CanUse(Bomb) or CanUse(Caltrops))`&#13;
-  - [SFG A-4] Left Snow Drop Coin Pot / Glossary&#13;
-    - Was: `Has(Katana) or Has(Axe) or CanUse(Earth Spear) or CanUse(Caltrops) or CanUse(Bomb) or (Has(Leather Whip) and Has(Vajra)) or (CanUse(Flare Gun) and (Has(Rapier) or Has(Knife) or CanUse(Rolling Shuriken)))`&#13;
-    - Now: `MeleeAttack or Has(Claydoll Suit) or CanUse(Earth Spear) or CanUse(Caltrops) or CanUse(Bomb) or CanUse(Pistol) or (CanUse(Flare Gun) and Has(Feather))`&#13;
-  - [SFG A-5] Hydlit checks&#13;
-    - Added TrickyLogic with just `PuzzleFinished(Bergelmir)`&#13;
-  - [AC D-7] (lava traversal logic for all checks)&#13;
-    - Was: `... and (Has(Claydoll Suit) or (Has(Ice Cloak) and OrbCount(2)))`&#13;
-    - Now: `... and (Has(Claydoll Suit) or Has(Feather) or (Has(Ice Cloak) and OrbCount(2)))`</content>
-    <link href="https://github.com/Crownmuri/Archipelago/releases/tag/v1.0.5"/>
-  </entry>
   <entry>
     <id>https://github.com/barretg/Taskipelago/releases/tag/v1.2.0-pre2</id>
     <title>Taskipelago v1.2.0rc2</title>
@@ -1610,5 +1555,42 @@ Others:&#13;
     </author>
     <content>Fixes the text after stealing from the shop.</content>
     <link href="https://github.com/threeandthreee/Archipelago/releases/tag/13.4.6"/>
+  </entry>
+  <entry>
+    <id>https://github.com/gerbiljames/Archipelago-Crystal/releases/tag/6.0.0-rc.7</id>
+    <title>Pokemon Crystal Prerelease v1.35.0</title>
+    <updated>2026-09-30T00:39:44+00:00</updated>
+    <author>
+      <name>gerbiljames</name>
+    </author>
+    <content># Changelog&#13;
+&#13;
+## Features&#13;
+- :3&#13;
+&#13;
+## Bug Fixes&#13;
+- Invalid values for game options are now rejected at generation or patch time&#13;
+- Use an event for Mom calling you on Route 31 so it shows in the playthrough&#13;
+- Fix sometimes being shoved when exiting an NPC blocked door that was unblocked&#13;
+- S.S. Aqua trainers not always present on the first voyage now logically require the first voyage story&#13;
+&#13;
+**This release is not backwards compatible with 6.0.0-rc.6**</content>
+    <link href="https://github.com/gerbiljames/Archipelago-Crystal/releases/tag/6.0.0-rc.7"/>
+  </entry>
+  <entry>
+    <id>https://github.com/TheLX5/Archipelago/releases/tag/toluca-v1.0.4</id>
+    <title>Donkey Kong Toluca v1.0.4</title>
+    <updated>2026-09-30T01:12:02+00:00</updated>
+    <author>
+      <name>lx5</name>
+    </author>
+    <content>cog&#13;
+# Info&#13;
+* [General Information](https://thelx5.github.io/dkc3/index.html)&#13;
+* [Setup Guide](https://thelx5.github.io/dkc3/setup.html)&#13;
+# Changes&#13;
+* Cogs are now limited to 5 inside the game to avoid crashes with the bear brother in Krematoa&#13;
+    * Generation still allows having extra cogs, don't worry</content>
+    <link href="https://github.com/TheLX5/Archipelago/releases/tag/toluca-v1.0.4"/>
   </entry>
 </feed>
