@@ -2,102 +2,11 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://raw.githubusercontent.com/silasary/apworlds/refs/heads/main/recent.atom</id>
   <title>Recent APWorlds</title>
-  <updated>2026-10-01T03:02:14.154110+00:00</updated>
+  <updated>2026-10-01T12:10:32.588729+00:00</updated>
   <author>
     <name>Silasary</name>
   </author>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
-  <entry>
-    <id>https://github.com/TheLynk/Archipelago/releases/tag/Pikmin_apworld_V0.6.0</id>
-    <title>Pikmin v0.6.0</title>
-    <updated>2026-09-27T13:09:39+00:00</updated>
-    <author>
-      <name>TheLynk</name>
-    </author>
-    <content># Pikmin Archipelago — Changelog&#13;
-&#13;
-Mod information can be found : https://github.com/TheLynk/Archipelago/blob/Apworld-Pikmin/worlds/pikmin/docs/en_pikmin1.md&#13;
-Setup Guide : https://github.com/TheLynk/Archipelago/blob/Apworld-Pikmin/worlds/pikmin/docs/setup_en.md&#13;
-&#13;
-## v0.6.0 - QOL Update&#13;
-&#13;
-### Add :&#13;
-#### New Setting :&#13;
-- DeathLink&#13;
-- Trap :&#13;
-  - Time Trap&#13;
-  - End Day Trap&#13;
-  - Damage Trap&#13;
-    - Damage Trap Can Kill&#13;
-    - Damage Trap Amount&#13;
-  - Teleport Trap&#13;
-  - Disbanding Trap&#13;
-  - Trip Trap&#13;
-- TrapLink&#13;
-- Normal First Day&#13;
-- Disable Pikmin Trip&#13;
-- Skip Events :&#13;
-  - Cutscenes:&#13;
-    -  Onion Discovery &#13;
-    - New Pikmin   &#13;
-    - Main Engine Discovery&#13;
-    - First Pellet &#13;
-    - Part Collection&#13;
-    - Ship Upgrade &#13;
-    - Box Push &#13;
-    - First Bomb   &#13;
-  - Tutorial messages:&#13;
-    - Pikmin Limit&#13;
-    - Bomb Explosion&#13;
-    - Olimar Damage&#13;
-    - Carry Path&#13;
-    - First Noon &#13;
-    - Onion Followed&#13;
-    - Nectar   &#13;
-    - Sunset Warning&#13;
-- Always Min One Leaf&#13;
-- TrapLink Conversion&#13;
-- TrapLink Conversion Traps&#13;
-- Pikmin Bond&#13;
-  - Pikmin Bond Damage&#13;
-- Olimar Bond&#13;
-  - Olimar Bond Heal&#13;
-&#13;
-#### New Content :&#13;
-- Collect Ship Part when if another game is collect or if this locations already checked&#13;
-- Custom Save (Above all, it allows you to reapply the bonus pikmin if you play again during the run or to re-receive the unreceived bonus pikmin if the game crashes.)&#13;
-- More Data in "fill_slot_data" for poptracker&#13;
-- Support Universal Tracker&#13;
-- Add Slot name in room patched for client auto get slot name by room patched&#13;
-- Added Option Groups to make the YAML cleaner and more readable&#13;
-- Improved descriptions for pikmin locations&#13;
-- Add New message in Pikmin Client if you have "Enable Emulated Memory Size Override" which tells you to deactivate it and restart the game&#13;
-- Data for Poptracker auto Tab Swapper&#13;
-&#13;
-### Update :&#13;
-- Setup Guide&#13;
-&#13;
-### Remove :&#13;
-- Nothing&#13;
-&#13;
-### Bug Fixes :&#13;
-- Client crashes when attempting to close it #2 &#13;
-- Incorrect total number of Pikmin when receiving a bonus Pikmin #6 &#13;
-- The visuals for the S.S. Dolphin linked to the ship part milestone are not working. #8 &#13;
-- The level selection menu does not refresh if you are already on it. #12 &#13;
-- Sprouted pikmin number counter at the end of the day is wrong after receiving bonus pikmin #33 &#13;
-- put this message under /debugmenu "[DEBUG] Retrying LocationScouts (no response after 5s, scouted=0) #41 &#13;
-- translation for message error And Upgrade Message Error #35 &#13;
-- On the zone choice menu, the pikmin counter of each color is not updated #45 &#13;
-- at the end of the day the games do not save (NTSC Only) #51&#13;
-&#13;
-**Full Changelog**: https://github.com/TheLynk/Archipelago/compare/Pikmin_apworld_V0.5.1...Pikmin_apworld_V0.6.0&#13;
-&#13;
-# NOTE FOR USERS :&#13;
-- This version of apworld is incompatible with all current runs of other versions (so if you have current runs, make sure you finish them before updating)&#13;
-- Be sure to regenerate your YAML from 0 to avoid any bugs and take advantage of the new options in this version</content>
-    <link href="https://github.com/TheLynk/Archipelago/releases/tag/Pikmin_apworld_V0.6.0"/>
-  </entry>
   <entry>
     <id>https://github.com/gerbiljames/Archipelago-Crystal/releases/tag/6.0.0-rc.4</id>
     <title>Pokemon Crystal Prerelease v1.33.0</title>
@@ -1745,6 +1654,29 @@ Free code signing for open source projects, provided by
 - [`tf2ap-linux-amd64`](https://www.virustotal.com/gui/file-analysis/YjhiNjBhYTNmMDUyZmE4N2NmNWM0NzY2ZTE1OTI1N2E6MTc5MDgwMzQxMA==/detection)
 </content>
     <link href="https://github.com/m-this/tf2-archipelago/releases/tag/v1.17.4"/>
+  </entry>
+  <entry>
+    <id>https://github.com/T0r1nn/APLC/releases/tag/v0.8.0-rc2</id>
+    <title>Lethal Company v0.8.0rc2</title>
+    <updated>2026-10-01T01:45:14+00:00</updated>
+    <author>
+      <name>T0r1nn, ThisGuyHere</name>
+    </author>
+    <content># This release is meant for testing and is likely to have issues. DO NOT use in public games without prior approval from the host&#13;
+# THIS AND ALL FUTURE VERSIONS ARE NOT COMPATIBLE WITH WORLDS CREATED PRIOR TO 0.8.0&#13;
+&#13;
+Because this version is meant for testing, the mod must be installed/updated manually. Read the instructions in rc1.&#13;
+&#13;
+Mod:&#13;
+* custom world names (set when using the 'apworld' command) are now saved&#13;
+* added more space after the locked moon text&#13;
+* GetGameLogic is no longer called twice when connecting to a multiworld&#13;
+* added a terminal command that gets the logic string without UnityExplorer&#13;
+&#13;
+Apworld:&#13;
+* the gold bar scrap is no longer always excluded&#13;
+* slightly tweaked custom content instructions for clarity</content>
+    <link href="https://github.com/T0r1nn/APLC/releases/tag/v0.8.0-rc2"/>
   </entry>
   <entry>
     <id>https://github.com/Phenra/RoadTripAdventure-AP/releases/tag/v0.3.0</id>
