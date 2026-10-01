@@ -2,50 +2,11 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://raw.githubusercontent.com/silasary/apworlds/refs/heads/main/recent.atom</id>
   <title>Recent APWorlds</title>
-  <updated>2026-09-30T21:46:30.145124+00:00</updated>
+  <updated>2026-10-01T03:02:14.154110+00:00</updated>
   <author>
     <name>Silasary</name>
   </author>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
-  <entry>
-    <id>https://github.com/barretg/Taskipelago/releases/tag/v1.2.0</id>
-    <title>Taskipelago v1.2.0</title>
-    <updated>2026-09-26T22:11:52+00:00</updated>
-    <author>
-      <name>barretg</name>
-    </author>
-    <content>*The big region overhaul (and also clicker game mode)*&#13;
-&#13;
-## What's new&#13;
-* New types of item grouping definitions. Now progressive, aesthetic, or random-choice&#13;
-  * aesthetic groups merely group things aesthetically with no effect on progression or not.&#13;
-  * random-choice groups randomly choose N or N% as you define items from within the group to be included in the world. No tasks may depend on individual items in these groups since they aren't guaranteed to exist, but depending on the randomized group as a whole or by percentage/count is supported.&#13;
-  * progressive groups function the same as always&#13;
-* Regions can now also be randomized to include N or N% of tasks within that region. May optionally also shuffle the order in which such tasks appear.&#13;
-* Subregions can now be defined within regions that aren't randomized (subregions may be randomized).&#13;
-* Regions may now depend on items and tasks via the syntax item(expr) and task(expr) where expr is any valid task or item dependency expression&#13;
-* Tasclickpelago toggle on the yaml generator that enables a bunch of features for building out an idle game because the concept was funny and I thought of a way to do it well.&#13;
-* Style tab added to the YAML generator so you can recolor the entire application at will while connected to the slot in question. Pretty colors are pretty.&#13;
-* Added syntax `item(...) and task(...)` to reference an item or task from within task prereqs and item prereqs fields respectively. This also works in the goal requirements, so you can now depend on receiving items to goal. The other benefit here is using OR operators on tasks and items together allowing for some interesting new logic.&#13;
-* Added a setting for filler items to grant a hint/scout for a random item (See the hint/scout dropdown).&#13;
-* Fix browser choice to use user's default where possible and never prefer Edge otherwise&#13;
-* Fix OR not working properly with region dependencies&#13;
-&#13;
-Note: should be fully backwards compatible with worlds generated from 1.0 onwards. Also Universal Tracker is still incompatible.</content>
-    <link href="https://github.com/barretg/Taskipelago/releases/tag/v1.2.0"/>
-  </entry>
-  <entry>
-    <id>https://github.com/dannybonz/ae2_archipelago/releases/tag/v1.3.3</id>
-    <title>Ape Escape 2 v1.3.3</title>
-    <updated>2026-09-27T10:25:39+00:00</updated>
-    <author>
-      <name>dannybonz</name>
-    </author>
-    <content>- Various logic fixes.&#13;
-&#13;
-For instructions, see the [Setup Guide.](https://github.com/dannybonz/ae2_archipelago/blob/main/docs/setup.md)</content>
-    <link href="https://github.com/dannybonz/ae2_archipelago/releases/tag/v1.3.3"/>
-  </entry>
   <entry>
     <id>https://github.com/TheLynk/Archipelago/releases/tag/Pikmin_apworld_V0.6.0</id>
     <title>Pikmin v0.6.0</title>
@@ -1784,5 +1745,33 @@ Free code signing for open source projects, provided by
 - [`tf2ap-linux-amd64`](https://www.virustotal.com/gui/file-analysis/YjhiNjBhYTNmMDUyZmE4N2NmNWM0NzY2ZTE1OTI1N2E6MTc5MDgwMzQxMA==/detection)
 </content>
     <link href="https://github.com/m-this/tf2-archipelago/releases/tag/v1.17.4"/>
+  </entry>
+  <entry>
+    <id>https://github.com/Phenra/RoadTripAdventure-AP/releases/tag/v0.3.0</id>
+    <title>Road Trip Adventure v0.3.0</title>
+    <updated>2026-10-01T02:27:13+00:00</updated>
+    <author>
+      <name>Phenra</name>
+    </author>
+    <content>**Randomizer info page:**&#13;
+https://github.com/Phenra/RoadTripAdventure-AP/blob/main/docs/en_Road%20Trip%20Adventure.md&#13;
+**Setup guide:**&#13;
+https://github.com/Phenra/RoadTripAdventure-AP/blob/main/docs/setup_en.md&#13;
+&#13;
+&#13;
+### New YAML options:&#13;
+- **Randomize Q Coins**: All Q coins in the overworld become locations, and all 100 coins are randomized into the multiworld as items.&#13;
+- **Q Coins Needed Per Coine Reward**: Can be set to any number between 1 and 10, defaults to 10 (vanilla behavior).&#13;
+  - All coins beyond the max needed (i.e. the number set for this option * 10) are considered filler.&#13;
+- **Money Filler Amount**: Defaults to 500, but can now be set to any number between 100 and 10,000.&#13;
+  - Filler item is now called 'Money' instead of '500G'.&#13;
+- **Require World Grand Prix**: Defaults to True. If set to False, acquiring all 3 Progressive License items will immediately open the gate to the president's mansion, meaning World GP can be skipped.&#13;
+- 'Visit All Houses Stamps' added as a location group (helps easily exclude these locations).&#13;
+### Gameplay changes:&#13;
+- Decorations mode: Changed the item names for the area unlock keys to include the town unlocked, e.g. "Gold Ornament (*Fuji City* Key)".&#13;
+### Bug fixes:&#13;
+- Stamp 72 access now requires that the player has Uzumasa's Autograph, and can talk to Shirley in White Mountain (since she must be home for visiting her house to count).&#13;
+- Trade Quest 5 (Rice Ball) fixed to check for access to the Shirley NPC in White Mountain (was mistakenly checking for access to Shirley's home in Papaya instead).</content>
+    <link href="https://github.com/Phenra/RoadTripAdventure-AP/releases/tag/v0.3.0"/>
   </entry>
 </feed>
