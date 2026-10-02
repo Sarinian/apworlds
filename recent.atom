@@ -2,219 +2,11 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://raw.githubusercontent.com/silasary/apworlds/refs/heads/main/recent.atom</id>
   <title>Recent APWorlds</title>
-  <updated>2026-10-01T22:16:19.033613+00:00</updated>
+  <updated>2026-10-02T03:03:24.104145+00:00</updated>
   <author>
     <name>Silasary</name>
   </author>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
-  <entry>
-    <id>https://github.com/Kryen112/AP_Stick_Ranger/releases/tag/1.8.5</id>
-    <title>Stick Ranger v1.8.5</title>
-    <updated>2026-09-28T12:46:29+00:00</updated>
-    <author>
-      <name>Kryen112</name>
-    </author>
-    <content>## Installation
-
--   Download the APworld for Stick Ranger
--   Put the stick_ranger.apworld in the /custom_worlds folder inside Archipelago
--   Generate a yaml or download the one in here
--   Customize the yaml and put it in the /players folder inside Archipelago
--   Generate a game
--   Connect to and play the game [here](https://kryen112.github.io/)
-
-## Heads up
-
--   **Regenerate your yaml.** Progressive Shop is now four separate items and
-    there is a new option below.
--   **A seed already in progress keeps working**, but it keeps the old shop
-    behaviour: one shared Progressive Shop item and no logic on the shop rows.
-    Only a new seed gets any of this.
--   Requires Archipelago **0.6.7 or newer**.
-
-## The shop was not in logic at all
-
-With Progressive Shop off, shop checks had no requirement beyond walking into
-the town. The game only stocks a row once you have beaten a stage that sells it,
-so Archipelago was free to put a stage unlock thirty rows deep and call it
-reachable from the start.
-
-Shop rows now sit behind the same progress the game asks for:
-
--   rows 0-8 need nothing
--   rows 9-13 need Castle
--   rows 14-17 need Submarine Shrine
--   rows 18-22 need Pyramid
--   rows 23-32 need Ice Castle
-
-Those come from the game's own stock table, not from a number picked here.
-
-The effect on a Shop Checks seed: with every Progressive Shop item and no world
-progress, the number of shop checks Archipelago considers reachable drops from
-all 462 to 145. That is what stops a seed handing out nothing but Progressive
-Shop while you wait for it to cough up a stage.
-
-## A progressive track per shop
-
-Progressive Shop was one item that opened all four shops at once. Each shop now
-has its own:
-
--   **Progressive Town Shop** x32
--   **Progressive Village Shop** x15
--   **Progressive Resort Shop** x9
--   **Progressive Island Shop** x33
-
-Town keeps its first row stocked, because that is where you start. Village,
-Resort and Island hold nothing at all until their first item arrives, and say
-**No items in stock** rather than showing an empty grid.
-
-## New option
-
--   **Enforce Shop Logic** — a shop row Archipelago does not consider reachable
-    yet is greyed out and cannot be bought. This is the shop's half of Enforce
-    Logic. Leave it off and the shop still sells anything it has stocked; logic
-    simply does not count on you buying it.
-
-## Also fixed
-
--   Shop hints are coloured by what the item is, the same as the message log.
--   Book hints were coloured by comparing the whole classification against one
-    value at a time, so an item that was both progression and useful came out
-    white. Books, the shop and the message log now share one table.
-</content>
-    <link href="https://github.com/Kryen112/AP_Stick_Ranger/releases/tag/1.8.5"/>
-  </entry>
-  <entry>
-    <id>https://github.com/Kryen112/AP_Stick_Ranger/releases/tag/1.8.6</id>
-    <title>Stick Ranger v1.8.6</title>
-    <updated>2026-09-28T14:13:15+00:00</updated>
-    <author>
-      <name>Kryen112</name>
-    </author>
-    <content>## Installation
-
--   Download the APworld for Stick Ranger
--   Put the stick_ranger.apworld in the /custom_worlds folder inside Archipelago
--   Generate a yaml or download the one in here
--   Customize the yaml and put it in the /players folder inside Archipelago
--   Generate a game
--   Connect to and play the game [here](https://kryen112.github.io/)
-
-## Heads up
-
--   **Just reload the page and reconnect.** No new seed, no new yaml, no
-    re-download. The APworld is identical to 1.8.5 apart from its version
-    number.
--   Requires Archipelago **0.6.7 or newer**.
-
-## Village, Resort and Island never opened
-
-With Progressive Shop on, Village, Resort and Island said **No items in stock**
-however many of their Progressive items you held.
-
-1.8.5 gave each shop its own item, but when one arrived the client only
-recorded Town's. A shop's stock is counted from what the client has recorded,
-so the other three shops stayed at zero for good.
-
-Every shop's item is recorded now. The items you already hold were never
-written down, so reconnecting once picks them up as new and the shop opens to
-where it should be.
-</content>
-    <link href="https://github.com/Kryen112/AP_Stick_Ranger/releases/tag/1.8.6"/>
-  </entry>
-  <entry>
-    <id>https://github.com/barretg/feeding-frenzy-2-archipelago/releases/tag/v0.7.2</id>
-    <title>Feeding Frenzy 2 v0.7.2</title>
-    <updated>2026-09-28T14:35:58+00:00</updated>
-    <author>
-      <name>barretg</name>
-    </author>
-    <content>Quick linux compatibility patch</content>
-    <link href="https://github.com/barretg/feeding-frenzy-2-archipelago/releases/tag/v0.7.2"/>
-  </entry>
-  <entry>
-    <id>https://github.com/Kryen112/AP_Stick_Ranger/releases/tag/1.8.7</id>
-    <title>Stick Ranger v1.8.7</title>
-    <updated>2026-09-28T15:02:45+00:00</updated>
-    <author>
-      <name>Kryen112</name>
-    </author>
-    <content>## Installation
-
--   Download the APworld for Stick Ranger
--   Put the stick_ranger.apworld in the /custom_worlds folder inside Archipelago
--   Generate a yaml or download the one in here
--   Customize the yaml and put it in the /players folder inside Archipelago
--   Generate a game
--   Connect to and play the game [here](https://kryen112.github.io/)
-
-## Heads up
-
--   **Just reload the page.** No new seed, no new yaml, no re-download. The
-    APworld is identical to 1.8.6 apart from its version number.
--   Requires Archipelago **0.6.7 or newer**.
-
-## Ring Link died the moment both players had been in a shop
-
-Ring Link worked for a few minutes, then went silent for good. No error, no
-message, gold simply stopped crossing.
-
-Every client tags its own packets with an id so the server's echo of its own
-gold can be ignored. Walking out of a shop wiped that id, because a copy of the
-connect-time setup had ended up in the shop-exit branch. Both players then sent
-packets with no id, and every client compared an empty id against its own empty
-id and threw the other player's gold away as its own echo.
-
-It needed both players to have visited a shop, which is why it always worked at
-first. This has been broken since Ring Link shipped in 1.8.0.
-
-An id is never reused or left empty now, nothing goes out without one, and an
-empty id can no longer match anything.
-
-## Ring Link could also stop sending on a long session
-
-The outgoing batch was the last step of the client's tick, behind four saves and
-two location sends. If any of those was slow the batch did not run at all, and
-saves get slower the longer you play. It now runs on its own, and the five
-second window is only spent when something is actually sent.
-
-## Ring Link counters
-
-`window.ArchipelagoMod.ringLinkStats` in the browser console now reports what
-was sent, what was received, and every reason a packet was dropped or a send
-skipped. If the link ever goes quiet again, that says why in one line instead of
-an evening of guessing.
-</content>
-    <link href="https://github.com/Kryen112/AP_Stick_Ranger/releases/tag/1.8.7"/>
-  </entry>
-  <entry>
-    <id>https://github.com/gerbiljames/Archipelago-Crystal/releases/tag/6.0.0-rc.5</id>
-    <title>Pokemon Crystal Prerelease v1.34.0</title>
-    <updated>2026-09-28T15:03:35+00:00</updated>
-    <author>
-      <name>gerbiljames</name>
-    </author>
-    <content># Changelog&#13;
-&#13;
-## Features&#13;
-- Allow field use of Teleport anywhere&#13;
-- Add the Poképark world to phone trap hints (thanks @Xilictofel)&#13;
-- Add the individual Pokemon Red, Blue and Yellow worlds to phone trap hints&#13;
-- Meeting Jasmine in the lighthouse now syncs when remote items are enabled&#13;
-&#13;
-## Bug Fixes&#13;
-- Fix Pokemon in the Pokecenter 2F battle underflowing to level 100 if they were generated below level 1&#13;
-- Fix the Scientist in the battle tower having the Rocket battle music&#13;
-- Fix the Card Key door being opened by clearing Radio Tower&#13;
-- Fix Flying to entrances blocked by NPCs not triggering the push away from those entrances&#13;
-- Received trade species now respect the static blocklist&#13;
-- Talking to Copycat to learn about the Lost Item now logically requires restoring power to Kanto&#13;
-- Beating Red will now always spawn you outside of the Silver Cave Pokecenter&#13;
-- Rename MOVE to MOVES in the party menu&#13;
-&#13;
-**This release is not backwards compatible with 6.0.0-rc.4**</content>
-    <link href="https://github.com/gerbiljames/Archipelago-Crystal/releases/tag/6.0.0-rc.5"/>
-  </entry>
   <entry>
     <id>https://github.com/vyneras/Archipelago/releases/tag/1.1.4</id>
     <title>Pokemon FireRed and LeafGreen v1.1.4</title>
@@ -1767,7 +1559,7 @@ source code: https://github.com/thejoshwolfe/Archipelago/tree/space-age/worlds/f
   </entry>
   <entry>
     <id>https://github.com/Sim10XXX/C2AP/releases/tag/v0.5.0-pre1</id>
-    <title>Crash2 v0.5.0rc1</title>
+    <title>Crash2 v0.5.0.post2</title>
     <updated>2026-10-01T19:16:44+00:00</updated>
     <author>
       <name>Sim10XXX</name>
@@ -1824,7 +1616,7 @@ Since this is a pre-release, I am leaving in some debug commands (to be used RES
   </entry>
   <entry>
     <id>https://github.com/barretg/hl1-sven-ap/releases/tag/v0.4-pre1</id>
-    <title>Half-Life (Sven Co-op) v0.1.0r2</title>
+    <title>Half-Life (Sven Co-op) v0.1.0r3</title>
     <updated>2026-10-01T20:52:46+00:00</updated>
     <author>
       <name>hl1-sven-ap</name>
@@ -1864,5 +1656,105 @@ In addition, !menu opens an interface to warp, return to hub, find the nearest c
 ## Known Issues&#13;
 * Sound cacheing bug: sometimes when another player joins the lobby, their sounds are all mixed up. This will self resolve once you get into a mission. I am under the impression that if they install the plugin too that helps, but either way, loading a new map should fix the issue.</content>
     <link href="https://github.com/barretg/hl1-sven-ap/releases/tag/v0.4-pre1"/>
+  </entry>
+  <entry>
+    <id>https://github.com/Alchav/Archipelago/releases/tag/alttp2026-v6</id>
+    <title>A Link to the Past Beta v6.0.2r2</title>
+    <updated>2026-10-01T23:07:49+00:00</updated>
+    <author>
+      <name>Berserker</name>
+    </author>
+    <content>- Transforming enemies into fairies/slimes might not crash anymore.&#13;
+- Randomize Enemy Damage might not cause bosses to fail to spawn anymore.</content>
+    <link href="https://github.com/Alchav/Archipelago/releases/tag/alttp2026-v6"/>
+  </entry>
+  <entry>
+    <id>https://github.com/Sim10XXX/C2AP/releases/tag/v0.5.0-pre1-1</id>
+    <title>Crash2 v0.5.0rc1.post1</title>
+    <updated>2026-10-01T23:38:27+00:00</updated>
+    <author>
+      <name>Sim10XXX</name>
+    </author>
+    <author>
+      <name>alexdass</name>
+    </author>
+    <content>Bug fixes:&#13;
+- The client now actually checks if ability lock is enabled&#13;
+- Fixed one instance where I didn't change `Crash2` to `Crash 2`</content>
+    <link href="https://github.com/Sim10XXX/C2AP/releases/tag/v0.5.0-pre1-1"/>
+  </entry>
+  <entry>
+    <id>https://github.com/Wakamu/Archipelago/releases/tag/0.4.0</id>
+    <title>Archipelago Visual Tracker v0.4.0</title>
+    <updated>2026-10-02T01:09:25+00:00</updated>
+    <author>
+      <name>Wakamu</name>
+    </author>
+    <content>- Added "Show Missing" to out of logic pin details to retrieve the missing progression item required to put that check in logic (doesn't work if more than 1 progression item is needed).&#13;
+- Added "Uncollected" filter to the Item tab , allowing you to look through items you have no collected / received yet (can also be filtered by type).</content>
+    <link href="https://github.com/Wakamu/Archipelago/releases/tag/0.4.0"/>
+  </entry>
+  <entry>
+    <id>https://github.com/BrittisH39/Hades2Archipelago/releases/tag/v0.10.0</id>
+    <title>Hades2Rogue v0.10.0</title>
+    <updated>2026-10-02T01:53:51+00:00</updated>
+    <author>
+      <name>BrittisH39</name>
+    </author>
+    <content>## Biggest changes:&#13;
+- Enemy_locations replaced with Enemysanity option, which allows players to shuffle or randomize enemies in addition to setting them as locations. The shuffle and random modes are still experimental, so expect some major bugs if you select those options.&#13;
+- Dream route added! Along with options to make it feel unique. Shoutout to zerp and their DreamDiveTweaks mod for allowing runs to go past 4 regions.&#13;
+- Added progressive_per to Keepsakesanity and Petsanity, which adds progressive checks for each individual keepsake/pet.&#13;
+- Minibosses aren't shuffled like normal enemies. Instead include_minibosses shuffles the miniboss rooms, so you might walk into a miniboss room in Erebus and find Charybdis.&#13;
+- Room locations are now numbered per region instead of per route, and defeating a region's boss sends any room locations you have left in that region.&#13;
+- Added Chaos to GodSanity.&#13;
+- Chaos Gates can now show up in every region of the Underworld and Surface, instead of only a few.&#13;
+- Reworked the Hades 2 tab in the client. It now shows your progress through each region, your goal progress, and lists of what you've checked. It also no longer relies on color to tell you things.&#13;
+- Reworked DeathLink so deaths no longer queue up.&#13;
+&#13;
+## Other Changes:&#13;
+- Legendary and Duo boons are now more likely with more rarity increases.&#13;
+- NPCs that spawn in different ways should now send their keepsakes regardless of where you give them nectar.&#13;
+- Tried to fix some issues with when the Daedalus Upgrade item is applying.&#13;
+- Fixed location issues in Fields of Mourning and Tartarus. Primarily that Fields of Mourning wasn't sending locations for each encounter, instead only sending them when you walk through the door. Tartarus was only sending locations when completing a bonus side room.&#13;
+- Fixed players who had things set up incorrectly being permanently locked out of checks. Once the issue is corrected, locations should send as normal.&#13;
+- Overlay now notes who you received items from.&#13;
+- Attempted suppression of some camera takeovers when first entering the Crossroads hub. I will be working on this more as I catch more.&#13;
+- Tried a really simple fix to hopefully stop armor from continuing to show as the screen blacks out during deaths.&#13;
+- Zagreus Journey failed to install correctly message should now be suppressed if players have Zagreus Journey disabled in the YAML.&#13;
+- Split Met and Defeated checks for Scylla and the Sirens into Scylla, Roxy, and Jetty.&#13;
+- Added a seed-identity guard so starting a new Archipelago without closing the game shouldn't ever send locations from a previous archipelago connection.&#13;
+- Chaos Gates should now count as rooms, since my previous assumption that they were extra is not correct.&#13;
+- Room counter should now always show the room you're in instead of the last room you sent.&#13;
+- Removed the hide and seek locations, and suppressed that flashback from ever happening.&#13;
+- Vow of Menace can now pull enemies from regions you haven't visited yet.&#13;
+- Suppressed all resource-gathering spots since there isn't a way to use them in the AP, and I don't intend to use them for anything.&#13;
+- Suppressed the "Divination of the Elements" pop-up the first time a player collects a boon.&#13;
+- Added 0.10.0 stuff to the Guided YAML and YAML Creator.&#13;
+- Fixed an issue where Nightmare route was still locked until an unlock was sent even if players disabled lock_routes.&#13;
+- Made ZJ an optional dependency. It's no longer downloaded with the mod, so if you want the Nightmare route, download it yourself in r2modman.&#13;
+- DreamDiveTweaks is now a dependency, and is downloaded with the mod.&#13;
+- Fixed room locations not sending if a later room in that region had already been sent by someone else (a collect, a release, or an admin).&#13;
+- Room logic is more forgiving, the last rooms of a region aren't expected until you can beat its boss.&#13;
+- Fixed per_aspect_room_based with combine_pools not creating any aspect room locations.&#13;
+- Final Challenge now ends the run right after the victory screen when you defeat Zagreus, and fixed a few issues with where the Zagreus contract sent you afterwards.&#13;
+- Fixed a crash in GodSanity when a boon was offered while you had no gods unlocked.&#13;
+- Fixed gods you hadn't unlocked yet showing up in the first room of Ephyra.&#13;
+- Fixed Daedalus Hammers rarely showing up in runs with GodSanity.&#13;
+- Fixed some Starting NPC gifts not doing anything.&#13;
+- Grasp can no longer be bought at the altar, since it comes from items.&#13;
+- Helper story rooms should no longer show up as the very first room of a Nightmare region.&#13;
+- Keepsake and Met locations can all be sent from a Dream Dive.&#13;
+- If you win while the client is disconnected, the win is now saved and sent once you reconnect.&#13;
+- start_inventory_from_pool now works with Grasp, Arcana, Keepsakes, and Vow Removals.&#13;
+- Setting a filler's percentage to 0 now actually means you get none of it. Nectar was sneaking in anyway.&#13;
+- Item and location IDs are now locked in place, so future updates shouldn't break seeds generated on older versions.&#13;
+- The Surface door now opens as soon as you receive access to it, instead of needing to leave the room and come back.&#13;
+- Fixed a crash that could happen when a combat helper showed up somewhere they normally don't.&#13;
+- Fixed a rare case where the same room could repeat forever.&#13;
+- With combine_pools, the shared pool is no longer sent early when your goal needs more than one route.&#13;
+- Fixed some option combinations failing to generate correctly.&#13;
+- Fixed Universal Tracker not counting some items towards logic.</content>
+    <link href="https://github.com/BrittisH39/Hades2Archipelago/releases/tag/v0.10.0"/>
   </entry>
 </feed>
