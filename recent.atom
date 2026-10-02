@@ -2,207 +2,11 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://raw.githubusercontent.com/silasary/apworlds/refs/heads/main/recent.atom</id>
   <title>Recent APWorlds</title>
-  <updated>2026-10-02T03:03:24.104145+00:00</updated>
+  <updated>2026-10-02T11:41:14.128248+00:00</updated>
   <author>
     <name>Silasary</name>
   </author>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
-  <entry>
-    <id>https://github.com/vyneras/Archipelago/releases/tag/1.1.4</id>
-    <title>Pokemon FireRed and LeafGreen v1.1.4</title>
-    <updated>2026-09-28T16:44:01+00:00</updated>
-    <author>
-      <name>Vyneras</name>
-    </author>
-    <content>ROM CHECKSUM: `00939B09`&#13;
-&#13;
-[Setup Guide](https://github.com/vyneras/Archipelago/blob/1.1.4/worlds/pokemon_frlg/docs/setup_en.md)&#13;
-[Rom Changes](https://github.com/vyneras/Archipelago/blob/1.1.4/worlds/pokemon_frlg/docs/rom%20changes.md)&#13;
-&#13;
-**Bug Fixes**&#13;
-- Fixed an issue where the client could overwrite the entrances in data storage across multiple sessions</content>
-    <link href="https://github.com/vyneras/Archipelago/releases/tag/1.1.4"/>
-  </entry>
-  <entry>
-    <id>https://github.com/dowlle/ctr-native-ap/releases/tag/v0.2.2</id>
-    <title>Crash Team Racing v0.2.2</title>
-    <updated>2026-09-28T18:46:35+00:00</updated>
-    <author>
-      <name>Dowlle</name>
-    </author>
-    <content>
-CTR Archipelago 0.2.2 is out. Here's the quick list; the [full release notes are on AP-Pie](https://ap-pie.com/ctr/releases/0-2-2).
-
-[Setup guide (ap-pie.com)](https://ap-pie.com/guides/ctr) · [SETUP.md](https://github.com/dowlle/ctr-native-ap/blob/main/SETUP.md) · [SETUP.md as shipped](https://github.com/dowlle/ctr-native-ap/blob/v0.2.2/SETUP.md)
-
-## What changed since 0.2.1
-
-- **New YAML options:** Remove Playable Oxide, Relic Race Perfect Checks, and DeathLink `race_loss`, where a death costs you the race.
-- **Held 1st logic:** needs your first boost, or one useful weapon with Itemsanity. Held 1st on Cortex Castle and Hot Air Skyway needs Ultimate Sacred Fire.
-- **Easy and medium:** with Itemsanity off, Trophy Races on the harder tracks now need your first boost.
-- **Skip Cutscenes:** new local option under Options &gt; Gameplay.
-- **Discord Status:** new local option under Options &gt; Archipelago, off by default. Shows your track, mode, check count and race clock; no room, slot or seed details.
-- **Freezes:** the one-second freezes while racing are fixed. Short pauses on screen changes remain.
-- **Steam Deck:** Fullscreen no longer lags.
-- **Cutscenes:** the boss door scene plays once per hub and the Oxide Final Challenge scene once per seed.
-- **Fresh rooms:** traps and Wumpa from an old room of the same seed no longer carry over.
-- **Traps:** Flatten waits for a race instead of firing in the hub, and a Mask no longer drops queued traps.
-- **Title screen:** Archipelago colours on the ring and an ARCHIPELAGO line.
-- **Signed downloads:** `manifest.json` and its minisign signature let you check the client archives.
-
-## Downloads
-
-Get `ctr-archipelago-v0.2.2-windows-x86.zip` for Windows or `ctr-archipelago-v0.2.2-linux-x86.tar.gz` for Linux and Steam Deck (glibc 2.36 or newer). Each has the client and the matching `ctr.apworld`. A 0.2.1 room can be played on the 0.2.2 client; for new seeds use the 0.2.2 client and APWorld together. Archipelago 0.6.7 or newer is needed to host. The separate `ctr.apworld` and `Crash.Team.Racing.yaml` are for hosts and generators. The `.sha256` files check your downloads, `manifest.json` and `manifest.json.minisig` are the signed manifest (how to check it is in the full notes), and the `.debug` files help with crash reports; you don't need them to play. You need your own NTSC-U disc; no game data is included. The client isn't code-signed.
-
-Known issues: short pauses on screen changes and low frame rate in Gem Stone Valley ([#376](https://github.com/dowlle/ctr-native-ap/issues/376)), large reconnect backlogs can stall the game ([#147](https://github.com/dowlle/ctr-native-ap/issues/147)), and some podium characters can show up invisible ([#282](https://github.com/dowlle/ctr-native-ap/issues/282)). The final Linux build passed its automated checks; earlier 0.2.2 test builds ran on the Steam Deck.
-
-## Download checksums
-
-| Asset | SHA-256 |
-|---|---|
-| `ctr-archipelago-v0.2.2-windows-x86.zip` | `df6c5fac4d5c823a71374de322e43536514fdf91d3e614f2d396a8bd142adc9b` |
-| `ctr-archipelago-v0.2.2-linux-x86.tar.gz` | `e52a20500152350aaa038b674aee0060fa4acd19e3f8f6878923fd9424c5f511` |
-| `ctr.apworld` | `f939d2dd02e5b84261a1fb683ad786a2b9921eae1f0ce6d1dfabe45e729a0a0c` |
-| `manifest.json` | `9e94cd5afaba7e1cdbecca8f51d3826dc483ec5568d4c06647211d527a13f2a0` |
-
-## Reporting a problem
-
-[Open a GitHub issue](https://github.com/dowlle/ctr-native-ap/issues/new/choose) with your client version, platform, seed or YAML and what happened. Include the support bundle when it helps: run `support-bundle.bat` on Windows or `support-bundle.sh` on Linux and check it before attaching; it doesn't upload anything by itself. Questions are welcome in the [Crash Team Racing channel](https://discord.com/channels/731205301247803413/1222304293751750777) on the Archipelago Discord.
-
-</content>
-    <link href="https://github.com/dowlle/ctr-native-ap/releases/tag/v0.2.2"/>
-  </entry>
-  <entry>
-    <id>https://github.com/palex00/Archipelago/releases/tag/logic-test-0.4.0</id>
-    <title>Logic Test v0.4.0</title>
-    <updated>2026-09-28T19:02:24+00:00</updated>
-    <author>
-      <name>gerbiljames</name>
-    </author>
-    <author>
-      <name>palex00</name>
-    </author>
-    <content>- Items whose own location's rule depends on them (self-locking placements) now stay in the under-test game instead of being gated.
-- New `/keys [sphere]` client command lists the locations still holding a sphere's keys (current sphere by default).
-- Quieter client console: the full sphere table only prints on `/status`; leaks and "ready" are announced once.
-- Opened spheres show as done even if their key leaked, with the leak sphere noted in red.
-- Fixed a stale "waiting" status after the client reconnects.
-
-Regenerate seeds to use `/keys`.</content>
-    <link href="https://github.com/palex00/Archipelago/releases/tag/logic-test-0.4.0"/>
-  </entry>
-  <entry>
-    <id>https://github.com/Automagic00/R.E.P.O.-Archipelago-Client-Mod/releases/tag/0.4.4</id>
-    <title>R.E.P.O v0.4.4</title>
-    <updated>2026-09-28T20:14:35+00:00</updated>
-    <author>
-      <name>Automagic</name>
-    </author>
-    <content>Mod:&#13;
-* turned the internal debug binds into debug commands which can be used by turning on 'Developer mode' in the RepoLib config&#13;
-* added a config option to prevent cosmetic crates from spawning&#13;
-* reduced default money deducted by audit traps to 33%&#13;
-* if a player accidentally connected to a multiworld before joining someone else's lobby, they will now automatically disconnect from that multiworld when joining&#13;
-* fixed an issue where the truck screen thought that some goal conditions weren't completed if the player obtained more items than required&#13;
-* improved error handling when ap shop items can't spawn (it should no longer lock up the game when traveling to the shop)&#13;
-&#13;
-Apworld: &#13;
-* reduced the default weight of moon phase traps from 3 to 2&#13;
-* added a new option to set the percentage of money lost when receiving an audit trap (default is 33%)&#13;
-* fixed a minor logic issue with monster souls&#13;
-* shop locations greater than shop_upgrade_logical are now correctly excluded&#13;
-&#13;
-This version will work with multiworlds from 0.4.1 and above.</content>
-    <link href="https://github.com/Automagic00/R.E.P.O.-Archipelago-Client-Mod/releases/tag/0.4.4"/>
-  </entry>
-  <entry>
-    <id>https://github.com/Kryen112/AP_Stick_Ranger/releases/tag/1.8.8</id>
-    <title>Stick Ranger v1.8.8</title>
-    <updated>2026-09-28T21:35:08+00:00</updated>
-    <author>
-      <name>Kryen112</name>
-    </author>
-    <content>## Installation
-
--   Download the APworld for Stick Ranger
--   Put the stick_ranger.apworld in the /custom_worlds folder inside Archipelago
--   Generate a yaml or download the one in here
--   Customize the yaml and put it in the /players folder inside Archipelago
--   Generate a game
--   Connect to and play the game [here](https://kryen112.github.io/)
-
-## Heads up
-
--   **Just reload the page.** No new seed, no new yaml, no re-download. The
-    APworld is identical to 1.8.7 apart from its version number.
--   Requires Archipelago **0.6.7 or newer**.
-
-## Village, Resort and Island were empty on an older seed
-
-With Progressive Shop on, a seed generated before 1.8.5 showed nothing in the
-Village, Resort and Island shops however many Progressive Shop items you held.
-Town was fine, so it did not look like a total failure.
-
-Those seeds send a single Progressive Shop item covering all four shops. 1.8.5
-gave each shop its own item and started counting them one shop at a time, and
-an older seed has nothing to count for three of the four. That one shared count
-now opens every shop again, which is what it always did.
-
-A seed made with 1.8.5 or later was never affected, and still gets a track per
-shop.
-
-## New option
-
--   **Important Hints Only** — the shop and the Book shop only hint the room
-    about progression and trap items, and stay quiet about filler and useful
-    ones. You still see everything yourself. A seed with Shop Checks has 462
-    shop items, and hinting all of them buries every other player's hints.
-</content>
-    <link href="https://github.com/Kryen112/AP_Stick_Ranger/releases/tag/1.8.8"/>
-  </entry>
-  <entry>
-    <id>https://github.com/Matt41321/Archipelago/releases/tag/v0.8.2</id>
-    <title>Bloons TD6 v0.8.2</title>
-    <updated>2026-09-29T01:33:51+00:00</updated>
-    <author>
-      <name>Matt41321</name>
-    </author>
-    <content>## Added&#13;
-- New option for knowledge behaviour&#13;
-- Fixed Ascent and Skull Peak not being options in blacklist/whitelist</content>
-    <link href="https://github.com/Matt41321/Archipelago/releases/tag/v0.8.2"/>
-  </entry>
-  <entry>
-    <id>https://github.com/silasary/Archipelago/releases/tag/factorio_saws-0.9.5</id>
-    <title>Factorio - Space Age Without Space v0.9.5</title>
-    <updated>2026-09-29T01:52:08+00:00</updated>
-    <author>
-      <name>Silasary</name>
-    </author>
-    <content>## 0.9.5
-* Fixed leak in mod title when multiple SAWS slots were in a multiworld
-
-## 0.9.4
-* Added the Quality Trap.  This lovely trap will hide a Quality Module 3 in a random machine.  Everyone loves free gifts, right?
-
-## 0.9.3
-* Fixed a cross-slot bleed involving custom recipes that use fluoroketone.
-* Added a better error message for impossible yaml combinations.
-
-## 0.9.2
-* Made Energy Bridge recipe actually random
-* Made fish immune to lightning strikes.
-* Adjusted recipe costs to be more accurate, which should lead to more interesting seeds.
-* Fixed CLI not working.
-* Updated the way the mod handles text localisation.
-
-## 0.9.1
-* Science Packs are now given randomised names.
-* Changed the 'Vanilla' yellow science pack to be crafted in a centrifuge, then added it to the machine shuffle.
-* Fixed a bug with Universal Tracker compatibility.
-* Made fruit trees immune to lightning strikes.</content>
-    <link href="https://github.com/silasary/Archipelago/releases/tag/factorio_saws-0.9.5"/>
-  </entry>
   <entry>
     <id>https://github.com/MarioSpore/Grinch-AP/releases/tag/v1.6.3</id>
     <title>The Grinch v1.6.3</title>
@@ -543,6 +347,26 @@ The zip file of configuration files has not had its contents changed this releas
 &#13;
 **Full Changelog**: https://github.com/benny-dreamly/Archipelago/compare/ts-1.2.3...ts-1.2.4</content>
     <link href="https://github.com/benny-dreamly/Archipelago/releases/tag/ts-1.2.4"/>
+  </entry>
+  <entry>
+    <id>https://github.com/Crownmuri/Archipelago/releases/tag/v1.0.6</id>
+    <title>La-Mulana 2 v1.0.6</title>
+    <updated>2026-09-29T16:04:28+00:00</updated>
+    <author>
+      <name>Crownmuri</name>
+    </author>
+    <author>
+      <name>Coookie93</name>
+    </author>
+    <content>## Supports: Mod v1.0.0+ -- Tracker v2.0.6+&#13;
+&#13;
+# Changelogs&#13;
+- Added weapon conditions for Anubis/Osiris access&#13;
+- Fixed original logic where Feather was required for Anubis Trials (not required when both EPD/EPG are accessible)&#13;
+- Fixed TrickyLogic not applying for EnemyGlossary&#13;
+- New damage boost locations for TrickyLogic: Four Sigil Weapon Vault (Flail Whip), HL Spiral Mural Coin Pot (with Costume Clip)&#13;
+- Corrected a lot of original logic missing in the TrickyLogic version.</content>
+    <link href="https://github.com/Crownmuri/Archipelago/releases/tag/v1.0.6"/>
   </entry>
   <entry>
     <id>https://github.com/Overlord-Draconic-Fire/Archipelago/releases/tag/STP-0.9.0b</id>
@@ -1363,7 +1187,6 @@ source code: https://github.com/thejoshwolfe/Archipelago/tree/space-age/worlds/f
 &#13;
 ## New Logic Options&#13;
 - **Victory Road Requirement/Count**: Sets the requirement to pass the Victory Road badge check. The Elite Four Requirement/Count options now control going between the Indigo Plateau Pokécenter and Will's room.&#13;
-- **Victory Road Strength**: Requires Strength to pass through Victory Road.&#13;
 - **Route 22 Access Requirement/Count**: Replaces Kanto Access Requirement/Count.&#13;
 - **Lance Requires Elite Four**: Lance's room kicks you out unless you've beaten all four Elite Four members.&#13;
 - **Vanilla Event Chains**: Restores vanilla event chains for Misty, Clair, Jasmine and the Copycat. This replaces Vanilla Clair.&#13;
@@ -1659,7 +1482,7 @@ In addition, !menu opens an interface to warp, return to hub, find the nearest c
   </entry>
   <entry>
     <id>https://github.com/Alchav/Archipelago/releases/tag/alttp2026-v6</id>
-    <title>A Link to the Past Beta v6.0.2r2</title>
+    <title>A Link to the Past Beta v6.0.2r3</title>
     <updated>2026-10-01T23:07:49+00:00</updated>
     <author>
       <name>Berserker</name>
@@ -1756,5 +1579,277 @@ In addition, !menu opens an interface to warp, return to hub, find the nearest c
 - Fixed some option combinations failing to generate correctly.&#13;
 - Fixed Universal Tracker not counting some items towards logic.</content>
     <link href="https://github.com/BrittisH39/Hades2Archipelago/releases/tag/v0.10.0"/>
+  </entry>
+  <entry>
+    <id>https://github.com/agilbert1412/StardewArchipelago/releases/tag/8.1.7</id>
+    <title>Stardew Valley v8.1.7</title>
+    <updated>2026-10-02T03:30:57+00:00</updated>
+    <author>
+      <name>Kaito Kid</name>
+    </author>
+    <author>
+      <name>Jouramie</name>
+    </author>
+    <author>
+      <name>Witchybun (Mod Support)</name>
+    </author>
+    <author>
+      <name>Noa (Entrance Randomizer)</name>
+    </author>
+    <content># First version submitted as a PR to Archipelago Core: https://github.com/ArchipelagoMW/Archipelago/pull/6477&#13;
+&#13;
+## Apworld&#13;
+- Fixed logic issues with many entrances (Alec, Cellar, etc)&#13;
+- Fixed multiple bugs with same type and same direction ER&#13;
+- Fixed a bug with dynamic item classifications confusing UT (particularly allsanity goal)&#13;
+- Added a condition to the witch warp from wizard to be able to have reached the other side&#13;
+- Forbid all farming-based artisan goods to appear in seed prices to avoid logic loops&#13;
+- Fixed an issue with Starter sources not properly taking into account extra requirements (Notably, furnace and garden pot requiring the NPC)&#13;
+- Fixed strawberry seeds DR price not accounting for the expected x10 in the mod&#13;
+- Big update to all documentation&#13;
+- Fixed an issue where Max prices shuffled bundles can theoretically require more items than there are unique items. Allow picking duplicates when that happens&#13;
+- Added using Marnie's shop through the animal catalogue to logic&#13;
+&#13;
+## Mod&#13;
+- Fixed a Lingo hint that was being given in reverse&#13;
+- Added a safeguard against modded maps with null forage accidentally crashing the help wanted board&#13;
+- Exit the fishing trap early when the player does not own a rod, to avoid triggering other fishing statistics such as walnuts&#13;
+- Added a baby name who did nothing to deserve it&#13;
+- Updated Meme bundle hints with the new 8.x.x meme bundles</content>
+    <link href="https://github.com/agilbert1412/StardewArchipelago/releases/tag/8.1.7"/>
+  </entry>
+  <entry>
+    <id>https://github.com/FeluciaPS/GarfieldKartAP/releases/tag/1.1.0</id>
+    <title>Garfield Kart - Furious Racing v1.1.0</title>
+    <updated>2026-10-02T05:49:37+00:00</updated>
+    <author>
+      <name>FeluciaPS</name>
+    </author>
+    <author>
+      <name>Jeffdev</name>
+    </author>
+    <content>- Added a proper connection menu to the game, replacing the basic unity UI one&#13;
+- Added new art by Flow for the main logo, thunderstore logo, and time trial medals!&#13;
+- Added text tracker info for Grand Prix, displaying victory and spoiler unlocks.&#13;
+- Added better handling for losing connection midgame. It now brings up a popup that lets you try to reconnect, and if dismissed, brings you back to the connection screen.&#13;
+- Changed the victory tracker display on the track/cup select to be based on your local win state, rather than based on the location, to fix collect issues.&#13;
+- Changed the notification display on the top to not display debug log messages about the filler items being used&#13;
+- Changed Sneak-A-Peak to have a higher chance of giving you Lasagna alongside spring, if all puzzle pieces haven't been collected. This is due to Sneak-A-Peak having lasagna as a logical requirement for puzzle piece 3.&#13;
+- Changed Blazing Oasis Puzzle Piece 3 to only require Spring, rather than Lasagna/Spring.&#13;
+- Fixed cups_and_races expecting either the cup or race unlock. It now just expects the race unlock for logic.&#13;
+- Fixed the item display acting wonky with itemsanity item removals.&#13;
+- Fixed progression_balancing and accessibility not being added into the yaml.&#13;
+- Fixed some messy behavior with re-enabling the grand prix button in some cases.&#13;
+- Updated the Archipelago client to connect to 0.6.7.&#13;
+&#13;
+[Mod Download](https://github.com/robotzurg/GarfieldKartAPMod/releases/latest)&#13;
+[Setup Guide](https://github.com/FeluciaPS/GarfieldKartAP/blob/main/docs/setup_en.md)</content>
+    <link href="https://github.com/FeluciaPS/GarfieldKartAP/releases/tag/1.1.0"/>
+  </entry>
+  <entry>
+    <id>https://github.com/CodeTriangle/CCMultiworldRandomizer/releases/tag/0.10.0-pre.1</id>
+    <title>CrossCode v0.10.0rc1</title>
+    <updated>2026-10-02T06:59:14+00:00</updated>
+    <author>
+      <name>CodeTriangle</name>
+    </author>
+    <content>## Additions&#13;
+&#13;
+* Added platform quest locations and Facility X goal (@buanjautista, #103)&#13;
+  * Platform quests are in the pool when Quest Randomization is enabled.&#13;
+  * Quest Randomization is required for Facility X goal.&#13;
+* Added trap support and initial set of traps (@buanjautista, #105)&#13;
+  * Full list of traps is available in the template YAML and on Discord.&#13;
+&#13;
+## Changes to Generation&#13;
+&#13;
+* The number of SP upgrades in the pool is now decided by an option, `progressive_sp_unlocks` (@buanjautista, #102)&#13;
+&#13;
+## Internal Changes&#13;
+&#13;
+* Merge Open World into CCMultiworldRandomizer (@CodeTriangle, #73)&#13;
+ * The mod will prompt you to uninstall and disable CC-Open-World.</content>
+    <link href="https://github.com/CodeTriangle/CCMultiworldRandomizer/releases/tag/0.10.0-pre.1"/>
+  </entry>
+  <entry>
+    <id>https://github.com/Wouter17/Spirit-Archipelago/releases/tag/0.1.5</id>
+    <title>Spirit Island v0.1.5</title>
+    <updated>2026-10-02T09:55:03+00:00</updated>
+    <author>
+      <name>Wouter17</name>
+    </author>
+    <content>## V0.1.5&#13;
+&#13;
+### Client &amp; APworld&#13;
+- Added single victory item (_shard of the island_) instead of checking completed goals&#13;
+&#13;
+### Client&#13;
+- Added world versioning check&#13;
+- Added sh scripts and manual for Linux (Proton) install/uninstall. by @sourlemon11 in https://github.com/Wouter17/Spirit-Archipelago/pull/1&#13;
+- Fixed deathlink not being sent&#13;
+&#13;
+### APworld&#13;
+- Fixed locations being marked as priority&#13;
+- Fixed access rules not respecting aspect-only uniques&#13;
+- Added adjustment option for the number of goals to complete&#13;
+- Fixed card unlock for aspects adding cards&#13;
+- Added world versioning (archipelago.json)&#13;
+&#13;
+## New Contributors&#13;
+* @sourlemon11 made their first contribution in https://github.com/Wouter17/Spirit-Archipelago/pull/1&#13;
+&#13;
+---&#13;
+&#13;
+**Full Changelog**: https://github.com/Wouter17/Spirit-Archipelago/compare/0.1.4...0.1.5</content>
+    <link href="https://github.com/Wouter17/Spirit-Archipelago/releases/tag/0.1.5"/>
+  </entry>
+  <entry>
+    <id>https://github.com/m-this/tf2-archipelago/releases/tag/v1.17.5</id>
+    <title>Team Fortress 2 Mann vs Machine v1.17.5</title>
+    <updated>2026-10-02T11:04:12+00:00</updated>
+    <author>
+      <name>mathis</name>
+    </author>
+    <content>&lt;p align="center"&gt;
+  &lt;a href="https://github.com/m-this/tf2-archipelago/releases/latest/download/tf2ap.exe"&gt;
+    &lt;img alt="Download tf2ap.exe for Windows" src="https://img.shields.io/badge/Download-tf2ap.exe%20for%20Windows-2ea44f?style=for-the-badge&amp;logo=windows&amp;logoColor=white"&gt;
+  &lt;/a&gt;
+  &lt;a href="https://github.com/m-this/tf2-archipelago/releases/latest/download/tf2ap-linux-amd64"&gt;
+    &lt;img alt="Download tf2ap-linux-amd64 for Linux" src="https://img.shields.io/badge/Download-tf2ap--linux--amd64-1b1f27?style=for-the-badge&amp;logo=linux&amp;logoColor=white"&gt;
+  &lt;/a&gt;
+&lt;/p&gt;
+
+## Changes
+
+### Fixed
+
+- **SigMod missions run again on a Linux or Docker server after the
+  2026-10-02 TF2 update.** The update changed how the game stores its key and
+  value data, and the SigMod build the server used crashed it on every start.
+  The server now installs a SigMod rebuilt for the new game. SigMod on a Windows
+  server still crashes on this TF2 update: leave SigMod missions out of the run
+  there until a Windows build follows.
+- **A run generated with v1.11 to v1.13 keeps going on this release.** The
+  server refused it at connect, so updating meant losing the run. It now plays
+  it with the options it was generated with, and every check counts.
+
+
+## Windows
+
+Download **`tf2ap.exe`** above. Run it. It installs everything else.
+
+Windows will warn you, and it is a false positive. The exe unpacks archives and
+starts a game server without a code signature, which looks like a virus to a
+scanner. Click **More info**, then **Run anyway**, or check it below first.
+
+[Full guide](https://m-this.github.io/tf2-archipelago/en/setup/install-windows.html)
+
+## Linux
+
+Download **`tf2ap-linux-amd64`**. Run it. It installs everything else.
+
+```sh
+chmod +x tf2ap-linux-amd64
+./tf2ap-linux-amd64
+```
+
+[Full guide](https://m-this.github.io/tf2-archipelago/en/setup/install-linux.html)
+
+## Docker
+
+Download **`compose.yaml`** and **`env.example`**:
+
+```sh
+mkdir mann-vs-archipelago &amp;&amp; cd mann-vs-archipelago
+base=https://github.com/m-this/tf2-archipelago/releases/latest/download
+curl -fsSLO "$base/compose.yaml"
+curl -fsSL -o .env "$base/env.example"
+```
+
+Set `SRCDS_RCONPW` in `.env`, then:
+
+```sh
+docker compose --profile seed run --rm seed   # writes ./seed
+docker compose up -d
+```
+
+Upload the file from `seed/` at
+[archipelago.gg/uploads](https://archipelago.gg/uploads) and put the room's
+port into `AP_PORT`.
+
+[Full guide](https://m-this.github.io/tf2-archipelago/en/setup/install.html)
+
+## Other assets
+
+| File | For |
+| --- | --- |
+| `tf2_mvm.apworld` | The official Archipelago app. |
+| `tf2_archipelago.smx` | A SourceMod server the launcher and compose file don't manage. |
+| `tf2-defender-bots.zip` | The bots for that same server. Unzip into `tf/`. |
+| `meta.json`, `items.json`, `missions.json` | The item and check tables, for reference. |
+
+## Checking what you downloaded
+
+**`SHA256SUMS`** is attached to this release. It holds the hash of every file
+here, computed by the workflow that built them.
+
+```powershell
+Get-FileHash tf2ap.exe -Algorithm SHA256    # Windows
+```
+
+```sh
+sha256sum -c SHA256SUMS --ignore-missing    # Linux
+```
+
+Each binary carries a signed record of the commit and the workflow that built
+it:
+
+```sh
+gh attestation verify tf2ap.exe --repo m-this/tf2-archipelago
+```
+
+The binaries are scanned on VirusTotal, and the reports are linked at the end of
+these notes. Expect a few heuristic detections and no named malware family. The
+source is all in the repository, and `make launcher` rebuilds the exe on your
+own machine.
+
+## Code signing policy
+
+Free code signing for open source projects, provided by
+[SignPath.org](https://signpath.org), with a certificate from the
+[SignPath Foundation](https://signpath.org).
+
+&gt; [!WARNING]
+&gt; The application is open, not granted. Nothing is signed yet: `tf2ap.exe` ships
+&gt; unsigned, and Windows warns about it until that changes.
+
+
+## What's Changed
+* fix(sigmod): a Linux build for the 2026-10-02 TF2 update by @m-this in https://github.com/m-this/tf2-archipelago/pull/175
+
+
+**Full Changelog**: https://github.com/m-this/tf2-archipelago/compare/v1.17.4...v1.17.5
+
+## VirusTotal
+
+- [`tf2ap.exe`](https://www.virustotal.com/gui/file-analysis/ODY3MDY0NThjYjQyODVhMWE2NGI5YmQwOWU3OTJhNDI6MTc5MDkzOTYzNQ==/detection)
+- [`tf2ap-linux-amd64`](https://www.virustotal.com/gui/file-analysis/ZjJmNDBjNTllOGE4MWI3NjM2M2ZiMjg2YjUyZmJjNDc6MTc5MDkzOTYzOA==/detection)
+</content>
+    <link href="https://github.com/m-this/tf2-archipelago/releases/tag/v1.17.5"/>
+  </entry>
+  <entry>
+    <id>https://github.com/gerbiljames/Archipelago-Crystal/releases/tag/6.0.1</id>
+    <title>Pokemon Crystal v6.0.1</title>
+    <updated>2026-10-02T11:15:00+00:00</updated>
+    <author>
+      <name>gerbiljames</name>
+    </author>
+    <content># Changelog&#13;
+&#13;
+## Bug Fixes&#13;
+- Fix generation failures when `boost_trainers` was set to `set_min_level` and `force_fully_evolved` was set to `evolution_level`.&#13;
+&#13;
+_This release is backwards compatible down to 6.0.0._</content>
+    <link href="https://github.com/gerbiljames/Archipelago-Crystal/releases/tag/6.0.1"/>
   </entry>
 </feed>
