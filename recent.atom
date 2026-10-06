@@ -2,196 +2,11 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://raw.githubusercontent.com/silasary/apworlds/refs/heads/main/recent.atom</id>
   <title>Recent APWorlds</title>
-  <updated>2026-10-06T12:36:35.747855+00:00</updated>
+  <updated>2026-10-06T22:08:06.368656+00:00</updated>
   <author>
     <name>Silasary</name>
   </author>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
-  <entry>
-    <id>https://github.com/icebound777/PMR_APWorld/releases/tag/0.6.8-beta</id>
-    <title>Paper Mario v0.6.8b0</title>
-    <updated>2026-10-03T16:46:33+00:00</updated>
-    <author>
-      <name>icebound777</name>
-    </author>
-    <content>## Other&#13;
-&#13;
-* Migrate logic to AP's RuleBuilder system&#13;
-  * This change aims to make maintaining and understanding the logic easier.&#13;
-* Manifest&#13;
-  * Add `"minimum_ap_version": "0.6.7"` to the manifest, as Archipelago version 0.6.7 or newer is required for the newly added Rule Builder system&#13;
-</content>
-    <link href="https://github.com/icebound777/PMR_APWorld/releases/tag/0.6.8-beta"/>
-  </entry>
-  <entry>
-    <id>https://github.com/TreZc0/OoTR-APWorld/releases/tag/v9.1.0-release6</id>
-    <title>Ocarina of Time v9.1.0r2</title>
-    <updated>2026-10-03T17:21:37+00:00</updated>
-    <author>
-      <name>espeon65536</name>
-    </author>
-    <author>
-      <name>TreZ</name>
-    </author>
-    <content># OoT Randomizer APWorld v9.1.0 Full Release 6&#13;
-&#13;
-This is a pretty well tested version by now. Generation fails still might happen on occasion, especially when using pre-completed dungeons.&#13;
-Note: The default template changed with this version. &#13;
-&#13;
-## Changes:&#13;
-- Fixed some edge cases with silver rupees not being handled properly by the savecontext&#13;
-- Restored several changes in patches.py to match upstream more closely&#13;
-- Cleaned up entrance warp safety list between children transitions and adult blue warps (fixes Owl crash)&#13;
-- Updated compressor/decompressor with a minor fix from upstream for bigger file sizes&#13;
-&#13;
-Please note: Since OoT is currently not shipped as a bundled .apworld file, but unpacked by the core AP releases, you will have to delete the lib/worlds/oot folder first before adding this custom apworld.&#13;
-Even after deletion, the "Open Patch" Workflow in AP currently still starts the OoT Client, even if you deleted the world. So make sure you have the correct "Ocarina of Time Client" open that references the APWorld 9.1.0 after patching, or patch directly through the new Adjuster. If your client says "Archipelago Ocarina of Time Client 0.6.x" in the top bar with no info about the apworld version, you are using the old client.</content>
-    <link href="https://github.com/TreZc0/OoTR-APWorld/releases/tag/v9.1.0-release6"/>
-  </entry>
-  <entry>
-    <id>https://github.com/DayKat/spirit-tracks/releases/tag/st-v0.8.4</id>
-    <title>The Legend of Zelda - Spirit Tracks v0.8.4</title>
-    <updated>2026-10-03T17:39:03+00:00</updated>
-    <author>
-      <name>DayKat</name>
-    </author>
-    <author>
-      <name>1313e</name>
-    </author>
-    <author>
-      <name>Carrotinator</name>
-    </author>
-    <author>
-      <name>TriforceDrummer</name>
-    </author>
-    <author>
-      <name>Nepecute</name>
-    </author>
-    <author>
-      <name>Catzador</name>
-    </author>
-    <content>Compatible with seeds generated in v8.x&#13;
-[Setup Guide](https://github.com/DayKat/spirit-tracks/blob/main/worlds/tloz_st/docs/setup.md)&#13;
-&#13;
-- Fixed some respawn bugs. Saving and quitting/dying on the train will now always respawn you at a station&#13;
-- Fixed buy mega ice not sending&#13;
-- Fixed City Goron spawning before they're suppose to&#13;
-- Prevented Desert Temple 2F pot treasures from triggering locations&#13;
-- Fixed repeat acquisitions of max progressive items removing the last stage&#13;
-- Added backup for Goron geyser 2&#13;
-- Removed demon train blocking Goron Target Range cause it won't let you past&#13;
-- Re-acquiring non-farmable chests now remove their vanilla items as intended&#13;
-- Added ToS 8F bomb flower in the dark to hard logic without boomerang&#13;
-- Snowdrift Station reward in normal logic now requires the items to learn the sequence&#13;
-- Fixed goal logic for `dark_realm_access` with `both` option&#13;
-- Fixed logic for reverse Snow Sanctuary rocktite cave&#13;
-- Added redirect for snow rocktite fight to snow sanc with entrance rando&#13;
-- Fixed vanilla keys logic impossibility with boss shuffle&#13;
-- Fixed gen error with excluded blizzard temple&#13;
-- Fixed some gen errors involving stamps&#13;
-- Fixed filler pool adding progression items&#13;
-- Fixed rabbit rewards not being reachable in gen&#13;
-- Limited rupee item calculator to not count shop locations&#13;
-- Fixed some UT connection regions for Desert Temple boss event&#13;
-- Fixed a case of a randomized entrance making link fall out of bounds&#13;
-- Fixed a case of saving sending locations&#13;
-- /carrot_asked now prints in a single message, allowing for one click copy paste&#13;
-- Updated to new location class&#13;
-- Boss reward locations are restricted to local items, preventing collect from unlocking your goal early</content>
-    <link href="https://github.com/DayKat/spirit-tracks/releases/tag/st-v0.8.4"/>
-  </entry>
-  <entry>
-    <id>https://github.com/ThinkInvis/Archskipelagill/releases/tag/v1.0.0-beta4</id>
-    <title>Skigill v1.0.0b4</title>
-    <updated>2026-10-03T19:01:10+00:00</updated>
-    <author>
-      <name>ThinkInvisible</name>
-    </author>
-    <content>A few more fixes for major issues that somehow only came up during a live test run and not a second before.&#13;
-&#13;
-Full changelog: https://github.com/ThinkInvis/Archskipelagill/blob/main/changelog.md#100-beta4</content>
-    <link href="https://github.com/ThinkInvis/Archskipelagill/releases/tag/v1.0.0-beta4"/>
-  </entry>
-  <entry>
-    <id>https://github.com/benny-dreamly/Archipelago/releases/tag/ts-1.2.5</id>
-    <title>Taylor Swift Discography v1.2.5</title>
-    <updated>2026-10-03T19:34:55+00:00</updated>
-    <author>
-      <name>benny-dreamly</name>
-    </author>
-    <content>This release fixes the config files for the client to include the include_&lt;album&gt;_tv options, which fixes them showing up in the music client. A corresponding music client update is required for fixing the vault tracks not working properly.&#13;
-&#13;
-**Full Changelog**: https://github.com/benny-dreamly/Archipelago/compare/ts-1.2.4...ts-1.2.5</content>
-    <link href="https://github.com/benny-dreamly/Archipelago/releases/tag/ts-1.2.5"/>
-  </entry>
-  <entry>
-    <id>https://github.com/CriminalPancake/void-stranger-ap/releases/tag/v0.11.3</id>
-    <title>Void Stranger v0.11.3</title>
-    <updated>2026-10-03T20:13:20+00:00</updated>
-    <author>
-      <name>CriminalPancake</name>
-    </author>
-    <content># What's Changed for v0.11.3&#13;
-&#13;
-* 0.11.3 by @Cavin856 in https://github.com/CriminalPancake/void-stranger-ap/pull/21&#13;
-## Main features:&#13;
-- Dead End, Whitevoid, and Beehole dungeons added as options&#13;
-- Lev and Cif room chests added&#13;
-- Short Dis is now an option&#13;
-- Logic Complexity implemented&#13;
-- Brandsanity now always on&#13;
-- Removed checks from consulting statues in Idolsanity&#13;
-## Hotfixes&#13;
-- Fixed some issues with Dead End&#13;
-- Fixed a critical generation error with Idolsanity&#13;
-- Fixed a typo causing Beehole Reward 1 to always be in logic&#13;
-&#13;
-Many more changes included, see changelog for full details&#13;
-&#13;
-**Full Changelog**: https://github.com/CriminalPancake/void-stranger-ap/compare/v0.10.2...v0.11.3</content>
-    <link href="https://github.com/CriminalPancake/void-stranger-ap/releases/tag/v0.11.3"/>
-  </entry>
-  <entry>
-    <id>https://github.com/ClaudeChibout/Archipelago-ADOFAI/releases/tag/v1.3.0</id>
-    <title>A Dance of Fire and Ice v1.3.0</title>
-    <updated>2026-10-03T22:05:32+00:00</updated>
-    <author>
-      <name>ClaudeChibout</name>
-    </author>
-    <content>Here's the .apworld and the YAML for the ADOFAI_AP-Mod:&#13;
-https://github.com/ClaudeChibout/ADOFAI_AP-Mod&#13;
-&#13;
-## What's new&#13;
-- Added a PDF setup tutorial (ADOFAI_Setup_and_YAML_Guide.pdf) to make the mod easier to install&#13;
-- Added a local HTML YAML configurator (ADOFAI_YAML_Configurator.html) you can open in your browser to build and manage your YAML more easily&#13;
-&#13;
-No gameplay or logic changes, this release is all about making setup and configuration smoother.&#13;
-&#13;
-## How to install&#13;
-1. Download the .apworld below and double-click it (or drop it into your Archipelago `custom_worlds` folder)&#13;
-2. Grab the mod from https://github.com/ClaudeChibout/ADOFAI_AP-Mod&#13;
-3. Follow the included ADOFAI_Setup_and_YAML_Guide.pdf if you need a step-by-step walkthrough</content>
-    <link href="https://github.com/ClaudeChibout/Archipelago-ADOFAI/releases/tag/v1.3.0"/>
-  </entry>
-  <entry>
-    <id>https://github.com/1313e/manual_donaldduckquackattack_1313e/releases/tag/v0.1.0</id>
-    <title>Manual_DonaldDuckQuackAttack_1313e v0.1.0</title>
-    <updated>2026-10-03T22:14:19+00:00</updated>
-    <author>
-      <name>1313e</name>
-    </author>
-    <content>Added the following locations as checks:&#13;
-- Extra lives in levels&#13;
-- Purple presents in levels&#13;
-- Using a special move for the first time&#13;
-- Secret areas in the bonus levels&#13;
-- Outfits&#13;
-&#13;
-Starting items was reduced to just 1 map now.&#13;
-&#13;
-**Full Changelog**: https://github.com/1313e/manual_donaldduckquackattack_1313e/compare/v0.0.2...v0.1.0</content>
-    <link href="https://github.com/1313e/manual_donaldduckquackattack_1313e/releases/tag/v0.1.0"/>
-  </entry>
   <entry>
     <id>https://github.com/GirlWithoutAFairy/YARGArchipelago-GH-and-RB-forks/releases/tag/26.10.03</id>
     <title>YARGGuitarHeroWarriorsOfRock v26.9.17r2</title>
@@ -700,6 +515,22 @@ If you report issues from any 0.4.x versions that don't apply to this I am not p
     <link href="https://github.com/Batatvideogames/silksong-archipelago-randomizer/releases/tag/v0.5.0"/>
   </entry>
   <entry>
+    <id>https://github.com/Overlord-Draconic-Fire/Archipelago/releases/tag/STP-1.1.0</id>
+    <title>Slay The Princess v1.0.0r2</title>
+    <updated>2026-10-04T20:55:09+00:00</updated>
+    <author>
+      <name>Onilaf</name>
+    </author>
+    <content>Adding options to the YAML:&#13;
+- Add checks when interacting with mirrors in chapters&#13;
+- Add an option to receive a check when a voice speaks for the first time&#13;
+&#13;
+Problem fix:&#13;
+- Fix Fury via Tower (In addition to Broken and Stubborn, you now need Cold, Smitten, Hunted &amp; Cheated because they speak at least once)&#13;
+- Fixes the problem where if multiple STP YAML files were given for the same run, all players would have the sum of all locations (for example, if player 1 had activated memoriessanity but not player 2, then player 2 would have memoriessanity set to "location" (the items were not bugged)).</content>
+    <link href="https://github.com/Overlord-Draconic-Fire/Archipelago/releases/tag/STP-1.1.0"/>
+  </entry>
+  <entry>
     <id>https://github.com/pseudoregalia-modding/pseudoregalia-archipelago/releases/tag/0.11.0</id>
     <title>Pseudoregalia v0.11.0</title>
     <updated>2026-10-04T22:00:34+00:00</updated>
@@ -1121,6 +952,28 @@ For instructions, see the [Setup Guide.](https://github.com/dannybonz/replanted_
     <link href="https://github.com/gjgfuj/SlotLock/releases/tag/slotlockv0.11.2"/>
   </entry>
   <entry>
+    <id>https://github.com/SilicDev/Archipelago/releases/tag/yohane_bitdb-v0.2.5</id>
+    <title>YOHANE THE PARHELION -BLAZE in the DEEPBLUE- v0.2.5</title>
+    <updated>2026-10-06T01:23:53+00:00</updated>
+    <author>
+      <name>SilicDev</name>
+    </author>
+    <content># Recipe randomization type&#13;
+&#13;
+**Full Changelog**: https://github.com/SilicDev/Archipelago/compare/yohane_bitdb-v0.2.4...yohane_bitdb-v0.2.5&#13;
+&#13;
+## Changes &#13;
+- Added additional Recipe randomization algorithms. Hopefully this should lead to recipes being easier to craft in early areas and identification when they should be available&#13;
+- Added a drop rate increase option to make rare materials easier to obtain.&#13;
+&#13;
+## Internal&#13;
+- Upgrade to AP 0.6.8&#13;
+&#13;
+AP Mod download: https://github.com/SilicDev/YohaneAPMod/releases/tag/v0.0.6&#13;
+Yohane BID mod loader download: https://github.com/SilicDev/YohaneBIDModLoader/releases/tag/v0.0.2</content>
+    <link href="https://github.com/SilicDev/Archipelago/releases/tag/yohane_bitdb-v0.2.5"/>
+  </entry>
+  <entry>
     <id>https://github.com/gjgfuj/AP-SlowRelease/releases/tag/slowreleasev0.4.1</id>
     <title>Slow Release Client v0.4.1</title>
     <updated>2026-10-06T01:52:58+00:00</updated>
@@ -1197,5 +1050,451 @@ If you have an existing seed from v2.2.0, it should be safe to use this revision
 Full comparison:
 https://github.com/Panguu/Archipelago-RaCSM/compare/rac_size_matters-v0.5.3...rac_size_matters-v0.5.4</content>
     <link href="https://github.com/Panguu/Archipelago-RaCSM/releases/tag/rac_size_matters-v0.5.4"/>
+  </entry>
+  <entry>
+    <id>https://github.com/4rtefakt/ys-origin-archipelago/releases/tag/v2.0.0-beta.5</id>
+    <title>Ys Origin v1.9.2r2</title>
+    <updated>2026-10-06T12:45:22+00:00</updated>
+    <author>
+      <name>4rtefakt</name>
+    </author>
+    <content>&gt; 🧪 **Still a beta.** Requires **Archipelago 0.6.7 or newer**.
+&gt;
+&gt; ⚠️ **Copy all three files, and start a fresh seed.** Most fixes are in the apworld, and location ids have changed (unreachable checks were removed and one was added), so a beta 4 seed won't line up with this apworld. Players mid-run on a beta 4 seed can still take the **DLL** alone: it brings every mod-side fix below.
+
+See [beta 1](https://github.com/4rtefakt/ys-origin-archipelago/releases/tag/v2.0.0-beta.1) for the full 2.0 change list. Everything since then is included.
+
+## 🗺️ Room logic, rebuilt from the game's own data
+
+Until now, the room-to-room logic was largely hand-written, and much of it was wrong. Every zone has now been rebuilt from the game's exit tables (the `.SEN` records that say where each door leads) and from the room scripts that check items. In several zones most of the connections were wrong:
+
+- **Wailing Blue:** the 4-statue barrier and the Blue Necklace. Walking around the barrier from the 5F statue is no longer in logic, and Toal now needs the **Bronze Key** (which leads to Boost) instead of the necklace.
+- **Flooded Prison:** 17 of 25 rooms were wrong. The **Arthropod Medallion** now guards the door to Nygtilger, which it never did before. **Water Dragon's Scales** are required only where the water is always deep and your air never refills.
+- **Flames of Guilt:** 20 of 27 rooms were wrong. Gelaldy is behind the **Construct Medallion** door, and the Crimson Lotusblade gates are gone because nothing in the game checks for it. **The 11F noise room is now gated:**
+  - Hugo needs the **Hammer**.
+  - Yunica needs the **Silver Harmonica** and the song from the Flames Roo.
+  - Toal walks through it on Boost.
+- **Silent Sands:** almost entirely rewritten. The Marble Key, Amber Key, Creeper Medallion, Earth Dragon's Claws, Silver Chimes (for the Zarue pit) and Gold Bracelet (for the ledges) now sit on the doors and slopes they actually guard.
+- **Corrupted Blood:** the Crimson Key, Dragonbone Key and Mantid Medallion doors are in their real places, and the pits are one-way.
+- **Demonic Core:** the **Rod** now gates the mirror maze; before this it wasn't even required. The win is reaching the summit through the **Devil Medallion** door.
+
+## 💍 Rado's Annex door could never open for Yunica or Hugo
+
+The door checks that you're **holding the drained Evil Ring** *and* that you own the charged one. AP only ever gave you the charged one, so there was nothing to hold. Receiving the Evil Ring now gives you both, just as the Zelkaron fight does in the normal game. **Equip the Blue Necklace before you hold the ring:** without it the ring kills you, as in the normal game, and the logic requires both.
+
+## 🚫 Checks that could never be sent
+
+These checks can no longer hold someone's progression:
+- Chests the game deletes for some characters are now restricted to the characters who can open them:
+  - Wailing Blue 3F midboss chest (Hugo only) and 2F Path 1 #3 (Yunica and Toal).
+  - The Flooded Prison Cleria Ore chest in S_2005 (Toal only).
+  - Flames of Guilt 10F Path 2 #2 (Toal only).
+  - Silent Sands: Mask of Eyes Path (Yunica and Hugo).
+  - Toal's Room (Toal only).
+  - Eyes of Fact and the stun blessing (one character each).
+- Six "Explore" checks in rooms no door leads to are removed.
+- **New check:** Yunica's harmonica from the Kishgal duel. Silent Sands' harmonica check is now Hugo's and Toal's.
+
+## 🏁 Goals
+
+- **Yunica and Hugo** now report the goal reliably. It triggers on the final fight's story flags as well as the ending scene.
+- **`goal: defeat_all_bosses` actually works now.** Before, nothing ever checked it. It now needs all six floor bosses defeated and in logic.
+
+## 🛒 Statue shop
+
+- **A higher tier is never cheaper or reachable earlier than the tiers below it.** One player found the Blue Moon Crest behind LV3 of the most expensive item. Shop slots are also gated on the SP they actually cost, including seeds with vanilla prices.
+- **Rows show the right name and price.** Armor and leggings rows sometimes showed a blessing's price ("Not enough SP" while you had enough), and blessings with the same price could swap labels.
+- **F5 shop with blessing items:** buying now sends the check instead of handing out the effect for free.
+
+## 🩹 Softlocks and bugs
+
+- **Stuck on 1F after Kishgal** ("I'm just a burden…", no stairs, no warp). The fix now detects this state reliably and lets the scene with Roy play out.
+- **Dreaming Idol:** the check is Yunica's only and sits where its story event actually is. The usable idol is no longer suppressed, and a stuck idol chain is repaired.
+- **MP regen stopped, then MP dropped to about −650%:** the fire skill could reach level 4. It's now capped at 3, and existing saves are repaired.
+- **Receiving a progressive Fire skill sent the Fire Altar check.**
+- **Crash on New Game** (not reproduced): the unchecked memory reads on that path are now guarded.
+
+## 🐞 Known, still open
+
+These need a live check, so please report what you see:
+- **Silent Sands:** whether the upper ledges need the Gold Bracelet, the slopes need the Claws, and the cracked wall to the Zarue pit needs Thunder.
+- **Toal crossing the 11F noise room without Boost.** Only relevant in open mode.
+- **Suppressed vanilla events still play their dialogue.** For example, the Zelkarons still announce that the Evil Ring is charged.
+
+If something goes wrong, please send `yso_ap_mod.log` from `%TEMP%`.
+
+---
+
+**Install:** `ys_origin.apworld` into `custom_worlds/`, `dinput8.dll` next to `yso_win.exe`.
+</content>
+    <link href="https://github.com/4rtefakt/ys-origin-archipelago/releases/tag/v2.0.0-beta.5"/>
+  </entry>
+  <entry>
+    <id>https://github.com/m-this/tf2-archipelago/releases/tag/v1.18.1</id>
+    <title>Team Fortress 2 Mann vs Machine v1.18.1</title>
+    <updated>2026-10-06T13:38:07+00:00</updated>
+    <author>
+      <name>mathis</name>
+    </author>
+    <content>&lt;p align="center"&gt;
+  &lt;a href="https://github.com/m-this/tf2-archipelago/releases/latest/download/tf2ap.exe"&gt;
+    &lt;img alt="Download tf2ap.exe for Windows" src="https://img.shields.io/badge/Download-tf2ap.exe%20for%20Windows-2ea44f?style=for-the-badge&amp;logo=windows&amp;logoColor=white"&gt;
+  &lt;/a&gt;
+  &lt;a href="https://github.com/m-this/tf2-archipelago/releases/latest/download/tf2ap-linux-amd64"&gt;
+    &lt;img alt="Download tf2ap-linux-amd64 for Linux" src="https://img.shields.io/badge/Download-tf2ap--linux--amd64-1b1f27?style=for-the-badge&amp;logo=linux&amp;logoColor=white"&gt;
+  &lt;/a&gt;
+&lt;/p&gt;
+
+## Changes
+
+### Fixed
+
+- **Servers work again on the 2026-10-05 TF2 update.** The update changed how
+  the game finds an item attribute by its name, and three things broke:
+  - On Windows, TF2Attributes did not find that function and refused to load.
+    The Archipelago plugin and the defender bots need it, so the server started
+    with neither.
+  - On both platforms, TF Econ Data read part of the item list 36 bytes off,
+    which gave the bots wrong cosmetic slots and unusual effects. This release
+    patches it until TF Econ Data ships its own fix.
+  - SigMod crashed the server the first time somebody drew a weapon, on both
+    platforms. Its list of custom attributes named one attribute twice, and the
+    game now refuses that. SigMod linux-20261006 and 20261006 drop the
+    duplicate, and the Windows build has the addresses for the new TF2 build.
+
+  We played SigMod missions with defender bots on the new TF2 build. The team
+  won all 12 waves on Windows and 11 of 12 on Linux. The other Linux wave
+  stalls the same way it did before the update. The bots bought their upgrades
+  on both platforms.
+- **Bot Surge adds its extra support robots on Windows.** The plugin never
+  found a function that this part of Bot Surge needs on Windows, so it did
+  nothing there.
+- **Bot Surge no longer crashes the server on Brain Taker's last wave.** Some
+  community missions leave a pickup behind for every robot that dies, and it
+  stays until somebody on RED walks over it. At Bot Surge's spawn rate those
+  pickups filled the server's entity limit within about ten minutes and the
+  server crashed. Bot Surge now slows down to the mission's own pace when the
+  server gets close to the limit, and speeds back up once there is room again.
+- **A room going down no longer wipes the run.** When an archipelago.gg room
+  closes, its port can be handed to a different multiworld. The bridge
+  reconnected to that one, took it for a new run and started your progress over,
+  even though that room then refused to let it in. The bridge now only switches
+  runs once a room has accepted your slot. And if you go back to a room you
+  played here before, its run comes back as you left it instead of starting
+  empty.
+
+
+## Windows
+
+Download **`tf2ap.exe`** above. Run it. It installs everything else.
+
+Windows will warn you, and it is a false positive. The exe unpacks archives and
+starts a game server without a code signature, which looks like a virus to a
+scanner. Click **More info**, then **Run anyway**, or check it below first.
+
+[Full guide](https://m-this.github.io/tf2-archipelago/en/setup/install-windows.html)
+
+## Linux
+
+Download **`tf2ap-linux-amd64`**. Run it. It installs everything else.
+
+```sh
+chmod +x tf2ap-linux-amd64
+./tf2ap-linux-amd64
+```
+
+[Full guide](https://m-this.github.io/tf2-archipelago/en/setup/install-linux.html)
+
+## Docker
+
+Download **`compose.yaml`** and **`env.example`**:
+
+```sh
+mkdir mann-vs-archipelago &amp;&amp; cd mann-vs-archipelago
+base=https://github.com/m-this/tf2-archipelago/releases/latest/download
+curl -fsSLO "$base/compose.yaml"
+curl -fsSL -o .env "$base/env.example"
+```
+
+Set `SRCDS_RCONPW` in `.env`, then:
+
+```sh
+docker compose --profile seed run --rm seed   # writes ./seed
+docker compose up -d
+```
+
+Upload the file from `seed/` at
+[archipelago.gg/uploads](https://archipelago.gg/uploads) and put the room's
+port into `AP_PORT`.
+
+[Full guide](https://m-this.github.io/tf2-archipelago/en/setup/install.html)
+
+## Other assets
+
+| File | For |
+| --- | --- |
+| `tf2_mvm.apworld` | The official Archipelago app. |
+| `tf2_archipelago.smx` | A SourceMod server the launcher and compose file don't manage. |
+| `tf2-defender-bots.zip` | The bots for that same server. Unzip into `tf/`. |
+| `meta.json`, `items.json`, `missions.json` | The item and check tables, for reference. |
+
+## Checking what you downloaded
+
+**`SHA256SUMS`** is attached to this release. It holds the hash of every file
+here, computed by the workflow that built them.
+
+```powershell
+Get-FileHash tf2ap.exe -Algorithm SHA256    # Windows
+```
+
+```sh
+sha256sum -c SHA256SUMS --ignore-missing    # Linux
+```
+
+Each binary carries a signed record of the commit and the workflow that built
+it:
+
+```sh
+gh attestation verify tf2ap.exe --repo m-this/tf2-archipelago
+```
+
+The binaries are scanned on VirusTotal, and the reports are linked at the end of
+these notes. Expect a few heuristic detections and no named malware family. The
+source is all in the repository, and `make launcher` rebuilds the exe on your
+own machine.
+
+## Code signing policy
+
+Free code signing for open source projects, provided by
+[SignPath.org](https://signpath.org), with a certificate from the
+[SignPath Foundation](https://signpath.org).
+
+&gt; [!WARNING]
+&gt; The application is open, not granted. Nothing is signed yet: `tf2ap.exe` ships
+&gt; unsigned, and Windows warns about it until that changes.
+
+
+## What's Changed
+* fix(plugin): pause Bot Surge before the map runs out of edicts by @m-this in https://github.com/m-this/tf2-archipelago/pull/190
+* fix(bridge): bind the seed once the room accepts the slot by @m-this in https://github.com/m-this/tf2-archipelago/pull/191
+* fix(bots): gamedata for TF2 11087207 by @m-this in https://github.com/m-this/tf2-archipelago/pull/194
+
+
+**Full Changelog**: https://github.com/m-this/tf2-archipelago/compare/v1.18.0...v1.18.1
+
+## VirusTotal
+
+- [`tf2ap.exe`](https://www.virustotal.com/gui/file-analysis/OGRkYmU0MjM0Yzc2NTY4YmNiMDBjNjczNTJhMjI0MmI6MTc5MTI5NDY0Ng==/detection)
+- [`tf2ap-linux-amd64`](https://www.virustotal.com/gui/file-analysis/NTU0NWRmYTQ2ZGM3MzhhNDcwODRiNTBhMTg5NmVlNDM6MTc5MTI5NDY0OQ==/detection)
+</content>
+    <link href="https://github.com/m-this/tf2-archipelago/releases/tag/v1.18.1"/>
+  </entry>
+  <entry>
+    <id>https://github.com/ChaoskillerSR/Sternly-Worded-Peninsula/releases/tag/V1.1</id>
+    <title>Sternly Worded Adventures v1.0.0r2</title>
+    <updated>2026-10-06T16:32:58+00:00</updated>
+    <author>
+      <name>Chaoskiller</name>
+    </author>
+    <content>**SWAP v1.1**&#13;
+The first major patch to the mod, adding various new features, fixing several bugs/crashes, and some quality of life improvements!&#13;
+&#13;
+**New Features**&#13;
+- Deathlink support both ways! Now whenever someone dies, they can be scolded for their skill issues, be it you or your friends!&#13;
+- Trap items can now be enabled. They come in three flavours: Fire, Enemy Heal, and Board Break.&#13;
+- Letter randomisation: the APWorld now has an option to disable the ability for a number of letters to generate in-game. You then require a 'Letter Unlock: {Letter}' item in order for a locked letter to generate.&#13;
+- Consumables obtained during a run now carry over between resets instead of being lost entirely.&#13;
+- Due to the V53 update, more standard reward pools are now available to the Wayfarer class from merchant events, shops, etc. I decided to keep this in order to make the experience more forgiving for the average player.&#13;
+&#13;
+**Bug Fixes**&#13;
+- Random merchant events no longer crash the game if the player doesn't decline them.&#13;
+- Fixed a bug where the Endless Potion Bag didn't give potions when used, but AP-items instead.&#13;
+- Fixed a bug where if the game somehow closed or crashed during reward screens, the item on said screen would be lost.&#13;
+- Miscellaneous technical changes to prevent potential issues that haven't been documented yet.&#13;
+&#13;
+**Planned improvements**&#13;
+- Additional checks for shops and other location types or actions.&#13;
+- A few options in the .apworld to alter world generation (like potentially removing Lost Woods nodes for example).&#13;
+- Separate all AP-related save data into its own file that is saved separately instead of saving it in persistent save data.&#13;
+- Assign a server/port to the item transfer file so it's easier to participate in multiple runs simultaneously.&#13;
+- Make the rewards hook smarter; make it skip rewards that have been auto-collected or otherwise empty to save players' time.&#13;
+</content>
+    <link href="https://github.com/ChaoskillerSR/Sternly-Worded-Peninsula/releases/tag/V1.1"/>
+  </entry>
+  <entry>
+    <id>https://github.com/Panguu/Archipelago-RaCSM/releases/tag/rac_size_matters-v0.5.5</id>
+    <title>Ratchet &amp; Clank: Size Matters v0.5.5</title>
+    <updated>2026-10-06T19:46:00+00:00</updated>
+    <author>
+      <name>Pangu</name>
+    </author>
+    <author>
+      <name>Amondo</name>
+    </author>
+    <author>
+      <name>ImJustATester</name>
+    </author>
+    <content>## Installation &amp; Setup
+
+- Requires [Archipelago](https://github.com/ArchipelagoMW/Archipelago/releases/latest). Make sure you are up-to-date.
+- Download the `.apworld` file below and double-click it to install. Restart Archipelago after installation.
+- Use **Options Creator** or **Generate Template Options** in the Archipelago Launcher to create player option YAML files.
+- Place your edited player option YAML files in the `Players` folder. Use **Browse Files...** in the Launcher to open the Archipelago directory.
+- Make sure you have all required `.apworld` files, your player YAMLs, and any desired `host.yaml` settings ready before generating. (`server_password` is recommended for admin login.)
+- Click **Generate** to create a multiworld `.zip` in the `output` folder.
+- Upload the generated `.zip` to https://archipelago.gg/uploads or self-host it. Self-hosting requires port forwarding.
+- For detailed setup instructions and game-specific documentation, see [game-specific documentation](https://github.com/Panguu/Archipelago-RaCSM/tree/SM-Main/worlds/rac_size_matters/docs).
+- If you encounter errors, run `ArchipelagoLauncherDebug.exe` or launch Archipelago from a terminal and check the `logs` folder.
+- Need help? Join the Archipelago Discord: https://discord.gg/8Z65BR2
+
+
+
+## Changelog
+
+- No changes since previous release.
+
+Full comparison:
+https://github.com/Panguu/Archipelago-RaCSM/compare/rac_size_matters-v0.5.4...rac_size_matters-v0.5.5</content>
+    <link href="https://github.com/Panguu/Archipelago-RaCSM/releases/tag/rac_size_matters-v0.5.5"/>
+  </entry>
+  <entry>
+    <id>https://github.com/zorasknight/YakLaDGaiRando/releases/tag/Beta-3</id>
+    <title>Yakuza Gaiden v0.8.0</title>
+    <updated>2026-10-06T20:14:25+00:00</updated>
+    <author>
+      <name>Zorasknight</name>
+    </author>
+    <content>## Update notes, and goals for the next build&#13;
+&#13;
+More fun mythology before the patch notes, first a recap: &#13;
+&#13;
+I name the builds based all around the myth of the carp climbing the waterfall to become a dragon, because c'mon this is a yakuza randomizer! We started with varieties of fish pre AP integration, then moved to monstrous fish, or dragon fish, since. And on release will likely move to dragon names! &#13;
+&#13;
+This one is named Namazu, which is named after a large catfish monster whose thrashing would cause violent earthquakes across Japan, until eventually restrained by a god. Chosen due to the earthquake like effects of migrating everything to exist within the AP world rather than needing multiple files. We finally got everything wrapped up into one file! the earthquakes are no more!&#13;
+&#13;
+Less massive of a release than last time, no real major features within the rando have been added this build. As the goal here was to make a ton of Quality of Life changes like combining the text client with the game console!&#13;
+&#13;
+There are still logic changes and bug fixes included however, so it should be a better experience overall.&#13;
+&#13;
+Next version will focus on actual new functionality for the rando itself, maybe bringing in some existing features from other mods like the enemy randomizer mod or incorporating a way to adjust world events for new progression and cooler locked items... but nothing for sure yet!&#13;
+&#13;
+That being said, there's no better time to play then now! Every build gets a bit more efficient, clean, and fun. So like always, if you test it out and have an issue, please reach out to me either through discord, submitting an issue through Github, or make a post on the AP Afterdark page for Gaiden.&#13;
+&#13;
+The new code is stored in the Archipelago branch which has existed since early on, but the releases will stay here for keeping things consistent for archival. Here is a link to that Github in case you want to see the new code: &#13;
+&#13;
+https://github.com/zorasknight/Archipelago&#13;
+&#13;
+## Yakuza Gaiden Randomizer Version 0.8.0 (Namazu)&#13;
+&#13;
+- There is no longer a separate Yakuza Gaiden Randomizer, it is now baked into the Yakuza Gaiden AP World Client! This means I highly recommend re-reading the Readme to understand the new installs going forward.&#13;
+- A standard Text Client has been created for Yakuza Gaiden! This allows you to handle all the normal bits and bobs through the custom text client rather than using the console. including connecting, hinting, releasing etc. I recommend having the client connected before starting the game so that the console can auto connect using the information.&#13;
+- You can now double click on your slot name to launch the Gaiden text client and auto connect to the slot.&#13;
+- Full Universal Tracker Support built in, which does still mean you need to download the universal tracker ap world, but assuming you have that already (I recommend updating to the most recent build!) you should have access to the tracker map for each region as well as all the newer bells and whistles that it includes.&#13;
+- Full Map Tracking included with the universal tracker! This took quite a bit of time, but you should now have access to a map tracker so long as you have universal tracker installed.&#13;
+- YAML-Less support for Universal Tracker, You no longer need to make sure the correct player yaml is in your players folder, universal tracker will collect the information you need from your slot information!&#13;
+- Logic bug fixes for random tasks, substories, and some pocket circuit logic fixes&#13;
+- Hints added for substories on accepting them to decide whether pursuing them is worth it&#13;
+- Hint fixes for tasks to catch some loose fetch and trial tasks&#13;
+- YAML fixes for minigame keys&#13;
+- Setting fixes in general for better stability&#13;
+- PC car fixes to make sure every slot in a rando seed has unique parts distributed&#13;
+- Many small stability fixes for the client</content>
+    <link href="https://github.com/zorasknight/YakLaDGaiRando/releases/tag/Beta-3"/>
+  </entry>
+  <entry>
+    <id>https://github.com/drohack/cw4-archipelago/releases/tag/v0.2.1</id>
+    <title>Creeper World 4 v0.2.1</title>
+    <updated>2026-10-06T20:32:10+00:00</updated>
+    <author>
+      <name>droha</name>
+    </author>
+    <content>Matched pair: install the plugin zip AND regenerate with this `cw4.apworld`. The plugin and the apworld share a version number and must match.
+
+Requires Archipelago **0.6.7 or newer**.
+
+**Existing yamls keep working**, and a yaml that names no new setting means what it meant before. Seeds do change: a solo or all-Creeper-World-4 seed number generates a different layout than it did in v0.2.0, because the early weapon is now actually placed early.
+
+
+- **Fixed: `early_weapon` did nothing when every player was Creeper World 4**,
+  solo included, from v0.1.3 to v0.2.0. The option asks Archipelago to place
+  the chosen weapon - and a second mission unlock - in the checks you can reach
+  with nothing. But on those seeds the world places its own progression first,
+  so it can retry where Archipelago's fill would give up, and it took both items
+  out of the pool before Archipelago looked for them. Nothing warned. Measured
+  over 10,000 solo seeds: the chosen weapon came first on 38 percent of them,
+  the early unlock on 11. The world now places both itself, first.
+- **Fixed: in a multiworld with other games, a narrow opening asked for
+  nothing early.** Casual logic at 2 starters, or a SPAN draw with only one
+  check open at the start, stood its requests down for a bootstrap that only
+  runs when every player is Creeper World 4. 13 to 48 percent of CW4 players in
+  those multiworlds got neither. They now get the requests. When only one check
+  is open, the mission unlock gets it.
+- **Measured, not assumed.** A new tool, `tools/audit/earlysweep.py`, generates
+  through the same path a player's seed takes and checks where the items
+  actually LAND. 10,000 seeds in each of seven shapes - solo, two and four CW4
+  players, and CW4 beside ChecksFinder, VVVVVV, Meritous and Timespinner: 0
+  generation failures, 0 unreachable or unbeatable seeds, and the weapon and
+  the unlock early in every one that asked. As a side effect the world's own
+  fill now has to retry 7 to 20 times less often.
+- **Placements change.** A solo or all-CW4 seed number generates a different
+  layout than it did in v0.2.0, and so does a mixed multiworld whose CW4
+  opening is narrow; any other mixed multiworld is unchanged.
+  `tools/span-off-parity.sh` and `tools/refactor-parity.sh` report the
+  difference, by design.
+- **The yaml is short now.** `Creeper World 4.yaml` used to be the template
+  Archipelago generates, 635 lines of its own boilerplate and of notes written
+  for whoever maintains the world. It is now written by hand, 120 lines: each
+  option at its default with a line or two on what it does and the values it
+  takes, in the order of the options page - Archipelago's own progression
+  balancing and accessibility first, as in its official template, then the
+  goal and logic, traps, energy upgrades and ERNs. The descriptions on the options page are
+  rewritten for players as well; the design notes moved into the code.
+- **New: `logic_difficulty: easy`.** Casual asks for a Sniper OR a Missile
+  Launcher from We Were Never Alone (mission 6) onward. Easy asks the same until
+  The Experiment (mission 13) - the designer's "small spike in map difficulty",
+  where the worksheet calls snipers, missiles and a cannon over a mortar all
+  worth having - and from there all four of Sniper, Missile Launcher, Cannon
+  and Mortar. Like casual it counts by story number, so every SPAN map gets all
+  four, and it gates every check on those missions except the free caches. The
+  in-game tracker needs no update: it reads the requirements from the seed, so
+  a check missing one of the four shows yellow. Measured over 21,000 seeds in
+  seven multiworld shapes - solo, two and four CW4 players, and CW4 beside one
+  to four other games: 0 generation failures, and the early weapon still lands
+  early.
+- **Four options that do nothing are hidden** from the options page and the
+  yaml: `trap_weight_emitter_overdrive` and the three `filler_*_weight`
+  options. A yaml that still names them generates as before.
+
+</content>
+    <link href="https://github.com/drohack/cw4-archipelago/releases/tag/v0.2.1"/>
+  </entry>
+  <entry>
+    <id>https://github.com/yeoldebananaman/ArchipelagoBKClown/releases/tag/bkclown-v1.1.2</id>
+    <title>BKClown v0.0.1r2</title>
+    <updated>2026-10-06T20:47:16+00:00</updated>
+    <author>
+      <name>creative_bananaman</name>
+    </author>
+    <author>
+      <name>Fewffwa</name>
+    </author>
+    <content>## Bugfixes:&#13;
+- Fixed Logic&#13;
+&#13;
+## Requirements:&#13;
+&#13;
+- A Steam Copy of FFPS (Freddy Fazbear's Pizzeria Simulator)&#13;
+&#13;
+- Windows&#13;
+&#13;
+## Setup:&#13;
+&#13;
+- Create a folder named "BKCLOWN" in your main archipelago folder (or launching the client should do this automatically).&#13;
+- Move your Steam copy of FFPS into the folder.&#13;
+- Open the client, and run /patch.&#13;
+- Open up the .exe titled BKCLOWN.exe and connect to your archipelago server in the top bar!&#13;
+- Enjoy!&#13;
+</content>
+    <link href="https://github.com/yeoldebananaman/ArchipelagoBKClown/releases/tag/bkclown-v1.1.2"/>
   </entry>
 </feed>
