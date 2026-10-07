@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://raw.githubusercontent.com/silasary/apworlds/refs/heads/main/recent.atom</id>
   <title>Recent APWorlds</title>
-  <updated>2026-10-07T03:12:20.157341+00:00</updated>
+  <updated>2026-10-07T12:22:03.986960+00:00</updated>
   <author>
     <name>Silasary</name>
   </author>
@@ -748,12 +748,12 @@ No APWorld updates since v1.0.4.</content>
       <name>Rhelys</name>
     </author>
     <content>## Update 1.3 Support&#13;
+- New setting: `palette_items` - Adds the new Vac Palettes to the pool as filler items&#13;
 - Updated how Shop UI icons are rendered&#13;
 - Updated setting: `randomize_shop` - The Vac Palette locations in the Polestar Provisions shop are now added to the pool of potential shop checks, meaning they'll be subject to their regional unlock requirements.&#13;
 - Added the Portable Fabricator item to the pool&#13;
 &#13;
 ## New Features&#13;
-- New setting: `palette_items` - Adds the new Vac Palettes to the pool as filler items&#13;
 - New setting: `newbucks_multiplier` - Self-explanatory, but adds a multiplier on top of all Newbucks gains (excluding Newbucks filler items received from the Archipelago game)&#13;
 - Added the Refinery Link to the pool&#13;
 &#13;
@@ -1071,7 +1071,7 @@ https://github.com/Panguu/Archipelago-RaCSM/compare/rac_size_matters-v0.5.3...ra
   </entry>
   <entry>
     <id>https://github.com/4rtefakt/ys-origin-archipelago/releases/tag/v2.0.0-beta.5</id>
-    <title>Ys Origin v1.9.2r3</title>
+    <title>Ys Origin v1.9.2r2</title>
     <updated>2026-10-06T12:45:22+00:00</updated>
     <author>
       <name>4rtefakt</name>
@@ -1560,5 +1560,20 @@ Anyways, that's it. Go play now.&#13;
 &#13;
 **Full Changelog**: https://github.com/Z11Coding/Mixtape-Engine-Rework/compare/beta13.2...beta13.3</content>
     <link href="https://github.com/Z11Coding/Mixtape-Engine-Rework/releases/tag/beta13.3"/>
+  </entry>
+  <entry>
+    <id>https://github.com/aurabot24/Archipelago-ALttPR/releases/tag/v1.6.1</id>
+    <title>The Legend of Zelda: A Link to the Past v1.6.1</title>
+    <updated>2026-10-07T04:24:20+00:00</updated>
+    <author>
+      <name>aurabot</name>
+    </author>
+    <content>* Door shuffle no longer forces small keys to be shuffled&#13;
+* Fixed a bug where key pots weren't sending items with key drop shuffle enabled for pots, but disabled for enemy drops&#13;
+* Fixed Mimic Cave enemies having the wrong logical requirements for Hammer and Boomerang&#13;
+* Fixed a generation crash when the Sprite option was missing&#13;
+* You can no longer start with a Chicken. Or various other junk items that crashed the game on startup&#13;
+* Completionist goal description now states that pendants, crystals, and Agahnims are required</content>
+    <link href="https://github.com/aurabot24/Archipelago-ALttPR/releases/tag/v1.6.1"/>
   </entry>
 </feed>
