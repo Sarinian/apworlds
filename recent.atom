@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://raw.githubusercontent.com/silasary/apworlds/refs/heads/main/recent.atom</id>
   <title>Recent APWorlds</title>
-  <updated>2026-10-06T22:08:06.368656+00:00</updated>
+  <updated>2026-10-07T03:12:20.157341+00:00</updated>
   <author>
     <name>Silasary</name>
   </author>
@@ -618,6 +618,24 @@ Problem fix:&#13;
     <link href="https://github.com/Automagic00/ACT-AP-Client-Plugin/releases/tag/0.5.3"/>
   </entry>
   <entry>
+    <id>https://github.com/narramoment/Archipelago/releases/tag/1.0.0</id>
+    <title>Jak II v1.0.0</title>
+    <updated>2026-10-05T05:10:11+00:00</updated>
+    <author>
+      <name>narramoment</name>
+    </author>
+    <content>Welcome to 1.0.0 :)&#13;
+&#13;
+Now including:&#13;
+- Orbsanity&#13;
+- Medal Checks&#13;
+- PME bump (to hopefully allow the client to launch the game)&#13;
+&#13;
+&#13;
+**Full Changelog**: https://github.com/narramoment/Archipelago/compare/0.2.3...1.0.0</content>
+    <link href="https://github.com/narramoment/Archipelago/releases/tag/1.0.0"/>
+  </entry>
+  <entry>
     <id>https://github.com/CATEM1NAL/PD2-Criminal-Dawn/releases/tag/v1.0.12</id>
     <title>PAYDAY 2: Criminal Dawn v1.0.4r4</title>
     <updated>2026-10-05T07:29:38+00:00</updated>
@@ -1053,7 +1071,7 @@ https://github.com/Panguu/Archipelago-RaCSM/compare/rac_size_matters-v0.5.3...ra
   </entry>
   <entry>
     <id>https://github.com/4rtefakt/ys-origin-archipelago/releases/tag/v2.0.0-beta.5</id>
-    <title>Ys Origin v1.9.2r2</title>
+    <title>Ys Origin v1.9.2r3</title>
     <updated>2026-10-06T12:45:22+00:00</updated>
     <author>
       <name>4rtefakt</name>
@@ -1317,7 +1335,7 @@ The first major patch to the mod, adding various new features, fixing several bu
 - A few options in the .apworld to alter world generation (like potentially removing Lost Woods nodes for example).&#13;
 - Separate all AP-related save data into its own file that is saved separately instead of saving it in persistent save data.&#13;
 - Assign a server/port to the item transfer file so it's easier to participate in multiple runs simultaneously.&#13;
-- Make the rewards hook smarter; make it skip rewards that have been auto-collected or otherwise empty to save players' time.&#13;
+- Make the rewards hook smarter; make it skip rewards that have been auto-collected or are otherwise empty to save players' time.&#13;
 </content>
     <link href="https://github.com/ChaoskillerSR/Sternly-Worded-Peninsula/releases/tag/V1.1"/>
   </entry>
@@ -1496,5 +1514,51 @@ Requires Archipelago **0.6.7 or newer**.
 - Enjoy!&#13;
 </content>
     <link href="https://github.com/yeoldebananaman/ArchipelagoBKClown/releases/tag/bkclown-v1.1.2"/>
+  </entry>
+  <entry>
+    <id>https://github.com/ArchipelagoBrad/deadlockipelago/releases/tag/1.2.0-H2</id>
+    <title>Deadlock v1.2.0r2</title>
+    <updated>2026-10-06T21:33:53+00:00</updated>
+    <author>
+      <name>ArchipelagoBrad</name>
+    </author>
+    <content># City Never Sleeps Update&#13;
+Added Baba, Rat King&#13;
+Waiting on Solomon, Deadman Danny, Violet, Nurse Harrow&#13;
+&#13;
+# Bug Fixes&#13;
+- Re-implemented Urn/Rift Fix (accidentally overrode it)</content>
+    <link href="https://github.com/ArchipelagoBrad/deadlockipelago/releases/tag/1.2.0-H2"/>
+  </entry>
+  <entry>
+    <id>https://github.com/Z11Coding/Mixtape-Engine-Rework/releases/tag/beta13.3</id>
+    <title>Friday Night Funkin v2.3.1r2</title>
+    <updated>2026-10-06T22:59:34+00:00</updated>
+    <author>
+      <name>Z11Coding</name>
+    </author>
+    <content>Heya. Technically speaking, this is more of a "Beta" than anything, but considering the whole project is a beta, it's more like a Beta for a Beta type deal.&#13;
+&#13;
+# Anyways, here's what's up.&#13;
+&#13;
+### On the Engine Side of things, we got:&#13;
+* Fixed a small bug with the Warm-Up settings so that it actually stops showing up if you pick "Never"&#13;
+* Made the strum skins work properly now&#13;
+* Pixel Note Skins now share the same loading scheme as the regular notes (so that skins don't break if you use anything other then default)&#13;
+* The `onPlayAnimPre` call now includes the character that called it (function argument values are as follows in order: `curCharacter, AnimName, Force, Reversed, Frame`)&#13;
+* Adjusted the Modchart System to (hopefully) better actually run modcharts (or worse, I didn't really test it that well)&#13;
+* Introducing: FunkinMemory! With this bad boy (courtesy of V-Slice, btw), I can only pray the memory issue that's been happening will be, at best, resolved, and at worst, slower to happen than the previous builds were.&#13;
+* &#13;
+&#13;
+### On the APWorld Side of things, we got:&#13;
+* Updated the APWorld for 6.8.0 (It now gets through pre-gen, as god intended)&#13;
+* Uses APAPI, a WIP helper for both Players and Devs! Currently, optional, but will speed up generation if you have it.&#13;
+&#13;
+Yeah, that's it. Light, right? Well, we weren't kidding about working on the rewrite, and so far so good on that. No promises, but I guarantee it won't take nearly as long as Week 8 did LMAO&#13;
+&#13;
+Anyways, that's it. Go play now.&#13;
+&#13;
+**Full Changelog**: https://github.com/Z11Coding/Mixtape-Engine-Rework/compare/beta13.2...beta13.3</content>
+    <link href="https://github.com/Z11Coding/Mixtape-Engine-Rework/releases/tag/beta13.3"/>
   </entry>
 </feed>
