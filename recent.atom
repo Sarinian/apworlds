@@ -2,43 +2,11 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://raw.githubusercontent.com/silasary/apworlds/refs/heads/main/recent.atom</id>
   <title>Recent APWorlds</title>
-  <updated>2026-10-07T22:37:04.611244+00:00</updated>
+  <updated>2026-10-08T03:29:27.416472+00:00</updated>
   <author>
     <name>Silasary</name>
   </author>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
-  <entry>
-    <id>https://github.com/gjgfuj/SlotLock/releases/tag/slotlockv0.11.1</id>
-    <title>SlotLock v0.11.1</title>
-    <updated>2026-10-04T03:41:53+00:00</updated>
-    <author>
-      <name>Sandra (TheSandromatic)</name>
-    </author>
-    <content>* [SlotLock] Only include the first instance of a slot unlock item for sphere_unlocks calculations in linear fill.&#13;
-* [SlotLock] Now use the proper loggger to log information, rather than just print. &#13;
-* [SlotLock] Added a percentage option for linear fill, to only fill a certain percentage of items at each sphere step. Also *always* fills slotlock slot unlock items first, for all slotlock slots. Also makes sure that linear fill works fine with multiple slotlock worlds (Although it does seem to have weird gen failures?)&#13;
-**Full Changelog**: https://github.com/gjgfuj/SlotLock/compare/slotlockv0.11.0...slotlockv0.11.1</content>
-    <link href="https://github.com/gjgfuj/SlotLock/releases/tag/slotlockv0.11.1"/>
-  </entry>
-  <entry>
-    <id>https://github.com/zane31415/ArchipelagoBG3/releases/tag/v0.7.2</id>
-    <title>Baldur's Gate 3 v0.7.2</title>
-    <updated>2026-10-04T07:58:00+00:00</updated>
-    <author>
-      <name>Broney</name>
-    </author>
-    <content>Changes in this release:&#13;
-* Containersanity revamp for Act 1 + 2. Too many changes to list. All locations in Act 1+2 _should_ now have accurate region names, x/y coords, and have been legitimately found in a real playthrough. This remains unstable until I get confirmation that somebody else has played through it.&#13;
-* "Container Highlight" yaml option added. When true, unlooted containers glow. Some glowing containers are not actually locations due to bugs or unreachableness or invalid whatever, but every location in containersanity does glow.&#13;
-* Fixed a change to the Mod to better handle connect stability. The "server mod mismatch" error should fire less often now.&#13;
-* Replaced monster trap minotaur with Meenlock.&#13;
-* Added companion clothes shuffle (no game effect, I just think it's funny)&#13;
-* Added companion class randomization (not recommended currently, I didn't modify starting stats, so they'll be wildly inappropriate)&#13;
-* Removed some killsanity checks that are actually missable that I didn't realize was true (the first five shar skeletons, three moonrise prisoner Master of Souls).&#13;
-* Renamed a few killsanity checks (I think all TBD's are now labelled correctly, Colony: Kill Mindflayer is Colony Showdown: Kill Mindflayer, and the 8 necromites on the Moonrise roof became "Kill Roof Necromite" (because audience guards would clash with the name)).&#13;
-* Changed the heavy supply pack to a normal supply pack. Farewell, overburdened trap, some of us were fond of you.</content>
-    <link href="https://github.com/zane31415/ArchipelagoBG3/releases/tag/v0.7.2"/>
-  </entry>
   <entry>
     <id>https://github.com/m-this/tf2-archipelago/releases/tag/v1.18.0</id>
     <title>Team Fortress 2 Mann vs Machine v1.18.0</title>
@@ -1046,7 +1014,7 @@ https://github.com/Panguu/Archipelago-RaCSM/compare/rac_size_matters-v0.5.3...ra
   </entry>
   <entry>
     <id>https://github.com/4rtefakt/ys-origin-archipelago/releases/tag/v2.0.0-beta.5</id>
-    <title>Ys Origin v1.9.2r3</title>
+    <title>Ys Origin v1.9.2r2</title>
     <updated>2026-10-06T12:45:22+00:00</updated>
     <author>
       <name>4rtefakt</name>
@@ -1691,5 +1659,53 @@ Press F8, then send that session's log from `Mods\Librarian-AP\logs\`, your YAML
 &#13;
 For instructions, see the [Setup Guide.](https://github.com/dannybonz/ae2_archipelago/blob/main/docs/setup.md)</content>
     <link href="https://github.com/dannybonz/ae2_archipelago/releases/tag/v1.3.4"/>
+  </entry>
+  <entry>
+    <id>https://github.com/Panguu/Archipelago-RaCSM/releases/tag/rac_size_matters-v0.5.6</id>
+    <title>Ratchet &amp; Clank: Size Matters v0.5.6</title>
+    <updated>2026-10-07T23:20:53+00:00</updated>
+    <author>
+      <name>Pangu</name>
+    </author>
+    <author>
+      <name>Amondo</name>
+    </author>
+    <author>
+      <name>ImJustATester</name>
+    </author>
+    <content>## Installation &amp; Setup
+
+- Requires [Archipelago](https://github.com/ArchipelagoMW/Archipelago/releases/latest). Make sure you are up-to-date.
+- Download the `.apworld` file below and double-click it to install. Restart Archipelago after installation.
+- Use **Options Creator** or **Generate Template Options** in the Archipelago Launcher to create player option YAML files.
+- Place your edited player option YAML files in the `Players` folder. Use **Browse Files...** in the Launcher to open the Archipelago directory.
+- Make sure you have all required `.apworld` files, your player YAMLs, and any desired `host.yaml` settings ready before generating. (`server_password` is recommended for admin login.)
+- Click **Generate** to create a multiworld `.zip` in the `output` folder.
+- Upload the generated `.zip` to https://archipelago.gg/uploads or self-host it. Self-hosting requires port forwarding.
+- For detailed setup instructions and game-specific documentation, see [game-specific documentation](https://github.com/Panguu/Archipelago-RaCSM/tree/SM-Main/worlds/rac_size_matters/docs).
+- If you encounter errors, run `ArchipelagoLauncherDebug.exe` or launch Archipelago from a terminal and check the `logs` folder.
+- Need help? Join the Archipelago Discord: https://discord.gg/8Z65BR2
+
+
+
+## Changelog
+
+- fix(SM): rules error and added in logic for long projectile weapon instead of limited to projectile weapon (7d5c6df4)
+
+Full comparison:
+https://github.com/Panguu/Archipelago-RaCSM/compare/rac_size_matters-v0.5.5...rac_size_matters-v0.5.6</content>
+    <link href="https://github.com/Panguu/Archipelago-RaCSM/releases/tag/rac_size_matters-v0.5.6"/>
+  </entry>
+  <entry>
+    <id>https://github.com/Jmarcs27/StreetsOfRogueArchipelago/releases/tag/v0.03</id>
+    <title>Streets of Rogue v0.3</title>
+    <updated>2026-10-08T02:46:25+00:00</updated>
+    <author>
+      <name>Jmarcs27</name>
+    </author>
+    <content>[setup guide](https://github.com/Jmarcs27/StreetsOfRogueArchipelago/blob/main/setup_en.md)&#13;
+&#13;
+This release is primarily to add logic to the game. Previous releases did not have any. I also made it so connection details will save between sessions as that was highly requested and is definitely a good QoL feature.</content>
+    <link href="https://github.com/Jmarcs27/StreetsOfRogueArchipelago/releases/tag/v0.03"/>
   </entry>
 </feed>
