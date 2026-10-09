@@ -1,7 +1,7 @@
 {
   "total_repositories": 937,
-  "total_packages": 1073,
-  "total_versions": 12096,
+  "total_packages": 1072,
+  "total_versions": 12063,
   "manifest_ready": {
     "isles_of_trials": true,
     "manual_skylandersgiants_thisguyhere": true,
@@ -538,7 +538,7 @@
     "mirrors_edge": true,
     "factorio_modpacks": true,
     "riftwizard": false,
-    "minecraft_aem": false,
+    "minecraft_aem": true,
     "yoku": false,
     "frogmonster": true,
     "herocore": false,
@@ -787,7 +787,6 @@
     "dkc2": true,
     "noita": false,
     "mmx6": true,
-    "bloodborne": true,
     "westofloathing": true,
     "refunct": true,
     "manual_ctgpdeluxe_jd": false,
@@ -1044,7 +1043,7 @@
     "smw": true
   },
   "max_minimum_ap_version": {
-    "": 445,
+    "": 444,
     "0.4.0": 2,
     "0.5.0": 16,
     "0.5.1": 4,
@@ -1067,7 +1066,7 @@
     "0.6.4": 1,
     "0.6.6": 1,
     "0.6.7": 1,
-    "0.6.99": 329,
+    "0.6.99": 328,
     "0.9.99": 1
   }
 }
