@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://raw.githubusercontent.com/silasary/apworlds/refs/heads/main/recent.atom</id>
   <title>Recent APWorlds</title>
-  <updated>2026-10-08T22:45:14.556044+00:00</updated>
+  <updated>2026-10-09T03:37:42.800109+00:00</updated>
   <author>
     <name>Silasary</name>
   </author>
@@ -293,7 +293,7 @@ https://github.com/Panguu/Archipelago-RaCSM/compare/rac_size_matters-v0.5.3...ra
   </entry>
   <entry>
     <id>https://github.com/4rtefakt/ys-origin-archipelago/releases/tag/v2.0.0-beta.5</id>
-    <title>Ys Origin v1.9.2r2</title>
+    <title>Ys Origin v1.9.2r3</title>
     <updated>2026-10-06T12:45:22+00:00</updated>
     <author>
       <name>4rtefakt</name>
@@ -1125,7 +1125,7 @@ New to the game? Check out the [FAQ](https://discord.com/channels/73120530124780
   </entry>
   <entry>
     <id>https://github.com/4rtefakt/ys-origin-archipelago/releases/tag/v2.0.0-beta.6</id>
-    <title>Ys Origin v1.9.2r2</title>
+    <title>Ys Origin v1.9.2r4</title>
     <updated>2026-10-08T17:40:25+00:00</updated>
     <author>
       <name>4rtefakt</name>
@@ -1223,7 +1223,7 @@ Checked against the walkthrough for all three characters:
   </entry>
   <entry>
     <id>https://github.com/Overlord-Draconic-Fire/Archipelago/releases/tag/STP-1.2.2</id>
-    <title>Slay The Princess v1.0.0r2</title>
+    <title>Slay The Princess v1.0.0r3</title>
     <updated>2026-10-08T18:50:37+00:00</updated>
     <author>
       <name>Onilaf</name>
