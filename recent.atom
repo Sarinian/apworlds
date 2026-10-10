@@ -2,40 +2,11 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://raw.githubusercontent.com/silasary/apworlds/refs/heads/main/recent.atom</id>
   <title>Recent APWorlds</title>
-  <updated>2026-10-10T11:46:26.715625+00:00</updated>
+  <updated>2026-10-10T16:41:26.458763+00:00</updated>
   <author>
     <name>Silasary</name>
   </author>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
-  <entry>
-    <id>https://github.com/yeoldebananaman/ArchipelagoBKClown/releases/tag/bkclown-v1.1.2</id>
-    <title>BKClown v0.0.1r2</title>
-    <updated>2026-10-06T20:47:16+00:00</updated>
-    <author>
-      <name>creative_bananaman</name>
-    </author>
-    <author>
-      <name>Fewffwa</name>
-    </author>
-    <content>## Bugfixes:&#13;
-- Fixed Logic&#13;
-&#13;
-## Requirements:&#13;
-&#13;
-- A Steam Copy of FFPS (Freddy Fazbear's Pizzeria Simulator)&#13;
-&#13;
-- Windows&#13;
-&#13;
-## Setup:&#13;
-&#13;
-- Create a folder named "BKCLOWN" in your main archipelago folder (or launching the client should do this automatically).&#13;
-- Move your Steam copy of FFPS into the folder.&#13;
-- Open the client, and run /patch.&#13;
-- Open up the .exe titled BKCLOWN.exe and connect to your archipelago server in the top bar!&#13;
-- Enjoy!&#13;
-</content>
-    <link href="https://github.com/yeoldebananaman/ArchipelagoBKClown/releases/tag/bkclown-v1.1.2"/>
-  </entry>
   <entry>
     <id>https://github.com/ArchipelagoBrad/deadlockipelago/releases/tag/1.2.0-H2</id>
     <title>Deadlock v1.2.0r2</title>
@@ -649,7 +620,7 @@ Checked against the walkthrough for all three characters:
   </entry>
   <entry>
     <id>https://github.com/Overlord-Draconic-Fire/Archipelago/releases/tag/STP-1.2.2</id>
-    <title>Slay The Princess v1.0.0r3</title>
+    <title>Slay The Princess v1.0.0r2</title>
     <updated>2026-10-08T18:50:37+00:00</updated>
     <author>
       <name>Onilaf</name>
@@ -1379,44 +1350,47 @@ Added path renaming and added path ordering as slot data. Fixed some bugs, inclu
     <author>
       <name>Harrison Sherwin</name>
     </author>
-    <content>## v0.4.0
-
-### New Features
-- Added `minimum_health` and `maximum_health` YAML options for a custom starting/final HP capacity (Issues #778, #947). Defaults remain 6/10; all starting/final ranges within 1..10 HP are supported with up to nine unique Vitality Counter upgrades. Existing One-Hit Mode presets override these options.
-- mGBA now supported as an optional emulator.
-- All minor chests are added as locations and no longer provide their native item.
-- Spray Paints and Music Sheets added as AP items.
-- Added an `/abilities` client command that lists the abilities currently unlocked for the slot (Issue #891, PR #951).
-- Added a new option: `enemy_health_multiplier`. Scale all enemies' health values between 50% to 500% of the original game. It defaults to 100% which matches the original game (Issue #880).
-- Added `random_color_per_room` to Starting Kirby Color. It chooses an initial supported palette at generation, then changes to a different supported palette whenever the connected BizHawk client observes Kirby enter a different room (Issue #857).
-- Added four progression items that independently open the walls controlled by those levers. Pulling a lever now sends its AP location check without opening the wall; receiving the matching Lever Wall item sets the native wall-unlock state instead (Issue #859).
-
-### Improvements
-- Ability unlock gating also applies at the final native ability commit, after roulette and other pending-ability writes (Issue #892).
-- Unused Vitality Counters are replaced through the existing filler/trap policy while all vitality-chest checks remain available.
-- The Tutorial World Map - Big Chest location check is now sent during the tutorial; item delivery remains paused until normal gameplay begins (Issue #868).
-- Consolidated `defeat_random_hidden_area_boss` and `defeat_configured_area_boss` into the canonical `defeat_area_boss` goal. `configured_area_boss: random` now uses Archipelago's standard `Choice` randomization, the old `defeat_configured_area_boss` name remains a safe YAML alias, and all eight boss-to-area mappings are corrected (Issue #872).
-- Generated YAML documentation now shows the scalar `configured_area_boss: random` and `starting_kirby_color: random` shorthands and explains how they replace the generated concrete weight mappings (Issue #872).
-
-### Known Limitations
-- Progression: The entire game is still only two spheres. This means you can complete almost the entirety of Kirby and the Amazing Mirror without ever having to receive an item, except open the Dimension Mirror. In other words, you can do everything in the game except defeat Dark Mind without ever receiving an item from another player. This is a consequence of the original game design. We have plans to gate your progression in other ways, but they all require coding/hacking in intentional blockers.
-- Use newly generated ROM patches for offline custom health initialization; older patches need a same-seed rebuild to embed health bounds. Client reconciliation remains required for authoritative AP ownership. Full gameplay coverage of every custom-health interaction remains pending.
-- Kirby Color: random_color_per_room changes Kirby's color but does not update the corresponding UI element colors.
-- Localization: Only the North American ROM is supported. All AP notifications are in English.
-- Native sprites and animations: Chests still show their original item sprite and collection animation. Statues still show their original ability.
-- mGBA notifications appear as plain text in the **Archipelago Connector** scripting panel, which must be visible. They do not appear over the game image.
-
-### Bug Fixes
-
-- Boss checks were mapped incorrectly for the `defeat_configured_area_boss` goal. That's been fixed (Issue #893).
-- Adds cutter to the base ability pool to make sure players can cut the drop down platforms. (Issue #894)
-- Preserve locally found ability unlocks after reconnecting by requesting the full received-item history from the server (Issue #910).
-
-### Internal Changes
-- Added shared health-range validation, full supported-range item-pool coverage, client reconciliation regression tests, and YAML/slot-data contracts without changing payload offsets or item IDs.
-- Added pinned, checksum-verified Archipelago generation fuzzing with a strict local launcher, a pull-request/manual CI workflow, and retained failure artifacts (Issue #898).
-- `starting_kirby_color` now uses the same standard Archipelago `Choice` literal `random`; the former world-specific `random_color` sentinel has been removed (Issue #872).
-- Split Kirby color catalog validation into focused helpers so Flake8 complexity checks remain meaningful without suppressing C901 (Issue #872).
+    <content>## v0.4.0&#13;
+&#13;
+### NOTE&#13;
+This version is a pre-release, potential for game-breaking bugs is highly possible. Play this version at your own risk.&#13;
+&#13;
+### New Features&#13;
+- Added `minimum_health` and `maximum_health` YAML options for a custom starting/final HP capacity (Issues #778, #947). Defaults remain 6/10; all starting/final ranges within 1..10 HP are supported with up to nine unique Vitality Counter upgrades. Existing One-Hit Mode presets override these options.&#13;
+- mGBA now supported as an optional emulator.&#13;
+- All minor chests are added as locations and no longer provide their native item.&#13;
+- Spray Paints and Music Sheets added as AP items.&#13;
+- Added an `/abilities` client command that lists the abilities currently unlocked for the slot (Issue #891, PR #951).&#13;
+- Added a new option: `enemy_health_multiplier`. Scale all enemies' health values between 50% to 500% of the original game. It defaults to 100% which matches the original game (Issue #880).&#13;
+- Added `random_color_per_room` to Starting Kirby Color. It chooses an initial supported palette at generation, then changes to a different supported palette whenever the connected BizHawk client observes Kirby enter a different room (Issue #857).&#13;
+- Added four progression items that independently open the walls controlled by those levers. Pulling a lever now sends its AP location check without opening the wall; receiving the matching Lever Wall item sets the native wall-unlock state instead (Issue #859).&#13;
+&#13;
+### Improvements&#13;
+- Ability unlock gating also applies at the final native ability commit, after roulette and other pending-ability writes (Issue #892).&#13;
+- Unused Vitality Counters are replaced through the existing filler/trap policy while all vitality-chest checks remain available.&#13;
+- The Tutorial World Map - Big Chest location check is now sent during the tutorial; item delivery remains paused until normal gameplay begins (Issue #868).&#13;
+- Consolidated `defeat_random_hidden_area_boss` and `defeat_configured_area_boss` into the canonical `defeat_area_boss` goal. `configured_area_boss: random` now uses Archipelago's standard `Choice` randomization, the old `defeat_configured_area_boss` name remains a safe YAML alias, and all eight boss-to-area mappings are corrected (Issue #872).&#13;
+- Generated YAML documentation now shows the scalar `configured_area_boss: random` and `starting_kirby_color: random` shorthands and explains how they replace the generated concrete weight mappings (Issue #872).&#13;
+&#13;
+### Known Limitations&#13;
+- Progression: The entire game is still only two spheres. This means you can complete almost the entirety of Kirby and the Amazing Mirror without ever having to receive an item, except open the Dimension Mirror. In other words, you can do everything in the game except defeat Dark Mind without ever receiving an item from another player. This is a consequence of the original game design. We have plans to gate your progression in other ways, but they all require coding/hacking in intentional blockers.&#13;
+- Use newly generated ROM patches for offline custom health initialization; older patches need a same-seed rebuild to embed health bounds. Client reconciliation remains required for authoritative AP ownership. Full gameplay coverage of every custom-health interaction remains pending.&#13;
+- Kirby Color: random_color_per_room changes Kirby's color but does not update the corresponding UI element colors.&#13;
+- Localization: Only the North American ROM is supported. All AP notifications are in English.&#13;
+- Native sprites and animations: Chests still show their original item sprite and collection animation. Statues still show their original ability.&#13;
+- mGBA notifications appear as plain text in the **Archipelago Connector** scripting panel, which must be visible. They do not appear over the game image.&#13;
+&#13;
+### Bug Fixes&#13;
+&#13;
+- Boss checks were mapped incorrectly for the `defeat_configured_area_boss` goal. That's been fixed (Issue #893).&#13;
+- Adds cutter to the base ability pool to make sure players can cut the drop down platforms. (Issue #894)&#13;
+- Preserve locally found ability unlocks after reconnecting by requesting the full received-item history from the server (Issue #910).&#13;
+&#13;
+### Internal Changes&#13;
+- Added shared health-range validation, full supported-range item-pool coverage, client reconciliation regression tests, and YAML/slot-data contracts without changing payload offsets or item IDs.&#13;
+- Added pinned, checksum-verified Archipelago generation fuzzing with a strict local launcher, a pull-request/manual CI workflow, and retained failure artifacts (Issue #898).&#13;
+- `starting_kirby_color` now uses the same standard Archipelago `Choice` literal `random`; the former world-specific `random_color` sentinel has been removed (Issue #872).&#13;
+- Split Kirby color catalog validation into focused helpers so Flake8 complexity checks remain meaningful without suppressing C901 (Issue #872).&#13;
 </content>
     <link href="https://github.com/hasherwi/Archipelago-kirbyam/releases/tag/kirbyam-v0.4.0-rc2"/>
   </entry>
@@ -1443,5 +1417,36 @@ Note to Coop:&#13;
 This is *only* working currently via a LAN Connection so you will need to use something like ZeroTier, Hamachi whatever exists. &#13;
 In Shopmode each player uses their Playerprofile and keeps their unlocks, in Gridmode you share the same units/buffs etc.</content>
     <link href="https://github.com/Heinki/Mental-Omega-Randomizer/releases/tag/V1.42"/>
+  </entry>
+  <entry>
+    <id>https://github.com/KuroLynx/AEMinecraft/releases/tag/v0.7.0-rc.2</id>
+    <title>AEMinecraft v0.7.0rc2</title>
+    <updated>2026-10-10T13:16:44+00:00</updated>
+    <author>
+      <name>KuroLynx</name>
+    </author>
+    <author>
+      <name>EDGN</name>
+    </author>
+    <content>## AEMinecraft v0.7.0-rc.2
+
+**Pre-release.** Second test build of v0.7.0. Stay on v0.6.2 if you want a stable game.
+
+For everything new in v0.7.0, see the **[v0.7.0-rc.1 release notes](https://github.com/KuroLynx/AEMinecraft/releases/tag/v0.7.0-rc.1)**. This RC only changes the apworld; the mod is the same code as rc.1, rebuilt with the new version number.
+
+### Fixed
+
+- **Generation hung on some BACAP slots.** With structures and mobs locked, glitch logic could take minutes or never finish building. That step now takes a couple of seconds.
+- **Same seed, different logic.** The exported logic depended on Python's hash seed, so two runs of the same seed could ship slightly different rules. It is now identical every time. Item placement was never affected.
+
+### Faster
+
+- **BACAP multiworlds generate several times faster.** The `advancements_required` goal check stops as soon as enough advancements are reachable, and rule evaluation and logic minimisation do less work. Same seeds give the same placement and slot data as before.
+
+### Upgrading from rc.1
+
+- **Replace the apworld.** The rc.1 mod jars and YAMLs keep working with it, but you may as well grab the rc.2 jar.
+</content>
+    <link href="https://github.com/KuroLynx/AEMinecraft/releases/tag/v0.7.0-rc.2"/>
   </entry>
 </feed>
