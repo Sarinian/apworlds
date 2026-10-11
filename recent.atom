@@ -2,56 +2,11 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://raw.githubusercontent.com/silasary/apworlds/refs/heads/main/recent.atom</id>
   <title>Recent APWorlds</title>
-  <updated>2026-10-11T17:10:31.904107+00:00</updated>
+  <updated>2026-10-11T21:21:35.238335+00:00</updated>
   <author>
     <name>Silasary</name>
   </author>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
-  <entry>
-    <id>https://github.com/EmilyEmmi/Babapelago/releases/tag/b3.5</id>
-    <title>Baba Is You v0.3.5</title>
-    <updated>2026-10-08T03:02:41+00:00</updated>
-    <author>
-      <name>EmilyEmmi</name>
-    </author>
-    <content>Finally, a new update! This update lets you play up to Meta. Sadly, I haven't gotten around to implementing Meta yet. There's also some new QoL features in this update, and many logic/bug fixes. There's also a new [explanation page](worlds/baba_is_you/BABAPELAGO_README.md) for the game.&#13;
-&#13;
-NOTE: v0.6.7 or higher of Archipelago is required due to the use of Rule Builder. Not compatible with worlds generated prior to this version.&#13;
-&#13;
-## New features:&#13;
-- (All) Added levels from Depths&#13;
-- (All) Implemented "Depths" area access and "Reach Meta" goal&#13;
-- (APWorld) Split hard logic into "Hard" and "Advanced" logic&#13;
-  - Advanced Logic is what hard logic was in the prior version, requiring advanced game knowledge like movement priority.&#13;
-  - Hard Logic includes solutions that were considered particularly difficult (Sorting Facility, Jump, etc.)&#13;
-- (Client) The client now saves where the Baba Is You executable/app is stored&#13;
-- (Misc) Added a new explanation page&#13;
-&#13;
-## Adjustments/fixes:&#13;
-- (APWorld) Increased the selectable range of Blossoms and Blossom Petals (as well as gate and goal requirements)&#13;
-- (APWorld) Some normal logic changes (Solitude, Lovely House, Not Quite)&#13;
-- (APWorld) Fixed logic for Stardrop&#13;
-- (APWorld) Items that don't appear in the selected area no longer appear as items in the multiworld&#13;
-- (APWorld) Fixed GoalLevels being set to GoalBlossoms when the cap is hit&#13;
-- (APWorld) Fixed Fall-A not being logically connected to Fall-C&#13;
-- (Client) Made many stability improvements.&#13;
-- (Client) HOPEFULLY fixed crash when other players use non-ascii characters in their slot name&#13;
-- (Levelpack) Fixed manual mode creating permanent transformations in save files&#13;
-- (Levelpack) All win locations now re-send when connecting to the multiworld&#13;
-- (Levelpack) Fixed crashes when sending many locations at once&#13;
-- (Levelpack) Fixed the wrong location being displayed occasionally when receiving Blossoms or Bonus Orbs&#13;
-- (Tracker) Fixed Ruins-9 not appearing in Ruins on the world map&#13;
-&#13;
-This contains the Baba Is You APWorld, the Babapelago levelpack, and extraslot.lua. ONLY THE APWORLD IS REQUIRED! It contains the levelpack as well and will automatically install the pack when starting. The levelpack is included in case this feature doesn't work for whatever reason, and extraslot.lua is a global mod needed to play more than three slots at once, if you wish to do so. The host only needs the APWorld no matter what.&#13;
-&#13;
-For installation instructions and other information about this mod, PLEASE check out the [explanation page](worlds/baba_is_you/BABAPELAGO_README.md). Very important!&#13;
-&#13;
-KNOWN ISSUES:&#13;
-- I think this is fixed by now (have not encountered this in quite some time), but the client may suddenly stop sending checks in some situations. Closing and re-opening the client should fix the issue.&#13;
-- There may be issues on Mac and Linux, since I haven't been able to test those myself. Please report any issues you experience.&#13;
-- Logic has been well tested, although It was not feasible to test every possible combination of items. Please report any issues. In particular, Ultimate Maze's transforms are a complicated case.</content>
-    <link href="https://github.com/EmilyEmmi/Babapelago/releases/tag/b3.5"/>
-  </entry>
   <entry>
     <id>https://github.com/GirlWithoutAFairy/YARGArchipelago-GH-and-RB-forks/releases/tag/26.10.08</id>
     <title>YARGGuitarHeroWarriorsOfRock v26.9.17r2</title>
@@ -380,7 +335,7 @@ Checked against the walkthrough for all three characters:
   </entry>
   <entry>
     <id>https://github.com/Overlord-Draconic-Fire/Archipelago/releases/tag/STP-1.2.2</id>
-    <title>Slay The Princess v1.0.0r2</title>
+    <title>Slay The Princess v1.0.0r3</title>
     <updated>2026-10-08T18:50:37+00:00</updated>
     <author>
       <name>Onilaf</name>
@@ -1460,5 +1415,116 @@ added quest counting as an option instead of specific.</content>
 &#13;
 **Full Changelog**: https://github.com/FarisTheAncient/Archipelago/compare/Tracker_v0.3.4...Tracker_v0.3.5</content>
     <link href="https://github.com/FarisTheAncient/Archipelago/releases/tag/Tracker_v0.3.5"/>
+  </entry>
+  <entry>
+    <id>https://github.com/Dreskn/Wikipelago-Continued/releases/tag/1.1.0</id>
+    <title>Wikipelago v1.1.0</title>
+    <updated>2026-10-11T18:52:47+00:00</updated>
+    <author>
+      <name>Dreskn (continued)</name>
+    </author>
+    <author>
+      <name>Skrumptily69 (original)</name>
+    </author>
+    <content>## Main changes&#13;
+&#13;
+- **Topic Realms** (on by default). Every side road becomes a Realm with its own topic (History, Music, Sports…). Each Realm opens with its own Portal item instead of Branch Keys, so Realms can open in any order. Realm targets and rerolls stay on topic.&#13;
+- **Realm Master goal** (`goal: realm_master`). Win by clearing every Realm. No fragments, no Grand Goal question.&#13;
+- **Practice mode updated**: a 5×5 bingo board and one open Realm, each replaceable once finished.&#13;
+- **Phone layout and display options**&#13;
+&#13;
+## Improvements&#13;
+&#13;
+- New dark and light themes, card icons, self-hosted fonts, text size selection, contrast mode, and colorblind-friendly colors.&#13;
+- Notifications are now a dismissible stack at the top of the screen.&#13;
+- In the Journey panel, hover a point to see the page summary, click it to open the page on Wikipedia.&#13;
+- The Compass reads toward your nearest live target and updates in the background.&#13;
+- Added a welcome screen before you connect, and removed made-up progress shown before connection.&#13;
+- UI responds better to different horizontal and vertical resolutions.&#13;
+- Bingo: Œ and Æ count as two letters (OE, AE), as in Scrabble.&#13;
+- Rephrasing of certain page categories, more pages are flagged as sensitive, Grand Goal questions reworded to avoid giving the answer away.&#13;
+- Large rooms: websocket messages up to 16 MB (from **mooinglemur**'s fork).&#13;
+&#13;
+## Fixes&#13;
+&#13;
+- DeathLink deaths and traps could apply twice in a row.&#13;
+- Double-clicking a link to the target could skip a round.&#13;
+- Pages that differ only by accents ("Año" / "Ano", "Bürger" / "Burger") were treated as the same page.&#13;
+- A short connection drop reloaded the page, jumped to the top and used up a queued trap. Now the page stays, and a target reached while disconnected counts once the connection is back.&#13;
+- The Journey pop-out window could take deaths and traps meant for the main window.&#13;
+- After Practice, joining a room started on the last practice page instead of your round.&#13;
+- Light theme contrast, header alignment, and missing pinyin, Vietnamese and pronunciation characters.&#13;
+&#13;
+## For hosts and players&#13;
+&#13;
+- Recommended Archipelago version: 0.6.7.&#13;
+- Games generated with 1.0.x keep working on the updated web client.&#13;
+- `topic_portals` now defaults to true, so a YAML without that line gets Realms. Set `topic_portals: false` for classic Branch Keys.&#13;
+- The hosted client no longer connects to private-network addresses (localhost, LAN, Tailscale…). For those rooms, run the local client: see [Setup, Option 2](docs/setup.md#option-2--local-client-private--vpn-rooms).&#13;
+- Bugs: [GitHub Issues](https://github.com/Dreskn/Wikipelago-Continued/issues) or the Wikipelago thread on the Archipelago Discord.</content>
+    <link href="https://github.com/Dreskn/Wikipelago-Continued/releases/tag/1.1.0"/>
+  </entry>
+  <entry>
+    <id>https://github.com/CodeTriangle/CCMultiworldRandomizer/releases/tag/0.10.0-pre.4</id>
+    <title>CrossCode v0.10.0rc4</title>
+    <updated>2026-10-11T20:06:06+00:00</updated>
+    <author>
+      <name>CodeTriangle</name>
+    </author>
+    <content>## Fixes to mod&#13;
+&#13;
+* Fixed a packaging error that caused several regressions.&#13;
+&#13;
+## Internal changes&#13;
+&#13;
+* Introduced an automation system to cut down on packaging issues.</content>
+    <link href="https://github.com/CodeTriangle/CCMultiworldRandomizer/releases/tag/0.10.0-pre.4"/>
+  </entry>
+  <entry>
+    <id>https://github.com/Lizardman175/DC1AP/releases/tag/v0.6.1</id>
+    <title>Dark Cloud 1 v0.6.0r2</title>
+    <updated>2026-10-11T20:23:40+00:00</updated>
+    <author>
+      <name>Lizardman175</name>
+    </author>
+    <content># Dark Cloud 1 AP Rando v0.6.1&#13;
+&#13;
+## Client&#13;
+ - Cleaned up reconnect loop when connection is dropped&#13;
+ - "Connect" button now becomes "Disconnect" when connected&#13;
+ - "Fixed" a few potential crashes when disconnecting/reconnecting&#13;
+ - Added a message in dungeon for outgoing items found&#13;
+ - Reverted the client item messages to have color formatting with some small tweaks&#13;
+ - Disabled autobuilding of the robot since it seems to cause rare crashes&#13;
+   - Existing saves may still have crash issues.  Either wait to receive more robot parts with the old version or worst case you can start a new save.&#13;
+&#13;
+## No server changes; works with older saves/worlds&#13;
+    &#13;
+## Known Issues&#13;
+ - Shop sanity items don't always remove from shop inventory correctly after sending location&#13;
+ - New ready message shows up during certain cutscenes (this is harmless for now)&#13;
+   - I have a fix for this but I'm not confident in it yet to release it</content>
+    <link href="https://github.com/Lizardman175/DC1AP/releases/tag/v0.6.1"/>
+  </entry>
+  <entry>
+    <id>https://github.com/Ishigh1/Oracle-of-Seasons-apworld/releases/tag/oos-24.3.0</id>
+    <title>The Legend of Zelda - Oracle of Seasons v24.3.0</title>
+    <updated>2026-10-11T20:37:02+00:00</updated>
+    <author>
+      <name>Dinopony</name>
+    </author>
+    <author>
+      <name>Ishigh</name>
+    </author>
+    <content>## 🗳️ New Options&#13;
+- Freestanding items can now be removed from the randomizable item pool&#13;
+- The trade sequence can also separately be removed, excluding the pedestal&#13;
+&#13;
+## ⏫ Miscellaneous Improvements&#13;
+&#13;
+## 🧠 Logic&#13;
+&#13;
+## 🛠️ Bugfixes</content>
+    <link href="https://github.com/Ishigh1/Oracle-of-Seasons-apworld/releases/tag/oos-24.3.0"/>
   </entry>
 </feed>
