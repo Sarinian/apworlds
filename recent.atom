@@ -2,616 +2,11 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://raw.githubusercontent.com/silasary/apworlds/refs/heads/main/recent.atom</id>
   <title>Recent APWorlds</title>
-  <updated>2026-10-12T14:00:18.308273+00:00</updated>
+  <updated>2026-10-13T00:04:09.236246+00:00</updated>
   <author>
     <name>Silasary</name>
   </author>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
-  <entry>
-    <id>https://github.com/4rtefakt/ys-origin-archipelago/releases/tag/v2.0.0-beta.6</id>
-    <title>Ys Origin v1.9.2r4</title>
-    <updated>2026-10-08T17:40:25+00:00</updated>
-    <author>
-      <name>4rtefakt</name>
-    </author>
-    <content>&gt; 🧪 **Still a beta.** Requires **Archipelago 0.6.7 or newer**.
-&gt;
-&gt; ⚠️ **Copy all three files, and start a fresh seed.** Two item names changed meaning (Ruby and Topaz, see below), so a beta 5 seed won't line up with this apworld. Players mid-run on a beta 5 seed can still take the **DLL** alone: it brings every mod-side fix below except the Roda Fruit one, which needs a seed from this apworld.
-&gt;
-&gt; The mod fixes in this beta were reviewed and built, but **not yet played in-game**. Please report anything odd.
-
-See [beta 1](https://github.com/4rtefakt/ys-origin-archipelago/releases/tag/v2.0.0-beta.1) for the full 2.0 change list. Everything since then is included.
-
-## 🔥⚡ Torches need fire, cracked walls need thunder
-
-Some gates are not in any script: the engine itself makes a torch ignore everything but fire and a crumbling wall ignore everything but thunder. Every room's object table was scanned for these, and the logic now requires what the game requires:
-
-- **Flooded Prison 8F:** the wall hiding the **Arthropod Medallion** chest and the wall on the way up to the Roo both need the **Levinstrike Warhammer**. The red Menoaks holding the barrier shrug off weapons and wind, so that barrier needs thunder or fire.
-- **Flames of Guilt 11F:** the far side of the moving-platform room (its second chest, and the way on to 12F) needs the **Crimson Lotusblade** and the **Cerulean Flabellum**.
-- **Flames of Guilt 12F:** the **Construct Medallion** chest needs the Lotusblade for its four torches.
-- **Silent Sands 15F:** the cracked wall on the way to the **Creeper Medallion** needs the Warhammer.
-
-Before this, a seed could put the Warhammer or the Lotusblade behind the very wall or torch it opens.
-
-## 💎 Ruby and Topaz were the wrong way round
-
-The gem called Ruby upgraded thunder and the one called Topaz upgraded fire. The names now match the game: **Topaz is thunder, Ruby is fire**. Nothing else about them changed.
-
-## ⚙️ Options
-
-- **Progressive elemental skills are always on.** The first one you find is the skill itself, the next three are its upgrades. The option is gone from the template; old yamls still load.
-- **Random start now turns Statue warp locks on by itself.** Without them the mod never warped you to your spawn, while the logic assumed it had.
-- Finding a Cleria Ore upgrades your weapon whatever `weapon_requirements` is set to (it always did; the option only controls whether zones wait for it).
-
-## 🛠️ Mod fixes
-
-- **Thrown back to your start statue at the summit.** Loading a save and walking into the Tower Summit triggered the New Game spawn warp once. Fixed.
-- **Reconnects no longer hand out extra tiers.** Progressive Armor, Boots, skills and blessings moved up a tier every time the connection dropped and came back.
-- **Items sent while you were at the title screen are no longer lost.** SP, Celcetan Panaceas, blessing effects and skill levels were written before your save loaded, then overwritten by it. They now wait until you are in the game.
-- **Per-seed saves work without touching the config.** The default file pattern never matched the game's save files, so every seed shared one set of saves unless you had set `save_pattern=.bin` yourself. That is now the default.
-- **Roda Fruit can't be wasted.** The Roos can be fed in any order, and feeding a late one first could leave an early one (that the logic had promised you) without its fruit. The mod now keeps your fruit count at "Roos still unfed among the ones you have fruits for", so that can't happen.
-- **Switching rooms from the F8 menu** no longer carries over the previous seed's locked statues and suppressed items.
-- **No more repeated "Found" toasts** for old checks after a reconnect or on re-entering a room, and a statue purchase no longer reports twice.
-- **F9** (manual spawn warp) only works while the game window has focus.
-
-## Known issues
-
-- Some vanilla "you got it!" dialogue still plays when the real item is elsewhere (for example the Evil Ring charging).
-</content>
-    <link href="https://github.com/4rtefakt/ys-origin-archipelago/releases/tag/v2.0.0-beta.6"/>
-  </entry>
-  <entry>
-    <id>https://github.com/ChrisCj8/ap_adventure/releases/tag/v0.4.0</id>
-    <title>GMod - apAdventure v0.4.0</title>
-    <updated>2026-10-08T17:53:37+00:00</updated>
-    <author>
-      <name>ChrisCj8</name>
-    </author>
-    <content>Uses [Version 0.3.0 of GMAP](https://github.com/ChrisCj8/gm_ap/releases/tag/v.0.3.0) (a new version!)&#13;
-&#13;
-Major Changes/Additions:&#13;
-- added deathlink (toggled ingame) with support for grouped deathlink&#13;
-- added map configs for Half-Life 2s chapter "Anticitizen One"&#13;
-- Location entities will now have particles on them based on what flags the item placed on them has, hinted locations also get an icon above them signifying the hint status&#13;
-	- a new YAML option called `trap_vision` can be used to control whether these particles should show up on trap items&#13;
-- The ingame tracker now has a separate tab that shows all hints for the current slot, similar to the one in the generic text client&#13;
-	- Unlike the generic text client, it will only show items that have actually been loaded when trying to hint for items&#13;
-	- Locations can also be hinted from the regular tracker tab&#13;
-- added a new menu that can be used to add keybinds that will only be used in the apAdventure gamemode or only for the current run&#13;
-- configs will now store the map revision number of the current map when saved and use it to check if there's a mismatch if the config needs it&#13;
-- added some HL2-themed trap items&#13;
-- added Upsets Half-Life 1 SWEPs as an alternate weapon set (requires Half-Life: Source or Half-Life Deathmatch: Source)&#13;
-	- also included a new preset that uses them&#13;
-- added a Stalker Scream trap (blacklisted by default) (I wasn't going to add this at first, but [someone asked for it.](https://discord.com/channels/1085716850370957462/1492516400747778159/1545388855702855680))&#13;
-- Item definitions can now have a bunch of fields on them to control what flags the created item will have assigned to them&#13;
-- Added the `custom_parameters` YAML option, which can be used with the cparam node in access rules and accessed through the `APADV_CUSTOMPARAMS` global in lua to allow map configs and item sets to have their own YAML options&#13;
-	- some hl2 configs now use a parameter called `hl2_enable_janky_backtracks` that needs to be enabled to allow some of the jankier backtracking routes to be added to your run&#13;
-- the condition selectors in the region editor and the access editor ui for the cparam node now display icons next to different conditions to help users tell what game certain ammo types are from&#13;
-- the RedeemCheck field in an item definition for a OneUse item can now be set to `true` instead of a function to have the Redeem function itself return if an item should count as redeemed or not instead of the RedeemCheck function&#13;
-- added GravityGun to capab node presets&#13;
-- added some basic code to the gamemodes ShouldCollide hook to allow for easy custom collision filters&#13;
-	- this is currently only used to make everything that is not a player not collide with exit entities&#13;
-- added a `test_mode` YAML option, which can be used to disable some gamemode restrictions for testing purposes&#13;
-- tweaked capabilities on some hl2 weapons&#13;
-- tracker window now refuses to open when tracker data hasn't been received yet to prevent people from seeing a broken-looking tracker&#13;
-- the apworld will now also see logic data inside gmod addon folders to make installing custom content more straightforward&#13;
-- added a guide with information about packing custom content&#13;
-- the gamemode now sets the console variables `ai_ignoreplayers 0` and `npc_citizen_auto_player_squad 1` on initialization&#13;
-- the base lua files for item sets can now set the functions `OnLoad` and `OnUnload` to have code run when an itemset is loaded or unloaded&#13;
-- pass requirement checking functions a copy of the `engine.GetGames()` table that's been converted to use the folder fields as keys&#13;
-- added a requirement tag that checks if hl:s or hldm:s is mounted&#13;
-- reduced the requirements on the grenade access rule in d1_town_05 to ShortArcProjectile, removed the handplaced grenades since the map already has a crate that's guaranteed to give grenades nearby&#13;
-- the warnings shown for inaccessible access rules have been changed&#13;
-	- the inaccessible_warning yaml option now needs to be enabled for these to be written to the warning log&#13;
-	- will now also show up on inaccessible locations, entrances and exits, instead of just internal connections (idk why this was the case i never did this before, this seems like a very obvious thing to add in hindsight)&#13;
-	- warnings will now also show the actual json data from the access rule, as well as the conditions from the region it was placed on&#13;
-- wrote a guide with information about packing custom content&#13;
-- itemset base lua files can now have a function run when the itemset is loaded and/or unloaded&#13;
-- added option groups for yaml options&#13;
-- added a new yaml option called `filler_weight_override` that allows the fill weight for filler items to be overridden&#13;
-&#13;
-Fixes/Minor Changes:&#13;
-- fixed an issue where players could be placed inside a trigger_changelevel before it was removed, causing an immediate map change&#13;
-- added a check if the tracker has been loaded before querying it since some people reported lua errors stemming from this&#13;
-- made the gamemode auto-disconnect from AP if the server doesn't send it the run id&#13;
-- most GMod code files now use tabs for indentation to reduce file size + removed a bunch of unnecessary whitespace&#13;
-- some obsolete variables were removed&#13;
-- fixed an issue where the last remaining two-way connection would not be split properly, which could cause generation errors&#13;
-- short item names were removed from the datapackage for now (I intended to have the gamemode automatically use these unless there's a conflict, but never got around to implementing it, removing it for now to not bloat the DataPackage too much.)&#13;
-- the APADV_SAVEID global is now updated sooner so it's more consistent for functions that may get called in config scripts&#13;
-- fixed the tracker not properly reloading the ammomerge table if it was loaded from a previously saved .json&#13;
-- fixed the lua file containing the requirements ui not being AddCSLuaFile'd&#13;
-- changed the wording of one of the install instruction to prevent potential confusion&#13;
-- when loading configs, check if entities that have been marked for deletion by their map creation id are valid to prevent lua errors&#13;
-- check if the dupedata table is valid before running duplicator.Paste&#13;
-- fixed the spawnmenu not actually working while sv_cheats is enabled like it's supposed to&#13;
-- fixed the spawnpoint model being in the wrong folder because of a typo in the .qc&#13;
-- changed the `apadv_apsay` console command to only to only pass the first argument instead of the entire argstring, since this could cause it to mangle chat commands&#13;
-- removed some unnecessary debug prints&#13;
-- fixed the `apadv_loadcfg` concommand checking the wrong folder to detect if a configs exists, which meant it could only be used without arguments to reload the current config, renamed it from `apadventure_loadcfg` to be consistent with other gamemode concommands&#13;
-- make config script item handlers run after OnFullConnect&#13;
-- fixed the tracker breaking if a config tries to make a connection to a non-existing region, now throws a non-halting error instead&#13;
-- made the error displayed when locations that aren't present in the datapackage are detected after receiving full data more informative&#13;
-- fixed condition overrides not being included in the regconds set, which meant that some items would not end up being classified as progression items when they should&#13;
-- fixed `host.yaml` still being mentioned in the setup guide&#13;
-- removed hoverhint on the labels in the connection UI since OnCursorEntered doesn't actually work on labels&#13;
-- fixed the map list in the file manager not displaying if a map has both a static and local config&#13;
-- fixed implied capabilities not being properly applied to items for the ingame tracker, which caused some things to be considered as inaccessible when they shouldn't&#13;
-- fixed the "Copy Tag" option given when right-clicking a requirement tag in the config editors requirements list not actually doing anything&#13;
-- fixed a mistake in the requirement ui help text&#13;
-- fixed a bunch of clientside lua files not being AddCSLuaFile'd&#13;
-- un-capitalized some words in option descriptions that probably shouldn't be capitalized&#13;
-&#13;
-If you don't know what the .fgd file is for, you don't need it.&#13;
-&#13;
-# Important&#13;
-If you had an old version of the gmod addon installed, delete the old folder before installing the new one, some parts of the file system have changed. If you have made some custom content for apAdventure and put it into the apAdventure addon folder, check out [the packing custom content guide](https://github.com/ChrisCj8/ap_adventure/blob/main/apworld/docs/packing_custom_content_en.md) for information about how to pack your stuff so you won't lose it in the future.&#13;
-&#13;
-Also, you most likely won't be able to finish any old runs you've already started with this version, so finish those before updating.</content>
-    <link href="https://github.com/ChrisCj8/ap_adventure/releases/tag/v0.4.0"/>
-  </entry>
-  <entry>
-    <id>https://github.com/4rtefakt/ys-origin-archipelago/releases/tag/v2.0.0-beta.7</id>
-    <title>Ys Origin v1.9.2r3</title>
-    <updated>2026-10-08T18:10:00+00:00</updated>
-    <author>
-      <name>4rtefakt</name>
-    </author>
-    <content>&gt; 🧪 **Still a beta.** Requires **Archipelago 0.6.7 or newer**.
-&gt;
-&gt; ⚠️ **Copy all three files, and start a fresh seed.** The logic changed again, so a seed made with beta 6 can ask for things in a different order than this apworld expects. Players mid-run on a beta 6 seed can still take the **DLL** alone.
-&gt;
-&gt; The mod changes in beta 6 and beta 7 were reviewed and built, but **not yet played in-game**. Please report anything odd.
-
-See [beta 1](https://github.com/4rtefakt/ys-origin-archipelago/releases/tag/v2.0.0-beta.1) for the full 2.0 change list and [beta 6](https://github.com/4rtefakt/ys-origin-archipelago/releases/tag/v2.0.0-beta.6) for the fire and thunder gates. Everything since then is included.
-
-## 🔔 Undead barriers need the Silver Chimes
-
-Zeruenas, Karons, Zarues, Bazeraenas and Zelkarons get back up unless the Silver Chimes are equipped. Two barriers in the tower are held by them. The Zarue pit on 15F was already in the logic; the other was not:
-
-- **Corrupted Blood 20F:** the four red Zeruenas in the room past the 20F statue hold the barrier in front of the **Dragonbone Key** chest and the story scene there. The chest now needs the **Silver Chimes**, and so does Yunica's 1F Dreaming Idol check, which waits on that scene.
-
-## 🦘 Jumps the logic didn't know about
-
-Checked against the walkthrough for all three characters:
-
-- **Corrupted Blood 18F:** the spike-and-gate room right after the statue takes three double-jumps. Going past it now needs the **Gold Bracelet**. Before this, a seed could send you into Corrupted Blood without it.
-- **Demonic Core 22F:** the Roda Fruit chest across the gap needs the **Gold Bracelet** and the **Cerulean Flabellum**. The last Roo needs the **Gold Bracelet**.
-- **Flames of Guilt 10F:** the Roda Fruit chest needs the **Mask of Eyes** (the hidden bridge leads to the switch that raises its platform).
-
-## ⚙️ Options
-
-- **Catch-up EXP now defaults to 60** (it was 20, the same as the base rate, so it did nothing). Levels ramp steeply from 18F and a player on pace at 17F was falling a dozen levels behind. Set it equal to `exp_multiplier_base` if you want one flat rate.
-
-## 🛠️ Mod fixes
-
-- **"You got it!" when you didn't.** When a story scene hands over an item that the randomizer has moved (the Zelkarons charging the Evil Ring, for example), the dialogue still plays. The feed now tells you the game's own copy was withheld and yours comes from the multiworld.
-- **`!alias` no longer confuses the toasts.** Your own items showed as someone else's and popped twice once you had set an alias.
-- The weapon upgrade can no longer be re-applied on the title screen, and a few things the network thread shared with the game thread (the log file, item colours, blessing grants) are now properly guarded.
-
-## Known issues
-
-- Used medallions, keys and Moon Crests come back into the inventory after use. The doors they opened stay open; it is cosmetic.
-</content>
-    <link href="https://github.com/4rtefakt/ys-origin-archipelago/releases/tag/v2.0.0-beta.7"/>
-  </entry>
-  <entry>
-    <id>https://github.com/Overlord-Draconic-Fire/Archipelago/releases/tag/STP-1.2.2</id>
-    <title>Slay The Princess v1.0.0r3</title>
-    <updated>2026-10-08T18:50:37+00:00</updated>
-    <author>
-      <name>Onilaf</name>
-    </author>
-    <content>Fix 1.2.1... (allows you to correctly generate)</content>
-    <link href="https://github.com/Overlord-Draconic-Fire/Archipelago/releases/tag/STP-1.2.2"/>
-  </entry>
-  <entry>
-    <id>https://github.com/Bartz24/ArchipelagoLR/releases/tag/0.5.2</id>
-    <title>Lightning Returns: Final Fantasy XIII v0.5.2</title>
-    <updated>2026-10-08T19:19:53+00:00</updated>
-    <author>
-      <name>Bartz24</name>
-    </author>
-    <content># Changelog&#13;
-- Stamina for dashing is now infinite&#13;
-- Added options for a multiplier on enemy materials found in AP locations and rewards&#13;
-- Reduce prices of upgrade and enemy materials&#13;
-- Fix logic issues with Yusnaan Boss Drop and Seeing the Dawn quests&#13;
-- Logically require access to 2 areas by day 4 and 3 areas by day 6&#13;
-- Correlated RNG Fix for the non-AP side of seed generation (things are more random now)&#13;
-&#13;
-# Notes&#13;
-- If you are upgrading Nova Chrysalia mod manager from 1.X to 2.X, uninstall all mods from Nova 1.X first, extract Nova 2.X to a new location, and install all your previous mods in Nova 2.X.&#13;
-- EN Text is required. Text for other languages is not supported due to maintainability concerns with the duplicated data.&#13;
-&#13;
-# Known Issues/Limits&#13;
-- Items sent to you are retrieved by holding the sprint button on the field (L2/R2 or LT/RT). This is a workaround to avoid crashes when trying to add automatically with no input.&#13;
-- Game overs are removed so you can technically get to the final day without completing the 5 main quests. This is safer for AP, but obviously that would be out of logic by skipping everything.&#13;
-- Recovery items received from AP while your recovery item bag is full will be lost&#13;
-&#13;
-# Troubleshooting&#13;
-- Do NOT use the File &gt; Reboot option in game, always close the game and relaunch through Nova&#13;
-- In Nova, always launch the game in Unpacked mode with "Voice Over Setting" set to the language you unpacked data for. &#13;
-&#13;
-If you still have issues without not seeing modded content:&#13;
-1. Delete unpacked game data in Nova&#13;
-2. Unpack game data again in Nova&#13;
-3. Regenerate the rando modpack&#13;
-4. Uninstall and remove the old modpack in Nova, and re-install the modpack&#13;
-5. Be sure to launch the game in Unpacked and in the same voice language as unpacked data (EN/JP)!&#13;
-&#13;
-# Setup Guide:&#13;
-&#13;
-Download the following:&#13;
-&#13;
-- lrff13.apworld&#13;
-- LRRandomizer#.#.#.#.7z&#13;
-- [Nova Chrysalia mod manager v2.0.3](https://mega.nz/file/24gyiB7b#nTIlktJb8ZCo8dXZDxCgwsdHAUDPURQhixSfucypIVg)&#13;
-&#13;
-### AP World and Seed Setup&#13;
-1. Double click the lrff13.apworld to install the custom world&#13;
-6. Run the Archipelago Launcher (ArchipelagoLauncher.exe)&#13;
-7. Click `Generate Template Options` to open the folder with the template yaml files&#13;
-8. Copy the `Lightning Returns Final Fantasy XIII.yaml` template to the `Players` folder&#13;
-9. Open your YAML file and edit the `name: Player{number}` to set your name.&#13;
-`{number}` is needed if there will others in the seed with a similar name, you can remove it otherwise.&#13;
-Modify any other options you want below.&#13;
-10. If hosting: Run the Archipelago Launcher (ArchipelagoLauncher.exe)&#13;
-11. Click `Generate`&#13;
-12. Go the `output` folder, and you will find your created `AP_#####.zip` file.&#13;
-13. To host the game, upload `AP_#####.zip` to: https://archipelago.gg/uploads&#13;
-&#13;
-### Randomizer Seed Setup&#13;
-&#13;
-1. Extract the Nova Chrysalia.7z to a folder of your choosing (using Windows, 7zip, etc).&#13;
-2. Run Nova Chrysalia for the first time and select under Global Installation: "Unpack Game Data (EN Audio)" or "Unpack Game Data (JP Audio)" for the language audio you prefer&#13;
-    - Note: You may need to launch LR normally from Steam first&#13;
-4. Once the AP room is created, click the "Download Patch File" link to download a .aplrff13 mod file.&#13;
-5. Extract `LRRandomizer#.#.#.#.7z` to a folder of your choosing.&#13;
-6. Open the extracted folder and run LRRando.exe&#13;
-7. On the `1. Setup` page and at the top, setup the paths to your Steam LR FFXIII folder and Nova.&#13;
-8. At the bottom of the `1. Setup` page, click `Load from ZIP/APLRFF13` and select your .aplrff13 file&#13;
-9. After you do this, the randomizer should switch to 'Archipelago Mode'&#13;
-14. On the `2. Flags` page, select any additional settings&#13;
-15. On the `3. Finish` page, click `Generate Modpack`&#13;
-16. Open Nova Chrysalia and install the generated .ncmp modpack. It will appear in the `packs` folder of LRRandomizer&#13;
-17. Launch the game from Nova Chrysalia in "Unpacked" mode with the "Voice Over Settings" matching the language you unpacked game data for.&#13;
-&#13;
-### AP LR FF13 Client&#13;
-&#13;
-1. Launch the game&#13;
-2. Run the Archipelago Launcher (ArchipelagoLauncher.exe)&#13;
-3. Click `Lightning Returns Final Fantasy XIII Client`&#13;
-4. Connect to your room with the correct port and player name&#13;
-&#13;
-**WARNING:** Loading any other saves while connected to the client may send some unexpected checks to the server. Be careful not load any other saves.</content>
-    <link href="https://github.com/Bartz24/ArchipelagoLR/releases/tag/0.5.2"/>
-  </entry>
-  <entry>
-    <id>https://github.com/4rtefakt/ys-origin-archipelago/releases/tag/v2.0.0</id>
-    <title>Ys Origin v2.0.0</title>
-    <updated>2026-10-08T20:56:40+00:00</updated>
-    <author>
-      <name>4rtefakt</name>
-    </author>
-    <content>Everything since **1.9.2**: seven betas' worth of changes in one release. Requires **Archipelago 0.6.7 or newer**.
-
-&gt; ⚠️ **Copy all three files and start a fresh seed.** Locations, items and logic all changed since 1.9.2; an old seed will not line up with this apworld.
-&gt;
-&gt; **What has and hasn't been played.** Betas 1 to 5 were played by the community. The mod changes added in beta 6, beta 7 and this release (marked 🆕 below, including autosave) were reviewed and built but have **not been played in-game yet**. If autosave misbehaves, set `autosave_slot=0` in `yso_ap.cfg`. Please report anything odd, with `yso_ap_mod.log` from `%TEMP%`.
-
-Huge thanks to everyone who reported and tested: **CRIT MAGNET**, **Shiro** (`cain1111`), **Gravagar**, **Chiral**, **Ultima Solus**, **HothRaka** and everyone on Discord 💚
-
----
-
-## 🗺️ Room logic rebuilt from the game's own data
-
-In 1.9.2 the room-to-room logic was mostly hand-written from maps and a walkthrough, and much of it was wrong. Every zone has been rebuilt from the game's exit tables, its room scripts, its object tables and its enemy data.
-
-- **Wailing Blue:** the 4-statue barrier and the Blue Necklace. Toal needs the **Bronze Key** (which leads to Boost) instead of the necklace.
-- **Flooded Prison:** 17 of 25 rooms were wrong. The **Arthropod Medallion** now guards the door to Nygtilger. **Water Dragon's Scales** are required only where the water is always deep.
-- **Flames of Guilt:** 20 of 27 rooms were wrong. Gelaldy is behind the **Construct Medallion** door. The 11F noise room is gated: Hugo needs the **Hammer**, Yunica the **Silver Harmonica** and the Flames Roo's song, Toal walks it on Boost.
-- **Silent Sands:** almost entirely rewritten, with the Marble Key, Amber Key, Creeper Medallion, Earth Dragon's Claws, Silver Chimes and Gold Bracelet on the doors, slopes and ledges they actually guard. Rado's Annex door needs the **Evil Ring** and the **Blue Necklace**.
-- **Corrupted Blood:** the Crimson Key, Dragonbone Key and Mantid Medallion doors are in their real places, and the pits are one-way.
-- **Demonic Core:** the **Rod** gates the mirror maze (it wasn't required at all before). The win is reaching the summit through the **Devil Medallion** door.
-
-### Gates no script shows
-
-- **🔥⚡ Torches need fire, cracked walls need thunder.** The engine makes them ignore everything else. 8F: the wall hiding the Arthropod Medallion chest and the wall before the Roo need the **Levinstrike Warhammer**; the red Menoaks' barrier needs thunder or fire. 11F: the far side of the moving-platform room needs the **Crimson Lotusblade** and the **Cerulean Flabellum**. 12F: the Construct Medallion chest needs the Lotusblade. 15F: the wall on the way to the Creeper Medallion needs the Warhammer.
-- **🔔 Undead barriers need the Silver Chimes.** 20F: the Zeruenas' barrier in front of the **Dragonbone Key** chest (and the story scene Yunica's 1F Dreaming Idol check waits on).
-- **🦘 Double-jumps.** 18F's spike-and-gate room needs the **Gold Bracelet**. The 22F Roda Fruit chest needs the Gold Bracelet and the Flabellum; the last Roo needs the Gold Bracelet. The 10F Roda Fruit chest needs the **Mask of Eyes**.
-
-### Checks that could never be sent
-
-- Chests the game deletes for some characters are restricted to the characters who can open them (3F midboss chest, 2F Path 1 #3, the S_2005 Cleria Ore, 10F Path 2 #2, Mask of Eyes Path, Toal's Room, Eyes of Fact, the stun blessing).
-- "Explore" checks in rooms no door leads to are removed.
-
-## 🏪 The statue blessing shop is a real Archipelago shop
-
-- Rows show **the AP item you'll get** and the seed's price; bought rows read `[Done]`. Gear-upgrade rows show their item too.
-- Prices are deducted properly and the vanilla effect is suppressed.
-- A higher tier is never cheaper or reachable earlier than the tiers below it, and slots are gated on the SP they really cost, so no early progression sits behind a five-figure price.
-- **`blessing_items`** (new option): the statue sells checks only, and the blessing effects become items that can turn up anywhere in the multiworld.
-
-## 📈 Progressive items
-
-- **Progressive elemental skills, always on.** The first one you find is the skill, the next three are its upgrades. No more three gems and no skill.
-- **Progressive blessing tiers** (LV1 → LV2 → LV3, never out of order).
-- **Roo gear rewards** are part of the Progressive Armor / Boots ladders.
-- **Ruby and Topaz had their names swapped.** Topaz is thunder, Ruby is fire, as in the game.
-
-## 📍 Locations
-
-- **36 gear-upgrade checks** (12 per character): each armor and boots tier can be strengthened once at a statue.
-- **The six Roo trades**, gated on how many Roda Fruits you hold.
-- **Yunica's harmonica** from the Kishgal duel, and six late collectibles that were never detected.
-- Roda Fruit can't be wasted 🆕: the Roos can be fed in any order, and the mod keeps your fruit count at "Roos still unfed among the ones you have fruits for", so feeding a late Roo first never starves an early one.
-
-## 🏁 Goals
-
-- Yunica and Hugo report the goal reliably (final fight's story flags as well as the ending scene).
-- **`goal: defeat_all_bosses` works.** Before, nothing checked it.
-
-## 💾 Saves
-
-- **Autosave 🆕.** The mod writes the game's own save to **slot 8** after every check sent, AP item received, door opened with a key or medallion, and Celcetan Panacea used. It waits for a safe moment (you in control, not in a cutscene or a sealed fight) and says "Autosaved to slot 8". `autosave_slot=N` picks another slot, `0` turns it off. **It overwrites slot 8 without asking.**
-- **Per-seed saves work out of the box 🆕.** The default file pattern never matched the game's save files, so seeds shared one save set unless you had edited the config.
-
-## 🩹 Softlocks and run-enders fixed
-
-- **Red Moon Crest altar wouldn't activate:** key-item counts could exceed 1 and the altar tests for exactly 1. Existing saves are repaired.
-- **Stuck on 1F after Kishgal** ("I'm just a burden…", no stairs, no warp).
-- **Rado's Annex door could never open for Yunica or Hugo:** it wants the drained ring held and the charged one owned; the Evil Ring now gives both.
-- **Dreaming Idol chain:** the check sits where its story event is, and a stuck chain is repaired.
-- **MP regen stopped, then MP dropped to about −650%:** the fire skill could reach level 4.
-- **Thrown back to your start statue at the Tower Summit** after loading a save 🆕.
-- **Shion attacked as a boss** hours early, from a suppression writing into a story flag.
-- Some option combinations couldn't generate at all.
-
-## 🔌 Connection, items and checks
-
-- **Checks you collected never sent:** scripts using `+=` and native pickups bypassed detection, and anything collected offline was lost. There is now a sweep over the save's own flags.
-- **"Reach NF" checks** fire by standing on the floor, so they work in warp seeds.
-- **Received items that did nothing** (Gold Bracelet without double-jump, artifacts without their skill) and **vanilla items leaking through** alongside the AP item.
-- **Reconnects no longer duplicate things:** consumables, SP, traps, and 🆕 Progressive Armor, Boots, skills and blessings (which moved up a tier on every reconnect).
-- **Items sent while you are on the title screen are no longer lost 🆕** (SP, Panaceas, blessing effects, skill levels were overwritten by the save load).
-- **Receiving a progressive Fire skill sent the Fire Altar check.**
-- No repeated "Found" toasts for old checks after a reconnect, and a statue purchase no longer reports twice 🆕.
-- Switching rooms from the F8 menu no longer carries over the previous seed's locked statues and suppressed items 🆕.
-- `!alias` no longer makes your own items look like someone else's 🆕.
-
-## ⚙️ Options and quality of life
-
-- **Cutscene / dialogue skip** (`cutscene_skip` in `yso_ap.cfg`), and the opening movie can be skipped.
-- **Per-item classification overrides** in your yaml.
-- **Catch-up EXP defaults to 60** 🆕 (it equalled the base rate and did nothing; levels ramp steeply from 18F).
-- **Random start turns Statue warp locks on by itself** 🆕 (without them the mod never warped you to your spawn).
-- Finding a Cleria Ore always upgrades your weapon; `weapon_requirements` only decides whether zones wait for it.
-- When a story scene "gives" you an item the randomizer moved (the Zelkarons charging the Evil Ring), the feed now says the game's own copy was withheld 🆕.
-- F9 (manual spawn warp) only works while the game has focus 🆕.
-- Leaner progression in open mode under `minimal` accessibility.
-
-## 🔬 Under the hood
-
-- Logic migrated to Archipelago's Rule Builder.
-- A seed fuzzer and an Archipelago integration check, both run against the real 0.6.7 release.
-
-## 🐞 Known issues
-
-- **Double-jump requirements deep in Corrupted Blood and Demonic Core** are only modelled where the walkthrough spells them out. In random-start seeds that warp past 18F, a room further in could need the Gold Bracelet without the logic knowing.
-- Used medallions, keys and Moon Crests come back into the inventory after use. The doors stay open; it is cosmetic.
-- Vanilla "you got it!" dialogue still plays when the item was moved (the feed now tells you).
-
----
-
-**Install:** `ys_origin.apworld` into `custom_worlds/`, `dinput8.dll` next to `yso_win.exe`. `Ys-Origin.yaml` is the option template.
-</content>
-    <link href="https://github.com/4rtefakt/ys-origin-archipelago/releases/tag/v2.0.0"/>
-  </entry>
-  <entry>
-    <id>https://github.com/KuroLynx/AEMinecraft/releases/tag/v0.7.0-rc.1</id>
-    <title>AEMinecraft v0.7.0.post2</title>
-    <updated>2026-10-08T21:15:38+00:00</updated>
-    <author>
-      <name>KuroLynx</name>
-    </author>
-    <author>
-      <name>EDGN</name>
-    </author>
-    <content>## AEMinecraft v0.7.0-rc.1
-
-**Pre-release.** This is a test build of v0.7.0, so expect rough edges. Please report anything odd. The new in-game report button (see below) makes that a two-click job. Stay on v0.6.2 if you want a stable game.
-
-**Hotfix (2026-10-09).** The first `minecraft_aem.apworld` uploaded here had an incomplete manifest. Archipelago loaded it as version 0.0.0, so generation rejected every YAML from the template with *"required version of world "AEMinecraft" is at least 0.7.0, however world is of version 0.0.0"*. The apworld has been replaced; if you (or your host) downloaded it before, download it again. The mod jars and the YAML template are unchanged.
-
-v0.7.0 brings Minecraft 26.2 and 26.3, a rewritten logic engine, and a long list of checks that now ask for what the game actually requires.
-
-### New
-
-- **Minecraft 26.1.2, 26.2 and 26.3.** One mod jar per Minecraft version; download the one that matches your game. Each player picks their version in the YAML:
-  ```yaml
-  minecraft_version: '26.3'
-  ```
-  The mod refuses to enter a world generated for a different Minecraft version, naming both. With BACAP on, install the pack release made for your version: **1.20.3** for 26.1.2, **1.21** for 26.2, **1.21.1** for 26.3.
-- **Report a logic error from the advancement screen.** Click the book button, then the advancement that looks wrong. Choose "wrong logic" or "should not be accessible yet" and add a note if you want. The report is saved to `&lt;world&gt;/archipelago/logic_reports/` with everything needed to reproduce it. Send that folder along with your report.
-- **2x2 crafting is gated too.** When the crafting table is a Knowledge gate, your own 2x2 inventory grid crafts nothing until you receive **Knowledge: Crafting Table**, planks and sticks included. This is the new `inventory_crafting` route of `item_gate_behavior`, on by default.
-- **Knowledge: Composter.** A new Knowledge gate: filling or emptying a composter, including a village one, needs it.
-- **Generation progress.** Generating now prints each AEMinecraft player's steps and how long they took.
-
-### Changed
-
-- **The Biome Finder covers every biome-bound thing.** The common biomes are plains, forest, birch forest, river, ocean and beach. Anything found only outside them needs the Biome Finder when it is enabled, or a structure that contains it. That covers blocks and mobs alike: cactus, bamboo, sweet berry bushes, sea pickles, powder snow, husks, camels, foxes, llamas, polar bears, armadillos and more. Nether and End content is gated by reaching that dimension instead.
-- **Inventory Lock: locked slots stop you wearing or holding, not obtaining.** You can still pick up armor with the armor slots locked; you just can't put it on. Checks that need you to wear or hold something now wait for that slot. **`mode: fixed` is removed**: its permanently locked slots made some checks impossible.
-- **Traps arrive 10–20 s apart** (was 30–60 s). Still never two at once.
-
-### Fixed
-
-**Checks that were in logic too early:**
-
-- **Anything that needs an item in your hand** now needs a free inventory slot to hold it. With every slot locked at the start, the first Progressive Inventory Slot could otherwise land on a check you couldn't do.
-- **Stacks need a source that doesn't run dry.** A check asking for 16 or more of something no longer counts a few chests. Master Coal Miner and Paleontologist need a renewable source.
-- **Tools.** Several routes reached pickaxe-gated items without a pickaxe. Blocks that only drop to the right tool now ask for it: shovels for snow, a sword or shears for cobwebs, shears for glow lichen, grass and dead bushes.
-- **Riding a nautilus** needs it tamed, so a pufferfish (Coralful Shell).
-- **The Devil's Distance and Subspace Bubble** need the Overworld. On a Nether start they were in logic before it.
-- **Core Keeper** needs the Trial Chambers, **Flashy Items** a glow squid, and **You're doing it wrong** a shulker.
-- **Concrete** needs its powder and dye. A **worn anvil** needs an anvil.
-- **Villager trades** are priced at the trade level that offers them.
-
-**Mod:**
-
-- `bacap_rewards: false` could leave BACAP's rewards on in a brand new world.
-- The swap-offhand key, the screen swap keys and right-click equipping could put items into locked slots.
-
-### Upgrading
-
-- **Update both the apworld and the mod.** v0.7.0 seeds use content and gates the v0.6.2 mod doesn't know.
-- **YAML:**
-  - `minecraft_version` is new. Leaving it out means **26.1.2**. Write it quoted, as above.
-  - `inventory_lock: mode: fixed` is no longer accepted. Use `progressive` or `disabled`.
-  - `item_gate_behavior` gains `inventory_crafting` (default `true`). It only matters when the crafting table is in your `knowledge_gates`.
-  - The template now pins `requires: game: AEMinecraft: 0.7.0`, so an older apworld refuses it.
-- **Seeds generated with v0.6.x** should be finished with the v0.6.2 mod.
-
-### Worth testing in this RC
-
-- **Minecraft versions:** 26.2 and 26.3 worlds, joining and playing, with and without BACAP.
-- **Gates:** the 2x2 crafting gate with Knowledge: Crafting Table gated, the inventory slot locks, and the composter gate.
-- **Report button:** one report sent from the advancement screen.
-
-</content>
-    <link href="https://github.com/KuroLynx/AEMinecraft/releases/tag/v0.7.0-rc.1"/>
-  </entry>
-  <entry>
-    <id>https://github.com/jjjj12212/Archipelago-Shadowgate64/releases/tag/V1.0.1</id>
-    <title>Shadowgate 64 v1.0.1</title>
-    <updated>2026-10-08T21:32:40+00:00</updated>
-    <author>
-      <name>jjjj12212</name>
-    </author>
-    <content>&#13;
-# SETUP GUIDE FOR SHADOWGATE 64 ARCHIPELAGO&#13;
-&#13;
-## Important&#13;
-&#13;
-This guide is only applicable to Windows and Linux systems.&#13;
-To run this implementation, you need to run the following in order:&#13;
- - Open the Shadowgate64 Client&#13;
- - Patch your ROM&#13;
- - Open your Emulator and wait until its connected&#13;
- - Connect to your slot (AFTER your emulator is connected)&#13;
-&#13;
-## Required Software and Hardware&#13;
-&#13;
-- PC Emulation:&#13;
-    - Tested emulators and recommended settings:&#13;
-        -   BizHawk:  [BizHawk Releases](https://tasvideos.org/BizHawk/ReleaseHistory)&#13;
-            -   Version **2.10** and later are supported&#13;
-            -   Detailed installation instructions for BizHawk can be found at the above link&#13;
-            -   Windows users must run the prereq installer first, which can also be found at the above link&#13;
-        -   Project64 3.0: [Public Releases](https://www.pj64-emu.com/public-releases)&#13;
-            -   Version **3.0.1** supported&#13;
-            -   Default settings should work.&#13;
-            -   enable Input Plugin N-Rage if you are having issues setting up your controller.&#13;
-            -   disable debugging in Options &gt; configuration &gt; Debugging&#13;
-            -   to reduce lag:&#13;
-                1. Open the ROM&#13;
-                2. Options &gt; Config: &gt; Counter Factor = 0 or 1&#13;
-        -   Luna64: [Latest Releases](https://github.com/Luna-Project64/Luna-Project64/releases)&#13;
-            -   Version **3.6.5** tested&#13;
-            -   Emulate Frame Buffer need to be enabled:&#13;
-                - Options &gt; Graphic Settings &gt; Frame Buffer &gt; Emulate Frame Buffer&#13;
-                - disable debugging in Options &gt; configuration &gt; Debugging&#13;
-            -   to reduce lag:&#13;
-                1. Open the ROM&#13;
-                2. Options &gt; Config: &gt; Counter Factor = 0 or 1&#13;
-        -   RMG: [Latest Releases](https://github.com/Rosalie241/RMG/releases)&#13;
-            -   Version **0.8.9** tested&#13;
-            -   Default settings should work.&#13;
-            -   to reduce lag:&#13;
-                1. Open the ROM&#13;
-                2. Settings &gt; Game &gt; Counter Factor = 0 or 1&#13;
-&#13;
-    - Supported emulators but untested (use at your own discretion)&#13;
-        -   simple64&#13;
-        -   Parallel Launcher&#13;
-        -   RetroArch (mupen64plus_next):&#13;
-            - For MacOS users, enable Settings &gt; Network &gt; Network Commands and leave the Network Command Port at 55355.&#13;
-        -   Gopher64&#13;
-        -   Ares&#13;
-        -   Project64 4.0&#13;
-&#13;
-## Playing on BizHawk&#13;
-&#13;
-Once BizHawk has been installed, open EmuHawk and change the following settings:&#13;
-&#13;
-- Under Config &gt; Customize, check the "Run in background" and "Accept background input" boxes. This will allow you to continue playing in the background, even if another window is selected&#13;
-- Under Config &gt; Hotkeys, many hotkeys are listed, with many bound to common keys on the keyboard. You will likely want to disable most of these, which you can do quickly using  `Esc`&#13;
-- If playing with a controller, when you bind controls, disable "P1 A Up", "P1 A Down", "P1 A Left", and "P1 A Right" as these interfere with aiming if bound. Set directional input using the Analog tab instead&#13;
-- Under N64 enable "Use Expansion Slot". (The N64 menu only appears after loading a ROM.)&#13;
-- Under Config -&gt; Speed/Skip, click "Audio Throttle" as this will fix the off pitch sounds while playing&#13;
-&#13;
-It is strongly recommended to associate N64 rom extensions (*.n64, *.z64) to the EmuHawk we've just installed. To do so, we simply have to search any N64 rom we happened to own, right click and select "Open with…", unfold the list that appears and select the bottom option "Look for another application", then browse to the BizHawk folder and select EmuHawk.exe.&#13;
-&#13;
-&#13;
-</content>
-    <link href="https://github.com/jjjj12212/Archipelago-Shadowgate64/releases/tag/V1.0.1"/>
-  </entry>
-  <entry>
-    <id>https://github.com/4rtefakt/ys-origin-archipelago/releases/tag/v2.0.1</id>
-    <title>Ys Origin v2.0.1</title>
-    <updated>2026-10-08T21:52:36+00:00</updated>
-    <author>
-      <name>4rtefakt</name>
-    </author>
-    <content>A follow-up to [2.0.0](https://github.com/4rtefakt/ys-origin-archipelago/releases/tag/v2.0.0) after a full live test of everything that release shipped unplayed. Requires **Archipelago 0.6.7 or newer**.
-
-&gt; **Take all three files.** The DLL fixes apply to any 2.0 seed. The apworld changes what a seed requires to finish, so generate new seeds with this apworld; a 2.0.0 seed already in progress stays playable.
-
-## ✅ The 2.0.0 mod changes are now played
-
-Everything 2.0.0 marked as unplayed was run in-game on a test seed: autosave (checks, received items, doors, Panaceas), per-seed saves on the default settings, items sent while on the title screen, reconnects not duplicating tiers or consumables, the Roda Fruit count, switching seeds without restarting, and the Tower Summit no longer throwing you back to your start statue. The test found the two bugs below.
-
-## 🛠️ Fixes
-
-- **Goal reporting and autosave could stay off for a whole session.** The mod only counted you as "in the game" once you changed rooms on floors 1 to 25. Two cases broke that:
-  - after a **reconnect**, until you walked through a door;
-  - after **loading a save made at the Tower Summit**, for the entire session, which could stop the ending from reporting your goal.
-- **`start_inventory_from_pool` was silently ignored.** It works now.
-
-## 🗺️ Logic
-
-- **Dalles needs all three elemental skills.** His second form raises barriers that only wind, thunder and fire break, one each, and all three characters fight him. Finishing a seed now requires the three skills, so they can no longer be left out of reach.
-
-## 🖥️ New: borderless window
-
-The game only offers windowed and exclusive fullscreen. With `borderless=1` in `yso_ap.cfg` and the game in Windowed mode, the mod removes the window frame and fills the monitor. Set the game's resolution to your screen's.
-
-## 🐞 Known issues
-
-- Double-jump requirements deep in Corrupted Blood and Demonic Core are only modelled where the walkthrough spells them out; this can matter in random-start seeds.
-- Used medallions, keys and Moon Crests come back into the inventory after use (cosmetic).
-- Autosave overwrites slot 8 without asking. `autosave_slot=N` picks another slot, `0` turns it off.
-
----
-
-**Install:** `ys_origin.apworld` into `custom_worlds/`, `dinput8.dll` next to `yso_win.exe`. `Ys-Origin.yaml` is the option template.
-</content>
-    <link href="https://github.com/4rtefakt/ys-origin-archipelago/releases/tag/v2.0.1"/>
-  </entry>
-  <entry>
-    <id>https://github.com/benny-dreamly/Archipelago/releases/tag/ts-1.2.6</id>
-    <title>Taylor Swift Discography v1.2.6</title>
-    <updated>2026-10-08T23:37:04+00:00</updated>
-    <author>
-      <name>benny-dreamly</name>
-    </author>
-    <content>This release fixes the vault tracks being included when the vault tracks option is disabled. Which was a silly dumb mistake on my part but at least it wasn't as bad as releasing this once before without the files attached!&#13;
-&#13;
-The zip has not changed this release and is the same file as the previous release.&#13;
-&#13;
-**Full Changelog**: https://github.com/benny-dreamly/Archipelago/compare/ts-1.2.5...ts-1.2.6</content>
-    <link href="https://github.com/benny-dreamly/Archipelago/releases/tag/ts-1.2.6"/>
-  </entry>
   <entry>
     <id>https://github.com/Isaac-SOL/CobaltCoreArchipelagoMod/releases/tag/release/1.2.3</id>
     <title>Cobalt Core v1.2.3</title>
@@ -1871,5 +1266,327 @@ Note: Even though Archipelago 0.6.8 came out since the last update, this APWorld
 &#13;
 _This release is backwards compatible down to 6.0.0._</content>
     <link href="https://github.com/gerbiljames/Archipelago-Crystal/releases/tag/6.0.4"/>
+  </entry>
+  <entry>
+    <id>https://github.com/KuroLynx/AEMinecraft/releases/tag/v0.7.0-rc.3</id>
+    <title>AEMinecraft v0.7.0rc3</title>
+    <updated>2026-10-12T14:57:44+00:00</updated>
+    <author>
+      <name>KuroLynx</name>
+    </author>
+    <author>
+      <name>EDGN</name>
+    </author>
+    <content>## AEMinecraft v0.7.0-rc.3&#13;
+&#13;
+**Pre-release.** Third test build of v0.7.0. Stay on v0.6.2 if you want a stable game.&#13;
+&#13;
+This RC only lists what changed since the **[v0.7.0-rc.2 release notes](https://github.com/KuroLynx/AEMinecraft/releases/tag/v0.7.0-rc.2)**. For everything new in v0.7.0, see the **[v0.7.0-rc.1 release notes](https://github.com/KuroLynx/AEMinecraft/releases/tag/v0.7.0-rc.1)**.&#13;
+&#13;
+### Fixed&#13;
+&#13;
+- **The game froze on the Nether and Adventure tabs.** With glitch logic on and structure, mob or Knowledge locks, opening those tabs after receiving a few items could freeze the game for good. The tracker now remembers the result of each shared part of a rule instead of working it out again every time it comes up, so the tabs open instantly. Thanks to MissingNoShiny on discord who tracked this one down.&#13;
+&#13;
+### Changed&#13;
+&#13;
+- **One Knowledge tile per progressive item.** Progressive Material Handling, Villager Trust, Structure Finder, Keep Inventory and Inventory Slot used to get one tile per copy, which got out of hand with large Keep Inventory or Inventory Slot pools. Each one is now a single tile:&#13;
+  - its tooltip counts the copies received so far, e.g. `3/10`;&#13;
+  - its frame turns gray from the right, one step per copy, and is fully gray once every copy is in;&#13;
+  - the hint line shows where the next copy is.&#13;
+- **Clearer error when the item pool is too big.** When a YAML asks for more items than it has locations, the error now lists how many items each option adds. It only suggests the location options you have turned off.&#13;
+&#13;
+### Upgrading from rc.2&#13;
+&#13;
+- **Replace both the apworld and the mod jar.** The tracker tiles changed on both sides, so an rc.2 jar with the rc.3 apworld (or the other way round) leaves the progressive tiles missing from the Knowledge tab. Your YAMLs keep working as they are.&#13;
+</content>
+    <link href="https://github.com/KuroLynx/AEMinecraft/releases/tag/v0.7.0-rc.3"/>
+  </entry>
+  <entry>
+    <id>https://github.com/PinkSwitch/Archipelago/releases/tag/cvdos3.1</id>
+    <title>Castlevania: Dawn of Sorrow v3.1.0</title>
+    <updated>2026-10-12T15:03:08+00:00</updated>
+    <author>
+      <name>Pink Switch</name>
+    </author>
+    <content># Castlevania: Dawn of Sorrow Archipelago Version 3.1 #&#13;
+## New Settings ##&#13;
+* ``No Logical Grinding``: Guarantees that you will always find a copy of a required Soul in the item pool, assuming Soulsanity is disabled (in which case this was always true anyways). This also allows logically relevant souls to be Shuffled if soul randomizer is set to shuffled&#13;
+* ``Weighted Chaos`` for Seal Details. This rolls a random line count between 2 and 20, then rolls an appropriate number of nodes, which should create more balanced seals.&#13;
+* ``Random Weapon Stats``: Applies a random percentage to weapon damage, between a 50% decrease to a 50% increase&#13;
+* ``Random Weapon Attributes``: Randomizes each weapon's base attribute between Strike, Stab, or Slash&#13;
+* ``Random Weapon Properties``: Randomizes secondary attributes of each weapon, and adds a small chance for an additional modifier.&#13;
+## Changes ##&#13;
+* Paranoia, Gergoth, and Abaddon can now only be shuffled to 1-tile rooms for being too janky&#13;
+* Balore's room is now converted into a 1-tile room is Balore is not the boss there&#13;
+* Rahab's room now spawns a floor if Rahab is not the boss there. Consequently, more bosses are allowed to spawn there now.&#13;
+* Balore now lowers the floor by one tile if shuffled onto the second Dark Chapel boss&#13;
+* The Quetzalcoatl in Dark Chapel is no longer in logic if the boss there is Rahab&#13;
+* Rahab, when shuffled, now always comes with a 2x2 room and a water line so the fight can work properly&#13;
+* Added a tower control button to the top of Condemned Tower&#13;
+## Fixes ##&#13;
+* Fixed ``The Pinnacle: Under Big Staircase`` being overwritten with the item at the Pinnacle central indoor room&#13;
+* Fixed the Subterranean Hell Spike Hallway not logically applying Rahab when checking for Bone Ark&#13;
+* Fixed some minor non-determinism in the order of vanilla souls in the spoiler log&#13;
+* Fixed certain souls being marked as important on non-soulsanity settings&#13;
+* Fixed Dmitrii's name being typoed literally everywhere&#13;
+* Fixed some dialogue being overwritten&#13;
+* Fixed some Souls still being generatable as duplicates&#13;
+* Fixed button checks being wrong&#13;
+* Fix boss shuffle dario not dying after fighting the boss in the throne room&#13;
+## Known Issues ##&#13;
+* None so Far</content>
+    <link href="https://github.com/PinkSwitch/Archipelago/releases/tag/cvdos3.1"/>
+  </entry>
+  <entry>
+    <id>https://github.com/L-technology-mods/Archipelago-Oh-So-Heroe/releases/tag/v1.0.5</id>
+    <title>Oh So Hero! v1.0.5</title>
+    <updated>2026-10-12T15:30:36+00:00</updated>
+    <author>
+      <name>L-technology-mods</name>
+    </author>
+    <content># Oh So Hero! Archipelago v1.0.5
+
+Compatibility fix for Oh So Hero! 1.13.001 (Unity 2022.3.62).
+
+The plugin could load successfully and then be destroyed during startup, preventing automatic connections, progression restrictions and location checks. This release protects the plugin manager automatically, so you do not need to edit `BepInEx.cfg`.
+
+## Install or update
+
+- Close the game.
+- Download `OhSoHeroArchipelago-Client.zip` and extract its contents into your Steam game installation folder, next to `OhSoHero.exe`. Replace the old files when prompted.
+- Keep your existing Archipelago configuration and saves. Existing seeds remain compatible with this client fix.
+- For a first installation, also download `oh_so_hero.apworld` and install it through Archipelago Launcher.
+
+`OhSoHeroArchipelago-Release.zip` contains both downloads and the installation guide.
+
+Local testing on game 1.13.001 confirmed server connection, progression restrictions, scene checks and received consumables with the BepInEx manager protection enabled. The automatic protection uses the same flags as that tested setting.
+</content>
+    <link href="https://github.com/L-technology-mods/Archipelago-Oh-So-Heroe/releases/tag/v1.0.5"/>
+  </entry>
+  <entry>
+    <id>https://github.com/Lemix028/Archipelago-NewSuperMarioBrosDS/releases/tag/nsmbds-v0.5.2-unstable</id>
+    <title>New Super Mario Bros. DS v0.5.2</title>
+    <updated>2026-10-12T15:48:31+00:00</updated>
+    <author>
+      <name>Lemix028</name>
+    </author>
+    <content>### Features&#13;
+&#13;
+- **[Star Coin Gate Gap](https://github.com/Lemix028/Archipelago-NewSuperMarioBrosDS/blob/nsmbds/worlds/nsmbds/docs/en_New%20Super%20Mario%20Bros.%20DS.md#star-coin-signs):** Choose between **3–5 Star Coins** per gate tier and as the cost of opening a sign. &#13;
+- **[Manual Power-Up Reserve](https://github.com/Lemix028/Archipelago-NewSuperMarioBrosDS/blob/nsmbds/worlds/nsmbds/docs/en_New%20Super%20Mario%20Bros.%20DS.md#item-reserve):** Choose when to send a waiting Power-Up instead of receiving automatic refills. Automatic mode also lets you select the next item.&#13;
+- **[Early Power-Up Permits](https://github.com/Lemix028/Archipelago-NewSuperMarioBrosDS/blob/nsmbds/worlds/nsmbds/docs/en_New%20Super%20Mario%20Bros.%20DS.md#power-up-permits):** Optionally place selected permits within the first two reachable check spheres. The default selection includes **Mushroom, Fire Flower and Touchscreen Pocket**.&#13;
+- **[Death Counter](https://github.com/Lemix028/Archipelago-NewSuperMarioBrosDS/blob/nsmbds/worlds/nsmbds/docs/en_New%20Super%20Mario%20Bros.%20DS.md#death-counter):** Death statistics are saved per seed and player slot, with an optional display in the Overview. `/deathcounter` shows your stats and available stats from other players.&#13;
+- **[Level lookup](https://github.com/Lemix028/Archipelago-NewSuperMarioBrosDS/blob/nsmbds/worlds/nsmbds/docs/en_New%20Super%20Mario%20Bros.%20DS.md#level-randomization):** `/level` helps you find shuffled level entrances. Location hints now include the entrance leading to the hinted level.&#13;
+&#13;
+### Fixes&#13;
+&#13;
+- Improved Level Randomization compatibility and check mapping.&#13;
+- Fixed checks being lost during connection interruptions.&#13;
+- Improved instant Star Coin tracking.&#13;
+- Improved emulator disconnect and reconnect handling.&#13;
+- Prevented duplicate item deliveries and fixed joining password-protected rooms.&#13;
+- Fixed the activity feed stalling when its history fills up.&#13;
+- Shuffled level music now preserves BAH cue support, keeping enemy reactions working in levels that use them.&#13;
+- Improved DeathLink handling during pauses and level transitions.&#13;
+- Prevented duplicate DeathLinks and fixed missed deaths after non-lethal hits or received extra lives.&#13;
+- **World 8-3:** Both Red Coin Challenges now have their own checks.&#13;
+- **World 7-5 Star Coin 2:** Added the missing **Mega Mushroom Permit** requirement.&#13;
+&#13;
+### Changes&#13;
+- Renamed the **"Vanilla"** Star Coin gate mode to **"No Keys"**. Existing YAMLs using `vanilla` remain compatible.</content>
+    <link href="https://github.com/Lemix028/Archipelago-NewSuperMarioBrosDS/releases/tag/nsmbds-v0.5.2-unstable"/>
+  </entry>
+  <entry>
+    <id>https://github.com/Ixrec/OuterWildsArchipelagoRandomizer/releases/tag/v1.3.1</id>
+    <title>Outer Wilds v1.3.1</title>
+    <updated>2026-10-12T18:54:20+00:00</updated>
+    <author>
+      <name>Ixrec</name>
+    </author>
+    <content>For installation instructions [see the README](https://github.com/Ixrec/OuterWildsArchipelagoRandomizer#installation).&#13;
+&#13;
+- The "Auto Expand Nomai Text" setting now avoids editing the Solanum conversation (from @aXu-AP), instead of making all possible text appear at the same time. Also tweaked the wording of both the colorize and auto-expand settings.&#13;
+- Clicking "New Random Expedition" on a vanilla profile will now display a warning popup about overwriting the vanilla save (from @aXu-AP)&#13;
+- Changing the "Death Link Override" setting to disable death link now takes effect immediately. Previously *enabling* death link would take effect immediately, but due to a bug *disabling* only took effect after restarting Outer Wilds.&#13;
+- DLC&#13;
+	- Fixed `spawn: stranger` and `early_key_item: any` placing Nomai Warp Codes early instead of Stranger Light Modulator (from @aXu-AP)&#13;
+	- Stranger spawn will now spawn the ship facing outwards toward space.&#13;
+	- Added "EotE Ship Log: Hidden Gorge 1 - Visit" to the ship log's AP Checklist (thanks @hopop201 for noticing it was missing).&#13;
+- Suitless logic:&#13;
+	- Suitless logic is now aware that that the Sun Tower warp platform requires Spacesuit&#13;
+	- shuffle_spacesuit description now warns that it's a harder setting which requires dying to reach locations (from @hopop201)&#13;
+- Forgotten Castaways&#13;
+	- Fixed our workaround for the "Recursive Node" failing to spawn. @RS-Mind originally implemented this in v1.2.2, but a simple mistake unfortunately prevented that code from ever being run. Now that the mistake has been fixed, hopefully the workaround will start working.&#13;
+	- Quitting while in Forgotten Castaways' custom system would previously softlock the main menu by failing to display any clickable buttons. This has been fixed.&#13;
+	- Unbroke the "Taming Techniques" item for Forgotten Castaways. Previously, the vanilla interaction this item represents was not being disabled (thanks Dapling for noticing), but now it's been fixed so that interaction is disabled until you receive the item.&#13;
+	- Similarly unbroke the randomization of Graviton's Folly lever puzzle.&#13;
+- Echo Hike&#13;
+	- Picking up the Threader item no longer incorrectly triggers the "EotE: Find an Artifact" location (from @aXu-AP)&#13;
+- The Outsider&#13;
+	- Corrected "TO: Northern Observatory (Final Text Wheel)" so it's now triggered by the last text wheel instead of the 2nd-to-last text wheel&#13;
+- Fret's Quest&#13;
+	- Added missing signal locations "FQ: Scan Tuner Signal" and "FQ: Scan Strum's Radio Signal"&#13;
+- Some of the dynamic logic for warp rando has been refactored. This should not cause any user-facing behavior changes; just mentioning it in case a bug is found.&#13;
+</content>
+    <link href="https://github.com/Ixrec/OuterWildsArchipelagoRandomizer/releases/tag/v1.3.1"/>
+  </entry>
+  <entry>
+    <id>https://github.com/Akamarus/Super-Crazy-Rhythm-Castle-Archipelago/releases/tag/v0.29.1</id>
+    <title>Super Crazy Rhythm Castle v0.29.0r2</title>
+    <updated>2026-10-12T19:20:14+00:00</updated>
+    <author>
+      <name>Jack</name>
+    </author>
+    <author>
+      <name>OpenAI</name>
+    </author>
+    <content># v0.29.1 — Player movement repair&#13;
+&#13;
+**October 12, 2026. Client 0.76.1 / APWorld 0.29.0 (unchanged).**&#13;
+&#13;
+## Fixed&#13;
+&#13;
+- Fixed the captured player-movement stalls where animation stayed smooth but movement repeatedly slowed or stopped, including after songs and area transitions. Very short input-movement updates now accumulate their elapsed time before being applied, avoiding the observed acceleration resets.&#13;
+- Kept native rendering and frame-rate preferences; this repair does not force fullscreen or a 50 FPS cap.&#13;
+&#13;
+## Diagnostics and documentation&#13;
+&#13;
+- Expanded opt-in F8 movement captures with bounded player-update timing records, movement speed values and repair counters. Detailed recording is active only during a capture.&#13;
+- Reorganized the README and current documentation, removed contradictory setup/version guidance, and archived superseded plans and test checkpoints with an index.&#13;
+- Updated the current issue list and recorded the newly completed gameplay acceptance tests.&#13;
+&#13;
+## Updating&#13;
+&#13;
+Close the game and replace the client files with **RhythmCastleAP-v0.76.1.zip**, retaining the included licenses. Keep your configuration, current seed and associated save. The APWorld remains **0.29.0**; its logic, IDs, options, item placements, bundle mappings and Star gates are unchanged. An APWorld download is included for convenience, not as a required upgrade from 0.29.0.&#13;
+&#13;
+## Validation&#13;
+&#13;
+The movement implementation was accepted in gameplay before its version-only release bump: initial movement, after a Music Lab song, room changes, restart, Hypno Pan NPC movement, stopping, reversing, gentle analogue input, solid-wall collision and pause/resume. Diagnostic samples confirmed the repair active.&#13;
+&#13;
+Automated coverage includes player timing boundaries, one normal and three faulty recorded timing streams, the timing recorder, movement capture, Montage timing, notification bursts and cassette bundles. All 44 client regression projects passed for publication. The Release build, repository validator, 10 packaging tests and final archive checks passed. NuGet vulnerability metadata could not be fetched; this is not a completed dependency-security audit. Managed tests do not prove every native configuration.&#13;
+&#13;
+Additional tests confirmed Star-blocked entrance retry without area reload; immediate item receipt/deposit and persistence; original Plant Pipes/Hip Glasses pickups; Meoo/Plunger/Star Eater checks; Superstar insertion and medal preview; and Quicksand/Bloody Tears chests without duplicate vanilla rewards. These validate existing behavior rather than introduce new features in this patch.&#13;
+&#13;
+## Known limits&#13;
+&#13;
+Intermittent note-affecting performance stalls remain under investigation; the movement repair is not a claim that all frame hitches are fixed. Extended-session and multiplayer movement coverage remains incomplete. Triple cassette bundles and large notification batches have automated coverage but less native acceptance than the tested paths. Native route/modeling uncertainties remain listed in [known issues](https://github.com/Akamarus/Super-Crazy-Rhythm-Castle-Archipelago/blob/v0.29.1/docs/KNOWN_ISSUES.md).&#13;
+&#13;
+See the [AI disclosure](https://github.com/Akamarus/Super-Crazy-Rhythm-Castle-Archipelago/blob/v0.29.1/docs/AI_DISCLOSURE.md) and [testing record](https://github.com/Akamarus/Super-Crazy-Rhythm-Castle-Archipelago/blob/v0.29.1/docs/TESTING.md).&#13;
+&#13;
+</content>
+    <link href="https://github.com/Akamarus/Super-Crazy-Rhythm-Castle-Archipelago/releases/tag/v0.29.1"/>
+  </entry>
+  <entry>
+    <id>https://github.com/thejoshwolfe/Archipelago/releases/tag/space-age-v4.0.2</id>
+    <title>Factorio: Space Age v4.0.2</title>
+    <updated>2026-10-12T19:21:11+00:00</updated>
+    <author>
+      <name>Berserker</name>
+    </author>
+    <author>
+      <name>Josh Wolfe</name>
+    </author>
+    <content># Factorio: Space Age apworld 4.0.2&#13;
+&#13;
+* Upgrade dependency aquilo-orbit-start to version 1.2.0, which is used for `starting_planet: aquilo_orbit`. https://mods.factorio.com/mod/aquilo-orbit-start/changelog&#13;
+&#13;
+download: https://github.com/thejoshwolfe/Archipelago/releases .&#13;
+general docs: https://github.com/thejoshwolfe/Archipelago/blob/space-age/worlds/factorio_space_age/docs/en_Factorio_Space_Age.md .&#13;
+setup guide: https://github.com/thejoshwolfe/Archipelago/blob/space-age/worlds/factorio_space_age/docs/setup_en.md .&#13;
+source code: https://github.com/thejoshwolfe/Archipelago/tree/space-age/worlds/factorio_space_age .</content>
+    <link href="https://github.com/thejoshwolfe/Archipelago/releases/tag/space-age-v4.0.2"/>
+  </entry>
+  <entry>
+    <id>https://github.com/Chris-Is-Awesome/DDArchipelagoRandomizer/releases/tag/v0.4.1</id>
+    <title>Death's Door v0.4.1</title>
+    <updated>2026-10-12T19:33:20+00:00</updated>
+    <author>
+      <name>rose.as.romeo</name>
+    </author>
+    <author>
+      <name>ChrisIsAwesome</name>
+    </author>
+    <content>It is here! After a hiatus, there is now a new version of the Death's Door Archipelago Randomizer and APWorld!&#13;
+&#13;
+**We're still in beta** Since this is built upon a very stable v0.3.0, there is no concern for crashes or major game breaking bugs, but we'll leave it here for a bit to see if anything does come up.&#13;
+&#13;
+## To Use&#13;
+**- Randomizer Mod:** Download the attached `plugins.zip` and extract it to `&lt;DDInstallPath&gt;\BepInEx\plugins`. This zip contains the latest versions of all required and recommended mods.&#13;
+**- APWorld:** Download the attached APWorld and drag it into your Archipelago cutom_worlds folder, or simply double click to install it. Make sure to restart your Archipelago launcher after installing.&#13;
+&#13;
+## New Location Features&#13;
+**- Soul Vault Randomizer:** You can now make the stat upgrades in the Soul Vault into locations that send items intot he multiworld when bought. You can also receive the stat upgrades as progressive items. There are options for placing extra stat boosts in the multiworld. You red it right, our lil crow can now be ultrabuffed!&#13;
+**- Soul vault price modifiers:** **Vanilla** (same as always), **Shuffled** (Same prices, just shuffled between all the upgrades). **Random** (Progressive price increase remains, but all prices will be between a range set in your YAML)&#13;
+**- Seed planting as locations:** Every (X) seeds you plant can now send a check. You can set the amount of seed checks and how many seeds planted sends a check in your YAML up to a maximum of 50.&#13;
+&#13;
+## New Logic Features&#13;
+**- Plant Pot Tracker:** The Universal Tracker map now shows plant pots in and out of logic. A plant pot will be marked as checked when a seed is planted. No more getting lost/wondering which pots you've already planted!&#13;
+**- Coloured Key Gate Tracker Logic:** When unlocking a gate that requires a coloured key, the Universal Tracker map changes any locations locked behind it as in logic. Before this update, it would only mark locations in logic when you received all keys of the required colour.  &#13;
+&#13;
+## Bug Fixes/Adjustments&#13;
+- Fixed logic for Camp of Crows and Castle Lockstone Doors&#13;
+- Fixed minor filler issues for more reliable seed generation&#13;
+&#13;
+## Notes&#13;
+If you have an idea and have the ability to contribute, see the contributing section of the README for details!</content>
+    <link href="https://github.com/Chris-Is-Awesome/DDArchipelagoRandomizer/releases/tag/v0.4.1"/>
+  </entry>
+  <entry>
+    <id>https://github.com/dannybonz/k-on_archipelago/releases/tag/v1.1.5</id>
+    <title>K-On! After School Live!! v1.1.5</title>
+    <updated>2026-10-12T19:51:56+00:00</updated>
+    <author>
+      <name>dannybonz</name>
+    </author>
+    <content>- Added location groups for each song, allowing you to easily exclude locations related to a specific song. Keep in mind that playing with a Cassette Tape goal will always place Cassette Tapes into each song's clear location, regardless of their excluded status.&#13;
+- Fixed a logic error in which the "Event: Tuning!" location did not correctly require the "Photo of the Villa" item.&#13;
+&#13;
+For instructions, see the [Setup Guide.](https://github.com/dannybonz/k-on_archipelago/blob/main/docs/setup.md)</content>
+    <link href="https://github.com/dannybonz/k-on_archipelago/releases/tag/v1.1.5"/>
+  </entry>
+  <entry>
+    <id>https://github.com/choatix/Archipelago/releases/tag/shadow-0.5.2</id>
+    <title>Shadow The Hedgehog v0.5.2</title>
+    <updated>2026-10-12T20:12:50+00:00</updated>
+    <author>
+      <name>choatix</name>
+    </author>
+    <content>Shadow The Hedgehog v0.5.2 (alpha)&#13;
+Changes since v0.5.2&#13;
+&#13;
+- Add functionality for key logic to out-of-logic or lock key doors so that these paths are not required.&#13;
+- Add base handler for story unshuffle due to the multi-lock-no-check handle in Westopolis.&#13;
+- Fix additional invalid configurations.&#13;
+- Add max keys option for arch key items to add more to the pool.&#13;
+- Fix path goals to reduce total if not enough available and to discount bosses if disabled in level choices.&#13;
+- Fix some backtracking and progression logic for stage regions.&#13;
+- Fix some item accessibility.&#13;
+- Change default to keys as arch items.&#13;
+- Fix story mode issues with stage selection.&#13;
+- Fix a few more emergency / start with item scenarios.&#13;
+- Fix Sky Troops Gun Jumper tweak.&#13;
+- Show path goals in client.&#13;
+- Fix autoclearing / handling for client requiring goal ring / character unlocks.&#13;
+- Fix warp-related issue which would end up sending the player to the test level.&#13;
+- Fix last-way (and token) related item clearing not triggering.&#13;
+- Fix issues with character unlock goal ring events.&#13;
+</content>
+    <link href="https://github.com/choatix/Archipelago/releases/tag/shadow-0.5.2"/>
+  </entry>
+  <entry>
+    <id>https://github.com/vyneras/Archipelago/releases/tag/1.1.5</id>
+    <title>Pokemon FireRed and LeafGreen v1.1.5</title>
+    <updated>2026-10-12T20:14:24+00:00</updated>
+    <author>
+      <name>Vyneras</name>
+    </author>
+    <content>ROM CHECKSUM: `00939B09`&#13;
+&#13;
+[Setup Guide](https://github.com/vyneras/Archipelago/blob/1.1.5/worlds/pokemon_frlg/docs/setup_en.md)&#13;
+[Rom Changes](https://github.com/vyneras/Archipelago/blob/1.1.5/worlds/pokemon_frlg/docs/rom%20changes.md)&#13;
+&#13;
+**Bug Fixes**&#13;
+- Fixed an issue where the `seafoam` option for `shuffle_dungeons` did not actually reverse the seafoam entrances in game</content>
+    <link href="https://github.com/vyneras/Archipelago/releases/tag/1.1.5"/>
   </entry>
 </feed>
