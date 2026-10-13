@@ -2,82 +2,11 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://raw.githubusercontent.com/silasary/apworlds/refs/heads/main/recent.atom</id>
   <title>Recent APWorlds</title>
-  <updated>2026-10-13T00:04:09.236246+00:00</updated>
+  <updated>2026-10-13T04:28:54.390762+00:00</updated>
   <author>
     <name>Silasary</name>
   </author>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
-  <entry>
-    <id>https://github.com/Isaac-SOL/CobaltCoreArchipelagoMod/releases/tag/release/1.2.3</id>
-    <title>Cobalt Core v1.2.3</title>
-    <updated>2026-10-09T07:33:56+00:00</updated>
-    <author>
-      <name>Isaac-SOL</name>
-    </author>
-    <content># Fixes&#13;
-- Fixed a crash when using a controller on the connection screen&#13;
-- Fixed a missing string in one of Riggs' AP card upgrades&#13;
-- Fixed a string that was a bit too long in one of Isaac's AP card upgrades&#13;
-&#13;
-The APWorld and YAML options are identical to 1.2.2, and do not need to be updated.&#13;
-This version is compatible with multiworlds generated with 1.2.2.</content>
-    <link href="https://github.com/Isaac-SOL/CobaltCoreArchipelagoMod/releases/tag/release/1.2.3"/>
-  </entry>
-  <entry>
-    <id>https://github.com/randomsalience/albw-archipelago/releases/tag/v0.3.6</id>
-    <title>A Link Between Worlds v0.3.6</title>
-    <updated>2026-10-09T14:13:12+00:00</updated>
-    <author>
-      <name>randomsalience</name>
-    </author>
-    <content>This release is backward compatible with apworld version 0.3.3+&#13;
-&#13;
-### Fixes&#13;
-- Updated for compatibility with Azahar 2126.2</content>
-    <link href="https://github.com/randomsalience/albw-archipelago/releases/tag/v0.3.6"/>
-  </entry>
-  <entry>
-    <id>https://github.com/EverydaySimpleDev/Archipelago/releases/tag/1.3.2</id>
-    <title>Chibi Robo v1.3.2</title>
-    <updated>2026-10-09T14:51:10+00:00</updated>
-    <author>
-      <name>EverydaySimpleDev</name>
-    </author>
-    <content>- Bug Fixes For Kitchen Spoon / Backyard Frog Ring&#13;
-- Bug Fix For Ghost Suit&#13;
-- APCR file / auto connect feature&#13;
-- Kitchen Cookie / backyard ship locations are locked items / locations added</content>
-    <link href="https://github.com/EverydaySimpleDev/Archipelago/releases/tag/1.3.2"/>
-  </entry>
-  <entry>
-    <id>https://github.com/Kryen112/HP2PC_AP/releases/tag/v2.12.0</id>
-    <title>Harry Potter 2 PC v2.12.0</title>
-    <updated>2026-10-09T15:28:12+00:00</updated>
-    <author>
-      <name>Kryen112</name>
-    </author>
-    <content># HP2PC_AP v2.12.0
-The other Harry Potter 2 players in your room show up as ghosts, the client says exactly what is blocking a launch or a mod update, and a Gold Card Room logic fix.
-
-### New
-- **Ghost players** (`ghost_players`, on by default). Other Harry Potter 2 players in the room who are on the same map appear in your game as translucent Harrys, moving and animating as they play, and your Harry appears in theirs. Each ghost carries its slot name over its head in a colour of its own, and mirrors the peer's disguise, size, wand and upside-down state. Cosmetic only: a ghost has no collision and cannot be targeted. `/ghosts` takes `on`, `off` or `seed` like the other link commands, and a bare `/ghosts` flips it. Off also stops sharing your own position.
-
-### Changed
-- **The client tells the launcher window from a running game.** When a connect skips the auto-launch or a mod update because something is up, the message now says whether that is Harry Potter itself or the New Game / Load Game launcher window, and which one to close.
-- **A mod update that could not land holds the auto-launch.** When the apworld carries a newer mod build than your install and the update is refused (a game or the launcher window is up) or fails, the client no longer starts a game on the old build. Fix it and reconnect, or type `/play` to start the game as it is. While an older build is still bridged, the game shows an `AP: mod update ...` reminder every ten seconds.
-- **A refused write raises a popup.** When Windows will not let the client write into the install (almost always a `Program Files` install with the launcher not run as administrator), the client raises an error popup naming the folder and the fix, instead of a line in the log. The sound and music randomizers get the same popup.
-- **The WRONG INSTALL warning repeats.** A seed on the wrong install (an open castle seed on vanilla maps, or the reverse) now shows its warning every ten seconds, not once per level.
-
-### Logic and content changes
-- **Every Gold Card Room card needs Spongify, or Rictusempra with Flipendo.** That is the gate on the room's first room. In open castle, Rictusempra alone used to pass. Vanilla is unaffected in practice, since entering the room there already needs Flipendo.
-
-## Poptracker 1.0.9
-
-### Changed
-- Access rules regenerated for the Gold Card Room gate: Spongify, or Rictusempra with Flipendo.
-</content>
-    <link href="https://github.com/Kryen112/HP2PC_AP/releases/tag/v2.12.0"/>
-  </entry>
   <entry>
     <id>https://github.com/toent/Archipelago-MKWii/releases/tag/v0.3.1</id>
     <title>Mario Kart Wii v0.3.1</title>
@@ -1338,6 +1267,38 @@ This RC only lists what changed since the **[v0.7.0-rc.2 release notes](https://
     <link href="https://github.com/PinkSwitch/Archipelago/releases/tag/cvdos3.1"/>
   </entry>
   <entry>
+    <id>https://github.com/PinkSwitch/Archipelago/releases/tag/cvpor2.0</id>
+    <title>Castlevania: Portrait of Ruin v2.0.0</title>
+    <updated>2026-10-12T15:11:18+00:00</updated>
+    <author>
+      <name>Pink Switch</name>
+    </author>
+    <content># Castlevania: Portrait of Ruin Archipelago Version 2.0 #&#13;
+## New Settings ##&#13;
+* ``Shuffle Transition Doors``: Randomizes area transition doors&#13;
+* ``Early Open Castle``&#13;
+   Adds some extra platforms. Behemoth is reachable with no additional movement, the Great Stairway underground area can be reached with only Acrobat, and the main staircase section requires Stone of Flight (Or puppet if enabled).&#13;
+* ``SP for Mastery``: Allows you to randomize each Subweapon's mastery requirements or make them mastered by default&#13;
+* `` Show Drop Rates``: Makes the Gambler Glasses effect always active&#13;
+## Changes ##&#13;
+* Tweaked the weighting of random spell charge times&#13;
+* Platforms have been added to the statue room in Entrance so you don't have to use the Magical Ticket to reach the shop&#13;
+* Slightly boosted the randomization weight of armor and accessories&#13;
+* Floating items in the connector pipe room of Great Stairway are no longer placed slightly high up&#13;
+## Fixes ##&#13;
+* Fixed being able to delete Magical Tickets by using them via the touch screen&#13;
+* Fixed excluded quest filler being non-deterministic&#13;
+* Fixed Summon Ghost and Summon Skeleton having swapped IDs&#13;
+* Fixed some items on ``City of Haze: Underground Square Right`` being placed too low&#13;
+* Fixed a generation crash if Sanctuary is removed from the item pool&#13;
+* Fixed being able to swap quest text when turning in the quest&#13;
+* Fixed some optimization issues when displaying Quest rewards in the guide&#13;
+* Fixed any and all possible scenarios where quests could display AP item instead of their actual item&#13;
+## Known Issues ##&#13;
+* None so Far</content>
+    <link href="https://github.com/PinkSwitch/Archipelago/releases/tag/cvpor2.0"/>
+  </entry>
+  <entry>
     <id>https://github.com/L-technology-mods/Archipelago-Oh-So-Heroe/releases/tag/v1.0.5</id>
     <title>Oh So Hero! v1.0.5</title>
     <updated>2026-10-12T15:30:36+00:00</updated>
@@ -1395,6 +1356,24 @@ Local testing on game 1.13.001 confirmed server connection, progression restrict
 ### Changes&#13;
 - Renamed the **"Vanilla"** Star Coin gate mode to **"No Keys"**. Existing YAMLs using `vanilla` remain compatible.</content>
     <link href="https://github.com/Lemix028/Archipelago-NewSuperMarioBrosDS/releases/tag/nsmbds-v0.5.2-unstable"/>
+  </entry>
+  <entry>
+    <id>https://github.com/Ars-Ignis/Archipelago/releases/tag/v3.1.0-Crystalis</id>
+    <title>Crystalis v3.1.0rc0.post0</title>
+    <updated>2026-10-12T18:44:34+00:00</updated>
+    <author>
+      <name>CodeGorilla</name>
+    </author>
+    <content># Bug fixes&#13;
+- Made the client handle different datapackage versions for unidentified items a little more gracefully&#13;
+&#13;
+# Content updates&#13;
+- Added new unidentified item names for this year's tournament winners, as well as a repeat one for last year's winner&#13;
+&#13;
+**Note:** The v3.0.2 (or earlier) client may not be able to connect to slots generated with v3.1.0 or later, if the slot is using unidentified items.&#13;
+&#13;
+**Full Changelog**: https://github.com/Ars-Ignis/Archipelago/compare/v3.0.2-Crystalis...v3.1.0-Crystalis</content>
+    <link href="https://github.com/Ars-Ignis/Archipelago/releases/tag/v3.1.0-Crystalis"/>
   </entry>
   <entry>
     <id>https://github.com/Ixrec/OuterWildsArchipelagoRandomizer/releases/tag/v1.3.1</id>
@@ -1588,5 +1567,62 @@ Changes since v0.5.2&#13;
 **Bug Fixes**&#13;
 - Fixed an issue where the `seafoam` option for `shuffle_dungeons` did not actually reverse the seafoam entrances in game</content>
     <link href="https://github.com/vyneras/Archipelago/releases/tag/1.1.5"/>
+  </entry>
+  <entry>
+    <id>https://github.com/hasherwi/Archipelago-kirbyam/releases/tag/kirbyam-v0.4.1</id>
+    <title>Kirby &amp; The Amazing Mirror v0.4.1</title>
+    <updated>2026-10-12T21:21:37+00:00</updated>
+    <author>
+      <name>Harrison Sherwin</name>
+    </author>
+    <content>## v0.4.1&#13;
+&#13;
+### New Features&#13;
+- Choose Shadow, Ivory, Citrus, White or Lavender from Kirby Squeak Squad as your starting Kirby color (Issue #599). They're also included in the random color pool.&#13;
+&#13;
+### Improvements&#13;
+- Configure one-hit starts through Minimum Health and Maximum Health. The redundant One-Hit Mode selector is removed from templates; older YAML presets still convert automatically (Issue #955).&#13;
+- Reopening a game remembers items confirmed by the updated client, so food, lives, batteries, invincibility and traps are not applied again and old receive messages stay quiet. Permanent items can still be restored when loading an older save. If an interruption leaves an item's delivery uncertain, the client asks you to resolve it instead of guessing (Issue #952, PR #954).&#13;
+&#13;
+### Known Limitations&#13;
+- Progression: The entire game is still only two spheres. This means you can complete almost the entirety of Kirby and the Amazing Mirror without ever having to receive an item, except open the Dimension Mirror. In other words, you can do everything in the game except defeat Dark Mind without ever receiving an item from another player. This is a consequence of the original game design. We have plans to gate your progression in other ways, but they all require coding/hacking in intentional blockers.&#13;
+- Localization: Only the North American ROM is supported. All AP notifications are in English.&#13;
+- Native sprites and animations: Chests still show their original item sprite and collection animation. Statues still show their original ability.&#13;
+- mGBA: notifications appear as plain text in the **Archipelago Connector** scripting panel, which must be visible. They do not appear over the game image.&#13;
+&#13;
+### Bug Fixes&#13;
+- Keep Kirby and the phone, life icon and health display colors together, including Pink. Random-per-room takes priority over a saved owned-paint choice, then the AP static color, then default Pink; treasure-room choices now survive native save/load (Issue #918).&#13;
+- Restore acknowledged lever pulls after resets and reconnects, including already-loaded levers, without granting their separate wall items (Issue #949). Regenerate the ROM patch for immediate visual recovery.&#13;
+- Pause new item deliveries during the update that applies an incoming DeathLink, including links received while checking locations. Items already being delivered can still finish, and new deliveries resume after Kirby respawns (Issue #944).&#13;
+&#13;
+### Internal Changes&#13;
+- List ability items, including guaranteed starting abilities, in `items.json` for tracker support (Issues #957, #961).&#13;
+- Updated to AP 0.6.8 (Issue #933)&#13;
+&#13;
+### Additional fixes included from main&#13;
+&#13;
+- Restore packaged region discovery on Python 3.11 by using a package resource anchor.&#13;
+- Fix room-sanity generation by making each physical room check reachable from its valid compartment and restoring the missing Moonlight 2-05 lower descent (Issues #945, #969).&#13;
+- Random-per-room colors now update Kirby and the HUD when native palette transformations remain enabled during gameplay (Issue #966). Regenerate the ROM patch.&#13;
+- Allow the six guaranteed starting ability receipts and notices during the tutorial. Other items stay deferred, and Sword still requires its ability item (Issue #967).&#13;
+</content>
+    <link href="https://github.com/hasherwi/Archipelago-kirbyam/releases/tag/kirbyam-v0.4.1"/>
+  </entry>
+  <entry>
+    <id>https://github.com/brodieberger/MMZero3Archipelago/releases/tag/v0.4.1</id>
+    <title>Mega Man Zero 3 v0.4.1</title>
+    <updated>2026-10-13T01:40:36+00:00</updated>
+    <author>
+      <name>Stingrays110</name>
+    </author>
+    <content>Fix for 0.4.0. The cut down enemy sprites now only happen when the enemy randomizer is on.&#13;
+&#13;
+You will have to generate a new multiworld for this patch. Sorry!&#13;
+&#13;
+[Full Readme here](https://github.com/brodieberger/MMZero3Archipelago)&#13;
+[Link to poptracker pack here](https://github.com/ambibii/mmz3-poptracker/releases/latest)&#13;
+&#13;
+</content>
+    <link href="https://github.com/brodieberger/MMZero3Archipelago/releases/tag/v0.4.1"/>
   </entry>
 </feed>
