@@ -2,62 +2,11 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://raw.githubusercontent.com/silasary/apworlds/refs/heads/main/recent.atom</id>
   <title>Recent APWorlds</title>
-  <updated>2026-10-13T22:13:35.756150+00:00</updated>
+  <updated>2026-10-14T02:37:34.810652+00:00</updated>
   <author>
     <name>Silasary</name>
   </author>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
-  <entry>
-    <id>https://github.com/DQIX/ArchipelagoDQIX/releases/tag/0.1.4</id>
-    <title>Dragon Quest IX v0.1.4</title>
-    <updated>2026-10-10T13:13:00+00:00</updated>
-    <author>
-      <name>kid2407</name>
-    </author>
-    <content># Dragon Quest IX - Beta Release (Version 0.1.4)&#13;
-&#13;
-**This is a beta release. Things can possibly break, though the core gameplay should run normally.**&#13;
-&#13;
-*This requires Archipelago **0.6.7 or newer!***&#13;
-*This **is** compatible with seeds generated on version 0.1.2 or newer*&#13;
-&#13;
-New to the game? Check out the [FAQ](https://discord.com/channels/731205301247803413/1427594624389742716/1491731616068800543)&#13;
-## Bugs fixed&#13;
-&#13;
-* Fixed Softlock when triggering punishment mode</content>
-    <link href="https://github.com/DQIX/ArchipelagoDQIX/releases/tag/0.1.4"/>
-  </entry>
-  <entry>
-    <id>https://github.com/KuroLynx/AEMinecraft/releases/tag/v0.7.0-rc.2</id>
-    <title>AEMinecraft v0.7.0rc2</title>
-    <updated>2026-10-10T13:16:44+00:00</updated>
-    <author>
-      <name>KuroLynx</name>
-    </author>
-    <author>
-      <name>EDGN</name>
-    </author>
-    <content>## AEMinecraft v0.7.0-rc.2
-
-**Pre-release.** Second test build of v0.7.0. Stay on v0.6.2 if you want a stable game.
-
-For everything new in v0.7.0, see the **[v0.7.0-rc.1 release notes](https://github.com/KuroLynx/AEMinecraft/releases/tag/v0.7.0-rc.1)**. This RC only changes the apworld; the mod is the same code as rc.1, rebuilt with the new version number.
-
-### Fixed
-
-- **Generation hung on some BACAP slots.** With structures and mobs locked, glitch logic could take minutes or never finish building. That step now takes a couple of seconds.
-- **Same seed, different logic.** The exported logic depended on Python's hash seed, so two runs of the same seed could ship slightly different rules. It is now identical every time. Item placement was never affected.
-
-### Faster
-
-- **BACAP multiworlds generate several times faster.** The `advancements_required` goal check stops as soon as enough advancements are reachable, and rule evaluation and logic minimisation do less work. Same seeds give the same placement and slot data as before.
-
-### Upgrading from rc.1
-
-- **Replace the apworld.** The rc.1 mod jars and YAMLs keep working with it, but you may as well grab the rc.2 jar.
-</content>
-    <link href="https://github.com/KuroLynx/AEMinecraft/releases/tag/v0.7.0-rc.2"/>
-  </entry>
   <entry>
     <id>https://github.com/Happyhappyism/Bomberman-Hero-Archipelago/releases/tag/bomberman_hero_v0.2.5</id>
     <title>Bomberman Hero v0.2.5</title>
@@ -2035,12 +1984,72 @@ Please do report bugs and things, as we are confident that this new architecture
   </entry>
   <entry>
     <id>https://github.com/RoboRyGuy/Archipelago-GTFO/releases/tag/0.1.1</id>
-    <title>GTFO v0.0.4r2</title>
+    <title>GTFO v0.0.4r3</title>
     <updated>2026-10-13T17:12:44+00:00</updated>
     <author>
       <name>RoboRyGuy</name>
     </author>
     <content>Hotfix for version 0.1.0. Fixed the `RundownTierRandom` progressive ordering option.</content>
     <link href="https://github.com/RoboRyGuy/Archipelago-GTFO/releases/tag/0.1.1"/>
+  </entry>
+  <entry>
+    <id>https://github.com/jamesbrq/ArchipelagoTTYD/releases/tag/v0.14.1</id>
+    <title>Paper Mario The Thousand Year Door v0.14.1</title>
+    <updated>2026-10-13T23:28:23+00:00</updated>
+    <author>
+      <name>jamesbrq</name>
+    </author>
+    <content>## Bug Fixes&#13;
+&#13;
+- Fixed a crash when receiving items from players whose names contain `&lt;` or `&gt;`.&#13;
+- Fixed duplicate badges and consumables on the first shop purchase when Remote Items is enabled.&#13;
+- Fixed the Crystal Stars goal interrupting pickup animations, including chest pickups.&#13;
+- Fixed the Chapter 2 Shadow Sirens event causing item pickups to softlock.&#13;
+- Fixed invisible falling Dull Bones in `gon_03` caused by overworld enemy replacement.&#13;
+- Fixed randomized Piders remaining near the ceiling, using incorrect descent distances, and only detecting Mario from one side.&#13;
+- Fixed Monochrome Clefts, including an encounter in `win_00`, being missed by overworld enemy replacement.&#13;
+- Fixed tossing a coconut during the full-inventory prompt removing the protected coconut from key items.&#13;
+- Fixed generation failures involving the Crystal Stars goal, All Star Shuffle, and self-locking plando in another slot.&#13;
+- Fixed reversed controls while riding Yoshi in Mirror Mode.&#13;
+- Fixed Doopliss appearing from the wrong side during his post-defeat moon entrance in `gra_00` when Mirror Mode is enabled.&#13;
+- Fixed a memory leak during Great Tree room transitions.&#13;
+&#13;
+## Boss randomizer adjustments&#13;
+&#13;
+- Improved Golden Fuzzy, Hooktail, and Gloomtail cutscene framing and replacement positioning.&#13;
+- Corrected Gloomtail’s speech-bubble placement and camera obstruction after the partner cutaway.&#13;
+- Removed Gloomtail’s dragon roar when replaced by a non-dragon enemy.&#13;
+- Corrected paper-model facing for replacements such as tutorial Crump and the Doopliss rematch.&#13;
+- Shortened the Doopliss rematch’s pre-battle scene when randomized by removing partner dialogue.&#13;
+- Permanently disabled Vivian’s mid-battle return in the Doopliss rematch.&#13;
+- Removed Goombella’s tutorial appearance and dialogue from tutorial Crump’s battle.&#13;
+&#13;
+## Other changes&#13;
+&#13;
+- Removed the Shuffle Chapter Stats option.</content>
+    <link href="https://github.com/jamesbrq/ArchipelagoTTYD/releases/tag/v0.14.1"/>
+  </entry>
+  <entry>
+    <id>https://github.com/Ishigh1/Oracle-of-Seasons-apworld/releases/tag/oos-25.0.1</id>
+    <title>The Legend of Zelda - Oracle of Seasons v25.0.1</title>
+    <updated>2026-10-14T00:34:41+00:00</updated>
+    <author>
+      <name>Dinopony</name>
+    </author>
+    <author>
+      <name>Ishigh</name>
+    </author>
+    <content>## 🗳️ New Options&#13;
+- The master_keys option has been renamed to dungeon_key_type, and now includes an option to use unlocks: a new kind of item that immediately opens a specific door on obtention&#13;
+- Freestanding items can now be removed from the randomizable item pool&#13;
+- The trade sequence can also separately be removed, excluding the pedestal&#13;
+&#13;
+## ⏫ Miscellaneous Improvements&#13;
+&#13;
+## 🧠 Logic&#13;
+&#13;
+## 🛠️ Bugfixes&#13;
+- Fixed D2's boss room having holes if Digdogger was the boss</content>
+    <link href="https://github.com/Ishigh1/Oracle-of-Seasons-apworld/releases/tag/oos-25.0.1"/>
   </entry>
 </feed>
