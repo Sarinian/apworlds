@@ -2,43 +2,22 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://raw.githubusercontent.com/silasary/apworlds/refs/heads/main/recent.atom</id>
   <title>Recent APWorlds</title>
-  <updated>2026-10-14T16:16:32.784339+00:00</updated>
+  <updated>2026-10-14T21:18:52.713969+00:00</updated>
   <author>
     <name>Silasary</name>
   </author>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
   <entry>
-    <id>https://github.com/FarisTheAncient/Archipelago/releases/tag/Tracker_Addons_v0.1.3</id>
-    <title>Universal Tracker Addons v0.1.3</title>
-    <updated>2026-10-11T04:42:20+00:00</updated>
+    <id>https://github.com/benny-dreamly/Archipelago/releases/tag/ts-1.2.7</id>
+    <title>Taylor Swift Discography v1.2.7</title>
+    <updated>2026-10-11T18:27:54+00:00</updated>
     <author>
-      <name>FarisTheAncient</name>
+      <name>benny-dreamly</name>
     </author>
-    <content>## What's Changed&#13;
-* Same thing, but on addons by @g0goTAS in https://github.com/FarisTheAncient/Archipelago/pull/153&#13;
-** Adds commands to filter logical locations and manually collect multiple items to tracker_addons&#13;
+    <content>This release contains no new apworld changes, but the configuration for the music client has changed, and the debut album config has been fixed, as it was broken in previous versions. A client side fix was issued as a bandaid fix, but a permanent fix has since been made in this release. &#13;
 &#13;
-**Full Changelog**: https://github.com/FarisTheAncient/Archipelago/compare/Tracker_Addons_v0.1.2...Tracker_Addons_v0.1.3</content>
-    <link href="https://github.com/FarisTheAncient/Archipelago/releases/tag/Tracker_Addons_v0.1.3"/>
-  </entry>
-  <entry>
-    <id>https://github.com/FarisTheAncient/Archipelago/releases/tag/Tracker_v0.3.5</id>
-    <title>Universal Tracker v0.3.5</title>
-    <updated>2026-10-11T04:45:18+00:00</updated>
-    <author>
-      <name>FarisTheAncient</name>
-    </author>
-    <content>## What's Changed&#13;
-* Tracker: fix memory leak in color lookup by @KeanuBC in https://github.com/FarisTheAncient/Archipelago/pull/151&#13;
-* py311 doesn't like escape characters anywhere near fstrings by @qwint in https://github.com/FarisTheAncient/Archipelago/pull/152&#13;
-* Item tracker by @NaveTK in https://github.com/FarisTheAncient/Archipelago/pull/150&#13;
-* Adds highlight to entrance nodes on the map tab if that entrance is on the latest get_logical_path command&#13;
-&#13;
-## New Contributors&#13;
-* @KeanuBC made their first contribution in https://github.com/FarisTheAncient/Archipelago/pull/151&#13;
-&#13;
-**Full Changelog**: https://github.com/FarisTheAncient/Archipelago/compare/Tracker_v0.3.4...Tracker_v0.3.5</content>
-    <link href="https://github.com/FarisTheAncient/Archipelago/releases/tag/Tracker_v0.3.5"/>
+**Full Changelog**: https://github.com/benny-dreamly/Archipelago/compare/ts-1.2.6...ts-1.2.7</content>
+    <link href="https://github.com/benny-dreamly/Archipelago/releases/tag/ts-1.2.7"/>
   </entry>
   <entry>
     <id>https://github.com/Dreskn/Wikipelago-Continued/releases/tag/1.1.0</id>
@@ -1815,7 +1794,7 @@ Please do report bugs and things, as we are confident that this new architecture
   </entry>
   <entry>
     <id>https://github.com/RoboRyGuy/Archipelago-GTFO/releases/tag/0.1.1</id>
-    <title>GTFO v0.0.4r3</title>
+    <title>GTFO v0.0.4r2</title>
     <updated>2026-10-13T17:12:44+00:00</updated>
     <author>
       <name>RoboRyGuy</name>
@@ -1926,7 +1905,7 @@ This revision:&#13;
   </entry>
   <entry>
     <id>https://github.com/ArchipelagoBrad/deadlockipelago/releases/tag/1.2.0-H4</id>
-    <title>Deadlock v1.2.0r3</title>
+    <title>Deadlock v1.2.0r2</title>
     <updated>2026-10-14T07:02:34+00:00</updated>
     <author>
       <name>ArchipelagoBrad</name>
@@ -2000,5 +1979,49 @@ Added music shuffle, which can be toggled through the PICO-8 pause menu. As this
 &#13;
 The apworld has not changed from 0.3.0.</content>
     <link href="https://github.com/NyanMC/build-a-jetpack/releases/tag/0.3.0b"/>
+  </entry>
+  <entry>
+    <id>https://github.com/Dreskn/Wikipelago-Continued/releases/tag/1.1.1</id>
+    <title>Wikipelago v1.1.1</title>
+    <updated>2026-10-14T18:10:02+00:00</updated>
+    <author>
+      <name>Dreskn (continued)</name>
+    </author>
+    <author>
+      <name>Skrumptily69 (original)</name>
+    </author>
+    <content>## Main changes&#13;
+&#13;
+- **Realm Master mode: Realms only require their Portal.** No more reaching a crossroad on the main road first. Grand Goal games are unchanged (Portal + crossroad).&#13;
+- **Universal Tracker support.** UT should now behave correctly and not display unavailable Branch paths.&#13;
+- **Rerolls and Backs are saved.** Used Rerolls and Backs survive reconnects and switching devices.&#13;
+- **YAML option sections.** Options are sorted into a few categories in the Launcher's Options Creator for better readability.&#13;
+&#13;
+## Improvements&#13;
+&#13;
+- Once the main road is done, it says "Main road cleared" instead of showing the last target.&#13;
+- Reduced Wikipedia requests per click.&#13;
+- Article filter adjustments, and "List of…" pages are filtered in all 9 languages.&#13;
+- Some Wikipedia info tables no longer show bright blue headers and now match the theme.&#13;
+- The top banner can be hidden (it comes back next visit).&#13;
+- Keyboard focus no longer jumps away, pop-up windows keep focus, light-theme grey text is easier to read, and loading animations respect the "reduce motion" system setting.&#13;
+- The phone layout and the Journey window are now documented.&#13;
+- Added a broadcast system, mostly to warn about incoming server restart.&#13;
+&#13;
+## Bug fixes&#13;
+&#13;
+- The click count could carry over between slots, or between Practice and a room.&#13;
+- Browser Back was blocked after disconnecting; holding Backspace could spend several Backs.&#13;
+- A failed teleport showed its error twice; Disconnect showed two notices.&#13;
+&#13;
+## For hosts and players&#13;
+&#13;
+- **Archipelago 0.6.7 or newer.**&#13;
+- Games generated with 1.x keep working on the updated site, with their old rules.&#13;
+- `random_goal_article` and `goal_article_preset` are removed. Older YAMLs that still contain them generate fine; Archipelago just logs a warning. The new YAML template requires the 1.1.1 apworld.&#13;
+- Bugs: [GitHub Issues](https://github.com/Dreskn/Wikipelago-Continued/issues) or [Discord](https://discord.com/channels/731205301247803413/1462007968902938768).&#13;
+&#13;
+</content>
+    <link href="https://github.com/Dreskn/Wikipelago-Continued/releases/tag/1.1.1"/>
   </entry>
 </feed>
