@@ -1,7 +1,7 @@
 {
   "total_repositories": 937,
-  "total_packages": 1073,
-  "total_versions": 12176,
+  "total_packages": 1071,
+  "total_versions": 12161,
   "manifest_ready": {
     "isles_of_trials": true,
     "manual_skylandersgiants_thisguyhere": true,
@@ -88,7 +88,6 @@
     "manual_halflife2andepisodes_relentingzero": false,
     "sm64ex_spicy": true,
     "gatoroboto": false,
-    "PokemonStadium": false,
     "minecraft-dig": true,
     "YARG": false,
     "manual_crashteamracing_hallstead": false,
@@ -316,7 +315,6 @@
     "bfm": true,
     "stacklands": true,
     "ittle_dew_2": false,
-    "pokemon_stadium": false,
     "openttd": true,
     "half_life_sven": true,
     "manual_halflife2_relentingzero": false,
@@ -1043,7 +1041,7 @@
     "smw": true
   },
   "max_minimum_ap_version": {
-    "": 443,
+    "": 441,
     "0.4.0": 2,
     "0.5.0": 16,
     "0.5.1": 4,
@@ -1067,7 +1065,7 @@
     "0.6.4": 1,
     "0.6.6": 1,
     "0.6.7": 1,
-    "0.6.99": 325,
+    "0.6.99": 323,
     "0.7.0": 1,
     "0.9.99": 1
   }
