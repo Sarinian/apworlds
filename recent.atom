@@ -2,125 +2,11 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://raw.githubusercontent.com/silasary/apworlds/refs/heads/main/recent.atom</id>
   <title>Recent APWorlds</title>
-  <updated>2026-10-15T16:11:33.842145+00:00</updated>
+  <updated>2026-10-15T20:56:06.436192+00:00</updated>
   <author>
     <name>Silasary</name>
   </author>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
-  <entry>
-    <id>https://github.com/1-800-thewolf/FF1PSP-Archipelago/releases/tag/v0.2.4</id>
-    <title>Final Fantasy 1 PSP v0.2.4</title>
-    <updated>2026-10-12T04:15:29+00:00</updated>
-    <author>
-      <name>1-800-thewolf</name>
-    </author>
-    <content>Overall a smaller update, but still the flagship feature is...&#13;
-&#13;
----&#13;
-&#13;
-## Custom Apprentice Sprite&#13;
-&#13;
-&lt;img width="38" height="51" alt="image" src="https://github.com/user-attachments/assets/4f9905cc-b007-4a65-a433-3a50e0a82f1f" /&gt;&#13;
-&#13;
-Special thanks to @✨-Prime-✨ for commissioning the fully custom Apprentice Sprite.&#13;
-Get the scroll and your Black Mage sprite upgrades in game!&#13;
-&#13;
-## Bug Fixes Related To&#13;
-- Bestiarysanity rarely failing to recognize kills&#13;
-- Saving/loading on world-changing effects like Lufenia Bridge&#13;
-- Rare crash related to entering Crescent Lake&#13;
-- Rare bug related to boss sprite discolor/sprite mix up&#13;
-&#13;
-## 👍🏻 Fully compatible with existing v0.2.0+ seeds. Please upgrade mid-run for a better experience.</content>
-    <link href="https://github.com/1-800-thewolf/FF1PSP-Archipelago/releases/tag/v0.2.4"/>
-  </entry>
-  <entry>
-    <id>https://github.com/Akamarus/Super-Crazy-Rhythm-Castle-Archipelago/releases/tag/v0.29.0</id>
-    <title>Super Crazy Rhythm Castle v0.29.0</title>
-    <updated>2026-10-12T04:35:00+00:00</updated>
-    <author>
-      <name>Jack</name>
-    </author>
-    <author>
-      <name>OpenAI</name>
-    </author>
-    <content># v0.29.0 — Cassette Bundles, Movement and Access Rules&#13;
-&#13;
-**APWorld 0.29.0 / Client 0.76.0**&#13;
-&#13;
-October 12, 2026 release.&#13;
-&#13;
-## Added&#13;
-&#13;
-- Optional randomized cassette bundles: `individual` (default), `pairs`, or `triples`. Each seed chooses its own groups, preserved across reconnects and Universal Tracker reconstruction. All cassette source and medal checks remain available.&#13;
-- Bundle notifications and recent-item history identify the component songs.&#13;
-&#13;
-## Fixed and improved&#13;
-&#13;
-- Corrected Montage animal update timing without forcing a 50 FPS cap. The user accepted the improvement at normal high frame rates.&#13;
-- Made the Regular/Pro Change selector usable before completing Level 1, including the initial save-to-hub transition.&#13;
-- Improved item delivery readiness, deferred retries and native inventory verification so receipts can arrive without restarting. Pair-bundle receipt, deposit, immediate song selection and persistence after restart were verified in gameplay.&#13;
-- Corrected Roots phone-booth presentation so the early portal does not obscure the Gecko and Weed Killer interactions.&#13;
-- Allowed Music Lab reward chests to be opened when their vanilla cartridge reward is already owned. The Bloody Tears chest was verified while carrying Bloody Tears.&#13;
-- Added a Star check before native level-entry side effects to prevent a failed entry from leaving the entrance unavailable until an area reload. This specific recovery case still needs live acceptance.&#13;
-- Removed obsolete movement experiments and the temporary F9 frame-rate test; retained F8 movement capture. Display mode and frame-rate preferences remain native, with no forced fullscreen or frame cap.&#13;
-- Repaired generation capacity for excluded checks by consolidating Music Lab point denominations when needed, preserving all 180 points, 66 Stars and other items.&#13;
-&#13;
-## Access rules and Universal Tracker&#13;
-&#13;
-- Lobby Access independently opens Boring Room, Minim Tower and The Vault, retaining each level's own Star gate.&#13;
-- Plunger use requires Lobby Access and Plunger; Lobby Star Eater additionally requires its configured Star threshold.&#13;
-- Corrected direct access to the Plunger, Bees, Frying Pan and Smooch pickups.&#13;
-- Bucket Minion trade requires Roots Access and Hip Glasses without unrelated campaign completion.&#13;
-- Corrected the Demolition Certificate source to use Boring Room rather than Demolition Training.&#13;
-- Removed Central Mainframe from bee-variant access requirements while retaining each ordinary base route, Cell Tower Access and Hypno Pan.&#13;
-- Added the Cell Tower return route for Fish Tears delivery while retaining the native Act 4 award requirement.&#13;
-- Added the Lobby return entrance to Lift Quest and its cassette sources, preserving Roots Access and the level's own Star gate. Combo Bucket conversion still requires its inputs.&#13;
-- Corrected Royal Corridor Star Eater access to area access plus its configured Star threshold.&#13;
-- Required Plant Pipes for Level 15, Level 16's higher ratings and explicitly for Cold Storage. Level 22 retains Plant Pipes as a required logical route.&#13;
-- Loneliness and Party Non Stop retain Hypno Pan.&#13;
-- Improved tracker slot-data validation and cassette-route handling; expanded the prerequisite audit so inherited requirements are visible.&#13;
-&#13;
-## Compatibility and installation&#13;
-&#13;
-- Archipelago 0.6.8 generation and Universal Tracker 0.2.32 were tested.&#13;
-- Install `scrc.apworld` in the Archipelago installation used by the generator and Universal Tracker, then restart those programs.&#13;
-- Install the client ZIP following the setup guide before playing a bundled seed. Individual-cassette seeds retain schema 19; bundled seeds use schema 20 and require Client 0.76.0.&#13;
-- Existing seeds retain their item placements, bundle mappings and Star gates. Updated logic does not regenerate an existing seed or guarantee that older placements satisfy newly tightened requirements.&#13;
-- Follow the normal Universal Tracker setup, including its player YAML requirements where applicable; this release does not claim that YAML files are unnecessary.&#13;
-- Packaging retains third-party license notices and excludes game assemblies and local logs. Original project code is MIT licensed.&#13;
-&#13;
-## Validation&#13;
-&#13;
-- 190 APWorld tests passed.&#13;
-- 54 official AP 0.6.8 generation cases passed across difficulties, Star goals, cassette modes, exclusions and mixed-game sessions, with independent collection through Victory.&#13;
-- Universal Tracker matched the world rules in 12 worlds and 1,888 inventory states.&#13;
-- The client regression suite contains 42 projects; the release build is verified without installing over the running game.&#13;
-- Both distributable archives passed the release packager's validation.&#13;
-&#13;
-Automated consistency checks do not establish every native route; gameplay acceptance and remaining limitations are listed separately.&#13;
-&#13;
-## Known issues and deferred testing&#13;
-&#13;
-- Cold Storage and Cell Tower Star Eater story prerequisites need further investigation; deferred at the user's request.&#13;
-- School Trip's Plant Pipes requirements and the Gold/On the Way cassette alternatives remain under review.&#13;
-- Higher King Ferdinand ratings depend on late-game Gecko content that is not fully modeled. Those checks remain filler-only and are not guaranteed reachable.&#13;
-- Bunker Keycard, Notepad, Data Stick and Demon Key work remains outside the completed AP-item/check scope; conservative Bunker/Demonic assumptions remain.&#13;
-- Native Hypno Pan crafting alternatives are not comprehensively represented in item logic.&#13;
-- Intermittent song/windowed/Combo Bucket performance and movement outside the accepted Montage case may still occur.&#13;
-- Triple bundles, other delayed-item scenarios, Star-blocked entrance recovery, and the newer Lobby callback readiness paths need further live coverage.&#13;
-- The revised tracker passed offline engine comparisons; a fresh live UI comparison remains useful.&#13;
-&#13;
-## Development disclosure&#13;
-&#13;
-This implementation uses substantial AI assistance. See the [AI disclosure](https://github.com/Akamarus/Super-Crazy-Rhythm-Castle-Archipelago/blob/v0.29.0/docs/AI_DISCLOSURE.md) for tools, scope, the owner's design and gameplay-testing role, and the limits of human source review. The disclosure should accompany the release announcement and be pinned in the project channel.&#13;
-&#13;
-## Next&#13;
-&#13;
-Gather feedback on the updated release and prioritize remaining performance, delivery and native-route reports. Cold Storage/Cell Tower Star Eater testing remains deferred.&#13;
-</content>
-    <link href="https://github.com/Akamarus/Super-Crazy-Rhythm-Castle-Archipelago/releases/tag/v0.29.0"/>
-  </entry>
   <entry>
     <id>https://github.com/Nichologeam/CUAP/releases/tag/v0.12.0</id>
     <title>Casualties: Unknown v0.12.0</title>
@@ -1424,7 +1310,7 @@ Please do report bugs and things, as we are confident that this new architecture
   </entry>
   <entry>
     <id>https://github.com/RoboRyGuy/Archipelago-GTFO/releases/tag/0.1.1</id>
-    <title>GTFO v0.0.4r3</title>
+    <title>GTFO v0.0.4r2</title>
     <updated>2026-10-13T17:12:44+00:00</updated>
     <author>
       <name>RoboRyGuy</name>
@@ -1535,7 +1421,7 @@ This revision:&#13;
   </entry>
   <entry>
     <id>https://github.com/ArchipelagoBrad/deadlockipelago/releases/tag/1.2.0-H4</id>
-    <title>Deadlock v1.2.0r3</title>
+    <title>Deadlock v1.2.0r2</title>
     <updated>2026-10-14T07:02:34+00:00</updated>
     <author>
       <name>ArchipelagoBrad</name>
@@ -1935,5 +1821,35 @@ Because I like speedrunning and want this game's community to grow!&#13;
 -----&#13;
 _And you can find [my own socials](https://github.com/alditoOt/Momodora-Moonlit-Farewell-Randomizer/blob/Archipelago-Randomizer/README.md#my-own-socials) in the README file because I gotta shamelessly plug my stuff somewhere but it felt too shameless to put them in the release notes *wink *wink_ </content>
     <link href="https://github.com/alditoOt/Momodora-Moonlit-Farewell-Randomizer/releases/tag/AP-v1.8.1"/>
+  </entry>
+  <entry>
+    <id>https://github.com/Nepley/eosd-apworld/releases/tag/v1.5.1</id>
+    <title>Touhou Koumakyou ~ the Embodiment of Scarlet Devil v1.5.0r2</title>
+    <updated>2026-10-15T17:52:21+00:00</updated>
+    <author>
+      <name>Nepley</name>
+    </author>
+    <content>* Fix lives and bombs not being updated in normal mode</content>
+    <link href="https://github.com/Nepley/eosd-apworld/releases/tag/v1.5.1"/>
+  </entry>
+  <entry>
+    <id>https://github.com/Heinki/Mental-Omega-Randomizer/releases/tag/V1.43</id>
+    <title>Mental Omega v0.6.7</title>
+    <updated>2026-10-15T19:58:48+00:00</updated>
+    <author>
+      <name>Mental Omega Randomizer contributors</name>
+    </author>
+    <content>- Fix Great Tempest damage&#13;
+- Fix harvesters loosing buffs&#13;
+- Fix Coop Shopmode not starting&#13;
+- Fix Powerhouse with invincible unit types&#13;
+- Fix gear change in stormbringer&#13;
+- Fix crane bug not repairing cloned units&#13;
+- Fix Hunter seeker&#13;
+- Adjust hover units for you shall not build modifier in shop mode&#13;
+- Fix Gridlock Rapid fire nuke when enemy gets superweapon&#13;
+- Add Archipelago Webtracker&#13;
+- Adjust Gem Dividend, gives gems according to 5ore in reserve for easy farming at the end of a run and endless runs</content>
+    <link href="https://github.com/Heinki/Mental-Omega-Randomizer/releases/tag/V1.43"/>
   </entry>
 </feed>
