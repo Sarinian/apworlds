@@ -1,7 +1,7 @@
 {
   "total_repositories": 937,
-  "total_packages": 1074,
-  "total_versions": 12202,
+  "total_packages": 1073,
+  "total_versions": 12209,
   "manifest_ready": {
     "isles_of_trials": true,
     "manual_skylandersgiants_thisguyhere": true,
@@ -295,7 +295,6 @@
     "blockupelago": false,
     "sshd": true,
     "faxanadu": false,
-    "password": false,
     "build_a_jetpack": true,
     "manual_mhrise_village_axxroy": false,
     "ihyps": false,
@@ -1043,7 +1042,7 @@
     "smw": true
   },
   "max_minimum_ap_version": {
-    "": 443,
+    "": 442,
     "0.4.0": 2,
     "0.5.0": 16,
     "0.5.1": 4,
@@ -1067,7 +1066,7 @@
     "0.6.4": 1,
     "0.6.6": 1,
     "0.6.7": 1,
-    "0.6.99": 325,
+    "0.6.99": 324,
     "0.7.0": 1,
     "0.9.99": 1
   }
