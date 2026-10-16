@@ -2,37 +2,11 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://raw.githubusercontent.com/silasary/apworlds/refs/heads/main/recent.atom</id>
   <title>Recent APWorlds</title>
-  <updated>2026-10-16T02:06:20.150024+00:00</updated>
+  <updated>2026-10-16T10:28:14.378133+00:00</updated>
   <author>
     <name>Silasary</name>
   </author>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
-  <entry>
-    <id>https://github.com/L-technology-mods/Archipelago-Oh-So-Heroe/releases/tag/v1.0.5</id>
-    <title>Oh So Hero! v1.0.5</title>
-    <updated>2026-10-12T15:30:36+00:00</updated>
-    <author>
-      <name>L-technology-mods</name>
-    </author>
-    <content># Oh So Hero! Archipelago v1.0.5
-
-Compatibility fix for Oh So Hero! 1.13.001 (Unity 2022.3.62).
-
-The plugin could load successfully and then be destroyed during startup, preventing automatic connections, progression restrictions and location checks. This release protects the plugin manager automatically, so you do not need to edit `BepInEx.cfg`.
-
-## Install or update
-
-- Close the game.
-- Download `OhSoHeroArchipelago-Client.zip` and extract its contents into your Steam game installation folder, next to `OhSoHero.exe`. Replace the old files when prompted.
-- Keep your existing Archipelago configuration and saves. Existing seeds remain compatible with this client fix.
-- For a first installation, also download `oh_so_hero.apworld` and install it through Archipelago Launcher.
-
-`OhSoHeroArchipelago-Release.zip` contains both downloads and the installation guide.
-
-Local testing on game 1.13.001 confirmed server connection, progression restrictions, scene checks and received consumables with the BepInEx manager protection enabled. The automatic protection uses the same flags as that tested setting.
-</content>
-    <link href="https://github.com/L-technology-mods/Archipelago-Oh-So-Heroe/releases/tag/v1.0.5"/>
-  </entry>
   <entry>
     <id>https://github.com/Lemix028/Archipelago-NewSuperMarioBrosDS/releases/tag/nsmbds-v0.5.2-unstable</id>
     <title>New Super Mario Bros. DS v0.5.2</title>
@@ -1022,7 +996,7 @@ Please do report bugs and things, as we are confident that this new architecture
   </entry>
   <entry>
     <id>https://github.com/RoboRyGuy/Archipelago-GTFO/releases/tag/0.1.1</id>
-    <title>GTFO v0.0.4r3</title>
+    <title>GTFO v0.0.4r2</title>
     <updated>2026-10-13T17:12:44+00:00</updated>
     <author>
       <name>RoboRyGuy</name>
@@ -1133,7 +1107,7 @@ This revision:&#13;
   </entry>
   <entry>
     <id>https://github.com/ArchipelagoBrad/deadlockipelago/releases/tag/1.2.0-H4</id>
-    <title>Deadlock v1.2.0r3</title>
+    <title>Deadlock v1.2.0r2</title>
     <updated>2026-10-14T07:02:34+00:00</updated>
     <author>
       <name>ArchipelagoBrad</name>
@@ -1714,7 +1688,7 @@ If you have any bugs, please report them in our discord thread!</content>
   </entry>
   <entry>
     <id>https://github.com/PhoenixAki/PhoenixAP/releases/tag/AHT-v2.2.2</id>
-    <title>Spyro: A Hero's Tail v2.2.0r2</title>
+    <title>Spyro: A Hero's Tail v2.2.0r3</title>
     <updated>2026-10-16T00:48:42+00:00</updated>
     <author>
       <name>mayaxtg</name>
