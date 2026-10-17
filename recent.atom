@@ -2,111 +2,11 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://raw.githubusercontent.com/silasary/apworlds/refs/heads/main/recent.atom</id>
   <title>Recent APWorlds</title>
-  <updated>2026-10-17T10:01:46.772051+00:00</updated>
+  <updated>2026-10-17T14:44:55.998746+00:00</updated>
   <author>
     <name>Silasary</name>
   </author>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
-  <entry>
-    <id>https://github.com/chickentuna/WeddingWitchMod/releases/tag/v0.1.1</id>
-    <title>Wedding Witch v0.1.0r2</title>
-    <updated>2026-10-13T09:31:25+00:00</updated>
-    <author>
-      <name>chickentuna</name>
-    </author>
-    <content>## Changes since 0.1.0
-
-- Achievements pay out their Love Coins again: each room now keeps its own achievement progress instead of sharing your normal save's.
-- The main menu's **Shop** button can be reached with the arrow keys and gamepad.
-
-The apworld and YAML are unchanged from 0.1.0, so existing seeds keep working.
-
-Archipelago randomizer for **Wedding Witch**. The witch's upgrade shop stops selling
-upgrades — all 73 levels become Archipelago items — and its shelves are restocked with
-checks instead, which is what Love Coins buy now.
-
-A default seed is 82 checks: the three potions offered after every stage, the boss beaten
-in each of the six witch forms on Nightmare (once in any form on the lower difficulties),
-and 20 shop shelves.
-
-## What's in this release
-
-| File | Where it goes |
-|---|---|
-| `WeddingWitchArchipelago-0.1.1.zip` | unzips into the game folder |
-| `wedding_witch.apworld` | your Archipelago install's `custom_worlds/` |
-| `WeddingWitch.yaml` | your Archipelago install's `Players/`, after editing |
-
-## 1. Install BepInEx
-
-Wedding Witch is a Unity **Mono** build, so it needs the Mono flavour of BepInEx 6 from
-the [bleeding-edge builds page](https://builds.bepinex.dev/projects/bepinex_be). The
-IL2CPP builds will not load. Take the newest one for your platform:
-
-- **Windows** — `BepInEx-Unity.Mono-win-x64-6.0.0-be.*.zip`
-- **Linux** — `BepInEx-Unity.Mono-linux-x64-6.0.0-be.*.zip`
-
-Unzip it into the game folder — the one holding `Wedding Witch.exe` on Windows or
-`Wedding Witch.x86_64` on Linux. Steam's *Manage → Browse local files* will take you
-there.
-
-Then launch the game once and quit. That first run creates `BepInEx/plugins`, and it
-will not create it until the game has actually started.
-
-**Linux only**, two extra steps:
-
-```sh
-chmod +x run_bepinex.sh
-```
-
-and set the game's Steam launch options to:
-
-```
-./run_bepinex.sh %command%
-```
-
-Without the launch options BepInEx is never loaded and the game simply runs unmodded.
-Windows needs neither — its BepInEx hooks the executable directly.
-
-## 2. Install the mod
-
-Unzip `WeddingWitchArchipelago-0.1.1.zip` into the same game folder. It carries its own
-`BepInEx/plugins/...` path, so you should end up with:
-
-```
-Wedding Witch/BepInEx/plugins/WeddingWitchArchipelago/WeddingWitchArchipelago.dll
-```
-
-## 3. Install the apworld
-
-Drop `wedding_witch.apworld` into `custom_worlds/` in your Archipelago install, then edit
-`WeddingWitch.yaml` and put it in `Players/`. Both the host generating the seed and anyone
-tracking it need the apworld.
-
-## 4. Play
-
-Launch the game. The connection panel opens itself on the main menu; &lt;kbd&gt;F1&lt;/kbd&gt;
-toggles it. Fill in the server address, port, your slot name and the room password if
-there is one, then press Connect. Your details are remembered for next launch.
-
-The main menu gains a **Shop** button beside **Upgrades**: Upgrades lists the levels the
-multiworld has sent you, unbuyable, and Shop sells Archipelago checks for Love Coins.
-
-Your upgrade levels, coins and stats are kept per room, so connecting neither reads nor
-writes the save you play unconnected.
-
-## Notes
-
-Universal Tracker is supported and needs no YAML of its own.
-
-Which difficulties you can play comes from the multiworld rather than from clearing the
-previous one, so expect Hard and Nightmare to be locked until the items turn up.
-
----
-🤖 Release notes generated with [Claude Code](https://claude.com/claude-code)
-</content>
-    <link href="https://github.com/chickentuna/WeddingWitchMod/releases/tag/v0.1.1"/>
-  </entry>
   <entry>
     <id>https://github.com/barretg/Taskipelago/releases/tag/v1.2.1</id>
     <title>Taskipelago v1.2.1</title>
@@ -515,7 +415,7 @@ Please do report bugs and things, as we are confident that this new architecture
   </entry>
   <entry>
     <id>https://github.com/RoboRyGuy/Archipelago-GTFO/releases/tag/0.1.1</id>
-    <title>GTFO v0.0.4r2</title>
+    <title>GTFO v0.0.4r3</title>
     <updated>2026-10-13T17:12:44+00:00</updated>
     <author>
       <name>RoboRyGuy</name>
@@ -643,7 +543,7 @@ This revision:&#13;
   </entry>
   <entry>
     <id>https://github.com/ArchipelagoBrad/deadlockipelago/releases/tag/1.2.0-H4</id>
-    <title>Deadlock v1.2.0r2</title>
+    <title>Deadlock v1.2.0r3</title>
     <updated>2026-10-14T07:02:34+00:00</updated>
     <author>
       <name>ArchipelagoBrad</name>
@@ -1275,7 +1175,7 @@ https://github.com/PhoenixAki/PhoenixAP/compare/AHT-v2.2.1...AHT-v2.2.2</content
   </entry>
   <entry>
     <id>https://github.com/Az-LastPenguin/LORAP/releases/tag/v1.0.0-eta.3</id>
-    <title>Library of Ruina v1.0.0r2</title>
+    <title>Library of Ruina v1.0.0r3</title>
     <updated>2026-10-16T11:14:39+00:00</updated>
     <author>
       <name>LastPenguin</name>
@@ -1319,7 +1219,7 @@ https://github.com/PhoenixAki/PhoenixAP/compare/AHT-v2.2.1...AHT-v2.2.2</content
   </entry>
   <entry>
     <id>https://github.com/CATEM1NAL/PD2-Criminal-Dawn/releases/tag/v1.0.13</id>
-    <title>PAYDAY 2: Criminal Dawn v1.0.4r2</title>
+    <title>PAYDAY 2: Criminal Dawn v1.0.4r4</title>
     <updated>2026-10-16T17:49:45+00:00</updated>
     <author>
       <name>C@:\EM1NAL\</name>
@@ -1560,7 +1460,7 @@ _This release is backwards compatible down to 6.0.0._</content>
   </entry>
   <entry>
     <id>https://github.com/ArchipelagoBrad/deadlockipelago/releases/tag/1.2.0-H5</id>
-    <title>Deadlock v1.2.0r3</title>
+    <title>Deadlock v1.2.0r2</title>
     <updated>2026-10-17T01:36:10+00:00</updated>
     <author>
       <name>ArchipelagoBrad</name>
@@ -1627,5 +1527,40 @@ APWORLD (needed for generating archieplago game):&#13;
   * Bunny walking through Death Mountain Descent is now in logic, unless playing with Inverted and without crossed entrance shuffle&#13;
 * Fixed quickswap not being in the correct category in the option creator</content>
     <link href="https://github.com/aurabot24/Archipelago-ALttPR/releases/tag/v1.7.0"/>
+  </entry>
+  <entry>
+    <id>https://github.com/4rtefakt/ys-origin-archipelago/releases/tag/v2.1.1</id>
+    <title>Ys Origin v2.1.1</title>
+    <updated>2026-10-17T10:52:17+00:00</updated>
+    <author>
+      <name>4rtefakt</name>
+    </author>
+    <content>A patch release: the 3F barrier fix from a Hugo player's report, and a logic audit against the game's room scripts. Requires **Archipelago 0.6.7 or newer**.
+
+&gt; **Take all three files, and take them together.** Seeds generated with 2.1.0 stay playable with the new dll.
+
+## 🛠️ Mod fix
+
+- **The 3F Transfer Room now always sends you to 4F first.** Its barrier teleports Yunica and Hugo to 4F unless the Blue Necklace is worn, and that teleport is the only way into the 4F rooms. A seed can hand you the necklace early, and walking in wearing it broke the barrier for good, so 4F was out of reach. Until you have been to 4F, the barrier now ignores the necklace.
+- **Saves already stuck this way are repaired.** If you broke the barrier before ever reaching 4F, it comes back the next time you are in a room next to it. Walk into it to be teleported to 4F, then come back with the necklace on to break it again.
+
+## 🗺️ Logic
+
+Ten places where the logic counted on a check or a passage the game blocks, found by checking every room against its scripts:
+- six room gates, including the 6F room (wind in, dash out), the 8F dive and the 24F bridge's way back;
+- four story checks, including Yunica's Black Pearl, which now waits for her 19F event;
+- the 2F Gemma Room's two checks are Yunica's and Hugo's only (Toal cannot enter it).
+
+## ⚠️ What was and was not played
+
+- The barrier fix was loaded in the retail game and its check was exercised in memory for each case. The room itself was not played through.
+- The logic changes passed AP's integration check, 60 random seeds and 8 three-player seeds.
+
+## 🐞 Known issues
+
+- **Rado's Annex and story order** (from 2.1.0) is still not fixed in this dll. Hugo and Yunica can be turned around at the Rado Tower bridge by story flags from higher floors.
+- The known issues listed for 2.1.0 still apply.
+</content>
+    <link href="https://github.com/4rtefakt/ys-origin-archipelago/releases/tag/v2.1.1"/>
   </entry>
 </feed>
