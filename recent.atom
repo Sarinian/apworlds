@@ -2,264 +2,11 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://raw.githubusercontent.com/silasary/apworlds/refs/heads/main/recent.atom</id>
   <title>Recent APWorlds</title>
-  <updated>2026-10-16T20:21:41.905467+00:00</updated>
+  <updated>2026-10-17T02:00:15.183135+00:00</updated>
   <author>
     <name>Silasary</name>
   </author>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
-  <entry>
-    <id>https://github.com/dannybonz/k-on_archipelago/releases/tag/v1.1.5</id>
-    <title>K-On! After School Live!! v1.1.5</title>
-    <updated>2026-10-12T19:51:56+00:00</updated>
-    <author>
-      <name>dannybonz</name>
-    </author>
-    <content>- Added location groups for each song, allowing you to easily exclude locations related to a specific song. Keep in mind that playing with a Cassette Tape goal will always place Cassette Tapes into each song's clear location, regardless of their excluded status.&#13;
-- Fixed a logic error in which the "Event: Tuning!" location did not correctly require the "Photo of the Villa" item.&#13;
-&#13;
-For instructions, see the [Setup Guide.](https://github.com/dannybonz/k-on_archipelago/blob/main/docs/setup.md)</content>
-    <link href="https://github.com/dannybonz/k-on_archipelago/releases/tag/v1.1.5"/>
-  </entry>
-  <entry>
-    <id>https://github.com/choatix/Archipelago/releases/tag/shadow-0.5.2</id>
-    <title>Shadow The Hedgehog v0.5.2</title>
-    <updated>2026-10-12T20:12:50+00:00</updated>
-    <author>
-      <name>choatix</name>
-    </author>
-    <content>Shadow The Hedgehog v0.5.2 (alpha)&#13;
-Changes since v0.5.2&#13;
-&#13;
-- Add functionality for key logic to out-of-logic or lock key doors so that these paths are not required.&#13;
-- Add base handler for story unshuffle due to the multi-lock-no-check handle in Westopolis.&#13;
-- Fix additional invalid configurations.&#13;
-- Add max keys option for arch key items to add more to the pool.&#13;
-- Fix path goals to reduce total if not enough available and to discount bosses if disabled in level choices.&#13;
-- Fix some backtracking and progression logic for stage regions.&#13;
-- Fix some item accessibility.&#13;
-- Change default to keys as arch items.&#13;
-- Fix story mode issues with stage selection.&#13;
-- Fix a few more emergency / start with item scenarios.&#13;
-- Fix Sky Troops Gun Jumper tweak.&#13;
-- Show path goals in client.&#13;
-- Fix autoclearing / handling for client requiring goal ring / character unlocks.&#13;
-- Fix warp-related issue which would end up sending the player to the test level.&#13;
-- Fix last-way (and token) related item clearing not triggering.&#13;
-- Fix issues with character unlock goal ring events.&#13;
-</content>
-    <link href="https://github.com/choatix/Archipelago/releases/tag/shadow-0.5.2"/>
-  </entry>
-  <entry>
-    <id>https://github.com/vyneras/Archipelago/releases/tag/1.1.5</id>
-    <title>Pokemon FireRed and LeafGreen v1.1.5</title>
-    <updated>2026-10-12T20:14:24+00:00</updated>
-    <author>
-      <name>Vyneras</name>
-    </author>
-    <content>ROM CHECKSUM: `00939B09`&#13;
-&#13;
-[Setup Guide](https://github.com/vyneras/Archipelago/blob/1.1.5/worlds/pokemon_frlg/docs/setup_en.md)&#13;
-[Rom Changes](https://github.com/vyneras/Archipelago/blob/1.1.5/worlds/pokemon_frlg/docs/rom%20changes.md)&#13;
-&#13;
-**Bug Fixes**&#13;
-- Fixed an issue where the `seafoam` option for `shuffle_dungeons` did not actually reverse the seafoam entrances in game</content>
-    <link href="https://github.com/vyneras/Archipelago/releases/tag/1.1.5"/>
-  </entry>
-  <entry>
-    <id>https://github.com/hasherwi/Archipelago-kirbyam/releases/tag/kirbyam-v0.4.1</id>
-    <title>Kirby &amp; The Amazing Mirror v0.4.1</title>
-    <updated>2026-10-12T21:21:37+00:00</updated>
-    <author>
-      <name>Harrison Sherwin</name>
-    </author>
-    <content>## v0.4.1&#13;
-&#13;
-### New Features&#13;
-- Choose Shadow, Ivory, Citrus, White or Lavender from Kirby Squeak Squad as your starting Kirby color (Issue #599). They're also included in the random color pool.&#13;
-&#13;
-### Improvements&#13;
-- Configure one-hit starts through Minimum Health and Maximum Health. The redundant One-Hit Mode selector is removed from templates; older YAML presets still convert automatically (Issue #955).&#13;
-- Reopening a game remembers items confirmed by the updated client, so food, lives, batteries, invincibility and traps are not applied again and old receive messages stay quiet. Permanent items can still be restored when loading an older save. If an interruption leaves an item's delivery uncertain, the client asks you to resolve it instead of guessing (Issue #952, PR #954).&#13;
-&#13;
-### Known Limitations&#13;
-- Progression: The entire game is still only two spheres. This means you can complete almost the entirety of Kirby and the Amazing Mirror without ever having to receive an item, except open the Dimension Mirror. In other words, you can do everything in the game except defeat Dark Mind without ever receiving an item from another player. This is a consequence of the original game design. We have plans to gate your progression in other ways, but they all require coding/hacking in intentional blockers.&#13;
-- Localization: Only the North American ROM is supported. All AP notifications are in English.&#13;
-- Native sprites and animations: Chests still show their original item sprite and collection animation. Statues still show their original ability.&#13;
-- mGBA: notifications appear as plain text in the **Archipelago Connector** scripting panel, which must be visible. They do not appear over the game image.&#13;
-&#13;
-### Bug Fixes&#13;
-- Keep Kirby and the phone, life icon and health display colors together, including Pink. Random-per-room takes priority over a saved owned-paint choice, then the AP static color, then default Pink; treasure-room choices now survive native save/load (Issue #918).&#13;
-- Restore acknowledged lever pulls after resets and reconnects, including already-loaded levers, without granting their separate wall items (Issue #949). Regenerate the ROM patch for immediate visual recovery.&#13;
-- Pause new item deliveries during the update that applies an incoming DeathLink, including links received while checking locations. Items already being delivered can still finish, and new deliveries resume after Kirby respawns (Issue #944).&#13;
-&#13;
-### Internal Changes&#13;
-- List ability items, including guaranteed starting abilities, in `items.json` for tracker support (Issues #957, #961).&#13;
-- Updated to AP 0.6.8 (Issue #933)&#13;
-&#13;
-### Additional fixes included from main&#13;
-&#13;
-- Restore packaged region discovery on Python 3.11 by using a package resource anchor.&#13;
-- Fix room-sanity generation by making each physical room check reachable from its valid compartment and restoring the missing Moonlight 2-05 lower descent (Issues #945, #969).&#13;
-- Random-per-room colors now update Kirby and the HUD when native palette transformations remain enabled during gameplay (Issue #966). Regenerate the ROM patch.&#13;
-- Allow the six guaranteed starting ability receipts and notices during the tutorial. Other items stay deferred, and Sword still requires its ability item (Issue #967).&#13;
-</content>
-    <link href="https://github.com/hasherwi/Archipelago-kirbyam/releases/tag/kirbyam-v0.4.1"/>
-  </entry>
-  <entry>
-    <id>https://github.com/brodieberger/MMZero3Archipelago/releases/tag/v0.4.1</id>
-    <title>Mega Man Zero 3 v0.4.1</title>
-    <updated>2026-10-13T01:40:36+00:00</updated>
-    <author>
-      <name>Stingrays110</name>
-    </author>
-    <content>Fix for 0.4.0. The cut down enemy sprites now only happen when the enemy randomizer is on.&#13;
-&#13;
-You will have to generate a new multiworld for this patch. Sorry!&#13;
-&#13;
-[Full Readme here](https://github.com/brodieberger/MMZero3Archipelago)&#13;
-[Link to poptracker pack here](https://github.com/ambibii/mmz3-poptracker/releases/latest)&#13;
-&#13;
-</content>
-    <link href="https://github.com/brodieberger/MMZero3Archipelago/releases/tag/v0.4.1"/>
-  </entry>
-  <entry>
-    <id>https://github.com/Taoshix/Archipelago-RaC3/releases/tag/v0.6.1</id>
-    <title>Ratchet &amp; Clank 3 v0.6.1.post2</title>
-    <updated>2026-10-13T05:00:50+00:00</updated>
-    <author>
-      <name>Taoshi</name>
-    </author>
-    <author>
-      <name>1theory</name>
-    </author>
-    <author>
-      <name>AmondoVagyok</name>
-    </author>
-    <author>
-      <name>Myth197</name>
-    </author>
-    <author>
-      <name>Yuxia228</name>
-    </author>
-    <content>## RaC3 APWorld v0.6.1&#13;
-&#13;
-**Branch:** staging  &#13;
-**Date:** 2026-10-13 06:02 UTC&#13;
-&#13;
-&lt;details&gt;&#13;
-&lt;summary&gt;&lt;strong&gt;📜 Summary (588 changes since v0.6.0)&lt;/strong&gt;&lt;/summary&gt;&#13;
-&#13;
-- RAC3: Remove deprecated UT handling (afaa6ffd6)&#13;
-- RAC3: Place all fixed items prior to counting required amount of filler needed. (210efaba4)&#13;
-- RAC3: Fix hideout taxi skip logic (f8ac68594)&#13;
-- RAC3: Fix jackpot not working on x1 multiplier (686e2ca8b)&#13;
-- RAC3: Add generation behavior option to the option struct (fae0f2b34)&#13;
-- RAC3: Fix Speedups yaml description confusion (f2c5831c7)&#13;
-- RAC3: Add generation behavior to slot data (369f3bd23)&#13;
-- RAC3: fix starting item generation and UT support (2a057d369)&#13;
-- RAC3: Refactor functions to match generation order (af6463f6f)&#13;
-- RAC3: Add Errorless Generation Option (a08e296c0)&#13;
-- RAC3: Fix some linting warning (b35ad96c8)&#13;
-- RAC3: Bit Read/Write cleanup (88340f02c)&#13;
-- RAC3: Prevent out of logic weapon levelling (3b16802a1)&#13;
-- RAC3: naming cleanup (d7b34a210)&#13;
-- RAC3: Reword weapon level location skip comment (4a4fff2a5)&#13;
-- RAC3: Remove staged read helpers and make read functions read from cache before memory (3fb645d23)&#13;
-- RAC3: Use a better address for master plan location (8d6e4a082)&#13;
-- RAC3: Fix weapon level ups not accumulating from offline fillers (bd9aab347)&#13;
-- RAC3: Fix generic option group name (01b02ab05)&#13;
-- RAC3: Add more helpers to check write cache before memory (348f4933b)&#13;
-- RAC3: Fix collect locations (a5531b306)&#13;
-- RAC3: Fix update equip breaking due to batch write (91623a40c)&#13;
-- RAC3: fix batch writer not working (4fde34f55)&#13;
-- RAC3: Add squared distance to moby function (ff3c17f25)&#13;
-- RAC3: Variable client update rate command (ca73ae593)&#13;
-- RAC3: General Batching Overhaul (528a6f25d)&#13;
-- RAC3: Fix weapon mods not getting taken away (590043da8)&#13;
-- RAC3: Convert more stuff to batch writing (5c4eca9cd)&#13;
-- RAC3: Adding missing batch write to messagebox (811baefa1)&#13;
-- RAC3: convert some writes to batch writes (c06eac8bd)&#13;
-- RAC3: Fix not enough locations post generation due to UT failing (dea832ae3)&#13;
-- RAC3: Prevent duplicate mod items to ruin the unlock status value (910ca75c5)&#13;
-- RAC3: add SKIP address CHECKTYPE (1bde35f90)&#13;
-- RAC3: address convert cleanup (b83b4c789)&#13;
-- RAC3: one hp challenge property cleanup (d881ef5e7)&#13;
-- RAC3: float typing (020e96f58)&#13;
-- RAC3: Weapon Mod and Item Unlock Clean-up (02c1f83ae)&#13;
-- RAC3: Fix slot data checks (28668f50a)&#13;
-- RAC3: Formatting and Spelling (e3326adb5)&#13;
-- RAC3: Fix duplicate warning for vid comic health upgrades (8a29b9263)&#13;
-- RAC3: remove accents from code cave too (4795061d9)&#13;
-- RAC3: Refactor pause state to game state (ce04178f2)&#13;
-- RAC3: Remove unlock delay (7972b98d4)&#13;
-- RAC3: Remove wrench replacement if not unlocked (eeab2f7a4)&#13;
-- RAC3: Clarify weapon mods yasml option description (43a45a7e9)&#13;
-- RAC3: Mention weapon mods as a large item contributor (35080efad)&#13;
-- RAC3: Add weapon mods as AP items (b9c923499)&#13;
-- RAC3: Update comment and default values for weapon_level_options (ba1cd9c24)&#13;
-- RAC3: Rework weapon_level_options into OptionSet (1eb4cbc0b)&#13;
-- RAC3: Update pypine (f30d933c6)&#13;
-- RAC3: Formatting revision on the troubleshooting section (a7f8950f3)&#13;
-- RAC3: Refer to the new custom channel in the setup guide (b0219f651)&#13;
-- RAC3: Improve death count messaging (7cd0378ce)&#13;
-- RAC3: Add death count popup messages and a command for toggling it (d620b36c7)&#13;
-- RAC3: Force staging branch for vanilla changes documentation (91683ba1b)&#13;
-- RAC3: Fix changes link in FAQ (22622c79c)&#13;
-- RAC3: Update pypine (8433991e2)&#13;
-- RAC3: Auto equip charge boots when received (424fccd54)&#13;
-- RAC3: Reword the description for NGPlusStart (0ecbca0c7)&#13;
-- RAC3: Add more RAC5 versions to other ratchets (f678a6929)&#13;
-- RAC3: Add batch reads and writes to cycle benchmark stats (277f0acc8)&#13;
-- RAC3: Get rid of old pcsx2_interface (fdef65bc5)&#13;
-- RAC3: Add pypine as a submodule (d4f28ca34)&#13;
-- RAC3: Fix code cave start overlapping with something used on boot (67ed48337)&#13;
-- RAC3: JP: Fix address translation for progress flags (829fada6c)&#13;
-- RAC3: Rename skip_wait_save to skip_save_cooldown (76bc953f7)&#13;
-- RAC3: Make location checking skip the save wait time (f02d4a077)&#13;
-- RAC3: Make write vendor inventory use batching (1c1006ea6)&#13;
-- RAC3: Add batch functions to interfaces (8563d4240)&#13;
-- RAC3: Update pypine (a848b2f0f)&#13;
-- RAC3: add missing apostrophe (f5520ff1f)&#13;
-- RAC3: Change save cooldown to 1 minute instead of 3 seconds (1bf3fe1f3)&#13;
-- RAC3: Limit server side saving to once every 3 seconds (0878b0766)&#13;
-- RAC3: Make cycle update logging only appear if dev build (06ff04ea7)&#13;
-- RAC3: Fix load_level dev command not working properly with regions with spaces (104dd17a0)&#13;
-- RAC3: Remove the 255 cap on stored fillers (25a1f4af5)&#13;
-- RAC3: Move RYNO handling to rac3_interface.py (4a5e9a1b6)&#13;
-- RAC3: Update invalid planet homewarp check (e807e3f5a)&#13;
-- RAC3: Fix server saves (83c214ed7)&#13;
-- RAC3: Fix /ryno command (9a01e81d9)&#13;
-- RAC3: Fix Ship teleport on JP, fix server side save loading and fix assertion errors for PDA vendor distance (358913c4d)&#13;
-- RAC3: Add weapon level to save data (b509e61ab)&#13;
-- RAC3: Fix weapon level and exp getting reset when it shouldnt (5a81d3777)&#13;
-- RAC3: Formatting (936e8ad75)&#13;
-- RAC3: Add missing option to rac3 interface (25d3bb424)&#13;
-- RAC3: Add vid comic health upgrade locations and bonus health upgrade items (1d3883a68)&#13;
-- RAC3: Dont include Galaxy Burger if rangers missions are off (f3941f01c)&#13;
-- RAC3: Search for ratchet moby pointer if it is missing (f97410ab0)&#13;
-- RAC3: Add TODO about refractor skip (d1dcfd326)&#13;
-- RAC3: Adjust Aridia Mission 3 logic for long range weapons (a3b399e4f)&#13;
-- RAC3: Also force xp and level back to V1 for locked weapons (973aec734)&#13;
-- RAC3: Fix grammar (e1bd1852e)&#13;
-- RAC3: Explain why some refractor doors dont open with refractor skip (c4d1143cd)&#13;
-- RAC3: Fix typo in NGPlusItems (836d7a4aa)\n- ...and 388 more commits.&#13;
-&#13;
-&lt;/details&gt;&#13;
-&#13;
-**Full changelog and compare**: https://github.com/Taoshix/Archipelago-RaC3/compare/v0.6.0...v0.6.1&#13;
-&#13;
-### [Setup Guide](https://github.com/Taoshix/Archipelago-RaC3/blob/staging/worlds/rac3/docs/setup_en.md)&#13;
-&#13;
-### Notes&#13;
-This release was automatically generated from the **staging** branch.  &#13;
-Latest (main) releases are recommended, as pre-releases (staging) may contain experimental or in-progress changes.&#13;
-&#13;
-### If a location is broken and does not get sent out&#13;
-Go to the server console (locally or via the Archipelago room page) and run:  &#13;
-`/send_location &lt;player_name&gt; &lt;location&gt;` Example: `/send_location TaoshiRaC3 "Crash Site: Infobot: Aridia"`&#13;
-</content>
-    <link href="https://github.com/Taoshix/Archipelago-RaC3/releases/tag/v0.6.1"/>
-  </entry>
   <entry>
     <id>https://github.com/Kryen112/Viscera-Cleanup-Detail-AP/releases/tag/1.2.1</id>
     <title>Viscera Cleanup Detail v1.2.1</title>
@@ -794,6 +541,34 @@ No</content>
     <link href="https://github.com/BlastSlimey/PokemonBWAP/releases/tag/0.4.0"/>
   </entry>
   <entry>
+    <id>https://github.com/BlastSlimey/PokemonBWAP/releases/tag/0.4.1</id>
+    <title>Pokemon Black and White v0.4.1</title>
+    <updated>2026-10-13T16:00:43+00:00</updated>
+    <author>
+      <name>BlastSlimey</name>
+    </author>
+    <content>## Changelog&#13;
+&#13;
+- Fixed equal minimum and maximum for catch rates rando failing generation&#13;
+- Fixed recursion errors with extended hints if `Consider trades` or `Consider evolutions` is included&#13;
+- Fixed a too restricted wild rando species pool not erroring as `OptionErrors`&#13;
+- Fixed bad content of the Dexsanitysanity options' location groups if that plugin is not installed&#13;
+- Fixed the `pokemon_master` goal not being shown in the Options Creator and in template yamls&#13;
+- Made `Stats Plando` error when more than 22 levelup moves are plando'd into a single species&#13;
+- Improved strictness of the `Follow evolutions` and `Force evolutions` modifiers in types rando&#13;
+- Fixed some evolved pokémon not getting any randomized levelup moves under certain circumstances&#13;
+- Fixed non-custom forms having empty randomized levelup and TM/HM movesets&#13;
+- Expanded all modifier-based options and combined goals&#13;
+  - Nested lists to pick a random value from&#13;
+  - `null` value to not pick a value inside a nested list&#13;
+  - Comma-separated strings for picking multiple values at once&#13;
+&#13;
+### Is this version compatible with older multiworld slots and save files?&#13;
+Yes, back to 0.4.0&#13;
+However, UT might be inaccurate in tracking worlds generated before this version</content>
+    <link href="https://github.com/BlastSlimey/PokemonBWAP/releases/tag/0.4.1"/>
+  </entry>
+  <entry>
     <id>https://github.com/Simsipelago/Archipelago/releases/tag/2.1.0-beta1</id>
     <title>The Sims 4 v2.0.99</title>
     <updated>2026-10-13T16:51:27+00:00</updated>
@@ -810,13 +585,30 @@ Please do report bugs and things, as we are confident that this new architecture
   </entry>
   <entry>
     <id>https://github.com/RoboRyGuy/Archipelago-GTFO/releases/tag/0.1.1</id>
-    <title>GTFO v0.0.4r2</title>
+    <title>GTFO v0.0.4r3</title>
     <updated>2026-10-13T17:12:44+00:00</updated>
     <author>
       <name>RoboRyGuy</name>
     </author>
     <content>Hotfix for version 0.1.0. Fixed the `RundownTierRandom` progressive ordering option.</content>
     <link href="https://github.com/RoboRyGuy/Archipelago-GTFO/releases/tag/0.1.1"/>
+  </entry>
+  <entry>
+    <id>https://github.com/spinerak/refunct-tas-archipelago/releases/tag/v1.8.0b</id>
+    <title>Refunct v1.8.0b0</title>
+    <updated>2026-10-13T19:19:14+00:00</updated>
+    <author>
+      <name>Spineraks</name>
+    </author>
+    <content>⚠️ Same apworld and yaml as 1.8.0, this is a small mod update &amp; upgrade only ⚠️ &#13;
+- Added nametags in multiplayer! (you can turn them off/on in settings) @nielrenned&#13;
+- Remove multiplayer collision near the spawn to avoid getting stuck @nielrenned&#13;
+- Fix mod launch issue if somehow Refunct has multiple processes in Windows @nepcore&#13;
+&#13;
+- &lt;sub&gt; I changed the version number from v1.8.0a to v1.8.0b which might not sound like much and it indeed is not much @spinerak &#13;
+&#13;
+&lt;3</content>
+    <link href="https://github.com/spinerak/refunct-tas-archipelago/releases/tag/v1.8.0b"/>
   </entry>
   <entry>
     <id>https://github.com/jamesbrq/ArchipelagoTTYD/releases/tag/v0.14.1</id>
@@ -921,7 +713,7 @@ This revision:&#13;
   </entry>
   <entry>
     <id>https://github.com/ArchipelagoBrad/deadlockipelago/releases/tag/1.2.0-H4</id>
-    <title>Deadlock v1.2.0r2</title>
+    <title>Deadlock v1.2.0r3</title>
     <updated>2026-10-14T07:02:34+00:00</updated>
     <author>
       <name>ArchipelagoBrad</name>
@@ -1553,7 +1345,7 @@ https://github.com/PhoenixAki/PhoenixAP/compare/AHT-v2.2.1...AHT-v2.2.2</content
   </entry>
   <entry>
     <id>https://github.com/Az-LastPenguin/LORAP/releases/tag/v1.0.0-eta.3</id>
-    <title>Library of Ruina v1.0.0r2</title>
+    <title>Library of Ruina v1.0.0r3</title>
     <updated>2026-10-16T11:14:39+00:00</updated>
     <author>
       <name>LastPenguin</name>
@@ -1597,7 +1389,7 @@ https://github.com/PhoenixAki/PhoenixAP/compare/AHT-v2.2.1...AHT-v2.2.2</content
   </entry>
   <entry>
     <id>https://github.com/CATEM1NAL/PD2-Criminal-Dawn/releases/tag/v1.0.13</id>
-    <title>PAYDAY 2: Criminal Dawn v1.0.4r2</title>
+    <title>PAYDAY 2: Criminal Dawn v1.0.4r4</title>
     <updated>2026-10-16T17:49:45+00:00</updated>
     <author>
       <name>C@:\EM1NAL\</name>
@@ -1749,5 +1541,108 @@ You can consider this implementation out of beta, as the APWorld has also proven
 - Give a received relic directly to the player if they're doing a run, also give a received key fragment if the player is on Scholar Sanctum.&#13;
 - Added a launcher icon for the client!</content>
     <link href="https://github.com/Mitchell1711/Archipelago/releases/tag/v1.0.0"/>
+  </entry>
+  <entry>
+    <id>https://github.com/Ishigh1/Oracle-of-Seasons-apworld/releases/tag/oos-25.0.6</id>
+    <title>The Legend of Zelda - Oracle of Seasons v25.0.6</title>
+    <updated>2026-10-16T19:42:07+00:00</updated>
+    <author>
+      <name>Dinopony</name>
+    </author>
+    <author>
+      <name>Ishigh</name>
+    </author>
+    <content>## 🗳️ New Options&#13;
+- The master_keys option has been renamed to dungeon_key_type, and now includes an option to use unlocks: a new kind of item that immediately opens a specific door on obtention&#13;
+- Freestanding items can now be removed from the randomizable item pool&#13;
+- The trade sequence can also separately be removed, excluding the pedestal&#13;
+&#13;
+## ⏫ Miscellaneous Improvements&#13;
+- Made Blaino reequip items after the match&#13;
+  - It is also no longer possible to open the ring menu during the match&#13;
+&#13;
+## 🧠 Logic&#13;
+- Added the jump between market and forge with just a feather and pegs in hard&#13;
+- Added the use of bombchus to destroy bushes and flower in a few different places&#13;
+&#13;
+## 🛠️ Bugfixes&#13;
+- Fixed D2's boss room having holes if Digdogger was the boss&#13;
+- Fixed Gleeok freezing when being beaten in D3</content>
+    <link href="https://github.com/Ishigh1/Oracle-of-Seasons-apworld/releases/tag/oos-25.0.6"/>
+  </entry>
+  <entry>
+    <id>https://github.com/TylerJG92/Archipelago-WOL-SOL/releases/tag/v0.3.2a</id>
+    <title>West of Loathing v0.3.2a0</title>
+    <updated>2026-10-16T20:48:44+00:00</updated>
+    <author>
+      <name>Xylen</name>
+    </author>
+    <author>
+      <name>TylerJG92</name>
+    </author>
+    <content># APWorld Changes&#13;
+* Added forgotten `player` arg to `state.can_reach_region("Map Region D", player)` for medical container checks logic&#13;
+* Added Redundant `state.can_reach_location("Ghostwood Town Hall - Issued Permit", player)` to `get_location("Ghostwood Town Hall - Issued ID")` </content>
+    <link href="https://github.com/TylerJG92/Archipelago-WOL-SOL/releases/tag/v0.3.2a"/>
+  </entry>
+  <entry>
+    <id>https://github.com/PhantomOfAres/ArchipelagoRimworld/releases/tag/v1.0.0-release</id>
+    <title>Rimworld v1.0.0.post0</title>
+    <updated>2026-10-16T22:41:08+00:00</updated>
+    <author>
+      <name>PhantomOfAres</name>
+    </author>
+    <content>### Features&#13;
+&#13;
+More raid/negative filler variety - "raid traps" should now choose any "big threat," so can include things like infestations, mech drops, or animal insanity. Normal negative filler also has a chance for any negative event, including diseases and the like.&#13;
+Trade locations now have fake logic, so they aren't all in-logic at once.&#13;
+Quest locations have been added. Like raids and trade locations, completing a quest with an item for a reward will include a quest location item.&#13;
+Implemented deathlink - If a player on the server dies, it will cause a negative, stacking thought in all colonists. If a colonist dies, it will send a deathlink to the server.&#13;
+&#13;
+### Bugfixes&#13;
+&#13;
+Changed raid/trade locations so they can't be savescummed.&#13;
+Items sent as filler will now be sent in increments of ~200 silver, rather than (roughly) "1 full stack"&#13;
+Changed drop pod behavior to use the trading drop pod logic, so they drop closer to your base&#13;
+Location items can be stockpiled&#13;
+Blood Rain research should now grant correctly when sent from AP&#13;
+Fixed a bug where logic for raid/trade locations wasn't applying properly</content>
+    <link href="https://github.com/PhantomOfAres/ArchipelagoRimworld/releases/tag/v1.0.0-release"/>
+  </entry>
+  <entry>
+    <id>https://github.com/gerbiljames/Archipelago-Crystal/releases/tag/6.0.5</id>
+    <title>Pokemon Crystal v6.0.5</title>
+    <updated>2026-10-16T22:56:05+00:00</updated>
+    <author>
+      <name>gerbiljames</name>
+    </author>
+    <content># Changelog&#13;
+&#13;
+# Bug Fixes&#13;
+- Fix TM/HM compatibility not respecting randomized move types (thanks @sdwoodard).&#13;
+- Fix various edge cases with wonder trade, it should now be more resilient to unstable connections.&#13;
+- Fix move power randomization sometimes preventing Return, Frustration, Present, Magnitude and Hidden Power from being able to crit, as well as preventing Counter and Mirror Coat from working with them.&#13;
+- The version on the continue screen will now reflect the version of the APWorld that patched the ROM.&#13;
+- Elm will now check that you actually hatched the Mystery Egg for the Everstone. This fixes a case where you could hatch it and then reset statics, and Elm would not accept it.&#13;
+&#13;
+_This release is backwards compatible down to 6.0.0._</content>
+    <link href="https://github.com/gerbiljames/Archipelago-Crystal/releases/tag/6.0.5"/>
+  </entry>
+  <entry>
+    <id>https://github.com/ArchipelagoBrad/deadlockipelago/releases/tag/1.2.0-H5</id>
+    <title>Deadlock v1.2.0r2</title>
+    <updated>2026-10-17T01:36:10+00:00</updated>
+    <author>
+      <name>ArchipelagoBrad</name>
+    </author>
+    <content># City Never Sleeps Update&#13;
+&#13;
+Added Baba, Rat King, Solomon (The pawns move first), Deadman Danny, and Violet &#13;
+Waiting on Nurse Harrow&#13;
+&#13;
+# Bug Fixes&#13;
+- Re-implemented Urn/Rift Fix (accidentally overrode it)&#13;
+</content>
+    <link href="https://github.com/ArchipelagoBrad/deadlockipelago/releases/tag/1.2.0-H5"/>
   </entry>
 </feed>
