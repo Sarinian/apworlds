@@ -29,9 +29,4 @@ been received.
 ## Game Information
 
 ## Setup Guide
-- <a href="setup_en">English</a>
 
-## Other Documentation files
-- <a href="ai-disclosure">ai-disclosure</a>
-- <a href="overview">overview</a>
-- <a href="roadmap">roadmap</a>

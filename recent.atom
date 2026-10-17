@@ -2,35 +2,11 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://raw.githubusercontent.com/silasary/apworlds/refs/heads/main/recent.atom</id>
   <title>Recent APWorlds</title>
-  <updated>2026-10-17T14:44:55.998746+00:00</updated>
+  <updated>2026-10-17T20:02:11.369314+00:00</updated>
   <author>
     <name>Silasary</name>
   </author>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
-  <entry>
-    <id>https://github.com/barretg/Taskipelago/releases/tag/v1.2.1</id>
-    <title>Taskipelago v1.2.1</title>
-    <updated>2026-10-13T14:13:41+00:00</updated>
-    <author>
-      <name>barretg</name>
-    </author>
-    <content>## What's New&#13;
-* Regions and item groups can now be disabled via a toggle, lending to quicker editing of existing yamls. This can be an effective stand in for "yaml options" on larger yamls.&#13;
-* Subgrouping now supported for items, not just regions.&#13;
-* Items can now be set as "early" via archipelago's built-in "early_items" support&#13;
-* You can now shuffle a group's order of items without randomizing what the group includes&#13;
-* Some spreadsheet-style data entry keybinds added (Shift + Tab, Tab, Shift + Enter, Enter)&#13;
-* Region thresholds that are less than 100% are now visually indicated by a vertical line on the region's progress bar&#13;
-&#13;
-## Bug Fixes &amp; Tweaks&#13;
-* Subregions now more properly inherit from parent regions&#13;
-* Renaming a task or item now properly renames its references&#13;
-* Added a note at the top of exported YAMLs about editing via the YAML editor&#13;
-* Added a note at generation time if the YAML falls back to default goal, and a confirmation at export time about the same&#13;
-* Long tooltips can now be properly scrolled&#13;
-* Fix Default button in style section</content>
-    <link href="https://github.com/barretg/Taskipelago/releases/tag/v1.2.1"/>
-  </entry>
   <entry>
     <id>https://github.com/Ishigh1/Oracle-of-Seasons-apworld/releases/tag/oos-24.4.0</id>
     <title>The Legend of Zelda - Oracle of Seasons v24.4.0</title>
@@ -415,7 +391,7 @@ Please do report bugs and things, as we are confident that this new architecture
   </entry>
   <entry>
     <id>https://github.com/RoboRyGuy/Archipelago-GTFO/releases/tag/0.1.1</id>
-    <title>GTFO v0.0.4r3</title>
+    <title>GTFO v0.0.4r2</title>
     <updated>2026-10-13T17:12:44+00:00</updated>
     <author>
       <name>RoboRyGuy</name>
@@ -543,7 +519,7 @@ This revision:&#13;
   </entry>
   <entry>
     <id>https://github.com/ArchipelagoBrad/deadlockipelago/releases/tag/1.2.0-H4</id>
-    <title>Deadlock v1.2.0r3</title>
+    <title>Deadlock v1.2.0r2</title>
     <updated>2026-10-14T07:02:34+00:00</updated>
     <author>
       <name>ArchipelagoBrad</name>
@@ -1175,7 +1151,7 @@ https://github.com/PhoenixAki/PhoenixAP/compare/AHT-v2.2.1...AHT-v2.2.2</content
   </entry>
   <entry>
     <id>https://github.com/Az-LastPenguin/LORAP/releases/tag/v1.0.0-eta.3</id>
-    <title>Library of Ruina v1.0.0r3</title>
+    <title>Library of Ruina v1.0.0r2</title>
     <updated>2026-10-16T11:14:39+00:00</updated>
     <author>
       <name>LastPenguin</name>
@@ -1219,7 +1195,7 @@ https://github.com/PhoenixAki/PhoenixAP/compare/AHT-v2.2.1...AHT-v2.2.2</content
   </entry>
   <entry>
     <id>https://github.com/CATEM1NAL/PD2-Criminal-Dawn/releases/tag/v1.0.13</id>
-    <title>PAYDAY 2: Criminal Dawn v1.0.4r4</title>
+    <title>PAYDAY 2: Criminal Dawn v1.0.4r2</title>
     <updated>2026-10-16T17:49:45+00:00</updated>
     <author>
       <name>C@:\EM1NAL\</name>
@@ -1460,7 +1436,7 @@ _This release is backwards compatible down to 6.0.0._</content>
   </entry>
   <entry>
     <id>https://github.com/ArchipelagoBrad/deadlockipelago/releases/tag/1.2.0-H5</id>
-    <title>Deadlock v1.2.0r2</title>
+    <title>Deadlock v1.2.0r3</title>
     <updated>2026-10-17T01:36:10+00:00</updated>
     <author>
       <name>ArchipelagoBrad</name>
@@ -1562,5 +1538,32 @@ Ten places where the logic counted on a check or a passage the game blocks, foun
 - The known issues listed for 2.1.0 still apply.
 </content>
     <link href="https://github.com/4rtefakt/ys-origin-archipelago/releases/tag/v2.1.1"/>
+  </entry>
+  <entry>
+    <id>https://github.com/Intaiachi/ArchipelagoDOS2/releases/tag/v0.9.1</id>
+    <title>Divinity Original Sin 2 v0.9.1</title>
+    <updated>2026-10-17T18:58:44+00:00</updated>
+    <author>
+      <name>Intaiachi</name>
+    </author>
+    <author>
+      <name>chaotic</name>
+    </author>
+    <author>
+      <name>JeyKey09</name>
+    </author>
+    <content>Changes/Bugfixes:&#13;
+- Fort Joy Ghetto guards will no longer send you to prison if you don't have Fort Joy access&#13;
+- Act keys and the Level Teleport will no longer be stuck in a chest should your inventory be confiscated&#13;
+- Several barriers around Fort Joy have been improved&#13;
+- Fixed being able to teleport to The Hollow Marshes early through the drawbridge&#13;
+- Fixed typo (Driftwood: Bsaket (419, 789))&#13;
+- Fixed two crates in Fort Joy coming into logic too early&#13;
+&#13;
+About [here](https://github.com/Intaiachi/ArchipelagoDOS2/blob/main/worlds/dos2/docs/en_Divinty%20Original%20Sin%202.md)&#13;
+Setup Guide [here](https://github.com/Intaiachi/ArchipelagoDOS2/blob/main/worlds/dos2/docs/steup_en.md)&#13;
+&#13;
+DOS2 mod pak file [Github](https://github.com/Intaiachi/DOS2-Archipelago-Mod/releases), [Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=3741893354)</content>
+    <link href="https://github.com/Intaiachi/ArchipelagoDOS2/releases/tag/v0.9.1"/>
   </entry>
 </feed>
