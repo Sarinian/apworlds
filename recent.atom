@@ -2,66 +2,11 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://raw.githubusercontent.com/silasary/apworlds/refs/heads/main/recent.atom</id>
   <title>Recent APWorlds</title>
-  <updated>2026-10-19T18:11:05.781605+00:00</updated>
+  <updated>2026-10-19T22:02:23.775300+00:00</updated>
   <author>
     <name>Silasary</name>
   </author>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
-  <entry>
-    <id>https://github.com/Heinki/Mental-Omega-Randomizer/releases/tag/V1.43</id>
-    <title>Mental Omega v0.6.7</title>
-    <updated>2026-10-15T19:58:48+00:00</updated>
-    <author>
-      <name>Mental Omega Randomizer contributors</name>
-    </author>
-    <content>- Fix Great Tempest damage&#13;
-- Fix harvesters loosing buffs&#13;
-- Fix Coop Shopmode not starting&#13;
-- Fix Powerhouse with invincible unit types&#13;
-- Fix gear change in stormbringer&#13;
-- Fix crane bug not repairing cloned units&#13;
-- Fix Hunter seeker&#13;
-- Adjust hover units for you shall not build modifier in shop mode&#13;
-- Fix Gridlock Rapid fire nuke when enemy gets superweapon&#13;
-- Add Archipelago Webtracker&#13;
-- Adjust Gem Dividend, gives gems according to 5ore in reserve for easy farming at the end of a run and endless runs</content>
-    <link href="https://github.com/Heinki/Mental-Omega-Randomizer/releases/tag/V1.43"/>
-  </entry>
-  <entry>
-    <id>https://github.com/NikolajDanger/APSly2/releases/tag/v1.1.1</id>
-    <title>Sly 2: Band of Thieves v1.1.1</title>
-    <updated>2026-10-15T20:07:53+00:00</updated>
-    <author>
-      <name>NikolajDanger</name>
-    </author>
-    <content>Sly 2 Archipelago implementation. For setup instructions, check out the [README](https://github.com/NikolajDanger/APSly2/blob/main/README.md).&#13;
-&#13;
-## Changes&#13;
-### Features&#13;
-- ThiefNet looks super cool now! Items have icons and colored text based on their item class. These can be changed or turned off with the new `/thiefnet_theme` and `/thiefnet_text` commands, and your choice is saved in the game.&#13;
-- The notification bar now also shows up in non-hub areas.&#13;
-- Receiving a DeathLink now plays an actual death animation, with a random type of death.&#13;
-- Receiving coins plays the coin sound, and the Noise trap now sounds an alarm.&#13;
-- Randomized pickpocket loot from other episodes is no longer invisible.&#13;
-- Pressing Start on the title screen is disabled, preventing accidental loading of the wrong save.&#13;
-- The spoiler log now includes the slot name and any options that were changed by `permissive_yaml`.&#13;
-&#13;
-### Bug fixes and improvements&#13;
-- Slightly better looking tracker maps.&#13;
-- More optimized PCSX2 communication (batching, caching, faster bulk transfers).&#13;
-- Fixed a crash when a Slow-mo or Sugar Rush trap ended during a pickpocket.&#13;
-- Fixed the notification bar sometimes getting stuck on screen. For real this time!!&#13;
-- Fixed Mega Jump getting unbound from Sly's buttons.&#13;
-- The Mega Jump pack in episode 8 no longer shows up or blocks treasures from being picked up. This was technically a softlock possibility that no one has ever run into.&#13;
-- Fixed a vanilla bug where finished jobs could be started again (the sawmill bug).&#13;
-- The vault marker now only shows up when the vault is actually available.&#13;
-- Fixed ThiefNet sometimes not updating after loading into a level.&#13;
-- Fixed guards keeping their vanilla pickpocket loot if they spawned before the client connected. I've lost count of how many times I've fixed this one.&#13;
-- Fixed the goal operations in the tracker map.&#13;
-- Connecting the client while the game is still booting no longer breaks the boot.&#13;
-- Removed the `/trace` command. When PCSX2 crashes, the client now logs crash info by itself.</content>
-    <link href="https://github.com/NikolajDanger/APSly2/releases/tag/v1.1.1"/>
-  </entry>
   <entry>
     <id>https://github.com/threeandthreee/Archipelago/releases/tag/13.5.0</id>
     <title>Links Awakening DX Beta v13.4.6r2</title>
@@ -416,7 +361,7 @@ https://github.com/PhoenixAki/PhoenixAP/compare/AHT-v2.2.1...AHT-v2.2.2</content
   </entry>
   <entry>
     <id>https://github.com/Az-LastPenguin/LORAP/releases/tag/v1.0.0-eta.3</id>
-    <title>Library of Ruina v1.0.0r3</title>
+    <title>Library of Ruina v1.0.0r2</title>
     <updated>2026-10-16T11:14:39+00:00</updated>
     <author>
       <name>LastPenguin</name>
@@ -460,7 +405,7 @@ https://github.com/PhoenixAki/PhoenixAP/compare/AHT-v2.2.1...AHT-v2.2.2</content
   </entry>
   <entry>
     <id>https://github.com/CATEM1NAL/PD2-Criminal-Dawn/releases/tag/v1.0.13</id>
-    <title>PAYDAY 2: Criminal Dawn v1.0.4r4</title>
+    <title>PAYDAY 2: Criminal Dawn v1.0.4r2</title>
     <updated>2026-10-16T17:49:45+00:00</updated>
     <author>
       <name>C@:\EM1NAL\</name>
@@ -729,7 +674,7 @@ _This release is backwards compatible down to 6.0.0._</content>
   </entry>
   <entry>
     <id>https://github.com/ArchipelagoBrad/deadlockipelago/releases/tag/1.2.0-H5</id>
-    <title>Deadlock v1.2.0r2</title>
+    <title>Deadlock v1.2.0r3</title>
     <updated>2026-10-17T01:36:10+00:00</updated>
     <author>
       <name>ArchipelagoBrad</name>
@@ -1030,7 +975,7 @@ This will almost certainly break any worlds generated prior to this update. Plea
   </entry>
   <entry>
     <id>https://github.com/VincentBorchardt/Civ4-Archipelago-Mod/releases/tag/Alpha_0_3</id>
-    <title>Civilization IV v0.0.1r3</title>
+    <title>Civilization IV v0.0.1r2</title>
     <updated>2026-10-18T06:04:27+00:00</updated>
     <author>
       <name>VincentSIFTD</name>
@@ -1683,5 +1628,55 @@ Fixed hint message having an extra space&#13;
 Added "Please Wait..." message in-between clicking free mark and getting server confirmation&#13;
 </content>
     <link href="https://github.com/Arenes214/APWorld-Tombola/releases/tag/0.4-RC-h1"/>
+  </entry>
+  <entry>
+    <id>https://github.com/CazIsABoi/Archipelago/releases/tag/0.2.7.3</id>
+    <title>plateup v0.2.7.3</title>
+    <updated>2026-10-19T19:41:41+00:00</updated>
+    <author>
+      <name>CazIsABoi</name>
+    </author>
+    <content>## What's New?&#13;
+&#13;
+Fixed Universal Tracker showing the wrong recipes, the tracker now uses the exact dishes and starting dishes your seed generated with, instead of picking a new random set each time it launched. Your tracker's dish checks and logic now match what's actually available in game (thanks to daniel_hlfrd for tracking this down)&#13;
+Fixed `random` yaml options rolling again on the tracker, options are now restored from the generated seed, so the tracker always reflects the settings you actually got&#13;
+&#13;
+## Notes&#13;
+&#13;
+Existing seeds work with the new apworld for tracking, no need to regenerate. Seeds made before this update may still show the wrong recipes if your yaml randomizes the dish count&#13;
+[Mod Version 0.2.7.3](https://github.com/CazIsABoi/PlateUpAPMod/releases/tag/0.2.7.3)&#13;
+</content>
+    <link href="https://github.com/CazIsABoi/Archipelago/releases/tag/0.2.7.3"/>
+  </entry>
+  <entry>
+    <id>https://github.com/icebound777/PMR_APWorld/releases/tag/0.6.8</id>
+    <title>Paper Mario v0.6.8</title>
+    <updated>2026-10-19T20:02:05+00:00</updated>
+    <author>
+      <name>icebound777</name>
+    </author>
+    <content>## Changes to existing features&#13;
+&#13;
+* Death Link&#13;
+  * Since the option is not actually implemented yet, it has now been removed from the options list. This should no longer show the option in generated YAML files.&#13;
+&#13;
+## Bugfixes/Corrections&#13;
+&#13;
+* Fix consumable items in the Dry Dry Outpost shop not being considered logical progression, even if they are required for beating the seed. This only manifested in seeds failing to generate when setting `RandomPuzzles` to `True` and `ConsumableItemPool` to `mystery_only`.&#13;
+* Fix logic sometimes considering some Rowf, Koopa Koot, and Dojo locations as excluded, even if 5 or more star spirits were required to beat the seed. This would happen if the number of spirits needed to open Star Way was below 5, but the number of spirits required for the Star Beam item location was 5 or higher.&#13;
+&#13;
+## Other&#13;
+&#13;
+* Migrate logic to AP's RuleBuilder system&#13;
+  * This change aims to make maintaining and understanding the logic easier.&#13;
+* Manifest&#13;
+  * Add `"minimum_ap_version": "0.6.7"` to the manifest, as Archipelago version 0.6.7 or newer is required for the newly added Rule Builder system&#13;
+* AI usage disclaimer&#13;
+  * Add an AI usage disclaimer block to the README file.&#13;
+* More tracker data&#13;
+  * Add the following slot data for trackers to read:&#13;
+    * `kent_c_koopa` option value&#13;
+    * `bowser_door_quiz` option value</content>
+    <link href="https://github.com/icebound777/PMR_APWorld/releases/tag/0.6.8"/>
   </entry>
 </feed>
