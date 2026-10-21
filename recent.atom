@@ -2,166 +2,11 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://raw.githubusercontent.com/silasary/apworlds/refs/heads/main/recent.atom</id>
   <title>Recent APWorlds</title>
-  <updated>2026-10-21T16:28:12.819828+00:00</updated>
+  <updated>2026-10-21T21:13:20.978533+00:00</updated>
   <author>
     <name>Silasary</name>
   </author>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
-  <entry>
-    <id>https://github.com/ArchipelagoBrad/deadlockipelago/releases/tag/1.2.0-H5</id>
-    <title>Deadlock v1.2.0r2</title>
-    <updated>2026-10-17T01:36:10+00:00</updated>
-    <author>
-      <name>ArchipelagoBrad</name>
-    </author>
-    <content># City Never Sleeps Update&#13;
-&#13;
-Added Baba, Rat King, Solomon (The pawns move first), Deadman Danny, and Violet &#13;
-Waiting on Nurse Harrow&#13;
-&#13;
-# Bug Fixes&#13;
-- Re-implemented Urn/Rift Fix (accidentally overrode it)&#13;
-</content>
-    <link href="https://github.com/ArchipelagoBrad/deadlockipelago/releases/tag/1.2.0-H5"/>
-  </entry>
-  <entry>
-    <id>https://github.com/DotsofdarknessArchipelago/Spirit-Valley-Archipelago/releases/tag/V2.1.1</id>
-    <title>Spirit Valley v2.1.1</title>
-    <updated>2026-10-17T05:09:12+00:00</updated>
-    <author>
-      <name>Dotsofdarkness</name>
-    </author>
-    <content>- (APWorld) added warning in description of randomise_map YMAL option saying that generation will likely fail&#13;
-- (Client) made adding affection(either by item or through minigame) to a spirit send all obtained affection level locations for that spirit&#13;
-- (Client) made attempting to give a max affection spirit an affection item send all affection level locations &#13;
-&#13;
-&#13;
-V2.1.0 changelog&#13;
-- (APWorld) Redid rules to use Rule Builder allowing for "/explain" to be used in UT&#13;
-- (APworld) Fixed main/side mission battles being in logic when the associated mission isn't&#13;
-- (Client) fixed sending goal locations when server has client release disabled&#13;
-&#13;
-&#13;
-INSTALLATION INSTRUCTIONS:&#13;
-&#13;
-CLIENT:&#13;
-- Have Spirit Valley Installed&#13;
-- Download Spirit Valley Archipelago plugin (See Releases for latest version)&#13;
-- Extract and copy the contents of "Spirit Valley Archipelago Client V#.#.#.zip" to the directory where "SpiritValley.exe" is&#13;
-&#13;
-APWORLD (needed for generating archieplago game):&#13;
-- Have Archipelago Launcher Installed (latest release found here: https://github.com/ArchipelagoMW/Archipelago/releases/latest )&#13;
-- Download Spirit Valley APWorld (See Releases for latest version)&#13;
-- Select "Install APWorld" in launcher and select Spirit Valley APWorld you downloaded&#13;
-- Restart launcher for APWorld to properly install&#13;
-- (Optional but Recommended)Select "Generate Template Options" to generate default spirit valley YMAL</content>
-    <link href="https://github.com/DotsofdarknessArchipelago/Spirit-Valley-Archipelago/releases/tag/V2.1.1"/>
-  </entry>
-  <entry>
-    <id>https://github.com/aurabot24/Archipelago-ALttPR/releases/tag/v1.7.0</id>
-    <title>The Legend of Zelda: A Link to the Past v1.7.0</title>
-    <updated>2026-10-17T06:37:26+00:00</updated>
-    <author>
-      <name>aurabot</name>
-    </author>
-    <content>* New sprites for AP items&#13;
-* New entrance option Linked Drops can decouple dropdowns from their usual exits&#13;
-* Zelgawoods has been renamed to Shuffle Skull Woods (old YAMLs will still work). With crossed entrance + shuffle skull woods + no linked drops, all Skull Woods dropdowns are randomized and could appear outside the Skull Woods area&#13;
-* New door type shuffle options to include one-way trap doors, and to slightly randomize the number of each type of door&#13;
-* New option Pseudolamp gives a light cone without needing the Lamp&#13;
-* New option to load Link's sprite from a player's local .zspr file&#13;
-* Receiving a crystal with prize shuffle now says "You acquired" instead of "You picked up"&#13;
-* Some logic changes from the newest OWR version:&#13;
-  * Bunny walking through the top of Paradox Cave is now in logic (previously the Moon Pearl was required)&#13;
-  * Bunny walking through Death Mountain Descent is now in logic, unless playing with Inverted and without crossed entrance shuffle&#13;
-* Fixed quickswap not being in the correct category in the option creator</content>
-    <link href="https://github.com/aurabot24/Archipelago-ALttPR/releases/tag/v1.7.0"/>
-  </entry>
-  <entry>
-    <id>https://github.com/4rtefakt/ys-origin-archipelago/releases/tag/v2.1.1</id>
-    <title>Ys Origin v2.1.1</title>
-    <updated>2026-10-17T10:52:17+00:00</updated>
-    <author>
-      <name>4rtefakt</name>
-    </author>
-    <content>A patch release: the 3F barrier fix from a Hugo player's report, and a logic audit against the game's room scripts. Requires **Archipelago 0.6.7 or newer**.
-
-&gt; **Take all three files, and take them together.** Seeds generated with 2.1.0 stay playable with the new dll.
-
-## 🛠️ Mod fix
-
-- **The 3F Transfer Room now always sends you to 4F first.** Its barrier teleports Yunica and Hugo to 4F unless the Blue Necklace is worn, and that teleport is the only way into the 4F rooms. A seed can hand you the necklace early, and walking in wearing it broke the barrier for good, so 4F was out of reach. Until you have been to 4F, the barrier now ignores the necklace.
-- **Saves already stuck this way are repaired.** If you broke the barrier before ever reaching 4F, it comes back the next time you are in a room next to it. Walk into it to be teleported to 4F, then come back with the necklace on to break it again.
-
-## 🗺️ Logic
-
-Ten places where the logic counted on a check or a passage the game blocks, found by checking every room against its scripts:
-- six room gates, including the 6F room (wind in, dash out), the 8F dive and the 24F bridge's way back;
-- four story checks, including Yunica's Black Pearl, which now waits for her 19F event;
-- the 2F Gemma Room's two checks are Yunica's and Hugo's only (Toal cannot enter it).
-
-## ⚠️ What was and was not played
-
-- The barrier fix was loaded in the retail game and its check was exercised in memory for each case. The room itself was not played through.
-- The logic changes passed AP's integration check, 60 random seeds and 8 three-player seeds.
-
-## 🐞 Known issues
-
-- **Rado's Annex and story order** (from 2.1.0) is still not fixed in this dll. Hugo and Yunica can be turned around at the Rado Tower bridge by story flags from higher floors.
-- The known issues listed for 2.1.0 still apply.
-</content>
-    <link href="https://github.com/4rtefakt/ys-origin-archipelago/releases/tag/v2.1.1"/>
-  </entry>
-  <entry>
-    <id>https://github.com/Intaiachi/ArchipelagoDOS2/releases/tag/v0.9.1</id>
-    <title>Divinity Original Sin 2 v0.9.1</title>
-    <updated>2026-10-17T18:58:44+00:00</updated>
-    <author>
-      <name>Intaiachi</name>
-    </author>
-    <author>
-      <name>chaotic</name>
-    </author>
-    <author>
-      <name>JeyKey09</name>
-    </author>
-    <content>Changes/Bugfixes:&#13;
-- Fort Joy Ghetto guards will no longer send you to prison if you don't have Fort Joy access&#13;
-- Act keys and the Level Teleport will no longer be stuck in a chest should your inventory be confiscated&#13;
-- Several barriers around Fort Joy have been improved&#13;
-- Fixed being able to teleport to The Hollow Marshes early through the drawbridge&#13;
-- Fixed typo (Driftwood: Bsaket (419, 789))&#13;
-- Fixed two crates in Fort Joy coming into logic too early&#13;
-&#13;
-About [here](https://github.com/Intaiachi/ArchipelagoDOS2/blob/main/worlds/dos2/docs/en_Divinty%20Original%20Sin%202.md)&#13;
-Setup Guide [here](https://github.com/Intaiachi/ArchipelagoDOS2/blob/main/worlds/dos2/docs/steup_en.md)&#13;
-&#13;
-DOS2 mod pak file [Github](https://github.com/Intaiachi/DOS2-Archipelago-Mod/releases), [Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=3741893354)</content>
-    <link href="https://github.com/Intaiachi/ArchipelagoDOS2/releases/tag/v0.9.1"/>
-  </entry>
-  <entry>
-    <id>https://github.com/alphappy/ArchipelagoRW/releases/tag/v1.6.1</id>
-    <title>Rain World v1.6.1</title>
-    <updated>2026-10-17T21:39:09+00:00</updated>
-    <author>
-      <name>alphappy, SaltySyrup</name>
-    </author>
-    <content>## This release is intended to be used with [v1.6.0+ of the client](https://github.com/SaltiestSyrup/RWRandomizer/releases/tag/v1.6.0), and version 0.6.7+ of Archipelago. See [the setup page](https://github.com/alphappy/ArchipelagoRW/blob/v1.5.0/worlds/rain_world/docs/setup_en.md) for instructions.&#13;
-&#13;
-## New Features&#13;
-- New Option: Sparse Gates (1c0e09861c931c0a9c9d9223bc3c02ba64cee3b1)&#13;
-  - When enabled, the generator will try to place the minimum amount of gate items needed to make every region accessible. This makes the game more restrictive, but ensures every gate item is valuable.&#13;
-&#13;
-## Bug Fixes&#13;
-- Fixed a case where Weaver checks would be generated while it is impossible to encounter. (a490d5d06985d427d779f68c0de5408d3743de49)&#13;
-- Removed the caged green lizard in Cold Storage from logic. (3d2342bdd1ab0f8a0ea5387ddbe7cfff5e9d35de)&#13;
-- Fixed Outskirts filtration area being out of logic for Spearmaster with the requisite movement abilities in the pool. (3c385d8c698b18dd0d6cbed72458db2093033d37)&#13;
-&#13;
-## Other&#13;
-- Changed the way regions are populated to reduce hard-coding. (2bef746e5f0aa10b414532ebca568aab3db93c29)&#13;
-- Converted all access rules to use Rule Builder rather than the old custom rule helper classes. (4d810b418da7efe3e745d0c2136d6dc3cbb9cdc8)</content>
-    <link href="https://github.com/alphappy/ArchipelagoRW/releases/tag/v1.6.1"/>
-  </entry>
   <entry>
     <id>https://github.com/Turese/LOArchipelagoPlugins/releases/tag/1.2.3</id>
     <title>Look Outside v1.2.3</title>
@@ -310,7 +155,7 @@ This will almost certainly break any worlds generated prior to this update. Plea
   </entry>
   <entry>
     <id>https://github.com/VincentBorchardt/Civ4-Archipelago-Mod/releases/tag/Alpha_0_3</id>
-    <title>Civilization IV v0.0.1r3</title>
+    <title>Civilization IV v0.0.1r2</title>
     <updated>2026-10-18T06:04:27+00:00</updated>
     <author>
       <name>VincentSIFTD</name>
@@ -1195,7 +1040,7 @@ Added "Please Wait..." message in-between clicking free mark and getting server 
   </entry>
   <entry>
     <id>https://github.com/TreZc0/OoTR-APWorld/releases/tag/v9.1.0-release7</id>
-    <title>Ocarina of Time v9.1.0r2</title>
+    <title>Ocarina of Time v9.1.0r3</title>
     <updated>2026-10-20T14:05:24+00:00</updated>
     <author>
       <name>espeon65536</name>
@@ -1261,6 +1106,16 @@ This will ask for your copy of the game as well as the EmuHawk executable, if no
 &#13;
 If you continue your run later, just re-open the modified ROM, which should be placed in the same folder where you have your original ROM.</content>
     <link href="https://github.com/DQIX/ArchipelagoDQIX/releases/tag/0.2.0"/>
+  </entry>
+  <entry>
+    <id>https://github.com/riezahughes/Medievil2APWorld/releases/tag/v0.2.6</id>
+    <title>Medievil 2 v0.2.3r2</title>
+    <updated>2026-10-20T16:27:17+00:00</updated>
+    <author>
+      <name>RiezaHughes</name>
+    </author>
+    <content/>
+    <link href="https://github.com/riezahughes/Medievil2APWorld/releases/tag/v0.2.6"/>
   </entry>
   <entry>
     <id>https://github.com/riezahughes/MedievilAPWorld/releases/tag/v0.4.1</id>
@@ -1369,6 +1224,17 @@ Installation instructions can be found [here](https://github.com/jordansds/Archi
 &#13;
 Alpha build.</content>
     <link href="https://github.com/jordansds/Archipelago_TWW3_Alt/releases/tag/v0.11.2"/>
+  </entry>
+  <entry>
+    <id>https://github.com/Arrcival/ArchipelagoDK/releases/tag/v2.0.2</id>
+    <title>Dome Keeper v2.0.2</title>
+    <updated>2026-10-20T22:15:50+00:00</updated>
+    <author>
+      <name>Arrcival</name>
+    </author>
+    <content>fixed generation failing on low layer count but large maps&#13;
+fixed generation on beastmaster mining items</content>
+    <link href="https://github.com/Arrcival/ArchipelagoDK/releases/tag/v2.0.2"/>
   </entry>
   <entry>
     <id>https://github.com/T0r1nn/APLC/releases/tag/v0.8.0</id>
@@ -1523,5 +1389,98 @@ Re-implemented Urn/Rift Fix (accidentally overrode it)</content>
     </author>
     <content>Zero gains the Body Armor capsule location in Magma Dragoon's stage, as he can reach it using Shippuuga (Twin Slasher).</content>
     <link href="https://github.com/Daxtear/ArchipelagoMMX4/releases/tag/0.1.4"/>
+  </entry>
+  <entry>
+    <id>https://github.com/olixx12/Foragipelago/releases/tag/0.2-alpha</id>
+    <title>forager v0.2a0</title>
+    <updated>2026-10-21T16:58:08+00:00</updated>
+    <author>
+      <name>olixx12</name>
+    </author>
+    <content># Foragipelago 0.2&#13;
+## Additions : &#13;
+- Added 2 new options : Deathlink and Easier Crafting&#13;
+- Easier Crafting halves the cost of the most basic of craftable materials (Glass, Coal, Ingots and Thread), this is meant mainly to help short syncs.&#13;
+- Popups in game when recieving items.&#13;
+## Changes : &#13;
+- Various bug fixes, including :&#13;
+   - That one out of bounds error spammed when a player recieves too many of a progressive item&#13;
+   - Hammer, Fishing rod and obliterator not being sent properly&#13;
+- Logic greatly improved, this include a lot more items being set as progression. Non prog items are still not guarenteed to be in a world, but should be far less of an issue (mainly due to a relative lack of checks currently)&#13;
+## Known issues : &#13;
+ - Game still crash when going back to the main menu (including by dying). This does mean that deathlinks can cause crashes rarely.&#13;
+&#13;
+This release is likely backwards compatible with previous releases, but is untested, grab the previous release's mod and download it manually if you want to be safe.</content>
+    <link href="https://github.com/olixx12/Foragipelago/releases/tag/0.2-alpha"/>
+  </entry>
+  <entry>
+    <id>https://github.com/drohack/cw4-archipelago/releases/tag/v0.2.3</id>
+    <title>Creeper World 4 v0.2.3</title>
+    <updated>2026-10-21T18:15:30+00:00</updated>
+    <author>
+      <name>droha</name>
+    </author>
+    <content>Matched pair: install the plugin zip AND regenerate with this `cw4.apworld`. The plugin and the apworld share a version number and must match.
+
+Requires Archipelago **0.6.7 or newer**.
+
+**Seeds do not change**: the same seed number generates the same layout as in v0.2.1 and v0.2.2, checked on 100 seeds across default, SPAN, casual and easy logic. Existing yamls keep working.
+
+
+- **The mission map's completion display follows the multiworld for every
+  objective.** Nullify, Totems and Collect were answered from your local save
+  instead, so a mission your save had finished showed those objectives as done
+  even where the multiworld still had checks open. Reclaim and Custom were
+  already right. An objective now reads done only when every one of its checks
+  is.
+
+- **The `Units` and `Economy` item groups no longer list `Greenar Refinery`.**
+  It is never generated (Factory unlocks the refinery), so naming it in a group
+  did nothing. Placements are unchanged.
+
+- **The setup guides name the right save-archive folder.** Switching slots
+  moves your saves into `archipelago/save-archive/&lt;seed&gt;-&lt;slot&gt;/`, not
+  `&lt;slot&gt;/`. The installation guide also lists all 21 options correctly and
+  says how `trap_percentage` and the ERN maximums really count.
+</content>
+    <link href="https://github.com/drohack/cw4-archipelago/releases/tag/v0.2.3"/>
+  </entry>
+  <entry>
+    <id>https://github.com/Miiroun/Archipelago-NewSuperMarioBrosWii/releases/tag/v0.4.1</id>
+    <title>NSMBW v0.4.1</title>
+    <updated>2026-10-21T19:16:09+00:00</updated>
+    <author>
+      <name>Miiroun</name>
+    </author>
+    <content># New Super Mario Bros Wii v0.4.1&#13;
+&#13;
+## Features&#13;
+- None&#13;
+&#13;
+## Fixes&#13;
+- Fixed reprompt_gamefile&#13;
+- Removed error if RAMOverrideEnable wasn't found in dolphin settings&#13;
+- Linux reading wrong map name when patching&#13;
+&#13;
+&#13;
+## Backwards compatibility&#13;
+This update is backwards compatible ONLY with 0.4.0&#13;
+&#13;
+## Links&#13;
+[Download](&lt;https://github.com/Miiroun/Archipelago-NewSuperMarioBrosWii/releases/tag/v0.4.1&gt;)&#13;
+[Setup Guide](&lt;https://github.com/Miiroun/Archipelago-NewSuperMarioBrosWii/blob/NSMBW/worlds/nsmbw/docs/setup_en.md&gt;)</content>
+    <link href="https://github.com/Miiroun/Archipelago-NewSuperMarioBrosWii/releases/tag/v0.4.1"/>
+  </entry>
+  <entry>
+    <id>https://github.com/NyanMC/ap-islesoftrials/releases/tag/0.2.0d</id>
+    <title>Isles of Trials v0.2.0r2</title>
+    <updated>2026-10-21T20:32:40+00:00</updated>
+    <author>
+      <name>NyanMC</name>
+    </author>
+    <content>added an experimental feature to draw the entire world map. you can use it from a new option in the pico-8 pause menu, and exit it with either button or by selecting the option again.&#13;
+&#13;
+the apworld has not changed from 0.2.0</content>
+    <link href="https://github.com/NyanMC/ap-islesoftrials/releases/tag/0.2.0d"/>
   </entry>
 </feed>
