@@ -2,14 +2,14 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://raw.githubusercontent.com/silasary/apworlds/refs/heads/main/recent.atom</id>
   <title>Recent APWorlds</title>
-  <updated>2026-10-21T10:55:09.505454+00:00</updated>
+  <updated>2026-10-21T16:28:12.819828+00:00</updated>
   <author>
     <name>Silasary</name>
   </author>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
   <entry>
     <id>https://github.com/ArchipelagoBrad/deadlockipelago/releases/tag/1.2.0-H5</id>
-    <title>Deadlock v1.2.0r3</title>
+    <title>Deadlock v1.2.0r2</title>
     <updated>2026-10-17T01:36:10+00:00</updated>
     <author>
       <name>ArchipelagoBrad</name>
@@ -310,7 +310,7 @@ This will almost certainly break any worlds generated prior to this update. Plea
   </entry>
   <entry>
     <id>https://github.com/VincentBorchardt/Civ4-Archipelago-Mod/releases/tag/Alpha_0_3</id>
-    <title>Civilization IV v0.0.1r2</title>
+    <title>Civilization IV v0.0.1r3</title>
     <updated>2026-10-18T06:04:27+00:00</updated>
     <author>
       <name>VincentSIFTD</name>
@@ -1195,7 +1195,7 @@ Added "Please Wait..." message in-between clicking free mark and getting server 
   </entry>
   <entry>
     <id>https://github.com/TreZc0/OoTR-APWorld/releases/tag/v9.1.0-release7</id>
-    <title>Ocarina of Time v9.1.0r3</title>
+    <title>Ocarina of Time v9.1.0r2</title>
     <updated>2026-10-20T14:05:24+00:00</updated>
     <author>
       <name>espeon65536</name>
