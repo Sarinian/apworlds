@@ -2,128 +2,14 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://raw.githubusercontent.com/silasary/apworlds/refs/heads/main/recent.atom</id>
   <title>Recent APWorlds</title>
-  <updated>2026-10-21T02:29:07.864141+00:00</updated>
+  <updated>2026-10-21T10:55:09.505454+00:00</updated>
   <author>
     <name>Silasary</name>
   </author>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
   <entry>
-    <id>https://github.com/Ishigh1/Oracle-of-Seasons-apworld/releases/tag/oos-25.0.6</id>
-    <title>The Legend of Zelda - Oracle of Seasons v25.0.6</title>
-    <updated>2026-10-16T19:42:07+00:00</updated>
-    <author>
-      <name>Dinopony</name>
-    </author>
-    <author>
-      <name>Ishigh</name>
-    </author>
-    <content>## 🗳️ New Options&#13;
-- The master_keys option has been renamed to dungeon_key_type, and now includes an option to use unlocks: a new kind of item that immediately opens a specific door on obtention&#13;
-- Freestanding items can now be removed from the randomizable item pool&#13;
-- The trade sequence can also separately be removed, excluding the pedestal&#13;
-&#13;
-## ⏫ Miscellaneous Improvements&#13;
-- Made Blaino reequip items after the match&#13;
-  - It is also no longer possible to open the ring menu during the match&#13;
-&#13;
-## 🧠 Logic&#13;
-- Added the jump between market and forge with just a feather and pegs in hard&#13;
-- Added the use of bombchus to destroy bushes and flower in a few different places&#13;
-&#13;
-## 🛠️ Bugfixes&#13;
-- Fixed D2's boss room having holes if Digdogger was the boss&#13;
-- Fixed Gleeok freezing when being beaten in D3</content>
-    <link href="https://github.com/Ishigh1/Oracle-of-Seasons-apworld/releases/tag/oos-25.0.6"/>
-  </entry>
-  <entry>
-    <id>https://github.com/Ishigh1/Oracle-of-Seasons-apworld/releases/tag/oos-25.0.7</id>
-    <title>The Legend of Zelda - Oracle of Seasons v25.0.7</title>
-    <updated>2026-10-16T19:42:07+00:00</updated>
-    <author>
-      <name>Dinopony</name>
-    </author>
-    <author>
-      <name>Ishigh</name>
-    </author>
-    <content>## 🗳️ New Options&#13;
-- The master_keys option has been renamed to dungeon_key_type, and now includes an option to use unlocks: a new kind of item that immediately opens a specific door on obtention&#13;
-- Freestanding items can now be removed from the randomizable item pool&#13;
-- The trade sequence can also separately be removed, excluding the pedestal&#13;
-&#13;
-## ⏫ Miscellaneous Improvements&#13;
-- Made Blaino reequip items after the match&#13;
-  - It is also no longer possible to open the ring menu during the match&#13;
-&#13;
-## 🧠 Logic&#13;
-- Added the jump between market and forge with just a feather and pegs in hard&#13;
-- Added the use of bombchus to destroy bushes and flower in a few different places&#13;
-&#13;
-## 🛠️ Bugfixes&#13;
-- Fixed D2's boss room having holes if Digdogger was the boss&#13;
-- Fixed Gleeok freezing when being beaten in D3</content>
-    <link href="https://github.com/Ishigh1/Oracle-of-Seasons-apworld/releases/tag/oos-25.0.7"/>
-  </entry>
-  <entry>
-    <id>https://github.com/TylerJG92/Archipelago-WOL-SOL/releases/tag/v0.3.2a</id>
-    <title>West of Loathing v0.3.2a0</title>
-    <updated>2026-10-16T20:48:44+00:00</updated>
-    <author>
-      <name>Xylen</name>
-    </author>
-    <author>
-      <name>TylerJG92</name>
-    </author>
-    <content># APWorld Changes&#13;
-* Added forgotten `player` arg to `state.can_reach_region("Map Region D", player)` for medical container checks logic&#13;
-* Added Redundant `state.can_reach_location("Ghostwood Town Hall - Issued Permit", player)` to `get_location("Ghostwood Town Hall - Issued ID")` </content>
-    <link href="https://github.com/TylerJG92/Archipelago-WOL-SOL/releases/tag/v0.3.2a"/>
-  </entry>
-  <entry>
-    <id>https://github.com/PhantomOfAres/ArchipelagoRimworld/releases/tag/v1.0.0-release</id>
-    <title>Rimworld v1.0.0.post0</title>
-    <updated>2026-10-16T22:41:08+00:00</updated>
-    <author>
-      <name>PhantomOfAres</name>
-    </author>
-    <content>### Features&#13;
-&#13;
-More raid/negative filler variety - "raid traps" should now choose any "big threat," so can include things like infestations, mech drops, or animal insanity. Normal negative filler also has a chance for any negative event, including diseases and the like.&#13;
-Trade locations now have fake logic, so they aren't all in-logic at once.&#13;
-Quest locations have been added. Like raids and trade locations, completing a quest with an item for a reward will include a quest location item.&#13;
-Implemented deathlink - If a player on the server dies, it will cause a negative, stacking thought in all colonists. If a colonist dies, it will send a deathlink to the server.&#13;
-&#13;
-### Bugfixes&#13;
-&#13;
-Changed raid/trade locations so they can't be savescummed.&#13;
-Items sent as filler will now be sent in increments of ~200 silver, rather than (roughly) "1 full stack"&#13;
-Changed drop pod behavior to use the trading drop pod logic, so they drop closer to your base&#13;
-Location items can be stockpiled&#13;
-Blood Rain research should now grant correctly when sent from AP&#13;
-Fixed a bug where logic for raid/trade locations wasn't applying properly</content>
-    <link href="https://github.com/PhantomOfAres/ArchipelagoRimworld/releases/tag/v1.0.0-release"/>
-  </entry>
-  <entry>
-    <id>https://github.com/gerbiljames/Archipelago-Crystal/releases/tag/6.0.5</id>
-    <title>Pokemon Crystal v6.0.5</title>
-    <updated>2026-10-16T22:56:05+00:00</updated>
-    <author>
-      <name>gerbiljames</name>
-    </author>
-    <content># Changelog&#13;
-&#13;
-# Bug Fixes&#13;
-- Fix TM/HM compatibility not respecting randomized move types (thanks @sdwoodard).&#13;
-- Fix various edge cases with wonder trade, it should now be more resilient to unstable connections.&#13;
-- Fix move power randomization sometimes preventing Return, Frustration, Present, Magnitude and Hidden Power from being able to crit, as well as preventing Counter and Mirror Coat from working with them.&#13;
-- The version on the continue screen will now reflect the version of the APWorld that patched the ROM.&#13;
-- Elm will now check that you actually hatched the Mystery Egg for the Everstone. This fixes a case where you could hatch it and then reset statics, and Elm would not accept it.&#13;
-&#13;
-_This release is backwards compatible down to 6.0.0._</content>
-    <link href="https://github.com/gerbiljames/Archipelago-Crystal/releases/tag/6.0.5"/>
-  </entry>
-  <entry>
     <id>https://github.com/ArchipelagoBrad/deadlockipelago/releases/tag/1.2.0-H5</id>
-    <title>Deadlock v1.2.0r2</title>
+    <title>Deadlock v1.2.0r3</title>
     <updated>2026-10-17T01:36:10+00:00</updated>
     <author>
       <name>ArchipelagoBrad</name>
@@ -424,7 +310,7 @@ This will almost certainly break any worlds generated prior to this update. Plea
   </entry>
   <entry>
     <id>https://github.com/VincentBorchardt/Civ4-Archipelago-Mod/releases/tag/Alpha_0_3</id>
-    <title>Civilization IV v0.0.1r3</title>
+    <title>Civilization IV v0.0.1r2</title>
     <updated>2026-10-18T06:04:27+00:00</updated>
     <author>
       <name>VincentSIFTD</name>
@@ -1309,7 +1195,7 @@ Added "Please Wait..." message in-between clicking free mark and getting server 
   </entry>
   <entry>
     <id>https://github.com/TreZc0/OoTR-APWorld/releases/tag/v9.1.0-release7</id>
-    <title>Ocarina of Time v9.1.0r2</title>
+    <title>Ocarina of Time v9.1.0r3</title>
     <updated>2026-10-20T14:05:24+00:00</updated>
     <author>
       <name>espeon65536</name>
@@ -1422,6 +1308,54 @@ Compatible with v3.1.0!</content>
     <link href="https://github.com/ElectroStarz/ArchipelagoMSM/releases/tag/v3.1.1"/>
   </entry>
   <entry>
+    <id>https://github.com/Miiroun/Archipelago-NewSuperMarioBrosWii/releases/tag/v0.4.0</id>
+    <title>NSMBW v0.4.0</title>
+    <updated>2026-10-20T21:31:28+00:00</updated>
+    <author>
+      <name>Miiroun</name>
+    </author>
+    <content># New Super Mario Bros Wii v0.4.0&#13;
+&#13;
+## Features&#13;
+- Built in item and location tracker (requires UT version 0.3.5 or newer)&#13;
+- Coin battle stages are now included in the level shuffle pool.&#13;
+- Ambush shuffle : Shuffles the ambush levels&#13;
+- Customize option for level shuffle, including level plando.&#13;
+- Added an additional requirement for goaling: beating x levels. &#13;
+- An option to force x% of fillers to be local&#13;
+- When you get an inventory pow after sending all your locations will you now get  a free random location hint.&#13;
+- Backed changes to allow entrance rando and text in client for future updates.&#13;
+- Ported hint movie and other patches to partially be riivolution, insuring better stability.&#13;
+- Level unlock option : allows you to have access to all levels in a world at once&#13;
+- World unlock option : allows you to change if you need 1 or 2 items per world&#13;
+- Most locations have gotten longer names: e.g. 1-T sc2 -&gt; 1-Tower Star Coin 2&#13;
+- Better warning system for e.g. incompatible settings&#13;
+- All green toad houses are now red&#13;
+&#13;
+&#13;
+## Fixes&#13;
+- !-Switch breaks unlocking the secret exit in 3-4&#13;
+- /print_settings&#13;
+- /explain_more&#13;
+- Powerup-locking working incorrectly if you did not have mushroom unlocked.&#13;
+- Maybe fixed music shuffle crashing the game when exiting a toad house.&#13;
+- Deathlink was sent when exiting a course.&#13;
+- Linux works with apimage.&#13;
+- Multiplayer didn't receive lives correctly and didn't send star coins immediately &#13;
+- Does no longer go to next world after an Airship.&#13;
+- Doesn't refuse to open the client with an invalid path in host.yaml, instead shows an error.&#13;
+- And more minor fixes&#13;
+&#13;
+&#13;
+## Backwards compatibility&#13;
+This update is NOT compatible with previous versions&#13;
+&#13;
+## Links&#13;
+[Download](https://github.com/Miiroun/Archipelago-NewSuperMarioBrosWii/releases/tag/v0.4.0)&#13;
+[Setup Guide](https://github.com/Miiroun/Archipelago-NewSuperMarioBrosWii/blob/NSMBW/worlds/nsmbw/docs/setup_en.md)</content>
+    <link href="https://github.com/Miiroun/Archipelago-NewSuperMarioBrosWii/releases/tag/v0.4.0"/>
+  </entry>
+  <entry>
     <id>https://github.com/jordansds/Archipelago_TWW3_Alt/releases/tag/v0.11.2</id>
     <title>Total War Warhammer 3 v0.11.2</title>
     <updated>2026-10-20T21:48:17+00:00</updated>
@@ -1495,5 +1429,99 @@ Known issues:&#13;
 * If a player connects to a slot that has modify_scrap_spawns, scrap spawns will remain modified for until the player closes the game, even if the player opens a different save file.&#13;
 * Connecting to a multiworld with a large amount of custom content may take up to a few minutes.</content>
     <link href="https://github.com/T0r1nn/APLC/releases/tag/v0.8.0"/>
+  </entry>
+  <entry>
+    <id>https://github.com/drohack/cw4-archipelago/releases/tag/v0.2.2</id>
+    <title>Creeper World 4 v0.2.2</title>
+    <updated>2026-10-21T02:52:08+00:00</updated>
+    <author>
+      <name>droha</name>
+    </author>
+    <content>Matched pair: install the plugin zip AND regenerate with this `cw4.apworld`. The plugin and the apworld share a version number and must match.&#13;
+&#13;
+Requires Archipelago **0.6.7 or newer**.&#13;
+&#13;
+**Existing yamls keep working.** The four hidden options removed here did nothing; a yaml that still names one generates normally, with a warning. **Seeds do not change**: the same seed number generates the same layout as in v0.2.1, checked for default, SPAN and casual logic. Nothing a player sees in the game changes.&#13;
+&#13;
+- **The mod no longer carries debug code.** When the debug channel became its&#13;
+  own plugin (2026-09-03), its commands moved but the counters, readbacks and&#13;
+  tuning code they drove stayed inside the mod, and later debug features&#13;
+  followed the same pattern. All of it is in the debug plugin now, which ships&#13;
+  in no release. That removes a Harmony patch, a per-frame check and extra reads&#13;
+  on every planet repaint that ran in every player's game for nobody's benefit.&#13;
+  Nothing a player sees changes.&#13;
+- **Retired items do nothing.** `Build Limit +1 (Tower)`, `(Cannon)` and&#13;
+  `(Mortar)`, `Emitter Overdrive Trap` and `Greenar Refinery` have not been&#13;
+  generated for several releases; their names stay so item ids do not move. The&#13;
+  mod no longer applies them, so one handed out by `start_inventory`, plando or&#13;
+  `/send` is ignored. Factory still unlocks the greenar refinery.&#13;
+- **Removed four hidden options that did nothing:**&#13;
+  `trap_weight_emitter_overdrive`, `filler_energy_storage_weight`,&#13;
+  `filler_base_generation_weight` and `filler_build_limit_weight`. A yaml that&#13;
+  still names one generates normally, with a warning.&#13;
+- **Slot data no longer sends** `mission_titles`, `span_missions`,&#13;
+  `mission_requirements` or `ern_per_item`, none of which the mod read. The mod&#13;
+  ignores them in an older seed. Placements are unchanged: checked old against&#13;
+  new on the same seed for default, SPAN and casual logic.&#13;
+- **The apworld no longer carries test-only code.** The tests and audit tools&#13;
+  record what the world placed from outside it, and the hooks the world kept&#13;
+  for them are gone. SPAN map notes moved from the shipped `span_data.py` to the&#13;
+  tools-side `tools/span_notes.py`.&#13;
+- **The game page** lists all three recommended options and describes the&#13;
+  `easy` logic tier.&#13;
+- **Release checks are exact.** `tools/check_release.py` holds the mod zip and&#13;
+  the `.apworld` to exact file lists instead of a blocklist, and reads the&#13;
+  shipped DLLs' metadata for the debug-only names removed here.&#13;
+- **Corrected comments that were wrong**, among them a tracker colour that never&#13;
+  existed: a mission with some checks reachable and some not is drawn green.&#13;
+</content>
+    <link href="https://github.com/drohack/cw4-archipelago/releases/tag/v0.2.2"/>
+  </entry>
+  <entry>
+    <id>https://github.com/qwint/APMinit/releases/tag/v0.7.0</id>
+    <title>Minit v0.7.0</title>
+    <updated>2026-10-21T05:44:44+00:00</updated>
+    <author>
+      <name>qwint</name>
+    </author>
+    <content>First and foremost, the recent update to Minit (the actual game) has made the previous patching system unmaintainable,&#13;
+BUT, it also made the Mod Loader (I forked from UFO50) possible without more headaches.&#13;
+&#13;
+The Mod has been completely ported over to said Mod Loader, new instructions can be found [here](https://github.com/qwint/APMinit#for-patching).&#13;
+The `/patch` command will now display a message about this change as well.&#13;
+&#13;
+Changes:&#13;
+* Coins, Tentacles, and Hearts are now marked deprioritized, meaning they will not show up on priority locations if possible.&#13;
+* The Box used for sword toss tentacle now respawns meaning you can check the location purely coming from the left side by resetting the room.&#13;
+* In Entrance Rando the Temple Coin quest will progress from any death from the respective houses.&#13;
+* Other minor Entrance Rando tweaks including not randomizing the water entrances to shark infested waters at all, leaving them vanilla (but still traversable out of logic)</content>
+    <link href="https://github.com/qwint/APMinit/releases/tag/v0.7.0"/>
+  </entry>
+  <entry>
+    <id>https://github.com/ArchipelagoBrad/deadlockipelago/releases/tag/1.2.0</id>
+    <title>Deadlock v1.2.0.post2</title>
+    <updated>2026-10-21T08:12:44+00:00</updated>
+    <author>
+      <name>ArchipelagoBrad</name>
+    </author>
+    <content># City Never Sleeps Update&#13;
+&#13;
+Added Baba, Rat King, Solomon (The pawns move first), Deadman Danny, and Violet&#13;
+YAML Site and Rules updated to account for updated characters and locations&#13;
+&#13;
+# Bug Fixes&#13;
+&#13;
+Re-implemented Urn/Rift Fix (accidentally overrode it)</content>
+    <link href="https://github.com/ArchipelagoBrad/deadlockipelago/releases/tag/1.2.0"/>
+  </entry>
+  <entry>
+    <id>https://github.com/Daxtear/ArchipelagoMMX4/releases/tag/0.1.4</id>
+    <title>Mega Man X4 v0.1.4</title>
+    <updated>2026-10-21T10:15:02+00:00</updated>
+    <author>
+      <name>Daxtear</name>
+    </author>
+    <content>Zero gains the Body Armor capsule location in Magma Dragoon's stage, as he can reach it using Shippuuga (Twin Slasher).</content>
+    <link href="https://github.com/Daxtear/ArchipelagoMMX4/releases/tag/0.1.4"/>
   </entry>
 </feed>
