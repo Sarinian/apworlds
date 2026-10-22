@@ -2,129 +2,11 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://raw.githubusercontent.com/silasary/apworlds/refs/heads/main/recent.atom</id>
   <title>Recent APWorlds</title>
-  <updated>2026-10-21T21:13:20.978533+00:00</updated>
+  <updated>2026-10-22T02:22:55.444594+00:00</updated>
   <author>
     <name>Silasary</name>
   </author>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
-  <entry>
-    <id>https://github.com/Turese/LOArchipelagoPlugins/releases/tag/1.2.3</id>
-    <title>Look Outside v1.2.3</title>
-    <updated>2026-10-17T23:03:19+00:00</updated>
-    <author>
-      <name>Turese</name>
-    </author>
-    <content># QOL Features&#13;
-### New Player options:&#13;
-- Various player options have been renamed and reorganized for ease of reading&#13;
-- Casanova Mode: sets the game to “Casanova mode”, allowing the player to kiss many of the enemies around the apartment complex. Each smooch is a location.&#13;
-- Include Final True Ending Equipment: When set to false, items exclusive to the Final True ending boss battle will be excluded from the item pool&#13;
-- Locations that are granted automatically by taking mutually exclusive actions now send in-game messages upon being granted.&#13;
-&#13;
-## New Goal Option Changes&#13;
-- Completing a perfect ritual no longer counts as completing a flawed or partial ritual for goal purposes&#13;
-- XIN-AMON and Eternal fate endings still count as Flawed Ritual endings&#13;
-- Failed Ritual (zero correct offerings) is now differentiated from Flawed Ritual, and Mask Ending counts as a Failed Ritual &#13;
-- Overhauled “Goal” player option to be a set of goals that the player can mix and match&#13;
-	- "Failed Ritual": Go to the roof without giving the astronomers any correct offerings&#13;
-	- "Flawed Ritual": Give the astronomers at least one correct offering and defeat them on the roof&#13;
-	- "Perfect Ritual": Give the astronomers all four correct offerings and defeat them on the roof&#13;
-	- "Screaming Sky Ending": Give the astronomers all four correct offerings and flee from their final form on the roof&#13;
-	- "Promise Ending": Give the astronomers all four correct offerings and defeat them on the roof after making a promise to Sybil&#13;
-	- "Mask Ending": Give the astronomers all four weird offerings and face the Masked Shadow on the roof&#13;
-	- "XIN-AMON Ending": Give three correct offerings and a Guinea Pig to Beryl, and then defeat XIN-AMON on the roof&#13;
-	- "Eternal Fate Ending" - Give the Guinea Pig as any offering and face it on the roof&#13;
-	- "Unity Ending" - Kill Sybil and enter the red door in the observatory to learn the truth&#13;
-	- "Final True Ending" - Give the astronomers all four correct offerings, defeat them on the roof, then unleash the true power of your Meteor Strike!&#13;
-	- "Words of Power Ending" - Complete all crosswords for the secret key, then accept Wilhelmina’s offer in the Tomb of Crosswords&#13;
-	- “Smooch the Sultan” - Power up by kissing 49 or more enemies and then give the Sultan of Kissing a kiss (selecting this goal activates Casanova Mode + locations)&#13;
-	- "Smooch The Visitor" - Give the astronomers all four correct offerings, defeat them on the roof, then give the Visitor a kiss :3. (selecting this goal activates Casanova Mode + locations)&#13;
-&#13;
-# Client Changes&#13;
-- Removed ._DS_Store artifacts from zip file&#13;
-- Fixed bug where item name was not displayed and location was not rewarded for "Apt. 12 Walls Large Room - Item on East Table"&#13;
-- Fixed bug where the randomized item at location "Apt. 12 Planetarium - Item in North Closet" replaced the exit door instead of the intended item.&#13;
-- Fixed bug where item grant message would not be sent for “Landlord Hell South Hall - Slay Gatling”&#13;
-- Fixed bug where “Fungus Maze Depths - Spore Guardian Audrey Loot” would not be correctly rewarded upon defeating the Spore Guardian with Audrey already in your party&#13;
-- Fixed some missing or swapped item icons&#13;
-- Added missing text for “Ease Regrets” option that revives Spine&#13;
-- Added “Ease Regrets” option that revives the Minesweeper&#13;
-- Removed trigger that permanently disables the blackout event when walking through the door to the roof&#13;
-- Removed vanilla “Custom Gun” drop from Nestored Eugene&#13;
-- Fixed bug where Elevator Freak would die upon player running away from combat&#13;
-- Also removed vanilla game behavior where player would be transferred to the basement floor upon running away from the Elevator Freak&#13;
-- Fixed bug where the incorrect variable was being tracked to check whether or not Colonel Squeakums had been killed for both Ernest’s “Ease Regrets” option and the location "Ernest's Hideout - Slay Colonel Squeakums"&#13;
-&#13;
-# Apworld Changes&#13;
-- Cleaned up print statement that was sending out irrelevant info during world generation&#13;
-- “Apt. 28 Twilight - Slay Piranha Guy” is no longer considered a Friendly Fire location as Piranha Guy dies no matter what the player does&#13;
-- Fixed logic bug where the game assumed players were able to enter stairwell from ground floor before placing any planet discs in the stairwell sockets &#13;
-- Fixed logic bug where Basement Key wasn’t considered a requirement to reach Apt. 25 (Dan’s Apartment)&#13;
-- Fixed logic bug where game assumed players didn’t need any extra herbicide to traverse inner Apartment 12&#13;
-- Fixed logic bug where “Audrey” was not considered a required item for some Audrey Loot locations&#13;
-- Fixed logic bug where “Guinea Pig” was not considered a required item for "Security Room - Slay Cinnamon"&#13;
-- Fixed logic bug where the ability to face Garbage Worm on ground floor was not considered a requirement for “Basement Utility Room - Item Dropped by Garbage Worm”&#13;
-- Removed glitch world keys from the item pool when mask offering areas are disabled in settings&#13;
-- Fixed logic bug where only two “yellow key” items were considered necessary to traverse glitch world, when the game requires three. A third key will also be added to the item pool in seeds that include glitch world locations.&#13;
-- Fixed other glitch key counts that were larger than the amount of corresponding locks; the item pool now only contains as many glitch world keys as there are glitch world locks&#13;
-- Landlord Hell East - Slay Gatling is now assigned to the correct Landlord apartment phase in logic&#13;
-- Updated locations and removed duplicate locations corresponding to slaying the Basilisk in Meat World Eyeball and picking up the item where the Ocular Tetherblade would be in vanilla&#13;
-- Split singular locations for enemies fought in a group into multiple in cases where the vanilla game has separate variables tracking whether they have been killed&#13;
-	- In the locked room of Vincent’s apartment: “Apt. 37 Locked Room - Slay Eye Monsters” has been split into "Apt. 37 Locked Room - Slay Eye Legs", "Apt. 37 Locked Room - Slay Eye Shoulder", and "Apt. 37 Locked Room - Slay Wiggle Eye"&#13;
-		- Because of this, Eye Shoulder is now fightable on all difficulties&#13;
-	- In the west bedroom of Vincent’s apartment: "Apt. 37 Bedroom - Slay Onlookers" has been split into "Apt. 37 Bedroom - Slay Onlooker 1" and "Apt. 37 Bedroom - Slay Onlooker 2"&#13;
-- Other new locations:&#13;
-	- “Eugene's Shop - Gift From Nestor's Head” (Gift given upon interacting with a freshly Nestored Eugene)&#13;
-	- “Fred's Apt. - Gift from Fred” (gift given upon first speaking to the fake Fred/facetaker)&#13;
-</content>
-    <link href="https://github.com/Turese/LOArchipelagoPlugins/releases/tag/1.2.3"/>
-  </entry>
-  <entry>
-    <id>https://github.com/gjgfuj/SlotLock/releases/tag/slotlockv0.11.3</id>
-    <title>SlotLock v0.11.3</title>
-    <updated>2026-10-17T23:29:34+00:00</updated>
-    <author>
-      <name>Sandra (TheSandromatic)</name>
-    </author>
-    <content>## What's Changed&#13;
-* minor client fixes by @Enderdraak in https://github.com/gjgfuj/SlotLock/pull/5&#13;
-   * [SlotLock Client]Make the entire tree be put in a single message.&#13;
-      * This makes copying easier.&#13;
-&#13;
-   * [SlotLock Client] Added cleaner error message when client can not find any dependencies.&#13;
-   * [SlotLock Client]   In a game shares the item ID with a SlotLock item ID. And the other gams Item was hinted. It will now no longer show up as Slot.&#13;
-   * [SlotLock Client]  Changed Slotlock to SlotLock in the client name. As most places use SlotLock. You might want to change it back.&#13;
-   * [SlotLock Client] Compresses the whole tree down to only show a Slots full list of unlocks only once. Made it go down from mb's to kb's on a multiworld of 300 worlds with 2 unlocks each.)&#13;
-   * [SlotLock Client] added number to show how many slots are unlocked by the slot (even if the slots are not shown at that place).&#13;
-   * [SlotLock Client] aligned all the lines to have the same number of characters.&#13;
-&#13;
-* [SlotLock] Added check to ensure that if all worlds are locked, and there is no free items in slotlock, it will error out immediately with a nice error message.&#13;
-* [SlotLock] Fixed issue where linear fill would only consider the first copy of a progression item with multiple copies. Also fixed an issue where the priority part of linear fill would include deprioritized progression items.&#13;
-&#13;
-**Full Changelog**: https://github.com/gjgfuj/SlotLock/compare/slotlockv0.11.2...slotlockv0.11.3</content>
-    <link href="https://github.com/gjgfuj/SlotLock/releases/tag/slotlockv0.11.3"/>
-  </entry>
-  <entry>
-    <id>https://github.com/Fylcoast/AP_diceydungeons/releases/tag/v0.6.0-beta</id>
-    <title>Dicey Dungeons v0.6.0b0</title>
-    <updated>2026-10-18T01:19:48+00:00</updated>
-    <author>
-      <name>Fylcoast</name>
-    </author>
-    <content>## What's Changed&#13;
-- Multiple characters in one slot&#13;
-  - Play as any of the Warrior, Thief, Robot, and Inventor, all in one slot! Character choice is now a list.&#13;
-  - You must still have at least 1 character selected.&#13;
-  - Character progression is "open-world" only - all characters will be available from the start.&#13;
-  - Each character's items, episode progression, etc, should all follow your other settings&#13;
-&#13;
-## WARNING&#13;
-This will almost certainly break any worlds generated prior to this update. Please ensure your Client version matches the version your world was generated with!&#13;
-&#13;
-&#13;
-**Full Changelog**: https://github.com/Fylcoast/AP_diceydungeons/compare/v0.5.0-beta...v0.6.0-beta</content>
-    <link href="https://github.com/Fylcoast/AP_diceydungeons/releases/tag/v0.6.0-beta"/>
-  </entry>
   <entry>
     <id>https://github.com/agilbert1412/StardewArchipelago/releases/tag/8.1.10</id>
     <title>Stardew Valley v8.1.10</title>
@@ -155,7 +37,7 @@ This will almost certainly break any worlds generated prior to this update. Plea
   </entry>
   <entry>
     <id>https://github.com/VincentBorchardt/Civ4-Archipelago-Mod/releases/tag/Alpha_0_3</id>
-    <title>Civilization IV v0.0.1r2</title>
+    <title>Civilization IV v0.0.1r3</title>
     <updated>2026-10-18T06:04:27+00:00</updated>
     <author>
       <name>VincentSIFTD</name>
@@ -1040,7 +922,7 @@ Added "Please Wait..." message in-between clicking free mark and getting server 
   </entry>
   <entry>
     <id>https://github.com/TreZc0/OoTR-APWorld/releases/tag/v9.1.0-release7</id>
-    <title>Ocarina of Time v9.1.0r3</title>
+    <title>Ocarina of Time v9.1.0r2</title>
     <updated>2026-10-20T14:05:24+00:00</updated>
     <author>
       <name>espeon65536</name>
@@ -1109,7 +991,7 @@ If you continue your run later, just re-open the modified ROM, which should be p
   </entry>
   <entry>
     <id>https://github.com/riezahughes/Medievil2APWorld/releases/tag/v0.2.6</id>
-    <title>Medievil 2 v0.2.3r2</title>
+    <title>Medievil 2 v0.2.3r3</title>
     <updated>2026-10-20T16:27:17+00:00</updated>
     <author>
       <name>RiezaHughes</name>
@@ -1482,5 +1364,187 @@ This update is backwards compatible ONLY with 0.4.0&#13;
 &#13;
 the apworld has not changed from 0.2.0</content>
     <link href="https://github.com/NyanMC/ap-islesoftrials/releases/tag/0.2.0d"/>
+  </entry>
+  <entry>
+    <id>https://github.com/Str8UpWHITE64/Librarian-AP/releases/tag/3.0.2</id>
+    <title>Librarian Tidy Up the Arcane Library v3.0.2</title>
+    <updated>2026-10-21T20:47:07+00:00</updated>
+    <author>
+      <name>Str8UpWHITE64</name>
+    </author>
+    <content>## Librarian-AP v3.0.2&#13;
+&#13;
+Traps, a higher spare book percent for custom goals, and four fixes.&#13;
+&#13;
+**Existing runs keep working.** Install over 3.0.1 and reconnect. The end door fix works&#13;
+on a run in progress; the other three fixes and the new options need a seed generated with&#13;
+the new apworld. A 3.0.1 YAML still works, but see the trap note below.&#13;
+&#13;
+## New: traps&#13;
+&#13;
+Traps are items that make things harder for a short while. They take the place of filler,&#13;
+never of anything a check or your goal depends on, and nothing a trap does is saved into&#13;
+your game.&#13;
+&#13;
+**Traps are on by default.** A YAML that says nothing about them gets about 10% of its&#13;
+filler turned into traps, and that includes a 3.0.1 YAML regenerated with the new apworld.&#13;
+Set `trap_percentage: 0` for a seed with none.&#13;
+&#13;
+```yaml&#13;
+trap_percentage: 10   # 0-100, default 10&#13;
+trap_weights:         # how often each one comes up; 0 turns it off&#13;
+  Fatigue: 2&#13;
+  Floor Shuffle: 2&#13;
+  Veil: 2&#13;
+  Butterfingers: 2&#13;
+  Scramble Shelf: 1&#13;
+  Shelf Spill: 1&#13;
+```&#13;
+&#13;
+| Trap | What it does |&#13;
+|---|---|&#13;
+| Fatigue | One magic skill recovers slowly for two minutes. |&#13;
+| Floor Shuffle | The loose books lying on the floor swap places with each other. |&#13;
+| Veil | The loose books you could pick up are hidden for 30 seconds, then come back. |&#13;
+| Butterfingers | Some of the books in your hands, from one up to all of them, fall beside you in a pile. |&#13;
+| Scramble Shelf | A few books in a row you have not finished trade places. |&#13;
+| Shelf Spill | A few books in a row you have not finished fall out onto the floor in front of their bookcase. |&#13;
+&#13;
+The shelf traps never touch a finished row, so a completed row and its check stay done.&#13;
+Their notice says which bookcase and row they hit, for example "Scramble Shelf: 2 books on&#13;
+bookcase 2J, row 1 are out of order", and says so when one is skipped because you are&#13;
+carrying books or the shelves are empty.&#13;
+A notice shows on screen when a trap takes effect. In the multiworld the items end in&#13;
+"Trap", for example `Veil Trap` and `Sort Fatigue Trap`.&#13;
+&#13;
+**Fatigue changed.** In 3.0.1 every seed had a fixed set of up to ten Fatigue items. Fatigue&#13;
+is now one of the traps above, so how many you get follows `trap_percentage` and its weight.&#13;
+&#13;
+## New: higher `spare_book_item_percent` on custom goals&#13;
+&#13;
+```yaml&#13;
+spare_book_item_percent: 10   # 0-100, default 10&#13;
+```&#13;
+&#13;
+The range goes up to 100. Past 20 it only works on `goal: custom`, and only when the host&#13;
+allows it (`allow_high_spare_book_percent` in `host.yaml`, off by default). Other goals are&#13;
+held at 20.&#13;
+&#13;
+## Fix: you could leave through the end door before your goal&#13;
+&#13;
+Once every book you had unlocked was shelved, the game let you leave through the library&#13;
+door and play the ending before your Archipelago goal was reached. The door now stays shut&#13;
+until the goal is reached.&#13;
+&#13;
+## Fix: individual book unlocks with count checks never showed any books&#13;
+&#13;
+With `unlock_mode: individual_book_unlocks` and `check_mode: count`, the books you received&#13;
+never appeared. Seeds generated with the new apworld reveal them as they arrive.&#13;
+&#13;
+## Fix: booksanity milestones were in logic from the start&#13;
+&#13;
+With `check_mode: booksanity`, the "Correctly shelve N books" checks (with series unlocks) and,&#13;
+on floor and custom goals, the Reached Level checks past what the seed's rows can reach were in&#13;
+logic from the start, so the tracker showed them early and items could be placed on them out&#13;
+of reach. New seeds gate them by the books and rows you can actually shelve.&#13;
+&#13;
+## Fix: random book bundles all came from the two starting sections&#13;
+&#13;
+With `unlock_mode: random_book_bundle` and `bookcase_unlocks: unlocked`, the first bundles&#13;
+all came from the two starting sections instead of from across the library. Seeds generated&#13;
+with the new apworld draw every bundle from the whole library.&#13;
+&#13;
+## Updating&#13;
+&#13;
+&gt; Extract the zip and drop `Librarian/` into your Steam install (overwrite). Drop&#13;
+&gt; `librarian.apworld` into your Archipelago `custom_worlds/` folder. **Both are required.**&#13;
+&gt; The title screen should read `LibAP v3.0.2`.&#13;
+&#13;
+## If something breaks&#13;
+&#13;
+Press F8, then send that session's log from `Mods\Librarian-AP\logs\`, your YAML's&#13;
+`Librarian:` section, and one line on what you were doing.&#13;
+</content>
+    <link href="https://github.com/Str8UpWHITE64/Librarian-AP/releases/tag/3.0.2"/>
+  </entry>
+  <entry>
+    <id>https://github.com/Chris-Is-Awesome/DDArchipelagoRandomizer/releases/tag/v0.4.2</id>
+    <title>Death's Door v0.4.2</title>
+    <updated>2026-10-21T22:25:51+00:00</updated>
+    <author>
+      <name>rose.as.romeo</name>
+    </author>
+    <author>
+      <name>ChrisIsAwesome</name>
+    </author>
+    <content># Death's Door Archipelago 0.4.2&#13;
+&#13;
+Use apworld 0.4.2 together with mod 0.4.2. Seeds generated with apworld 0.4.0 or 0.4.1 also work with mod 0.4.2.&#13;
+&#13;
+## Mod (ArchipelagoRandomizer 0.4.2)&#13;
+&#13;
+### Skip Cutscenes&#13;
+- The late-game story scenes are now skipped, including on saves that are already under way:&#13;
+  - the Grey Crow opening Death's Door&#13;
+  - the Grey Crow and Death in the void&#13;
+  - Death's talk after the Grey Crow fight&#13;
+  - the crows' scene in the Hall of Doors&#13;
+  - the Lord of Doors' speeches before the gauntlet and during the final fight&#13;
+- The camera pans that show what you just opened are now skipped too. These include the Castle Lockstone braziers, the Lost Cemetery ghosts, crow souls flying into an Ancient Door, and doors, levers and cleared fights.&#13;
+- The ending after the Lord of Doors and the credits still play.&#13;
+- The few cutscenes that can leave invisible walls behind are always skipped, whether or not Skip Cutscenes is on.&#13;
+&#13;
+### Shop&#13;
+- With Shop Hints on, looking at a stat in the shop shows the item its next upgrade holds and hints it.&#13;
+- Progressive Strength, Dexterity, Haste and Magic now show the shop's stat icons, in white, in popups and in the Recent Items list.&#13;
+&#13;
+### Door and stat tracker&#13;
+- While the game is paused, press Tab (keyboard) or Y (controller) to open a tracker panel. A small hint in the bottom-left of the pause menu shows this:&#13;
+  - With entrance randomization, the doors of the area you're in and where each one leads once you've been through it. In coupled seeds the way back counts too. Page Up / Page Down or the triggers show other areas.&#13;
+  - With Shop Upgrades on, the level you've received for each stat and how many of its upgrades you've bought.&#13;
+- The shop's description panel now shows your current level of each stat. The shop's bars only show what you bought.&#13;
+&#13;
+### DeathLink&#13;
+- Fixed the game crashing when it received a DeathLink.&#13;
+- A DeathLink that arrives while you're rolling, invincible or just respawned is no longer lost. It kills you as soon as it can.&#13;
+- Fixed your own deaths sometimes not being sent after you received a DeathLink.&#13;
+- A DeathLink that arrives while you're already dead no longer kills you again after respawning.&#13;
+- The game now shows who caused a DeathLink when it kills you.&#13;
+&#13;
+### Fixes&#13;
+- Fixed a possible crash when the connection to the server drops.&#13;
+- The Grove of Spirits Door check is now sent when you arrive in the Hall of Doors, even with Skip Cutscenes off.&#13;
+- Fixed short freezes when planting a Life Seed in a new pot. They happened even with planting checks off.&#13;
+- Fixed a freeze in entrance randomizer seeds when a door led to another door in the same area, such as one Hall of Doors door to another.&#13;
+- Fixed a bug in ItemChanger that logged an error every frame in some areas. This made log files grow to over 100 MB and could cause stutter.&#13;
+&#13;
+&#13;
+## APWorld (deaths_door 0.4.2)&#13;
+- Every Life Seed now counts towards the logic. The tracker now shows the Green Tablet and the goal as reachable once you've planted enough seeds.&#13;
+- On the Universal Tracker map:&#13;
+  - Planting pot pins follow each pot's own requirements. The Crypt pot needs Fire.&#13;
+  - The Imp Loft pot pin has moved to the Ceramic Manor left wing.&#13;
+  - The "Beat the Lord of Doors" and "Open the Green Ancient Tablet Door" pins only light up once you can actually do them.&#13;
+- Entrance randomizer never connects two Hall of Doors doors to each other.&#13;
+- Grunt's Old Mask is no longer shown as glitched in the tracker when you can actually get it.&#13;
+- Leaving Ceramic Manor through the gate to the Estate of the Urn Witch is now in logic. The gate opens from the inside, day or night.&#13;
+- Universal Tracker's `/get_logical_path &lt;place&gt;` now lists the doors to take from the Hall of Doors, in order, with where each one actually leads in your seed. It only uses doors you've been through and paths you can walk with your current items.&#13;
+- New option **Shop Hints** (on by default). It controls the shop preview and hints described above.&#13;
+- Corrected the descriptions of Extra Life Seeds and Planted Pots Required.&#13;
+&#13;
+## README&#13;
+- The mod and apworld READMEs are now one README, attached to this release and included in the mod zip. It covers setup from start to finish, every in-game Mod Option and every yaml option, including the new shop and planting options.&#13;
+</content>
+    <link href="https://github.com/Chris-Is-Awesome/DDArchipelagoRandomizer/releases/tag/v0.4.2"/>
+  </entry>
+  <entry>
+    <id>https://github.com/Stuff691734/ModdedMCArchipelago/releases/tag/v3.0.11</id>
+    <title>Modded Minecraft v3.0.11</title>
+    <updated>2026-10-22T02:06:58+00:00</updated>
+    <author>
+      <name>Stuff691734</name>
+    </author>
+    <content>Changed error about about final goal not being randomized into a warning, and made it only check if the module is activated.</content>
+    <link href="https://github.com/Stuff691734/ModdedMCArchipelago/releases/tag/v3.0.11"/>
   </entry>
 </feed>
