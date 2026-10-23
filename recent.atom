@@ -2,116 +2,11 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://raw.githubusercontent.com/silasary/apworlds/refs/heads/main/recent.atom</id>
   <title>Recent APWorlds</title>
-  <updated>2026-10-23T10:51:10.831811+00:00</updated>
+  <updated>2026-10-23T16:16:10.316310+00:00</updated>
   <author>
     <name>Silasary</name>
   </author>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
-  <entry>
-    <id>https://github.com/m-this/tf2-archipelago/releases/tag/nightly</id>
-    <title>Team Fortress 2 Mann vs Machine v1.18.3r2</title>
-    <updated>2026-10-18T21:24:25+00:00</updated>
-    <author>
-      <name>mathis</name>
-    </author>
-    <content>**This is not a release.** It is the head of `main`, rebuilt on every push,
-and it is replaced without warning. For something that stays put, use the
-[latest release](https://github.com/m-this/tf2-archipelago/releases/latest).
-
-Built from `47f93bd62bcc398f54737f1fd59485c59db20295`.
-
-## Downloads
-
-- [tf2ap.exe](https://github.com/m-this/tf2-archipelago/releases/download/nightly/tf2ap.exe) for Windows
-- [tf2ap-linux-amd64](https://github.com/m-this/tf2-archipelago/releases/download/nightly/tf2ap-linux-amd64) for Linux
-
-## Since v1.18.3
-
-- fix(bridge): wait for the client to stop before a test's TempDir goes
-- fix(installer): say to retry later when a download site fails
-- fix(bridge): refuse a seed whose community missions are not installed
-- fix(plugin): name the mission once SigMod's vote guard is over
-- fix(launcher): refuse a Linux start with no steamclient.so link
-- chore(deploy): pin floating image tags
-- chore(deps): tf2-mvm-bots-go v0.18.8
-- chore(deps): tf2-mvm-bots-go v0.18.7
-- fix(plugin): stop the minus button paying the bundle ledger again
-- test(docker): refuse an image that drops the plugin's gamedata
-- docs(readme): keep the README to downloads and install links
-</content>
-    <link href="https://github.com/m-this/tf2-archipelago/releases/tag/nightly"/>
-  </entry>
-  <entry>
-    <id>https://github.com/Uroogla/S2AP/releases/tag/2.2.0</id>
-    <title>Spyro 2 v2.2.0</title>
-    <updated>2026-10-19T00:14:43+00:00</updated>
-    <author>
-      <name>Uroogla</name>
-    </author>
-    <content>This release modifies both the Duckstation client (S2AP.Desktop.exe) and the APWorld (including the Bizhawk client). This release is not compatible with previous versions. As this release patches a significant DataStorage usage issue with the Duckstation client, full gemsanity players are urged to update immediately.&#13;
-&#13;
-New Features:&#13;
-- Players can now menu out of Glimmer before entering Summer Forest for the first time.&#13;
-  - Game overs prior to entering Summer Forest continue to redirect the player to Glimmer, as in vanilla.&#13;
-&#13;
-Changes:&#13;
-- The minimum supported AP version is now 0.6.6, up from 0.6.1.&#13;
-- Most users will no longer need to run the Duckstation client in admin mode. This is no longer forced on opening it.&#13;
-- Gemsanity Rework&#13;
-  - Gem locations and items are now separated.&#13;
-    - The player may specify how many gems to become locations.&#13;
-    - Gems will behave normally if only locations are added.&#13;
-    - Adding 500 or more locations requires host approval.&#13;
-  - Simplified gem item options.&#13;
-  - When choosing gem bundles or full gemsanity, the player's gem location count may be overridden to provide enough locations.&#13;
-  - If not logically required, red gems are now filler items. Otherwise, they are converted to green and blue gems.&#13;
-    - This significantly improves the speed of generation and success rate for full gemsanity.&#13;
-- When Level Locks are on, beating Ripto unlocks Dragon Shores permanently.&#13;
-  - The lock now only prevents entering from out of bounds.&#13;
-- The trick enabling wall access from Zephyr with Double Jump now also grants access to the two gems outside Metro Speedway into logic. (Coded by PhoenixAki)&#13;
-&#13;
-Bug Fixes&#13;
-- [Duckstation] Fixed a critical bug where inefficient DataStorage use could cause issues up to and including crashes in full gemsanity seeds.&#13;
-- Fixed a logic error that incorrectly handled the warp from Crush to Autumn Plains when the player had swim but not climb.&#13;
-- [Bizhawk] Fixed a pair of bugs around Sparx range and the Lazy Sparx Trap.&#13;
-- Fixed a bug where loading into an in-progress gemsanity seed could release checks based on your vanilla progression instead of your AP progression.&#13;
-- [Duckstation] Fixed a bug where connecting before in game could cause filler items received offline to be lost.&#13;
-- Fixed a bug where Elora could let the player into the Ripto fight early under rare circumstances.</content>
-    <link href="https://github.com/Uroogla/S2AP/releases/tag/2.2.0"/>
-  </entry>
-  <entry>
-    <id>https://github.com/Alchav/Archipelago/releases/tag/spicy-1.0.4</id>
-    <title>SM64: Spicy Mycena 64 v1.0.4</title>
-    <updated>2026-10-19T00:27:59+00:00</updated>
-    <author>
-      <name>Alchav</name>
-    </author>
-    <content># APWorld updates&#13;
-- Trick tags added. You can now use the following to enable all tricks tagged with the specified tags (note that the difficulty tags no longer include tricks below the specified difficulty levels. If you want all easy and all medium tricks, you will need to add both All Easy Tricks and All Medium Tricks):&#13;
-  - All Easy Tricks&#13;
-  - All Medium Tricks&#13;
-  - All Hard Tricks&#13;
-  - All Pro Tricks&#13;
-  - All Cannon Precision Tricks&#13;
-  - All Metal Cap Skip Tricks&#13;
-- New tricks added:&#13;
-  - Big Boo's Haunt Shed Roof 1-Up with Crazy Box #18 @Spoider1315&#13;
-  - Hazy Maze Cave Pit Islands with Long Jump&#13;
-  - Tick Tock Clock Top Past Spinners with Side Flip #27 @ClTYOFEVlL&#13;
-- Many logic fixes, including from #20 @ItzLoonie&#13;
-- Sign hints now select items from later spheres only, rather than the same or later sphere.&#13;
-- Updated setup guide #26 @Prelle&#13;
-&#13;
-# sm64ex updates&#13;
-- Split coin storage into separate DataStorage keys for each course. Hopefully, this prevents DataStorage from hitting a limit on the archipelago.gg servers. The limits do not seem to be public information.&#13;
-- More robust handling of saving and retrieving coin collection data from the server.&#13;
-&#13;
-#sm64ex hotfixes&#13;
-- October 19, 2026: Reading an entrance hint on a sign no longer causes Universal Tracker to treat the entrance as discovered. A separate flag is saved on the server instead which will be used in the future 1.0.5 release by Universal Tracker to consider an entrance "discovered" but not treated as reachable if you cannot reach it.&#13;
-- October 19, 2026: Location checks should not be lost when done while disconnected from the server.&#13;
-- October 20, 2026: Fixed coin count displays in the global level items menu.</content>
-    <link href="https://github.com/Alchav/Archipelago/releases/tag/spicy-1.0.4"/>
-  </entry>
   <entry>
     <id>https://github.com/zane31415/ArchipelagoBG3/releases/tag/v0.8.0</id>
     <title>Baldur's Gate 3 v0.8.0</title>
@@ -412,7 +307,7 @@ Added "Please Wait..." message in-between clicking free mark and getting server 
   </entry>
   <entry>
     <id>https://github.com/TreZc0/OoTR-APWorld/releases/tag/v9.1.0-release7</id>
-    <title>Ocarina of Time v9.1.0r3</title>
+    <title>Ocarina of Time v9.1.0r2</title>
     <updated>2026-10-20T14:05:24+00:00</updated>
     <author>
       <name>espeon65536</name>
@@ -1265,5 +1160,53 @@ Same as before.&#13;
   - This allows any post-Ragnarok checks to be in logic before meeting the Required Guardians&#13;
 - Some minor logic corrections and additions</content>
     <link href="https://github.com/Crownmuri/Archipelago/releases/tag/v1.1.0"/>
+  </entry>
+  <entry>
+    <id>https://github.com/vgm5/Night_Of_100_Frights_ap_world/releases/tag/Release_1_4_2</id>
+    <title>Scooby-Doo! Night of 100 Frights v1.4.2</title>
+    <updated>2026-10-23T13:28:01+00:00</updated>
+    <author>
+      <name>vgm5</name>
+    </author>
+    <content># Bugfix Release&#13;
+&#13;
+## Indirect Condition Logic Fix&#13;
+- Fixes an issue where if access to a region/location was dependent on another region being reachable, Tracker Logic could potentially get confused and improperly flag checks as reachable</content>
+    <link href="https://github.com/vgm5/Night_Of_100_Frights_ap_world/releases/tag/Release_1_4_2"/>
+  </entry>
+  <entry>
+    <id>https://github.com/ElectroStarz/ArchipelagoMSM/releases/tag/v3.1.2</id>
+    <title>Mario Sports Mix v3.1.2</title>
+    <updated>2026-10-23T15:05:27+00:00</updated>
+    <author>
+      <name>ElectroStarz</name>
+    </author>
+    <author>
+      <name>Puffy</name>
+    </author>
+    <content>## What's Changed&#13;
+* Added /ff_roster_fix for FF characters that refuse to obey /roster_fix</content>
+    <link href="https://github.com/ElectroStarz/ArchipelagoMSM/releases/tag/v3.1.2"/>
+  </entry>
+  <entry>
+    <id>https://github.com/KuroLynx/AEMinecraft/releases/tag/v0.7.0-rc.5</id>
+    <title>AEMinecraft v0.7.0rc5</title>
+    <updated>2026-10-23T15:19:57+00:00</updated>
+    <author>
+      <name>KuroLynx</name>
+    </author>
+    <author>
+      <name>EDGN</name>
+    </author>
+    <content>Hey, so I kinda hit my session limit before writing the notes. . .&#13;
+&#13;
+So here a quick resume for this one:&#13;
+&#13;
+Many, (like many), logic fixes.&#13;
+Mod fixes.&#13;
+QoL options&#13;
+&#13;
+Some of the mods feature that I wanted to implement (QoL) will be shipped later on on r.c-6, which will be the last release candidate before v0.7.0.</content>
+    <link href="https://github.com/KuroLynx/AEMinecraft/releases/tag/v0.7.0-rc.5"/>
   </entry>
 </feed>
