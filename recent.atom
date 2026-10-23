@@ -2,315 +2,11 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://raw.githubusercontent.com/silasary/apworlds/refs/heads/main/recent.atom</id>
   <title>Recent APWorlds</title>
-  <updated>2026-10-23T02:26:44.293176+00:00</updated>
+  <updated>2026-10-23T10:51:10.831811+00:00</updated>
   <author>
     <name>Silasary</name>
   </author>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
-  <entry>
-    <id>https://github.com/toent/Archipelago-MKWii/releases/tag/v0.3.2</id>
-    <title>Mario Kart Wii v0.3.2</title>
-    <updated>2026-10-18T19:30:28+00:00</updated>
-    <author>
-      <name>toent</name>
-    </author>
-    <content>## Release Version 0.3.2: Deathlink Amnesty &amp; Fixes :)&#13;
-Added deathlink amnesty, so you can make those deathlinks a little less punishing. I also rewrote some stuff that will help later for a ntsc implementation to the same client. I also fixed some common glitches and frustrations to both the tracker and the client. If you want to help index the memory adresses, pointers and constants for ntsc, check out the `./worlds/mkwii/"MKWii Client"/dme_addresses.py` script, it houses all the current memory addresses, pointers and constants for pal. These all need to be translated to ntsc for the client to work. Your help is greatly appreciated, as I do not own a ntsc copy.&#13;
-&#13;
-### Changelog:&#13;
-- [APWorld] Added support for deathlink amnesty.&#13;
-- [Client] Added support for deathlink amnesty.&#13;
-- [Client] Added some fun deathlink messages, they are randomly chosen.&#13;
-- [Client] Rewrote parts of client regarding future-proofing for _future_ ntsc support.&#13;
-- [Client] Rewrote reporting logic.&#13;
-- [Client] Fixed mirror mode not unlocking when starting off with a mirror cup as one of your starting cups.&#13;
-- [Tracker] Removed bloated dependency to decrease file size by approximately 60% (was already included in the build last time but not on the source).&#13;
-- [Tracker] Fixed issue where another game's release/completion would obstruct vision of completion on cups screen.&#13;
- &#13;
-**REQUIRES THIS NEW APWORLD**&#13;
-_(it can run on the 0.3.1 APWorld but deathlink amnesty will NOT work)_  &#13;
-&#13;
-_Linux users, download the source code here to run the client._&#13;
-&#13;
-**Full Changelog**: https://github.com/toent/Archipelago-MKWii/compare/v0.3.1...v0.3.2</content>
-    <link href="https://github.com/toent/Archipelago-MKWii/releases/tag/v0.3.2"/>
-  </entry>
-  <entry>
-    <id>https://github.com/Batatvideogames/silksong-archipelago-randomizer/releases/tag/v0.5.2</id>
-    <title>Hollow Knight: Silksong v0.5.2</title>
-    <updated>2026-10-18T19:33:36+00:00</updated>
-    <author>
-      <name>BatAtVideoGames</name>
-    </author>
-    <content>And with this, Verdania is fully mapped and every area is done (on a base level). Split directions and enemy mapping are being worked on but the totals are looking incredible, shoutouts to the mappers for being crazy productive people. Anyway here's another week full of logic adjustments, bug fixes and some new features&#13;
-(Also usual small offer to [buy me a coffee](https://streamlabs.com/batatvideogames/tip) if you feel like supporting this)&#13;
-&#13;
-# Major &#13;
-&#13;
-- Added completed Verdania logic (by Pyxl)&#13;
-- Completely reworked Slabs logic (by Maya)&#13;
-- Completely reworked Choral Chambers logic (by Gallos)&#13;
-- Several other areas got logic updates as well&#13;
-- Added the Split/Directional Abilities category, Damage Boost Logic and Platforming Capability got expanded to now include Elite Ball Knowledge (which is Proficient Movement + extremely specific game knowledge that even Proficient Movement doesn't cover)&#13;
-- Added optional Left/Right versions of Cling Grip, Ledge Grab, Clawline and Swift Step. Split Dash/Sprint keeps sprint unrestricted&#13;
-   - Please note that the mappers are still working on adding split directions for their areas so not all areas support them fully yet, each update will further improve on this&#13;
-&#13;
-# Minor / Bugfixes&#13;
-&#13;
-* Some locations now no longer share the generic "Shell Shard Cache 1, 2, 3, etc" scheme and instead are given more discriptive names. The mappers are still working on renaming them all so please be patient&#13;
-* Added some missing UT maps, overall adjusted UT map marker positions&#13;
-* Fixed blacked-out passages in Memorium (Arborium_06) when entering from the left&#13;
-* Fixed fog obscuring Greymoor's hidden right entrance (Greymoor_02)&#13;
-* Fixed Greyroot giving no dialogue after completing her shuffled wish&#13;
-* Sylphsong now resumes during the same bench rest that removes a Cursed Crest Trap&#13;
-* Fixed missing randomized Shaman Crest Slot checks in Act 2 seeds&#13;
-* Fixed Craftmetal/Crest Slot generation repair bugs&#13;
-* Corrected unnecessary Act 3 gates for Khann and Nyleth&#13;
-* Fixed Pristine Core logic to require collecting Architect Crests location&#13;
-* Fixed completing Ecstasy of the End early making the Egg of Flealia check unavailable&#13;
-* Fixed duplicate Sherma when completing Balm for the Wounded before meeting him in Songclave&#13;
-* Fixed lingering Magma Bell HUD effects during Naked Trap, including while sizzling&#13;
-* Randomized Craw Summons now appears on the first eligible bench rest&#13;
-* Fixed Fleatopia Supplies appearing in logic before the caravan reaches Fleatopia&#13;
-* Fixed later Jubilana purchases appearing in logic before both rescues and her shop are available&#13;
-* Added Conjoined Heart to Old Heart randomization&#13;
-* Fixed the cursed crest blocking Eva and other required NPCs&#13;
-* Added Enter to connect from the Connection tab without clicking the button&#13;
-* Fixed Wish Shuffle marking Bone Bottom Supplies as available while Flick is still building the wish board&#13;
-* Fixed a rare DeathLink issue where an old connection could deliver a death after reconnecting or switching slots&#13;
-* Updated Fleatopia's minigame requirements&#13;
-* F4 warp can now be done in the main AP inventory page, the location can also be toggled between unlocked ones next to it &#13;
-* Prevented early Savage Beastfly wishes from removing Fourth Chorus's platforms before its defeat&#13;
-* Fixed KnockbackLink rejecting knockbacks because players' PC clocks differ&#13;
-* Fixed Fatal Resolve's wish offer appearing in logic before its required Act 3 shaman meeting&#13;
-* Corrected Silk and Soul logic for caravan progression, Flexile Spines and several wish-point contributions&#13;
-* Fixed shuffled wishes potentially blocking progression into Act 3&#13;
-* Fixed Clawline allowing use of an unowned Drifter's Cloak&#13;
-* Fixed Drifter's Cloak wall-grabbing depending on visiting Cling Grip's original location&#13;
-* Boss Credits now explain their effects in the AP inventory&#13;
-* Phantom's Boss Credit now stops exhaust in the Organ, Underworks and Bilewater&#13;
-   * Clearing the Mist and unlocking the lift still require defeat&#13;
-* Verdania stays open even after defeating the Clover Dancers&#13;
-* Added Palestag Boss Credit&#13;
-* Improved (idiot proofed) Craftmetal spending&#13;
-* Fixed Whispering Vaults’ bottom entrance incorrectly putting locations in logic before you could climb out of the entrance area&#13;
-* Fixed several locations incorrectly requiring Craw Lake completion or Clawline despite having another valid route&#13;
-* Reduced the delay before randomized flea rewards are sent&#13;
-* Adjusted Herobrine to only target players who have benchwarp installed&#13;
-* Removed Far Fields - Shell Shard Cache 8 and the inscription on First Sinner's door&#13;
-* Fixed the Mosshome Moss Plaque check becoming unavailable after using Needolin&#13;
-* Fixed uncollected Beast Shard rewards from Rhinogrund failing to return after leaving the room or dying&#13;
-* Fixed Bone Bottom, Bellhart and Songclave disappearing from F4 destinations in Act 3&#13;
-* Fixed Whispering Vaults appearing reachable through the unopened Underworks elevator shortcut&#13;
-* Fixed duplicate handling of the Pilgrim's Rest Tool Pouch location&#13;
-* Wardenfly captures now count as routes into the Slab&#13;
-* Overworld Wardenflies no longer disappear because of Slab progress or Act 3&#13;
-   * Killed Wardenflies return when you leave and re-enter their room&#13;
-* Added Key of Indolent and Key of Heretic to Major Key randomization&#13;
-* Starting with Shaman or another later-act crest now keeps Hunter available in earlier-goal runs, including its randomized slot locations and items&#13;
-* Fixed excluded crest slots waiting for AP items that don’t exist&#13;
-* Fixed Nuu's scroll interaction staying disabled after her availability changes&#13;
-* Fixed Phantoms defeat not being recognized when evaluating their Citadel entrance&#13;
-&#13;
-</content>
-    <link href="https://github.com/Batatvideogames/silksong-archipelago-randomizer/releases/tag/v0.5.2"/>
-  </entry>
-  <entry>
-    <id>https://github.com/m-this/tf2-archipelago/releases/tag/v1.18.3</id>
-    <title>Team Fortress 2 Mann vs Machine v1.18.3</title>
-    <updated>2026-10-18T20:34:04+00:00</updated>
-    <author>
-      <name>mathis</name>
-    </author>
-    <content>&lt;p align="center"&gt;
-  &lt;a href="https://github.com/m-this/tf2-archipelago/releases/latest/download/tf2ap.exe"&gt;
-    &lt;img alt="Download tf2ap.exe for Windows" src="https://img.shields.io/badge/Download-tf2ap.exe%20for%20Windows-2ea44f?style=for-the-badge&amp;logo=windows&amp;logoColor=white"&gt;
-  &lt;/a&gt;
-  &lt;a href="https://github.com/m-this/tf2-archipelago/releases/latest/download/tf2ap-linux-amd64"&gt;
-    &lt;img alt="Download tf2ap-linux-amd64 for Linux" src="https://img.shields.io/badge/Download-tf2ap--linux--amd64-1b1f27?style=for-the-badge&amp;logo=linux&amp;logoColor=white"&gt;
-  &lt;/a&gt;
-&lt;/p&gt;
-
-## Changes
-
-### Added
-
-- **`!ap loadout` equips weapons you don't own.** Pick a slot, then any weapon
-  your class can hold in it. The list puts the weapons with the most
-  Archipelago buffs first and shows how many each one has. Stock weapons are
-  not listed, since you already have them: Reset at the end of the list puts
-  your own weapon back. The choice lasts until you leave the server. It
-  applies at once in the spawn room or between waves, otherwise at your next
-  resupply. Slots the run has not unlocked stay locked. Upgrades you buy for
-  the chosen weapon stay on it, the same as for a weapon from your backpack. We
-  tested the weapon swaps and the upgrades on a server with a scripted player,
-  but no real player has opened the menu yet.
-- **Nuke, next to Repair in Settings.** It deletes the game server, SteamCMD
-  and the downloads, and the next start installs them again from nothing, 14 GB
-  included. Repair keeps the game files; Nuke does not. The run and its checks,
-  your settings, the player file and your community content folder stay. It
-  asks before it does anything.
-
-### Fixed
-
-- **Servers work on the TF2 update of 16 October 2026.** Windows SigMod
-  servers no longer refuse to start or crash on every community mission, and
-  the defender bots read item and attribute data correctly again on Windows
-  and Linux.
-- **Windows SigMod servers play every community mission to the end.** The
-  test servers now clear all 532 waves of the SigMod community missions.
-- **Spy stabs alert nearby robots** on Linux SigMod servers.
-- **The Your Eternal Reward unnerf works again on Linux.** The last TF2 update
-  had broken it.
-- **More SigMod mods work on Windows servers:** 254 of the 309 mods now load
-  in full.
-- **Caliginous Caper wave 666 no longer ends when the 64 Spies die.** Valve
-  lists the tanks that wait for the Spies ahead of them, and the game ends the
-  wave on the tick the last Spy dies, before the tanks, the crit robots and the
-  Uber Medics that follow. The repaired file now lists each group after the
-  ones it waits for. The server writes it again at start.
-- **Weapon buffs no longer pile up on Windows servers.** Each time the game
-  rebuilt your buffs, the reserve ammo and the health you were holding went up
-  by the buff again, and switching weapons rebuilds them twice. A +25% reserve
-  ammo buff read 511, 797, 1243 and kept going, and a max health buff added its
-  amount to your health every time. The buffs themselves were right. The plugin
-  now puts back the ammo and health a rebuild raised. It does not top up your
-  ammo or health when you first earn a buff; the next resupply does that. The
-  Linux server we measured did not do this. We ran ten rebuilds in a row on a
-  Windows and a Linux server with scripted defender bots, but no real player
-  has checked it yet.
-- **Windows servers run on the 2026-10-14 TF2 update.** The update moved the
-  game code SigMod patches, and a SigMod built for the old game refuses to
-  load on the new one. The Windows launcher now installs a SigMod built for TF2
-  11117211. Missions that need SigMod load again.
-- **Windows SigMod servers no longer crash when bots use items or when a
-  mission is cleared.** A bot using an item (a canteen, say) could crash the
-  server, and so could clearing a mission with a thousand robots or more. Both
-  came from game functions the Windows SigMod had not found. We played the
-  missions on a Windows server with scripted defender bots; all but one mission
-  played through, and that one still stops at its first wave.
-- **More SigMod mods work on a Windows server.** Weapon effects, death yells
-  and entity limits did nothing there, because the Windows SigMod had not found
-  the game functions they hook. They now run. We played the missions on a
-  Windows server with scripted defender bots: five of eight groups played
-  through. Three missions still lose waves (Dismal Devilry, Dust to Dust and
-  Trespasser Remaster) and are being looked at.
-
-
-## Windows
-
-Download **`tf2ap.exe`** above. Run it. It installs everything else.
-
-Windows will warn you, and it is a false positive. The exe unpacks archives and
-starts a game server without a code signature, which looks like a virus to a
-scanner. Click **More info**, then **Run anyway**, or check it below first.
-
-[Full guide](https://m-this.github.io/tf2-archipelago/en/setup/install-windows.html)
-
-## Linux
-
-Download **`tf2ap-linux-amd64`**. Run it. It installs everything else.
-
-```sh
-chmod +x tf2ap-linux-amd64
-./tf2ap-linux-amd64
-```
-
-[Full guide](https://m-this.github.io/tf2-archipelago/en/setup/install-linux.html)
-
-## Docker
-
-Download **`compose.yaml`** and **`env.example`**:
-
-```sh
-mkdir mann-vs-archipelago &amp;&amp; cd mann-vs-archipelago
-base=https://github.com/m-this/tf2-archipelago/releases/latest/download
-curl -fsSLO "$base/compose.yaml"
-curl -fsSL -o .env "$base/env.example"
-```
-
-Set `SRCDS_RCONPW` in `.env`, then:
-
-```sh
-docker compose --profile seed run --rm seed   # writes ./seed
-docker compose up -d
-```
-
-Upload the file from `seed/` at
-[archipelago.gg/uploads](https://archipelago.gg/uploads) and put the room's
-port into `AP_PORT`.
-
-[Full guide](https://m-this.github.io/tf2-archipelago/en/setup/install.html)
-
-## Other assets
-
-| File | For |
-| --- | --- |
-| `tf2_mvm.apworld` | The official Archipelago app. |
-| `tf2_archipelago.smx` | A SourceMod server the launcher and compose file don't manage. |
-| `tf2-defender-bots.zip` | The bots for that same server. Unzip into `tf/`. |
-| `meta.json`, `items.json`, `missions.json` | The item and check tables, for reference. |
-
-## Checking what you downloaded
-
-**`SHA256SUMS`** is attached to this release. It holds the hash of every file
-here, computed by the workflow that built them.
-
-```powershell
-Get-FileHash tf2ap.exe -Algorithm SHA256    # Windows
-```
-
-```sh
-sha256sum -c SHA256SUMS --ignore-missing    # Linux
-```
-
-Each binary carries a signed record of the commit and the workflow that built
-it:
-
-```sh
-gh attestation verify tf2ap.exe --repo m-this/tf2-archipelago
-```
-
-The binaries are scanned on VirusTotal, and the reports are linked at the end of
-these notes. Expect a few heuristic detections and no named malware family. The
-source is all in the repository, and `make launcher` rebuilds the exe on your
-own machine.
-
-## Code signing policy
-
-Free code signing for open source projects, provided by
-[SignPath.org](https://signpath.org), with a certificate from the
-[SignPath Foundation](https://signpath.org).
-
-&gt; [!WARNING]
-&gt; The application is open, not granted. Nothing is signed yet: `tf2ap.exe` ships
-&gt; unsigned, and Windows warns about it until that changes.
-
-
-## What's Changed
-* fix(ci): hand the release and the nightly the extensions they now need by @m-this in https://github.com/m-this/tf2-archipelago/pull/221
-* chore(release): 1.18.3 by @m-this in https://github.com/m-this/tf2-archipelago/pull/222
-
-
-**Full Changelog**: https://github.com/m-this/tf2-archipelago/compare/v1.18.2...v1.18.3
-
-## VirusTotal
-
-- [`tf2ap.exe`](https://www.virustotal.com/gui/file-analysis/ZTVlYTA2MGNiMmYwODFjNDE3ZGJiYzE5Yzg1ZWUyOTc6MTc5MjM1NjAwMg==/detection)
-- [`tf2ap-linux-amd64`](https://www.virustotal.com/gui/file-analysis/YmUwOTdmNzVlOTgxMDM4MWQ0YzVmMDMyNmMxNDE5ZTI6MTc5MjM1NjAwNQ==/detection)
-</content>
-    <link href="https://github.com/m-this/tf2-archipelago/releases/tag/v1.18.3"/>
-  </entry>
-  <entry>
-    <id>https://github.com/ArsonAssassin/DC2AP/releases/tag/0.1.0.0</id>
-    <title>Dark Cloud 2 v0.1.0.0</title>
-    <updated>2026-10-18T20:37:55+00:00</updated>
-    <author>
-      <name>ArsonAssassin</name>
-    </author>
-    <content>**Full Changelog**: https://github.com/ArsonAssassin/DC2AP/compare/0.0.4.0...0.1.0.0</content>
-    <link href="https://github.com/ArsonAssassin/DC2AP/releases/tag/0.1.0.0"/>
-  </entry>
   <entry>
     <id>https://github.com/m-this/tf2-archipelago/releases/tag/nightly</id>
     <title>Team Fortress 2 Mann vs Machine v1.18.3r2</title>
@@ -716,7 +412,7 @@ Added "Please Wait..." message in-between clicking free mark and getting server 
   </entry>
   <entry>
     <id>https://github.com/TreZc0/OoTR-APWorld/releases/tag/v9.1.0-release7</id>
-    <title>Ocarina of Time v9.1.0r2</title>
+    <title>Ocarina of Time v9.1.0r3</title>
     <updated>2026-10-20T14:05:24+00:00</updated>
     <author>
       <name>espeon65536</name>
@@ -1507,5 +1203,67 @@ Same as before.&#13;
 ## Knight 2 Logic Fix&#13;
 - Fixes an issue where if Keys were set to Vanilla an warps were random, backwards navigation would be in logic without any additional items besides knight warp</content>
     <link href="https://github.com/vgm5/Night_Of_100_Frights_ap_world/releases/tag/Release1.4.1"/>
+  </entry>
+  <entry>
+    <id>https://github.com/FyreDay/Archipelago-MinaTheHollower/releases/tag/v1.1.2</id>
+    <title>Mina The Hollower v1.1.1r2</title>
+    <updated>2026-10-23T04:52:36+00:00</updated>
+    <author>
+      <name>FyreDay, Axertin, ZXavier</name>
+    </author>
+    <content>- Update compatibility to the latest UT version</content>
+    <link href="https://github.com/FyreDay/Archipelago-MinaTheHollower/releases/tag/v1.1.2"/>
+  </entry>
+  <entry>
+    <id>https://github.com/Levisaxos/Archipelago_GemcraftFrostbornWrath/releases/tag/v0.0.6.4</id>
+    <title>GemCraft: Frostborn Wrath v0.6.2r2</title>
+    <updated>2026-10-23T09:13:26+00:00</updated>
+    <author>
+      <name>Levisaxos</name>
+    </author>
+    <content>## What's Changed&#13;
+* Fixed issue where P5 and L5 dont show their actual requirements (trap, beam etc) by @Levisaxos in https://github.com/Levisaxos/Archipelago_GemcraftFrostbornWrath/pull/82&#13;
+* Added support for reavers, swarmlings, giants and wave search in game… by @Levisaxos in https://github.com/Levisaxos/Archipelago_GemcraftFrostbornWrath/pull/83&#13;
+&#13;
+&#13;
+**Full Changelog**: https://github.com/Levisaxos/Archipelago_GemcraftFrostbornWrath/compare/v0.0.6.3...v0.0.6.4</content>
+    <link href="https://github.com/Levisaxos/Archipelago_GemcraftFrostbornWrath/releases/tag/v0.0.6.4"/>
+  </entry>
+  <entry>
+    <id>https://github.com/1313e/Civ-V-AP-World/releases/tag/v0.10.10</id>
+    <title>Civilization V v0.10.10</title>
+    <updated>2026-10-23T09:17:01+00:00</updated>
+    <author>
+      <name>1313e</name>
+    </author>
+    <content>**Fixes**:&#13;
+- Fix issue with 'on_print_json' introduced by AP 0.7.8.&#13;
+&#13;
+**Full Changelog**: https://github.com/1313e/Civ-V-AP-World/compare/v0.10.9...v0.10.10</content>
+    <link href="https://github.com/1313e/Civ-V-AP-World/releases/tag/v0.10.10"/>
+  </entry>
+  <entry>
+    <id>https://github.com/Crownmuri/Archipelago/releases/tag/v1.1.0</id>
+    <title>La-Mulana 2 v1.1.0</title>
+    <updated>2026-10-23T09:47:52+00:00</updated>
+    <author>
+      <name>Crownmuri</name>
+    </author>
+    <author>
+      <name>Coookie93</name>
+    </author>
+    <content>## For players, please update the mod to v1.1.0 (softlock fix, custom soul gate values)&#13;
+&#13;
+# Changelogs&#13;
+- Added "progressive useful" tagging for items that often lead to large location access / go mode.&#13;
+- Split Require FDC and Required Totem (for DLC)&#13;
+- Enemy Glossary accessibility now takes world difficulty scaling into logic&#13;
+  - This makes Harp and Ganesha's Talisman progressive as they affect the scaling&#13;
+- Non-vanilla soul gate values can now be set (full range from 0 to 9)&#13;
+- With Random Dissonance, sealing the corridor now only requires the charged Beherit&#13;
+  - The Required Guardians requirement is enforced through the Spiral Boat soul gate value &#13;
+  - This allows any post-Ragnarok checks to be in logic before meeting the Required Guardians&#13;
+- Some minor logic corrections and additions</content>
+    <link href="https://github.com/Crownmuri/Archipelago/releases/tag/v1.1.0"/>
   </entry>
 </feed>
