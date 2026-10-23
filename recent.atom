@@ -2,47 +2,11 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://raw.githubusercontent.com/silasary/apworlds/refs/heads/main/recent.atom</id>
   <title>Recent APWorlds</title>
-  <updated>2026-10-22T21:14:34.931263+00:00</updated>
+  <updated>2026-10-23T02:26:44.293176+00:00</updated>
   <author>
     <name>Silasary</name>
   </author>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
-  <entry>
-    <id>https://github.com/KitLemonfoot/ArchipelagoMIUU/releases/tag/v0.3.0</id>
-    <title>Marble It Up! Ultra v0.3.0</title>
-    <updated>2026-10-18T17:59:51+00:00</updated>
-    <author>
-      <name>KitLemonfoot</name>
-    </author>
-    <author>
-      <name>thearst3rd</name>
-    </author>
-    <content>**NOTABLE:** You can now specifically choose which medals you would like to play with. A minimum of 2 medal types is enforced and must be selected (though one can be substituted with Treasureboxsanity).&#13;
-**NOTABLE:** Added the Bonus Arc End Goal. You can choose whether to beat just the final level of the Ultra Arc, the Bonus Arc, or both.&#13;
-**NOTABLE:** The in-game tracker can now be scrolled to see the requirements for different medals and the treasure box, if enabled.&#13;
-**NOTABLE:** Added an `apDisconnect` command that disconnects you from your current Archipelago server. No more game restarting to switch servers or to reconnect!&#13;
-&#13;
-**GENERAL:** Added thearst3rd as co-author.&#13;
-**GENERAL:** Removed `Bounce Surfaces` as a requirement for *Boomerang*. (Ricocheting off the wall works just as well as the bounce surface.)&#13;
-**GENERAL:** Fixed a logic bug with *Head In The Clouds*. `Blue Moving Platforms` is now required for all completion levels.&#13;
-**APWORLD:** Fixed an error where Cosmetic Shuffle Traps had the wrong name internally.&#13;
-**CLIENT:** Using `apConnect` or `apDisconnect` will automatically return you to the main menu.&#13;
-**CLIENT:** Added an `apRelease` command for seeds that do not automatically release their checks.&#13;
-**CLIENT:** The warning message before playing out-of-logic levels will now tell you which medal can't be obtained, or if the treasure box can't be obtained.&#13;
-**CLIENT:** The Level Select's medal display will now be based on the lowest medal that has been collected, to better account for `/send_location` and `/collect`.&#13;
-**CLIENT:** Your goal level(s) will now glitter blue and be highlighted blue on the chapter select screen.</content>
-    <link href="https://github.com/KitLemonfoot/ArchipelagoMIUU/releases/tag/v0.3.0"/>
-  </entry>
-  <entry>
-    <id>https://github.com/riezahughes/MedievilAPWorld/releases/tag/v0.4.0</id>
-    <title>Medievil v0.3.0r2</title>
-    <updated>2026-10-18T18:44:27+00:00</updated>
-    <author>
-      <name>RiezaHughes</name>
-    </author>
-    <content/>
-    <link href="https://github.com/riezahughes/MedievilAPWorld/releases/tag/v0.4.0"/>
-  </entry>
   <entry>
     <id>https://github.com/toent/Archipelago-MKWii/releases/tag/v0.3.2</id>
     <title>Mario Kart Wii v0.3.2</title>
@@ -752,7 +716,7 @@ Added "Please Wait..." message in-between clicking free mark and getting server 
   </entry>
   <entry>
     <id>https://github.com/TreZc0/OoTR-APWorld/releases/tag/v9.1.0-release7</id>
-    <title>Ocarina of Time v9.1.0r3</title>
+    <title>Ocarina of Time v9.1.0r2</title>
     <updated>2026-10-20T14:05:24+00:00</updated>
     <author>
       <name>espeon65536</name>
@@ -1508,5 +1472,40 @@ This RC only lists what changed since the **[v0.7.0-rc.3 release notes](https://
     </author>
     <content/>
     <link href="https://github.com/ArsonAssassin/DWAP/releases/tag/0.4.0.0"/>
+  </entry>
+  <entry>
+    <id>https://github.com/WolfBoi008/One-More-Night/releases/tag/pre-3.0.0-1</id>
+    <title>Manual_OneMoreNight_WolfBoi008 v3.0.0.post1</title>
+    <updated>2026-10-22T22:17:26+00:00</updated>
+    <author>
+      <name>WolfBoi008</name>
+    </author>
+    <content># Known Issues&#13;
+Same as before.&#13;
+# Changelog&#13;
+- **Added a bunch of Placeholder content in preparation for the update.**&#13;
+  - You shouldn't notice them for now, assuming I coded things correctly.&#13;
+- **Added a new Option: OSTsanity.**&#13;
+- **Renamed every instance of Zuffy to Gisela.**&#13;
+- Added a Check for "completing" the game's Tutorial.&#13;
+  - This was mainly added because of OSTsanity, but I was secretly contemplating adding it before that.&#13;
+- Made it so the Fishing Rod Key Item will be removed if you are not playing Fishsanity.&#13;
+- Added the Button Radar to the Key Items Category.&#13;
+- Renamed the Buttonsanity Checks to be more descriptive about their locations.&#13;
+  - Feedback is appreciated to refine these!</content>
+    <link href="https://github.com/WolfBoi008/One-More-Night/releases/tag/pre-3.0.0-1"/>
+  </entry>
+  <entry>
+    <id>https://github.com/vgm5/Night_Of_100_Frights_ap_world/releases/tag/Release1.4.1</id>
+    <title>Scooby-Doo! Night of 100 Frights v1.4.1</title>
+    <updated>2026-10-23T01:26:43+00:00</updated>
+    <author>
+      <name>vgm5</name>
+    </author>
+    <content># Bugfix Release&#13;
+&#13;
+## Knight 2 Logic Fix&#13;
+- Fixes an issue where if Keys were set to Vanilla an warps were random, backwards navigation would be in logic without any additional items besides knight warp</content>
+    <link href="https://github.com/vgm5/Night_Of_100_Frights_ap_world/releases/tag/Release1.4.1"/>
   </entry>
 </feed>
