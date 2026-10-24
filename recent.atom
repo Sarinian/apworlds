@@ -2,160 +2,11 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://raw.githubusercontent.com/silasary/apworlds/refs/heads/main/recent.atom</id>
   <title>Recent APWorlds</title>
-  <updated>2026-10-24T02:26:41.954405+00:00</updated>
+  <updated>2026-10-24T10:13:04.956607+00:00</updated>
   <author>
     <name>Silasary</name>
   </author>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
-  <entry>
-    <id>https://github.com/BlastSlimey/PokemonBWAP/releases/tag/0.4.2</id>
-    <title>Pokemon Black and White v0.4.2</title>
-    <updated>2026-10-19T22:59:57+00:00</updated>
-    <author>
-      <name>BlastSlimey</name>
-    </author>
-    <content>## Changelog&#13;
-&#13;
-- Fixed logic of some Opelucid City Battle House trainers&#13;
-- Fixed incorrect regions of some form change events&#13;
-- Fixed form change events being shown in the locations list in the spoiler log&#13;
-- Fixed `Shinysanity` variants sometimes putting booleans into slot data instead of integers&#13;
-- Fixed `Shiny(form)countsanity` still being shown as a dictionary in the spoiler log even if disabled&#13;
-- Fixed `Shinyformsanity` not generating more than one location without using plando mode&#13;
-- Fixed `Shinyformsanity` mistakenly accepting values higher than 72&#13;
-- Fixed `Shinyformcountsanity` never generating more than 16 locations&#13;
-- Fixed generation failures caused by the `Follow/Force evolutions` modifiers in types rando&#13;
-&#13;
-### Is this version compatible with older multiworld slots and save files?&#13;
-Yes, back to 0.4.0&#13;
-However, UT might be inaccurate when tracking worlds generated before 0.4.1</content>
-    <link href="https://github.com/BlastSlimey/PokemonBWAP/releases/tag/0.4.2"/>
-  </entry>
-  <entry>
-    <id>https://github.com/spencer2585/APESO/releases/tag/0.4.0</id>
-    <title>Elder Scrolls Online v0.4.0</title>
-    <updated>2026-10-20T00:24:23+00:00</updated>
-    <author>
-      <name>Spencer2585</name>
-    </author>
-    <content># What's New&#13;
-- Added new Unlimited Wallet Item togglable in the yaml. If received you will be able to hold as much gold as you want&#13;
-- Wayshrine Locking - You can now lock the ability to fast travel to a wayshrine behind an item. Supports by region or individual&#13;
-- Added new AP Data menu to the AP menu. You can use this to see the options for your game&#13;
-&#13;
-# Other Changes&#13;
-- Switched logic to using rule builder&#13;
-- Switched errors on invalid option combinations to use OptionError&#13;
-- Fixed an issue with generation when delves are set to 0&#13;
-&#13;
-# Known Bugs&#13;
-- When switching characters and slots without a full reboot of the game and client can cause issues with items from one character and slot sending for the other&#13;
-- Controller can break on reload, this can be temporarily fixed by entering dialogue with an npc&#13;
-- leaving the client on for an extended period of time can result in the client wiping all items sent to the mod, this can by fixed by closing and reopening the client, upon reconnection it should fix you received items</content>
-    <link href="https://github.com/spencer2585/APESO/releases/tag/0.4.0"/>
-  </entry>
-  <entry>
-    <id>https://github.com/Stuff691734/ModdedMCArchipelago/releases/tag/v3.0.10</id>
-    <title>Modded Minecraft v3.0.10</title>
-    <updated>2026-10-20T00:46:47+00:00</updated>
-    <author>
-      <name>Stuff691734</name>
-    </author>
-    <content>Added an error when the final goal does not get randomized.&#13;
-fixed an issue where tab mode was only checking dependencies chapters and not their own.&#13;
-changed option creator name for checks, it now mentions the setup guide.&#13;
-&#13;
-added options for better questing because I didn't think about using a seperate branch... *sigh*</content>
-    <link href="https://github.com/Stuff691734/ModdedMCArchipelago/releases/tag/v3.0.10"/>
-  </entry>
-  <entry>
-    <id>https://github.com/ItsSeras/Laika-Aged-Through-Blood-Archipelago/releases/tag/v-0.1.7</id>
-    <title>Laika: Aged Through Blood v0.1.7</title>
-    <updated>2026-10-20T00:58:45+00:00</updated>
-    <author>
-      <name>Seras</name>
-    </author>
-    <content>This update fixes several crafting and item-delivery issues, expands weapon upgrades, and improves playing with Archipelago disabled. Rejoice vanilla enjoyers!&#13;
-&#13;
-**Crafting and progression**&#13;
-&#13;
-- Fixed weapon-material and blueprint crates appearing already opened when you owned their reward through another source. Owning a Rusty Spring, for example, no longer prevents collecting its crate’s location check.&#13;
-- Corrected Crafting mode blueprint rewards. A weapon blueprint now grants only its blueprint, while its crafting material remains a separate item. Starting with both grants one of each.&#13;
-- Added recovery for missing blueprints you previously received through Archipelago. Recipes already learned at the blacksmith remain recognized without repeatedly restoring paper blueprints.&#13;
-- Fixed a potential Crafting mode progression lock. Shotgun access now accounts for completing A Heart for Poochie and reaching the Bones needed for crafting in Where Rock Bleeds.&#13;
-- Heartglaze Flower can no longer be placed at Quest Complete: Old Warfare in Crafting mode.&#13;
-- Updated tracker explanations to reflect the corrected shotgun crafting requirements.&#13;
-&#13;
-**Weapon upgrades**&#13;
-&#13;
-- Added Pistol upgrade support.&#13;
-- All six weapons now have **three separate upgrades** available: Pistol, Shotgun, Sniper Rifle, Machine Gun, Rocket Launcher, and Crossbow.&#13;
-- Both Direct and Crafting modes now contain **18 weapon upgrades total**. These replace filler items without adding more location checks.&#13;
-- Upgrades received before obtaining a weapon are held until that weapon is acquired or crafted.&#13;
-- Fixed upgrade handling that could apply the same received upgrades more than once during recovery or reconnecting.&#13;
-&#13;
-**Item delivery and recovery**&#13;
-&#13;
-- Fixed missing or heavily delayed item deliveries, including starting Viscera, ingredients, key items, and weapon upgrades.&#13;
-- Improved delivery during loading and save transitions so items wait until the active run is ready.&#13;
-- Fixed Recent AP Activity failing to display received items and completed locations.&#13;
-- Fixed an issue where finding an item at its original vanilla location could remove the newly received Archipelago reward. This affected Fogg’s Drumsticks and could affect other quest items.&#13;
-- Improved recovery of previously received items while respecting quest items already turned in and blueprints already learned.&#13;
-&#13;
-**Playing with AP Off**&#13;
-&#13;
-- Fixed vanilla rewards being blocked while Archipelago was disabled.&#13;
-- AP Off now bypasses randomizer item handling, progression repairs, location reporting, and DeathLink behavior.&#13;
-- Randomizer cutscene skips are ignored while AP is disabled, including the Jakob death scene.&#13;
-- Archipelago Viscera protection settings no longer override vanilla money-bag behavior in AP Off.&#13;
-- AP gameplay overlays remain hidden while playing with Archipelago disabled.&#13;
-&#13;
-**Performance and presentation**&#13;
-&#13;
-- Reduced unnecessary overlay and title-screen updates while keeping item delivery running independently.&#13;
-- Disabled repetitive map-visibility logging by default to reduce unnecessary background work.&#13;
-- Added elapsed timestamps to Recent AP Activity so players can distinguish when events occurred.&#13;
-- Styled activity timestamps in a muted slate gray to keep the focus on item and location messages.&#13;
-&#13;
-**Updating**&#13;
-&#13;
-Plenty of optimization and performance improvements, so it's highly recommend to update if you are currently playing on an older version. You only need to update the `APWorld` and `LaikaMod.dll` file as always.&#13;
-&#13;
-That's all for now! I apologize Crafting mode enjoyers for making you have to wait, but I hope these new quality of life changes make it worth it. As always, please report any further issues in in the Laika Discord channel on the Archipelago Discord! &#13;
-&lt;img width="280" height="463" alt="Shaza_idle_1" src="https://github.com/user-attachments/assets/1c2e9088-7da9-4b69-9b0b-a6a0c53af67c" /&gt;&#13;
-</content>
-    <link href="https://github.com/ItsSeras/Laika-Aged-Through-Blood-Archipelago/releases/tag/v-0.1.7"/>
-  </entry>
-  <entry>
-    <id>https://github.com/Ishigh1/Oracle-of-Seasons-apworld/releases/tag/oos-26.0.0</id>
-    <title>The Legend of Zelda - Oracle of Seasons v26.0.0</title>
-    <updated>2026-10-20T08:39:45+00:00</updated>
-    <author>
-      <name>Dinopony</name>
-    </author>
-    <author>
-      <name>Ishigh</name>
-    </author>
-    <content>## 🗳️ New Options&#13;
-- The master_keys option has been renamed to dungeon_key_type, and now includes an option to use unlocks: a new kind of item that immediately opens a specific door on obtention&#13;
-- Freestanding items can now be removed from the randomizable item pool&#13;
-- The trade sequence can also separately be removed, excluding the pedestal&#13;
-- The linked items can also be removed from the itempool&#13;
-&#13;
-## ⏫ Miscellaneous Improvements&#13;
-- Made Blaino reequip items after the match&#13;
-  - It is also no longer possible to open the ring menu during the match&#13;
-&#13;
-## 🧠 Logic&#13;
-- Added the jump between market and forge with just a feather and pegs in hard&#13;
-- Added the use of bombchus to destroy bushes and flower in a few different places&#13;
-&#13;
-## 🛠️ Bugfixes&#13;
-- Fixed D2's boss room having holes if Digdogger was the boss&#13;
-- Fixed Gleeok freezing when being beaten in D3&#13;
-- Fixed Ricky crashing if going up to the swamp and trying to leave</content>
-    <link href="https://github.com/Ishigh1/Oracle-of-Seasons-apworld/releases/tag/oos-26.0.0"/>
-  </entry>
   <entry>
     <id>https://github.com/Arrcival/ArchipelagoDK/releases/tag/v2.0.1</id>
     <title>Dome Keeper v2.0.1</title>
@@ -208,7 +59,7 @@ Added "Please Wait..." message in-between clicking free mark and getting server 
   </entry>
   <entry>
     <id>https://github.com/TreZc0/OoTR-APWorld/releases/tag/v9.1.0-release7</id>
-    <title>Ocarina of Time v9.1.0r2</title>
+    <title>Ocarina of Time v9.1.0r3</title>
     <updated>2026-10-20T14:05:24+00:00</updated>
     <author>
       <name>espeon65536</name>
@@ -1500,5 +1351,134 @@ Free code signing for open source projects, provided by
 - Fixed a crash when leaving Subrosia through the village portal room if coming from the Subrosia start&#13;
 - Fixed the 3rd regular shop item's repeatability depending on the first's</content>
     <link href="https://github.com/Ishigh1/Oracle-of-Seasons-apworld/releases/tag/oos-26.0.3"/>
+  </entry>
+  <entry>
+    <id>https://github.com/Panguu/Archipelago-RaCSM/releases/tag/rac_size_matters-v0.5.7</id>
+    <title>Ratchet &amp; Clank: Size Matters v0.5.7</title>
+    <updated>2026-10-24T02:31:10+00:00</updated>
+    <author>
+      <name>Pangu</name>
+    </author>
+    <author>
+      <name>Amondo</name>
+    </author>
+    <author>
+      <name>ImJustATester</name>
+    </author>
+    <content>## Installation &amp; Setup
+
+- Requires [Archipelago](https://github.com/ArchipelagoMW/Archipelago/releases/latest). Make sure you are up-to-date.
+- Download the `.apworld` file below and double-click it to install. Restart Archipelago after installation.
+- Use **Options Creator** or **Generate Template Options** in the Archipelago Launcher to create player option YAML files.
+- Place your edited player option YAML files in the `Players` folder. Use **Browse Files...** in the Launcher to open the Archipelago directory.
+- Make sure you have all required `.apworld` files, your player YAMLs, and any desired `host.yaml` settings ready before generating. (`server_password` is recommended for admin login.)
+- Click **Generate** to create a multiworld `.zip` in the `output` folder.
+- Upload the generated `.zip` to https://archipelago.gg/uploads or self-host it. Self-hosting requires port forwarding.
+- For detailed setup instructions and game-specific documentation, see [game-specific documentation](https://github.com/Panguu/Archipelago-RaCSM/tree/SM-Main/worlds/rac_size_matters/docs).
+- If you encounter errors, run `ArchipelagoLauncherDebug.exe` or launch Archipelago from a terminal and check the `logs` folder.
+- Need help? Join the Archipelago Discord: https://discord.gg/8Z65BR2
+
+
+
+## Changelog
+
+- fix(SM): removed mini-gun turret as a location as was broken on EU and JP release, /skin_patch cmd and some other fixes and rule changes (4f5411af)
+- fix(SM): refactor imports and update rules (fa0bc149)
+- feat(SM): add in HIG treehouse locations (dd501410)
+- fix(SM): rule builder tidy up, infobot inside clank, dreamtime, outpost omega 1 are created, currently only event items for time being (5a86930a)
+- Update setup_en.md (122464c1)
+- chore(SM): update ai disclosure document (76948c34)
+- fix(SM): ng+ items not including armour sets (c2f7e3ff)
+- fix(SM): move logic to seperate process so client should have no reason to freeze (24361184)
+- fix(SM): added glitch rule to first grindrail section in kalidon if player has shrink ray (2bb8f9f0)
+- fix(SM): added skin patch on and off command in case skin related issues pop up mid run (1f93a0ca)
+
+Full comparison:
+https://github.com/Panguu/Archipelago-RaCSM/compare/rac_size_matters-v0.5.6...rac_size_matters-v0.5.7</content>
+    <link href="https://github.com/Panguu/Archipelago-RaCSM/releases/tag/rac_size_matters-v0.5.7"/>
+  </entry>
+  <entry>
+    <id>https://github.com/Phenra/RoadTripAdventure-AP/releases/tag/v0.3.1</id>
+    <title>Road Trip Adventure v0.3.1</title>
+    <updated>2026-10-24T02:59:16+00:00</updated>
+    <author>
+      <name>Phenra</name>
+    </author>
+    <content>**Randomizer info page:**&#13;
+https://github.com/Phenra/RoadTripAdventure-AP/blob/main/docs/en_Road%20Trip%20Adventure.md&#13;
+**Setup guide:**&#13;
+https://github.com/Phenra/RoadTripAdventure-AP/blob/main/docs/setup_en.md&#13;
+&#13;
+### Bug fixes:&#13;
+- Added missing item and location for Body Q031 (Klien)&#13;
+- Fixed two flipped Q coin names in White Mountain ("Behind House with Bell on Hill" and "Next to Ski Jump Building")&#13;
+- Fixed access rules for Stamp 81 and Jet Turbine differing</content>
+    <link href="https://github.com/Phenra/RoadTripAdventure-AP/releases/tag/v0.3.1"/>
+  </entry>
+  <entry>
+    <id>https://github.com/Panguu/Archipelago-RaCSM/releases/tag/rac_size_matters-v0.5.8</id>
+    <title>Ratchet &amp; Clank: Size Matters v0.5.8</title>
+    <updated>2026-10-24T03:03:29+00:00</updated>
+    <author>
+      <name>Pangu</name>
+    </author>
+    <author>
+      <name>Amondo</name>
+    </author>
+    <author>
+      <name>ImJustATester</name>
+    </author>
+    <content>## Installation &amp; Setup
+
+- Requires [Archipelago](https://github.com/ArchipelagoMW/Archipelago/releases/latest). Make sure you are up-to-date.
+- Download the `.apworld` file below and double-click it to install. Restart Archipelago after installation.
+- Use **Options Creator** or **Generate Template Options** in the Archipelago Launcher to create player option YAML files.
+- Place your edited player option YAML files in the `Players` folder. Use **Browse Files...** in the Launcher to open the Archipelago directory.
+- Make sure you have all required `.apworld` files, your player YAMLs, and any desired `host.yaml` settings ready before generating. (`server_password` is recommended for admin login.)
+- Click **Generate** to create a multiworld `.zip` in the `output` folder.
+- Upload the generated `.zip` to https://archipelago.gg/uploads or self-host it. Self-hosting requires port forwarding.
+- For detailed setup instructions and game-specific documentation, see [game-specific documentation](https://github.com/Panguu/Archipelago-RaCSM/tree/SM-Main/worlds/rac_size_matters/docs).
+- If you encounter errors, run `ArchipelagoLauncherDebug.exe` or launch Archipelago from a terminal and check the `logs` folder.
+- Need help? Join the Archipelago Discord: https://discord.gg/8Z65BR2
+
+
+
+## Changelog
+
+- fix(SM): saving state of planet patch when disconnection occurs (6cbabe86)
+
+Full comparison:
+https://github.com/Panguu/Archipelago-RaCSM/compare/rac_size_matters-v0.5.7...rac_size_matters-v0.5.8</content>
+    <link href="https://github.com/Panguu/Archipelago-RaCSM/releases/tag/rac_size_matters-v0.5.8"/>
+  </entry>
+  <entry>
+    <id>https://github.com/ElectroStarz/ArchipelagoMSM/releases/tag/v3.1.3</id>
+    <title>Mario Sports Mix v3.1.3</title>
+    <updated>2026-10-24T04:22:00+00:00</updated>
+    <author>
+      <name>ElectroStarz</name>
+    </author>
+    <author>
+      <name>Puffy</name>
+    </author>
+    <content>## What's Changed&#13;
+* Fixed /roster_fix to use NTSC-U addresses.</content>
+    <link href="https://github.com/ElectroStarz/ArchipelagoMSM/releases/tag/v3.1.3"/>
+  </entry>
+  <entry>
+    <id>https://github.com/Jeffdev-Archipelago-Implementations/Archipelago-Funi/releases/tag/1.8.1</id>
+    <title>Funi Raccoon Game v1.8.1</title>
+    <updated>2026-10-24T07:34:42+00:00</updated>
+    <author>
+      <name>Jeffdev</name>
+    </author>
+    <content>- Removed progressive mystical jewels from the itempool when lugh goal isn't set but gemsanity is enabled, as they do nothing in that case (if you really want to do the Lugh ending for fun, you can still admin send 4 of them and the mod will work)&#13;
+- Fixed a logic bug where BLMB Reactor Core and its associated items went into logic without checking for act 4 item threshold, making them appear in logic early.&#13;
+&#13;
+(There is no mod update attached to this release.)&#13;
+&#13;
+[Mod Link](https://github.com/Jeffdev-Archipelago-Implementations/FuniRaccoonAP/releases/latest)&#13;
+[Setup Guide](https://github.com/Jeffdev-Archipelago-Implementations/Archipelago-Funi/blob/main/worlds/funi_raccoon/docs/setup_en.md)</content>
+    <link href="https://github.com/Jeffdev-Archipelago-Implementations/Archipelago-Funi/releases/tag/1.8.1"/>
   </entry>
 </feed>
